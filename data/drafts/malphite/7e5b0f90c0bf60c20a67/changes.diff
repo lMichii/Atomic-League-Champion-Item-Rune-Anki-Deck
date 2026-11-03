@@ -1,0 +1,580 @@
+--- approved-100
++++ proposed-106-drafts
+@@ -5530,6 +5530,577 @@
+         "visual_cue_media_path": "",
+         "visual_cue_status": ""
+       }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:54",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Name: Malphite. Official role tags: Tank, Mage.",
++                "source_id": "riot:role"
++              },
++              {
++                "quote": "Malphite launches himself to a location at high speed, damaging enemies and knocking them into the air.",
++                "source_id": "riot:R"
++              }
++            ],
++            "claim": "Malphite is a tank and mage who can start fights by dashing in and knocking enemies into the air."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Malphite grants himself a shield equal to 10% of his maximum health.",
++                "source_id": "wiki:P"
++              },
++              {
++                "quote": "Malphite slams the ground, sending out a shockwave that deals magic damage based on his Armor",
++                "source_id": "riot:E"
++              }
++            ],
++            "claim": "His shield benefits from maximum health, and armor strengthens his Ground Slam damage."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Magic Damage:60 / 95 / 130 / 165 / 200 (+ 60% AP) (+ 40% armor)",
++                "source_id": "wiki:E"
++              },
++              {
++                "quote": "Magic Damage:200 / 300 / 400 (+ 90% AP)",
++                "source_id": "wiki:R"
++              }
++            ],
++            "claim": "Ability power strengthens his spell damage."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/malphite/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4007956",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite"
++      },
++      "id": "champ:malphite:overview:L1",
++      "importance": {
++        "priority": "A",
++        "reason": "Recognizing his durable engage role helps opponents anticipate a fight-starting knockup."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Tank / Mage",
++        "answer": "Malphite is a tank and mage who can start fights by dashing in and knocking enemies into the air. His shield benefits from maximum health, and armor strengthens his Ground Slam damage. Ability power strengthens his spell damage.",
++        "build_focus": "AP",
++        "category": "Champion",
++        "champion": "Malphite",
++        "cooldown": "",
++        "counterplay": "Spread out to limit how many allies his landing can hit.",
++        "front_hint": "CHAMPION OVERVIEW",
++        "icon_path": "media/malphite_portrait.jpg",
++        "id": "champ:malphite:overview:L1",
++        "level": "L1",
++        "media_path": "media/malphite_portrait.jpg",
++        "media_type": "portrait",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What can this champion do?",
++        "review_status": "",
++        "slot": "-",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/malphite/",
++        "source_video_path": "",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Malphite",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "AP is a broad damage-scaling learning focus, not an optimal build recommendation. Health and armor interactions are explained in the answer.",
++        "The packet does not support MR build guidance."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:54",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Malphite is shielded by a layer of rock which absorbs damage up to 10% of his maximum Health.",
++                "source_id": "riot:P"
++              },
++              {
++                "quote": "Innate: Malphite shields himself equal to a portion of his maximum health",
++                "source_id": "wiki:P"
++              }
++            ],
++            "claim": "Malphite passively gains a damage-absorbing shield based on his maximum health."
++          },
++          {
++            "citations": [
++              {
++                "quote": "The shield lasts until it is broken, and replenishes to full strength after a few seconds of not taking damage.",
++                "source_id": "wiki:P"
++              },
++              {
++                "quote": "Granite Shield does not refresh its cooldown from damage that is mitigated by shields.",
++                "source_id": "wiki:P"
++              }
++            ],
++            "claim": "It recharges after a few seconds without taking damage; damage absorbed by shields does not restart its recharge."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/malphite/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4007956",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite"
++      },
++      "id": "champ:malphite:p:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "The shield absorbs damage and changes how effectively opponents can trade with him."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Granite Shield",
++        "answer": "Malphite passively gains a damage-absorbing shield based on his maximum health. It recharges after a few seconds without taking damage; damage absorbed by shields does not restart its recharge.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Malphite",
++        "cooldown": "",
++        "counterplay": "Account for his shield before committing damage, and use safe poke to delay its return when you can damage his health.",
++        "front_hint": "MALPHITE · PASSIVE",
++        "icon_path": "media/malphite_p_icon.png",
++        "id": "champ:malphite:p:recognize:L2",
++        "level": "L2",
++        "media_path": "media/malphite_p_icon.png",
++        "media_type": "icon",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "P",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/malphite/",
++        "source_video_path": "media/malphite_p.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Malphite",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": "needs_visual_cue_review"
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "The previous rocky-layer recharge description has been removed. Text does not establish that visible transition, and the supplied demonstration frames do not resolve its meaning.",
++        "No passive visual cue is proposed pending separate visual QA; current-client appearance is not verified.",
++        "Armor-based size growth and its exclusion of Thunderclap bonus armor are supported advanced details omitted from the beginner explanation."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:54",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Malphite sends a shard to the target enemy that deals magic damage",
++                "source_id": "wiki:Q"
++              },
++              {
++                "quote": "Malphite sends a shard of the earth through the ground at his foe, dealing damage upon impact",
++                "source_id": "riot:Q"
++              }
++            ],
++            "claim": "Malphite sends a targeted shard that deals magic damage on impact."
++          },
++          {
++            "citations": [
++              {
++                "quote": "slows them for a few seconds. He also gains bonus movement speed for the same duration.",
++                "source_id": "wiki:Q"
++              },
++              {
++                "quote": "Malphite also gains bonus movement speed equal to the raw amount of movement speed the target lost from the slow for the duration.",
++                "source_id": "wiki:Q"
++              }
++            ],
++            "claim": "It temporarily slows the target and grants him movement speed based on how much speed the target loses."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/malphite/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4007956",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite"
++      },
++      "id": "champ:malphite:q:recognize:L2",
++      "importance": {
++        "priority": "B",
++        "reason": "The slow and movement-speed gain help him chase or disengage."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Seismic Shard",
++        "answer": "Malphite sends a targeted shard that deals magic damage on impact. It temporarily slows the target and grants him movement speed based on how much speed the target loses.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Malphite",
++        "cooldown": "",
++        "counterplay": "Keep your distance to avoid giving him an easy target for a speed-stealing chase.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/malphite_q_icon.png",
++        "id": "champ:malphite:q:recognize:L2",
++        "level": "L2",
++        "media_path": "media/malphite_q.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "B",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "Q",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/malphite/",
++        "source_video_path": "media/malphite_q.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Malphite",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Slow resistance or immunity can reduce or eliminate his movement-speed gain.",
++        "Cast cancellation conditions and impact-time speed calculation are supported advanced details omitted from the beginner explanation."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:54",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Passive: Malphite gains bonus armor, tripled while Granite Shield is active.",
++                "source_id": "wiki:W"
++              }
++            ],
++            "claim": "Thunderclap passively grants bonus armor, with that bonus tripled while Granite Shield is active."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Malphite's next basic attack within a few seconds is empowered to gain bonus range and deal additional physical damage.",
++                "source_id": "wiki:W"
++              }
++            ],
++            "claim": "Activating it empowers Malphite's next basic attack with extra range and additional physical damage."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Malphite's basic attacks for the next few seconds trigger a cone in the direction of the target that deals physical damage to enemies hit.",
++                "source_id": "wiki:W"
++              },
++              {
++                "quote": "For the next few seconds, his attacks create aftershocks in front of him.",
++                "source_id": "riot:W"
++              }
++            ],
++            "claim": "For a short time, his basic attacks also create a forward cone that deals physical damage."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/malphite/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4007956",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite"
++      },
++      "id": "champ:malphite:w:recognize:L2",
++      "importance": {
++        "priority": "B",
++        "reason": "The armor bonus improves durability, while empowered attacks threaten nearby groups."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Thunderclap",
++        "answer": "Thunderclap passively grants bonus armor, with that bonus tripled while Granite Shield is active. Activating it empowers Malphite's next basic attack with extra range and additional physical damage. For a short time, his basic attacks also create a forward cone that deals physical damage.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Malphite",
++        "cooldown": "",
++        "counterplay": "Avoid standing in front of his attacks, especially when grouped with allies.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/malphite_w_icon.png",
++        "id": "champ:malphite:w:recognize:L2",
++        "level": "L2",
++        "media_path": "media/malphite_w.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "B",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "W",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/malphite/",
++        "source_video_path": "media/malphite_w.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Malphite",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Granite Shield triples Thunderclap's armor bonus, not total armor.",
++        "Cone damage requires the target to be inside the cone when struck.",
++        "Attack-timer reset, monster damage bonus and empowered-windup restrictions are supported advanced details omitted from the beginner explanation.",
++        "The empowered attack resists specified cancellation inputs, but Hextech Rocketbelt can cancel its windup."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:54",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Malphite slams the ground beneath him, dealing magic damage to nearby enemies",
++                "source_id": "wiki:E"
++              }
++            ],
++            "claim": "Malphite slams the ground around himself, dealing magic damage to nearby enemies."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Malphite slams the ground, sending out a shockwave that deals magic damage based on his Armor and reduces the Attack Speed of enemies for a short duration.",
++                "source_id": "riot:E"
++              }
++            ],
++            "claim": "The damage increases with his armor, and enemies hit temporarily lose attack speed."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/malphite/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4007956",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite"
++      },
++      "id": "champ:malphite:e:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "The attack-speed reduction weakens enemies who depend on basic attacks."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Ground Slam",
++        "answer": "Malphite slams the ground around himself, dealing magic damage to nearby enemies. The damage increases with his armor, and enemies hit temporarily lose attack speed.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Malphite",
++        "cooldown": "",
++        "counterplay": "Stay outside his nearby slam area when possible, especially if you rely on basic attacks.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/malphite_e_icon.png",
++        "id": "champ:malphite:e:recognize:L2",
++        "level": "L2",
++        "media_path": "media/malphite_e.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "E",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/malphite/",
++        "source_video_path": "media/malphite_e.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Malphite",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "The supplied multiple-Ground-Slam stacking statement applies only to One for All.",
++        "Effect origin at the end of the cast and multiplicative stacking with other attack-speed reductions are supported advanced details omitted from the beginner explanation."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:54",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Malphite launches himself to a location at high speed",
++                "source_id": "riot:R"
++              },
++              {
++                "quote": "Malphite dashes with displacement immunity to the target location.",
++                "source_id": "wiki:R"
++              },
++              {
++                "quote": "displacement immunity: The dash cannot be deterred by crowd control.",
++                "source_id": "wiki:R"
++              }
++            ],
++            "claim": "Malphite rapidly dashes to a chosen location, resisting interruption by crowd control during the dash."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Upon arrival, he deals magic damage to nearby enemies and briefly knocks them up.",
++                "source_id": "wiki:R"
++              },
++              {
++                "quote": "damaging enemies and knocking them into the air.",
++                "source_id": "riot:R"
++              }
++            ],
++            "claim": "On arrival, he deals magic damage to nearby enemies and knocks them into the air."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/malphite/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4007956",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite"
++      },
++      "id": "champ:malphite:r:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "A fast area knockup can start a fight and catch several enemies together."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Unstoppable Force",
++        "answer": "Malphite rapidly dashes to a chosen location, resisting interruption by crowd control during the dash. On arrival, he deals magic damage to nearby enemies and knocks them into the air.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Malphite",
++        "cooldown": "",
++        "counterplay": "Spread out and move away from his landing area. Avoid relying on crowd control to stop him mid-dash.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/malphite_r_icon.png",
++        "id": "champ:malphite:r:recognize:L2",
++        "level": "L2",
++        "media_path": "media/malphite_r.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "R",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/malphite/",
++        "source_video_path": "media/malphite_r.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Malphite",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Grounding disables casting; knockdown does not interrupt the dash.",
++        "Death cancels the dash. Nonfatal interruption such as entering resurrection can stop it and move the effect to the stopped location.",
++        "Crowd-control resistance does not establish invulnerability or untargetability.",
++        "Minimum range and maximum-range targeting behavior are supported advanced details omitted from the beginner explanation."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
+     }
+   ],
+   "schema_version": 1

@@ -1,0 +1,729 @@
+{
+  "cards": [
+    {
+      "text": {
+        "answer": "Qiyana fights with physical damage and element-enhanced abilities, with an AD build focus. She can gather an element to refresh her blade attack, while her ultimate spreads a stunning shockwave through brush, river and terrain borders.",
+        "build_focus": "AD",
+        "counterplay": "Respect renewed attacks after she gathers an element, and avoid fighting near terrain borders, brush or river when her ultimate is available.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Qiyana's basic attacks on-hit and basic abilities deal additional physical damage.",
+                "source_id": "wiki:royalprivilege"
+              },
+              {
+                "quote": "This consumes the current Element to empower the blade with an additional effect.",
+                "source_id": "wiki:elementalwrath"
+              },
+              {
+                "quote": "Physical Damage:100 / 200 / 300 (+ 125% bonus AD) (+ 10% of target's maximum health)",
+                "source_id": "wiki:supremedisplayoftalent"
+              },
+              {
+                "quote": "Physical Damage:50 / 90 / 130 / 170 / 210 (+ 50% bonus AD)",
+                "source_id": "wiki:audacity"
+              }
+            ],
+            "claim": "Qiyana fights with physical damage and element-enhanced abilities, with an AD build focus."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Gathering an Element with Terrashape resets Edge of Ixtal's cooldown and upgrades it into Elemental Wrath.",
+                "source_id": "wiki:edgeofixtal"
+              },
+              {
+                "quote": "The windblast creates a cascading shockwave across any River or Brush it passes, as well as around the borders of Terrain it hits. The shockwave briefly stuns enemies hit and deals physical damage based on their maximum health.",
+                "source_id": "wiki:supremedisplayoftalent"
+              }
+            ],
+            "claim": "She can gather an element to refresh her blade attack, while her ultimate spreads a stunning shockwave through brush, river and terrain borders."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Introduces her elemental attack resets and terrain-dependent ultimate threat.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Gathering an Element with Terrashape resets Edge of Ixtal's cooldown and upgrades it into Elemental Wrath.",
+                "source_id": "wiki:edgeofixtal"
+              }
+            ],
+            "id": "wiki:edgeofixtal",
+            "summary": "Gathering an element refreshes and empowers her blade attack."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The windblast creates a cascading shockwave across any River or Brush it passes, as well as around the borders of Terrain it hits. The shockwave briefly stuns enemies hit and deals physical damage based on their maximum health.",
+                "source_id": "wiki:supremedisplayoftalent"
+              }
+            ],
+            "id": "wiki:supremedisplayoftalent",
+            "summary": "Her ultimate spreads a damaging, stunning shockwave through river, brush and terrain borders."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Qiyana's elemental attack pattern and environmental teamfight threat.",
+        "slot": "",
+        "source_ids": [
+          "wiki:royalprivilege",
+          "wiki:edgeofixtal",
+          "wiki:elementalwrath",
+          "wiki:audacity",
+          "wiki:supremedisplayoftalent"
+        ],
+        "subject_id": "Qiyana",
+        "title": "Qiyana",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Royal Privilege adds physical damage to Qiyana's basic attacks and basic abilities, with a cooldown for each target. Gathering a different element refreshes this bonus against targets previously hit using another element or no element.",
+        "build_focus": "",
+        "counterplay": "Be cautious about trading again after she changes elements.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Innate: Qiyana's basic attacks on-hit and basic abilities deal additional physical damage. This effect cannot occur on the same target for a period of time.",
+                "source_id": "wiki:royalprivilege"
+              }
+            ],
+            "claim": "Royal Privilege adds physical damage to Qiyana's basic attacks and basic abilities, with a cooldown for each target."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Gathering an Element with Terrashape resets Royal Privilege's per-target cooldown for enemies affected by Royal Privilege using a different Element (or no Element).",
+                "source_id": "wiki:royalprivilege"
+              }
+            ],
+            "claim": "Gathering a different element refreshes this bonus against targets previously hit using another element or no element."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "Explains why changing elements renews her damage during a trade.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Royal Privilege will not apply a cooldown to targets that are hit with an Elemental Wrath that has a different Element than the Element Qiyana currently holds.",
+                "source_id": "wiki:royalprivilege"
+              },
+              {
+                "quote": "This does not occur if a new Elemental Wrath with a different Element is cast before the first one lands.",
+                "source_id": "wiki:royalprivilege"
+              }
+            ],
+            "status": "supported",
+            "summary": "Element changes while a blade is in flight have additional passive cooldown interactions."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Innate: Qiyana's basic attacks on-hit and basic abilities deal additional physical damage. This effect cannot occur on the same target for a period of time.",
+                "source_id": "wiki:royalprivilege"
+              }
+            ],
+            "id": "wiki:royalprivilege",
+            "summary": "Attacks and basic abilities trigger bonus physical damage with a per-target cooldown."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Gathering an Element with Terrashape resets Royal Privilege's per-target cooldown for enemies affected by Royal Privilege using a different Element (or no Element).",
+                "source_id": "wiki:royalprivilege"
+              }
+            ],
+            "id": "wiki:terrashape",
+            "summary": "Gathering a different element refreshes the applicable per-target cooldown."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize renewed passive damage after an element change.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:royalprivilege",
+          "riot:P"
+        ],
+        "subject_id": "wiki:royalprivilege",
+        "title": "Royal Privilege",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Edge of Ixtal deals physical damage in a line; gathering an element refreshes it and upgrades it to Elemental Wrath, which consumes that element. Brush creates a field granting Qiyana invisibility and movement speed until she attacks, casts an ability other than Terrashape, or leaves it. River roots enemies hit, then slows them. Terrain adds damage against enemies below half health.",
+        "build_focus": "",
+        "counterplay": "Move away from the blade's line, respect river control, and give her space when wounded or when she disappears into her grass field.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Qiyana slashes forward in the target direction, dealing physical damage to enemies hit in a line.",
+                "source_id": "wiki:edgeofixtal"
+              },
+              {
+                "quote": "Gathering an Element with Terrashape resets Edge of Ixtal's cooldown and upgrades it into Elemental Wrath.",
+                "source_id": "wiki:edgeofixtal"
+              },
+              {
+                "quote": "This consumes the current Element to empower the blade with an additional effect.",
+                "source_id": "wiki:elementalwrath"
+              }
+            ],
+            "claim": "Edge of Ixtal deals physical damage in a line; gathering an element refreshes it and upgrades it to Elemental Wrath, which consumes that element."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Brush: The blade creates a grass field around Qiyana that lasts for up to 3 seconds, granting her invisibility and 20% bonus movement speed until she attacks, casts an ability other than Terrashape, or exits the field.",
+                "source_id": "wiki:elementalwrath"
+              }
+            ],
+            "claim": "Brush creates a field granting Qiyana invisibility and movement speed until she attacks, casts an ability other than Terrashape, or leaves it."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "River: The blast briefly roots enemies hit, then briefly slows them.",
+                "source_id": "wiki:elementalwrath"
+              }
+            ],
+            "claim": "River roots enemies hit, then slows them."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Terrain: The blast deals bonus damage against enemies below half health.",
+                "source_id": "wiki:elementalwrath"
+              }
+            ],
+            "claim": "Terrain adds damage against enemies below half health."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Her element determines whether the blade provides stealth, crowd control or finishing damage.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If cast during Audacity's dash towards an enemy champion and the target is within 150 units of Qiyana at the end of the dash, Edge of Ixtal will autonomously aim at the target.",
+                "source_id": "wiki:edgeofixtal"
+              },
+              {
+                "quote": "If cast during Audacity and the target uses a dash or blink or is no longer in vision, Edge of Ixtal will aim at the target's last location prior to them starting the dash or blink or being in vision.",
+                "source_id": "wiki:elementalwrath"
+              }
+            ],
+            "status": "supported",
+            "summary": "Casting during Audacity can automatically aim the blade; movement and vision changes affect that targeting."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Qiyana slashes forward in the target direction, dealing physical damage to enemies hit in a line.",
+                "source_id": "wiki:edgeofixtal"
+              },
+              {
+                "quote": "Gathering an Element with Terrashape resets Edge of Ixtal's cooldown and upgrades it into Elemental Wrath.",
+                "source_id": "wiki:edgeofixtal"
+              },
+              {
+                "quote": "This consumes the current Element to empower the blade with an additional effect.",
+                "source_id": "wiki:elementalwrath"
+              }
+            ],
+            "id": "wiki:edgeofixtal",
+            "summary": "A physical line attack is refreshed and empowered by gathering an element, then consumes it."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Brush: The blade creates a grass field around Qiyana that lasts for up to 3 seconds, granting her invisibility and 20% bonus movement speed until she attacks, casts an ability other than Terrashape, or exits the field.",
+                "source_id": "wiki:elementalwrath"
+              }
+            ],
+            "id": "wiki:elementalwrath",
+            "summary": "Brush grants a field with invisibility and movement speed, broken by attacks, most abilities or leaving."
+          },
+          {
+            "citations": [
+              {
+                "quote": "River: The blast briefly roots enemies hit, then briefly slows them.",
+                "source_id": "wiki:elementalwrath"
+              }
+            ],
+            "id": "wiki:elementalwrath",
+            "summary": "River roots and then slows enemies hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Terrain: The blast deals bonus damage against enemies below half health.",
+                "source_id": "wiki:elementalwrath"
+              }
+            ],
+            "id": "wiki:elementalwrath",
+            "summary": "Terrain adds damage against enemies below half health."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the blade attack and its element-dependent threats together.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:edgeofixtal",
+          "wiki:elementalwrath",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:edgeofixtal",
+        "title": "Edge of Ixtal / Elemental Wrath",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Terrashape dashes toward a location to gather a targeted brush, river or terrain element. While holding an element, Qiyana gains attack speed, attack range and bonus magic damage on attacks and basic abilities. Outside combat, she also moves faster near the element she holds.",
+        "build_focus": "",
+        "counterplay": "Expect her dash to reposition her and prepare another empowered blade attack.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Qiyana dashes up to 300 units towards the target location to gather the Element of the nearest Brush, River or Terrain she targeted.",
+                "source_id": "wiki:terrashape"
+              }
+            ],
+            "claim": "Terrashape dashes toward a location to gather a targeted brush, river or terrain element."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Passive: While holding an Element, Qiyana gains bonus attack speed, 25 bonus attack range and bonus magic damage on her basic attacks on-hit and basic abilities.",
+                "source_id": "wiki:terrashape"
+              }
+            ],
+            "claim": "While holding an element, Qiyana gains attack speed, attack range and bonus magic damage on attacks and basic abilities."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "While out-of-combat and moving near the Element currently being held, she gains bonus movement speed.",
+                "source_id": "wiki:terrashape"
+              }
+            ],
+            "claim": "Outside combat, she also moves faster near the element she holds."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Element gathering controls her blade refresh and follow-up threat.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Terrashape does not interact with player-generated terrain.",
+                "source_id": "wiki:terrashape"
+              },
+              {
+                "quote": "The water puddles formed by the Ocean Rift on Summoner's Rift count as valid terrain for obtaining the River element.",
+                "source_id": "wiki:terrashape"
+              },
+              {
+                "quote": "The brushes grown by Ivern's Brushmaker count for gathering the Brush element.",
+                "source_id": "wiki:terrashape"
+              }
+            ],
+            "status": "supported",
+            "summary": "Element gathering has special environmental interactions, including Ocean Rift puddles and Ivern brush."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Qiyana dashes up to 300 units towards the target location to gather the Element of the nearest Brush, River or Terrain she targeted.",
+                "source_id": "wiki:terrashape"
+              }
+            ],
+            "id": "wiki:terrashape",
+            "summary": "A location-directed dash gathers a targeted environmental element."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Passive: While holding an Element, Qiyana gains bonus attack speed, 25 bonus attack range and bonus magic damage on her basic attacks on-hit and basic abilities.",
+                "source_id": "wiki:terrashape"
+              }
+            ],
+            "id": "wiki:terrashape",
+            "summary": "Holding an element adds attack speed, attack range and magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "While out-of-combat and moving near the Element currently being held, she gains bonus movement speed.",
+                "source_id": "wiki:terrashape"
+              }
+            ],
+            "id": "wiki:terrashape",
+            "summary": "Matching nearby environments grant movement speed outside combat."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the movement and element-gathering action that prepares her follow-up.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:terrashape",
+          "wiki:edgeofixtal",
+          "riot:W"
+        ],
+        "subject_id": "wiki:terrashape",
+        "title": "Terrashape",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Audacity dashes a fixed distance toward a target enemy and deals physical damage if the target is still in range when the dash ends. Qiyana can cast her other abilities during the dash.",
+        "build_focus": "",
+        "counterplay": "Keep your distance and consider using mobility as she dashes toward you.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Qiyana dashes a fixed distance in the direction of the target enemy. If they are in range upon arrival, she deals physical damage.",
+                "source_id": "wiki:audacity"
+              }
+            ],
+            "claim": "Audacity dashes a fixed distance toward a target enemy and deals physical damage if the target is still in range when the dash ends."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Qiyana can cast any of her abilities during the dash.",
+                "source_id": "wiki:audacity"
+              }
+            ],
+            "claim": "Qiyana can cast her other abilities during the dash."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Her targeted approach can deliver other abilities during the movement.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Qiyana dashes a fixed distance in the direction of the target enemy. If they are in range upon arrival, she deals physical damage.",
+                "source_id": "wiki:audacity"
+              }
+            ],
+            "id": "wiki:audacity",
+            "summary": "A fixed-distance targeted dash damages the enemy if still in range on arrival."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Qiyana can cast any of her abilities during the dash.",
+                "source_id": "wiki:audacity"
+              }
+            ],
+            "id": "wiki:audacity",
+            "summary": "Other abilities can be cast during the dash."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize her targeted approach and the opportunity to move out of its arrival damage.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:audacity"
+        ],
+        "subject_id": "wiki:audacity",
+        "title": "Audacity",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Supreme Display of Talent sends a windblast that knocks enemies back and stops at terrain. It spreads a shockwave through river and brush it crosses and around terrain borders it reaches, stunning enemies hit and dealing physical damage based partly on their maximum health.",
+        "build_focus": "",
+        "counterplay": "Spread away from terrain borders, brush and river when she threatens an engage.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Qiyana sweeps a windblast in the target direction that knocks back enemies hit and stops upon hitting Terrain.",
+                "source_id": "wiki:supremedisplayoftalent"
+              }
+            ],
+            "claim": "Supreme Display of Talent sends a windblast that knocks enemies back and stops at terrain."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The windblast creates a cascading shockwave across any River or Brush it passes, as well as around the borders of Terrain it hits. The shockwave briefly stuns enemies hit and deals physical damage based on their maximum health.",
+                "source_id": "wiki:supremedisplayoftalent"
+              },
+              {
+                "quote": "Physical Damage:100 / 200 / 300 (+ 125% bonus AD) (+ 10% of target's maximum health)",
+                "source_id": "wiki:supremedisplayoftalent"
+              }
+            ],
+            "claim": "It spreads a shockwave through river and brush it crosses and around terrain borders it reaches, stunning enemies hit and dealing physical damage based partly on their maximum health."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Environmental shockwaves can threaten grouped enemies with damage and crowd control.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The windblast needs only to reach near terrain to trigger the terrain shockwave.",
+                "source_id": "wiki:supremedisplayoftalent"
+              }
+            ],
+            "status": "supported",
+            "summary": "The windblast can trigger the terrain shockwave by reaching near terrain."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Projectile-intercepting effects will block the windblast but not the shockwave.",
+                "source_id": "wiki:supremedisplayoftalent"
+              }
+            ],
+            "status": "supported",
+            "summary": "Projectile interception affects the windblast but not the shockwave."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Artificial terrain (e.g, Anivia's Crystallize, Taliyah's Weaver's Wall, Trundle's Pillar of Ice) touching map terrain will be treated as a single piece of terrain, even when bridging two pieces of map terrain together; the shockwave will wrap around all connecting terrain.",
+                "source_id": "wiki:supremedisplayoftalent"
+              }
+            ],
+            "status": "supported",
+            "summary": "Artificial terrain touching map terrain can extend the connected shockwave path."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Qiyana sweeps a windblast in the target direction that knocks back enemies hit and stops upon hitting Terrain.",
+                "source_id": "wiki:supremedisplayoftalent"
+              }
+            ],
+            "id": "wiki:supremedisplayoftalent",
+            "summary": "The initial windblast knocks enemies back and stops at terrain."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The windblast creates a cascading shockwave across any River or Brush it passes, as well as around the borders of Terrain it hits. The shockwave briefly stuns enemies hit and deals physical damage based on their maximum health.",
+                "source_id": "wiki:supremedisplayoftalent"
+              }
+            ],
+            "id": "wiki:supremedisplayoftalent",
+            "summary": "Environmental shockwaves stun and deal physical damage with a maximum-health component."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize which environments spread her ultimate's damaging stun.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:supremedisplayoftalent",
+          "riot:R"
+        ],
+        "subject_id": "wiki:supremedisplayoftalent",
+        "title": "Supreme Display of Talent",
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Important cooldown topics are the blade refresh on element gathering, the passive's conditional per-target refresh, and ultimate availability. Exact cooldown timings are not taught.",
+    "Slot-labeled Wiki excerpts include historical changes and unrelated material; live source-addressed sections support the authored mechanics.",
+    "Pending passive and Terrashape parry interactions are omitted."
+  ],
+  "features": [
+    "ability_variants",
+    "conditional_effects"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "Gathering an Element with Terrashape resets Edge of Ixtal's cooldown and upgrades it into Elemental Wrath.",
+          "source_id": "wiki:edgeofixtal"
+        }
+      ],
+      "condition": "Gathering an element with Terrashape",
+      "from_id": "wiki:terrashape",
+      "kind": "unlocks",
+      "to_id": "wiki:elementalwrath"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Gathering an Element with Terrashape resets Edge of Ixtal's cooldown and upgrades it into Elemental Wrath.",
+          "source_id": "wiki:edgeofixtal"
+        }
+      ],
+      "condition": "An element is held",
+      "from_id": "wiki:elementalwrath",
+      "kind": "variant_of",
+      "to_id": "wiki:edgeofixtal"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Gathering an Element with Terrashape resets Royal Privilege's per-target cooldown for enemies affected by Royal Privilege using a different Element (or no Element).",
+          "source_id": "wiki:royalprivilege"
+        }
+      ],
+      "condition": "The previous passive trigger used a different element or no element",
+      "from_id": "wiki:terrashape",
+      "kind": "conditional_effect",
+      "to_id": "wiki:royalprivilege"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Dedicated passive card teaches bonus damage and its conditional refresh.",
+      "source_id": "wiki:royalprivilege",
+      "target_subject_ids": [
+        "wiki:royalprivilege"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary Q card teaches the line attack and element refresh.",
+      "source_id": "wiki:edgeofixtal",
+      "target_subject_ids": [
+        "wiki:edgeofixtal"
+      ]
+    },
+    {
+      "disposition": "merged",
+      "reason": "Element effects are taught together on the primary Q card for direct recognition.",
+      "source_id": "wiki:elementalwrath",
+      "target_subject_ids": [
+        "wiki:edgeofixtal"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Dedicated W card teaches element gathering and held-element bonuses.",
+      "source_id": "wiki:terrashape",
+      "target_subject_ids": [
+        "wiki:terrashape"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Dedicated E card teaches the targeted dash and arrival damage condition.",
+      "source_id": "wiki:audacity",
+      "target_subject_ids": [
+        "wiki:audacity"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Dedicated ultimate card teaches knockback and environmental shockwaves.",
+      "source_id": "wiki:supremedisplayoftalent",
+      "target_subject_ids": [
+        "wiki:supremedisplayoftalent"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:royalprivilege"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:edgeofixtal",
+        "wiki:elementalwrath"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:terrashape"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:audacity"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:supremedisplayoftalent"
+      ]
+    }
+  ],
+  "summary": "An overview and primary ability cards teach elemental blade variants together, element-driven refreshes, targeted movement and environmental ultimate threats."
+}

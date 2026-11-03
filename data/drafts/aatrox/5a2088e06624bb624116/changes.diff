@@ -1,0 +1,575 @@
+--- approved-100
++++ proposed-106-drafts
+@@ -5530,6 +5530,572 @@
+         "visual_cue_media_path": "",
+         "visual_cue_status": ""
+       }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:266",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Name: Aatrox. Official role tags: Fighter.",
++                "source_id": "riot:role"
++              },
++              {
++                "quote": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.",
++                "source_id": "riot:Q"
++              },
++              {
++                "quote": "Passively, Aatrox heals when damaging enemy champions.",
++                "source_id": "riot:E"
++              }
++            ],
++            "claim": "Aatrox is a fighter who deals physical damage with repeated sword strikes and heals while damaging enemy champions."
++          },
++          {
++            "citations": [
++              {
++                "quote": "During World Ender, Aatrox gains bonus attack damage, has 5% increased size, is ghosted, and receives increased self-healing from all sources.",
++                "source_id": "wiki:R"
++              },
++              {
++                "quote": "Passively, Aatrox heals when damaging enemy champions.",
++                "source_id": "riot:E"
++              }
++            ],
++            "claim": "His broad learning focus is attack damage and sustained fighting."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/aatrox/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4013021",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aatrox"
++      },
++      "id": "champ:aatrox:overview:L1",
++      "importance": {
++        "priority": "B",
++        "reason": "Recognizing his sword damage and combat healing helps explain his fighting role."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Fighter",
++        "answer": "Aatrox is a fighter who deals physical damage with repeated sword strikes and heals while damaging enemy champions. His broad learning focus is attack damage and sustained fighting.",
++        "build_focus": "AD",
++        "category": "Champion",
++        "champion": "Aatrox",
++        "cooldown": "",
++        "counterplay": "Avoid his sword strikes and limit the damage he can deal to your team.",
++        "front_hint": "CHAMPION OVERVIEW",
++        "icon_path": "media/aatrox_portrait.jpg",
++        "id": "champ:aatrox:overview:L1",
++        "level": "L1",
++        "media_path": "media/aatrox_portrait.jpg",
++        "media_type": "portrait",
++        "patch": "",
++        "poster_path": "",
++        "priority": "B",
++        "question": "What can this champion do?",
++        "review_status": "",
++        "slot": "-",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/aatrox/",
++        "source_video_path": "",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Aatrox",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "The learning focus is a qualitative teaching synthesis, not an optimal item build."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:266",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Periodically, Aatrox's next basic attack deals bonus magic damage and heals him, based on the target's max health.",
++                "source_id": "riot:P"
++              },
++              {
++                "quote": "Innate: Periodically, Aatrox's next basic attack deals bonus magic damage based on the target's maximum health, healing him for the damage dealt.",
++                "source_id": "wiki:P"
++              }
++            ],
++            "claim": "Periodically, Aatrox's next basic attack deals bonus magic damage based on the target's maximum health and heals him."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Aatrox heals for the post-mitigation bonus damage dealt, reduced to 25% against minions.",
++                "source_id": "wiki:P"
++              }
++            ],
++            "claim": "This healing is reduced against minions."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/aatrox/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4013021",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aatrox"
++      },
++      "id": "champ:aatrox:p:recognize:L2",
++      "importance": {
++        "priority": "B",
++        "reason": "The empowered attack adds damage and healing to short trades."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Deathbringer Stance",
++        "answer": "Periodically, Aatrox's next basic attack deals bonus magic damage based on the target's maximum health and heals him. This healing is reduced against minions.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Aatrox",
++        "cooldown": "",
++        "counterplay": "Avoid giving him a free empowered attack when trading.",
++        "front_hint": "AATROX · PASSIVE",
++        "icon_path": "media/aatrox_p_icon.png",
++        "id": "champ:aatrox:p:recognize:L2",
++        "level": "L2",
++        "media_path": "media/aatrox_p_icon.png",
++        "media_type": "icon",
++        "patch": "",
++        "poster_path": "",
++        "priority": "B",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "P",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/aatrox/",
++        "source_video_path": "media/aatrox_p.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Aatrox",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": "needs_visual_cue_review"
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "No passive visual cue is proposed: the text does not describe the thrust animation, and the supplied demonstration frames do not establish a reliable readiness cue.",
++        "The documented stance change depends on enemy proximity and can also be toggled manually; it does not establish passive readiness.",
++        "Healing depends on bonus damage actually dealt after mitigation.",
++        "Attacks and ability hits against champions or large monsters reduce passive cooldown; Q sweetspots reduce it further.",
++        "Structures and wards do not trigger empowerment; dodged, blocked or missed attacks do not apply its bonus damage.",
++        "Readiness during an ordinary attack's windup and spell-shield interactions have additional timing exceptions."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:266",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.",
++                "source_id": "riot:Q"
++              },
++              {
++                "quote": "The area varies and the damage increases per cast.",
++                "source_id": "wiki:Q"
++              }
++            ],
++            "claim": "Aatrox can make up to three sword strikes that deal physical damage in different areas, with damage increasing on successive casts."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Enemies within each area's Sweetspot receive increased damage and are briefly knocked up.",
++                "source_id": "wiki:Q"
++              }
++            ],
++            "claim": "Each strike has a sweetspot that deals extra damage and briefly knocks enemies up."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/aatrox/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4013021",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aatrox"
++      },
++      "id": "champ:aatrox:q:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "Repeated sweetspot hits combine increased damage with crowd control."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "The Darkin Blade",
++        "answer": "Aatrox can make up to three sword strikes that deal physical damage in different areas, with damage increasing on successive casts. Each strike has a sweetspot that deals extra damage and briefly knocks enemies up.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Aatrox",
++        "cooldown": "",
++        "counterplay": "Dodge the strike areas, especially their sweetspots. Watch for further swings after the first strike.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/aatrox_q_icon.png",
++        "id": "champ:aatrox:q:recognize:L2",
++        "level": "L2",
++        "media_path": "media/aatrox_q.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "Q",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/aatrox/",
++        "source_video_path": "media/aatrox_q.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Aatrox",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Sweetspots have specific overlap and center-based hitbox requirements.",
++        "The first two sweetspots are at the far edge; the third is inside the circular strike.",
++        "Recasts have a limited window, and E can reposition the strike during its cast."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:266",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Active: Aatrox sends a chain in the target direction that deals physical damage and slows the first enemy hit.",
++                "source_id": "wiki:W"
++              },
++              {
++                "quote": "Aatrox smashes the ground, dealing damage to the first enemy hit.",
++                "source_id": "riot:W"
++              }
++            ],
++            "claim": "Aatrox fires a directional chain that deals physical damage and slows the first enemy hit."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.",
++                "source_id": "riot:W"
++              },
++              {
++                "quote": "If the tether is not broken by the end of its duration, the target is dealt the same physical damage again and pulled to the center of the area.",
++                "source_id": "wiki:W"
++              }
++            ],
++            "claim": "A champion or large monster hit must leave the tether area quickly or be pulled toward its center and take damage again."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/aatrox/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4013021",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aatrox"
++      },
++      "id": "champ:aatrox:w:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "The slow and delayed pull can restrict escape and help Aatrox land further strikes."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Infernal Chains",
++        "answer": "Aatrox fires a directional chain that deals physical damage and slows the first enemy hit. A champion or large monster hit must leave the tether area quickly or be pulled toward its center and take damage again.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Aatrox",
++        "cooldown": "",
++        "counterplay": "Dodge the chain. If it hits you, leave the tether area promptly to avoid the pull and second damage.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/aatrox_w_icon.png",
++        "id": "champ:aatrox:w:recognize:L2",
++        "level": "L2",
++        "media_path": "media/aatrox_w.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "W",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/aatrox/",
++        "source_video_path": "media/aatrox_w.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Aatrox",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "The tether reveals affected champions and large monsters.",
++        "A spell shield blocks initial application but not an already-applied chain's aftereffects.",
++        "Area orientation and the precise pull location depend on Aatrox's position."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:266",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Passively, Aatrox heals when damaging enemy champions.",
++                "source_id": "riot:E"
++              },
++              {
++                "quote": "Passive: Aatrox heals for 16% (+ 1.3% per 100 bonus health) of non- persistent post-mitigation damage he deals against enemy champions.",
++                "source_id": "wiki:E"
++              }
++            ],
++            "claim": "Aatrox passively heals for a portion of certain damage he deals to enemy champions."
++          },
++          {
++            "citations": [
++              {
++                "quote": "On activation, he dashes in a direction.",
++                "source_id": "riot:E"
++              },
++              {
++                "quote": "Active: Aatrox dashes in the target direction.",
++                "source_id": "wiki:E"
++              }
++            ],
++            "claim": "Activating this ability dashes him in the chosen direction."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/aatrox/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4013021",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aatrox"
++      },
++      "id": "champ:aatrox:e:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "The dash changes his positioning, while passive healing supports continued fighting."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Umbral Dash",
++        "answer": "Aatrox passively heals for a portion of certain damage he deals to enemy champions. Activating this ability dashes him in the chosen direction.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Aatrox",
++        "cooldown": "",
++        "counterplay": "Account for his dash when avoiding sword strikes. Limit the damage he lands on champions to limit his healing.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/aatrox_e_icon.png",
++        "id": "champ:aatrox:e:recognize:L2",
++        "level": "L2",
++        "media_path": "media/aatrox_e.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "E",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/aatrox/",
++        "source_video_path": "media/aatrox_e.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Aatrox",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Healing eligibility is limited to non-persistent damage after mitigation; the beginner explanation avoids presenting all damage as eligible.",
++        "The dash resets his basic attack timer and can overlap other abilities without cancelling them.",
++        "Terrain can extend the dash within limits; it does not cross every wall.",
++        "The model-darkening note describes a remnant visual, not a current attack damage buff."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:266",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed.",
++                "source_id": "riot:R"
++              },
++              {
++                "quote": "Active: Aatrox unleashes his true form for a period, gaining a burst of move speed. During this time, Aatrox has increased attack damage, self-healing, and is ghosted.",
++                "source_id": "wiki:R"
++              }
++            ],
++            "claim": "Aatrox temporarily transforms, gaining attack damage, movement speed and increased self-healing."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Aatrox unleashes his demonic form, fearing nearby enemy minions",
++                "source_id": "riot:R"
++              }
++            ],
++            "claim": "Activation fears nearby enemy minions."
++          },
++          {
++            "citations": [
++              {
++                "quote": "These effects are refreshed and the duration is extended whenever Aatrox scores a champion takedown.",
++                "source_id": "wiki:R"
++              },
++              {
++                "quote": "If he gets a takedown, this effect is extended.",
++                "source_id": "riot:R"
++              }
++            ],
++            "claim": "Champion takedowns extend the form's duration."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/aatrox/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4013021",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aatrox"
++      },
++      "id": "champ:aatrox:r:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "Increased damage, speed and healing create a major threat that takedowns can prolong."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "World Ender",
++        "answer": "Aatrox temporarily transforms, gaining attack damage, movement speed and increased self-healing. Activation fears nearby enemy minions. Champion takedowns extend the form's duration.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Aatrox",
++        "cooldown": "",
++        "counterplay": "Create distance during his empowered form and avoid giving him takedowns that prolong it.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/aatrox_r_icon.png",
++        "id": "champ:aatrox:r:recognize:L2",
++        "level": "L2",
++        "media_path": "media/aatrox_r.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "R",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/aatrox/",
++        "source_video_path": "media/aatrox_r.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Aatrox",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "The form also grants ghosting and increased size; activation fear also affects monsters.",
++        "Movement speed decays, and champion takedowns refresh effects while extending duration subject to a cap.",
++        "Resurrection interactions do not mean this ability grants resurrection.",
++        "The supplied excerpt includes unrelated skin material and map-specific differences, excluded from the explanation."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
+     }
+   ],
+   "schema_version": 1

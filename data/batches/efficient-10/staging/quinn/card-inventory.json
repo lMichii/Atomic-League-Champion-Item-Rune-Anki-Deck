@@ -1,0 +1,314 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:quinn:overview:L1",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Name: Quinn. Official role tags: Marksman, Assassin.",
+            "source_id": "riot:role"
+          }
+        ],
+        "id": "d1156e122473a7e5dfa30b02",
+        "summary": "Quinn is a marksman and assassin."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Quinn's next basic attack against a Harrier target consumes the mark to deal bonus physical damage.",
+            "source_id": "wiki:harrier"
+          },
+          {
+            "quote": "Quinn and Valor team up to fly around at great speed.",
+            "source_id": "riot:R"
+          }
+        ],
+        "id": "dbe540096be63001413fed48",
+        "summary": "Marked attacks deal bonus physical damage, while Valor enables fast travel."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize Quinn's fighting pattern and roaming threat.",
+    "slot": "",
+    "source_ids": [
+      "riot:role",
+      "wiki:harrier",
+      "wiki:vault",
+      "riot:R"
+    ],
+    "subject_id": "riot:role",
+    "title": "Quinn",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "While Behind Enemy Lines is active, Harrier is disabled and all Harrier marks are removed.",
+            "source_id": "wiki:harrier"
+          }
+        ],
+        "status": "supported",
+        "summary": "Harrier is disabled and existing marks are removed during Behind Enemy Lines."
+      }
+    ],
+    "card_id": "champ:quinn:p:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Periodically, Valor marks a nearby enemy with Harrier.",
+            "source_id": "wiki:harrier"
+          },
+          {
+            "quote": "Quinn's Blinding Assault against the primary target, Vault, and Skystrike mark enemies hit with Harrier for 4 seconds, during which they are revealed.",
+            "source_id": "wiki:harrier"
+          }
+        ],
+        "id": "8ffc91822cb4ee0008fe2e01",
+        "summary": "Valor periodically marks enemies; specified damaging abilities apply revealing marks."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Quinn's next basic attack against a Harrier target consumes the mark to deal bonus physical damage.",
+            "source_id": "wiki:harrier"
+          }
+        ],
+        "id": "c3cacd0ae886efdf08d86e91",
+        "summary": "A basic attack consumes a mark for bonus physical damage."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize when Quinn threatens an empowered attack.",
+    "slot": "P",
+    "source_ids": [
+      "wiki:harrier",
+      "riot:P"
+    ],
+    "subject_id": "wiki:harrier",
+    "title": "Harrier",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:quinn:q:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Quinn sends Valor in the target direction who stops upon hitting an enemy, marking them with Harrier and dealing physical damage to all nearby enemies",
+            "source_id": "wiki:blindingassault"
+          }
+        ],
+        "id": "201c70f416ffdbd1e92fc47c",
+        "summary": "Valor stops on an enemy, marks the primary target, and deals nearby physical damage."
+      },
+      {
+        "citations": [
+          {
+            "quote": "The primary target is nearsighted briefly if they are a champion, and disarmed otherwise.",
+            "source_id": "wiki:blindingassault"
+          }
+        ],
+        "id": "df2a8be8437530f03d566c80",
+        "summary": "The primary target receives nearsight if a champion or disarm otherwise."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the projectile and its primary-target vision disruption.",
+    "slot": "Q",
+    "source_ids": [
+      "wiki:blindingassault",
+      "riot:Q"
+    ],
+    "subject_id": "wiki:blindingassault",
+    "title": "Blinding Assault",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:quinn:w:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Whenever Quinn uses a basic attack on-attack against a target marked by Harrier or consumes their mark, she gains bonus attack speed and bonus movement speed for 2 seconds.",
+            "source_id": "wiki:heightenedsenses"
+          }
+        ],
+        "id": "63401b420c6804095b985340",
+        "summary": "Marked attacks or mark consumption grant brief attack speed and movement speed."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Valor grants sight of the surrounding area for 2 seconds and reveals enemy champions within for the same duration.",
+            "source_id": "wiki:heightenedsenses"
+          }
+        ],
+        "id": "d0fddd36bc2a92b6bc8525f9",
+        "summary": "The active scouts the surrounding area and reveals enemy champions within."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize her speed window and local reveal.",
+    "slot": "W",
+    "source_ids": [
+      "wiki:heightenedsenses",
+      "riot:W"
+    ],
+    "subject_id": "wiki:heightenedsenses",
+    "title": "Heightened Senses",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Quinn will track the target if they change locations.",
+            "source_id": "wiki:vault"
+          },
+          {
+            "quote": "She will dash to the target's previous location without applying Vault's effects if the target is too far away or moves beyond 1200 units.",
+            "source_id": "wiki:vault"
+          }
+        ],
+        "status": "supported",
+        "summary": "Vault can track target movement, but sufficiently distant targets can escape its effects."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Vault's bounce's can vary to allow Quinn to close or to make a gap between herself and the target (depending on casting position) or even to jump through a wall (if there is enough landing room on the other side).",
+            "source_id": "wiki:vault"
+          }
+        ],
+        "status": "supported",
+        "summary": "Bounce positioning can vary and can cross walls when landing space permits."
+      }
+    ],
+    "card_id": "champ:quinn:e:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Quinn dashes to the target enemy, dealing physical damage, knocking them back, marking them with Harrier, and briefly slowing them. She then leaps backward.",
+            "source_id": "wiki:vault"
+          }
+        ],
+        "id": "1e5d1871fc558a1565c3555d",
+        "summary": "A targeted dash damages, knocks back, slows, and marks the enemy before a backward leap."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Vault resets Quinn's basic attack timer shortly after the initial dash.",
+            "source_id": "wiki:vault"
+          },
+          {
+            "quote": "briefly interrupting it",
+            "source_id": "riot:E"
+          }
+        ],
+        "id": "409baf3474ed6b69ab1e683c",
+        "summary": "Vault briefly interrupts the target and resets Quinn's attack timer."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize her interrupt, spacing change, and marked attack setup.",
+    "slot": "E",
+    "source_ids": [
+      "wiki:vault",
+      "riot:E"
+    ],
+    "subject_id": "wiki:vault",
+    "title": "Vault",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Behind Enemy Lines is not a movement channel, and so will not be interrupted by root and ground.",
+            "source_id": "wiki:skystrike"
+          }
+        ],
+        "status": "supported",
+        "summary": "Root and ground do not interrupt the initial channel; the flight-ending rule applies after uniting."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If Quinn uses Vault while Behind Enemy Lines is active, Skystrike will activate at her target's location after she bounces back.",
+            "source_id": "wiki:skystrike"
+          }
+        ],
+        "status": "supported",
+        "summary": "Vault-triggered Skystrike occurs at the target's location after the bounce."
+      }
+    ],
+    "card_id": "champ:quinn:r:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Quinn channels for a short time to pair up with Valor. They then become united, increasing her movement speed and becoming ghosted.",
+            "source_id": "wiki:behindenemylines"
+          }
+        ],
+        "id": "fb3faa81ce858a5806cb7378",
+        "summary": "A channel prepares fast movement with Valor."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Declaring a basic attack or casting Blinding Assault or Vault during Behind Enemy Lines automatically activates Skystrike.",
+            "source_id": "wiki:skystrike"
+          },
+          {
+            "quote": "Quinn detaches from Valor, ending Behind Enemy Lines' effects and raining arrows down around her, dealing physical damage to nearby enemies and marking them with Harrier.",
+            "source_id": "wiki:skystrike"
+          }
+        ],
+        "id": "ec2dc63a54ead460e61ec592",
+        "summary": "Combat actions trigger Skystrike, ending flight with nearby physical damage and marks."
+      },
+      {
+        "citations": [
+          {
+            "quote": "The duo lose the movement speed boost upon taking non-minion damage, and disband upon being immobilized, grounded, or silenced.",
+            "source_id": "wiki:behindenemylines"
+          },
+          {
+            "quote": "without performing Skystrike",
+            "source_id": "wiki:behindenemylines"
+          }
+        ],
+        "id": "d6268333f59ed5f1619909fd",
+        "summary": "Non-minion damage suppresses the speed boost; immobilization, grounding, or silence ends flight without Skystrike."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize fast roaming and the transition from flight into combat.",
+    "slot": "R",
+    "source_ids": [
+      "wiki:behindenemylines",
+      "wiki:skystrike",
+      "riot:R"
+    ],
+    "subject_id": "wiki:behindenemylines",
+    "title": "Behind Enemy Lines and Skystrike",
+    "unsupported_claims": []
+  }
+]

@@ -1,0 +1,611 @@
+{
+  "approved_before": {
+    "data/content/editorial.json": "99a5bf2692dcba838b44f760962428a3e11fda582246b01b9d8bebc5f2ce1714",
+    "data/content/editorial.lock.json": "f396f168e9fa4dbddafd651116129f1f6bc63d35cf860185298c780d649ab9f8",
+    "data/content/pilot.json": "9f79b15b1b815a10097a92e76602d38f84bfd0752b6884a0a567b61c41441319",
+    "data/content/pilot.lock.json": "cada3e1dc45899483494e35ed0ec18171d1bd515c591b24d024f4a9025bae583",
+    "data/content/production.json": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "data/content/production.lock.json": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "data/sources/editorial.json": "e8bb35f575c6baf8c9dd3e2b9f2bf28b6e565b18836181771c6cc1a3dfc015ec",
+    "data/sources/pilot.json": "944046cc983be9862dad79fad975c9dc927d830d5bd0bd9d137067560baa2724",
+    "data/sources/production.json": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "champions": {
+    "viktor": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 12800,
+              "input_tokens": 21295,
+              "output_tokens": 2564,
+              "reasoning_output_tokens": 67
+            }
+          ]
+        },
+        "output_sha256": "a0675e50afff65b8d3f2144b14a1b079b2cf7a6111f8ae2f6a23b0ee0f4b4541",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "49e3222c3dd024d247090e73152f0d669805be37cd99af4ff1de58c54a26dba1"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:34:52.924167+00:00",
+      "findings": [],
+      "ids": [
+        "champ:viktor:overview:L1",
+        "champ:viktor:p:recognize:L2",
+        "champ:viktor:q:recognize:L2",
+        "champ:viktor:w:recognize:L2",
+        "champ:viktor:e:recognize:L2",
+        "champ:viktor:r:recognize:L2"
+      ],
+      "manifest_sha256": "3190f71189c77193568cabdb83df649355b37094c6723041da5e4cf1c02be289",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-15/staging/viktor",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/d5d6e3ef083e607de5a4c700fae26696cad0f3879685e0c7db01179fed98deb3",
+      "status": "generated"
+    },
+    "vladimir": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 21106,
+              "output_tokens": 2488,
+              "reasoning_output_tokens": 45
+            }
+          ]
+        },
+        "output_sha256": "822d40cbf97e3f4c831511c05b42fb0aeb99e860fe1cb097a97b0042a1774325",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "089ae9b5ff0d6dbaf89dff86f968aa7323fec61a41a80ae35f728c2953f3f435"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:35:39.842340+00:00",
+      "findings": [
+        {
+          "code": "media_url_missing",
+          "name": "vladimir_p.webm"
+        }
+      ],
+      "ids": [
+        "champ:vladimir:overview:L1",
+        "champ:vladimir:p:recognize:L2",
+        "champ:vladimir:q:recognize:L2",
+        "champ:vladimir:w:recognize:L2",
+        "champ:vladimir:e:recognize:L2",
+        "champ:vladimir:r:recognize:L2"
+      ],
+      "manifest_sha256": "cbb8eeeb187b5c6a19f5cd00e97904a6b12db0084c42c2cd625c0f6c3a599ce4",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-15/staging/vladimir",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/1ef8d912559c3dec5b4c65beeb7ba7cace12c12c8272b0fb391a5ba547628888",
+      "status": "generated"
+    },
+    "volibear": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 12800,
+              "input_tokens": 21435,
+              "output_tokens": 2577,
+              "reasoning_output_tokens": 78
+            }
+          ]
+        },
+        "output_sha256": "c61369e47f66820f8acb8c5d462838254e076a027cc603bbe51de24ade3ec5e0",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "1abae614b3a1aae8cb1efbba80b464727b6b7d31e8b0beef9cae1f46023fa517"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:36:43.555508+00:00",
+      "findings": [],
+      "ids": [
+        "champ:volibear:overview:L1",
+        "champ:volibear:p:recognize:L2",
+        "champ:volibear:q:recognize:L2",
+        "champ:volibear:w:recognize:L2",
+        "champ:volibear:e:recognize:L2",
+        "champ:volibear:r:recognize:L2"
+      ],
+      "manifest_sha256": "ee66ff35a140995a737cc6cae0f444b858bfdc0346b61bbcd897f14c2cb4de7a",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-15/staging/volibear",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/d6f17785a825e809a27e6fee75af91c40f0edc57091c3e3e054d892fa41bdbc8",
+      "status": "generated"
+    },
+    "xayah": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 20827,
+              "output_tokens": 2428,
+              "reasoning_output_tokens": 48
+            }
+          ]
+        },
+        "output_sha256": "f55856a62dda87325a870958b1dfc51667f70f46a6e015cbad8f97d31b6f371b",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "edb52767c20e9d67fbd1b29a5d9c61b4f0be98638144aeb9a46d6706e1a025f0"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:37:40.006111+00:00",
+      "findings": [],
+      "ids": [
+        "champ:xayah:overview:L1",
+        "champ:xayah:p:recognize:L2",
+        "champ:xayah:q:recognize:L2",
+        "champ:xayah:w:recognize:L2",
+        "champ:xayah:e:recognize:L2",
+        "champ:xayah:r:recognize:L2"
+      ],
+      "manifest_sha256": "ad30903a79969a3ba03c22a8187c52385bf9befdf3a6a538dee5cf632eeafbf5",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-15/staging/xayah",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/36b94d8edaf52c23ae66a5c79dd9679e01e3c0482dd146040d018764f0bbff33",
+      "status": "generated"
+    },
+    "xerath": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 12800,
+              "input_tokens": 20685,
+              "output_tokens": 2210,
+              "reasoning_output_tokens": 120
+            }
+          ]
+        },
+        "output_sha256": "d88b99dce0e7ad9e27225cf05f04e1e1c68063ed75f9c43049456cd8897902fa",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "d87aec62056d2be93f3b079c72718527853038eb2b1e0e7d48ff9a3280d683bc"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:38:34.779205+00:00",
+      "findings": [],
+      "ids": [
+        "champ:xerath:overview:L1",
+        "champ:xerath:p:recognize:L2",
+        "champ:xerath:q:recognize:L2",
+        "champ:xerath:w:recognize:L2",
+        "champ:xerath:e:recognize:L2",
+        "champ:xerath:r:recognize:L2"
+      ],
+      "manifest_sha256": "bcd4f509fb59123303de0fd9f5c6087cc8896b075c0df9fb7f9fe94a4cab0192",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-15/staging/xerath",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/8fa62c5df65ae3898de44a988cab614d2e79186afe8e8772bc778e62457e23a2",
+      "status": "generated"
+    },
+    "xinzhao": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 21503,
+              "output_tokens": 2657,
+              "reasoning_output_tokens": 116
+            }
+          ]
+        },
+        "output_sha256": "68b372a321afd9ac48788a07fbd37b74151a2881d2940737adf0898c1fb3a67f",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "f809302d038733f741d23277667ddb914c8cd2433a7fe56d1b6dc0b96f387aa7"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:39:27.944306+00:00",
+      "findings": [
+        {
+          "code": "source_unavailable",
+          "message": "HTTP Error 404: Not Found",
+          "url": "https://www.leagueoflegends.com/en-us/champions/xin-zhao/"
+        },
+        {
+          "code": "media_unavailable",
+          "name": "xinzhao_p.webm",
+          "url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0005/ability_0005_P1.webm"
+        },
+        {
+          "code": "media_unavailable",
+          "name": "xinzhao_q.webm",
+          "url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0005/ability_0005_Q1.webm"
+        },
+        {
+          "code": "active_icon_fallback",
+          "message": "No working GIF; draft icon fallback needs review",
+          "slot": "Q"
+        },
+        {
+          "code": "media_unavailable",
+          "name": "xinzhao_w.webm",
+          "url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0005/ability_0005_W1.webm"
+        },
+        {
+          "code": "active_icon_fallback",
+          "message": "No working GIF; draft icon fallback needs review",
+          "slot": "W"
+        },
+        {
+          "code": "media_unavailable",
+          "name": "xinzhao_e.webm",
+          "url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0005/ability_0005_E1.webm"
+        },
+        {
+          "code": "active_icon_fallback",
+          "message": "No working GIF; draft icon fallback needs review",
+          "slot": "E"
+        },
+        {
+          "code": "media_unavailable",
+          "name": "xinzhao_r.webm",
+          "url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0005/ability_0005_R1.webm"
+        },
+        {
+          "code": "active_icon_fallback",
+          "message": "No working GIF; draft icon fallback needs review",
+          "slot": "R"
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:xinzhao:q:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:xinzhao:w:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:xinzhao:e:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:xinzhao:r:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        }
+      ],
+      "ids": [
+        "champ:xinzhao:overview:L1",
+        "champ:xinzhao:p:recognize:L2",
+        "champ:xinzhao:q:recognize:L2",
+        "champ:xinzhao:w:recognize:L2",
+        "champ:xinzhao:e:recognize:L2",
+        "champ:xinzhao:r:recognize:L2"
+      ],
+      "manifest_sha256": "080751d8edfdf1b52290751e2d377fd365f9d4422708682a9159acdf852e9870",
+      "media": {
+        "icon": 5,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-15/staging/xinzhao",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/ae5955c9bc9443a22cf6a31598ab09cea3bcce160a305ea7154bf4df6ee2ac3d",
+      "status": "generated"
+    },
+    "yasuo": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 14976,
+              "input_tokens": 22593,
+              "output_tokens": 2828,
+              "reasoning_output_tokens": 59
+            }
+          ]
+        },
+        "output_sha256": "f72c82c071745cb5d069062dd2997324011651ca1abcde888b7cb9437c7a1258",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "f7074c3dfd793e77f45d3270f9a4119e559ddbf1deba4c822034931baf15f262"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:40:26.670432+00:00",
+      "findings": [],
+      "ids": [
+        "champ:yasuo:overview:L1",
+        "champ:yasuo:p:recognize:L2",
+        "champ:yasuo:q:recognize:L2",
+        "champ:yasuo:w:recognize:L2",
+        "champ:yasuo:e:recognize:L2",
+        "champ:yasuo:r:recognize:L2"
+      ],
+      "manifest_sha256": "a5760225e8767a86f56da47e300cae42f11c70299de352d7cf517cbbc7328635",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-15/staging/yasuo",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/55c4494f3efa2746b4b2e46a2f089bef926b954dc8d522bab83ca582d6eb5f53",
+      "status": "generated"
+    },
+    "yone": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 14976,
+              "input_tokens": 22859,
+              "output_tokens": 2611,
+              "reasoning_output_tokens": 52
+            }
+          ]
+        },
+        "output_sha256": "57abb722195b1252d8d332081971610ee9677b69f2820199db46d71c486e2768",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "b2cb95aa71d91d82a2ac0ed9f56288e919ace2e8caba1ce152582f2707d4a01c"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:41:14.598715+00:00",
+      "findings": [],
+      "ids": [
+        "champ:yone:overview:L1",
+        "champ:yone:p:recognize:L2",
+        "champ:yone:q:recognize:L2",
+        "champ:yone:w:recognize:L2",
+        "champ:yone:e:recognize:L2",
+        "champ:yone:r:recognize:L2"
+      ],
+      "manifest_sha256": "10e50cd63c07a6c576fea7cfbd77ef5168785d6d74c79abf4f133ec1a2258e27",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-15/staging/yone",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/7b1e6c7dc8f48ec29ba1ab223cfcbd1a1b4a9f79320acf89eba4b35a3ee33354",
+      "status": "generated"
+    },
+    "yorick": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 21336,
+              "output_tokens": 6373,
+              "reasoning_output_tokens": 123
+            }
+          ]
+        },
+        "output_sha256": "177080e03c3c4315047519921a926c8a569e63026400e16e6e635ecf43077a59",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "76a484cccd09ea641afb775078099567312ea724d81af2eff1dcc9b2352eb194"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:42:53.894067+00:00",
+      "findings": [
+        {
+          "code": "adaptive_kit_structure",
+          "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+        },
+        {
+          "code": "media_url_missing",
+          "name": "yorick_p.webm"
+        }
+      ],
+      "ids": [
+        "champ:yorick:overview:L1",
+        "champ:yorick:p:recognize:L2",
+        "champ:yorick:q:recognize:L2",
+        "champ:yorick:w:recognize:L2",
+        "champ:yorick:e:recognize:L2",
+        "champ:yorick:r:recognize:L2"
+      ],
+      "manifest_sha256": "5cf6b5207d9f86d5575d63b10802b6be7eb857d70752fd8f5a2df00c0e9588c8",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-15/staging/yorick",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/99a55826bf4a58b78c0fe3e180ab2b9c2e758612ed86590c82160b33f93e85ec",
+      "status": "generated"
+    },
+    "yunara": {
+      "author_receipt": {
+        "attempts": 2,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 18892,
+              "output_tokens": 5465,
+              "reasoning_output_tokens": 99
+            }
+          ]
+        },
+        "output_sha256": "305dc2848dbbfe4c1fa5246e681c8024672bb9b71d16d2804fd22e3064666ae5",
+        "prior_errors": [
+          "Codex invocation failed: 2026-11-02T23:42:57.420858Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-11-02T23:42:57.973858Z  WARN codex_core::session::startup_prewarm: startup websocket prewarm setup failed: You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 4:19 AM.\n"
+        ],
+        "provider": "codex",
+        "request_sha256": "f5d01a0c49408c706adac3535e7d61245196aec1607b006d789746e074d96e55"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-03T11:42:12.688700+00:00",
+      "findings": [
+        {
+          "code": "adaptive_kit_structure",
+          "message": "7 live sections discovered; conventional slot headings are not a completeness contract."
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:yunara:w:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:yunara:e:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        }
+      ],
+      "ids": [
+        "champ:yunara:overview:L1",
+        "champ:yunara:p:recognize:L2",
+        "champ:yunara:q:recognize:L2",
+        "champ:yunara:w:recognize:L2",
+        "champ:yunara:e:recognize:L2",
+        "champ:yunara:r:recognize:L2"
+      ],
+      "manifest_sha256": "00cac932ebc2fb7b983c50abdd800071c4e942e79db6cd5e934d0c4de1713876",
+      "media": {
+        "gif": 2,
+        "icon": 3,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-15/staging/yunara",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/ddeb5a3932d67ee88101df05b3cfa71d7b4bb236ef41dd93c21be0dbf997e337",
+      "status": "generated"
+    }
+  },
+  "created_at": "2026-11-02T23:33:58.757046+00:00",
+  "editorial_approval": false,
+  "id": "efficient-15",
+  "import_status": "not_recorded",
+  "mode": "author_only_staging",
+  "output": "build/staging/efficient-15.apkg",
+  "package": {
+    "cards": 60,
+    "media": 94,
+    "notes": 60,
+    "sha256": "4cbf0c5849b3dff80197d8633f67bd80793824dc5b4a1e7e9d3e6d9fd162426c",
+    "sqlite_integrity": "ok"
+  },
+  "status": "staging_exported",
+  "updated_at": "2026-11-03T11:42:12.688700+00:00"
+}

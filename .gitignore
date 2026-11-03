@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+.venv/
+build/
+.cache/
+*.log
+*.egg-info/
+# Retain the frozen v4 inputs in Git for offline reproduction; ignore duplicates.
+**/media/
+!LoL_Anki_Pilot_Project_v4_English/media/
+!LoL_Anki_Pilot_Project_v4_English/media/**
+!data/batch01/media/
+!data/batch01/media/**
+!data/drafts/**/media/
+!data/drafts/**/media/**
+!data/editorial/media/
+!data/editorial/media/**
+**/webm/
+*.apkg
+!LoL_Anki_Pilot_Project_v4_English/LoL_Anki_Pilot_6_Champions_v4_English.apkg
+*.zip
+!LoL_Anki_Batch_01_Botlane_Expansion.zip
+
+# Redundant prefetch downloads/conversions; retain the URL/status manifest.
+# Already committed copies remain in old history. See docs/GITHUB_PREPARATION.md.
+/data/prefetch/riot-videos/*/
+
+# Local credentials and interrupted downloads.
+.env
+.env.*
+!.env.example
+*.part
+
+# Keep the prototype icons and its directly referenced Stasis example.
+!data/items-prototype/media/
+!data/items-prototype/media/**
+!data/batches/efficient-03/staging/bard/media/
+!data/batches/efficient-03/staging/bard/media/8045c21897508adc85fb33cc4e84cf0a6f2074ee4822c69e7258d70f5d750e28.gif

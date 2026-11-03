@@ -1,0 +1,1075 @@
+{
+  "approval_blockers": [
+    "All six cards are drafts requiring explicit editorial approval.",
+    "All clips/cues need manual visual verification.",
+    "Game patch label has not been independently established."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "-"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:akali:overview:L1",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The stat focus describes supported scaling, not an optimal item build."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": null,
+      "media_type": "portrait",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Recognizing her mobility and smoke protection helps explain how she approaches fights."
+      },
+      "slot": "-",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Damaging an enemy champion with an ability creates a ring around them.",
+            "covered": true,
+            "mechanic_id": "P.ring",
+            "reason": "Supported by both passive excerpts; the empowerment restriction is appropriately retained as an advanced exception."
+          },
+          {
+            "answer_quote": "Leaving the ring empowers Akali's next basic attack with extra range and bonus magic damage.",
+            "covered": true,
+            "mechanic_id": "P.empowered_attack",
+            "reason": "Explains the trigger, attack empowerment, range and damage type."
+          },
+          {
+            "answer_quote": "She gains movement speed while moving away from the ring, then toward enemy champions after leaving it.",
+            "covered": true,
+            "mechanic_id": "P.movement_speed",
+            "reason": "Explains both supported directional movement-speed benefits."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "P"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:akali:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The visual cue is a text-grounded proposal; no frames or current-client visual verification were supplied.",
+        "Only one ring can exist at once, and another cannot be created while she holds the empowered attack.",
+        "Q creates its ring around the last champion hit.",
+        "Structures and wards do not consume or receive the empowerment's effects; bonus damage does not apply if the attack is dodged, blocked, or misses."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Only one ring may be active at a time.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "becomes empowered with Swinging Kama for 4 seconds, during which she cannot create another ring.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Only one ring can exist at once; Akali cannot create another while holding the empowered attack."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The ring will be created around the last target hit by Five Point Strike.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "When Q hits multiple targets, the ring forms around the last target hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The empowered attack will trigger but not be consumed nor apply its effects against structures and wards.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Does not apply if the triggering attack is dodged, blocked, or misses.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Structures and wards do not consume or receive the empowerment's effects; the bonus damage does not apply when the attack is dodged, blocked, or misses."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Dealing spell damage to a champion creates a ring of energy around them.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Akali's damaging abilities against a champion create a ring around them for a few seconds",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.ring",
+            "summary": "Damaging an enemy champion with an ability creates a ring around them."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Exiting that ring empowers Akali's next Attack with bonus range and damage.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "empowers her next basic attack with bonus range and magic damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.empowered_attack",
+            "summary": "Leaving the ring empowers the next basic attack with extra range and bonus magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "she gains move speed while moving away from the ring. Once Akali exits the ring, she regains the move speed towards enemy champions",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.movement_speed",
+            "summary": "The passive grants movement speed while moving away from the ring, then toward enemy champions after leaving it."
+          }
+        ],
+        "slot": "P",
+        "unsupported_claims": [
+          "Damaging minions or monsters creates a passive ring.",
+          "The empowered attack is guaranteed to hit."
+        ]
+      },
+      "media_type": "icon",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "The ring and empowered attack explain her movement between ability hits and attacks."
+      },
+      "slot": "P",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Akali throws kunai in a cone, dealing magic damage to enemies hit.",
+            "covered": true,
+            "mechanic_id": "Q.cone_damage",
+            "reason": "Explicitly explains the cone and its magic damage."
+          },
+          {
+            "answer_quote": "Enemies hit in the outer portion are briefly slowed.",
+            "covered": true,
+            "mechanic_id": "Q.outer_slow",
+            "reason": "Preserves the Wiki's outer-range restriction without implying every hit slows."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "Q"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:akali:q:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Riot's brief description does not specify the slow's range restriction; the Wiki supplies that scope.",
+        "The cone originates from Akali's position at the end of its cast time."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "The cast originates from Akali's position at the end of its cast time."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Akali throws out five kunai, dealing damage based on her bonus Attack Damage and Ability Power and slowing.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Akali throws out a cone of kunai that deals magic damage to enemies hit.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.cone_damage",
+            "summary": "Throws kunai in a cone, dealing magic damage to enemies hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Targets hit at maximum range are briefly slowed.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Targets beyond a certain range are also slowed by 50% for 0.5 seconds.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.outer_slow",
+            "summary": "Enemies hit in the outer portion of the cone are briefly slowed."
+          }
+        ],
+        "slot": "Q",
+        "unsupported_claims": [
+          "Every enemy hit by Q is slowed regardless of distance.",
+          "Each kunai separately damages the same enemy."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Recognizing the cone and outer slow helps with spacing against her damage."
+      },
+      "slot": "Q",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Akali creates a smoke shroud that grants invisibility inside it; while invisible, enemies cannot select her with attacks or spells.",
+            "covered": true,
+            "mechanic_id": "W.shroud_protection",
+            "reason": "Explains invisibility and conditions target-selection denial on being invisible; it does not claim damage immunity."
+          },
+          {
+            "answer_quote": "Attacking or casting an ability briefly reveals her.",
+            "covered": true,
+            "mechanic_id": "W.action_reveal",
+            "reason": "Explicitly identifies both actions that break invisibility."
+          },
+          {
+            "answer_quote": "Casting it also grants a brief burst of movement speed, restores energy, and increases her maximum energy while the shroud is active.",
+            "covered": true,
+            "mechanic_id": "W.movement_speed",
+            "reason": "Explicitly states the brief movement-speed benefit on casting."
+          },
+          {
+            "answer_quote": "Casting it also grants a brief burst of movement speed, restores energy, and increases her maximum energy while the shroud is active.",
+            "covered": true,
+            "mechanic_id": "W.energy",
+            "reason": "States both energy restoration and the temporary maximum-energy increase."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "W"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:akali:w:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Dashing and recalling prevent gaining shroud invisibility; the protection is not unconditional.",
+        "An attack breaks invisibility at the start of its windup.",
+        "The shroud does not spread through terrain; an E-marked section can persist after the shroud ends.",
+        "The evidence does not establish immunity to area damage, cancellation of incoming attacks or spells, or protection from every detection effect."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Entering the shroud renders Akali invisible, unless she is dashing.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Akali will also not gain the invisibility if she is Recalling.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Dashing and recalling prevent gaining shroud invisibility."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Using a basic attack breaks the stealth at the start of the attack windup.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "An attack reveals Akali when its windup begins."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The shroud does not permeate terrain, and will expand toward nearby enemy champions.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "The marked section of Twilight Shroud will linger for the mark's duration, even after the shroud ends.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "The shroud cannot spread through terrain; a section marked by E persists for the mark's duration even if the shroud ends."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "While inside the shroud, Akali becomes invisible and unable to be selected by enemy spells and attacks.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "She also drops a smoke shroud that makes her invisible",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.shroud_protection",
+            "summary": "Creates a smoke shroud that grants invisibility inside it, preventing enemies from selecting Akali with attacks and spells while she is invisible."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Attacking or using abilities will briefly reveal her.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Declaring a basic attack or casting an ability will break the invisibility",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.action_reveal",
+            "summary": "Attacking or casting an ability briefly breaks shroud invisibility."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Akali drops a cover of smoke and briefly gains Move Speed.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Akali restores energy and gains a brief burst of move speed.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.movement_speed",
+            "summary": "Casting W grants a brief burst of movement speed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Akali restores energy",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "While the shroud is active, Akali's maximum energy is increased by 100.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.energy",
+            "summary": "Restores energy and temporarily increases maximum energy while the shroud is active."
+          }
+        ],
+        "slot": "W",
+        "unsupported_claims": [
+          "Shroud makes Akali immune to damage.",
+          "Shroud prevents all area damage or cancels attacks and spells already in flight.",
+          "Shroud always hides Akali from every source of detection."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Invisibility denies enemy target selection and strongly affects how opponents can fight her."
+      },
+      "slot": "W",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Akali flips backward and throws a shuriken forward, dealing magic damage to the first enemy hit.",
+            "covered": true,
+            "mechanic_id": "E.flip_projectile",
+            "reason": "Explains the opposing movement and projectile directions, damage type and first-enemy hit scope."
+          },
+          {
+            "answer_quote": "It can mark that enemy or a section of her smoke shroud, allowing a recast.",
+            "covered": true,
+            "mechanic_id": "E.mark",
+            "reason": "The preceding sentence identifies the first enemy hit; this sentence explains both possible mark targets and the recast."
+          },
+          {
+            "answer_quote": "Recasting dashes to the marked enemy or smoke section, dealing additional magic damage on arrival against an enemy.",
+            "covered": true,
+            "mechanic_id": "E.return_dash",
+            "reason": "Explains both destinations and correctly limits arrival damage to an enemy."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "E"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:akali:e:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Early immobilization or grounding can prevent the backward flip.",
+        "The return tracks moving targets without a maximum tracking distance, but cannot be initiated against an untargetable target or one in another realm.",
+        "Q attempted during either E dash is buffered until the dash ends."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Akali will not flip backwards if she is immobilized or grounded in the first 0.15 seconds of the cast time.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Early immobilization or grounding can prevent the backward flip."
+          },
+          {
+            "citations": [
+              {
+                "quote": "She will not stop tracking the target until she reaches them, as there is no maximum tracking distance.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Shuriken Flip cannot be recast if the target is untargetable or is in another realm.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The recast tracks moving targets without a maximum tracking distance, but cannot be initiated against an untargetable target or one in another realm."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Attempting to cast Five Point Strike during either dash will buffer it to cast as soon as the dash ends.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Q attempted during either E dash is buffered until that dash ends."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Flip backward and fire a shuriken forward, dealing magic damage.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Akali dashes backward and throws a shuriken forward that deals magic damage",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.flip_projectile",
+            "summary": "Flips backward while throwing a damaging shuriken forward."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The first enemy or smoke cloud hit is marked.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "The shuriken marks and reveals the enemy or the last Twilight Shroud smoke section hit for 3 seconds",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.mark",
+            "summary": "The shuriken can mark the first enemy hit or a section of Twilight Shroud, enabling a recast."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Re-cast to dash to the marked target, dealing additional damage.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Akali dashes towards the marked target or smoke section. Against enemies she deals magic damage upon arrival.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.return_dash",
+            "summary": "Recasting dashes to the marked enemy or smoke section, dealing additional magic damage upon arrival against an enemy."
+          }
+        ],
+        "slot": "E",
+        "unsupported_claims": [
+          "The return dash damages enemies along its entire path.",
+          "The return dash can be initiated against any marked target regardless of targetability or realm."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The mark enables a damaging return dash and a major engage threat."
+      },
+      "slot": "E",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Akali's first cast targets an enemy champion and dashes toward them, damaging enemies along her path.",
+            "covered": true,
+            "mechanic_id": "R.initial_dash",
+            "reason": "Explains champion targeting and path damage without asserting the disputed first-cast damage type."
+          },
+          {
+            "answer_quote": "The recast dashes in a chosen direction, dealing magic damage along its path that increases with enemies' missing health.",
+            "covered": true,
+            "mechanic_id": "R.recast_execute_damage",
+            "reason": "Explains directional recasting, path damage, magic damage and missing-health scaling without promising a kill."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "R"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:akali:r:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The Wiki contradicts itself about the first dash's damage type; the answer preserves its damage without specifying a type.",
+        "The recast has a brief lockout and a limited availability window.",
+        "Each cast can affect a given enemy only once; Flash interrupts the dash but can apply damage at the new location.",
+        "Riot's execution wording does not establish an automatic kill or protection bypass."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "dealing physical damage to enemies she passes through.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Akali dashes 750 units in the direction of the target enemy champion, dealing magic damage to enemies she passes through.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "disputed",
+            "summary": "The Wiki's introductory and detailed descriptions disagree about the first dash's damage type. Retain its damaging dash core without requiring a damage type."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Perfect Execution can be recast after a 2.5-second static cooldown within 10 seconds of the first activation.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "The second dash has a brief lockout and a limited recast window."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Enemies already hit by either of Perfect Execution's casts cannot be affected more than once by the same cast.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Casting Flash during either dashes will interrupt them, but Akali will deal damage to any enemies she comes in contact with at the new location.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Each cast hits a given enemy only once; Flash interrupts either dash but can apply its damage at the new location."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Akali leaps in a direction, damaging enemies she strikes.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Akali dashes in the direction of the target enemy champion",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "dealing magic damage to enemies she passes through.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.initial_dash",
+            "summary": "The first cast targets an enemy champion and dashes in their direction, damaging enemies along the path."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Re-cast: Akali dashes in a direction, executing all enemies she strikes.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Recast: Akali dashes in the target direction, dealing magic damage to enemies she passes through based on their missing health.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.recast_execute_damage",
+            "summary": "The recast dashes in a chosen direction, dealing magic damage along its path that increases with enemies' missing health."
+          }
+        ],
+        "slot": "R",
+        "unsupported_claims": [
+          "The first cast can freely target a direction without an enemy champion.",
+          "The recast automatically kills every enemy it hits or bypasses protection.",
+          "Either cast stuns enemies."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Two damaging dashes provide engage and a strong finishing threat against low-health enemies."
+      },
+      "slot": "R",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Shroud availability determines access to invisibility and target-selection denial.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Shuriken Flip availability affects her ability to reposition and threaten a return engage.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Ultimate availability and its recast restrictions affect her engage and finishing threat.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "Evidence is frozen to the supplied Data Dragon release and Wiki revision; no game patch label is inferred.",
+    "No visual frames were supplied, and the passive cue has not been verified in the current client.",
+    "Wiki excerpts include mode-specific changes and unrelated skin material; these are excluded from the explanations.",
+    "R has an unresolved first-dash damage-type conflict.",
+    "Shroud invisibility and E tracking have advanced exceptions; neither should be read as unconditional protection or pursuit.",
+    "Counterplay is inferred teaching guidance grounded in the described effects.",
+    "The first R dash's damage type remains unresolved in the supplied evidence.",
+    "The passive visual description is supported by text only; no visual verification was supplied. Opponents cannot see the ring, so its exit should not be taught as a directly visible enemy cue.",
+    "Passive ring creation and empowerment have advanced restrictions retained in metadata; the answer presents their supported general mechanics.",
+    "Shroud invisibility has dashing and recalling exceptions and does not establish damage immunity or protection from every detection effect.",
+    "E recast initiation has targetability and realm restrictions; its dash can also be interrupted. The draft does not promise an unavoidable return.",
+    "Evidence is frozen to the supplied releases and revision; this check provides neither current-client verification nor human approval."
+  ],
+  "findings": [
+    {
+      "code": "media_url_missing",
+      "name": "akali_p.webm"
+    }
+  ],
+  "generation": {
+    "author": {
+      "attempts": 2,
+      "configured_model": "",
+      "execution_attempts": 2,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 25069,
+            "output_tokens": 3763,
+            "reasoning_output_tokens": 66
+          }
+        ]
+      },
+      "output_sha256": "817fa616ff1f15473fd306c9ef3da9be53e8f16f97d04487c6cd137bdf99de00",
+      "prior_errors": [
+        "Cooldown proposals must not introduce numeric values"
+      ],
+      "provider": "codex",
+      "request_sha256": "03c00c6dba285a7b0e813c8c27d632f4257b88c118cbe4d91ac47ff0c52524e9"
+    },
+    "mechanics": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 21103,
+            "output_tokens": 2336,
+            "reasoning_output_tokens": 0
+          }
+        ]
+      },
+      "output_sha256": "32ec0c09a7f6cd2e1f0dbd90a3edc1aa90499989eb6314d2f1669f3188333123",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "991e0d56f0fc0a3299ae537264aafd314550f70d36d3ca93cdb4dcd21ceefb72"
+    },
+    "passes": [
+      {
+        "author": {
+          "attempts": 2,
+          "configured_model": "",
+          "execution_attempts": 2,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 0,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 25069,
+                "output_tokens": 3763,
+                "reasoning_output_tokens": 66
+              }
+            ]
+          },
+          "output_sha256": "817fa616ff1f15473fd306c9ef3da9be53e8f16f97d04487c6cd137bdf99de00",
+          "prior_errors": [
+            "Cooldown proposals must not introduce numeric values"
+          ],
+          "provider": "codex",
+          "request_sha256": "03c00c6dba285a7b0e813c8c27d632f4257b88c118cbe4d91ac47ff0c52524e9"
+        },
+        "pass": 1,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 0,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 27001,
+                "output_tokens": 1850,
+                "reasoning_output_tokens": 61
+              }
+            ]
+          },
+          "output_sha256": "20f215c44df88304a6b21ed45ddc1f18710aac2cbe452bfb8dd0ed27b7810a13",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "3e4b66c839d7174598982a8649945604ba7cee25ecfdd861f2d9ee3f6cf09131"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "8300991b8864bedbeeb810f6dcb4e147de8a24d258aa4c6e2b406233f1dad911",
+    "verifier": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 27001,
+            "output_tokens": 1850,
+            "reasoning_output_tokens": 61
+          }
+        ]
+      },
+      "output_sha256": "20f215c44df88304a6b21ed45ddc1f18710aac2cbe452bfb8dd0ed27b7810a13",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "3e4b66c839d7174598982a8649945604ba7cee25ecfdd861f2d9ee3f6cf09131"
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:akali:e:recognize:L2": {
+      "cid": 2343527877233,
+      "guid": "9f1ff14756ee43",
+      "nid": 1843527877233
+    },
+    "champ:akali:overview:L1": {
+      "cid": 2471771866731,
+      "guid": "96bb0b04f2bdfd",
+      "nid": 1971771866731
+    },
+    "champ:akali:p:recognize:L2": {
+      "cid": 2536618818002,
+      "guid": "9e4c6fae0f4fa2",
+      "nid": 2036618818002
+    },
+    "champ:akali:q:recognize:L2": {
+      "cid": 2338746975546,
+      "guid": "0008ae5373a048",
+      "nid": 1838746975546
+    },
+    "champ:akali:r:recognize:L2": {
+      "cid": 2425436682134,
+      "guid": "743093abc4fac6",
+      "nid": 1925436682134
+    },
+    "champ:akali:w:recognize:L2": {
+      "cid": 2523055176616,
+      "guid": "0aa96eebd23a3d",
+      "nid": 2023055176616
+    }
+  },
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "Exact-quote matching does not prove semantic truth.",
+    "AI verification is fallible and is not a human content or visual review."
+  ],
+  "media_references": [
+    "akali_e.gif",
+    "akali_e_icon.png",
+    "akali_p_icon.png",
+    "akali_portrait.jpg",
+    "akali_q.gif",
+    "akali_q_icon.png",
+    "akali_r.gif",
+    "akali_r_icon.png",
+    "akali_w.gif",
+    "akali_w_icon.png"
+  ],
+  "new_cards": 6,
+  "passive_frame_evidence": [],
+  "publishable": false,
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "resolution": "Leave the first dash's damage type unspecified while retaining champion targeting and path damage.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "The Wiki's introductory R description says physical damage, while its detailed description says magic damage."
+    },
+    {
+      "resolution": "Use the Wiki's more specific outer-range restriction for the slow.",
+      "source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "topic": "Riot describes Q slowing without specifying which part of the cone applies it."
+    },
+    {
+      "resolution": "Describe increasing missing-health damage rather than a guaranteed kill.",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "topic": "Riot's execution shorthand is clarified by the Wiki's missing-health damage description."
+    },
+    {
+      "resolution": "Unresolved first-cast damage type: retain the supported damaging-dash core without specifying its type and preserve the QA flag.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "The Wiki's introductory R description specifies physical damage, while its detailed description and damage records specify magic damage. Riot does not resolve the type."
+    },
+    {
+      "resolution": "Use the Wiki's explicit outer-range restriction, as the draft does.",
+      "source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "topic": "Riot's abbreviated Q description omits the slow's range restriction; the Wiki supplies it."
+    },
+    {
+      "resolution": "Describe missing-health damage rather than an automatic kill, as the draft does.",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "topic": "Riot's execution shorthand is clarified by the Wiki's explicit missing-health damage mechanic."
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4008175"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

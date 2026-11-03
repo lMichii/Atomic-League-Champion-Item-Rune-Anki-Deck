@@ -1,0 +1,176 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Perseverance regenerates a portion of Garen's maximum health while active. Champion, epic monster or turret damage, enemy ability hits, and enemy summoner spells can temporarily interrupt it.",
+          "covered": true,
+          "mechanic_id": "P.regeneration",
+          "reason": "Explains maximum-health regeneration and qualifying interruption sources. 'Can' accommodates the supplied damage-prevention exceptions."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Decisive Strike grants movement speed and removes existing slows.",
+          "covered": true,
+          "mechanic_id": "Q.speed_and_slow_cleanse",
+          "reason": "Explicitly explains both effects without claiming immunity to subsequent slows."
+        },
+        {
+          "answer_quote": "Garen's next basic attack deals bonus physical damage and silences its target.",
+          "covered": true,
+          "mechanic_id": "Q.empowered_attack",
+          "reason": "Explains the empowered basic attack, damage type and silence. Its availability window and spell-shield interaction are optional advanced details here."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": false,
+      "core_coverage": [
+        {
+          "answer_quote": "Killing eligible enemies permanently builds Garen's armor and magic resistance, up to a cap.",
+          "covered": true,
+          "mechanic_id": "W.passive_resistances",
+          "reason": "Explains permanent capped resistance gains and appropriately qualifies eligible kills."
+        },
+        {
+          "answer_quote": "Activating Courage briefly grants a shield and increased tenacity.",
+          "covered": true,
+          "mechanic_id": "W.shield_and_tenacity",
+          "reason": "Explicitly retains both supported opening-window effects."
+        },
+        {
+          "answer_quote": "It also reduces incoming damage, lasting beyond the brief shield and tenacity.",
+          "covered": true,
+          "mechanic_id": "W.damage_reduction",
+          "reason": "Explains damage reduction and its longer duration, consistent with the Wiki's explicit timing."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [
+        "Tenacity is unexplained beginner-facing jargon. Obtain evidence for a plain-language explanation and add it while retaining the supported shield-and-tenacity core."
+      ],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Judgment repeatedly deals physical damage to nearby enemies as Garen spins, with increased damage to the nearest enemy hit.",
+          "covered": true,
+          "mechanic_id": "E.area_damage",
+          "reason": "Explicitly explains repeated nearby physical damage while spinning."
+        },
+        {
+          "answer_quote": "Bonus attack speed from items and level growth increases his number of spins.",
+          "covered": true,
+          "mechanic_id": "E.spin_count",
+          "reason": "Explains spin-count scaling with the supplied eligible attack-speed sources."
+        },
+        {
+          "answer_quote": "Judgment repeatedly deals physical damage to nearby enemies as Garen spins, with increased damage to the nearest enemy hit.",
+          "covered": true,
+          "mechanic_id": "E.nearest_target_bonus",
+          "reason": "Explicitly identifies the nearest enemy hit as receiving increased damage."
+        },
+        {
+          "answer_quote": "Repeated spin hits reduce enemy champions' armor.",
+          "covered": true,
+          "mechanic_id": "E.armor_reduction",
+          "reason": "Explains the repeated-hit armor reduction without implying it applies on the first hit. The exact threshold is optional detail."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Demacian Justice targets an enemy champion with a true-damage finishing blow. Its damage increases with the target's missing health.",
+          "covered": true,
+          "mechanic_id": "R.missing_health_true_damage",
+          "reason": "Explains champion targeting, true damage and increasing damage with missing health. The counterplay makes clear that protection can help against the attempt."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Use the Wiki's specific interruption sources and damage-prevention exceptions to qualify Riot's broad summary. The draft's 'can temporarily interrupt' wording is supported.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Passive interruption scope"
+    },
+    {
+      "resolution": "The Wiki explicitly places damage reduction at activation and continuing beyond the shield and tenacity window. Follow that timing; Riot's 'followed by' wording is less precise.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "Courage damage-reduction timing"
+    },
+    {
+      "resolution": "The Wiki summary claims an additional permanent boost at the cap, but its detailed mechanics do not specify that boost. Keep this unresolved for QA; the supported capped resistance-gain core remains covered.",
+      "source_ids": [
+        "wiki:W",
+        "riot:W"
+      ],
+      "topic": "Additional Courage resistance boost at the cap"
+    }
+  ],
+  "factual_risks": [
+    "The supplied evidence does not define tenacity, leaving a beginner-learning gap that requires additional evidence.",
+    "AD and health are defensible broad learning focuses from the supplied scaling formulas, but the evidence does not establish an optimal build.",
+    "Counterplay follows from supplied mechanics and makes no guaranteed matchup claims; its visible wording contains no inference or confidence labels.",
+    "No internal provenance, confidence or development labels appear in the card-facing answers or counterplay.",
+    "This check provides neither human approval nor visual verification. The supplied demonstration frames do not establish a healing cue, current-client behavior or skin-specific behavior."
+  ]
+}

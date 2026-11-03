@@ -1,0 +1,975 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:200",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "For each stack, Bel'Veth gains bonus attack speed.",
+                "source_id": "wiki:deathinlavender"
+              },
+              {
+                "quote": "she generates a permanent stack of Lavender.",
+                "source_id": "wiki:deathinlavender"
+              },
+              {
+                "quote": "Void Surge can be cast only within a cardinal direction that is off cooldown",
+                "source_id": "wiki:voidsurge"
+              },
+              {
+                "quote": "Bel'Veth dashes in the target direction",
+                "source_id": "wiki:voidsurge"
+              }
+            ],
+            "claim": "Bel'Veth is a sustained attacker who builds permanent attack speed and uses directional dashes to keep fighting."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Each slash deals physical damage",
+                "source_id": "wiki:royalmaelstrom"
+              },
+              {
+                "quote": "Bel'Veth's basic attacks deal bonus true damage and generates a stack that increases this damage against the same target.",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "claim": "Her damage includes physical slashes and true damage that grows through repeated attacks against the same target."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/bel-veth/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4063501",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth"
+      },
+      "id": "champ:belveth:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Establishes her sustained fighting pattern and the main responses to it."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:belveth:overview:L1",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Bel'Veth gains permanent attack speed stacks after taking down large minions and monsters and champions.",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "f745e6bb23a66034aaa0e621",
+            "summary": "Permanent attack speed growth supports sustained fighting."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Bel'Veth's basic attacks deal bonus true damage and generates a stack that increases this damage against the same target.",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "id": "5a0ddfc9163c1e4be49fa902",
+            "summary": "Repeated attacks increase her true damage against the same target."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Bel'Veth's sustained attack pattern and overall counterplay.",
+        "slot": "",
+        "source_ids": [
+          "riot:P",
+          "wiki:deathinlavender",
+          "wiki:voidsurge",
+          "wiki:royalmaelstrom",
+          "wiki:endlessbanquet"
+        ],
+        "subject_id": "riot:role",
+        "title": "Bel'Veth",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Fighter",
+        "answer": "Bel'Veth is a sustained attacker who builds permanent attack speed and uses directional dashes to keep fighting. Her damage includes physical slashes and true damage that grows through repeated attacks against the same target.",
+        "build_focus": "AD",
+        "category": "Champion",
+        "champion": "Bel'Veth",
+        "cooldown": "",
+        "counterplay": "Disengage from extended trades, dodge her tail slam, and keep clear of coral consumption.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/255ee513034d082a1429e4cc5602e951ac70550455404c1428316dbec9cd1708.jpg",
+        "id": "champ:belveth:overview:L1",
+        "level": "L1",
+        "media_path": "media/255ee513034d082a1429e4cc5602e951ac70550455404c1428316dbec9cd1708.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/bel-veth/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "AD build focus is derived from the supplied AD scaling on Void Surge and Royal Maelstrom; no item build evidence is supplied."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:200",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Bel'Veth gains permanent attack speed stacks after taking down large minions and monsters and champions.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "Champion, large monster, and large minion takedowns grant permanent attack speed stacks."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After casting an ability, Bel'Veth becomes ghosted and gains bonus attack speed for a few seconds.",
+                "source_id": "wiki:deathinlavender"
+              }
+            ],
+            "claim": "Casting abilities grants temporary bonus attack speed and lets her move through units."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Bel'Veth is allowed to exceed the attack speed cap. Her attack speed does not increase through growth (per level).",
+                "source_id": "wiki:deathinlavender"
+              }
+            ],
+            "claim": "Her attack speed does not grow automatically with levels, but she can exceed the normal attack speed cap."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/bel-veth/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4063501",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth"
+      },
+      "id": "champ:belveth:p:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Explains her permanent scaling and temporary fighting windows."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Death in Lavender's takedown effect will not trigger against monsters if they were slain by an enemy.",
+                "source_id": "wiki:deathinlavender"
+              }
+            ],
+            "status": "supported",
+            "summary": "Enemy-slain monsters do not trigger the takedown effect."
+          }
+        ],
+        "card_id": "champ:belveth:p:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Bel'Veth gains permanent attack speed stacks after taking down large minions and monsters and champions.",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "1125709df189be76e8cb76a0",
+            "summary": "Relevant takedowns grant permanent attack speed stacks."
+          },
+          {
+            "citations": [
+              {
+                "quote": "After casting an ability, Bel'Veth becomes ghosted and gains bonus attack speed for a few seconds.",
+                "source_id": "wiki:deathinlavender"
+              }
+            ],
+            "id": "40d52b8ed11ee3cbd30866bf",
+            "summary": "Ability casts grant ghosting and temporary attack speed."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize attack speed growth and post-cast pressure.",
+        "slot": "P",
+        "source_ids": [
+          "riot:P",
+          "wiki:deathinlavender"
+        ],
+        "subject_id": "wiki:deathinlavender",
+        "title": "Death in Lavender",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Death in Lavender",
+        "answer": "Champion, large monster, and large minion takedowns grant permanent attack speed stacks. Casting abilities grants temporary bonus attack speed and lets her move through units. Her attack speed does not grow automatically with levels, but she can exceed the normal attack speed cap.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Bel'Veth",
+        "cooldown": "",
+        "counterplay": "Respect her attack speed after ability casts and avoid prolonged trades as she accumulates stacks.",
+        "front_hint": "BEL'VETH · P",
+        "icon_path": "media/a451bf2accb7345ca6d437c7204dffac215c11b5aa898b6057b386794fb3e5a6.png",
+        "id": "champ:belveth:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/a451bf2accb7345ca6d437c7204dffac215c11b5aa898b6057b386794fb3e5a6.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/bel-veth/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:200",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Bel'Veth dashes in the target direction, though not through terrain, dealing physical damage to enemies she passes through.",
+                "source_id": "wiki:voidsurge"
+              }
+            ],
+            "claim": "Bel'Veth dashes in a chosen direction, dealing physical damage to enemies she passes through."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "each direction has a unique cooldown that scales down with her bonus attack speed.",
+                "source_id": "wiki:voidsurge"
+              },
+              {
+                "quote": "Void Surge can be cast only within a cardinal direction that is off cooldown",
+                "source_id": "wiki:voidsurge"
+              }
+            ],
+            "claim": "Each cardinal direction has its own cooldown, shortened by bonus attack speed."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "though not through terrain",
+                "source_id": "wiki:voidsurge"
+              },
+              {
+                "quote": "During this time, Void Surge can dash through terrain.",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "claim": "She normally cannot dash through terrain, but can in True Form."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/bel-veth/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4063501",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth"
+      },
+      "id": "champ:belveth:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Directional availability determines her immediate mobility and pursuit."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Void Surge's damage against the first enemy hit can critically strike and applies on-hit effects and life steal.",
+                "source_id": "wiki:voidsurge"
+              },
+              {
+                "quote": "Void Surge resets Bel'Veth's basic attack timer.",
+                "source_id": "wiki:voidsurge"
+              }
+            ],
+            "status": "supported",
+            "summary": "The first target receives critical strike, on-hit, and life steal interactions; the dash also resets her attack timer."
+          }
+        ],
+        "card_id": "champ:belveth:q:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Bel'Veth dashes in the target direction, though not through terrain, dealing physical damage to enemies she passes through.",
+                "source_id": "wiki:voidsurge"
+              }
+            ],
+            "id": "f48e88cb01d1916ffd9bb383",
+            "summary": "A directional dash deals physical damage along its path."
+          },
+          {
+            "citations": [
+              {
+                "quote": "each direction has a unique cooldown that scales down with her bonus attack speed.",
+                "source_id": "wiki:voidsurge"
+              }
+            ],
+            "id": "23545d2c6e665addfda73d78",
+            "summary": "Dash directions recover independently and faster with bonus attack speed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "During this time, Void Surge can dash through terrain.",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "id": "d45cb1eb09eddbffd17d2e9d",
+            "summary": "True Form enables terrain crossing."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize directional dash limits and True Form mobility.",
+        "slot": "Q",
+        "source_ids": [
+          "riot:Q",
+          "wiki:voidsurge",
+          "wiki:endlessbanquet"
+        ],
+        "subject_id": "wiki:voidsurge",
+        "title": "Void Surge",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Void Surge",
+        "answer": "Bel'Veth dashes in a chosen direction, dealing physical damage to enemies she passes through. Each cardinal direction has its own cooldown, shortened by bonus attack speed. She normally cannot dash through terrain, but can in True Form.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Bel'Veth",
+        "cooldown": "",
+        "counterplay": "Track her used dash directions and respect wall-crossing escapes or approaches in True Form.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/c0e1325f8f8ec8fd5e1c3f84f01d5cba105a40f22eb832bd2041b441400470d5.png",
+        "id": "champ:belveth:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/e7e36576e3ba1e572f8fdef1b51e0498229158dd8741818882ebbe606b42a8f2.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/bel-veth/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:200",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Bel'Veth slams her tail in the target direction that deals magic damage to enemies hit, briefly knocking up and slowing them.",
+                "source_id": "wiki:aboveandbelow"
+              }
+            ],
+            "claim": "Bel'Veth slams her tail in a target direction, dealing magic damage, knocking enemies up, and slowing them."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If this hits an enemy champion, it resets Void Surge's dash cooldown of the target direction.",
+                "source_id": "wiki:aboveandbelow"
+              }
+            ],
+            "claim": "Hitting an enemy champion resets her dash cooldown in that direction."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/bel-veth/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4063501",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth"
+      },
+      "id": "champ:belveth:w:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Combines crowd control with renewed pursuit."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "More than one cooldown can be reset if enemy champions were hit within multiple directions.",
+                "source_id": "wiki:aboveandbelow"
+              },
+              {
+                "quote": "The cooldowns that get reset are based on the relative direction to Bel'Veth at the end of the cast",
+                "source_id": "wiki:aboveandbelow"
+              }
+            ],
+            "status": "supported",
+            "summary": "Champion hits across multiple relative directions can reset multiple dash cooldowns."
+          }
+        ],
+        "card_id": "champ:belveth:w:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Bel'Veth slams her tail in the target direction that deals magic damage to enemies hit, briefly knocking up and slowing them.",
+                "source_id": "wiki:aboveandbelow"
+              }
+            ],
+            "id": "24887f7a0e1f66c91e81addc",
+            "summary": "Directional magic damage knocks up and slows."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If this hits an enemy champion, it resets Void Surge's dash cooldown of the target direction.",
+                "source_id": "wiki:aboveandbelow"
+              }
+            ],
+            "id": "bc93802f12275965fce84c73",
+            "summary": "Champion hits refresh directional dash availability."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the crowd control that also restores mobility.",
+        "slot": "W",
+        "source_ids": [
+          "riot:W",
+          "wiki:aboveandbelow"
+        ],
+        "subject_id": "wiki:aboveandbelow",
+        "title": "Above and Below",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Above and Below",
+        "answer": "Bel'Veth slams her tail in a target direction, dealing magic damage, knocking enemies up, and slowing them. Hitting an enemy champion resets her dash cooldown in that direction.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Bel'Veth",
+        "cooldown": "",
+        "counterplay": "Sidestep the tail slam and expect renewed dash pressure if it hits a champion.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/54c2094858b2a6569ed19606e26829dea3eb0cf4c4ab49f0c6627cfefabdc780.png",
+        "id": "champ:belveth:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/353c88f39844ec2eed6b8ab9c88396de33c614bf66a17ff6a61fb19a020b93f7.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/bel-veth/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:200",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "during which she is unable to move, but gains damage reduction and life steal.",
+                "source_id": "wiki:royalmaelstrom"
+              },
+              {
+                "quote": "she rapidly slashes at the nearest enemy with the lowest current health percentage",
+                "source_id": "wiki:royalmaelstrom"
+              }
+            ],
+            "claim": "Bel'Veth stays in place, gaining damage reduction and life steal while rapidly slashing a nearby enemy with the lowest current health percentage."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Each slash deals physical damage, increased by 0% – 100% (based on target's missing health)",
+                "source_id": "wiki:royalmaelstrom"
+              },
+              {
+                "quote": "Royal Maelstrom does not prioritize champions over other units.",
+                "source_id": "wiki:royalmaelstrom"
+              }
+            ],
+            "claim": "The slashes deal physical damage that increases with the target's missing health, and they do not prioritize champions."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Bel'Veth cannot perform slashes while she is affected by cast-inhibiting crowd control.",
+                "source_id": "wiki:royalmaelstrom"
+              }
+            ],
+            "claim": "Cast-inhibiting crowd control prevents her slashes while it affects her."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/bel-veth/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4063501",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth"
+      },
+      "id": "champ:belveth:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Recognizing her defensive channel prevents poorly timed burst and dangerous low-health trades."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The target does not have to be visible to be hit by this ability.",
+                "source_id": "wiki:royalmaelstrom"
+              }
+            ],
+            "status": "supported",
+            "summary": "Targets can be hit without being visible."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Royal Maelstrom can be recast within the duration, and does so automatically afterwards or when Bel'Veth casts an ability. Recast: Bel'Veth ends Royal Maelstrom.",
+                "source_id": "wiki:royalmaelstrom"
+              }
+            ],
+            "status": "supported",
+            "summary": "She can end the stance early, including by casting another ability."
+          }
+        ],
+        "card_id": "champ:belveth:e:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "during which she is unable to move, but gains damage reduction and life steal.",
+                "source_id": "wiki:royalmaelstrom"
+              }
+            ],
+            "id": "c6682300863d2b29e2e4cdfa",
+            "summary": "She becomes stationary with damage reduction and life steal."
+          },
+          {
+            "citations": [
+              {
+                "quote": "she rapidly slashes at the nearest enemy with the lowest current health percentage",
+                "source_id": "wiki:royalmaelstrom"
+              },
+              {
+                "quote": "Royal Maelstrom does not prioritize champions over other units.",
+                "source_id": "wiki:royalmaelstrom"
+              }
+            ],
+            "id": "d42422fa31d8f16979c5d5f7",
+            "summary": "Slashes select by low current health percentage without champion priority."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Each slash deals physical damage, increased by 0% – 100% (based on target's missing health)",
+                "source_id": "wiki:royalmaelstrom"
+              },
+              {
+                "quote": "Bel'Veth cannot perform slashes while she is affected by cast-inhibiting crowd control.",
+                "source_id": "wiki:royalmaelstrom"
+              }
+            ],
+            "id": "b1d3f027c24e86e54bd9bc8e",
+            "summary": "Slashes punish missing health and are suppressed by cast-inhibiting crowd control."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the defensive slash stance and its target selection.",
+        "slot": "E",
+        "source_ids": [
+          "riot:E",
+          "wiki:royalmaelstrom"
+        ],
+        "subject_id": "wiki:royalmaelstrom",
+        "title": "Royal Maelstrom",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Royal Maelstrom",
+        "answer": "Bel'Veth stays in place, gaining damage reduction and life steal while rapidly slashing a nearby enemy with the lowest current health percentage. The slashes deal physical damage that increases with the target's missing health, and they do not prioritize champions. Cast-inhibiting crowd control prevents her slashes while it affects her.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Bel'Veth",
+        "cooldown": "",
+        "counterplay": "Move away from the slash area, hold burst during her damage reduction, or use crowd control to suppress her slashes.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/dde54ed927af6475805579de7736361f1ffb631f079759aca45b652fa7b2db81.png",
+        "id": "champ:belveth:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/816a4eedec85e4aa6294ab2b87813c546f34039508a73824743f8a6c589fa01b.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/bel-veth/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:200",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Bel'Veth's basic attacks deal bonus true damage and generates a stack that increases this damage against the same target.",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "claim": "Repeated attacks against the same target build increasing bonus true damage."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Takedowns against enemy champions and epic monsters spawn a Void Coral for some time.",
+                "source_id": "wiki:endlessbanquet"
+              },
+              {
+                "quote": "Bel'Veth dashes to the target Void Coral, gradually slowing nearby enemies before violently exploding, dealing true damage based on their missing health",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "claim": "Champion and epic monster takedowns leave Void Coral that she can consume, slowing nearby enemies before a true damage explosion that scales with missing health."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "assuming her True Form for a while.",
+                "source_id": "wiki:endlessbanquet"
+              },
+              {
+                "quote": "True Form: Bel'Veth gains bonus health, attack range, and increased total attack speed.",
+                "source_id": "wiki:endlessbanquet"
+              },
+              {
+                "quote": "Consuming more Void Corals renews the form's duration and heals her instead.",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "claim": "Consumption grants True Form with bonus health, attack range, and attack speed; further consumption refreshes the form and heals her."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Baron Nashor, the pit Rift Herald, and Voidgrubs (once per spawn group) spawn an Enhanced Void Coral.",
+                "source_id": "wiki:endlessbanquet"
+              },
+              {
+                "quote": "True Form is empowered to causes Void Remora to spawn from allied and enemy minions that die nearby.",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "claim": "Enhanced coral from Baron Nashor, the pit Rift Herald, or Voidgrubs empowers True Form to spawn Void Remora from nearby dying minions."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/bel-veth/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4063501",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth"
+      },
+      "id": "champ:belveth:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Explains escalating attack damage, post-takedown danger, transformation, and enhanced objective rewards."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Bel'Veth consumes all existing Void Corals at once",
+                "source_id": "wiki:endlessbanquet"
+              },
+              {
+                "quote": "A nearby Void Coral is required to cast this ability.",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "status": "supported",
+            "summary": "Casting requires nearby coral, but consumption also collects all existing coral."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Bel'Veth's True Form at 80 Lavender stacks will last indefinitely, but is still lost upon death.",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "status": "supported",
+            "summary": "Sufficient Lavender makes True Form last until death."
+          }
+        ],
+        "card_id": "champ:belveth:r:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Bel'Veth's basic attacks deal bonus true damage and generates a stack that increases this damage against the same target.",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "id": "91b7901390ecb1b2557d3ed3",
+            "summary": "Repeated attacks increase bonus true damage against the same target."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Takedowns against enemy champions and epic monsters spawn a Void Coral for some time.",
+                "source_id": "wiki:endlessbanquet"
+              },
+              {
+                "quote": "Bel'Veth dashes to the target Void Coral, gradually slowing nearby enemies before violently exploding, dealing true damage based on their missing health",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "id": "d87b545d6b9d0f2328453b7e",
+            "summary": "Coral consumption slows nearby enemies before a missing-health true damage explosion."
+          },
+          {
+            "citations": [
+              {
+                "quote": "True Form: Bel'Veth gains bonus health, attack range, and increased total attack speed.",
+                "source_id": "wiki:endlessbanquet"
+              },
+              {
+                "quote": "Consuming more Void Corals renews the form's duration and heals her instead.",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "id": "db0c3aff2e9b4d76c3a62160",
+            "summary": "True Form grants combat stats; further consumption refreshes it and heals her."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Taking down Baron Nashor, the pit Rift Herald, or a Voidgrub spawns an Enhance Void Coral.",
+                "source_id": "wiki:endlessbanquet"
+              },
+              {
+                "quote": "True Form is empowered to cause Void Remora to spawn from minions that die nearby.",
+                "source_id": "wiki:endlessbanquet"
+              }
+            ],
+            "id": "71bc994418052cf2866ed13e",
+            "summary": "Enhanced coral enables nearby dying minions to spawn Void Remora."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize coral danger and the normal and enhanced True Form rewards together.",
+        "slot": "R",
+        "source_ids": [
+          "riot:R",
+          "wiki:endlessbanquet"
+        ],
+        "subject_id": "wiki:endlessbanquet",
+        "title": "Endless Banquet",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Endless Banquet",
+        "answer": "Repeated attacks against the same target build increasing bonus true damage. Champion and epic monster takedowns leave Void Coral that she can consume, slowing nearby enemies before a true damage explosion that scales with missing health. Consumption grants True Form with bonus health, attack range, and attack speed; further consumption refreshes the form and heals her. Enhanced coral from Baron Nashor, the pit Rift Herald, or Voidgrubs empowers True Form to spawn Void Remora from nearby dying minions.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Bel'Veth",
+        "cooldown": "",
+        "counterplay": "Avoid sustained trades, move away from coral consumption, and contest her access to enhanced coral when practical.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/c62620746fe7314275cd902f74afe61e404401684013ea05b5588530d68d5876.png",
+        "id": "champ:belveth:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/8f5852c107afa1ce39b443bb423d505269d1db2e4d5e140e3519d741d0301b5a.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/bel-veth/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

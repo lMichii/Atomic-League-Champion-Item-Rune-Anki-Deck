@@ -1,0 +1,1150 @@
+{
+  "approval_blockers": [
+    "All six cards are drafts requiring explicit editorial approval.",
+    "All clips/cues need manual visual verification.",
+    "Game patch label has not been independently established."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "-"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:anivia:overview:L1",
+      "issues": [
+        "UNAPPROVED draft.",
+        "AP is a broad learning focus, not an optimal item build."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": null,
+      "media_type": "portrait",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Recognizing her area control helps explain her role in fights."
+      },
+      "slot": "-",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "When Rebirth is available, fatal damage turns Anivia into an egg.",
+            "covered": true,
+            "mechanic_id": "P.egg",
+            "reason": "Explains both availability and the fatal-damage transformation."
+          },
+          {
+            "answer_quote": "She revives if the egg survives for a few seconds.",
+            "covered": true,
+            "mechanic_id": "P.revive",
+            "reason": "Makes revival conditional on egg survival."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "P"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:anivia:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The visible cue is a tentative proposal, not current-client visual verification.",
+        "Full health at completed revival is not consistently established; Wiki distinguishes initial restoration from remaining health at revival.",
+        "Resurrection defense modifiers depend on level and are not always positive. Tether, revival-priority and channel interactions are omitted advanced details."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Upon taking fatal damage, Anivia reverts to an egg and is reborn with full health.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Anivia enters resurrection for 6 seconds and restores all of her health.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "If Anivia remains alive by the end of the duration, she is revived with her current health.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "disputed",
+            "summary": "Health timing differs in precision: Riot describes rebirth with full health; Wiki specifies full health upon entering resurrection and revival with remaining current health. Guaranteed full health upon completing resurrection is not established consistently."
+          },
+          {
+            "citations": [
+              {
+                "quote": "While under resurrection, Anivia is unable to act and gains -40 – 20 (based on level) bonus armor and bonus magic resistance.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "During resurrection she cannot act, and her armor and magic resistance modifiers depend on level; these modifiers are not always positive."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Triggering Rebirth will break tethers on Anivia.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Chronoshift and Guardian Angel will take priority over Rebirth.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "If Rebirth triggers while Anivia is channeling Teleport, her channel won't be interrupted.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "All other channels will be interrupted upon triggering Rebirth.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Rebirth breaks tethers, yields priority to Chronoshift and Guardian Angel, and interrupts channels except Teleport."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Upon taking fatal damage, Anivia reverts to an egg",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Periodically, upon dying, Anivia will instead revert into an egg.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.egg",
+            "summary": "When available, fatal damage turns Anivia into an egg instead of immediately killing her."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the egg can survive for a few seconds, she is gloriously reborn.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "If Anivia remains alive by the end of the duration, she is revived with her current health.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.revive",
+            "summary": "She revives if the egg survives the resurrection period."
+          }
+        ],
+        "slot": "P",
+        "unsupported_claims": [
+          "The egg is invulnerable or revival is guaranteed.",
+          "Resurrection always grants increased defenses.",
+          "Anivia is guaranteed full health when resurrection completes."
+        ]
+      },
+      "media_type": "icon",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The egg can give her another chance to survive after fatal damage."
+      },
+      "slot": "P",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "proposed_unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Anivia launches an ice projectile that damages and slows enemies along its path.",
+            "covered": true,
+            "mechanic_id": "Q.projectile",
+            "reason": "Explains the projectile's path damage and slow."
+          },
+          {
+            "answer_quote": "Its explosion damages and stuns nearby enemies.",
+            "covered": true,
+            "mechanic_id": "Q.explosion",
+            "reason": "Assigns the area damage and stun to the explosion."
+          },
+          {
+            "answer_quote": "She can recast during flight to explode it early; otherwise, it explodes at maximum range.",
+            "covered": true,
+            "mechanic_id": "Q.recast",
+            "reason": "Explains manual early detonation and automatic maximum-range detonation."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "Q"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:anivia:q:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The initial pass does not itself stun. Blocking that pass with a spell shield does not also block the explosion.",
+        "Slow refresh, ability-activation interactions and projectile origin are omitted advanced details."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Recast: Anivia shatters the ice, dealing magic damage to nearby enemies and stunning them for a duration, as well as refreshing the slow.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "The explosion also refreshes the slow."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Spell shield can block the effects of either the active or the recast, but not both if the former is blocked.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "A spell shield can block the initial pass or explosion, but blocking the initial pass does not also block the explosion."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The initial cast and the manual recast count as ability activations for the purposes of on-cast effects such as Spellblade and triggering Force Pulse's passive.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "If the ability is not manually recasted, the secondary effect will trigger without being considered as an ability activation.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Flash Frost will fire from wherever Anivia was at the start of the cast time.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Manual recasting counts as an ability activation; automatic detonation does not. The projectile originates from her position at cast start."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "chilling and damaging anyone in its path",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Anivia launches a chunk of ice that deals magic damage and slows enemies hit.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.projectile",
+            "summary": "Launches an ice projectile that damages and slows enemies along its path."
+          },
+          {
+            "citations": [
+              {
+                "quote": "When the sphere explodes it does moderate damage in a radius, stunning anyone in the area.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Recast: The ice explodes, dealing magic damage and stunning nearby enemies.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.explosion",
+            "summary": "The projectile explodes to damage and stun nearby enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Flash Frost can be recast while the ice is in flight after its cast time, and does so automatically at maximum range.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.recast",
+            "summary": "Can be recast during flight to explode early; otherwise it explodes at maximum range."
+          }
+        ],
+        "slot": "Q",
+        "unsupported_claims": [
+          "The projectile stops at the first enemy hit.",
+          "The initial projectile pass itself stuns.",
+          "A spell shield blocking the initial pass also blocks the explosion."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The explosion's stun can stop an advance and set up further damage."
+      },
+      "slot": "Q",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Anivia creates a temporary ice wall that blocks movement through its terrain.",
+            "covered": true,
+            "mechanic_id": "W.terrain",
+            "reason": "Explains movement-blocking terrain without claiming every movement ability is prevented from crossing."
+          },
+          {
+            "answer_quote": "The wall melts after a short time.",
+            "covered": true,
+            "mechanic_id": "W.temporary",
+            "reason": "Explicitly explains that the wall expires."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "W"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:anivia:w:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The terrain description does not establish that every dash or blink is prevented from crossing.",
+        "Placement displacement and its combat interactions are omitted advanced details. Knockback speed is explicitly pending testing.",
+        "The wall does not block sight; projectile blocking is unsupported."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Anivia summons a wall of ice at the target location perpendicular to her facing, knocking all units away from it, though not through terrain.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "The wall appears perpendicular to Anivia's facing and displaces units at its placement, without knocking them through terrain."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Crystallize's displacement triggers in-combat effects by dealing 0 proc true damage, such as drawing turret aggro, Sudden Impact and applying Elixir of Sorcery.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Player-generated terrain such as Crystallize does not block sight.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Its displacement can trigger combat effects through zero proc true damage. The wall does not block sight."
+          },
+          {
+            "citations": [
+              {
+                "quote": "PENDING FOR TEST: Knockback speed?",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "uncertain",
+            "summary": "Knockback speed is explicitly pending testing and is not established."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Anivia condenses the moisture in the air into an impassable wall of ice to block all movement.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "The wall lingers as impassable terrain for 5 seconds.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.terrain",
+            "summary": "Creates an ice wall that blocks movement through its terrain."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The wall only lasts a short duration before it melts.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Anivia erects a wall of ice that lingers for a few seconds, blocking movement.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.temporary",
+            "summary": "The wall is temporary and disappears after a short duration."
+          }
+        ],
+        "slot": "W",
+        "unsupported_claims": [
+          "The wall blocks projectiles.",
+          "The wall blocks vision.",
+          "Every dash, blink, or other movement ability is prevented from crossing the wall.",
+          "The pending knockback speed has been verified."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Blocking a route can split enemies or cut off an escape."
+      },
+      "slot": "W",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Anivia deals magic damage to a targeted enemy.",
+            "covered": true,
+            "mechanic_id": "E.targeted_damage",
+            "reason": "States targeting and damage type."
+          },
+          {
+            "answer_quote": "The damage doubles if the enemy was recently hit by Flash Frost or damaged by a fully formed Glacial Storm.",
+            "covered": true,
+            "mechanic_id": "E.double_damage",
+            "reason": "Explains both qualifying sources and retains the fully formed storm requirement."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "E"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:anivia:e:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The qualifying mark must remain active at impact; its presence at cast time does not guarantee double damage.",
+        "The abbreviated Wiki summary omits the fully formed storm condition; Riot and detailed Wiki mechanics agree on it.",
+        "Target invalidation during casting has cancellation exceptions omitted here."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Enemies hit by Flash Frost or a fully formed Glacial Storm become Iced for 3 seconds, refreshing on subsequent hits.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "The damage of Frostbite is calculated once it hits. If the target's mark from being hit by Flash Frost or a fully formed Glacial Storm wears off while the projectile is traveling, the damage is not doubled.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The Iced mark lasts three seconds and refreshes on qualifying hits. Double damage is determined on impact, so a mark expiring during travel prevents the bonus."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Specified target invalidations during cast time cancel Frostbite without spending its cost or triggering its cooldown."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Anivia blasts a freezing gust of wind at her target, dealing damage.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Anivia blasts a freezing wind at the target enemy that deals magic damage",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.targeted_damage",
+            "summary": "Deals magic damage to a targeted enemy."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the target was recently hit by Flash Frost or damaged by a fully formed Glacial Storm, the damage they take is doubled.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Enemies hit by Flash Frost or a fully formed Glacial Storm become Iced for 3 seconds, refreshing on subsequent hits.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "doubled if they were Iced",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.double_damage",
+            "summary": "Deals double damage to enemies recently hit by Flash Frost or a fully formed Glacial Storm."
+          }
+        ],
+        "slot": "E",
+        "unsupported_claims": [
+          "Any slow or ice-themed ability enables double damage.",
+          "Glacial Storm before it fully forms enables double damage.",
+          "Casting Frostbite while the mark is active guarantees double damage even if the mark expires before impact."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The qualifying hits create a major increase in her damage threat."
+      },
+      "slot": "E",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Anivia toggles a persistent storm at a chosen location that repeatedly damages and slows enemies inside.",
+            "covered": true,
+            "mechanic_id": "R.toggle",
+            "reason": "Explains a toggled storm placed at a chosen location; persistence does not explicitly promise immunity to interruption."
+          },
+          {
+            "answer_quote": "Anivia toggles a persistent storm at a chosen location that repeatedly damages and slows enemies inside.",
+            "covered": true,
+            "mechanic_id": "R.damage_slow",
+            "reason": "Explicitly describes repeated damage and slowing within the area."
+          },
+          {
+            "answer_quote": "The storm grows after activation, dealing more damage and applying a stronger slow at full size.",
+            "covered": true,
+            "mechanic_id": "R.growth",
+            "reason": "Explains growth and both full-size enhancements."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "R"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:anivia:r:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Persistence is conditional: excessive distance, insufficient mana or cast-inhibiting crowd control ends the storm.",
+        "The abbreviated interruption summary is broader than the detailed rules. Zhonya's stasis preserves the storm; allied or enemy Devour interrupts it.",
+        "Flash Frost slow enhancement, the final damage tick and the visible slow trail are omitted advanced details. The trail does not establish true sight."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Passive: Flash Frost's slow strength is increased.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Glacial Storm also increases Flash Frost's slow strength."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Toggling Glacial Storm off triggers a final tick of damage and incurs its full cooldown.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Glacial Storm is toggled off automatically if Anivia moves too far away from the blizzard or becomes unable to pay the mana cost, or is affected by any form of cast-inhibiting crowd control.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Turning the storm off deals a final damage tick. Excessive distance, insufficient mana, or cast-inhibiting crowd control automatically ends it."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Stasis via Zhonya's Hourglass doesn't interrupt Glacial Storm.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Tahm Kench's Devour does interrupt (allied and enemy) Glacial Storm.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Glacial Storm's slow leaves a trail that is visible even if the target is stealthed.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Zhonya's stasis preserves the storm, while allied or enemy Devour interrupts it. Its slow leaves a visible trail even on stealthed targets."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Toggle: Anivia summons a driving rain of ice and hail at the target location",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.toggle",
+            "summary": "Toggles a persistent storm at a target location."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Anivia summons a driving rain of ice and hail to damage her enemies and slow their advance.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "continually deals magic damage and slows enemies within",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.damage_slow",
+            "summary": "Repeatedly damages and slows enemies inside the storm."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The blizzard increases in size over 1.5 seconds. At maximum size, Glacial Storm is empowered to deal 300% damage and increase the effectiveness of its slow by 50%",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.growth",
+            "summary": "Grows after activation; at full size it deals more damage and applies a stronger slow."
+          }
+        ],
+        "slot": "R",
+        "unsupported_claims": [
+          "The storm follows Anivia.",
+          "Anivia must remain inside the storm to maintain it.",
+          "Every disable interrupts the storm.",
+          "The visible slow trail grants true sight or makes stealthed enemies targetable."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Its growing damage and slow make remaining in the area increasingly dangerous."
+      },
+      "slot": "R",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Stun availability affects her ability to stop enemies and set up damage.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Wall availability affects whether she can block an approach or escape route.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Repeated targeted damage matters after qualifying hits enable its bonus.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Turning the storm off or interrupting it affects when she can establish the area again.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "The overview names the three damaging spells with supplied magic-damage and AP-scaling evidence; it does not generalize these properties to Crystallize.",
+    "Sources are frozen to the supplied releases; no current game patch or current-client verification is established.",
+    "Passive visuals support only a tentative cue proposal, without skin-specific, color-specific or VFX verification.",
+    "Counterplay and priority explanations are inferred teaching guidance grounded in the supplied effects.",
+    "Wiki lore, skin descriptions and pending-test notes are not additional mechanics evidence.",
+    "This is a text evidence support check, not human approval or visual verification; all six drafts remain unapproved.",
+    "The passive visual description is mechanically supported, but its appearance and current-client accuracy are not verified.",
+    "Frostbite's qualifying mark must still exist at impact. The draft's general recent-hit explanation is supported and does not guarantee bonus damage from cast-time qualification.",
+    "Storm persistence is conditional on distance, mana and interruption rules. Their omission is acceptable introductory simplification, not evidence of unconditional persistence.",
+    "Crystallize knockback speed remains explicitly unverified; no draft claim depends on it.",
+    "Evidence is frozen to the supplied versions and does not establish current-patch accuracy.",
+    "Counterplay and priorities are reasonable mechanic-grounded inferences. No visible inference, confidence or development labels appear in the learning text."
+  ],
+  "findings": [],
+  "generation": {
+    "author": {
+      "attempts": 2,
+      "configured_model": "",
+      "execution_attempts": 2,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 30173,
+            "output_tokens": 3181,
+            "reasoning_output_tokens": 27
+          }
+        ]
+      },
+      "output_sha256": "7fa5a09ed5a6e3c98ed5f2a6ac9c6570f671e2ff92f44bc3181efe7fab0a06cb",
+      "prior_errors": [
+        "Unknown conflict source"
+      ],
+      "provider": "codex",
+      "request_sha256": "a031bded2d7681007d5165618bb21299a3f70c5f3564acb62d905a3605bd880e"
+    },
+    "mechanics": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 20404,
+            "output_tokens": 3443,
+            "reasoning_output_tokens": 37
+          }
+        ]
+      },
+      "output_sha256": "24a16dacf95eb99e35978afa26e3a3a34376cf5c138057c2e383aeeb0b9819c0",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "41eb3494345cee1f1c703a742052c0627bb66e9bc77055f24c1ac65acefc4af1"
+    },
+    "passes": [
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 25533,
+                "output_tokens": 3212,
+                "reasoning_output_tokens": 23
+              }
+            ]
+          },
+          "output_sha256": "65a08bad152e8926945ac74e408a6b6590465ed174ec5922291f759b6e516236",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "6b09c5b23cbdf04b02fe5b78ca2d015fe29405ec1721b9918158bb034cf5fa36"
+        },
+        "pass": 1,
+        "support_issues": 1,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 27590,
+                "output_tokens": 1673,
+                "reasoning_output_tokens": 48
+              }
+            ]
+          },
+          "output_sha256": "4949e0b7d28ec599f094bcec821a994b7bacf94c335e2174a850254e4417442f",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "b08cdf0a6cdbfeb9bfd008d6f2c65c5a84149177819d95f066c99990f7ec9b98"
+        }
+      },
+      {
+        "author": {
+          "attempts": 2,
+          "configured_model": "",
+          "execution_attempts": 2,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 30173,
+                "output_tokens": 3181,
+                "reasoning_output_tokens": 27
+              }
+            ]
+          },
+          "output_sha256": "7fa5a09ed5a6e3c98ed5f2a6ac9c6570f671e2ff92f44bc3181efe7fab0a06cb",
+          "prior_errors": [
+            "Unknown conflict source"
+          ],
+          "provider": "codex",
+          "request_sha256": "a031bded2d7681007d5165618bb21299a3f70c5f3564acb62d905a3605bd880e"
+        },
+        "pass": 2,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12672,
+                "input_tokens": 27758,
+                "output_tokens": 1586,
+                "reasoning_output_tokens": 34
+              }
+            ]
+          },
+          "output_sha256": "c864eeb7be446c9b1471bab2ef52fba637ad5c2ccc93954d29b13978f89e48fd",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "4ca98e1456a03bb177c747351cd9a8b8125d7883d02c7b2b865873c941d6ed52"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "92a662748a56208cf844dd93cd9a59b32b80403dce640a3ea369ad91eb104c81",
+    "verifier": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 12672,
+            "input_tokens": 27758,
+            "output_tokens": 1586,
+            "reasoning_output_tokens": 34
+          }
+        ]
+      },
+      "output_sha256": "c864eeb7be446c9b1471bab2ef52fba637ad5c2ccc93954d29b13978f89e48fd",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "4ca98e1456a03bb177c747351cd9a8b8125d7883d02c7b2b865873c941d6ed52"
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:anivia:e:recognize:L2": {
+      "cid": 2491722020522,
+      "guid": "ea4b1ed3cadbf4",
+      "nid": 1991722020522
+    },
+    "champ:anivia:overview:L1": {
+      "cid": 2426329752433,
+      "guid": "063a7596ca245f",
+      "nid": 1926329752433
+    },
+    "champ:anivia:p:recognize:L2": {
+      "cid": 2441540579100,
+      "guid": "c829b63301bd96",
+      "nid": 1941540579100
+    },
+    "champ:anivia:q:recognize:L2": {
+      "cid": 2427306958376,
+      "guid": "fabaabe9417a79",
+      "nid": 1927306958376
+    },
+    "champ:anivia:r:recognize:L2": {
+      "cid": 2389442629997,
+      "guid": "de343d1821f6e2",
+      "nid": 1889442629997
+    },
+    "champ:anivia:w:recognize:L2": {
+      "cid": 2564901076004,
+      "guid": "73a18499206125",
+      "nid": 2064901076004
+    }
+  },
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "Exact-quote matching does not prove semantic truth.",
+    "AI verification is fallible and is not a human content or visual review."
+  ],
+  "media_references": [
+    "anivia_e.gif",
+    "anivia_e_icon.png",
+    "anivia_p.gif",
+    "anivia_p_icon.png",
+    "anivia_portrait.jpg",
+    "anivia_q.gif",
+    "anivia_q_icon.png",
+    "anivia_r.gif",
+    "anivia_r_icon.png",
+    "anivia_w.gif",
+    "anivia_w_icon.png"
+  ],
+  "new_cards": 6,
+  "passive_frame_evidence": [
+    {
+      "path": "visual-inputs/passive-1.png",
+      "sha256": "d495892bd305312a8b1dccb8a544bf33d3ea0ae0a6db2ce29199e7afe0ee6154",
+      "source_sha256": "731b8ea25e49926ae88964cc81286140dc2d0dbf717fe0e92e6fbd6721ec01ee",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 1.662
+    },
+    {
+      "path": "visual-inputs/passive-2.png",
+      "sha256": "f7e1703c71cc290399b1d4ef2046066c677d2659bcf0ab55f0a84787dbeda2f9",
+      "source_sha256": "731b8ea25e49926ae88964cc81286140dc2d0dbf717fe0e92e6fbd6721ec01ee",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 4.432
+    },
+    {
+      "path": "visual-inputs/passive-3.png",
+      "sha256": "e749ef6b611a1c764d5498f081777831966f3ff2a7ea8abae94f92a5c57a3653",
+      "source_sha256": "731b8ea25e49926ae88964cc81286140dc2d0dbf717fe0e92e6fbd6721ec01ee",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 7.202
+    },
+    {
+      "path": "visual-inputs/passive-4.png",
+      "sha256": "300fdc450610014b65554ad861dd2e156fda57d06a9d590bde2a10086c769fe9",
+      "source_sha256": "731b8ea25e49926ae88964cc81286140dc2d0dbf717fe0e92e6fbd6721ec01ee",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 9.972
+    }
+  ],
+  "publishable": false,
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "resolution": "Describe survival-dependent revival without guaranteeing full health on completion; distinguish initial health restoration from remaining health at revival.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Rebirth health restoration timing"
+    },
+    {
+      "resolution": "Retain the fully formed storm requirement shared by Riot and the detailed Wiki mechanics.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Frostbite storm qualification"
+    },
+    {
+      "resolution": "Use the detailed distance and cast-inhibiting crowd-control rules; do not claim she must stand inside the storm or that every disable interrupts it.",
+      "source_ids": [
+        "wiki:R",
+        "wiki:R"
+      ],
+      "topic": "Glacial Storm maintenance and interruption"
+    },
+    {
+      "resolution": "Completed revival at full health remains unresolved: Riot's summary says full health, while the detailed Wiki distinguishes initial restoration from current health at revival. The draft correctly avoids guaranteeing completion health.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Rebirth health restoration timing"
+    },
+    {
+      "resolution": "Use Riot and the detailed Wiki requirement of a fully formed storm. The abbreviated Wiki statement omits this condition; the draft retains it.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Frostbite storm qualification"
+    },
+    {
+      "resolution": "Prefer the detailed distance, mana and cast-inhibiting crowd-control rules over the abbreviated interruption summary. The draft makes no universal interruption claim.",
+      "source_ids": [
+        "wiki:R",
+        "wiki:R"
+      ],
+      "topic": "Glacial Storm maintenance and interruption"
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "3891994"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "Takedowns on enemy champions, large minions, and large monsters grant Shyvana Scalemail stacks, improving her defenses.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Shyvana_Passive.png",
+      "name": "Scalemail",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_P1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "description": "Shyvana's next attack strikes both the target and the surrounding area. This Ability can be recast. While in Dragon Form, it gains an additional recast, dealing massive damage to a single target.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaQ.png",
+      "name": "Emberstrike",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        13,
+        12.25,
+        11.5,
+        10.75,
+        10
+      ],
+      "description": "Shyvana gains a shield, movement speed, and after a short delay, the area around her detonates. While in Dragon Form, the explosion will heal her if it strikes an enemy champion.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaW.png",
+      "name": "Inferno Aegis",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Shyvana launches a fireball that explodes upon striking a large target and slows them. In Dragon Form, it passes through and explodes upon striking large enemies, leaving behind a trail of fire.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaE.png",
+      "name": "Molten Burst",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        0,
+        0,
+        0
+      ],
+      "description": "Shyvana transforms into a Dragon and leaps forward causing enemies along her path to flee. While in Dragon form she becomes larger and her basic abilities are empowered.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaR.png",
+      "name": "Dragon's Descent",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Shyvana"
+  },
+  "champion": {
+    "ddragon_id": "Shyvana",
+    "name": "Shyvana",
+    "riot_id": 102,
+    "roles": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/Shyvana/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "167d2c39f171be007904f0801ceab155ab3dfcecf31b08ccfd05335b5d603534",
+      "text": "Takedowns on enemy champions, large minions, and large monsters grant Shyvana Scalemail stacks, improving her defenses.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Shyvana.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "Scalemail",
+      "provider": "league_wiki",
+      "sha256": "7feef44af79ff346f4b158f50116a724756a64165532d129b35a5b076099059d",
+      "text": "Scalemail\nInnate: Shyvana generates Scalemail stacks from scoring takedowns against certain enemies. Large monsters and large minions grant a stack, while enemy champions and epic monsters grant more. Scalemail: For each stack, Shyvana gains bonus armor and bonus magic resist.\nInnate: Shyvana generates Scalemail stacks from scoring takedowns against certain enemies. Large monsters and large minions grant 1 stack, while enemy champions and epic monsters grant 3.\nScalemail: For each stack, Shyvana gains 0.3 bonus armor and 0.3 bonus magic resistance.\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nEach Scalemail stack is worth 12.\n0.3 armor is worth 6.\n0.3 magic resistance is worth 6.\nMap-Specific Differences\nARAM differences edit\nAlternative Innate: While alive, Shyvana gains 1.5 bonus armor, 1.5 bonus magic resistance, and 0.2 bonus Fury regeneration whenever a large minion dies within 1400 units of her, or when she is healed by a health relic's area of effect on the enemy's side of the map.\nNexus Blitz differences edit\nAlternative Innate: Shyvana gains 2 bonus armor, 2 bonus magic resistance and 0.05 bonus Fury regeneration whenever she or her allies kill nearby epic monsters, jungle monsters, and Rift Scuttler.\nArena differences edit\nAdditionally gain 3 stacks of Scalemail per round.\nStats changed to 1.2 bonus armor and 0.8 bonus magic resistance per stack.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Shyvana?oldid=4043672"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/Shyvana/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "167d2c39f171be007904f0801ceab155ab3dfcecf31b08ccfd05335b5d603534",
+      "text": "Shyvana's next attack strikes both the target and the surrounding area. This Ability can be recast. While in Dragon Form, it gains an additional recast, dealing massive damage to a single target.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Shyvana.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Emberstrike",
+      "provider": "league_wiki",
+      "sha256": "7feef44af79ff346f4b158f50116a724756a64165532d129b35a5b076099059d",
+      "text": "Emberstrike\nCOOLDOWN:\n10 / 9 / 8 / 7 / 6\nCAST TIME:\nnone\nEFFECT RADIUS:\n275\nPassive: Shyvana's basic attacks on-hit will reduce Emberstrike's current cooldown, and deal bonus magic damage based on the target's maximum health. Active: Each cast empowers Shyvana's next basic attack within a few seconds to trigger an additional exclusive effect. Emberstrike can be recast shortly after the attack.\nFirst Cast: Shyvana's slashes her claws, blasting a cone that deals physical damage to enemies hit. Second Cast: Shyvana slams her tail, dealing the same damage to the target and surrounding enemies. Dragon Form Bonus — Third Cast: Shyvana bites ferociously, dealing true damage.\nPassive: Shyvana's basic attacks on-hit will reduce Emberstrike's current cooldown by 0.5 seconds, and deal bonus magic damage equal to 1% (+ 1.1% per 100 bonus AD) of the target's maximum health. Against non-champions, this effect deals a minimum of 10 and is capped at 200.\nActive: Emberstrike can be cast twice in Human Form and thrice in Dragon Form. Each cast empowers Shyvana's next basic attack within 6 seconds to have an uncancellable windup and trigger an additional exclusive effect. After 1.5 seconds of using an Emberstrike attack, or immediately following a basic attack, the ability can be recast within and up to the next 4 seconds each time, before it incurs its cooldown. Shyvana gains 50 bonus range on all of her basic attacks while Emberstrike is active. The attacks deal 10 bonus physical damage against monsters.\nFirst Cast: Shyvana slashes her claws, blasting a cone in the target's direction that deals modified physical damage to enemies hit. The damage to the primary target is affected by critical strike modifiers.\nArea Physical Damage:10 / 15 / 20 / 25 / 30 (+ 110% AD) (+ 30% AP)\nSecond Cast: Shyvana slams her tail, dealing the same damage to the target and surrounding enemies.\nDragon Form Bonus — Third Cast: Shyvana takes a bite out of the target, dealing modified true damage. This damage cannot critically strike.\nTrue Damage:15 / 22.5 / 30 / 37.5 / 45 (+ 165% AD) (+ 45% AP)\nAll casts reset Shyvana's basic attack timer.\nNotes/General Details\nTargeting input\nAuto\nAffects\nEnemies\nDamage classification\nType\nSee Notes\nSub-type(s)\nPhysical Magic\nCounters\nSpell shield\nNot Blocked\nParries\nMissing\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nApplies spell damage to the primary target (attack target) and area damage to secondary targets. The passive on-hit damage applies proc damage.\nSpell shield will not block any damage nor be consumed by the strikes.\nThe true damage is always equal to 150% of the pre-mitigation physical damage.\nBlind will negate the damage to the primary target, but not to any secondary targets.\nPENDING FOR TEST: Interaction with parrying effects ( dodge, block).\nOnly the last cast of Emberstrike puts Shyvana's basic attack on cooldown.\nIn Human Form, only Q2 will put it on cooldown; in Dragon Form, only Q3 will.\nThis results in the same functionality as Leona's Shield of Daybreak and Volibear's Thundering Smash, effectively being a triple/quintuple attack reset.\nMap-Specific Differences\nArena differences edit\nAD ratio changed to 100% AD.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Shyvana?oldid=4043672"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/Shyvana/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "167d2c39f171be007904f0801ceab155ab3dfcecf31b08ccfd05335b5d603534",
+      "text": "Shyvana gains a shield, movement speed, and after a short delay, the area around her detonates. While in Dragon Form, the explosion will heal her if it strikes an enemy champion.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Shyvana.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Inferno Aegis",
+      "provider": "league_wiki",
+      "sha256": "7feef44af79ff346f4b158f50116a724756a64165532d129b35a5b076099059d",
+      "text": "Inferno Aegis\nCOOLDOWN:\n13 / 12.25 / 11.5 / 10.75 / 10\nCAST TIME:\nnone\nEFFECT RADIUS:\n350 • 2000 • 600\nActive: Shyvana shields herself for a short time, with the shield strength increased for every nearby enemy champion. For the same duration, she gains bonus move speed, increased while facing enemy champions. Inferno Aegis can be recast while the shield holds and does so automatically after it expires or is broken. Recast: Shyvana consumes the shield to explode, dealing magic damage to nearby enemies.\nActive: Shyvana shields herself for 2.5 seconds, with the shield strength increased by 30% for every nearby enemy champion. For the same duration, she gains 25% bonus movement speed, increased to 43.75% while facing visible enemy champions.\nShield Strength:60 / 80 / 100 / 120 / 140 (+ 12% bonus health)\nIncreased shield per champion:18 / 24 / 30 / 36 / 42 (+ 3.6% bonus health)\nAfter 1 second, Inferno Aegis can be recast while the shield holds and does so automatically after it expires or is broken.\nRecast: Shyvana consumes the shield to explode, dealing magic damage to nearby enemies.\nMagic Damage:80 / 100 / 120 / 140 / 160 (+ 65% AP)\nDragon Form Bonus: If the explosion hits an enemy champion, Shyvana heals herself for 60 – 104.71 (based on level) (+ 4% – 8.47% (based on level) missing health).\nNotes/General Details\nTargeting input\nAuto\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nNo additional details.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Shyvana?oldid=4043672"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/Shyvana/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "167d2c39f171be007904f0801ceab155ab3dfcecf31b08ccfd05335b5d603534",
+      "text": "Shyvana launches a fireball that explodes upon striking a large target and slows them. In Dragon Form, it passes through and explodes upon striking large enemies, leaving behind a trail of fire.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Shyvana.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Molten Burst",
+      "provider": "league_wiki",
+      "sha256": "7feef44af79ff346f4b158f50116a724756a64165532d129b35a5b076099059d",
+      "text": "Molten Burst\nCOOLDOWN:\n12 / 11 / 10 / 9 / 8\nCAST TIME:\n0.25 • 0.3333\nRANGE:\n800 • 1000\nEFFECT RADIUS:\n150 • 300\nWIDTH:\n120 • 100\nSPEED:\n1500 • 1600\nActive: Shyvana launches a fireball that explodes upon colliding with the first enemy or reaching maximum range, dealing magic damage to enemies hit and slowing them for a moment. Dragon Form Bonus: The fireball is wider, can pass through enemies, and deals increased damage. Upon hitting an enemy champion or large monster, or reaching maximum range, the fireball sets an explosion that applies the same effects. Molten Burst will also scorch the ground it touches beneath, enemies within a scorched field are continually dealt magic damage.\nActive: Shyvana launches a fireball in the target direction that explodes upon colliding with the first enemy or reaching maximum range, dealing magic damage to enemies hit and slowing them by 30% for 2 seconds.\nMagic Damage:50 / 65 / 80 / 95 / 110 (+ 60 / 65 / 70 / 75 / 80% AP) (+ 5% of target's maximum health)\nDragon Form Bonus: The fireball is wider, can pass through enemies, and deals 25% increased damage. Upon hitting an enemy champion or large monster, and after reaching maximum range, the fireball sets an explosion upon the targets struck and at the location that applies the same effects. Molten Burst will also scorch the ground it touches beneath for 2 seconds. Enemies within a scorched field are dealt 3.75 / 5 / 6.25 (based on level) (+ 1.25% AP) magic damage every 0.25 seconds, for a total maximum damage of 30 / 40 / 50 (based on level) (+ 10% AP).Enemies may be damaged by only one scorched field at a time. Subsequent explosions against the same target deal 40% damage.\nIncreased/Explosion Magic Damage:62.5 / 81.25 / 100 / 118.75 / 137.5 (+ 75 / 81.25 / 87.5 / 93.75 / 100% AP) (+ 6.25% of target's maximum health)\nSubsequent Explosion Damage:25 / 32.5 / 40 / 47.5 / 55 (+ 30 / 32.5 / 35 / 37.5 / 40% AP) (+ 2.5% of target's maximum health)\nNotes/General Details\nTargeting input\nDirection / Location\nTarget out-of-range override\nWhile in Dragon Form, target at maximum range (clamped)\nAffects\nEnemies\nDamage classification\nType\nSee Notes\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe fireball applies area damage. In Dragon Form, the explosion applies area damage and the scorched field deals persistent area damage.\nIn Dragon Form, both areas of effect will be centered on the first champion struck, not at the location the missile collided with them.\nMolten Burst will fail to go on cooldown if its cast time starts in Dragon Form and ends in Human Form.(bug)\nThis ability will cast from wherever the caster is at the end of the cast time.\nMap-Specific Differences\nUltra Rapid Fire differences edit\nExplosion base damage changed to 75 – 195 (based on level).\nArena differences edit\nOn-hit damage health ratio changed to 2% of target's maximum health.\nOn-hit bonus AD ratio changed to 0.5% per 100 bonus AD.\nDragon Form fireball bonus AD ratio changed to 80% bonus AD.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Shyvana?oldid=4043672"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/Shyvana/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "167d2c39f171be007904f0801ceab155ab3dfcecf31b08ccfd05335b5d603534",
+      "text": "Shyvana transforms into a Dragon and leaps forward causing enemies along her path to flee. While in Dragon form she becomes larger and her basic abilities are empowered.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Shyvana.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Dragon's Descent",
+      "provider": "league_wiki",
+      "sha256": "7feef44af79ff346f4b158f50116a724756a64165532d129b35a5b076099059d",
+      "text": "Dragon's Descent\nCOST:\n3.3 Dragon Fury every 0.5 seconds\nCAST TIME:\n0.25\nTARGET RANGE:\n400 - 1050\nPassive - Fury: Shyvana generates Fury every second while in Human Form, and also generates Fury from her basic attacks and abilities when they deal damage. Active: Shyvana transforms into Dragon Form and dashes with displacement immunity, breathing fire in a cone that deals magic damage to enemies hit and briefly fears them. Dragon Form: Shyvana gains bonus health, bonus attack range, and increased size. Her abilities are empowered to apply an additional effect. She maintains Dragon Form at a recurring cost of Dragon Fury, returning to Human Form once all Dragon Fury has been depleted.\nPassive - Fury: Shyvana generates Dragon Fury every 0.5 seconds while in Human Form. Her basic attacks and abilities also generate 1.25 Dragon Fury for each enemy damaged, up to once per enemy per cast instance and increased「 by 200% 」「 to 3.75 」during Dragon Form. Against non-champions damaged by abilities, the generated amount is reduced to「 25%. 」「 0.3125 and 0.9375 Dragon Fury during Human Form and Dragon Form, respectively. 」Shyvana gains 1% bonus Dragon Fury generation from all sources per 1 ultimate haste. Shyvana gains 100 Dragon Fury upon learning Dragon's Descent.\nDragon Fury Generation per 0.5 Seconds:0.25 / 0.375 / 0.5Dragon Fury Generation per Second:0.5 / 0.75 / 1\nActive: Shyvana transforms into Dragon Form and flies with displacement immunity to the target location, breathing fire in a cone along the way that deals magic damage to enemies hit and fears them for 0.75 seconds, as well as slows them by 99% for the same duration.\nMagic Damage:150 / 250 / 350 (+ 100% AP)\nDragon Form: Shyvana gains bonus health, bonus attack range, and increased size. Her basic abilities are empowered to apply an additional effect. She maintains Dragon Form at a recurring cost of Dragon Fury, returning to Human Form once all Dragon Fury has been depleted.\nBonus Health:150 / 250 / 350\nBonus Range:25 / 50 / 75\nSize Increase:5 / 12.5 / 20%\n100 Dragon Fury is required to cast this ability.\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nEnemies, Self\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nGrounded\nDisabled\nKnockdown\nNot Interrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nDragon's Descent's displacement immunity begins from the start of the cast time.\nUltimate haste acquired while Shyvana is dead does not grant bonus Dragon Fury generation until she respawns.\nEmberstrike's attack against the primary target will generate the full Dragon Fury amount even if they're a non-champion.\nThe attack's area of effect will generate reduced Dragon Fury for secondary targets damaged.\nType\nCast time\nAttacking\nDisabled\nAbilities\nDisabled\nMovement\nDisabled\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nAll the other item-actives are disabled\nInterrupted by\nN/A\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nFlash Teleport Recall Hexflash\nInterrupted by\nN/A\nInterrupted by\nDeath, unless protected by Resurrection\nTips & Tricks\nBecause of how ultimate haste interacts with Shyvana's fury generation, it has a bigger effect than haste has on abilities with a regular cooldown.\nDragon's Descent essentially has a cooldown of 200 / 133.333 / 100 seconds, reduced by 0.625 / 0.4167 / 0.3125 for each damaging basic attack and ability hit, increased to 2.5 / 1.67 / 1.25 against champions.\nIt also essentially lasts for 15 seconds, increased by 0.140625 for each basic attack and ability hit, increased to 0.5625 against champions.\nNormally, with 100 haste, the only effect would be the cooldown getting reduced by 50% to 100 / 66.667 / 50, but because 100 ultimate haste grants Shyvana an extra 100% bonus fury generation from all sources, this also increases how much the \"cooldown\" is reduced by basic attacks and abilities to 1.25 / 0.8333 / 0.625 for non-champions and 5 / 3.33 / 2.5 for champions.\nThis is the opposite effect to abilities with cooldown reductions that scale with haste (e.g. Master Yi's Alpha Strike), which instead lower the reduction amount with haste. This happens because ultimate haste increases fury generation from all sources instead of only increasing her passive fury generation.\nAdditionally, this also affects the duration increase per basic attack or ability the same way, amounting to an extra 0.28125 against non-champions and 1.125 against champions.\nChampion skins[edit | edit source]\nThis article section only contains champion skins. For all associated collection items, see Shyvana (Collection).\nOriginal\n01.11.2011\nShyvana is a creature with the magic of a rune shard burning within her heart. Though she often appears humanoid, she can take her true form as a fearsome dragon, incinerating her foes with fiery breath. Having saved the life of the crown prince Jarvan IV, Shyvana now serves uneasily in his royal guard, struggling to find acceptance among the suspicious people of Demacia.\nKaren Strassman\nFortune 'Fortuneee' K\nLoot eligible\nView in 3D • View Music\nShyvana Ironscale\n750\n01.11.2011\nIt made sense that Shyvana wanted to play a powerful dragon in Riftquest, but what surprised her party more was the joyful penchant for destruction that the game brought out in their staunchly disciplined friend. Descending upon the battlefield with glee, Shyvana Ironscale's roar alone sends enemies and figurines flying (and sometimes her allies, too).\nKaren Strassman\nYuyu Wong, Kudos Productions\nRift Quest\nLoot eligible\nView in 3D\nBoneclaw\n520\n01.11.2011\nMany hunters claim Shyvana holds an unfair advantage when it comes to slaying the giant beasts that roam the land. Shyvana herself cares little about their opinions, preferring instead to channel her rage into her true form—a massive, fire-breathing dragon… that proves the hunters' point.\nKaren Strassman\nSu Fu, Kudos Productions\nPrehistoric Hunters\nLoot eligible\nView in 3D\nDarkflame\n975\n28.05.2012\nWith her humanity burned away by the Darkflame, Shvyana wreaks havoc upon the battlefield. It is said that any enemy touched by her flame will have their very soul incinerated by its dark magics.\nKaren Strassman\nSu Fu, Kudos Productions\nLegacy\nLoot eligible\nNew SFX/VFX\nView in 3D\nIce Drake\n975\n29.04.2013\nFrom the desolate reaches of the North, a dormant drake lay in rest. Upon Shyvana's arrival this behemoth awakened from its slumber and imbued her with the power of the frozen wastes. Now she stalks the tundra, searching for any foolish enough to cross her path.\nKaren Strassman\nKatie 'TeaTime' De Sousa\nBlackfrost\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nWorlds 2014\n975\n13.10.2014\nCelebrating Worlds 2014 in Korea.\nKaren Strassman\nBrandon 'Madspartan' Liao\nWorld Championship\nLoot eligible\nLegacy\nNew SFX/VFX\nNew Animations\nNew Recall\nChromas\nView in 3D\nWorlds 2014 Shyvana Chromas\nGolden\nSuper Galaxy\n1350\n25.05.2016\nBy far the most experienced of the entire Super Galaxy team, Shyvana is the leader her teammates sorely need. A transfer pilot from a different (but just as hyperbolically named) defense force, she does sometimes find herself at odds with her allies as much as her enemies—and periodically questions if the ten percent salary bonus was actually worth it.\nKaren Strassman\nXu 'Crow God' Cheng",
+      "url": "https://wiki.leagueoflegends.com/en-us/Shyvana?oldid=4043672"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/Shyvana/tags",
+      "provider": "riot_ddragon",
+      "sha256": "167d2c39f171be007904f0801ceab155ab3dfcecf31b08ccfd05335b5d603534",
+      "text": "Name: Shyvana. Official role tags: Fighter, Tank.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Shyvana.json"
+    },
+    {
+      "id": "wiki:scalemail",
+      "locator": "Scalemail",
+      "provider": "league_wiki",
+      "sha256": "7feef44af79ff346f4b158f50116a724756a64165532d129b35a5b076099059d",
+      "text": "Scalemail\nInnate: Shyvana generates Scalemail stacks from scoring takedowns against certain enemies. Large monsters and large minions grant a stack, while enemy champions and epic monsters grant more. Scalemail: For each stack, Shyvana gains bonus armor and bonus magic resist.\nInnate: Shyvana generates Scalemail stacks from scoring takedowns against certain enemies. Large monsters and large minions grant 1 stack, while enemy champions and epic monsters grant 3.\nScalemail: For each stack, Shyvana gains 0.3 bonus armor and 0.3 bonus magic resistance.\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nEach Scalemail stack is worth 12.\n0.3 armor is worth 6.\n0.3 magic resistance is worth 6.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Shyvana?oldid=4043672"
+    },
+    {
+      "id": "wiki:emberstrike",
+      "locator": "Emberstrike",
+      "provider": "league_wiki",
+      "sha256": "7feef44af79ff346f4b158f50116a724756a64165532d129b35a5b076099059d",
+      "text": "Emberstrike\nCOOLDOWN:\n10 / 9 / 8 / 7 / 6\nCAST TIME:\nnone\nEFFECT RADIUS:\n275\nPassive: Shyvana's basic attacks on-hit will reduce Emberstrike's current cooldown, and deal bonus magic damage based on the target's maximum health. Active: Each cast empowers Shyvana's next basic attack within a few seconds to trigger an additional exclusive effect. Emberstrike can be recast shortly after the attack.\nFirst Cast: Shyvana's slashes her claws, blasting a cone that deals physical damage to enemies hit. Second Cast: Shyvana slams her tail, dealing the same damage to the target and surrounding enemies. Dragon Form Bonus — Third Cast: Shyvana bites ferociously, dealing true damage.\nPassive: Shyvana's basic attacks on-hit will reduce Emberstrike's current cooldown by 0.5 seconds, and deal bonus magic damage equal to 1% (+ 1.1% per 100 bonus AD) of the target's maximum health. Against non-champions, this effect deals a minimum of 10 and is capped at 200.\nActive: Emberstrike can be cast twice in Human Form and thrice in Dragon Form. Each cast empowers Shyvana's next basic attack within 6 seconds to have an uncancellable windup and trigger an additional exclusive effect. After 1.5 seconds of using an Emberstrike attack, or immediately following a basic attack, the ability can be recast within and up to the next 4 seconds each time, before it incurs its cooldown. Shyvana gains 50 bonus range on all of her basic attacks while Emberstrike is active. The attacks deal 10 bonus physical damage against monsters.\nFirst Cast: Shyvana slashes her claws, blasting a cone in the target's direction that deals modified physical damage to enemies hit. The damage to the primary target is affected by critical strike modifiers.\nArea Physical Damage:10 / 15 / 20 / 25 / 30 (+ 110% AD) (+ 30% AP)\nSecond Cast: Shyvana slams her tail, dealing the same damage to the target and surrounding enemies.\nDragon Form Bonus — Third Cast: Shyvana takes a bite out of the target, dealing modified true damage. This damage cannot critically strike.\nTrue Damage:15 / 22.5 / 30 / 37.5 / 45 (+ 165% AD) (+ 45% AP)\nAll casts reset Shyvana's basic attack timer.\nNotes/General Details\nTargeting input\nAuto\nAffects\nEnemies\nDamage classification\nType\nSee Notes\nSub-type(s)\nPhysical Magic\nCounters\nSpell shield\nNot Blocked\nParries\nMissing\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nApplies spell damage to the primary target (attack target) and area damage to secondary targets. The passive on-hit damage applies proc damage.\nSpell shield will not block any damage nor be consumed by the strikes.\nThe true damage is always equal to 150% of the pre-mitigation physical damage.\nBlind will negate the damage to the primary target, but not to any secondary targets.\nPENDING FOR TEST: Interaction with parrying effects ( dodge, block).\nOnly the last cast of Emberstrike puts Shyvana's basic attack on cooldown.\nIn Human Form, only Q2 will put it on cooldown; in Dragon Form, only Q3 will.\nThis results in the same functionality as Leona's Shield of Daybreak and Volibear's Thundering Smash, effectively being a triple/quintuple attack reset.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Shyvana?oldid=4043672"
+    },
+    {
+      "id": "wiki:infernoaegis",
+      "locator": "Inferno_Aegis",
+      "provider": "league_wiki",
+      "sha256": "7feef44af79ff346f4b158f50116a724756a64165532d129b35a5b076099059d",
+      "text": "Inferno Aegis\nCOOLDOWN:\n13 / 12.25 / 11.5 / 10.75 / 10\nCAST TIME:\nnone\nEFFECT RADIUS:\n350 • 2000 • 600\nActive: Shyvana shields herself for a short time, with the shield strength increased for every nearby enemy champion. For the same duration, she gains bonus move speed, increased while facing enemy champions. Inferno Aegis can be recast while the shield holds and does so automatically after it expires or is broken. Recast: Shyvana consumes the shield to explode, dealing magic damage to nearby enemies.\nActive: Shyvana shields herself for 2.5 seconds, with the shield strength increased by 30% for every nearby enemy champion. For the same duration, she gains 25% bonus movement speed, increased to 43.75% while facing visible enemy champions.\nShield Strength:60 / 80 / 100 / 120 / 140 (+ 12% bonus health)\nIncreased shield per champion:18 / 24 / 30 / 36 / 42 (+ 3.6% bonus health)\nAfter 1 second, Inferno Aegis can be recast while the shield holds and does so automatically after it expires or is broken.\nRecast: Shyvana consumes the shield to explode, dealing magic damage to nearby enemies.\nMagic Damage:80 / 100 / 120 / 140 / 160 (+ 65% AP)\nDragon Form Bonus: If the explosion hits an enemy champion, Shyvana heals herself for 60 – 104.71 (based on level) (+ 4% – 8.47% (based on level) missing health).\nNotes/General Details\nTargeting input\nAuto\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nNo additional details.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Shyvana?oldid=4043672"
+    },
+    {
+      "id": "wiki:moltenburst",
+      "locator": "Molten_Burst",
+      "provider": "league_wiki",
+      "sha256": "7feef44af79ff346f4b158f50116a724756a64165532d129b35a5b076099059d",
+      "text": "Molten Burst\nCOOLDOWN:\n12 / 11 / 10 / 9 / 8\nCAST TIME:\n0.25 • 0.3333\nRANGE:\n800 • 1000\nEFFECT RADIUS:\n150 • 300\nWIDTH:\n120 • 100\nSPEED:\n1500 • 1600\nActive: Shyvana launches a fireball that explodes upon colliding with the first enemy or reaching maximum range, dealing magic damage to enemies hit and slowing them for a moment. Dragon Form Bonus: The fireball is wider, can pass through enemies, and deals increased damage. Upon hitting an enemy champion or large monster, or reaching maximum range, the fireball sets an explosion that applies the same effects. Molten Burst will also scorch the ground it touches beneath, enemies within a scorched field are continually dealt magic damage.\nActive: Shyvana launches a fireball in the target direction that explodes upon colliding with the first enemy or reaching maximum range, dealing magic damage to enemies hit and slowing them by 30% for 2 seconds.\nMagic Damage:50 / 65 / 80 / 95 / 110 (+ 60 / 65 / 70 / 75 / 80% AP) (+ 5% of target's maximum health)\nDragon Form Bonus: The fireball is wider, can pass through enemies, and deals 25% increased damage. Upon hitting an enemy champion or large monster, and after reaching maximum range, the fireball sets an explosion upon the targets struck and at the location that applies the same effects. Molten Burst will also scorch the ground it touches beneath for 2 seconds. Enemies within a scorched field are dealt 3.75 / 5 / 6.25 (based on level) (+ 1.25% AP) magic damage every 0.25 seconds, for a total maximum damage of 30 / 40 / 50 (based on level) (+ 10% AP).Enemies may be damaged by only one scorched field at a time. Subsequent explosions against the same target deal 40% damage.\nIncreased/Explosion Magic Damage:62.5 / 81.25 / 100 / 118.75 / 137.5 (+ 75 / 81.25 / 87.5 / 93.75 / 100% AP) (+ 6.25% of target's maximum health)\nSubsequent Explosion Damage:25 / 32.5 / 40 / 47.5 / 55 (+ 30 / 32.5 / 35 / 37.5 / 40% AP) (+ 2.5% of target's maximum health)\nNotes/General Details\nTargeting input\nDirection / Location\nTarget out-of-range override\nWhile in Dragon Form, target at maximum range (clamped)\nAffects\nEnemies\nDamage classification\nType\nSee Notes\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe fireball applies area damage. In Dragon Form, the explosion applies area damage and the scorched field deals persistent area damage.\nIn Dragon Form, both areas of effect will be centered on the first champion struck, not at the location the missile collided with them.\nMolten Burst will fail to go on cooldown if its cast time starts in Dragon Form and ends in Human Form.(bug)\nThis ability will cast from wherever the caster is at the end of the cast time.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Shyvana?oldid=4043672"
+    },
+    {
+      "id": "wiki:dragonsdescent",
+      "locator": "Dragon's_Descent",
+      "provider": "league_wiki",
+      "sha256": "7feef44af79ff346f4b158f50116a724756a64165532d129b35a5b076099059d",
+      "text": "Dragon's Descent\nCOST:\n3.3 Dragon Fury every 0.5 seconds\nCAST TIME:\n0.25\nTARGET RANGE:\n400 - 1050\nPassive - Fury: Shyvana generates Fury every second while in Human Form, and also generates Fury from her basic attacks and abilities when they deal damage. Active: Shyvana transforms into Dragon Form and dashes with displacement immunity, breathing fire in a cone that deals magic damage to enemies hit and briefly fears them. Dragon Form: Shyvana gains bonus health, bonus attack range, and increased size. Her abilities are empowered to apply an additional effect. She maintains Dragon Form at a recurring cost of Dragon Fury, returning to Human Form once all Dragon Fury has been depleted.\nPassive - Fury: Shyvana generates Dragon Fury every 0.5 seconds while in Human Form. Her basic attacks and abilities also generate 1.25 Dragon Fury for each enemy damaged, up to once per enemy per cast instance and increased「 by 200% 」「 to 3.75 」during Dragon Form. Against non-champions damaged by abilities, the generated amount is reduced to「 25%. 」「 0.3125 and 0.9375 Dragon Fury during Human Form and Dragon Form, respectively. 」Shyvana gains 1% bonus Dragon Fury generation from all sources per 1 ultimate haste. Shyvana gains 100 Dragon Fury upon learning Dragon's Descent.\nDragon Fury Generation per 0.5 Seconds:0.25 / 0.375 / 0.5Dragon Fury Generation per Second:0.5 / 0.75 / 1\nActive: Shyvana transforms into Dragon Form and flies with displacement immunity to the target location, breathing fire in a cone along the way that deals magic damage to enemies hit and fears them for 0.75 seconds, as well as slows them by 99% for the same duration.\nMagic Damage:150 / 250 / 350 (+ 100% AP)\nDragon Form: Shyvana gains bonus health, bonus attack range, and increased size. Her basic abilities are empowered to apply an additional effect. She maintains Dragon Form at a recurring cost of Dragon Fury, returning to Human Form once all Dragon Fury has been depleted.\nBonus Health:150 / 250 / 350\nBonus Range:25 / 50 / 75\nSize Increase:5 / 12.5 / 20%\n100 Dragon Fury is required to cast this ability.\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nEnemies, Self\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nGrounded\nDisabled\nKnockdown\nNot Interrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nDragon's Descent's displacement immunity begins from the start of the cast time.\nUltimate haste acquired while Shyvana is dead does not grant bonus Dragon Fury generation until she respawns.\nEmberstrike's attack against the primary target will generate the full Dragon Fury amount even if they're a non-champion.\nThe attack's area of effect will generate reduced Dragon Fury for secondary targets damaged.\nType\nCast time\nAttacking\nDisabled\nAbilities\nDisabled\nMovement\nDisabled\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nAll the other item-actives are disabled\nInterrupted by\nN/A\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nFlash Teleport Recall Hexflash\nInterrupted by\nN/A\nInterrupted by\nDeath, unless protected by Resurrection\nTips & Tricks\nBecause of how ultimate haste interacts with Shyvana's fury generation, it has a bigger effect than haste has on abilities with a regular cooldown.\nDragon's Descent essentially has a cooldown of 200 / 133.333 / 100 seconds, reduced by 0.625 / 0.4167 / 0.3125 for each damaging basic attack and ability hit, increased to 2.5 / 1.67 / 1.25 against champions.\nIt also essentially lasts for 15 seconds, increased by 0.140625 for each basic attack and ability hit, increased to 0.5625 against champions.\nNormally, with 100 haste, the only effect would be the cooldown getting reduced by 50% to 100 / 66.667 / 50, but because 100 ultimate haste grants Shyvana an extra 100% bonus fury generation from all sources, this also increases how much the \"cooldown\" is reduced by basic attacks and abilities to 1.25 / 0.8333 / 0.625 for non-champions and 5 / 3.33 / 2.5 for champions.\nThis is the opposite effect to abilities with cooldown reductions that scale with haste (e.g. Master Yi's Alpha Strike), which instead lower the reduction amount with haste. This happens because ultimate haste increases fury generation from all sources instead of only increasing her passive fury generation.\nAdditionally, this also affects the duration increase per basic attack or ability the same way, amounting to an extra 0.28125 against non-champions and 1.125 against champions.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Shyvana?oldid=4043672"
+    }
+  ],
+  "findings": [
+    {
+      "code": "adaptive_kit_structure",
+      "message": "5 live sections discovered; conventional slot headings are not a completeness contract."
+    }
+  ],
+  "kit_sections": [
+    {
+      "anchor": "Scalemail",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Scalemail.png?4c80a",
+      "id": "wiki:scalemail",
+      "name": "Scalemail"
+    },
+    {
+      "anchor": "Emberstrike",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Emberstrike.png?55288",
+      "id": "wiki:emberstrike",
+      "name": "Emberstrike"
+    },
+    {
+      "anchor": "Inferno_Aegis",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Inferno_Aegis.png?386dd",
+      "id": "wiki:infernoaegis",
+      "name": "Inferno Aegis"
+    },
+    {
+      "anchor": "Molten_Burst",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Molten_Burst.png?7e622",
+      "id": "wiki:moltenburst",
+      "name": "Molten Burst"
+    },
+    {
+      "anchor": "Dragon's_Descent",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Shyvana_Dragon%27s_Descent.png?78b46",
+      "id": "wiki:dragonsdescent",
+      "name": "Dragon's Descent"
+    }
+  ],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "media_catalog": [
+    {
+      "filename": "shyvana_e.png",
+      "id": "cd:shyvanaepng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/hud/icons2d/shyvana_e.png"
+    },
+    {
+      "filename": "shyvana_passive.png",
+      "id": "cd:shyvanapassivepng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/hud/icons2d/shyvana_passive.png"
+    },
+    {
+      "filename": "shyvana_q1.png",
+      "id": "cd:shyvanaq1png",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/hud/icons2d/shyvana_q1.png"
+    },
+    {
+      "filename": "shyvana_r.png",
+      "id": "cd:shyvanarpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/hud/icons2d/shyvana_r.png"
+    },
+    {
+      "filename": "shyvana_w1.png",
+      "id": "cd:shyvanaw1png",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/hud/icons2d/shyvana_w1.png"
+    }
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shyvana_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 12341,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T23:02:11.323211+00:00",
+      "sha256": "167d2c39f171be007904f0801ceab155ab3dfcecf31b08ccfd05335b5d603534",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Shyvana.json"
+    },
+    {
+      "bytes": 29583,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T23:02:11.444148+00:00",
+      "sha256": "4190a626fefa9813a3d7d821412ab5572879822e8cba67f4b8a5e13f0a1925d4",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/102.json"
+    },
+    {
+      "bytes": 168647,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T23:02:12.084861+00:00",
+      "sha256": "2a7aeff3bd748866acbf02771c0f8793d0c95fabc62a97e643655efce4531639",
+      "url": "https://www.leagueoflegends.com/en-us/champions/shyvana/"
+    },
+    {
+      "bytes": 738840,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T23:02:12.263351+00:00",
+      "sha256": "7feef44af79ff346f4b158f50116a724756a64165532d129b35a5b076099059d",
+      "url": "https://wiki.leagueoflegends.com/en-us/Shyvana"
+    },
+    {
+      "bytes": 8485,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T23:02:12.657205+00:00",
+      "sha256": "1d28c6a612de070c42d9896c5dc3f950c901b3d5298c18164558dae00cef8129",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/hud/icons2d/"
+    }
+  ],
+  "schema_version": 2,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4043672"
+  }
+}

@@ -1,0 +1,737 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:92",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Riven. Official role tags: Fighter, Assassin.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "First Cast: Riven dashes forward and slashes her sword in a circle.",
+                "source_id": "wiki:brokenwings"
+              },
+              {
+                "quote": "Active: Riven can cast this ability up to three times in quick succession, dealing physical damage to enemies hit.",
+                "source_id": "wiki:brokenwings"
+              },
+              {
+                "quote": "Riven's basic attacks consume a stack to deal bonus physical damage.",
+                "source_id": "wiki:runicblade"
+              }
+            ],
+            "claim": "Riven is a Fighter/Assassin who chains physical-damage dashes with empowered basic attacks."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Physical Damage:65 / 95 / 125 / 155 / 185 (+ 100% bonus AD)",
+                "source_id": "wiki:kiburst"
+              },
+              {
+                "quote": "Shield Strength:70 / 95 / 120 / 145 / 170 (+ 110% bonus AD)",
+                "source_id": "wiki:valor"
+              },
+              {
+                "quote": "Active: Riven empowers her blade for some time, gaining bonus attack damage and increased range on her basic attacks, Broken Wings and Ki Burst.",
+                "source_id": "wiki:bladeoftheexile"
+              },
+              {
+                "quote": "Riven empowers her keepsake weapon with energy, and gains Attack Damage and Range. During this time, she also gains the ability to use Wind Slash, a powerful ranged attack, once.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Active: Riven unleashes a wave of energy in a cone in the target direction that deals physical damage to enemies hit, increased by 0% – 200% (based on target's missing health).",
+                "source_id": "wiki:windslash"
+              }
+            ],
+            "claim": "Her build focus is AD, and her ultimate adds attack damage, reach and a ranged finisher that hurts more as health falls."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/riven/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892712",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven"
+      },
+      "id": "champ:riven:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Establishes her engage pattern and ultimate threat."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:riven:overview:L1",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Riven. Official role tags: Fighter, Assassin.",
+                "source_id": "riot:role"
+              }
+            ],
+            "id": "d1a87b383e4ad898ad5b3b03",
+            "summary": "Riven is a Fighter/Assassin."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Riven's fighting pattern and main defensive priorities.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "wiki:runicblade",
+          "wiki:brokenwings",
+          "wiki:kiburst",
+          "wiki:valor",
+          "wiki:bladeoftheexile",
+          "wiki:windslash",
+          "riot:R"
+        ],
+        "subject_id": "riot:role",
+        "title": "Riven",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Fighter / Assassin",
+        "answer": "Riven is a Fighter/Assassin who chains physical-damage dashes with empowered basic attacks. Her build focus is AD, and her ultimate adds attack damage, reach and a ranged finisher that hurts more as health falls.",
+        "build_focus": "AD",
+        "category": "Champion",
+        "champion": "Riven",
+        "cooldown": "",
+        "counterplay": "Keep space from her dash-and-stun engage; disengage during her ultimate and avoid its ranged finisher when low.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/0aede092bcf78a6e65b72ee872e49d0413b1a678848ea9a193809bd75da63001.jpg",
+        "id": "champ:riven:overview:L1",
+        "level": "L1",
+        "media_path": "media/0aede092bcf78a6e65b72ee872e49d0413b1a678848ea9a193809bd75da63001.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/riven/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Riven",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:92",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Innate: Riven's ability casts generate stacks of Charge, which stacks up to a cap. Riven's basic attacks consume a stack to deal bonus physical damage.",
+                "source_id": "wiki:runicblade"
+              }
+            ],
+            "claim": "Runic Blade: ability casts store charges that basic attacks consume to deal bonus physical damage."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/riven/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892712",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven"
+      },
+      "id": "champ:riven:p:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Explains why basic attacks remain threatening within her ability sequence."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:riven:p:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Innate: Riven's ability casts generate stacks of Charge, which stacks up to a cap. Riven's basic attacks consume a stack to deal bonus physical damage.",
+                "source_id": "wiki:runicblade"
+              }
+            ],
+            "id": "c6f2a1ab00b0364ed0bd9274",
+            "summary": "Ability casts charge basic attacks with bonus physical damage."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the threat of attacks woven between casts.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:runicblade",
+          "riot:P"
+        ],
+        "subject_id": "wiki:runicblade",
+        "title": "Runic Blade",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Runic Blade",
+        "answer": "Runic Blade: ability casts store charges that basic attacks consume to deal bonus physical damage.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Riven",
+        "cooldown": "",
+        "counterplay": "Respect her basic attacks between ability casts.",
+        "front_hint": "RIVEN · P",
+        "icon_path": "media/45d00096c523291b2f4f20c1981f5033de0a572c65a210f50ae8160dd77aeedb.png",
+        "id": "champ:riven:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/45d00096c523291b2f4f20c1981f5033de0a572c65a210f50ae8160dd77aeedb.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/riven/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Riven",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:92",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Riven can cast this ability up to three times in quick succession, dealing physical damage to enemies hit.",
+                "source_id": "wiki:brokenwings"
+              },
+              {
+                "quote": "First Cast: Riven dashes forward and slashes her sword in a circle.",
+                "source_id": "wiki:brokenwings"
+              },
+              {
+                "quote": "Second Cast: Riven mimics the first cast's effects.",
+                "source_id": "wiki:brokenwings"
+              },
+              {
+                "quote": "Riven slashes with her sword for each of the three casts, dealing physical damage to enemies struck within an area, resetting her basic attack timer",
+                "source_id": "wiki:brokenwings"
+              }
+            ],
+            "claim": "Broken Wings: Riven chains three dashing slashes that deal area physical damage and reset her basic attack timer."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Third Cast: Riven mimics the first cast's effects in a larger area while also knocking back enemies hit 75 units over 0.5 seconds. This cast can cross terrain.",
+                "source_id": "wiki:brokenwings"
+              }
+            ],
+            "claim": "The final slash hits a larger area, briefly knocks enemies back and can cross terrain."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/riven/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892712",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven"
+      },
+      "id": "champ:riven:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Her repeated gap closing and final crowd control shape enemy spacing."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:riven:q:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Riven can cast this ability up to three times in quick succession, dealing physical damage to enemies hit.",
+                "source_id": "wiki:brokenwings"
+              },
+              {
+                "quote": "First Cast: Riven dashes forward and slashes her sword in a circle.",
+                "source_id": "wiki:brokenwings"
+              },
+              {
+                "quote": "Second Cast: Riven mimics the first cast's effects.",
+                "source_id": "wiki:brokenwings"
+              }
+            ],
+            "id": "9e6858b74ee8088598a92006",
+            "summary": "A sequence of dashing physical-damage slashes."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Third Cast: Riven mimics the first cast's effects in a larger area while also knocking back enemies hit 75 units over 0.5 seconds. This cast can cross terrain.",
+                "source_id": "wiki:brokenwings"
+              }
+            ],
+            "id": "935ba81c3788cc7589a0fe05",
+            "summary": "The final slash has a larger area, knocks enemies back and can cross terrain."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize repeated dashes and anticipate the final crowd-control strike.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:brokenwings",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:brokenwings",
+        "title": "Broken Wings",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Broken Wings",
+        "answer": "Broken Wings: Riven chains three dashing slashes that deal area physical damage and reset her basic attack timer. The final slash hits a larger area, briefly knocks enemies back and can cross terrain.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Riven",
+        "cooldown": "",
+        "counterplay": "Track her remaining slashes and keep clear of the final slam; stay cautious near walls.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/d91ad0f64dd15a14bd8038ca001bf8c0ec8cef83dd5316145c0e60e9c7b25f9d.png",
+        "id": "champ:riven:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/1d3f62294171748b96a5a0ac6b560e1e24e876bfbf0400b6ba34642d89112ce9.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/riven/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Riven",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:92",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Riven emits a flash of runic energy, dealing physical damage and briefly stunning nearby enemies.",
+                "source_id": "wiki:kiburst"
+              }
+            ],
+            "claim": "Ki Burst: Riven deals physical damage and briefly stuns nearby enemies."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/riven/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892712",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven"
+      },
+      "id": "champ:riven:w:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The nearby stun is central to recognizing her engage threat."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:riven:w:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Riven emits a flash of runic energy, dealing physical damage and briefly stunning nearby enemies.",
+                "source_id": "wiki:kiburst"
+              }
+            ],
+            "id": "60d4e47d6d733c93ce81df31",
+            "summary": "Physical damage and a brief stun around Riven."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize her close-range stun.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:kiburst",
+          "riot:W"
+        ],
+        "subject_id": "wiki:kiburst",
+        "title": "Ki Burst",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Ki Burst",
+        "answer": "Ki Burst: Riven deals physical damage and briefly stuns nearby enemies.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Riven",
+        "cooldown": "",
+        "counterplay": "Keep space when she closes in to threaten a stun.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/a5aae418b52edd8ec901dfa640c220cd73768a9d60d384562d66d6faf6ae1e32.png",
+        "id": "champ:riven:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/fdee44ec319f36f61620c421c7e777f4d477ad88c1c3a9a48b691c0b2c550767.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/riven/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Riven",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:92",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Riven dashes in the target direction, though not through terrain, while granting herself a shield for 1.5 seconds.",
+                "source_id": "wiki:valor"
+              }
+            ],
+            "claim": "Valor: Riven dashes in a chosen direction and gains a brief shield; this dash cannot cross terrain."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Riven can cast any of her abilities during the dash.",
+                "source_id": "wiki:valor"
+              }
+            ],
+            "claim": "She can cast her other abilities during the dash."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/riven/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892712",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven"
+      },
+      "id": "champ:riven:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Combines defensive shielding with an approach that can immediately threaten abilities."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:riven:e:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Riven dashes in the target direction, though not through terrain, while granting herself a shield for 1.5 seconds.",
+                "source_id": "wiki:valor"
+              }
+            ],
+            "id": "4e7df17e2827529704208b30",
+            "summary": "A directional dash with a brief shield that cannot cross terrain."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Riven can cast any of her abilities during the dash.",
+                "source_id": "wiki:valor"
+              }
+            ],
+            "id": "791cbe211551c9bedf9bd5fc",
+            "summary": "Riven can cast abilities during the dash."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize her shielded repositioning and immediate follow-up threat.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:valor",
+          "riot:E"
+        ],
+        "subject_id": "wiki:valor",
+        "title": "Valor",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Valor",
+        "answer": "Valor: Riven dashes in a chosen direction and gains a brief shield; this dash cannot cross terrain. She can cast her other abilities during the dash.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Riven",
+        "cooldown": "",
+        "counterplay": "Avoid spending burst into her shield and respect abilities used during her approach.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/395c1f1ae9021736b232bc4b6d7bf63f7d9a05500ee407f81824197c8b8224db.png",
+        "id": "champ:riven:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/21de0279e805696f4a33839d0abe5d7a319f5af28c623e2ef5b8849588e581a2.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/riven/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Riven",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:92",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Riven empowers her blade for some time, gaining bonus attack damage and increased range on her basic attacks, Broken Wings and Ki Burst.",
+                "source_id": "wiki:bladeoftheexile"
+              }
+            ],
+            "claim": "Blade of the Exile: Riven temporarily gains attack damage and increased range on basic attacks, Broken Wings and Ki Burst."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "During this time, Riven can cast Wind Slash.",
+                "source_id": "wiki:bladeoftheexile"
+              },
+              {
+                "quote": "During this time, she also gains the ability to use Wind Slash, a powerful ranged attack, once.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Active: Riven unleashes a wave of energy in a cone in the target direction that deals physical damage to enemies hit, increased by 0% – 200% (based on target's missing health).",
+                "source_id": "wiki:windslash"
+              }
+            ],
+            "claim": "It also unlocks Wind Slash, a ranged cone of physical damage that deals more damage to enemies with more missing health."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/riven/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892712",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven"
+      },
+      "id": "champ:riven:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Her ultimate changes her reach and adds a dangerous low-health finisher."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:riven:r:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Riven empowers her blade for some time, gaining bonus attack damage and increased range on her basic attacks, Broken Wings and Ki Burst. During this time, Riven can cast Wind Slash.",
+                "source_id": "wiki:bladeoftheexile"
+              }
+            ],
+            "id": "03bccfa7abe08a92a0ec3125",
+            "summary": "Temporary attack damage and reach increases unlock Wind Slash."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Riven unleashes a wave of energy in a cone in the target direction that deals physical damage to enemies hit, increased by 0% – 200% (based on target's missing health).",
+                "source_id": "wiki:windslash"
+              }
+            ],
+            "id": "39ed0fd9757ebe7aa93897bf",
+            "summary": "Wind Slash deals cone-shaped physical damage that increases with the target's missing health."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the empowered fighting window and its ranged finisher together.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:bladeoftheexile",
+          "wiki:windslash",
+          "riot:R"
+        ],
+        "subject_id": "wiki:bladeoftheexile",
+        "title": "Blade of the Exile and Wind Slash",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Blade of the Exile",
+        "answer": "Blade of the Exile: Riven temporarily gains attack damage and increased range on basic attacks, Broken Wings and Ki Burst. It also unlocks Wind Slash, a ranged cone of physical damage that deals more damage to enemies with more missing health.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Riven",
+        "cooldown": "",
+        "counterplay": "Give her empowered reach more space; move out of the cone's path, especially when low on health.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/659382e0b891ae242c3f37a3c33cf939792a5be6964d0e0c1b68fbd8d2c5fbf3.png",
+        "id": "champ:riven:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/6565bb49a1fa59f43660ac5d40e9d456bf8a819826f2765e19fd05ce5e11876c.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/riven/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Riven",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

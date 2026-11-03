@@ -1,0 +1,393 @@
+{
+  "cards": [
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Pyke. Official role tags: Support, Assassin.",
+              "source_id": "riot:role"
+            }
+          ],
+          "id": "12461e4e169deaadbbc5e2e3",
+          "summary": "Support assassin."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Pyke either stabs an enemy in front of him or pulls an enemy towards him.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Pyke blinks to and executes low health enemies, allowing him to cast this spell again and granting additional gold to an ally who assists.",
+              "source_id": "riot:R"
+            }
+          ],
+          "id": "849473f8ae3819d2eb3ebffb",
+          "summary": "Pulls enemies and threatens executions that enable recasts and allied gold."
+        }
+      ],
+      "kind": "overview",
+      "purpose": "Recognize Pyke's identity and main fighting pattern.",
+      "slot": "",
+      "source_ids": [
+        "riot:role",
+        "riot:P",
+        "riot:Q",
+        "riot:E",
+        "riot:R",
+        "wiki:boneskewer"
+      ],
+      "subject_id": "riot:role",
+      "title": "Pyke",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "While Pyke is not visible to enemies, he rapidly consumes his grey health to heal for the same amount.",
+              "source_id": "wiki:giftofthedrownedones"
+            },
+            {
+              "quote": "Innate: Pyke stores grey health when receiving damage from enemy champions, increased if there are multiple nearby.",
+              "source_id": "wiki:giftofthedrownedones"
+            }
+          ],
+          "id": "647e719ea7f49385ba6cfa40",
+          "summary": "Stores champion damage as grey health and heals from it outside enemy vision."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Pyke's maximum health cannot increase except through growth (per level), instead he gains「 1 bonus attack damage per 14 bonus health. 」「 bonus attack damage equal to 7.143% of bonus health. 」",
+              "source_id": "wiki:giftofthedrownedones"
+            }
+          ],
+          "id": "3f50d0eee134a4ed02a33594",
+          "summary": "Bonus health converts into AD; maximum health increases through leveling."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Understand why Pyke recovers after leaving vision.",
+      "slot": "P",
+      "source_ids": [
+        "wiki:giftofthedrownedones",
+        "riot:P"
+      ],
+      "subject_id": "wiki:giftofthedrownedones",
+      "title": "Gift of the Drowned Ones",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "The pull can fling an enemy behind Pyke if the harpoon hits at close range.",
+              "source_id": "wiki:boneskewer"
+            }
+          ],
+          "status": "supported",
+          "summary": "A close-range harpoon can pull the target behind Pyke."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Releasing the ability within 0.4 seconds causes Pyke to instead thrust his blade in the target direction, dealing the same damage to the closest enemy champion, or closest enemy otherwise.",
+              "source_id": "wiki:boneskewer"
+            }
+          ],
+          "id": "582c37e43b50d3f4c4f31843",
+          "summary": "Quick release stabs and prioritizes a nearby champion."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Pyke charges up to a short time, increasing the range of his harpoon.",
+              "source_id": "wiki:boneskewer"
+            },
+            {
+              "quote": "Empowered Recast: Pyke hurls his harpoon in the target direction that deals physical damage to the first enemy hit and pulls them towards him. The target is then briefly slowed.",
+              "source_id": "wiki:boneskewer"
+            }
+          ],
+          "id": "f9df9567028db8650fdcc4d0",
+          "summary": "Charged harpoon gains range and pulls and slows the first enemy hit."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Distinguish the quick stab from the charged catch.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:boneskewer",
+        "riot:Q"
+      ],
+      "subject_id": "wiki:boneskewer",
+      "title": "Bone Skewer",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "PENDING FOR TEST: While submerged, a unique visual indicator will appear above Pyke if there are enemy champions closer than 700 units but farther than 600 units.",
+              "source_id": "wiki:ghostwaterdive"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "The additional indicator above Pyke is explicitly pending testing and is omitted."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Pyke enters Camouflage and gains significant Move Speed that decays over time.",
+              "source_id": "riot:W"
+            }
+          ],
+          "id": "c57379cbd29be3b0d3740811",
+          "summary": "Camouflage with decaying bonus movement speed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Enemy champions within 1500 units of Pyke are alerted of his presence and whether he can execute them with Death from Below.",
+              "source_id": "wiki:ghostwaterdive"
+            },
+            {
+              "quote": "Attacking or casting abilities ends Ghostwater Dive immediately.",
+              "source_id": "wiki:ghostwaterdive"
+            }
+          ],
+          "id": "51c5624c1ef6ec3b88ef9c4a",
+          "summary": "Nearby enemies receive a warning; attacks and ability casts end the effect."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize Pyke's approach tool and its warning.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:ghostwaterdive",
+        "riot:W"
+      ],
+      "subject_id": "wiki:ghostwaterdive",
+      "title": "Ghostwater Dive",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Pyke dashes in the target direction, leaving behind a phantom and becoming ghosted. After a brief period, the phantom homes back to Pyke to briefly stun enemies it passes through. Enemy champions hit also take physical damage.",
+              "source_id": "wiki:phantomundertow"
+            }
+          ],
+          "id": "8cd37e949e7458bd38d3f517",
+          "summary": "Dash leaves a delayed returning phantom that stuns enemies and damages champions."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize the delayed stun after his dash.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:phantomundertow",
+        "riot:E"
+      ],
+      "subject_id": "wiki:phantomundertow",
+      "title": "Phantom Undertow",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "If the target is in a zombie state, does not enter the death state, or is killed by the ability while above the execution threshold, Death from Below does not grant Your Cut nor the recast.",
+              "source_id": "wiki:deathfrombelow"
+            }
+          ],
+          "status": "supported",
+          "summary": "Special death states and kills above the execution threshold can deny the gold reward and recast."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Pyke strikes the target location in a X pattern, which executes enemy champions hit that are at low health. Other enemies hit are instead dealt physical damage.",
+              "source_id": "wiki:deathfrombelow"
+            }
+          ],
+          "id": "46a537a251925f5f3b1d690b",
+          "summary": "X-shaped strike executes low-health champions and otherwise deals physical damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If Death from Below hits an enemy champion or at least one is killed inside the X by the execution or an ally, Pyke will blink to the center of the X. For the latter case Pyke can also recast the ability within 20 seconds at no cost.",
+              "source_id": "wiki:deathfrombelow"
+            },
+            {
+              "quote": "Each execution grants kill gold to both Pyke and the last assisting ally instead of the natural assist gold.",
+              "source_id": "wiki:deathfrombelow"
+            }
+          ],
+          "id": "722bf10da3154f8f18f4ef1f",
+          "summary": "Champion hits enable a blink; deaths inside the strike enable a recast, and executions reward the assisting ally."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize the execution area and continuing recast threat.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:deathfrombelow",
+        "riot:R"
+      ],
+      "subject_id": "wiki:deathfrombelow",
+      "title": "Death from Below",
+      "unsupported_claims": []
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Base ability cooldowns are absent from the supplied evidence.",
+    "The additional Ghostwater Dive indicator is explicitly pending testing.",
+    "No game patch label is established by the supplied evidence."
+  ],
+  "features": [
+    "standard",
+    "ability_variants",
+    "conditional_effects"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "While Pyke is not visible to enemies, he rapidly consumes his grey health to heal for the same amount.",
+          "source_id": "wiki:giftofthedrownedones"
+        },
+        {
+          "quote": "Pyke enters Camouflage and gains significant Move Speed that decays over time.",
+          "source_id": "riot:W"
+        }
+      ],
+      "condition": "While camouflage leaves Pyke outside enemy vision.",
+      "from_id": "wiki:ghostwaterdive",
+      "kind": "conditional_effect",
+      "to_id": "wiki:giftofthedrownedones"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Enemy champions within 1500 units of Pyke are alerted of his presence and whether he can execute them with Death from Below.",
+          "source_id": "wiki:ghostwaterdive"
+        }
+      ],
+      "condition": "Nearby enemies are alerted during Ghostwater Dive.",
+      "from_id": "wiki:ghostwaterdive",
+      "kind": "conditional_effect",
+      "to_id": "wiki:deathfrombelow"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Recovery and bonus-health conversion are taught; numerical details, item tables and peripheral interactions are omitted.",
+      "source_id": "wiki:giftofthedrownedones",
+      "target_subject_ids": [
+        "wiki:giftofthedrownedones"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Quick stab and charged harpoon share a primary card with distinct practical effects.",
+      "source_id": "wiki:boneskewer",
+      "target_subject_ids": [
+        "wiki:boneskewer"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Camouflage, speed, warning and termination are taught; the pending indicator stays in metadata.",
+      "source_id": "wiki:ghostwaterdive",
+      "target_subject_ids": [
+        "wiki:ghostwaterdive"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Dash and returning stun are taught together; estimated terrain reach and collision details are omitted.",
+      "source_id": "wiki:phantomundertow",
+      "target_subject_ids": [
+        "wiki:phantomundertow"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Execution, blink, recast and allied gold are taught together; special death exceptions stay in metadata.",
+      "source_id": "wiki:deathfrombelow",
+      "target_subject_ids": [
+        "wiki:deathfrombelow"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:giftofthedrownedones",
+        "riot:P"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:boneskewer",
+        "riot:Q"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:ghostwaterdive",
+        "riot:W"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:phantomundertow",
+        "riot:E"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:deathfrombelow",
+        "riot:R"
+      ]
+    }
+  ],
+  "summary": "An overview and primary ability cards teach Pyke's recovery, stab and harpoon variants, concealed approach, returning stun, and execution recasts."
+}

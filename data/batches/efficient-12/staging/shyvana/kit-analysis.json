@@ -1,0 +1,420 @@
+{
+  "cards": [
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Shyvana. Official role tags: Fighter, Tank.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "While in Dragon form she becomes larger and her basic abilities are empowered.",
+              "source_id": "riot:R"
+            }
+          ],
+          "id": "276ce56c22fb59607373e945",
+          "summary": "A Fighter/Tank whose dragon transformation empowers her basic abilities."
+        }
+      ],
+      "kind": "overview",
+      "purpose": "Recognize Shyvana's overall fighting pattern and transformation threat.",
+      "slot": "",
+      "source_ids": [
+        "riot:role",
+        "riot:R",
+        "wiki:emberstrike",
+        "wiki:moltenburst"
+      ],
+      "subject_id": "riot:role",
+      "title": "Shyvana",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Shyvana generates Scalemail stacks from scoring takedowns against certain enemies. Large monsters and large minions grant a stack, while enemy champions and epic monsters grant more. Scalemail: For each stack, Shyvana gains bonus armor and bonus magic resist.",
+              "source_id": "wiki:scalemail"
+            }
+          ],
+          "id": "feb055e8564217d70c283164",
+          "summary": "Takedowns on qualifying enemies grant stacks that increase armor and magic resistance."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize why her defenses grow as she collects takedowns.",
+      "slot": "P",
+      "source_ids": [
+        "wiki:scalemail",
+        "riot:P"
+      ],
+      "subject_id": "wiki:scalemail",
+      "title": "Scalemail",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Spell shield will not block any damage nor be consumed by the strikes.",
+              "source_id": "wiki:emberstrike"
+            },
+            {
+              "quote": "Blind will negate the damage to the primary target, but not to any secondary targets.",
+              "source_id": "wiki:emberstrike"
+            }
+          ],
+          "status": "supported",
+          "summary": "Spell shields do not block the strikes; blind negates primary-target damage but leaves secondary-target damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "PENDING FOR TEST: Interaction with parrying effects ( dodge, block).",
+              "source_id": "wiki:emberstrike"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "Dodge and block interactions lack confirmed evidence."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Shyvana's basic attacks on-hit will reduce Emberstrike's current cooldown, and deal bonus magic damage based on the target's maximum health.",
+              "source_id": "wiki:emberstrike"
+            }
+          ],
+          "id": "3d5b77b794535cf51bbb45b2",
+          "summary": "Basic attacks add maximum-health-based magic damage and reduce Emberstrike's cooldown."
+        },
+        {
+          "citations": [
+            {
+              "quote": "First Cast: Shyvana's slashes her claws, blasting a cone that deals physical damage to enemies hit. Second Cast: Shyvana slams her tail, dealing the same damage to the target and surrounding enemies. Dragon Form Bonus — Third Cast: Shyvana bites ferociously, dealing true damage.",
+              "source_id": "wiki:emberstrike"
+            }
+          ],
+          "id": "475fb98998a3b896f9f21a41",
+          "summary": "Recast attacks deal area physical damage, with an additional true-damage bite in Dragon Form."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize her repeated attack threat and Dragon Form finisher.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:emberstrike",
+        "riot:Q"
+      ],
+      "subject_id": "wiki:emberstrike",
+      "title": "Emberstrike",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Shyvana shields herself for 2.5 seconds, with the shield strength increased by 30% for every nearby enemy champion. For the same duration, she gains 25% bonus movement speed, increased to 43.75% while facing visible enemy champions.",
+              "source_id": "wiki:infernoaegis"
+            }
+          ],
+          "id": "f0a092786c9b1b03d9c74a6c",
+          "summary": "Nearby enemy champions strengthen her shield, and facing visible enemy champions increases her movement-speed bonus."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Inferno Aegis can be recast while the shield holds and does so automatically after it expires or is broken. Recast: Shyvana consumes the shield to explode, dealing magic damage to nearby enemies.",
+              "source_id": "wiki:infernoaegis"
+            },
+            {
+              "quote": "While in Dragon Form, the explosion will heal her if it strikes an enemy champion.",
+              "source_id": "riot:W"
+            }
+          ],
+          "id": "c9126dd583bfb372a306f367",
+          "summary": "The shield ends in a nearby magic-damage explosion that can heal her in Dragon Form."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize her approach window and the danger of remaining near her shield.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:infernoaegis",
+        "riot:W"
+      ],
+      "subject_id": "wiki:infernoaegis",
+      "title": "Inferno Aegis",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Enemies may be damaged by only one scorched field at a time. Subsequent explosions against the same target deal 40% damage.",
+              "source_id": "wiki:moltenburst"
+            }
+          ],
+          "status": "supported",
+          "summary": "Scorched fields do not stack their damage on a target, and repeated explosions deal reduced damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Molten Burst will fail to go on cooldown if its cast time starts in Dragon Form and ends in Human Form.(bug)",
+              "source_id": "wiki:moltenburst"
+            }
+          ],
+          "status": "supported",
+          "summary": "The source reports a cooldown bug when Dragon Form ends during the cast."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Shyvana launches a fireball that explodes upon colliding with the first enemy or reaching maximum range, dealing magic damage to enemies hit and slowing them for a moment.",
+              "source_id": "wiki:moltenburst"
+            }
+          ],
+          "id": "e61dcb972013bd3367e51daf",
+          "summary": "A fireball explodes on collision or at maximum range for magic damage and a slow."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Dragon Form Bonus: The fireball is wider, can pass through enemies, and deals increased damage. Upon hitting an enemy champion or large monster, or reaching maximum range, the fireball sets an explosion that applies the same effects. Molten Burst will also scorch the ground it touches beneath, enemies within a scorched field are continually dealt magic damage.",
+              "source_id": "wiki:moltenburst"
+            }
+          ],
+          "id": "648c8d2d3c1c92934aff4cc9",
+          "summary": "Dragon Form adds a wider piercing fireball, stronger damage, explosions, and damaging ground."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize the fireball and the extra positioning hazards in Dragon Form.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:moltenburst",
+        "riot:E"
+      ],
+      "subject_id": "wiki:moltenburst",
+      "title": "Molten Burst",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Shyvana gains 1% bonus Dragon Fury generation from all sources per 1 ultimate haste.",
+              "source_id": "wiki:dragonsdescent"
+            }
+          ],
+          "status": "supported",
+          "summary": "Important availability topic: ultimate haste increases Fury generation from all sources, affecting access to and maintenance of Dragon Form."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "100 Dragon Fury is required to cast this ability.",
+              "source_id": "wiki:dragonsdescent"
+            },
+            {
+              "quote": "Shyvana transforms into Dragon Form and dashes with displacement immunity, breathing fire in a cone that deals magic damage to enemies hit and briefly fears them.",
+              "source_id": "wiki:dragonsdescent"
+            }
+          ],
+          "id": "fdb6889514d0dc42a3ed6470",
+          "summary": "Fury gates a transforming dash with displacement immunity, cone magic damage, and fear."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Dragon Form: Shyvana gains bonus health, bonus attack range, and increased size. Her abilities are empowered to apply an additional effect.",
+              "source_id": "wiki:dragonsdescent"
+            }
+          ],
+          "id": "d0c310ef25dd65001020a267",
+          "summary": "Dragon Form increases health and attack range and empowers basic abilities."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Shyvana generates Fury every second while in Human Form, and also generates Fury from her basic attacks and abilities when they deal damage.",
+              "source_id": "wiki:dragonsdescent"
+            },
+            {
+              "quote": "She maintains Dragon Form at a recurring cost of Dragon Fury, returning to Human Form once all Dragon Fury has been depleted.",
+              "source_id": "wiki:dragonsdescent"
+            }
+          ],
+          "id": "9fc3075a8b10ed895a1b737b",
+          "summary": "Fury builds in Human Form and through damage, then drains while sustaining Dragon Form."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize the transformation engage and track its resource-driven threat window.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:dragonsdescent",
+        "riot:R"
+      ],
+      "subject_id": "wiki:dragonsdescent",
+      "title": "Dragon's Descent",
+      "unsupported_claims": [
+        "Maximum Fury capacity is not explicitly supplied."
+      ]
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "No exact base cooldowns are supplied for the basic abilities. Emberstrike's attack-driven cooldown reduction is taught; Dragon's Descent availability is explained through Fury.",
+    "Broad excerpts include alternate-mode passive rules, appended balance fragments, and unrelated skin text; primary teaching uses the source-addressed live sections."
+  ],
+  "features": [
+    "resource_cycle",
+    "transformations",
+    "ability_variants",
+    "conditional_effects"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "Her abilities are empowered to apply an additional effect.",
+          "source_id": "wiki:dragonsdescent"
+        },
+        {
+          "quote": "Dragon Form Bonus — Third Cast: Shyvana bites ferociously, dealing true damage.",
+          "source_id": "wiki:emberstrike"
+        }
+      ],
+      "condition": "Dragon Form adds the true-damage bite.",
+      "from_id": "wiki:dragonsdescent",
+      "kind": "conditional_effect",
+      "to_id": "wiki:emberstrike"
+    },
+    {
+      "citations": [
+        {
+          "quote": "While in Dragon Form, the explosion will heal her if it strikes an enemy champion.",
+          "source_id": "riot:W"
+        }
+      ],
+      "condition": "In Dragon Form, an explosion hitting an enemy champion heals Shyvana.",
+      "from_id": "wiki:dragonsdescent",
+      "kind": "conditional_effect",
+      "to_id": "wiki:infernoaegis"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Dragon Form Bonus: The fireball is wider, can pass through enemies, and deals increased damage.",
+          "source_id": "wiki:moltenburst"
+        }
+      ],
+      "condition": "Dragon Form empowers the fireball and adds its ground hazard.",
+      "from_id": "wiki:dragonsdescent",
+      "kind": "conditional_effect",
+      "to_id": "wiki:moltenburst"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Stacking defenses are taught on the passive card.",
+      "source_id": "wiki:scalemail",
+      "target_subject_ids": [
+        "wiki:scalemail"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Attack effects, cooldown reduction, and Dragon Form bite share the primary ability card.",
+      "source_id": "wiki:emberstrike",
+      "target_subject_ids": [
+        "wiki:emberstrike"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Shield, movement, explosion, and conditional healing share the primary ability card.",
+      "source_id": "wiki:infernoaegis",
+      "target_subject_ids": [
+        "wiki:infernoaegis"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Human and Dragon Form projectile behavior share the primary ability card.",
+      "source_id": "wiki:moltenburst",
+      "target_subject_ids": [
+        "wiki:moltenburst"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Transformation, engage, and Fury cycle share the ultimate card.",
+      "source_id": "wiki:dragonsdescent",
+      "target_subject_ids": [
+        "wiki:dragonsdescent"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:scalemail"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:emberstrike"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:infernoaegis"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:moltenburst"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:dragonsdescent"
+      ]
+    }
+  ],
+  "summary": "An overview and primary ability cards teach Shyvana's stacking defenses, attack chains, shield explosion, fireball hazards, and Fury-driven transformation. Dragon Form effects are merged into their related abilities."
+}

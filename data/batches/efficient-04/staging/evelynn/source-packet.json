@@ -1,0 +1,365 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "When out of combat, Evelynn enters Demon Shade. Demon Shade heals Evelynn when she is low on health and grants Camouflage after level 6.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Evelynn_Passive.png",
+      "name": "Demon Shade",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_P1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "description": "Evelynn strikes out with her Lasher, dealing damage to the first unit hit. Then, Evelynn can shoot a line of spikes at nearby foes a few times.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/EvelynnQ.png",
+      "name": "Hate Spike",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "description": "Evelynn curses her target, causing her next attack or spell after a delay to charm her target and reduce their magic resist.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/EvelynnW.png",
+      "name": "Allure",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "description": "Evelynn whips her target with her Lasher, dealing damage. She then gains Move Speed for a short duration.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/EvelynnE.png",
+      "name": "Whiplash",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        120,
+        100,
+        80
+      ],
+      "description": "Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/EvelynnR.png",
+      "name": "Last Caress",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/evelynn/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Evelynn"
+  },
+  "champion": {
+    "ddragon_id": "Evelynn",
+    "name": "Evelynn",
+    "riot_id": 28,
+    "roles": [
+      "Assassin",
+      "Mage"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/Evelynn/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "e3f6170fef3c07ef98fd4dd6b1d72387c9905c0defff0448bca709b7db778f07",
+      "text": "When out of combat, Evelynn enters Demon Shade. Demon Shade heals Evelynn when she is low on health and grants Camouflage after level 6.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Evelynn.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "Demon Shade",
+      "provider": "league_wiki",
+      "sha256": "dc97815a05bb9b3e96acfd34e66dbb0a008936e47f4a26a5c108c9787534aa58",
+      "text": "Demon Shade\nDetection Radius:\n700\nInnate: While out of combat, Evelynn gains Demon Shade. Demon Shade: Evelynn rapidly heals while she is at low health. After level 6, Demon Shade also grants camouflage.\nInnate: Evelynn shrouds herself in Demon Shade after not performing actions that break stealth for 4 seconds. Attacking or casting abilities ends Demon Shade immediately and places it on a 4-second static cooldown, reduced to 1.25 seconds from casting Last Caress. Taking damage from champions or turrets interrupts Demon Shade and places it on a 1.5-second static cooldown.\nDemon Shade: While below 250 – 590 (based on level) (+ 250% AP) health, Evelynn heals herself for 15 – 150 (based on level) every second. From level 6 onward, Demon Shade also grants camouflage.\n\"It's better in the dark.\"\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nDemon Shade is also placed on a 1.5 second cooldown upon respawning.\nDemon Shade's cooldown incurs upon starting the attack windup of the basic attack and upon the cast time of the ability.\nDemon Shade activates even if Evelynn is Recalling.\nUpon Evelynn's transition into the stealth, Demon Shade will interrupt her in-progress cast commands for unit-targeted spells, excluding Whiplash and its empowered cast.\nIf Evelynn's last issued order was to cast Whiplash, her transition into the stealth will be followed by an automatic command for casting the ability (if no other orders were issued in the meantime).\nWhenever Demon Shade activates, a puff of purple smoke will briefly appear around her.\nUsing a basic attack breaks the stealth at the start of the attack windup.\nAbility Preview Video\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Evelynn?oldid=4034409"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/Evelynn/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "e3f6170fef3c07ef98fd4dd6b1d72387c9905c0defff0448bca709b7db778f07",
+      "text": "Evelynn strikes out with her Lasher, dealing damage to the first unit hit. Then, Evelynn can shoot a line of spikes at nearby foes a few times.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Evelynn.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Hate Spike",
+      "provider": "league_wiki",
+      "sha256": "dc97815a05bb9b3e96acfd34e66dbb0a008936e47f4a26a5c108c9787534aa58",
+      "text": "Hate Spike\nCOST:\n40 / 45 / 50 / 55 / 60 Mana\nCOOLDOWN:\n4\nCAST TIME:\n0.3 • None\nTARGET RANGE:\n800 • 680\nEFFECT RADIUS:\n550\nWIDTH:\n120 • 180\nSPEED:\n2400\nQUEUE THRESHOLD:\n0.2\nBarrage Cooldown:\n0.5\nActive: Evelynn fires her Lasher, dealing magic damage to the first enemy hit and marking them. Evelynn's next few attacks against the marked target will deal bonus magic damage. Recast: Evelynn shoots a line of spikes toward the target enemy, dealing magic damage to all enemies hit. She may recast up to 3 times.\nActive: Evelynn launches a dart in the target direction, dealing magic damage to the first enemy hit and marking them for 4 seconds.\nMagic Damage:25 / 30 / 35 / 40 / 45 (+ 25% AP)\nEvelynn's next 3 basic attacks on-hit or abilities against the marked target deal bonus magic damage.\nBonus Magic Damage:15 / 25 / 35 / 45 / 55 (+ 25% AP)Total Bonus Damage:45 / 75 / 105 / 135 / 165 (+ 75% AP)\nHate Spike may be recast up to 3 times at no cost until the ability comes off cooldown.\nRecast: Evelynn unleashes a line of deadly spikes in the direction of the nearest visible enemy that deals magic damage to all enemies struck.\nMagic Damage:25 / 30 / 35 / 40 / 45 (+ 25% AP)Maximum Magic Damage:75 / 90 / 105 / 120 / 135 (+ 75% AP)Total Magic Damage:145 / 195 / 245 / 295 / 345 (+ 175% AP)\nHate Spike's recast prioritizes targeting Evelynn's attack target, then the nearest enemy champion, then the nearest non-champion.\nA nearby visible enemy is required to recast this ability.\nNotes/General Details\nTargeting input\nDirection • Proximity\nTarget out-of-range override\nThe ability will not cast (recast)\nAffects\nEnemies\nDamage classification\nType\nSee Notes\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nEach cast counts as an ability activation for the purposes of on-cast effects such as Spellblade and triggering Force Pulse's passive.\nHate Spike prioritizes:\nThe last champion Evelynn hit\nThe last non-champion Evelynn hit\nThe lowest-health champion\nThe lowest-health non-champion\nThe dart applies spell damage and the spikes deal area damage.\nThis ability will cast from wherever the caster is at the start of the cast time.\nRecasts can be buffered up to 0.5 seconds before becoming castable at a maximum range of approximately 500 units.\nMap-Specific Differences\nUltra Rapid Fire differences edit\nRecast can now be used up to 10 times instead of 3. *\nArena differences edit\nDart base damage changed to 35 / 45 / 55 / 65 / 75.\nDart AP ratio changed to 35% AP.\nSpikes base damage changed to 20 / 30 / 40 / 50 / 60.\nSpikes AP ratio changed to 40% AP.\nAbility Preview Video\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Evelynn?oldid=4034409"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/Evelynn/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "e3f6170fef3c07ef98fd4dd6b1d72387c9905c0defff0448bca709b7db778f07",
+      "text": "Evelynn curses her target, causing her next attack or spell after a delay to charm her target and reduce their magic resist.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Evelynn.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Allure",
+      "provider": "league_wiki",
+      "sha256": "dc97815a05bb9b3e96acfd34e66dbb0a008936e47f4a26a5c108c9787534aa58",
+      "text": "Allure\nCOST:\n60 / 70 / 80 / 90 / 100 Mana\nCOOLDOWN:\n15 / 14 / 13 / 12 / 11\nCAST TIME:\n0.25\nTARGET RANGE:\n1200 / 1300 / 1400 / 1500 / 1600\nActive: Evelynn curses the target enemy, causing her next basic attack or ability against the target to expunge the curse, slowing the target and refunding the mana cost. If the curse matures long enough, the expunge will increase the slow, charm the target, and apply an additional effect based on the target type.\nChampions have reduced magic resist for a few seconds.\nMonsters are dealt bonus magic damage and increased charm duration.\nActive: Evelynn marks the target enemy champion or medium or large monster with a curse for 5 seconds.\nEvelynn's next basic attack or ability hit against the target consumes the mark, slowing them by 45% for 0.75 seconds and refunding Allure's mana cost. If the target was marked for at least 2.5 seconds, the consumption is empowered.\nEmpowered Bonus: The target is charmed for a few seconds and the slow duration is increased to the same period. Additional effects are also applied based on the target type:\nAgainst champions, inflicts a magic resistance reduction for 4 seconds.\nAgainst monsters, the triggering effect deals bonus magic damage and the duration of the charm is increased by 2.25 seconds.\nCharm Duration:1.25 / 1.5 / 1.75 / 2 / 2.25 seconds\nMagic Resistance Reduction:35 / 37.5 / 40 / 42.5 / 45%\nBonus Magic Damage:250 / 300 / 350 / 400 / 450 (+ 60% AP)\nMonster Charm Duration:3.5 / 3.75 / 4 / 4.25 / 4.5 seconds\nCasting Allure does not break Demon Shade nor its fade into it.\n\"Go on, touch me.\"\nNotes/General Details\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe mark fully forming signifies the 2.5 seconds have elapsed, meaning the charm will be applied on the triggering attack or ability.\nAn enemy champion cursed by Allure is alarmed of her presence and after the mark has fully formed, an arrow will appear next to them pointing towards Evelynn's direction. This is visible to both teams.\nThe magic resistance reduction will be applied to the attack or ability that triggers it.\nAllure's mark application on a target cannot be blocked by spell shield.\nThe mark's consumption will not occur if the ability is blocked by a spell shield, causing the mark to remain on the target.\nThe magic resistance reduction debuff is applied independently of the Charm debuff when the matured mark is expunged, meaning a target can still have their magic resistance reduced while they are resisting applications of CC debuffs (e.g. Morgana's Black Shield).\nIf the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but still go on cooldown and pay its cost.(bug)\nAllure will restart its cooldown whenever the mark debuff is removed.(bug)\nMap-Specific Differences\nArena differences edit\nCooldown changed to 13 / 12 / 11 / 10 / 9 seconds.\nAbility Preview Video\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Evelynn?oldid=4034409"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/Evelynn/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "e3f6170fef3c07ef98fd4dd6b1d72387c9905c0defff0448bca709b7db778f07",
+      "text": "Evelynn whips her target with her Lasher, dealing damage. She then gains Move Speed for a short duration.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Evelynn.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Whiplash",
+      "provider": "league_wiki",
+      "sha256": "dc97815a05bb9b3e96acfd34e66dbb0a008936e47f4a26a5c108c9787534aa58",
+      "text": "Whiplash\nCOST:\n40 / 45 / 50 / 55 / 60 Mana\nCOOLDOWN:\n8\nCAST TIME:\n0.25\nTARGET RANGE:\n210\nActive: Evelynn whips the target enemy, dealing magic damage based on the target's maximum health and applying on-hit effects. She then gains bonus movement speed for a short time. Whenever Evelynn enters Demon Shade, Whiplash's cooldown will reset and the next cast is empowered.\nActive: Evelynn whips the target enemy with her lashers, dealing magic damage and applying on-hit effects.\nMagic Damage:60 / 90 / 120 / 150 / 180 (+ 3% (+ 1.5% per 100 AP) of target's maximum health)\nEvelynn also gains bonus movement speed for 2 seconds.\nBonus Movement Speed:30 / 35 / 40 / 45 / 50%\nGaining Demon Shade resets Whiplash's cooldown and empowers its next cast. The damage based on the target's health ratio for both Whiplash and its empowered cast deals a minimum of 25 and is capped at 450 against monsters.\nEdit\nEmpowered Whiplash\nActive: Evelynn casts Whiplash, dashing to the target enemy and dealing increased damage to them and enemies she passes through.\nActive: Evelynn dashes toward the target enemy with her lashers, dealing increased damage to them upon completion as well as to all enemies within her path.\nEmpowered Magic Damage:80 / 120 / 160 / 200 / 240 (+ 4% (+ 2.5% per 100 AP) of target's maximum health)\nEmpowered Whiplash only applies on-hit effects to the primary target.\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nMagic\nMinion Aggro\nDrawn\nCounters\nSpell shield\nBlocked\nParries\nSee Notes\nProjectile\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nWhiplash can be dodged and blocked but may not miss if Evelynn is blinded.\nIf the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nMinion Aggro\nDrawn\nCounters\nSpell shield\nBlocked\nParries\nSee Notes\nGrounded\nDisabled\nKnockdown\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nEvelynn will track the target if they change locations.\nShe will dash to the target's previous location if the target moves 2000 or more units away.\nShe will not stop tracking the target until she reaches them, as there is no maximum tracking distance.\nThere is no time-out period on Empowered Whiplash.\nEmpowered Whiplash can be blocked but cannot be dodged and/or missed if Evelynn is blinded.\nIf the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).\nWhiplash\nArena differences edit\nTarget health ratio changed to 4% of target's maximum health\nEmpowered Whiplash target health ratio changed to 6% of target's maximum health\nAbility Preview Video\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Evelynn?oldid=4034409"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/Evelynn/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "e3f6170fef3c07ef98fd4dd6b1d72387c9905c0defff0448bca709b7db778f07",
+      "text": "Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Evelynn.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Last Caress",
+      "provider": "league_wiki",
+      "sha256": "dc97815a05bb9b3e96acfd34e66dbb0a008936e47f4a26a5c108c9787534aa58",
+      "text": "Last Caress\nCOST:\n100 Mana\nCOOLDOWN:\n120 / 100 / 80\nCAST TIME:\n0.35\nEFFECT RADIUS:\n500\nANGLE:\n180°\nActive: Evelynn briefly goes untargetable and decimates the area in front of her, dealing magic damage to enemies within, increased against low-health targets. She then blinks backwards over a distance.\nActive: Evelynn reveals her true form, becoming untargetable at the start of the cast time and then unleashing her lashers in a cone in the target direction, dealing magic damage to enemies struck within. After 0.5 seconds, she blinks 700 units in the opposite direction and becomes targetable again.\nMagic Damage:125 / 250 / 375 (+ 75% AP)\nLast Caress is empowered to deal 240% damage against enemies below 30% of their maximum health.\nEmpowered Damage:300 / 600 / 900 (+ 180% AP)\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies / Self\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nNot Blocked\nGrounded\nDisabled\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nLast Caress can be buffered during Empowered Whiplash.\nThe casting input controls the direction Last Caress' damage is dealt from, with the movement automatically happening in the reverse direction.\nEnemy champions below the health threshold are marked for Evelynn, indicating the target will receive Last Caress' increased damage.\nThe screen will direct to Evelynn's position after she blinks.\nType\nCast time\nAttacking\nDisabled\nAbilities\nDisabled\nMovement\nDisabled\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nAll the other item-actives are disabled\nInterrupted by\nN/A\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nFlash Teleport Recall Hexflash\nInterrupted by\nN/A\nInterrupted by\nDeath, unless protected by Resurrection\nMap-Specific Differences\nARAM differences edit\nCooldown changed to 100 / 80 / 60 seconds.\nArena differences edit\nCooldown changed to 90 / 75 / 60 seconds.\nAbility Preview Video\nChampion skins[edit | edit source]\nThis article section only contains champion skins. For all associated collection items, see Evelynn (Collection).\nOriginal\n30.04.2009\nWithin the dark seams of Runeterra, the demon Evelynn searches for her next victim. She lures in prey with the voluptuous façade of a human female, but once a person succumbs to her charms, Evelynn’s true form is unleashed. She then subjects her victim to unspeakable torment, gratifying herself with their pain. To the demon, these liaisons are innocent flings. To the rest of Runeterra, they are ghoulish tales of lust gone awry and horrific reminders of the cost of wanton desire.\nMara Junot\nJessica 'OwleyCat' Oyhenart\nLoot eligible\nView in 3D • View Music\nShadow\n520\n20.11.2009\nMara Junot\nSangsoo Jeong\nDeath Sworn\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nMasquerade\n520\n17.05.2010\nMara Junot\nAndrew Theophilopoulos\nLegacy\nLoot eligible\nLegacy\nView in 3D\nTango\n520\n05.10.2010\nMara Junot\nBo 'chenbowow' Chen\nHigh Society\nLoot eligible\nNew SFX/VFX\nView in 3D\nSafecracker\n750\n28.11.2014\nMara Junot\nUnknown artist\nCops and Robbers\nLoot eligible\nView in 3D\nBlood Moon\n975\n08.05.2018\nA seductive demon summoned on the night of the Blood Moon, Evelynn moves between isolated villages, wooing the residents until they fall deeply in love with her. One by one these poor souls will surely perish, their hearts torn from their still-living bodies.\nMara Junot\nEsben Lash Rasmussen\nBlood Moon\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nKDA\n1350\n03.11.2018\nNo one is as deliciously volatile as Evelynn. She's a diva who drives divisiveness in the media—they love her one day and hate her the next, her name a permanent fixture of tabloid headlines. She is a born superstar, and the foundation of K/DA's sound.\nMara Junot\nAlvin Lee, Pan Chengwei, Bo 'chenbowow' Chen\nK/DA\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D • View Music\nPrestige KDA\nSpecial\n18.04.2019\nWith that wild in her veins, K/DA Evelynn stomps into the spotlight, shimmering in a custom golden outfit from the Pop Music Awards. Only 'winning, winning' now.\nMara Junot",
+      "url": "https://wiki.leagueoflegends.com/en-us/Evelynn?oldid=4034409"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/Evelynn/tags",
+      "provider": "riot_ddragon",
+      "sha256": "e3f6170fef3c07ef98fd4dd6b1d72387c9905c0defff0448bca709b7db778f07",
+      "text": "Name: Evelynn. Official role tags: Assassin, Mage.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Evelynn.json"
+    },
+    {
+      "id": "wiki:demonshade",
+      "locator": "Demon_Shade",
+      "provider": "league_wiki",
+      "sha256": "dc97815a05bb9b3e96acfd34e66dbb0a008936e47f4a26a5c108c9787534aa58",
+      "text": "Demon Shade\nDetection Radius:\n700\nInnate: While out of combat, Evelynn gains Demon Shade. Demon Shade: Evelynn rapidly heals while she is at low health. After level 6, Demon Shade also grants camouflage.\nInnate: Evelynn shrouds herself in Demon Shade after not performing actions that break stealth for 4 seconds. Attacking or casting abilities ends Demon Shade immediately and places it on a 4-second static cooldown, reduced to 1.25 seconds from casting Last Caress. Taking damage from champions or turrets interrupts Demon Shade and places it on a 1.5-second static cooldown.\nDemon Shade: While below 250 – 590 (based on level) (+ 250% AP) health, Evelynn heals herself for 15 – 150 (based on level) every second. From level 6 onward, Demon Shade also grants camouflage.\n\"It's better in the dark.\"\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nDemon Shade is also placed on a 1.5 second cooldown upon respawning.\nDemon Shade's cooldown incurs upon starting the attack windup of the basic attack and upon the cast time of the ability.\nDemon Shade activates even if Evelynn is Recalling.\nUpon Evelynn's transition into the stealth, Demon Shade will interrupt her in-progress cast commands for unit-targeted spells, excluding Whiplash and its empowered cast.\nIf Evelynn's last issued order was to cast Whiplash, her transition into the stealth will be followed by an automatic command for casting the ability (if no other orders were issued in the meantime).\nWhenever Demon Shade activates, a puff of purple smoke will briefly appear around her.\nUsing a basic attack breaks the stealth at the start of the attack windup.\nAbility Preview Video\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Evelynn?oldid=4034409"
+    },
+    {
+      "id": "wiki:hatespike",
+      "locator": "Hate_Spike",
+      "provider": "league_wiki",
+      "sha256": "dc97815a05bb9b3e96acfd34e66dbb0a008936e47f4a26a5c108c9787534aa58",
+      "text": "Hate Spike\nCOST:\n40 / 45 / 50 / 55 / 60 Mana\nCOOLDOWN:\n4\nCAST TIME:\n0.3 • None\nTARGET RANGE:\n800 • 680\nEFFECT RADIUS:\n550\nWIDTH:\n120 • 180\nSPEED:\n2400\nQUEUE THRESHOLD:\n0.2\nBarrage Cooldown:\n0.5\nActive: Evelynn fires her Lasher, dealing magic damage to the first enemy hit and marking them. Evelynn's next few attacks against the marked target will deal bonus magic damage. Recast: Evelynn shoots a line of spikes toward the target enemy, dealing magic damage to all enemies hit. She may recast up to 3 times.\nActive: Evelynn launches a dart in the target direction, dealing magic damage to the first enemy hit and marking them for 4 seconds.\nMagic Damage:25 / 30 / 35 / 40 / 45 (+ 25% AP)\nEvelynn's next 3 basic attacks on-hit or abilities against the marked target deal bonus magic damage.\nBonus Magic Damage:15 / 25 / 35 / 45 / 55 (+ 25% AP)Total Bonus Damage:45 / 75 / 105 / 135 / 165 (+ 75% AP)\nHate Spike may be recast up to 3 times at no cost until the ability comes off cooldown.\nRecast: Evelynn unleashes a line of deadly spikes in the direction of the nearest visible enemy that deals magic damage to all enemies struck.\nMagic Damage:25 / 30 / 35 / 40 / 45 (+ 25% AP)Maximum Magic Damage:75 / 90 / 105 / 120 / 135 (+ 75% AP)Total Magic Damage:145 / 195 / 245 / 295 / 345 (+ 175% AP)\nHate Spike's recast prioritizes targeting Evelynn's attack target, then the nearest enemy champion, then the nearest non-champion.\nA nearby visible enemy is required to recast this ability.\nNotes/General Details\nTargeting input\nDirection • Proximity\nTarget out-of-range override\nThe ability will not cast (recast)\nAffects\nEnemies\nDamage classification\nType\nSee Notes\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nEach cast counts as an ability activation for the purposes of on-cast effects such as Spellblade and triggering Force Pulse's passive.\nHate Spike prioritizes:\nThe last champion Evelynn hit\nThe last non-champion Evelynn hit\nThe lowest-health champion\nThe lowest-health non-champion\nThe dart applies spell damage and the spikes deal area damage.\nThis ability will cast from wherever the caster is at the start of the cast time.\nRecasts can be buffered up to 0.5 seconds before becoming castable at a maximum range of approximately 500 units.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Evelynn?oldid=4034409"
+    },
+    {
+      "id": "wiki:allure",
+      "locator": "Allure",
+      "provider": "league_wiki",
+      "sha256": "dc97815a05bb9b3e96acfd34e66dbb0a008936e47f4a26a5c108c9787534aa58",
+      "text": "Allure\nCOST:\n60 / 70 / 80 / 90 / 100 Mana\nCOOLDOWN:\n15 / 14 / 13 / 12 / 11\nCAST TIME:\n0.25\nTARGET RANGE:\n1200 / 1300 / 1400 / 1500 / 1600\nActive: Evelynn curses the target enemy, causing her next basic attack or ability against the target to expunge the curse, slowing the target and refunding the mana cost. If the curse matures long enough, the expunge will increase the slow, charm the target, and apply an additional effect based on the target type.\nChampions have reduced magic resist for a few seconds.\nMonsters are dealt bonus magic damage and increased charm duration.\nActive: Evelynn marks the target enemy champion or medium or large monster with a curse for 5 seconds.\nEvelynn's next basic attack or ability hit against the target consumes the mark, slowing them by 45% for 0.75 seconds and refunding Allure's mana cost. If the target was marked for at least 2.5 seconds, the consumption is empowered.\nEmpowered Bonus: The target is charmed for a few seconds and the slow duration is increased to the same period. Additional effects are also applied based on the target type:\nAgainst champions, inflicts a magic resistance reduction for 4 seconds.\nAgainst monsters, the triggering effect deals bonus magic damage and the duration of the charm is increased by 2.25 seconds.\nCharm Duration:1.25 / 1.5 / 1.75 / 2 / 2.25 seconds\nMagic Resistance Reduction:35 / 37.5 / 40 / 42.5 / 45%\nBonus Magic Damage:250 / 300 / 350 / 400 / 450 (+ 60% AP)\nMonster Charm Duration:3.5 / 3.75 / 4 / 4.25 / 4.5 seconds\nCasting Allure does not break Demon Shade nor its fade into it.\n\"Go on, touch me.\"\nNotes/General Details\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe mark fully forming signifies the 2.5 seconds have elapsed, meaning the charm will be applied on the triggering attack or ability.\nAn enemy champion cursed by Allure is alarmed of her presence and after the mark has fully formed, an arrow will appear next to them pointing towards Evelynn's direction. This is visible to both teams.\nThe magic resistance reduction will be applied to the attack or ability that triggers it.\nAllure's mark application on a target cannot be blocked by spell shield.\nThe mark's consumption will not occur if the ability is blocked by a spell shield, causing the mark to remain on the target.\nThe magic resistance reduction debuff is applied independently of the Charm debuff when the matured mark is expunged, meaning a target can still have their magic resistance reduced while they are resisting applications of CC debuffs (e.g. Morgana's Black Shield).\nIf the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but still go on cooldown and pay its cost.(bug)\nAllure will restart its cooldown whenever the mark debuff is removed.(bug)",
+      "url": "https://wiki.leagueoflegends.com/en-us/Evelynn?oldid=4034409"
+    },
+    {
+      "id": "wiki:whiplash",
+      "locator": "Whiplash",
+      "provider": "league_wiki",
+      "sha256": "dc97815a05bb9b3e96acfd34e66dbb0a008936e47f4a26a5c108c9787534aa58",
+      "text": "Whiplash\nCOST:\n40 / 45 / 50 / 55 / 60 Mana\nCOOLDOWN:\n8\nCAST TIME:\n0.25\nTARGET RANGE:\n210\nActive: Evelynn whips the target enemy, dealing magic damage based on the target's maximum health and applying on-hit effects. She then gains bonus movement speed for a short time. Whenever Evelynn enters Demon Shade, Whiplash's cooldown will reset and the next cast is empowered.\nActive: Evelynn whips the target enemy with her lashers, dealing magic damage and applying on-hit effects.\nMagic Damage:60 / 90 / 120 / 150 / 180 (+ 3% (+ 1.5% per 100 AP) of target's maximum health)\nEvelynn also gains bonus movement speed for 2 seconds.\nBonus Movement Speed:30 / 35 / 40 / 45 / 50%\nGaining Demon Shade resets Whiplash's cooldown and empowers its next cast. The damage based on the target's health ratio for both Whiplash and its empowered cast deals a minimum of 25 and is capped at 450 against monsters.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Evelynn?oldid=4034409"
+    },
+    {
+      "id": "wiki:empoweredwhiplash",
+      "locator": "Empowered_Whiplash",
+      "provider": "league_wiki",
+      "sha256": "dc97815a05bb9b3e96acfd34e66dbb0a008936e47f4a26a5c108c9787534aa58",
+      "text": "Empowered Whiplash\nActive: Evelynn casts Whiplash, dashing to the target enemy and dealing increased damage to them and enemies she passes through.\nActive: Evelynn dashes toward the target enemy with her lashers, dealing increased damage to them upon completion as well as to all enemies within her path.\nEmpowered Magic Damage:80 / 120 / 160 / 200 / 240 (+ 4% (+ 2.5% per 100 AP) of target's maximum health)\nEmpowered Whiplash only applies on-hit effects to the primary target.\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nMagic\nMinion Aggro\nDrawn\nCounters\nSpell shield\nBlocked\nParries\nSee Notes\nProjectile\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nWhiplash can be dodged and blocked but may not miss if Evelynn is blinded.\nIf the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nMinion Aggro\nDrawn\nCounters\nSpell shield\nBlocked\nParries\nSee Notes\nGrounded\nDisabled\nKnockdown\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nEvelynn will track the target if they change locations.\nShe will dash to the target's previous location if the target moves 2000 or more units away.\nShe will not stop tracking the target until she reaches them, as there is no maximum tracking distance.\nThere is no time-out period on Empowered Whiplash.\nEmpowered Whiplash can be blocked but cannot be dodged and/or missed if Evelynn is blinded.\nIf the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).\nWhiplash",
+      "url": "https://wiki.leagueoflegends.com/en-us/Evelynn?oldid=4034409"
+    },
+    {
+      "id": "wiki:lastcaress",
+      "locator": "Last_Caress",
+      "provider": "league_wiki",
+      "sha256": "dc97815a05bb9b3e96acfd34e66dbb0a008936e47f4a26a5c108c9787534aa58",
+      "text": "Last Caress\nCOST:\n100 Mana\nCOOLDOWN:\n120 / 100 / 80\nCAST TIME:\n0.35\nEFFECT RADIUS:\n500\nANGLE:\n180°\nActive: Evelynn briefly goes untargetable and decimates the area in front of her, dealing magic damage to enemies within, increased against low-health targets. She then blinks backwards over a distance.\nActive: Evelynn reveals her true form, becoming untargetable at the start of the cast time and then unleashing her lashers in a cone in the target direction, dealing magic damage to enemies struck within. After 0.5 seconds, she blinks 700 units in the opposite direction and becomes targetable again.\nMagic Damage:125 / 250 / 375 (+ 75% AP)\nLast Caress is empowered to deal 240% damage against enemies below 30% of their maximum health.\nEmpowered Damage:300 / 600 / 900 (+ 180% AP)\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies / Self\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nNot Blocked\nGrounded\nDisabled\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nLast Caress can be buffered during Empowered Whiplash.\nThe casting input controls the direction Last Caress' damage is dealt from, with the movement automatically happening in the reverse direction.\nEnemy champions below the health threshold are marked for Evelynn, indicating the target will receive Last Caress' increased damage.\nThe screen will direct to Evelynn's position after she blinks.\nType\nCast time\nAttacking\nDisabled\nAbilities\nDisabled\nMovement\nDisabled\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nAll the other item-actives are disabled\nInterrupted by\nN/A\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nFlash Teleport Recall Hexflash\nInterrupted by\nN/A\nInterrupted by\nDeath, unless protected by Resurrection",
+      "url": "https://wiki.leagueoflegends.com/en-us/Evelynn?oldid=4034409"
+    }
+  ],
+  "findings": [
+    {
+      "code": "adaptive_kit_structure",
+      "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+    }
+  ],
+  "kit_sections": [
+    {
+      "anchor": "Demon_Shade",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Demon_Shade.png?09c84",
+      "id": "wiki:demonshade",
+      "name": "Demon Shade"
+    },
+    {
+      "anchor": "Hate_Spike",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Hate_Spike.png?7f6dc",
+      "id": "wiki:hatespike",
+      "name": "Hate Spike"
+    },
+    {
+      "anchor": "Allure",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Allure.png?8c144",
+      "id": "wiki:allure",
+      "name": "Allure"
+    },
+    {
+      "anchor": "Whiplash",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Whiplash.png?77d58",
+      "id": "wiki:whiplash",
+      "name": "Whiplash"
+    },
+    {
+      "anchor": "Empowered_Whiplash",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Empowered_Whiplash.png?6bec3",
+      "id": "wiki:empoweredwhiplash",
+      "name": "Empowered Whiplash"
+    },
+    {
+      "anchor": "Last_Caress",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Evelynn_Last_Caress.png?dd755",
+      "id": "wiki:lastcaress",
+      "name": "Last Caress"
+    }
+  ],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "media_catalog": [
+    {
+      "filename": "evelynn_e1.png",
+      "id": "cd:evelynne1png",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/hud/icons2d/evelynn_e1.png"
+    },
+    {
+      "filename": "evelynn_passive.png",
+      "id": "cd:evelynnpassivepng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/hud/icons2d/evelynn_passive.png"
+    },
+    {
+      "filename": "evelynn_q1.png",
+      "id": "cd:evelynnq1png",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/hud/icons2d/evelynn_q1.png"
+    },
+    {
+      "filename": "evelynn_r.png",
+      "id": "cd:evelynnrpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/hud/icons2d/evelynn_r.png"
+    },
+    {
+      "filename": "evelynn_w.png",
+      "id": "cd:evelynnwpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/hud/icons2d/evelynn_w.png"
+    }
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 15324,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T13:04:02.742135+00:00",
+      "sha256": "e3f6170fef3c07ef98fd4dd6b1d72387c9905c0defff0448bca709b7db778f07",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Evelynn.json"
+    },
+    {
+      "bytes": 51394,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T13:04:02.882826+00:00",
+      "sha256": "1612f5962fc0e44d3a6e0ecef80fabc31f7d24fc517c67734a8ed4e1ffcaac82",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/28.json"
+    },
+    {
+      "bytes": 177605,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:04:03.346769+00:00",
+      "sha256": "87fd69912390636da187db9a9bf173d18853c006f1ca0be3d199e3013a95ee95",
+      "url": "https://www.leagueoflegends.com/en-us/champions/evelynn/"
+    },
+    {
+      "bytes": 844491,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:04:03.564305+00:00",
+      "sha256": "dc97815a05bb9b3e96acfd34e66dbb0a008936e47f4a26a5c108c9787534aa58",
+      "url": "https://wiki.leagueoflegends.com/en-us/Evelynn"
+    },
+    {
+      "bytes": 8485,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:04:04.012756+00:00",
+      "sha256": "641f306c79061b0d89433200a2b32458ccdeb2dee5e884a2e1f0c457227b246e",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/hud/icons2d/"
+    }
+  ],
+  "schema_version": 2,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4034409"
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "cards": [
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Innate: During each basic attack or casting of Pierce, Kalista can optionally choose a target direction to quickly dash to.",
+              "source_id": "wiki:martialpoise"
+            },
+            {
+              "quote": "For each stack beyond the first, the target is dealt additional physical damage.",
+              "source_id": "wiki:rend"
+            }
+          ],
+          "id": "e80a5143d53d8b7901d05a69",
+          "summary": "Attack-linked dashes accompany stacking physical damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "While she and the ally bound as the Oathsworn are within tether range of each other, they can both interact with Soul-Mark and Fate's Call.",
+              "source_id": "wiki:martialpoise"
+            }
+          ],
+          "id": "aa0e81b17ce334cb92f0d4c5",
+          "summary": "A bound ally enables Soul-Mark and Fate's Call within tether range."
+        }
+      ],
+      "kind": "overview",
+      "purpose": "Recognize Kalista's fighting pattern and main responses.",
+      "slot": "",
+      "source_ids": [
+        "wiki:martialpoise",
+        "wiki:pierce",
+        "wiki:sentinel",
+        "wiki:rend",
+        "wiki:fatescall"
+      ],
+      "subject_id": "riot:role",
+      "title": "Kalista overview",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Basic Attack: Kalista's basic attack windup is uncancellable except by casting Rend, although she can input a new attack command to change her target during the windup.",
+              "source_id": "wiki:basicattack"
+            }
+          ],
+          "status": "supported",
+          "summary": "Her attack windup is normally uncancellable; Rend and attack retargeting have specific interactions."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Innate: During each basic attack or casting of Pierce, Kalista can optionally choose a target direction to quickly dash to.",
+              "source_id": "wiki:martialpoise"
+            }
+          ],
+          "id": "e32dae234d239d8116e6382d",
+          "summary": "Attacks and Pierce enable directional dashes."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Kalista cannot dash while immobilized or grounded",
+              "source_id": "wiki:martialpoise"
+            }
+          ],
+          "id": "de317287084fd37048fb2eb0",
+          "summary": "Immobilization and grounding prevent dashing."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Kalista begins the game with an exclusive Black Spear that she can activate on an allied champion to deem them Oathsworn, forming a tether together.",
+              "source_id": "wiki:martialpoise"
+            }
+          ],
+          "id": "824877a5acfd310d5302b0f8",
+          "summary": "Black Spear designates a bound allied champion."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize repeated repositioning and the Oathsworn bond.",
+      "slot": "P",
+      "source_ids": [
+        "wiki:martialpoise",
+        "wiki:basicattack",
+        "riot:P"
+      ],
+      "subject_id": "wiki:martialpoise",
+      "title": "Martial Poise",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Kalista throws a spear in the target direction that deals physical damage to the first enemy hit.",
+              "source_id": "wiki:pierce"
+            }
+          ],
+          "id": "df5ac73b02e88617769c1d86",
+          "summary": "A directional spear deals physical damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If Pierce kills 1 or more targets, the spear continues onward to transfer all of the last killed target's Rend stacks to the next enemy hit that survives.",
+              "source_id": "wiki:pierce"
+            }
+          ],
+          "id": "707bcc11cb84d770b2d6a269",
+          "summary": "Kills let the spear continue and transfer Rend stacks."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize spear penetration and stack-transfer danger.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:pierce",
+        "riot:Q"
+      ],
+      "subject_id": "wiki:pierce",
+      "title": "Pierce",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "If both Soul-Marks are applied to the same target, they take bonus magic damage.",
+              "source_id": "wiki:sentinel"
+            }
+          ],
+          "id": "a7d60cad596e610f0be23a19",
+          "summary": "Shared marks trigger bonus magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Kalista summons a Sentinel that patrols back and forth on a path along the target direction, granting sight of its surroundings as it travels.",
+              "source_id": "wiki:sentinel"
+            }
+          ],
+          "id": "c71fe001c46b77c9654c936e",
+          "summary": "The active patrol grants sight."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize shared-target damage and scouting patrols.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:sentinel",
+        "riot:W"
+      ],
+      "subject_id": "wiki:sentinel",
+      "title": "Sentinel",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Rend's cast also empowers the in-flight missiles of Kalista's basic attacks and Pierce to apply Rend's effects to their targets immediately upon hitting them.",
+              "source_id": "wiki:rend"
+            }
+          ],
+          "status": "supported",
+          "summary": "Projectiles already in flight can apply Rend's effects on arrival."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Kalista's basic attacks on-hit and Pierce apply a stack of Rend to enemies for 4 seconds, refreshing on subsequent hits",
+              "source_id": "wiki:rend"
+            }
+          ],
+          "id": "c63cb75a46c11de20a4e7170",
+          "summary": "Attacks and Pierce build and refresh spear stacks."
+        },
+        {
+          "citations": [
+            {
+              "quote": "For each stack beyond the first, the target is dealt additional physical damage.",
+              "source_id": "wiki:rend"
+            }
+          ],
+          "id": "a1bb03b40f882d50e147cb26",
+          "summary": "Additional spears increase Rend's damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If Rend kills at least one target, its cooldown is reset and Kalista restores mana.",
+              "source_id": "wiki:rend"
+            }
+          ],
+          "id": "97ff9d764c5f1b1aab424108",
+          "summary": "A Rend kill resets its cooldown and restores mana."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize accumulating burst, slows and repeat-cast danger.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:rend",
+        "riot:E"
+      ],
+      "subject_id": "wiki:rend",
+      "title": "Rend",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Kalista cleanses the Oathsworn from all crowd control and renders them invulnerable and untargetable for the duration",
+              "source_id": "wiki:fatescall"
+            }
+          ],
+          "id": "c9486288e111439b4c0a11a9",
+          "summary": "Retrieving the Oathsworn cleanses and protects them."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Upon the dash ending by collision or arriving to the targeted location, the Oathsworn knocks back all nearby enemies and keeps them airborne for a set duration",
+              "source_id": "wiki:fatescall"
+            }
+          ],
+          "id": "cbc9c69ee396f95ada891e1c",
+          "summary": "The ally's outgoing dash ends with nearby knockback and airborne crowd control."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize the rescue and outgoing area engage.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:fatescall",
+        "riot:R"
+      ],
+      "subject_id": "wiki:fatescall",
+      "title": "Fate's Call",
+      "unsupported_claims": []
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "No supplied role excerpt supports a quoted marksman classification; the overview uses the evidenced spear-attack identity.",
+    "Detailed input handling, numerical dash geometry, bugs and channel-specific exceptions are omitted from teaching.",
+    "The wiki:R excerpt includes Sentinel details and unrelated lore; the primary cards use the dedicated ability sections."
+  ],
+  "features": [
+    "standard",
+    "conditional_effects"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "While she and the ally bound as the Oathsworn are within tether range of each other, they can both interact with Soul-Mark and Fate's Call.",
+          "source_id": "wiki:martialpoise"
+        }
+      ],
+      "condition": "Kalista and her Oathsworn are within tether range.",
+      "from_id": "wiki:martialpoise",
+      "kind": "unlocks",
+      "to_id": "wiki:sentinel"
+    },
+    {
+      "citations": [
+        {
+          "quote": "The Oathsworn must be within tether range to cast this ability",
+          "source_id": "wiki:fatescall"
+        }
+      ],
+      "condition": "The Oathsworn is within tether range.",
+      "from_id": "wiki:martialpoise",
+      "kind": "unlocks",
+      "to_id": "wiki:fatescall"
+    },
+    {
+      "citations": [
+        {
+          "quote": "If Pierce kills 1 or more targets, the spear continues onward to transfer all of the last killed target's Rend stacks to the next enemy hit that survives.",
+          "source_id": "wiki:pierce"
+        }
+      ],
+      "condition": "Pierce kills a target before hitting a surviving enemy.",
+      "from_id": "wiki:pierce",
+      "kind": "conditional_effect",
+      "to_id": "wiki:rend"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "advanced_only",
+      "reason": "Attack-windup exceptions are retained in Martial Poise metadata.",
+      "source_id": "wiki:basicattack",
+      "target_subject_ids": [
+        "wiki:martialpoise"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Dashes and the Oathsworn bond share the passive card.",
+      "source_id": "wiki:martialpoise",
+      "target_subject_ids": [
+        "wiki:martialpoise"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The spear and conditional stack transfer share the primary card.",
+      "source_id": "wiki:pierce",
+      "target_subject_ids": [
+        "wiki:pierce"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Shared-target damage and the scouting active share the primary card.",
+      "source_id": "wiki:sentinel",
+      "target_subject_ids": [
+        "wiki:sentinel"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Stacking, damage, slow and kill reset share the primary card.",
+      "source_id": "wiki:rend",
+      "target_subject_ids": [
+        "wiki:rend"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Retrieval, protection and outgoing engage share the primary card.",
+      "source_id": "wiki:fatescall",
+      "target_subject_ids": [
+        "wiki:fatescall"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:martialpoise",
+        "riot:P"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:pierce",
+        "riot:Q"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:sentinel",
+        "riot:W"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:rend",
+        "riot:E"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:fatescall",
+        "riot:R"
+      ]
+    }
+  ],
+  "summary": "An overview and primary ability cards teach attack-linked dashes, the Oathsworn bond, spear transfer, shared-target damage, scouting, Rend resets and Fate's Call."
+}

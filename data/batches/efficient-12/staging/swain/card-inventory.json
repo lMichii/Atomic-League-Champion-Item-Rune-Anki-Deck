@@ -1,0 +1,298 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:swain:overview:L1",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Name: Swain. Official role tags: Mage, Support.",
+            "source_id": "riot:role"
+          }
+        ],
+        "id": "0d62ce941cd9cc4f7a700faf",
+        "summary": "Swain is a mage/support."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Swain can then choose to pull all rooted champions closer.",
+            "source_id": "riot:E"
+          },
+          {
+            "quote": "Demonic Ascension: Swain becomes ghosted and continually drains the lifeforce of nearby enemies, dealing magic damage and healing himself.",
+            "source_id": "wiki:demonicascension"
+          }
+        ],
+        "id": "14b4c3fcc5672a4ed2c91964",
+        "summary": "He can pull rooted champions closer and drain nearby enemies for magic damage and healing."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize Swain's catch and sustained close-range fighting.",
+    "slot": "",
+    "source_ids": [
+      "riot:role",
+      "riot:E",
+      "wiki:demonicascension",
+      "wiki:deathshand",
+      "riot:P"
+    ],
+    "subject_id": "riot:role",
+    "title": "Swain",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:swain:p:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Swain's ravens collect Soul Fragments that heal him and permanently increase his maximum health.",
+            "source_id": "riot:P"
+          }
+        ],
+        "id": "717ff4f6bc29dad7063a390a",
+        "summary": "Collecting Soul Fragments heals Swain and permanently increases his maximum health."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Enemy champions that die will leave behind a Soul Fragment for 16 seconds. Swain's ravens will collect nearby dropped Soul Fragments, as well as rip the Soul Fragments out of champions hit by Vision of Empire or Nevermove's recast.",
+            "source_id": "wiki:ravenousflock"
+          }
+        ],
+        "id": "3ffae10aa9f7de32679edf41",
+        "summary": "Fragments come from champion deaths, Vision of Empire hits, and Nevermove's recast."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the sources of Swain's healing and health growth.",
+    "slot": "P",
+    "source_ids": [
+      "wiki:ravenousflock",
+      "riot:P",
+      "wiki:nevermove"
+    ],
+    "subject_id": "wiki:ravenousflock",
+    "title": "Ravenous Flock",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:swain:q:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Swain unleashes five bolts of eldritch power over 0.264 seconds in a cone in the target direction that deal magic damage to enemies hit. Subsequent bolts against an enemy deal bonus magic damage.",
+            "source_id": "wiki:deathshand"
+          },
+          {
+            "quote": "Swain unleashes several bolts of eldritch power that pierce through enemies.",
+            "source_id": "riot:Q"
+          }
+        ],
+        "id": "3312787ef976116ff5beccaa",
+        "summary": "A piercing cone of magic-damage bolts deals more total damage when more bolts hit."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize his cone damage and the danger of overlapping bolt hits.",
+    "slot": "Q",
+    "source_ids": [
+      "wiki:deathshand",
+      "riot:Q"
+    ],
+    "subject_id": "wiki:deathshand",
+    "title": "Death's Hand",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Enemy champions protected by a spell shield do not have a Soul Fragment collected from them but are revealed anyway.",
+            "source_id": "wiki:visionofempire"
+          }
+        ],
+        "status": "supported",
+        "summary": "Spell shields prevent fragment collection but do not prevent the reveal."
+      }
+    ],
+    "card_id": "champ:swain:w:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Swain summons a demonic eye at the target location that grants sight of the area for 2 seconds and explodes after 1.5 seconds, dealing magic damage to enemies within, halved against minions, and slowing them by 50% for 1.5 seconds.",
+            "source_id": "wiki:visionofempire"
+          }
+        ],
+        "id": "d6cdbca0396ab4fb7b4d087c",
+        "summary": "The eye grants area sight and explodes after a delay for magic damage and a slow."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Champions hit are revealed and also grant Swain a Soul Fragment.",
+            "source_id": "riot:W"
+          }
+        ],
+        "id": "4d00a53718ef2d764b574816",
+        "summary": "Champion hits reveal the target and grant a Soul Fragment."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the delayed eye and its scouting and champion-hit effects.",
+    "slot": "W",
+    "source_ids": [
+      "wiki:visionofempire",
+      "riot:W"
+    ],
+    "subject_id": "wiki:visionofempire",
+    "title": "Vision of Empire",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "This ability has a shorter cooldown during Demonic Ascension.",
+            "source_id": "riot:E"
+          }
+        ],
+        "status": "supported",
+        "summary": "Nevermove has a shorter cooldown during Demonic Ascension."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If the root is not applied to, removed or its targets blink or dash, the recast becomes unavailable.",
+            "source_id": "wiki:nevermove"
+          }
+        ],
+        "status": "supported",
+        "summary": "The recast becomes unavailable if the root is absent or removed, or its targets blink or dash."
+      }
+    ],
+    "card_id": "champ:swain:e:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "At max range, the wave homes back to Swain and detonates upon the first enemy hit, dealing magic damage to nearby enemies as well as briefly revealing and rooting them.",
+            "source_id": "wiki:nevermove"
+          }
+        ],
+        "id": "662930d833f02b2f563a8f5b",
+        "summary": "The returning wave detonates on an enemy and damages, reveals, and roots nearby enemies."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Recast: Swain pulls the rooted champions and collects a Soul Fragment from each of them.",
+            "source_id": "wiki:nevermove"
+          }
+        ],
+        "id": "5ab52dbe26e1d6918b632dca",
+        "summary": "The recast pulls rooted champions and collects their Soul Fragments."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the returning-wave catch and follow-up pull.",
+    "slot": "E",
+    "source_ids": [
+      "wiki:nevermove",
+      "riot:E"
+    ],
+    "subject_id": "wiki:nevermove",
+    "title": "Nevermove",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "does so automatically when Demonic Ascension expires if Demonflare is not on cooldown at the time of expiration.",
+            "source_id": "wiki:demonicascension"
+          },
+          {
+            "quote": "Demonflare will not automatically cast at the end of Demonic Ascension if it occurs due to Swain's death.",
+            "source_id": "wiki:demonflare"
+          }
+        ],
+        "status": "supported",
+        "summary": "Demonflare automatically casts when the form expires if available, except when expiration is caused by Swain's death."
+      },
+      {
+        "citations": [
+          {
+            "quote": "The targets do not have to be visible to be hit by this ability.",
+            "source_id": "wiki:demonicascension"
+          }
+        ],
+        "status": "supported",
+        "summary": "The drain can hit targets Swain cannot see."
+      }
+    ],
+    "card_id": "champ:swain:r:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Demonic Ascension: Swain becomes ghosted and continually drains the lifeforce of nearby enemies, dealing magic damage and healing himself.",
+            "source_id": "wiki:demonicascension"
+          }
+        ],
+        "id": "85b0ea112289098c4802df19",
+        "summary": "The form drains nearby enemies for magic damage and healing."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Demonic Ascension is maintained with Demonic Energy that gradually decays over time. Swain generates Demonic Energy while draining from at least one enemy champion, and fully restores it upon scoring a champion takedown.",
+            "source_id": "wiki:demonicascension"
+          }
+        ],
+        "id": "18e27d7a182751093f19ed2d",
+        "summary": "Champion drain sustains the form's decaying energy, and champion takedowns refill it."
+      },
+      {
+        "citations": [
+          {
+            "quote": "After a short time, Swain can cast Demonflare",
+            "source_id": "wiki:demonicascension"
+          },
+          {
+            "quote": "Swain emits a nova of soulfire that deals magic damage to nearby enemies and applies a slow that decays over a brief moment.",
+            "source_id": "wiki:demonflare"
+          }
+        ],
+        "id": "dfd27664b878d4114404ce5d",
+        "summary": "Demonflare becomes available during the form and deals nearby magic damage with a fading slow."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the sustained drain form and its related burst.",
+    "slot": "R",
+    "source_ids": [
+      "wiki:demonicascension",
+      "wiki:demonflare",
+      "riot:R"
+    ],
+    "subject_id": "wiki:demonicascension",
+    "title": "Demonic Ascension and Demonflare",
+    "unsupported_claims": []
+  }
+]

@@ -1,0 +1,365 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "Fiddlesticks' trinket is replaced by scarecrow effigies.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/FiddlesticksP.png",
+      "name": "A Harmless Scarecrow",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0009/ability_0009_P1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        15,
+        14.5,
+        14,
+        13.5,
+        13
+      ],
+      "description": "Fiddlesticks damaging enemies with spells while unseen or targeting an enemy with Terrify's activation strikes a target unit with fear, causing it to flee in terror for a duration.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/FiddleSticksQ.png",
+      "name": "Terrify",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0009/ability_0009_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        10,
+        9.5,
+        9,
+        8.5,
+        8
+      ],
+      "description": "Fiddlesticks drains health from nearby enemies, dealing bonus execute damage at the end of the duration.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/FiddleSticksW.png",
+      "name": "Bountiful Harvest",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0009/ability_0009_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        10,
+        9,
+        8,
+        7,
+        6
+      ],
+      "description": "Fiddlesticks slashes an area with its scythe, slowing all enemies hit and silencing enemies hit in the center of the slash.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/FiddleSticksE.png",
+      "name": "Reap",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0009/ability_0009_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        140,
+        110,
+        80
+      ],
+      "description": "A murder of crows flock wildly around Fiddlesticks, dealing damage per second to all enemy units in the area.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/FiddleSticksR.png",
+      "name": "Crowstorm",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0009/ability_0009_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/fiddlesticks/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks"
+  },
+  "champion": {
+    "ddragon_id": "Fiddlesticks",
+    "name": "Fiddlesticks",
+    "riot_id": 9,
+    "roles": [
+      "Mage",
+      "Support"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/Fiddlesticks/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "a992fbf294f30d6dd643828bebb1a2deb6f118f081f5d28b31223398a4b95ee8",
+      "text": "Fiddlesticks' trinket is replaced by scarecrow effigies.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiddlesticks.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "A Harmless Scarecrow",
+      "provider": "league_wiki",
+      "sha256": "beffc9d8e0ed6b6a75926c6bde28e74bc8d4d28441cb91fab8b5da5655f62db7",
+      "text": "A Harmless Scarecrow\nEFFECT RADIUS:\n900\nInnate: Fiddlesticks has a Scarecrow Effigy in place of a trinket, which will imitate Fiddlesticks. Fiddlesticks can impersonate an effigy by remaining idle out of combat. After level 6, placing an effigy will also summon a Sweeper Drone over the area for a few seconds.\nInnate - Scarecrow Effigy: Fiddlesticks begins the game with an exclusive Scarecrow Effigy, which permanently occupies the trinket slot. Fiddlesticks can pretend to be an Effigy by standing still and not acting nor being acted upon for 2 seconds, during which it hides its health bar, adjusts its body into a scarecrow and extends its arm out to expose its lantern.\nInnate - A Harmless Scarecrow: From level 6 onward, placing an Effigy also summons a Sweeper Drone at the location for 6 seconds.\nNotes/General Details\nTargeting input\nVector\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe 2-second duration stated in the ability description is not accurate. The actual time required is slightly longer and appears to be inconsistent. It usually takes approximately 2.2 seconds, but may take up to 4.4 seconds after casting a spell for unknown reasons.\nAttempting to impersonate an Effigy, or maintaining the impersonation, will be interrupted if Fiddlesticks:\nMoves.\nThere is a brief grace period after moving where Fiddlesticks is still considered an effigy.\nIs affected by a crowd control effect.\nPENDING FOR TEST: Is hit by an ability.\nTakes damage.\nFiddlesticks can still enter the effigy state while taking damage from non-champion units due to the preparation time being uninterrupted by non-champion damage.\nOcean Drake and Hextech Drake are exceptions, as their attacks apply crowd control effects which interfere with the impersonation.\nDeclares an attack.\nCasts an ability or summoner spell.\nUses an item's active effect, potion, or consumable, including Support Quest items and Control Ward.\nUsing Scarecrow Effigy does not interrupt the impersonation.\nBegins channeling.\nWhile pretending to be an effigy, when standing within a 225 radius of a faelight, Fiddlesticks imitates superward visual effects for 39 seconds or until interrupted.\nWhile within 75-225 radius of a faelight, Fiddlesticks will blink into a 75 radius of the faelight's location.\nThe trinket slot can still be temporarily replaced by Eye of the Herald.\n- Surprise Party Fiddlesticks has a special icon for this ability.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks?oldid=3969000"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/Fiddlesticks/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "a992fbf294f30d6dd643828bebb1a2deb6f118f081f5d28b31223398a4b95ee8",
+      "text": "Fiddlesticks damaging enemies with spells while unseen or targeting an enemy with Terrify's activation strikes a target unit with fear, causing it to flee in terror for a duration.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiddlesticks.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Terrify",
+      "provider": "league_wiki",
+      "sha256": "beffc9d8e0ed6b6a75926c6bde28e74bc8d4d28441cb91fab8b5da5655f62db7",
+      "text": "Terrify\nCOST:\n65 Mana\nCOOLDOWN:\n15 / 14.5 / 14 / 13.5 / 13\nCAST TIME:\n0.35\nTARGET IMMUNITY:\n15 / 14.5 / 14 / 13.5 / 13\nTARGET RANGE:\n575\nPassive: While Fiddlesticks is unseen or impersonating an effigy, its next damaging ability will briefly fear targets hit. Active: Fiddlesticks screeches at the target enemy, fearing them and dealing magic damage based on the target's current health. If the target has recently been feared by Fiddlesticks, Terrify will instead deal double damage.\nPassive: While Fiddlesticks has been out of combat for at least 2.25 seconds and is not visible to the enemy team, or is impersonating an Effigy, its damaging ability will additionally fear targets hit for a duration.\nFear Duration:1.2 / 1.4 / 1.6 / 1.8 / 2 seconds\nActive: Fiddlesticks launches a crow at the target enemy which arrives after 0.35 seconds, dealing magic damage and fearing them for a duration. Terrify has a minimum damage threshold and is capped at 400 against monsters.\nMagic Damage:4 / 4.5 / 5 / 5.5 / 6% (+ 3% per 100 AP) of target's current health\nMinimum Damage:40 / 60 / 80 / 100 / 120\nFear Duration:1.2 / 1.4 / 1.6 / 1.8 / 2 seconds\nTargets feared by Fiddlesticks by any means cannot be affected by it again for a duration equal to Terrify's cooldown. Against these targets, Terrify's damage and minimum threshold are doubled.\nIncreased Magic Damage:8 / 9 / 10 / 11 / 12% (+ 6% per 100 AP) of target's current health\nIncreased Minimum Damage:80 / 120 / 160 / 200 / 240\nTerrify slows affected targets by 90%.\nNotes/General Details\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nMagic\nMinion Aggro\nDrawn\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe fear-immunity timer is not refreshed by subsequent attempts to fear the target.\nEpic monsters are immune to the crowd control effect of fear, but are still affected by the fear-immunity timer. Terrify will therefore deal doubled damage to them while the timer is active.\nThe fear-immunity timer is applied even if the target is crowd control immune. It is not applied if the effect is blocked by a spell shield.\nThe fear from Terrify is applied at the end of the cast time, regardless of the target's distance.\nSince V14.14, the missile can be destroyed by projectile-interception effects.\nTerrify will still cast and affect the target even if Fiddlesticks dies or loses sight of them during the cast time.\nThe meaning of \"out of combat\" in Terrify's description is somewhat imprecise. For the purposes of its passive, Fiddlesticks becomes eligible to fear approximately 2.25 seconds after it has stopped dealing damage, not taken damage from an enemy champion, and not been affected by crowd control.\nDealing damage to any unit counts for this purpose, including champions, minions, monsters, turrets, inhibitors, jungle plants, wards, and summoned units.\nDamage dealt to monsters by Jungle Companions also does not reset the timer.\nUsing Exhaust on an enemy champion also breaks this state despite dealing no damage. Other non-damaging summoner spells do not.\nDamage from non-champion units does not break this state. However, crowd control from non-champion units still does, which is especially relevant when fighting Ocean Drake and Hextech Drake.\nEnemy sight from any source can prevent the unseen condition from being satisfied.\nimpersonating an effigy allows Bountiful Harvest and Reap to fear enemies even when seen.\nThe passive portion does not communicate any information to Fiddlesticks, its allies, nor its enemies, of whether Fiddlesticks is eligible to apply fear.\nWhile Fiddlesticks is channeling Crowstorm, a visual indicator will circle around enemy champions if the unseen requirement was satisfied when the channel began. This indicator is visible only to Fiddlesticks, but does not guarantee that Crowstorm will apply fear, as enemy gaining sight or taking champion damage during the channel can invalidate the passive before Crowstorm deals damage.\nThe indicator briefly appears when Crowstorm is cast even if Terrify has not been learned, but disappears almost immediately.\nThere is a very brief grace period after Fiddlesticks becomes visible or enters combat during which Terrify's passive can remain active.\nThis allows Fiddlesticks to move slightly out of vision-blocking terrain, such as brush, or immediately retaliate after being revealed and still apply fear.\nThis grace period is shorter than the cast times of Fiddlesticks's basic abilities, so the fear-applying effect can not affect multiple basic abilities.\nCrowstorm is an exception. After Fiddlesticks blinks from an unseen location into enemy vision using Crowstorm, an ability immediately cast after arriving will still apply fear before the grace period expires. This allows interactions such as Crowstorm into Reap, as well as the Crowstorm– Bountiful Harvest– Flash interaction.\nFlashing into enemy vision immediately removes Terrify's passive fear-applying eligibility and removes the normal grace period.\nHowever, if an ability that is already eligible to apply fear is cast during the grace period before using Flash, that cast retains its fear effect after the Flash. This allows for the Crowstorm–Bountiful Harvest–Flash interaction.\nThe interaction between Terrify's passive and monsters differs from its interaction with enemy champions.\nIf Fiddlesticks is out of combat and not visible to a particular monster, Bountiful Harvest, Reap, and Crowstorm will always apply fear to that monster even if Fiddlesticks is visible to the enemy team.\nVisibility is checked individually for each monster. Fiddlesticks may be visible to other monsters, including monsters from the same camp, without preventing fear against a monster whose sight of it is obstructed.\nIf Fiddlesticks is out of combat and is visible to a particular monster, Bountiful Harvest will not apply fear to that monster.\nIf Fiddlesticks is out of combat, is visible to a particular monster as well as being visible to the enemy team, Reap and Crowstorm will not apply fear to that monster.\nCrowstorm behaves differently against monsters than against champions. Even if Crowstorm's initial channel location is visible to a particular monster and to the enemy team, if the first damaging instance of Crowstorm occurs in a location where Fiddlesticks is not visible to that monster, that monster will be feared.\nSubsequent damage instances of Crowstorm cannot independently satisfy the out-of-combat condition because the first instance has already caused Fiddlesticks to enter combat.\nMinions use the same fear conditions as enemy champions.\nThe player's screen will have a visual effect when successfully feared by Terrify.\n- Surprise Party Fiddlesticks has a special icon for this ability.\nTips & Tricks\nNearsight reduces an enemy champion's sight radius, thus allowing Fiddlesticks to utilize the passive portion of Terrify more effectively.\nBecause a spell shield prevents the fear-immunity timer from being applied, if the fear from another ability is blocked by a spell shield, Fiddlesticks can follow up with Terrify to fear the target again. This allows Fiddlesticks to effectively bypass a single spell shield when chaining its abilities.\nMap-Specific Differences\nOne for All differences edit\nThe fear-immunity is shared across all Fiddlesticks.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks?oldid=3969000"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/Fiddlesticks/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "a992fbf294f30d6dd643828bebb1a2deb6f118f081f5d28b31223398a4b95ee8",
+      "text": "Fiddlesticks drains health from nearby enemies, dealing bonus execute damage at the end of the duration.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiddlesticks.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Bountiful Harvest",
+      "provider": "league_wiki",
+      "sha256": "beffc9d8e0ed6b6a75926c6bde28e74bc8d4d28441cb91fab8b5da5655f62db7",
+      "text": "Bountiful Harvest\nCOST:\n60 / 65 / 70 / 75 / 80 Mana\nCOOLDOWN:\n10 / 9.5 / 9 / 8.5 / 8\nCAST TIME:\n0.25\nEFFECT RADIUS:\n650\nTETHER RADIUS:\n725\nQUEUE THRESHOLD:\n0.5\nActive: Fiddlesticks tethers to nearby enemies, channeling for a short duration during which it reveals tethered enemies and continually deals magic damage to them. Fiddlesticks heals for a portion of the damage dealt. If Fiddlesticks ends the channel without interruption, the last tick deals increased magic damage based on each target's missing health and the remaining cooldown is reduced.\nActive: Fiddlesticks forms a tether between itself and each nearby enemy over the cast time, then channels for up to 2 seconds to harvest their souls, revealing them in the process.\nWhile Fiddlesticks is channeling, the tethered enemies are dealt magic damage every 0.25 seconds. The final tick at the end of the channel deals additional magic damage, capped at 400 against monsters. Bountiful Harvest deals 135% damage against monsters and 50% damage against minions.\nDamage per second:60 / 90 / 120 / 150 / 180 (+ 45% AP)Damage per Instance:15 / 22.5 / 30 / 37.5 / 45 (+ 11.25% AP)Last Tick of Damage:15 / 22.5 / 30 / 37.5 / 45 (+ 11.25% AP) (+ 12 / 14.5 / 17 / 19.5 / 22% of target's missing health)Total Magic Damage:120 / 180 / 240 / 300 / 360 (+ 90% AP) (+ 12 / 14.5 / 17 / 19.5 / 22% of target's missing health)\nFiddlesticks heals itself for a portion of the pre-mitigation damage dealt, modified to 45% against monsters and 15% against minions.\nChampion Heal Portion:25 / 32.5 / 40 / 47.5 / 55%Total Heal per Champion:30 / 58.5 / 96 / 142.5 / 198 (+ 22.5 / 29.25 / 36 / 42.75 / 49.5% AP) (+ 3 / 4.7125 / 6.8 / 9.2625 / 12.1% of target's missing health)Total Heal per Monster:72.9 / 109.35 / 145.8 / 182.25 / 218.7 (+ 54.675% AP) (+ 7.29 / 8.80875 / 10.3275 / 11.84625 / 13.365% of target's missing health)Total Heal per Minion:9 / 13.5 / 18 / 22.5 / 27 (+ 6.75% AP) (+ 0.9 / 1.0875 / 1.275 / 1.4625 / 1.65% of target's missing health)\nBountiful Harvest ends if all targets have died or broken their tethers. If the channel was not interrupted, 60% of the current cooldown is refunded.\nA nearby enemy is required to cast this ability. The target does not have to be visible to be tethered by this ability.\nNotes/General Details\nTargeting input\nProximity\nTarget out-of-range override\nThe ability will not cast\nAffects\nEnemies\nDamage classification\nType\nAOE DOT damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nSee Notes\nDisruption\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nSpell shield will block the tether's application but not the damage of one already applied.\n- Surprise Party Fiddlesticks has a special icon for this ability.\nThe following table refers for interactions while Fiddlesticks is channeling:\nType\nChannel\nAttacking\nInterrupts\nAbilities\nInterrupts\nMovement\nInterrupts\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nHextech Rocketbelt\nInterrupted by\nAll item-actives not specified above interrupt\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nN/A\nInterrupted by\nFlash Teleport Recall Hexflash Mark Dash\nInterrupted by\nDeath\nCast-inhibiting effects\nMap-Specific Differences\nSwiftplay differences edit\nChampion heal modifier changed to 35 / 42.5 / 50 / 57.5 / 65%.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks?oldid=3969000"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/Fiddlesticks/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "a992fbf294f30d6dd643828bebb1a2deb6f118f081f5d28b31223398a4b95ee8",
+      "text": "Fiddlesticks slashes an area with its scythe, slowing all enemies hit and silencing enemies hit in the center of the slash.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiddlesticks.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Reap",
+      "provider": "league_wiki",
+      "sha256": "beffc9d8e0ed6b6a75926c6bde28e74bc8d4d28441cb91fab8b5da5655f62db7",
+      "text": "Reap\nCOST:\n40 / 45 / 50 / 55 / 60 Mana\nCOOLDOWN:\n10 / 9 / 8 / 7 / 6\nCAST TIME:\n0.4\nTARGET RANGE:\n850\nActive: Fiddlesticks slashes the target area, dealing magic damage and slowing enemies hit. Enemies hit in the center of the slash are also silenced.\nActive: Fiddlesticks slashes the target location with its scythe, dealing magic damage to enemies within the area and slowing them for 1.25 seconds.\nMagic Damage:70 / 105 / 140 / 175 / 210 (+ 50% AP)\nSlow:30 / 35 / 40 / 45 / 50%\nEnemies hit in the center of the area are also silenced for 1.25 seconds.\n\"Reap!\"\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nWalk in range of the target location to cast\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\n- Surprise Party Fiddlesticks has a special icon for this ability.\nMap-Specific Differences\nSwiftplay differences edit\nSlow changed to 40 / 45 / 50 / 55 / 60%.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks?oldid=3969000"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/Fiddlesticks/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "a992fbf294f30d6dd643828bebb1a2deb6f118f081f5d28b31223398a4b95ee8",
+      "text": "A murder of crows flock wildly around Fiddlesticks, dealing damage per second to all enemy units in the area.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiddlesticks.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Crowstorm",
+      "provider": "league_wiki",
+      "sha256": "beffc9d8e0ed6b6a75926c6bde28e74bc8d4d28441cb91fab8b5da5655f62db7",
+      "text": "Crowstorm\nCOST:\n100 Mana\nCOOLDOWN:\n140 / 110 / 80\nCAST TIME:\nnone\nTARGET RANGE:\n800\nEFFECT RADIUS:\n600\nActive: Fiddlesticks channels, then blinks to the target location surrounded by a murder of crows, continually dealing magic damage to nearby enemies.\nActive: Fiddlesticks channels for 1.5 seconds, then blinks to the target location upon completion with a murder of crows flying wildly around it for 5 seconds, dealing magic damage every 0.25 seconds to nearby enemies.\nMagic Damage per Tick:37.5 / 62.5 / 87.5 (+ 12.5% AP)Total Magic Damage:750 / 1250 / 1750 (+ 250% AP)\n\"Fear!\"\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nDamage classification\nType\nAOE DOT damage\nSub-type(s)\nMagic\nCounters\nGrounded\nDisabled\nDisruption\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nRoots do not interrupt the ability despite being a movement channel.\nFiddlesticks will always blink to its intended location even if its position changes during the channel without being interrupted (e.g. by Realm Warp).\nExperimental Hexplate's Overdrive, Fiendhunter Bolts' Opening Barrage, and Zeke's Convergence's Frostfire Tempest will activate at the end of Crowstorm's channel.\n- Surprise Party Fiddlesticks has a special icon for this ability.\nThe following table refers for interactions while Fiddlesticks is channeling:\nType\nChannel\nAttacking\nDisabled\nAbilities\nDisabled\nMovement\nDisabled\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nAll the other item-actives are disabled\nInterrupted by\nN/A\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nFlash Teleport Recall Hexflash\nInterrupted by\nN/A\nInterrupted by\nDeath\nGrounding effects\nCast-inhibiting effects\nChampion skins[edit | edit source]\nThis article section only contains champion skins. For all associated collection items, see Fiddlesticks (Collection).\nOriginal\n21.02.2009\nSomething has awoken in Runeterra. Something ancient. Something terrible. The ageless horror known as Fiddlesticks stalks the edges of mortal society, drawn to areas thick with paranoia where it feeds upon terrorized victims. Wielding a jagged scythe, the haggard, makeshift creature reaps fear itself, shattering the minds of those unlucky enough to survive in its wake. Beware the sounding of the crow, or the whispering of the shape that appears almost human… Fiddlesticks has returned.\nKellen Goff\nKelly Aleshire\nLoot eligible\nView in 3D • View Music\nSpectral\n520\n16.03.2010\nA gruesome spectre, rumored to stand eternally watchful over a peculiar book of fables. Brave knights and cruel sorceresses alike have tried in vain to reach the tome, but none have ever returned. Perhaps that lost queendom of old isn't so fictional after all…\nKellen Goff\nKelly Aleshire\nOmen of the Dark\nLoot eligible\nNew SFX/VFX\nView in 3D\nUnion Jack\n520\n12.02.2010\nPip pip. Cheerio.\nKellen Goff\nKatya Cyan, West Studio\nWinter Sports\nLoot eligible\nLegacy\nView in 3D\nBandito\n520\n10.08.2010\nIf the day ever comes, riding those dusty trails, when a thin man in a wide hat appears far in the distance… run. Ride hard and fast and never look back, lest the horror known as Fiddlesticks drag you to from your saddle, and into darkness.\nKellen Goff\nFrancis Tneh, West Studio\nHigh Noon\nLoot eligible\nChromas\nView in 3D\nBandito Fiddlesticks Chromas\nAmethyst\nCitrine\nObsidian\nPearl\nPeridot\nRuby\nSapphire\nTurquoise\nPumpkinhead\n520\n19.10.2010\nCarriage drivers are cautioned to stick to well-traveled highways, especially during the witching season. Strange things can happen on those old, moonlit roads, where no birds sing, and something enormous moves within the fog.\nKellen Goff\nJennifer Wuestling\nTrick-or-Treat\nLoot eligible\nLegacy\nView in 3D • View Music\nFiddle Me Timbers\n750\n26.04.2010\nYar har, fiddle-dee-dee.\nKellen Goff\nJeremy 'Jermu' Anninos\nBilgewater: Burning Tides\nLoot eligible\nLegacy\nView in 3D\nSurprise Party\n975\n27.10.2011\nEveryone told you hiring a clown would be a good idea. “Clowns are great for parties,” they said. But now everyone's missing, and the power is out, and something's laughing just down the hall...\nKellen Goff\nDavid Villegas, West Studio\nSurprise Party\nLoot eligible\nNew voiceover\nNew SFX/VFX\nNew Animations\nNew Recall\nChromas",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks?oldid=3969000"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/Fiddlesticks/tags",
+      "provider": "riot_ddragon",
+      "sha256": "a992fbf294f30d6dd643828bebb1a2deb6f118f081f5d28b31223398a4b95ee8",
+      "text": "Name: Fiddlesticks. Official role tags: Mage, Support.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiddlesticks.json"
+    },
+    {
+      "id": "wiki:basicattack",
+      "locator": "Basic_Attack",
+      "provider": "league_wiki",
+      "sha256": "beffc9d8e0ed6b6a75926c6bde28e74bc8d4d28441cb91fab8b5da5655f62db7",
+      "text": "Basic Attack\nATTACK RANGE:\n225 / 480\nSPEED:\nN/A / 1750\nBasic Attack: Fiddlesticks launches a globe of dread at the target, dealing 100% AD physical damage, applying on-hit effects, and triggering on-attack effects.Within close range, Fiddlesticks slashes its target, dealing the same damage and applying the same effects, causing the attack to become non-projectile.\nNotes/General Details\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies\nDamage classification\nType\nBasic damage\nSub-type(s)\nPhysical\nCounters\nParries\nBlocked\nProjectile\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nNo additional details.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks?oldid=3969000"
+    },
+    {
+      "id": "wiki:aharmlessscarecrow",
+      "locator": "A_Harmless_Scarecrow",
+      "provider": "league_wiki",
+      "sha256": "beffc9d8e0ed6b6a75926c6bde28e74bc8d4d28441cb91fab8b5da5655f62db7",
+      "text": "A Harmless Scarecrow\nEFFECT RADIUS:\n900\nInnate: Fiddlesticks has a Scarecrow Effigy in place of a trinket, which will imitate Fiddlesticks. Fiddlesticks can impersonate an effigy by remaining idle out of combat. After level 6, placing an effigy will also summon a Sweeper Drone over the area for a few seconds.\nInnate - Scarecrow Effigy: Fiddlesticks begins the game with an exclusive Scarecrow Effigy, which permanently occupies the trinket slot. Fiddlesticks can pretend to be an Effigy by standing still and not acting nor being acted upon for 2 seconds, during which it hides its health bar, adjusts its body into a scarecrow and extends its arm out to expose its lantern.\nInnate - A Harmless Scarecrow: From level 6 onward, placing an Effigy also summons a Sweeper Drone at the location for 6 seconds.\nNotes/General Details\nTargeting input\nVector\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe 2-second duration stated in the ability description is not accurate. The actual time required is slightly longer and appears to be inconsistent. It usually takes approximately 2.2 seconds, but may take up to 4.4 seconds after casting a spell for unknown reasons.\nAttempting to impersonate an Effigy, or maintaining the impersonation, will be interrupted if Fiddlesticks:\nMoves.\nThere is a brief grace period after moving where Fiddlesticks is still considered an effigy.\nIs affected by a crowd control effect.\nPENDING FOR TEST: Is hit by an ability.\nTakes damage.\nFiddlesticks can still enter the effigy state while taking damage from non-champion units due to the preparation time being uninterrupted by non-champion damage.\nOcean Drake and Hextech Drake are exceptions, as their attacks apply crowd control effects which interfere with the impersonation.\nDeclares an attack.\nCasts an ability or summoner spell.\nUses an item's active effect, potion, or consumable, including Support Quest items and Control Ward.\nUsing Scarecrow Effigy does not interrupt the impersonation.\nBegins channeling.\nWhile pretending to be an effigy, when standing within a 225 radius of a faelight, Fiddlesticks imitates superward visual effects for 39 seconds or until interrupted.\nWhile within 75-225 radius of a faelight, Fiddlesticks will blink into a 75 radius of the faelight's location.\nThe trinket slot can still be temporarily replaced by Eye of the Herald.\n- Surprise Party Fiddlesticks has a special icon for this ability.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks?oldid=3969000"
+    },
+    {
+      "id": "wiki:terrify",
+      "locator": "Terrify",
+      "provider": "league_wiki",
+      "sha256": "beffc9d8e0ed6b6a75926c6bde28e74bc8d4d28441cb91fab8b5da5655f62db7",
+      "text": "Terrify\nCOST:\n65 Mana\nCOOLDOWN:\n15 / 14.5 / 14 / 13.5 / 13\nCAST TIME:\n0.35\nTARGET IMMUNITY:\n15 / 14.5 / 14 / 13.5 / 13\nTARGET RANGE:\n575\nPassive: While Fiddlesticks is unseen or impersonating an effigy, its next damaging ability will briefly fear targets hit. Active: Fiddlesticks screeches at the target enemy, fearing them and dealing magic damage based on the target's current health. If the target has recently been feared by Fiddlesticks, Terrify will instead deal double damage.\nPassive: While Fiddlesticks has been out of combat for at least 2.25 seconds and is not visible to the enemy team, or is impersonating an Effigy, its damaging ability will additionally fear targets hit for a duration.\nFear Duration:1.2 / 1.4 / 1.6 / 1.8 / 2 seconds\nActive: Fiddlesticks launches a crow at the target enemy which arrives after 0.35 seconds, dealing magic damage and fearing them for a duration. Terrify has a minimum damage threshold and is capped at 400 against monsters.\nMagic Damage:4 / 4.5 / 5 / 5.5 / 6% (+ 3% per 100 AP) of target's current health\nMinimum Damage:40 / 60 / 80 / 100 / 120\nFear Duration:1.2 / 1.4 / 1.6 / 1.8 / 2 seconds\nTargets feared by Fiddlesticks by any means cannot be affected by it again for a duration equal to Terrify's cooldown. Against these targets, Terrify's damage and minimum threshold are doubled.\nIncreased Magic Damage:8 / 9 / 10 / 11 / 12% (+ 6% per 100 AP) of target's current health\nIncreased Minimum Damage:80 / 120 / 160 / 200 / 240\nTerrify slows affected targets by 90%.\nNotes/General Details\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nMagic\nMinion Aggro\nDrawn\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe fear-immunity timer is not refreshed by subsequent attempts to fear the target.\nEpic monsters are immune to the crowd control effect of fear, but are still affected by the fear-immunity timer. Terrify will therefore deal doubled damage to them while the timer is active.\nThe fear-immunity timer is applied even if the target is crowd control immune. It is not applied if the effect is blocked by a spell shield.\nThe fear from Terrify is applied at the end of the cast time, regardless of the target's distance.\nSince V14.14, the missile can be destroyed by projectile-interception effects.\nTerrify will still cast and affect the target even if Fiddlesticks dies or loses sight of them during the cast time.\nThe meaning of \"out of combat\" in Terrify's description is somewhat imprecise. For the purposes of its passive, Fiddlesticks becomes eligible to fear approximately 2.25 seconds after it has stopped dealing damage, not taken damage from an enemy champion, and not been affected by crowd control.\nDealing damage to any unit counts for this purpose, including champions, minions, monsters, turrets, inhibitors, jungle plants, wards, and summoned units.\nDamage dealt to monsters by Jungle Companions also does not reset the timer.\nUsing Exhaust on an enemy champion also breaks this state despite dealing no damage. Other non-damaging summoner spells do not.\nDamage from non-champion units does not break this state. However, crowd control from non-champion units still does, which is especially relevant when fighting Ocean Drake and Hextech Drake.\nEnemy sight from any source can prevent the unseen condition from being satisfied.\nimpersonating an effigy allows Bountiful Harvest and Reap to fear enemies even when seen.\nThe passive portion does not communicate any information to Fiddlesticks, its allies, nor its enemies, of whether Fiddlesticks is eligible to apply fear.\nWhile Fiddlesticks is channeling Crowstorm, a visual indicator will circle around enemy champions if the unseen requirement was satisfied when the channel began. This indicator is visible only to Fiddlesticks, but does not guarantee that Crowstorm will apply fear, as enemy gaining sight or taking champion damage during the channel can invalidate the passive before Crowstorm deals damage.\nThe indicator briefly appears when Crowstorm is cast even if Terrify has not been learned, but disappears almost immediately.\nThere is a very brief grace period after Fiddlesticks becomes visible or enters combat during which Terrify's passive can remain active.\nThis allows Fiddlesticks to move slightly out of vision-blocking terrain, such as brush, or immediately retaliate after being revealed and still apply fear.\nThis grace period is shorter than the cast times of Fiddlesticks's basic abilities, so the fear-applying effect can not affect multiple basic abilities.\nCrowstorm is an exception. After Fiddlesticks blinks from an unseen location into enemy vision using Crowstorm, an ability immediately cast after arriving will still apply fear before the grace period expires. This allows interactions such as Crowstorm into Reap, as well as the Crowstorm– Bountiful Harvest– Flash interaction.\nFlashing into enemy vision immediately removes Terrify's passive fear-applying eligibility and removes the normal grace period.\nHowever, if an ability that is already eligible to apply fear is cast during the grace period before using Flash, that cast retains its fear effect after the Flash. This allows for the Crowstorm–Bountiful Harvest–Flash interaction.\nThe interaction between Terrify's passive and monsters differs from its interaction with enemy champions.\nIf Fiddlesticks is out of combat and not visible to a particular monster, Bountiful Harvest, Reap, and Crowstorm will always apply fear to that monster even if Fiddlesticks is visible to the enemy team.\nVisibility is checked individually for each monster. Fiddlesticks may be visible to other monsters, including monsters from the same camp, without preventing fear against a monster whose sight of it is obstructed.\nIf Fiddlesticks is out of combat and is visible to a particular monster, Bountiful Harvest will not apply fear to that monster.\nIf Fiddlesticks is out of combat, is visible to a particular monster as well as being visible to the enemy team, Reap and Crowstorm will not apply fear to that monster.\nCrowstorm behaves differently against monsters than against champions. Even if Crowstorm's initial channel location is visible to a particular monster and to the enemy team, if the first damaging instance of Crowstorm occurs in a location where Fiddlesticks is not visible to that monster, that monster will be feared.\nSubsequent damage instances of Crowstorm cannot independently satisfy the out-of-combat condition because the first instance has already caused Fiddlesticks to enter combat.\nMinions use the same fear conditions as enemy champions.\nThe player's screen will have a visual effect when successfully feared by Terrify.\n- Surprise Party Fiddlesticks has a special icon for this ability.\nTips & Tricks\nNearsight reduces an enemy champion's sight radius, thus allowing Fiddlesticks to utilize the passive portion of Terrify more effectively.\nBecause a spell shield prevents the fear-immunity timer from being applied, if the fear from another ability is blocked by a spell shield, Fiddlesticks can follow up with Terrify to fear the target again. This allows Fiddlesticks to effectively bypass a single spell shield when chaining its abilities.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks?oldid=3969000"
+    },
+    {
+      "id": "wiki:bountifulharvest",
+      "locator": "Bountiful_Harvest",
+      "provider": "league_wiki",
+      "sha256": "beffc9d8e0ed6b6a75926c6bde28e74bc8d4d28441cb91fab8b5da5655f62db7",
+      "text": "Bountiful Harvest\nCOST:\n60 / 65 / 70 / 75 / 80 Mana\nCOOLDOWN:\n10 / 9.5 / 9 / 8.5 / 8\nCAST TIME:\n0.25\nEFFECT RADIUS:\n650\nTETHER RADIUS:\n725\nQUEUE THRESHOLD:\n0.5\nActive: Fiddlesticks tethers to nearby enemies, channeling for a short duration during which it reveals tethered enemies and continually deals magic damage to them. Fiddlesticks heals for a portion of the damage dealt. If Fiddlesticks ends the channel without interruption, the last tick deals increased magic damage based on each target's missing health and the remaining cooldown is reduced.\nActive: Fiddlesticks forms a tether between itself and each nearby enemy over the cast time, then channels for up to 2 seconds to harvest their souls, revealing them in the process.\nWhile Fiddlesticks is channeling, the tethered enemies are dealt magic damage every 0.25 seconds. The final tick at the end of the channel deals additional magic damage, capped at 400 against monsters. Bountiful Harvest deals 135% damage against monsters and 50% damage against minions.\nDamage per second:60 / 90 / 120 / 150 / 180 (+ 45% AP)Damage per Instance:15 / 22.5 / 30 / 37.5 / 45 (+ 11.25% AP)Last Tick of Damage:15 / 22.5 / 30 / 37.5 / 45 (+ 11.25% AP) (+ 12 / 14.5 / 17 / 19.5 / 22% of target's missing health)Total Magic Damage:120 / 180 / 240 / 300 / 360 (+ 90% AP) (+ 12 / 14.5 / 17 / 19.5 / 22% of target's missing health)\nFiddlesticks heals itself for a portion of the pre-mitigation damage dealt, modified to 45% against monsters and 15% against minions.\nChampion Heal Portion:25 / 32.5 / 40 / 47.5 / 55%Total Heal per Champion:30 / 58.5 / 96 / 142.5 / 198 (+ 22.5 / 29.25 / 36 / 42.75 / 49.5% AP) (+ 3 / 4.7125 / 6.8 / 9.2625 / 12.1% of target's missing health)Total Heal per Monster:72.9 / 109.35 / 145.8 / 182.25 / 218.7 (+ 54.675% AP) (+ 7.29 / 8.80875 / 10.3275 / 11.84625 / 13.365% of target's missing health)Total Heal per Minion:9 / 13.5 / 18 / 22.5 / 27 (+ 6.75% AP) (+ 0.9 / 1.0875 / 1.275 / 1.4625 / 1.65% of target's missing health)\nBountiful Harvest ends if all targets have died or broken their tethers. If the channel was not interrupted, 60% of the current cooldown is refunded.\nA nearby enemy is required to cast this ability. The target does not have to be visible to be tethered by this ability.\nNotes/General Details\nTargeting input\nProximity\nTarget out-of-range override\nThe ability will not cast\nAffects\nEnemies\nDamage classification\nType\nAOE DOT damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nSee Notes\nDisruption\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nSpell shield will block the tether's application but not the damage of one already applied.\n- Surprise Party Fiddlesticks has a special icon for this ability.\nThe following table refers for interactions while Fiddlesticks is channeling:\nType\nChannel\nAttacking\nInterrupts\nAbilities\nInterrupts\nMovement\nInterrupts\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nHextech Rocketbelt\nInterrupted by\nAll item-actives not specified above interrupt\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nN/A\nInterrupted by\nFlash Teleport Recall Hexflash Mark Dash\nInterrupted by\nDeath\nCast-inhibiting effects",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks?oldid=3969000"
+    },
+    {
+      "id": "wiki:reap",
+      "locator": "Reap",
+      "provider": "league_wiki",
+      "sha256": "beffc9d8e0ed6b6a75926c6bde28e74bc8d4d28441cb91fab8b5da5655f62db7",
+      "text": "Reap\nCOST:\n40 / 45 / 50 / 55 / 60 Mana\nCOOLDOWN:\n10 / 9 / 8 / 7 / 6\nCAST TIME:\n0.4\nTARGET RANGE:\n850\nActive: Fiddlesticks slashes the target area, dealing magic damage and slowing enemies hit. Enemies hit in the center of the slash are also silenced.\nActive: Fiddlesticks slashes the target location with its scythe, dealing magic damage to enemies within the area and slowing them for 1.25 seconds.\nMagic Damage:70 / 105 / 140 / 175 / 210 (+ 50% AP)\nSlow:30 / 35 / 40 / 45 / 50%\nEnemies hit in the center of the area are also silenced for 1.25 seconds.\n\"Reap!\"\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nWalk in range of the target location to cast\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\n- Surprise Party Fiddlesticks has a special icon for this ability.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks?oldid=3969000"
+    },
+    {
+      "id": "wiki:crowstorm",
+      "locator": "Crowstorm",
+      "provider": "league_wiki",
+      "sha256": "beffc9d8e0ed6b6a75926c6bde28e74bc8d4d28441cb91fab8b5da5655f62db7",
+      "text": "Crowstorm\nCOST:\n100 Mana\nCOOLDOWN:\n140 / 110 / 80\nCAST TIME:\nnone\nTARGET RANGE:\n800\nEFFECT RADIUS:\n600\nActive: Fiddlesticks channels, then blinks to the target location surrounded by a murder of crows, continually dealing magic damage to nearby enemies.\nActive: Fiddlesticks channels for 1.5 seconds, then blinks to the target location upon completion with a murder of crows flying wildly around it for 5 seconds, dealing magic damage every 0.25 seconds to nearby enemies.\nMagic Damage per Tick:37.5 / 62.5 / 87.5 (+ 12.5% AP)Total Magic Damage:750 / 1250 / 1750 (+ 250% AP)\n\"Fear!\"\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nDamage classification\nType\nAOE DOT damage\nSub-type(s)\nMagic\nCounters\nGrounded\nDisabled\nDisruption\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nRoots do not interrupt the ability despite being a movement channel.\nFiddlesticks will always blink to its intended location even if its position changes during the channel without being interrupted (e.g. by Realm Warp).\nExperimental Hexplate's Overdrive, Fiendhunter Bolts' Opening Barrage, and Zeke's Convergence's Frostfire Tempest will activate at the end of Crowstorm's channel.\n- Surprise Party Fiddlesticks has a special icon for this ability.\nThe following table refers for interactions while Fiddlesticks is channeling:\nType\nChannel\nAttacking\nDisabled\nAbilities\nDisabled\nMovement\nDisabled\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nAll the other item-actives are disabled\nInterrupted by\nN/A\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nFlash Teleport Recall Hexflash\nInterrupted by\nN/A\nInterrupted by\nDeath\nGrounding effects\nCast-inhibiting effects",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks?oldid=3969000"
+    }
+  ],
+  "findings": [
+    {
+      "code": "adaptive_kit_structure",
+      "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+    }
+  ],
+  "kit_sections": [
+    {
+      "anchor": "Basic_Attack",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Basic_Attack.png?66a25",
+      "id": "wiki:basicattack",
+      "name": "Basic Attack"
+    },
+    {
+      "anchor": "A_Harmless_Scarecrow",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_A_Harmless_Scarecrow.png?5c5f5",
+      "id": "wiki:aharmlessscarecrow",
+      "name": "A Harmless Scarecrow"
+    },
+    {
+      "anchor": "Terrify",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_Terrify.png?75f3e",
+      "id": "wiki:terrify",
+      "name": "Terrify"
+    },
+    {
+      "anchor": "Bountiful_Harvest",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_Bountiful_Harvest.png?2f82c",
+      "id": "wiki:bountifulharvest",
+      "name": "Bountiful Harvest"
+    },
+    {
+      "anchor": "Reap",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_Reap.png?caa4c",
+      "id": "wiki:reap",
+      "name": "Reap"
+    },
+    {
+      "anchor": "Crowstorm",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Fiddlesticks_Crowstorm.png?b74ed",
+      "id": "wiki:crowstorm",
+      "name": "Crowstorm"
+    }
+  ],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "media_catalog": [
+    {
+      "filename": "fiddlestickse.png",
+      "id": "cd:fiddlesticksepng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/hud/icons2d/fiddlestickse.png"
+    },
+    {
+      "filename": "fiddlesticksp.png",
+      "id": "cd:fiddlesticksppng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/hud/icons2d/fiddlesticksp.png"
+    },
+    {
+      "filename": "fiddlesticksq.png",
+      "id": "cd:fiddlesticksqpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/hud/icons2d/fiddlesticksq.png"
+    },
+    {
+      "filename": "fiddlesticksr.png",
+      "id": "cd:fiddlesticksrpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/hud/icons2d/fiddlesticksr.png"
+    },
+    {
+      "filename": "fiddlesticksw.png",
+      "id": "cd:fiddlestickswpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/hud/icons2d/fiddlesticksw.png"
+    }
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 12602,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T13:05:49.813286+00:00",
+      "sha256": "a992fbf294f30d6dd643828bebb1a2deb6f118f081f5d28b31223398a4b95ee8",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiddlesticks.json"
+    },
+    {
+      "bytes": 43285,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T13:05:50.070625+00:00",
+      "sha256": "d26d96853d4fd2a36a13b5c7b4fa8b293e0b2a3586f28912be8609a0f5d9e373",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/9.json"
+    },
+    {
+      "bytes": 173786,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:05:50.425776+00:00",
+      "sha256": "f70e5fc75be5f91a716d355705a805ac4f3cbf3a0a5a0bbd4c265150594f8dfd",
+      "url": "https://www.leagueoflegends.com/en-us/champions/fiddlesticks/"
+    },
+    {
+      "bytes": 860599,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:05:50.660846+00:00",
+      "sha256": "beffc9d8e0ed6b6a75926c6bde28e74bc8d4d28441cb91fab8b5da5655f62db7",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks"
+    },
+    {
+      "bytes": 8526,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:05:51.084712+00:00",
+      "sha256": "304a16300bbe6311f5a109b24e332d787aa8f70d9fdcc8f76c3edec26e23ca8c",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/hud/icons2d/"
+    }
+  ],
+  "schema_version": 2,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "3969000"
+  }
+}

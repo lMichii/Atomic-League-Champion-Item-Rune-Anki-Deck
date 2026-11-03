@@ -1,0 +1,24 @@
+# One-time environment configuration. Champion ID is the only per-run required input.
+[ai]
+provider = "codex"
+executable = "codex"
+model = "" # use the authenticated runtime's default; record the actual response metadata
+attempts = 3
+timeout_seconds = 300
+max_output_tokens = 10000
+# For provider="openai": set OPENAI_API_KEY and a model; no secrets belong here.
+endpoint = "https://api.openai.com/v1/responses"
+api_key_env = "OPENAI_API_KEY"
+
+[retrieval]
+timeout_seconds = 25
+attempts = 3
+max_bytes = 41943040
+locale = "en_US"
+
+[generation]
+prompt_version = "champion-draft-v2-clean-learning-core-coverage"
+include_proposed_passive_cue = true
+semantic_verification = true
+max_content_passes = 3
+passive_frame_review = true

@@ -1,0 +1,332 @@
+{
+  "cards": [
+    {
+      "answer": "Dr. Mundo is a health-scaling tank fighter who uses bonesaw slows to approach and empowered attacks to pressure enemies, with magic and physical damage. His immobilization resistance and healing help him stay in fights.",
+      "build_focus": "AD, Health",
+      "counterplay": "Use distance and cover against bonesaws, contest dropped canisters when safe, and disengage during his ultimate.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Dr. Mundo. Official role tags: Tank, Fighter.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Dr. Mundo gains bonus attack damage based on his maximum health.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Dr. Mundo is a health-scaling tank fighter"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Dr. Mundo throws an infected bonesaw in the target direction that deals magic damage and slows the first enemy hit.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Dr. Mundo's next basic attack deals bonus physical damage, increased based on his missing health.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "uses bonesaw slows to approach and empowered attacks to pressure enemies, with magic and physical damage"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Periodically, Dr. Mundo gains immunity to the next hostile immobilizing effect to affect him",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "gaining increased base health, bonus movement speed, and bonus health regeneration.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "His immobilization resistance and healing help him stay in fights."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Summarizes his approach, sustained fighting, and main defensive tools.",
+      "slot": "-",
+      "uncertainties": [
+        "Build focus reflects the supported relationship between maximum health and attack damage; no item build evidence was supplied."
+      ]
+    },
+    {
+      "answer": "Goes Where He Pleases periodically blocks the next hostile immobilizing effect, costing Mundo health and dropping a canister. Collecting it heals him and reduces the passive's cooldown; enemy champions can destroy it by approaching it. He also has increased health regeneration.",
+      "build_focus": "",
+      "counterplay": "Account for his immobilization resistance before committing crowd control, and contest the canister when safe.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Periodically, Dr. Mundo gains immunity to the next hostile immobilizing effect to affect him, and upon resisting one, he loses a portion of his current health and drops a canister nearby.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Goes Where He Pleases periodically blocks the next hostile immobilizing effect, costing Mundo health and dropping a canister."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Dr. Mundo can pick it up by walking over it, restoring Health and reducing this Ability's Cooldown.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Enemy champions can move near it to destroy it.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Collecting it heals him and reduces the passive's cooldown; enemy champions can destroy it by approaching it."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Dr. Mundo also has significantly increased Health regeneration.",
+              "source_id": "riot:P"
+            }
+          ],
+          "claim": "He also has increased health regeneration."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "A nearby dropped canister is a tentative cue that his immobilization resistance has triggered.",
+        "meaningful": true,
+        "source_ids": [
+          "wiki:P"
+        ]
+      },
+      "priority": "A",
+      "priority_reason": "His resistance changes crowd-control timing, and enemies can deny canister recovery.",
+      "slot": "P",
+      "uncertainties": [
+        "The canister cue is based on text only; its appearance has not been visually verified."
+      ]
+    },
+    {
+      "answer": "Infected Bonesaw hits the first enemy in its path, dealing magic damage based on their current health and slowing them. A hit refunds part of Mundo's health cost, with a full refund against champions or monsters.",
+      "build_focus": "",
+      "counterplay": "Dodge sideways or use minions as cover, and avoid letting the slow set up his approach.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Dr. Mundo throws an infected bonesaw in the target direction that deals magic damage to the first enemy hit and slows them",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "dealing damage to the first enemy hit based on their current health and slowing them.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "Infected Bonesaw hits the first enemy in its path, dealing magic damage based on their current health and slowing them."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the bonesaw hits an enemy champion or monster, Dr. Mundo heals for the entire health cost, reduced to half health cost when hitting anything else.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "A hit refunds part of Mundo's health cost, with a full refund against champions or monsters."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "His main ranged slow creates opportunities to close distance.",
+      "slot": "Q",
+      "uncertainties": []
+    },
+    {
+      "answer": "Heart Zapper deals ongoing magic damage around Mundo and stores part of the damage he takes as grey health. Recasting or reaching the end detonates it for nearby magic damage and restores part of that grey health, with greater healing if the burst hits a champion or large monster.",
+      "build_focus": "",
+      "counterplay": "Avoid committing burst damage into the charge, and move away before the detonation.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "continually dealing magic damage to nearby enemies and storing a portion of the post-mitigation damage he takes.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "as grey health on his health bar",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Heart Zapper deals ongoing magic damage around Mundo and stores part of the damage he takes as grey health."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Heart Zapper can be recast within the duration, and does so automatically after the duration.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Dr. Mundo detonates the defibrillator, dealing magic damage to nearby enemies and healing for an amount equal to the stored damage, which is increased if at least one enemy champion or large monster is hit.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "healing for 50% of grey health, increased to 100% if at least one enemy champion or large monster is hit.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Recasting or reaching the end detonates it for nearby magic damage and restores part of that grey health, with greater healing if the burst hits a champion or large monster."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Damage timing and distance influence how much health he recovers.",
+      "slot": "W",
+      "uncertainties": []
+    },
+    {
+      "answer": "Blunt Force Trauma passively grants attack damage based on Mundo's maximum health. Its active empowers his next basic attack with bonus physical damage that increases with his missing health. A killed target or a small monster is flung away, damaging enemies in its path.",
+      "build_focus": "",
+      "counterplay": "Respect his empowered attack when he is wounded, and avoid lining up behind targets he can fling.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Dr. Mundo gains bonus attack damage based on his maximum health.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Blunt Force Trauma passively grants attack damage based on Mundo's maximum health."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Dr. Mundo's next basic attack deals bonus physical damage, increased based on his missing health.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Its active empowers his next basic attack with bonus physical damage that increases with his missing health."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the target dies or is a small monster, they are sent flying away in a line, though not through terrain, causing all enemies they pass through to take",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "A killed target or a small monster is flung away, damaging enemies in its path."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Explains his melee damage and the threat from flung targets.",
+      "slot": "E",
+      "uncertainties": [
+        "Target-specific fling exceptions are omitted from the central explanation."
+      ]
+    },
+    {
+      "answer": "Maximum Dosage temporarily increases Mundo's base health based on his missing health, grants movement speed, and regenerates health over time. At its highest rank, nearby enemy champions at cast time strengthen the health increase and regeneration.",
+      "build_focus": "",
+      "counterplay": "Create distance during his ultimate and reassess before committing to an extended fight.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "gaining increased base health, bonus movement speed, and bonus health regeneration.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Increased Base Health:15 / 20 / 25% missing health",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "to become enhanced for 10 seconds",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Maximum Dosage temporarily increases Mundo's base health based on his missing health, grants movement speed, and regenerates health over time."
+        },
+        {
+          "citations": [
+            {
+              "quote": "At rank 3, Maximum Dosage's increased base health and bonus health regeneration are both increased by 5% for each enemy champion within 1200 units at the time of cast.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "At its highest rank, nearby enemy champions at cast time strengthen the health increase and regeneration."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "His major sustained-fighting tool changes chase and kill decisions.",
+      "slot": "R",
+      "uncertainties": []
+    }
+  ],
+  "champion_id": 36,
+  "champion_name": "Dr. Mundo",
+  "conflicts": [
+    {
+      "resolution": "Use the detailed Wiki mechanic: detonation restores some stored health without a hit, and a champion or large-monster hit increases recovery.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "Whether Heart Zapper requires a hit to heal"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Track ultimate availability to judge sustained-fight and chase threats.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Its availability determines when damage can be stored and recovered.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Repeated bonesaws sustain ranged pressure and slow-based approaches.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "Maximum Dosage is described using the detailed base-health mechanic rather than treating its immediate effect as ordinary healing.",
+    "No current-client or skin-specific visual verification was supplied."
+  ],
+  "language": "en"
+}

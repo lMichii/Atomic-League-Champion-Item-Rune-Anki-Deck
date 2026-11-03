@@ -1,0 +1,445 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:elise:overview:L1",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Official role tags: Assassin, Mage.",
+            "source_id": "riot:role"
+          },
+          {
+            "quote": "Toggle: Elise switches between her Human Form and Spider Form.",
+            "source_id": "wiki:spiderformhumanform"
+          }
+        ],
+        "id": "16ce4f16aef12b1ef8ed9b57",
+        "summary": "An assassin and mage who switches between human and spider forms."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Active: Elise fires a web in the target direction that stuns the first enemy hit.",
+            "source_id": "wiki:cocoon"
+          },
+          {
+            "quote": "Active: Elise pounces at the target enemy and deals damage based on the target's missing health, applying on-hit effects.",
+            "source_id": "wiki:venomousbite"
+          }
+        ],
+        "id": "84613c77f0e98c04b9274745",
+        "summary": "Human Cocoon provides a catch, while spider Venomous Bite closes on an enemy."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize Elise's overall threat and the transition from ranged setup to melee pressure.",
+    "slot": "",
+    "source_ids": [
+      "riot:role",
+      "wiki:spiderformhumanform",
+      "wiki:cocoon",
+      "wiki:neurotoxin",
+      "wiki:volatilespiderling",
+      "wiki:venomousbite",
+      "wiki:rappel"
+    ],
+    "subject_id": "riot:role",
+    "title": "Elise",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "If an ability hits while Elise is already in Spider Form, a Spiderling will spawn near her rather than being stored.",
+            "source_id": "wiki:spiderqueen"
+          }
+        ],
+        "status": "supported",
+        "summary": "Ability hits in spider form can spawn a Spiderling directly."
+      }
+    ],
+    "card_id": "champ:elise:p:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Human Form: Whenever Elise's abilities hit an enemy, she gains a dormant Spiderling, up to a cap.",
+            "source_id": "wiki:spiderqueen"
+          }
+        ],
+        "id": "984717fc4ca4833db4270815",
+        "summary": "Human ability hits build a capped reserve of dormant Spiderlings."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Spider Form: Elise's basic attacks deal bonus magic damage and heal her.",
+            "source_id": "wiki:spiderqueen"
+          }
+        ],
+        "id": "8a4c7d65608a30896fb94205",
+        "summary": "Spider basic attacks add magic damage and healing."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the passive sustain and Spiderling generation behind her melee pressure.",
+    "slot": "P",
+    "source_ids": [
+      "wiki:spiderqueen",
+      "riot:P"
+    ],
+    "subject_id": "wiki:spiderqueen",
+    "title": "Spider Queen",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:elise:q:recognize:L2",
+    "context_id": "wiki:spiderformhumanform",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Elise fires a toxin at the target enemy that deals magic damage based on the target's current health.",
+            "source_id": "wiki:neurotoxin"
+          }
+        ],
+        "id": "6dbc8eea258d456b4253c604",
+        "summary": "Targeted magic damage scales with the enemy's current health."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize human Q as targeted damage that benefits from a healthy target.",
+    "slot": "Q",
+    "source_ids": [
+      "wiki:neurotoxin",
+      "riot:Q"
+    ],
+    "subject_id": "wiki:neurotoxin",
+    "title": "Neurotoxin — Human Q",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Elise will not dash if the target is within basic attack range.",
+            "source_id": "wiki:venomousbite"
+          }
+        ],
+        "status": "supported",
+        "summary": "The bite does not require a dash against a target already within basic attack range."
+      },
+      {
+        "citations": [
+          {
+            "quote": "This ability is disabled while grounded or rooted even if Elise is in the range in which she does not dash.",
+            "source_id": "wiki:venomousbite"
+          }
+        ],
+        "status": "supported",
+        "summary": "Grounding and rooting disable Venomous Bite even within basic attack range."
+      }
+    ],
+    "card_id": "champ:elise:ability_variant:q:venomousbite:spiderformhumanform:recognize:L2",
+    "context_id": "wiki:spiderformhumanform",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Elise pounces at the target enemy and deals damage based on the target's missing health, applying on-hit effects.",
+            "source_id": "wiki:venomousbite"
+          },
+          {
+            "quote": "Magic Damage:50 / 80 / 110 / 140 / 170 (+ 8% (+ 3% per 100 AP) of target's missing health)",
+            "source_id": "wiki:venomousbite"
+          }
+        ],
+        "id": "99978741b021f75e4e015dc5",
+        "summary": "A targeted pounce deals magic damage based on missing health and applies on-hit effects."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If there are active Spiderlings or Volatile Spiderlings nearby, they will dash alongside Elise to the target upon Venomous Bite's cast and reprioritize them.",
+            "source_id": "wiki:venomousbite"
+          }
+        ],
+        "id": "7a97a9845a04cb4a63af3d2d",
+        "summary": "Nearby allied spiders dash to the bite target."
+      }
+    ],
+    "kind": "ability_variant",
+    "purpose": "Recognize spider Q as a finishing gap close that also redirects nearby spiders.",
+    "slot": "Q",
+    "source_ids": [
+      "wiki:venomousbite",
+      "riot:Q"
+    ],
+    "subject_id": "wiki:venomousbite",
+    "title": "Venomous Bite — Spider Q",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:elise:w:recognize:L2",
+    "context_id": "wiki:spiderformhumanform",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Elise summons an untargetable venom-gorged spider that lasts for 3 seconds.",
+            "source_id": "wiki:volatilespiderling"
+          },
+          {
+            "quote": "Active: Elise sends a Volatile Spiderling to the target location that chases down nearby enemies and explodes upon coming into contact with one or when it expires, dealing magic damage to nearby enemies.",
+            "source_id": "wiki:volatilespiderling"
+          }
+        ],
+        "id": "d9434672e58b63099d8a7438",
+        "summary": "An untargetable spider seeks enemies and explodes for area magic damage on contact or expiration."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize human W as a pursuing area-damage threat.",
+    "slot": "W",
+    "source_ids": [
+      "wiki:volatilespiderling",
+      "riot:W"
+    ],
+    "subject_id": "wiki:volatilespiderling",
+    "title": "Volatile Spiderling — Human W",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Passive: Elise's Spiderlings gain bonus attack speed.",
+            "source_id": "wiki:skitteringfrenzy"
+          },
+          {
+            "quote": "Skittering Frenzy resets Elise's basic attack timer.",
+            "source_id": "wiki:skitteringfrenzy"
+          }
+        ],
+        "status": "supported",
+        "summary": "The ability also passively increases Spiderling attack speed and resets Elise's basic attack timer."
+      }
+    ],
+    "card_id": "champ:elise:ability_variant:w:skitteringfrenzy:spiderformhumanform:recognize:L2",
+    "context_id": "wiki:spiderformhumanform",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Elise and her Spiderlings gain additional bonus attack speed for a short time.",
+            "source_id": "wiki:skitteringfrenzy"
+          }
+        ],
+        "id": "6fd30ca5f7574a84b6a859cf",
+        "summary": "Elise and her Spiderlings gain a temporary attack-speed burst."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Elise loses Skittering Frenzy immediately when she switches to Human Form.",
+            "source_id": "wiki:skitteringfrenzy"
+          }
+        ],
+        "id": "ca97a319f6337c46a166b087",
+        "summary": "Returning to human form ends the active burst."
+      }
+    ],
+    "kind": "ability_variant",
+    "purpose": "Recognize spider W as a temporary melee damage window.",
+    "slot": "W",
+    "source_ids": [
+      "wiki:skitteringfrenzy",
+      "riot:W"
+    ],
+    "subject_id": "wiki:skitteringfrenzy",
+    "title": "Skittering Frenzy — Spider W",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Human Form: Stuns the first enemy unit hit and reveals them if they are not stealthed.",
+            "source_id": "riot:E"
+          }
+        ],
+        "status": "supported",
+        "summary": "Cocoon also reveals its target if the target is not stealthed."
+      }
+    ],
+    "card_id": "champ:elise:e:recognize:L2",
+    "context_id": "wiki:spiderformhumanform",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Elise fires a web in the target direction that stuns the first enemy hit.",
+            "source_id": "wiki:cocoon"
+          }
+        ],
+        "id": "04b4e4411db6ff2a88eccd99",
+        "summary": "A directional web stuns the first enemy it hits."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Cocoon deals no damage and thus does not trigger turret aggro, or effects such as Elixir of Sorcery and Sudden Impact's activation.",
+            "source_id": "wiki:cocoon"
+          }
+        ],
+        "id": "9bde4db338b79bda23c54086",
+        "summary": "The stun itself deals no damage."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize human E as Elise's ranged catch tool.",
+    "slot": "E",
+    "source_ids": [
+      "wiki:cocoon",
+      "riot:E"
+    ],
+    "subject_id": "wiki:cocoon",
+    "title": "Cocoon — Human E",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "If Rappel is cast directly on a target enemy, she will automatically recast upon the target and Spider Queen's effects are increased for a few seconds.",
+            "source_id": "wiki:rappel"
+          },
+          {
+            "quote": "Additionally, Spider Queen's bonuses are increased for 5 seconds.",
+            "source_id": "wiki:rappel"
+          }
+        ],
+        "status": "uncertain",
+        "summary": "Rappel can amplify Spider Queen's bonuses, but the supplied text leaves the exact descent condition unclear."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Rappel can be cast on any targetable enemy unit ( champions, minions, monsters, wards, traps, and jungle plants) except structures.",
+            "source_id": "wiki:rappel"
+          }
+        ],
+        "status": "supported",
+        "summary": "Eligible descent targets include enemy units beyond champions, but exclude structures."
+      }
+    ],
+    "card_id": "champ:elise:ability_variant:e:rappel:spiderformhumanform:recognize:L2",
+    "context_id": "wiki:spiderformhumanform",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Elise and her Spiderlings lift up into the air over 0.6 seconds, immediately becoming untargetable and unable to act, and afterwards vanishing for up to 1.95 seconds and granting sight of the surrounding 900 units for the duration.",
+            "source_id": "wiki:rappel"
+          }
+        ],
+        "id": "f4ac708259d29e4818195419",
+        "summary": "Elise and her Spiderlings become untargetable and unable to act in the air."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Recast: Elise and her Spiderlings descend upon the target enemy, or their current position if there is no target.",
+            "source_id": "wiki:rappel"
+          }
+        ],
+        "id": "c1ec0057eb3c0db00346080d",
+        "summary": "They descend onto an enemy target or return to their current position."
+      }
+    ],
+    "kind": "ability_variant",
+    "purpose": "Recognize spider E as a defensive untargetability window and a repositioning threat.",
+    "slot": "E",
+    "source_ids": [
+      "wiki:rappel",
+      "riot:E"
+    ],
+    "subject_id": "wiki:rappel",
+    "title": "Rappel — Spider E",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:elise:r:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Toggle: Elise switches between her Human Form and Spider Form.",
+            "source_id": "wiki:spiderformhumanform"
+          },
+          {
+            "quote": "Spider Form: Elise transforms into a spider, gaining 25 base movement speed, melee basic attacks with 125 range, and access to her arachnid abilities.",
+            "source_id": "wiki:spiderformhumanform"
+          },
+          {
+            "quote": "Human Form: Elise transforms into a human, gaining ranged basic attacks, and access to her human abilities.",
+            "source_id": "wiki:spiderformhumanform"
+          }
+        ],
+        "id": "682d84972308cbccd9f3482c",
+        "summary": "The toggle changes abilities, attack range, and movement speed."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Additionally, she summons all stored Spiderlings and heals them to full health.",
+            "source_id": "wiki:spiderformhumanform"
+          },
+          {
+            "quote": "Additionally, she stores all active Spiderlings.",
+            "source_id": "wiki:spiderformhumanform"
+          }
+        ],
+        "id": "aa5def740718f6ee396ff9db",
+        "summary": "Spider form summons stored Spiderlings; human form stores active Spiderlings."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Elise begins with one rank in Spider Form / Human Form and can increase it at levels 6, 11, and 16.",
+            "source_id": "wiki:spiderformhumanform"
+          },
+          {
+            "quote": "Spider Form and Human Form have separate cooldowns.",
+            "source_id": "wiki:spiderformhumanform"
+          }
+        ],
+        "id": "d0e1f526cccc3b89c39b3405",
+        "summary": "Transformation starts ranked, and the transformations have separate cooldowns."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the form toggle, early transformation access, and resulting changes in threat.",
+    "slot": "R",
+    "source_ids": [
+      "wiki:spiderformhumanform",
+      "riot:R"
+    ],
+    "subject_id": "wiki:spiderformhumanform",
+    "title": "Spider Form / Human Form",
+    "unsupported_claims": []
+  }
+]

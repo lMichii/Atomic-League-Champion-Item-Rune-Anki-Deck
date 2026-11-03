@@ -1,0 +1,270 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:leesin:overview:L1",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Name: Lee Sin. Official role tags: Fighter, Assassin.",
+            "source_id": "riot:role"
+          }
+        ],
+        "id": "6bcf6061360ed7c45c871457",
+        "summary": "Fighter and assassin."
+      },
+      {
+        "citations": [
+          {
+            "quote": "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy.",
+            "source_id": "riot:P"
+          }
+        ],
+        "id": "56ab2a0d124302177f36d5f6",
+        "summary": "Ability casts empower subsequent attacks with attack speed and energy restoration."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize Lee Sin's fighting pattern and positioning threats.",
+    "slot": "",
+    "source_ids": [
+      "riot:role",
+      "riot:P",
+      "riot:Q",
+      "wiki:sonicwave",
+      "wiki:dragonsrage"
+    ],
+    "subject_id": "riot:role",
+    "title": "Lee Sin",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:leesin:p:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "After Lee Sin casts an ability, his next 2 basic attacks within a short time gain bonus attack speed and restore energy.",
+            "source_id": "wiki:flurry"
+          }
+        ],
+        "id": "0af85f385d3717a18d1133b1",
+        "summary": "Casting an ability briefly empowers subsequent attacks with attack speed and energy restoration."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize why attacks between casts sustain his fighting pattern.",
+    "slot": "P",
+    "source_ids": [
+      "wiki:flurry",
+      "riot:P"
+    ],
+    "subject_id": "wiki:flurry",
+    "title": "Flurry",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:leesin:q:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Lee Sin fires a sonic blast in the target direction that deals physical damage to the first enemy hit and marks them for a short time, during which they are revealed.",
+            "source_id": "wiki:sonicwave"
+          }
+        ],
+        "id": "e59b190f48cf24c0ba68d804",
+        "summary": "A directional projectile damages, marks and reveals the first enemy hit."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Lee Sin dashes to the nearby enemy marked by Sonic Wave, consuming the mark upon arrival to deal physical damage based on the target's missing health.",
+            "source_id": "wiki:resonatingstrike"
+          }
+        ],
+        "id": "5583ea0373cd7187fd965879",
+        "summary": "The follow-up dashes to the nearby marked enemy and deals physical damage based on missing health."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the projectile mark and its follow-up dash threat.",
+    "slot": "Q",
+    "source_ids": [
+      "wiki:sonicwave",
+      "wiki:resonatingstrike",
+      "riot:Q"
+    ],
+    "subject_id": "wiki:sonicwave",
+    "title": "Sonic Wave / Resonating Strike",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "If the ally is a champion, both they and Lee Sin gain a shield for a short time upon his arrival and Safeguard's cooldown is halved.",
+            "source_id": "wiki:safeguard"
+          }
+        ],
+        "status": "supported",
+        "summary": "Targeting an allied champion reduces Safeguard's cooldown."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Safeguard will not grant its shield if the dash is interrupted.",
+            "source_id": "wiki:ironwill"
+          }
+        ],
+        "status": "supported",
+        "summary": "Interrupting the dash prevents its shield."
+      }
+    ],
+    "card_id": "champ:leesin:w:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Lee Sin dashes to the target allied unit's location. If the ally is a champion upon arrival, both they and Lee Sin gain a shield for 2 seconds.If the target is a minion or ward, Lee Sin also shields himself.",
+            "source_id": "wiki:safeguard"
+          }
+        ],
+        "id": "e6b009e1b5d3ba7d9e04e779",
+        "summary": "Dashes to an allied unit and shields Lee Sin, also shielding an allied champion target."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Lee Sin can self-cast Safeguard to shield himself.",
+            "source_id": "wiki:safeguard"
+          }
+        ],
+        "id": "2439947124a151646f640d8e",
+        "summary": "Can be self-cast for shielding."
+      },
+      {
+        "citations": [
+          {
+            "quote": "After Safeguard is cast, Lee Sin can cast Iron Will within a short time.",
+            "source_id": "wiki:safeguard"
+          },
+          {
+            "quote": "Lee Sin gains omnivamp for a few seconds.",
+            "source_id": "wiki:ironwill"
+          }
+        ],
+        "id": "d782eb30cc1a233796671240",
+        "summary": "The follow-up grants temporary omnivamp."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize allied-unit mobility, shielding and the healing follow-up.",
+    "slot": "W",
+    "source_ids": [
+      "wiki:safeguard",
+      "wiki:ironwill",
+      "riot:W"
+    ],
+    "subject_id": "wiki:safeguard",
+    "title": "Safeguard / Iron Will",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:leesin:e:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Lee Sin deals magic damage to nearby enemies, marking them for a few seconds and, if they are not invisible when struck, revealing them.",
+            "source_id": "wiki:tempest"
+          }
+        ],
+        "id": "6f9e108132369941d0fa1f3a",
+        "summary": "Damages and marks nearby enemies, revealing targets that were not invisible when struck."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Lee Sin sends a wave to nearby enemies marked by Tempest, inflicting a decaying slow that lasts a few seconds.",
+            "source_id": "wiki:cripple"
+          }
+        ],
+        "id": "397d36904c3a1a4bf5a96fd1",
+        "summary": "The follow-up applies a weakening slow to nearby marked enemies."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the close-range damage and conditional slow sequence.",
+    "slot": "E",
+    "source_ids": [
+      "wiki:tempest",
+      "wiki:cripple",
+      "riot:E"
+    ],
+    "subject_id": "wiki:tempest",
+    "title": "Tempest / Cripple",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "The displacement's direction is decided at the moment of impact",
+            "source_id": "wiki:dragonsrage"
+          },
+          {
+            "quote": "the only way for Lee Sin to control where his target is displaced is by using Flash before the cast time of Dragon's Rage ends",
+            "source_id": "wiki:dragonsrage"
+          }
+        ],
+        "status": "supported",
+        "summary": "Flash during the cast can change the kick direction before impact."
+      }
+    ],
+    "card_id": "champ:leesin:r:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Lee Sin roots the target enemy champion over the cast time, then roundhouse kicks them to deal physical damage and knock them back",
+            "source_id": "wiki:dragonsrage"
+          }
+        ],
+        "id": "9be782d1dee90bf770b33eff",
+        "summary": "Roots an enemy champion during the cast, then deals physical damage and knocks them back."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Enemies that collide with the displaced enemy while it is airborne take the same damage plus bonus physical damage and are knocked up for 1 second.",
+            "source_id": "wiki:dragonsrage"
+          }
+        ],
+        "id": "07d32529d997dc3d9defad21",
+        "summary": "Collisions damage and knock up other enemies."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the targeted kick and its collision threat to nearby teammates.",
+    "slot": "R",
+    "source_ids": [
+      "wiki:dragonsrage",
+      "riot:R"
+    ],
+    "subject_id": "wiki:dragonsrage",
+    "title": "Dragon's Rage",
+    "unsupported_claims": []
+  }
+]

@@ -1,0 +1,861 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:164",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Camille. Official role tags: Fighter, Assassin.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Camille pulls herself to a wall, leaping off and knocking up enemy champions upon landing.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Camille dashes to target champion, anchoring them to the area. She also deals bonus magic damage to the target with her basic attacks.",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "Camille is a fighter and assassin who uses terrain to engage and traps a champion for empowered attacks."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Bonus Physical Damage:20 / 25 / 30 / 35 / 40% AD",
+                "source_id": "wiki:precisionprotocol"
+              },
+              {
+                "quote": "Physical Damage:60 / 90 / 120 / 150 / 180 (+ 75% bonus AD)",
+                "source_id": "wiki:walldive"
+              },
+              {
+                "quote": "Recast: Camille mimics the first cast's effects. If Precision Protocol is recast after 1.5 seconds of the first attack, then the bonus damage is doubled, and 40% – 100% (based on level) of the attack's total damage will be dealt as true damage.",
+                "source_id": "wiki:precisionprotocol"
+              }
+            ],
+            "claim": "Her damage scales with AD, and her delayed Precision Protocol attack converts damage to true damage."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4002624",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Camille"
+      },
+      "id": "champ:camille:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Recognizes her terrain engage, isolated fights, and delayed attack threat."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:camille:overview:L1",
+        "context_id": "riot:role",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Camille. Official role tags: Fighter, Assassin.",
+                "source_id": "riot:role"
+              }
+            ],
+            "id": "e5659a4e17eb89a6221a1699",
+            "summary": "Camille is a fighter and assassin."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Camille pulls herself to a wall, leaping off and knocking up enemy champions upon landing.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Camille dashes to target champion, anchoring them to the area. She also deals bonus magic damage to the target with her basic attacks.",
+                "source_id": "riot:R"
+              }
+            ],
+            "id": "0cc77201e816ef48bc97f940",
+            "summary": "Terrain mobility leads into trapping a champion and attacking them."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Camille's overall fighting pattern and damage focus.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "riot:E",
+          "riot:R",
+          "wiki:precisionprotocol",
+          "wiki:walldive"
+        ],
+        "subject_id": "riot:role",
+        "title": "Camille",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Fighter / Assassin",
+        "answer": "Camille is a fighter and assassin who uses terrain to engage and traps a champion for empowered attacks. Her damage scales with AD, and her delayed Precision Protocol attack converts damage to true damage.",
+        "build_focus": "AD",
+        "category": "Champion",
+        "champion": "Camille",
+        "cooldown": "",
+        "counterplay": "Watch terrain approaches and create distance before her delayed empowered attack.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/f6e1f6bb9698066bcafa532632f0a1a77cbf86ee6c1dc0bb9fa027514cda424c.jpg",
+        "id": "champ:camille:overview:L1",
+        "level": "L1",
+        "media_path": "media/f6e1f6bb9698066bcafa532632f0a1a77cbf86ee6c1dc0bb9fa027514cda424c.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Camille",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:164",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Innate: Periodically, Camille's next basic attack against a champion will on-hit grant her a shield against their damage type (physical or magical) for a short time.",
+                "source_id": "wiki:adaptivedefenses"
+              }
+            ],
+            "claim": "Periodically, Camille's attack against a champion grants her a brief shield against physical or magic damage."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The shield-typing is determined based on the total damage the target has dealt to champions that game (as a percentage) versus Camille's current armor and magic resistance.",
+                "source_id": "wiki:adaptivedefenses"
+              }
+            ],
+            "claim": "The shield type depends on that champion's damage history and Camille's armor and magic resistance."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4002624",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Camille"
+      },
+      "id": "champ:camille:p:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Her attack-triggered shield changes favorable trading windows."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Adaptive Defenses goes on cooldown after the shield expires or is destroyed.",
+                "source_id": "wiki:adaptivedefenses"
+              }
+            ],
+            "status": "supported",
+            "summary": "Important cooldown topic: the cooldown starts when the shield expires or is destroyed."
+          }
+        ],
+        "card_id": "champ:camille:p:recognize:L2",
+        "context_id": "wiki:adaptivedefenses",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Innate: Periodically, Camille's next basic attack against a champion will on-hit grant her a shield against their damage type (physical or magical) for a short time.",
+                "source_id": "wiki:adaptivedefenses"
+              }
+            ],
+            "id": "bb039da4dec195611ebbb2c9",
+            "summary": "A periodic champion attack grants a brief damage-type shield."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The shield-typing is determined based on the total damage the target has dealt to champions that game (as a percentage) versus Camille's current armor and magic resistance.",
+                "source_id": "wiki:adaptivedefenses"
+              }
+            ],
+            "id": "e8630d4e6bb801fd7eac669b",
+            "summary": "The target's damage history and Camille's resistances determine the shield type."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize her defensive trading window.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:adaptivedefenses"
+        ],
+        "subject_id": "wiki:adaptivedefenses",
+        "title": "Adaptive Defenses",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Adaptive Defenses",
+        "answer": "Periodically, Camille's attack against a champion grants her a brief shield against physical or magic damage. The shield type depends on that champion's damage history and Camille's armor and magic resistance.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Camille",
+        "cooldown": "",
+        "counterplay": "Avoid committing matching damage into her shield; look to trade after it fades.",
+        "front_hint": "CAMILLE · ADAPTIVE DEFENSES · P",
+        "icon_path": "media/1f6811bf86fbef4e15ab604e2c77d9e6daec3586ca0498cfff1377f08b4007cb.png",
+        "id": "champ:camille:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/1f6811bf86fbef4e15ab604e2c77d9e6daec3586ca0498cfff1377f08b4007cb.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Camille",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:164",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Camille's next basic attack deals bonus physical damage and grants her bonus movement speed. Precision Protocol can be recast for a short time, dealing significantly increased damage if Camille delays the recast.",
+                "source_id": "wiki:precisionprotocol"
+              }
+            ],
+            "claim": "Camille empowers her next attack with bonus physical damage and movement speed, then can recast."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Recast: Camille mimics the first cast's effects. If Precision Protocol is recast after 1.5 seconds of the first attack, then the bonus damage is doubled, and 40% – 100% (based on level) of the attack's total damage will be dealt as true damage.",
+                "source_id": "wiki:precisionprotocol"
+              }
+            ],
+            "claim": "Delaying the follow-up increases its bonus damage and converts part of the attack's total damage to true damage."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4002624",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Camille"
+      },
+      "id": "champ:camille:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The delayed follow-up is a central damage threat in trades."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The enhanced attack will still complete and hit the target even if they become untargetable during the attack's windup.",
+                "source_id": "wiki:precisionprotocol"
+              }
+            ],
+            "status": "supported",
+            "summary": "Becoming untargetable during the empowered attack's windup does not prevent it from completing."
+          }
+        ],
+        "card_id": "champ:camille:q:recognize:L2",
+        "context_id": "wiki:precisionprotocol",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Camille's next basic attack deals bonus physical damage and grants her bonus movement speed. Precision Protocol can be recast for a short time, dealing significantly increased damage if Camille delays the recast. A portion of the attack's damage will be dealt as true damage.",
+                "source_id": "wiki:precisionprotocol"
+              }
+            ],
+            "id": "1b5402a8be4ebf95a892a4e8",
+            "summary": "Empowered attacks grant movement speed; delaying the recast adds damage and true damage conversion."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize and respect the delayed empowered attack.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:precisionprotocol"
+        ],
+        "subject_id": "wiki:precisionprotocol",
+        "title": "Precision Protocol",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Precision Protocol",
+        "answer": "Camille empowers her next attack with bonus physical damage and movement speed, then can recast. Delaying the follow-up increases its bonus damage and converts part of the attack's total damage to true damage.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Camille",
+        "cooldown": "",
+        "counterplay": "Create distance before the delayed follow-up and avoid extending the trade.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/f26cf2cfdf7d5aaa8ead6f9fc464338e1c1660870aa40d1bcf8cd40feb5f244e.png",
+        "id": "champ:camille:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/ff384d2f0e8cecfddfb311178a6d780ee9232c6a106b4888a6660b36555e9407.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Camille",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:164",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Camille briefly becomes ghosted and sweeps her leg after a delay, dealing physical damage to enemies hit in a cone.",
+                "source_id": "wiki:tacticalsweep"
+              }
+            ],
+            "claim": "Camille sweeps a cone after a delay, dealing physical damage."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Enemies hit by the outer half of the cone take bonus physical damage, capped at 300 against monsters, and are slowed by 80% decaying over 2 seconds. Camille is healed for 100% of this bonus damage post-mitigation against enemy champions in the outer half.",
+                "source_id": "wiki:tacticalsweep"
+              }
+            ],
+            "claim": "The outer portion deals extra damage, slows enemies, and heals her when it hits champions."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Camille can move during the delay, but the hitbox and Camille's visuals are fixed to the initial target direction.",
+                "source_id": "wiki:tacticalsweep"
+              }
+            ],
+            "claim": "She can move during the delay, but the sweep's direction stays fixed."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4002624",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Camille"
+      },
+      "id": "champ:camille:w:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Recognizing the outer edge helps avoid her slow, extra damage, and healing."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:camille:w:recognize:L2",
+        "context_id": "wiki:tacticalsweep",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Camille briefly becomes ghosted and sweeps her leg after a delay, dealing physical damage to enemies hit in a cone.",
+                "source_id": "wiki:tacticalsweep"
+              }
+            ],
+            "id": "2af5bd10f415a38ab3905d0a",
+            "summary": "A delayed cone deals physical damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Enemies hit by the outer half of the cone take bonus physical damage, capped at 300 against monsters, and are slowed by 80% decaying over 2 seconds. Camille is healed for 100% of this bonus damage post-mitigation against enemy champions in the outer half.",
+                "source_id": "wiki:tacticalsweep"
+              }
+            ],
+            "id": "26c0f2c57c8859ba94d46d98",
+            "summary": "The outer cone adds damage and a slow, healing Camille against champions."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Camille can move during the delay, but the hitbox and Camille's visuals are fixed to the initial target direction.",
+                "source_id": "wiki:tacticalsweep"
+              }
+            ],
+            "id": "200ec8f02a75b734ae351293",
+            "summary": "Camille can reposition during the windup without changing the sweep's direction."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the dangerous outer edge and its delayed aim.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:tacticalsweep"
+        ],
+        "subject_id": "wiki:tacticalsweep",
+        "title": "Tactical Sweep",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Tactical Sweep",
+        "answer": "Camille sweeps a cone after a delay, dealing physical damage. The outer portion deals extra damage, slows enemies, and heals her when it hits champions. She can move during the delay, but the sweep's direction stays fixed.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Camille",
+        "cooldown": "",
+        "counterplay": "Move away from the outer edge during the windup; consider moving inward if retreating would leave you in it.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/0a7e0a8bfa41ce686bf9295695d10caf47b48b01073713114b789b092560080e.png",
+        "id": "champ:camille:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/44fe08328d46d509068414c252f0b6748a9650d288b40aaa46a8d009288541e1.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Camille",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:164",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Camille fires a grapple, dashing onto any terrain she hits and briefly perching onto it. While perched, she gains the ability to cast Wall Dive.",
+                "source_id": "wiki:hookshot"
+              },
+              {
+                "quote": "Dash range is doubled towards enemy champions.",
+                "source_id": "wiki:walldive"
+              }
+            ],
+            "claim": "Camille grapples to terrain, then can leap off with Wall Dive, which reaches farther toward enemy champions."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Camille dashes in the target direction, dealing physical damage to enemies near the landing location.",
+                "source_id": "wiki:walldive"
+              },
+              {
+                "quote": "After dashing, Camillle gains bonus attack speed for 5 seconds.",
+                "source_id": "wiki:walldive"
+              }
+            ],
+            "claim": "Wall Dive deals physical damage and grants attack speed after the dash."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Camille stops prematurely upon colliding with an enemy champion, knocking back all nearby enemy champions, though not through terrain, as well as stunning them for 0.75 seconds.",
+                "source_id": "wiki:walldive"
+              }
+            ],
+            "claim": "Colliding with a champion stops her dash and knocks back and stuns nearby enemy champions."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4002624",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Camille"
+      },
+      "id": "champ:camille:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Her main terrain engage threatens a long approach and nearby champions."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "She does not have to see any enemy champions to gain the range indicator or extended range.",
+                "source_id": "wiki:walldive"
+              }
+            ],
+            "status": "supported",
+            "summary": "The extended range does not require Camille to see enemy champions."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Casting Flash during Wall Dive's dash will interrupt it but Camille will affect enemies around the new location.",
+                "source_id": "wiki:walldive"
+              }
+            ],
+            "status": "supported",
+            "summary": "Flash during Wall Dive can relocate its effect."
+          }
+        ],
+        "card_id": "champ:camille:e:recognize:L2",
+        "context_id": "wiki:hookshot",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Camille fires a grapple, dashing onto any terrain she hits and briefly perching onto it. While perched, she gains the ability to cast Wall Dive.",
+                "source_id": "wiki:hookshot"
+              }
+            ],
+            "id": "2891372d7a4c783c29557cfb",
+            "summary": "Grappling onto terrain unlocks Wall Dive."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Camille dashes, dealing physical damage to enemies near the landing location. Dash range is doubled towards enemy champions. Upon colliding with an enemy champion, she knocks back and stuns all nearby enemy champions, gaining bonus attack speed.",
+                "source_id": "wiki:walldive"
+              },
+              {
+                "quote": "After dashing, Camillle gains bonus attack speed for 5 seconds.",
+                "source_id": "wiki:walldive"
+              }
+            ],
+            "id": "a7192c2c76ef8095ad278d92",
+            "summary": "Wall Dive reaches farther toward champions, deals physical damage, grants attack speed, and knocks back and stuns nearby champions on champion collision."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the complete terrain grapple and leap sequence.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:hookshot",
+          "wiki:walldive"
+        ],
+        "subject_id": "wiki:hookshot",
+        "title": "Hookshot and Wall Dive",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Hookshot",
+        "answer": "Camille grapples to terrain, then can leap off with Wall Dive, which reaches farther toward enemy champions. Wall Dive deals physical damage and grants attack speed after the dash. Colliding with a champion stops her dash and knocks back and stuns nearby enemy champions.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Camille",
+        "cooldown": "",
+        "counterplay": "Watch her terrain approach, sidestep the leap, and avoid clustering around its target.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/a436f28e602acf230c53a5e32c6d41ab3d42faaae90b0fc45810ef79c2c9f46a.png",
+        "id": "champ:camille:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/6a0c41b54343a56850133e4588d5d9448d80a13fd222080be80454af33657e97.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Camille",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:164",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Camille becomes untargetable and leaps with displacement immunity towards the target enemy champion over 0.5 seconds, revealing them for the duration and disrupting their ongoing channels.",
+                "source_id": "wiki:thehextechultimatum"
+              }
+            ],
+            "claim": "Camille becomes untargetable as she leaps onto a champion, disrupting their ongoing channels."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Upon landing on the target, she becomes targetable again and creates a hexagonal zone around her current location for a duration, knocking away all other nearby enemies on impact to the edge of the zone, though not through terrain.",
+                "source_id": "wiki:thehextechultimatum"
+              },
+              {
+                "quote": "The target cannot escape the zone through any means.",
+                "source_id": "wiki:thehextechultimatum"
+              }
+            ],
+            "claim": "On landing, she creates a zone that confines the target and knocks other nearby enemies away."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "While within the zone, Camille's basic attacks against the target deal bonus magic damage.",
+                "source_id": "wiki:thehextechultimatum"
+              },
+              {
+                "quote": "The Hextech Ultimatum ends automatically within 1 second if Camille leaves the area or dies.",
+                "source_id": "wiki:thehextechultimatum"
+              }
+            ],
+            "claim": "Her attacks against the trapped target gain bonus magic damage; the zone ends shortly after Camille leaves or dies."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4002624",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Camille"
+      },
+      "id": "champ:camille:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The confinement changes escape decisions and how allies should respond."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If the target becomes untargetable, dies, or moves 2000 or more units away during the dash, it will be interrupted, causing the The Hextech Ultimatum to be cancelled.",
+                "source_id": "wiki:thehextechultimatum"
+              }
+            ],
+            "status": "supported",
+            "summary": "The leap can be cancelled by target untargetability, death, or sufficiently distant relocation during the dash."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Yuumi's You and Me! allows her to bypass the borders if the unit she attaches to leaves the area.",
+                "source_id": "wiki:thehextechultimatum"
+              },
+              {
+                "quote": "If the target of The Show Stopper is also the target of The Hextech Ultimatum, they can go through the borders while attached to him.",
+                "source_id": "wiki:thehextechultimatum"
+              }
+            ],
+            "status": "supported",
+            "summary": "Specific attachment interactions can bypass the usual confinement."
+          }
+        ],
+        "card_id": "champ:camille:r:recognize:L2",
+        "context_id": "wiki:thehextechultimatum",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Camille becomes untargetable and leaps with displacement immunity towards the target enemy champion over 0.5 seconds, revealing them for the duration and disrupting their ongoing channels.",
+                "source_id": "wiki:thehextechultimatum"
+              }
+            ],
+            "id": "2be697fd5ca47644e56c7488",
+            "summary": "The initial leap makes Camille untargetable and disrupts the target's channels."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Camille dives onto an enemy champion, creating a zone around the target and knocking away all other enemies. While within the zone, the target cannot escape through any means, and Camille's basic attacks deal bonus magic damage against them. The zone will disappear if Camille leaves or dies.",
+                "source_id": "wiki:thehextechultimatum"
+              }
+            ],
+            "id": "429d7914df03aa0cfce3747c",
+            "summary": "The zone confines the target, knocks other enemies away, and adds magic damage to Camille's attacks against the target; it ends if she leaves or dies."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize her confinement zone and its ending condition.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:thehextechultimatum"
+        ],
+        "subject_id": "wiki:thehextechultimatum",
+        "title": "The Hextech Ultimatum",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "The Hextech Ultimatum",
+        "answer": "Camille becomes untargetable as she leaps onto a champion, disrupting their ongoing channels. On landing, she creates a zone that confines the target and knocks other nearby enemies away. Her attacks against the trapped target gain bonus magic damage; the zone ends shortly after Camille leaves or dies.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Camille",
+        "cooldown": "",
+        "counterplay": "Prepare to fight inside the zone; try to force Camille out and support the trapped ally.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/526e7b578b192d81ca807cc8970920719547ffd2c4f5faa396b7980bf9614f90.png",
+        "id": "champ:camille:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/394a7477abf2fb723a99d5c8e31d4e3dc1218b045faddf103ffd2a8bc12b1e3a.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Camille",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

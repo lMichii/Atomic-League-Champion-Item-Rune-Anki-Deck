@@ -1,0 +1,354 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:briar:overview:L1",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "entering a Blood Frenzy that causes her to relentlessly pursue the nearest enemy (prioritizing champions)",
+            "source_id": "riot:W"
+          }
+        ],
+        "id": "62d8737bace8fec88267c151",
+        "summary": "Frenzy drives her to pursue enemies, prioritizing champions."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Briar's attacks and abilities apply a stacking bleed that heals her for a portion of the damage it deals.",
+            "source_id": "riot:P"
+          }
+        ],
+        "id": "fe904ca605b10201fa670bfb",
+        "summary": "Her stacking bleed provides healing."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize Briar's pursuit and sustain pattern.",
+    "slot": "",
+    "source_ids": [
+      "riot:role",
+      "riot:P",
+      "riot:W",
+      "wiki:headrush",
+      "wiki:snackattack"
+    ],
+    "subject_id": "riot:role",
+    "title": "Briar",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "If a target affected by her bleed dies, Briar heals for the remaining amount.",
+            "source_id": "wiki:crimsoncurse"
+          }
+        ],
+        "status": "supported",
+        "summary": "Bleeding targets dying provide remaining bleed healing."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Blood Frenzy's area of effect damage around the target does not apply bleed stacks.",
+            "source_id": "wiki:crimsoncurse"
+          }
+        ],
+        "status": "supported",
+        "summary": "Frenzy splash damage does not apply bleed stacks."
+      }
+    ],
+    "card_id": "champ:briar:p:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Briar's basic attacks on-hit and abilities inflict a bleed on the target for a few seconds, which may stack up to 5 times. For each stack, the target is dealt physical damage and Briar heals for a portion of it.",
+            "source_id": "wiki:crimsoncurse"
+          }
+        ],
+        "id": "cd1f1fa72950810f00844bda",
+        "summary": "Attacks and abilities apply a stacking physical bleed that heals Briar."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Briar has no base health regeneration but she gains increased healing from other sources based on her missing health.",
+            "source_id": "wiki:crimsoncurse"
+          }
+        ],
+        "id": "c5b03519c57f66c606a5635f",
+        "summary": "She lacks base health regeneration and gains more healing with missing health."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize her persistent sustain.",
+    "slot": "P",
+    "source_ids": [
+      "wiki:crimsoncurse",
+      "riot:P"
+    ],
+    "subject_id": "wiki:crimsoncurse",
+    "title": "Crimson Curse",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Head Rush can be cast on jungle plants, wards, and traps.",
+            "source_id": "wiki:headrush"
+          }
+        ],
+        "status": "supported",
+        "summary": "Plants, wards, and traps can also serve as leap targets."
+      }
+    ],
+    "card_id": "champ:briar:q:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Briar leaps to the target unit. If the target is an enemy, she deals physical damage, stuns them briefly, and additionally reduces their armor and magic resistance for a few seconds.",
+            "source_id": "wiki:headrush"
+          }
+        ],
+        "id": "575560849cb80d1953fae58f",
+        "summary": "A targeted leap damages and stuns enemies while reducing their resistances."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize her targeted engage threat.",
+    "slot": "Q",
+    "source_ids": [
+      "wiki:headrush",
+      "riot:Q"
+    ],
+    "subject_id": "wiki:headrush",
+    "title": "Head Rush",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Blood Frenzy acquires targets regardless of if they are visible or not.",
+            "source_id": "wiki:snackattack"
+          }
+        ],
+        "status": "supported",
+        "summary": "Frenzy can acquire targets without visibility."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If she casts Head Rush on a minion or monster, she will shift her target priority to large monsters, minions or champions, then any other unit.",
+            "source_id": "wiki:bloodfrenzy"
+          }
+        ],
+        "status": "supported",
+        "summary": "Head Rush on a minion or monster changes normal frenzy targeting priority."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Snack Attack can only be used during Blood Frenzy; if the frenzy ends at any point, the empowered attack will be lost immediately.",
+            "source_id": "wiki:snackattack"
+          }
+        ],
+        "status": "supported",
+        "summary": "Ending frenzy removes an unused empowered bite."
+      }
+    ],
+    "card_id": "champ:briar:w:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Briar dashes and senses her surroundings. If there is a nearby enemy upon her arrival, she gains Blood Frenzy for a few seconds, during which she can cast Snack Attack.",
+            "source_id": "wiki:bloodfrenzy"
+          },
+          {
+            "quote": "Blood Frenzy causes Briar to become unable to receive movement and attack commands.",
+            "source_id": "wiki:bloodfrenzy"
+          }
+        ],
+        "id": "f630173536869edd48706c86",
+        "summary": "A dash can trigger frenzy, removing control over movement and attacks."
+      },
+      {
+        "citations": [
+          {
+            "quote": "gaining ghosting, bonus attack speed and bonus movement speed. During this time, she also empowers her basic attacks to deal physical damage to enemies around her target.",
+            "source_id": "wiki:bloodfrenzy"
+          }
+        ],
+        "id": "f3bd7835eff6f83d6b106746",
+        "summary": "Frenzy grants combat speed and physical attack splash."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Active: Briar empowers her next attack during Blood Frenzy to take a bite out of the target enemy. The attack gains increased range, deals bonus physical damage based on the target's missing health and heals Briar for a portion of the damage dealt.",
+            "source_id": "wiki:snackattack"
+          }
+        ],
+        "id": "187b4bb7d72bcc3895f69a13",
+        "summary": "The frenzy bite adds missing-health physical damage and healing."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize frenzy pursuit and its related bite.",
+    "slot": "W",
+    "source_ids": [
+      "wiki:bloodfrenzy",
+      "wiki:snackattack",
+      "riot:W"
+    ],
+    "subject_id": "wiki:bloodfrenzy",
+    "title": "Blood Frenzy / Snack Attack",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:briar:e:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Briar refocuses her mind, removing Blood Frenzy",
+            "source_id": "riot:E"
+          },
+          {
+            "quote": "Active: Briar charges to increase Chilling Scream's damage and range, gaining damage reduction and healing herself.",
+            "source_id": "wiki:chillingscream"
+          },
+          {
+            "quote": "Chilling Scream's charge cannot be interrupted by crowd control.",
+            "source_id": "wiki:chillingscream"
+          }
+        ],
+        "id": "bb46c4f4e05d561cfff2c3ba",
+        "summary": "Ends frenzy and provides healing and damage reduction during an uninterrupted charge."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Recast: Briar unleashes a scream in the target direction that deals magic damage to enemies hit and briefly slows them.",
+            "source_id": "wiki:chillingscream"
+          }
+        ],
+        "id": "6c55fa4380d4d985f6b78c23",
+        "summary": "The directional scream deals magic damage and slows."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If Chilling Scream was charged for its full duration, the scream forcefully knocks back enemies hit, and if they collide with terrain, they rebound to take massive bonus magic damage, and they are knocked airborne briefly and stunned for longer.",
+            "source_id": "wiki:chillingscream"
+          }
+        ],
+        "id": "737a05ccded9556913cdb000",
+        "summary": "Full charge adds knockback, with extra damage and crowd control on terrain collision."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize her defensive charge and wall collision threat.",
+    "slot": "E",
+    "source_ids": [
+      "wiki:chillingscream",
+      "riot:E"
+    ],
+    "subject_id": "wiki:chillingscream",
+    "title": "Chilling Scream",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Briar will track the target with the dash if they change locations.",
+            "source_id": "wiki:certaindeath"
+          }
+        ],
+        "status": "supported",
+        "summary": "The dash tracks a target that changes location."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If a target is hit, Briar cleanses herself from all crowd control and becomes immune to them over a cast time, afterwards dashing to them with displacement immunity.",
+            "source_id": "wiki:certaindeath"
+          }
+        ],
+        "status": "supported",
+        "summary": "A successful hit grants a crowd control cleanse and cast immunity, followed by displacement immunity during the dash."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If that target becomes invalid, she will shift back to her normal targeting priority until the marked target can be attacked again.",
+            "source_id": "wiki:certaindeath"
+          }
+        ],
+        "status": "supported",
+        "summary": "An invalid prey target temporarily returns her to normal targeting priority."
+      }
+    ],
+    "card_id": "champ:briar:r:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Briar kicks her pillory's hemolith a large distance toward the target direction which marks the first enemy champion hit and reveals them. If a target is hit, Briar destroys her pillory and dashes to them.",
+            "source_id": "wiki:certaindeath"
+          }
+        ],
+        "id": "5d9dc4c63a2ade15de4cc426",
+        "summary": "A long-range hit marks and reveals a champion, triggering a dash to them."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Upon arrival, she creates an explosion that deals magic damage to the marked champion and enemies around them, and also fears all non-marked enemies.",
+            "source_id": "wiki:certaindeath"
+          }
+        ],
+        "id": "3d0675f5d5a6de53595ac970",
+        "summary": "Arrival deals area magic damage and fears enemies other than the prey."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Hematomania: Briar gains all effects of Blood Frenzy against the marked target as well as bonus armor, bonus magic resistance, life steal, and additional bonus movement speed. Hematomania lasts until she or the marked target dies. Briar can cast Chilling Scream to end Hematomania early.",
+            "source_id": "wiki:certaindeath"
+          }
+        ],
+        "id": "0f07169b704ddfcbcb2e9d95",
+        "summary": "Empowered pursuit adds defenses, life steal, and speed, and can be ended by Chilling Scream."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the projectile, arrival threat, and empowered pursuit together.",
+    "slot": "R",
+    "source_ids": [
+      "wiki:certaindeath",
+      "riot:R"
+    ],
+    "subject_id": "wiki:certaindeath",
+    "title": "Certain Death",
+    "unsupported_claims": []
+  }
+]

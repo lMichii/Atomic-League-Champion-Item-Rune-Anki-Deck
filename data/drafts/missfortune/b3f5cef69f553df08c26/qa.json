@@ -1,0 +1,1136 @@
+{
+  "approval_blockers": [
+    "All six cards are drafts requiring explicit editorial approval.",
+    "All clips/cues need manual visual verification.",
+    "Game patch label has not been independently established."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "-"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:missfortune:overview:L1",
+      "issues": [
+        "UNAPPROVED draft.",
+        "AD is a broad learning focus inferred from the supplied physical-damage mechanics and AD scaling, not an optimal build recommendation."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": null,
+      "media_type": "portrait",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Introduces her damage role and her main area threats."
+      },
+      "slot": "-",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Basic attacks against a new eligible target deal bonus physical damage. Switching targets lets Love Tap trigger again.",
+            "covered": true,
+            "mechanic_id": "P.new_target_damage",
+            "reason": "Explains the bonus damage and target switching. The eligibility qualifier accommodates buildings without requiring an exception list."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "P"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:missfortune:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The supplied clip frames suggest a tentative heart-marker cue, but appearance and placement are not established by the text. The proposal is retained only here pending visual QA.",
+        "Advanced exceptions: bonus damage is reduced against minions and does not trigger against buildings; Runaan's Hurricane applies Love Tap only to its primary target; the bonus damage applies life steal."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Miss Fortune's basic attacks apply a mark that expires when attacking a new enemy. If the enemy was unmarked, this also deals bonus physical damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "The mark tracks the last attacked enemy; switching targets enables Love Tap again."
+          },
+          {
+            "citations": [
+              {
+                "quote": "halved to 25% – 50% (based on level) AD against minions.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "The empowered attack will not trigger against buildings.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Love Tap deals reduced bonus damage against minions and does not trigger against buildings."
+          },
+          {
+            "citations": [
+              {
+                "quote": "With Runaan's Hurricane, Love Tap only applies to the primary target.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "The bonus damage applies life steal.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Love Tap applies only to Runaan's Hurricane's primary target, and its bonus damage applies life steal."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Miss Fortune deals bonus physical damage whenever she basic attacks a new target.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Miss Fortune's basic attacks apply a mark that expires when attacking a new enemy. If the enemy was unmarked, this also deals bonus physical damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.new_target_damage",
+            "summary": "Basic attacks against a new eligible target deal bonus physical damage, rewarding target switching."
+          }
+        ],
+        "slot": "P",
+        "unsupported_claims": [
+          "Every consecutive attack against the same target triggers Love Tap.",
+          "Love Tap has a timed reset while repeatedly attacking the same target."
+        ]
+      },
+      "media_type": "icon",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Recognizing target switching helps explain her extra attack damage."
+      },
+      "slot": "P",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Double Up fires a targeted shot that deals physical damage and can bounce to another enemy behind the first.",
+            "covered": true,
+            "mechanic_id": "Q.bouncing_damage",
+            "reason": "Explains targeting, damage type and bounce direction; 'can' avoids promising a bounce without a secondary target."
+          },
+          {
+            "answer_quote": "Both hits can apply Love Tap.",
+            "covered": true,
+            "mechanic_id": "Q.love_tap",
+            "reason": "Explicitly states the supported interaction for both hits."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "Q"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:missfortune:q:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The bounce requires an eligible secondary target. It can critically strike, with a guaranteed critical strike if the initial hit kills its target.",
+        "Advanced targeting priorities, on-attack and on-hit interactions, spell shields, attack-range adjustments and cast cancellation are omitted from the beginner explanation."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Double Up's bounce can critically strike, and does so if Double Up kills the primary target.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "The bounce can critically strike and is guaranteed to do so if the first hit kills its target."
+          },
+          {
+            "citations": [
+              {
+                "quote": "applying on-attack effects to the primary target and on-hit effects to both enemies hit.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "The primary hit applies on-attack effects; both hits apply on-hit effects."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The bounce prioritizes units directly behind the primary target. A target does not have to be visible to be hit by the bounce.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Neutral units count as valid targets to bounce.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "If there is no secondary target, the shot will not bounce and the dud will instead fall to the ground.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Bounce selection prioritizes enemies directly behind the first target, can hit unseen or neutral targets, and requires an eligible secondary target."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Spell shields can be used by either target. If it is on the primary target, the spell shield will not prevent the shot from bouncing.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Either target can spell-shield its hit; a shield on the first target does not stop the bounce."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Double Up's cast range adjusts based on Miss Fortune's attack range, which can be increased by items such as Rapid Firecannon.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "If the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Cast range follows attack range. Losing a valid primary target during the cast cancels it without spending its cost or cooldown."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Miss Fortune fires a bullet at an enemy, damaging them and a target behind them.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Miss Fortune fires a shot at the target enemy that deals physical damage, which then bounces to hit another enemy behind them.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.bouncing_damage",
+            "summary": "A targeted shot deals physical damage and bounces to another eligible enemy behind the first."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Both strikes can also apply Love Tap.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "id": "Q.love_tap",
+            "summary": "Both hits can apply Love Tap."
+          }
+        ],
+        "slot": "Q",
+        "unsupported_claims": [
+          "The bounce always prioritizes champions.",
+          "Killing the primary target is required for any bounce to critically strike.",
+          "The primary hit is guaranteed to critically strike when it kills its target."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "The bounce threatens enemies standing behind other units."
+      },
+      "slot": "Q",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Strut passively builds movement speed in stages after avoiding damage, except repeated damage over time.",
+            "covered": true,
+            "mechanic_id": "W.passive_movement_speed",
+            "reason": "Explains passive movement speed accumulation and the detailed source's periodic-damage exception."
+          },
+          {
+            "answer_quote": "Activating it instantly grants the higher movement speed bonus and temporarily boosts attack speed.",
+            "covered": true,
+            "mechanic_id": "W.active_attack_speed",
+            "reason": "Explicitly states the temporary attack-speed benefit of activation."
+          },
+          {
+            "answer_quote": "Activating it instantly grants the higher movement speed bonus and temporarily boosts attack speed.",
+            "covered": true,
+            "mechanic_id": "W.instant_movement_bonus",
+            "reason": "Explicitly states immediate acquisition of the increased movement bonus."
+          },
+          {
+            "answer_quote": "Love Tap triggers reduce Strut's remaining cooldown.",
+            "covered": true,
+            "mechanic_id": "W.love_tap_cooldown",
+            "reason": "Names the trigger and the remaining cooldown it reduces."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "W"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:missfortune:w:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Riot summarizes the passive condition as not being attacked; Wiki specifies non-periodic damage. The answer explains periodic damage as repeated damage over time.",
+        "Wiki also states that zero-damage instances do not remove the movement speed bonus."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Miss Fortune gains bonus movement speed after 4 seconds without taking non- periodic damage. This bonus is increased after another 3 seconds, and is granted instantly whenever Strut is cast.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "The bonus movement speed is not lost from taking 0 damage instances.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "The passive movement bonus builds in stages; the detailed description specifies non-periodic damage, and zero-damage instances do not remove it."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Miss Fortune passively gains Move Speed when not attacked.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Miss Fortune gains bonus movement speed after 4 seconds without taking non- periodic damage.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.passive_movement_speed",
+            "summary": "Passively gains movement speed after avoiding qualifying damage for a time."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This ability can be activated to grant bonus Attack Speed for a short duration.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Active: Miss Fortune gains bonus attack speed for 4 seconds.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.active_attack_speed",
+            "summary": "Activation temporarily grants bonus attack speed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This bonus is increased after another few seconds, and is granted instantly whenever Strut is cast.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.instant_movement_bonus",
+            "summary": "Casting Strut instantly grants its increased movement speed bonus."
+          },
+          {
+            "citations": [
+              {
+                "quote": "While it's on cooldown, Love Taps reduce the remaining cooldown of Strut.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Marking a new target with Love Tap reduces Strut's current cooldown by 2 seconds.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.love_tap_cooldown",
+            "summary": "Love Tap triggers reduce Strut's remaining cooldown."
+          }
+        ],
+        "slot": "W",
+        "unsupported_claims": [
+          "Every basic attack reduces Strut's cooldown regardless of Love Tap.",
+          "Every damage instance removes the movement speed bonus."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Her movement and attack-speed bonuses affect positioning and trades, while Love Tap helps her reuse Strut."
+      },
+      "slot": "W",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Make It Rain creates a temporary bullet storm at a chosen location, repeatedly dealing magic damage and slowing enemies inside.",
+            "covered": true,
+            "mechanic_id": "E.area_damage",
+            "reason": "Explains placement, temporary duration, repeated damage and damage type."
+          },
+          {
+            "answer_quote": "Make It Rain creates a temporary bullet storm at a chosen location, repeatedly dealing magic damage and slowing enemies inside.",
+            "covered": true,
+            "mechanic_id": "E.slow",
+            "reason": "Explicitly identifies the slow on enemies inside."
+          },
+          {
+            "answer_quote": "It also grants sight of the area.",
+            "covered": true,
+            "mechanic_id": "E.area_vision",
+            "reason": "States area sight without claiming invisible-enemy detection."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "E"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:missfortune:e:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Area sight does not establish true sight or detection of invisible enemies.",
+        "Wiki states that the slow cannot be cleansed and spell shields do not block the ability; these advanced interactions are omitted from the beginner explanation."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Make It Rain's slow cannot be cleansed.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The Wiki explicitly states that the slow cannot be cleansed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Counters\nSpell shield\nNot Blocked",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Spell shields do not block Make It Rain."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Miss Fortune casts a storm of bullets at the target location for a short time, which continually deals magic damage and slows enemies within.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "dealing waves of damage to opponents and slowing them.",
+                "source_id": "riot:E"
+              }
+            ],
+            "id": "E.area_damage",
+            "summary": "Creates a temporary area at a chosen location that repeatedly deals magic damage to enemies inside."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Miss Fortune casts a storm of bullets at the target location for a short time, which continually deals magic damage and slows enemies within.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "dealing waves of damage to opponents and slowing them.",
+                "source_id": "riot:E"
+              }
+            ],
+            "id": "E.slow",
+            "summary": "Slows enemies within the area."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Miss Fortune reveals an area with a flurry of bullets",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "granting sight of the area",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.area_vision",
+            "summary": "Grants sight of the affected area."
+          }
+        ],
+        "slot": "E",
+        "unsupported_claims": [
+          "The area grants true sight or reveals invisible enemies.",
+          "The slow persists for a specified duration after an enemy leaves the area."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The area slow restricts movement and makes escaping follow-up damage harder."
+      },
+      "slot": "E",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Bullet Time channels repeated waves of bullets into a cone in front of Miss Fortune, dealing physical damage.",
+            "covered": true,
+            "mechanic_id": "R.channeled_cone_damage",
+            "reason": "Explains channeling, repeated waves, cone direction and physical damage."
+          },
+          {
+            "answer_quote": "Each wave can critically strike.",
+            "covered": true,
+            "mechanic_id": "R.wave_critical_strikes",
+            "reason": "Explicitly states critical-strike capability per wave."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "R"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:missfortune:r:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Wiki's precise unseen-location reveal conditions and geometry are pending testing and excluded.",
+        "Flash interactions depend on cast-time versus channel timing; advanced redirection and cancellation details are omitted.",
+        "A target cannot take damage from multiple projectiles within the same wave. Spell shields do not block the barrage; projectile blocking and channel interruption are distinct interactions."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Targets cannot be damaged by more than one projectile per wave.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "An individual target can take damage from only one projectile in each wave."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The damage dealt by each wave of Bullet Time is calculated when the wave reaches the target.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Each wave's damage is calculated on arrival."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Counters\nSpell shield\nNot Blocked\nProjectile\nBlocked\nDisruption\nInterrupted",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Attacking\nInterrupts\nAbilities\nInterrupts\nMovement\nInterrupts",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Interrupted by\nDeath\nCast-inhibiting effects",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Spell shields do not block Bullet Time, projectile blocking can block it, and attacking, moving, casting abilities, death or cast-inhibiting effects interrupt its channel."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Miss Fortune is allowed to cast Flash during this cast time. As Flash changes the user's facing direction, this will cause Bullet Time to fire in the new facing direction.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Casting Flash before the cast time will not affect the cast direction (Bullet Time will correctly fire towards the targeted location on the ground).",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Interrupted by\nFlash Teleport Recall Hexflash",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Flash during the brief cast time can redirect the barrage; Flash before the cast does not change its targeted direction, while Flash during the channel interrupts it."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Miss Fortune may cancel the last ~0.1 seconds of channel time at no loss of effect.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "The final approximately 0.1 seconds of channeling can be canceled without losing a wave."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Miss Fortune reveals a 200-radius area around herself for 2.0 seconds to the enemy team if she fires from an unseen location and there is one of their units within the target cone of PENDING FOR TEST: 1400 units radius and 17° cone",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "uncertain",
+            "summary": "The precise conditions and geometry for revealing Miss Fortune when firing from an unseen location are pending testing and are not established learning content."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Miss Fortune channels a barrage of bullets into a cone in front of her, dealing large amounts of damage to enemies.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Miss Fortune channels for a short time, firing several waves of bullets in the target direction that deal physical damage to enemies hit.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.channeled_cone_damage",
+            "summary": "Channels repeated waves of physical damage into a cone in the targeted direction."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Each wave of Bullet Time can critically strike",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Each wave can critically strike.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.wave_critical_strikes",
+            "summary": "Each wave can critically strike."
+          }
+        ],
+        "slot": "R",
+        "unsupported_claims": [
+          "Multiple projectiles from one wave can all damage the same target.",
+          "Bullet Time grants damage reduction or protection while channeling.",
+          "The pending-test reveal radii and angles are verified mechanics."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The sustained cone threatens heavy damage to several enemies at once."
+      },
+      "slot": "R",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Track availability of her major channeled area-damage threat.",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Track availability of the area slow that restricts enemy movement.",
+      "slot": "E",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Her attack-speed boost affects trades, and Love Tap reduces its remaining cooldown.",
+      "slot": "W",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "The Riot champion page returned HTTP 404; supplied Riot evidence comes from pinned Data Dragon excerpts.",
+    "Data Dragon version numbering does not establish a game patch label.",
+    "The tentative passive visual proposal remains in metadata only; supplied clip frames do not establish current-client or skin-specific appearance.",
+    "Wiki excerpts include Arena differences, skin material and pending-test notes; these are excluded from the learning answers.",
+    "The overview's AD focus and counterplay recommendations are teaching inferences grounded in the supplied mechanics.",
+    "All frozen core mechanics are retained. Advanced exceptions are scoped in metadata without turning general behavior into universal rules.",
+    "The validation error 'Unknown verifier source' remains unresolved; this content check does not establish verifier provenance.",
+    "Pinned Data Dragon excerpts and the supplied Wiki revision do not establish current-client accuracy or a game patch label; the Riot champion page was unavailable.",
+    "Bullet Time's precise unseen-location reveal conditions remain pending testing in the supplied source and require QA before use.",
+    "The passive visual cue remains unverified and appropriately excluded from card-facing text.",
+    "The overview's AD focus is a supported teaching inference from physical damage and AD scaling, not evidence of an optimal build.",
+    "This review provides AI support checking only; it does not constitute human approval or visual verification."
+  ],
+  "findings": [
+    {
+      "code": "source_unavailable",
+      "message": "HTTP Error 404: Not Found",
+      "url": "https://www.leagueoflegends.com/en-us/champions/miss-fortune/"
+    }
+  ],
+  "generation": {
+    "author": {
+      "attempts": 2,
+      "configured_model": "",
+      "execution_attempts": 2,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 29415,
+            "output_tokens": 3008,
+            "reasoning_output_tokens": 54
+          }
+        ]
+      },
+      "output_sha256": "2934e8fa54cb90611b5435a1722943ede538ff22687a23fd7bb0773a9e2b3927",
+      "prior_errors": [
+        "Numeric claim lacks a matching number in cited quotes"
+      ],
+      "provider": "codex",
+      "request_sha256": "6e870bc6d60681a353a51eb06ccda64ba894379c51a25de2d03cdec6998cfc31"
+    },
+    "mechanics": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 20433,
+            "output_tokens": 3414,
+            "reasoning_output_tokens": 0
+          }
+        ]
+      },
+      "output_sha256": "751ec3278253b9cbf00d1033de8cdba71a0662e712fc8f92d67f9ac7100f84aa",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "3b5a1578676f723a25830afb7695d4bcf10a5ba4160a9007fb764815dd35b20e"
+    },
+    "passes": [
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 25549,
+                "output_tokens": 2964,
+                "reasoning_output_tokens": 33
+              }
+            ]
+          },
+          "output_sha256": "9857ae80a4216bc12157c898e26a2ffbcbbb825f16e25bd2cfc01379c14254d6",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "dd2cc56fe84f362ec23b6536861f5736defbe6f2770d656951da0244d24927a1"
+        },
+        "pass": 1,
+        "support_issues": 3,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 27382,
+                "output_tokens": 1665,
+                "reasoning_output_tokens": 56
+              }
+            ]
+          },
+          "output_sha256": "829a4b5e47d82656ef5bff292251c2207391ae559540755f9cbccf412342a7e5",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "8418c72c298385c1837fc9ea0f857cda5d23aa4a276fc66e33ddcc165806deba"
+        }
+      },
+      {
+        "author": {
+          "attempts": 2,
+          "configured_model": "",
+          "execution_attempts": 2,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 29415,
+                "output_tokens": 3008,
+                "reasoning_output_tokens": 54
+              }
+            ]
+          },
+          "output_sha256": "2934e8fa54cb90611b5435a1722943ede538ff22687a23fd7bb0773a9e2b3927",
+          "prior_errors": [
+            "Numeric claim lacks a matching number in cited quotes"
+          ],
+          "provider": "codex",
+          "request_sha256": "6e870bc6d60681a353a51eb06ccda64ba894379c51a25de2d03cdec6998cfc31"
+        },
+        "pass": 2,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 2,
+          "configured_model": "",
+          "execution_attempts": 2,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 27417,
+                "output_tokens": 1505,
+                "reasoning_output_tokens": 49
+              }
+            ]
+          },
+          "output_sha256": "d488536cf0de256d69a30e4c8335030f4177460d52d5f4b1efa57017b77fa984",
+          "prior_errors": [
+            "Unknown verifier source"
+          ],
+          "provider": "codex",
+          "request_sha256": "deb0e5a2992702b800b8dd81ed8e879993f549183f8887387bc2e392dd50c462"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "b3f5cef69f553df08c269a374879039678169f0622602d2688e3813ebb5cae6c",
+    "verifier": {
+      "attempts": 2,
+      "configured_model": "",
+      "execution_attempts": 2,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 27417,
+            "output_tokens": 1505,
+            "reasoning_output_tokens": 49
+          }
+        ]
+      },
+      "output_sha256": "d488536cf0de256d69a30e4c8335030f4177460d52d5f4b1efa57017b77fa984",
+      "prior_errors": [
+        "Unknown verifier source"
+      ],
+      "provider": "codex",
+      "request_sha256": "deb0e5a2992702b800b8dd81ed8e879993f549183f8887387bc2e392dd50c462"
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:missfortune:e:recognize:L2": {
+      "cid": 2596325826767,
+      "guid": "cf3d6d18136ca0",
+      "nid": 2096325826767
+    },
+    "champ:missfortune:overview:L1": {
+      "cid": 2441215144797,
+      "guid": "62c7ba1d440c6f",
+      "nid": 1941215144797
+    },
+    "champ:missfortune:p:recognize:L2": {
+      "cid": 2431526735007,
+      "guid": "88fa788e21aefa",
+      "nid": 1931526735007
+    },
+    "champ:missfortune:q:recognize:L2": {
+      "cid": 2411107286570,
+      "guid": "08c4a163953353",
+      "nid": 1911107286570
+    },
+    "champ:missfortune:r:recognize:L2": {
+      "cid": 2478162035805,
+      "guid": "8c19cb9d14680c",
+      "nid": 1978162035805
+    },
+    "champ:missfortune:w:recognize:L2": {
+      "cid": 2597004224344,
+      "guid": "32e87ce0d6c5f4",
+      "nid": 2097004224344
+    }
+  },
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "Exact-quote matching does not prove semantic truth.",
+    "AI verification is fallible and is not a human content or visual review."
+  ],
+  "media_references": [
+    "missfortune_e.gif",
+    "missfortune_e_icon.png",
+    "missfortune_p_icon.png",
+    "missfortune_portrait.jpg",
+    "missfortune_q.gif",
+    "missfortune_q_icon.png",
+    "missfortune_r.gif",
+    "missfortune_r_icon.png",
+    "missfortune_w.gif",
+    "missfortune_w_icon.png"
+  ],
+  "new_cards": 6,
+  "passive_frame_evidence": [
+    {
+      "path": "visual-inputs/passive-1.png",
+      "sha256": "ef128dbf80c89bbaed627e1df4b6c3f4d67d64d262b919a2a3adfd5adfec5f8b",
+      "source_sha256": "da10ede54982377a8c8b254e9762f629175fd42f80ec19ca28fdcc0138c03d7c",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0021/ability_0021_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 1.575
+    },
+    {
+      "path": "visual-inputs/passive-2.png",
+      "sha256": "f8bb02cc5684d0a22733f4ba2401394cea3a27604fd2457d8db57dceaf737b11",
+      "source_sha256": "da10ede54982377a8c8b254e9762f629175fd42f80ec19ca28fdcc0138c03d7c",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0021/ability_0021_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 4.2
+    },
+    {
+      "path": "visual-inputs/passive-3.png",
+      "sha256": "b411ad88077a030944a8f8baf508962de9794e42f9f577a3540c65637bfcea2f",
+      "source_sha256": "da10ede54982377a8c8b254e9762f629175fd42f80ec19ca28fdcc0138c03d7c",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0021/ability_0021_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 6.825
+    },
+    {
+      "path": "visual-inputs/passive-4.png",
+      "sha256": "fa02602abdb9e242c9c08438832cfaf4ab176b9f8d5b59f80f23633694fa927f",
+      "source_sha256": "da10ede54982377a8c8b254e9762f629175fd42f80ec19ca28fdcc0138c03d7c",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0021/ability_0021_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 9.45
+    }
+  ],
+  "publishable": false,
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "resolution": "Use Wiki's more specific damage condition, explained as excluding repeated damage over time. Retain its zero-damage exception in metadata.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "Strut's passive movement-speed condition"
+    },
+    {
+      "resolution": "Use Wiki's detailed non-periodic-damage condition to qualify Riot's broad 'not attacked' summary. Retain the zero-damage exception in metadata; its omission does not make this beginner explanation misleading.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "Strut movement-speed damage condition"
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4036014"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

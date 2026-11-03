@@ -1,0 +1,334 @@
+{
+  "cards": [
+    {
+      "answer": "Aatrox is a fighter who deals physical damage with repeated sword strikes and heals while damaging enemy champions. His broad learning focus is attack damage and sustained fighting.",
+      "build_focus": "AD",
+      "counterplay": "Avoid his sword strikes and limit the damage he can deal to your team.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Aatrox. Official role tags: Fighter.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Passively, Aatrox heals when damaging enemy champions.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "Aatrox is a fighter who deals physical damage with repeated sword strikes and heals while damaging enemy champions."
+        },
+        {
+          "citations": [
+            {
+              "quote": "During World Ender, Aatrox gains bonus attack damage, has 5% increased size, is ghosted, and receives increased self-healing from all sources.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Passively, Aatrox heals when damaging enemy champions.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "His broad learning focus is attack damage and sustained fighting."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Recognizing his physical damage and combat healing explains his sustained fighting role.",
+      "slot": "-",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The learning focus is a qualitative teaching synthesis, not an optimal item build."
+      ]
+    },
+    {
+      "answer": "Periodically, Aatrox's next basic attack deals bonus magic damage based on the target's maximum health and heals him for the bonus damage dealt.",
+      "build_focus": "",
+      "counterplay": "Avoid giving him a free empowered attack when trading.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Periodically, Aatrox's next basic attack deals bonus magic damage and heals him, based on the target's max health.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Innate: Periodically, Aatrox's next basic attack deals bonus magic damage based on the target's maximum health, healing him for the damage dealt.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Periodically, Aatrox's next basic attack deals bonus magic damage based on the target's maximum health and heals him for the bonus damage dealt."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "Aatrox thrusts his sword forward for the empowered attack.",
+        "meaningful": true,
+        "source_ids": [
+          "riot:P",
+          "wiki:P"
+        ]
+      },
+      "priority": "B",
+      "priority_reason": "The empowered attack adds damage and healing to short trades.",
+      "slot": "P",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The thrust cue is a tentative proposal from the supplied official-clip frames, not current-client visual verification; the text excerpts do not describe the thrust.",
+        "Healing uses bonus damage actually dealt and is reduced against minions.",
+        "Eligible attacks and ability hits reduce passive cooldown; Q sweetspots reduce it further.",
+        "Structures and wards do not trigger empowerment, and dodged, blocked or missed attacks do not apply its bonus damage.",
+        "Readiness during an ordinary attack's windup and spell-shield interactions have additional timing exceptions."
+      ]
+    },
+    {
+      "answer": "Aatrox can make up to three sword strikes that deal physical damage in different areas, with damage increasing on successive casts. Each strike has a sweetspot that deals extra damage and briefly knocks enemies up.",
+      "build_focus": "",
+      "counterplay": "Dodge the strike areas, especially their sweetspots. Watch for further swings after the first strike.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "The area varies and the damage increases per cast.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Aatrox can make up to three sword strikes that deal physical damage in different areas, with damage increasing on successive casts."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Enemies within each area's Sweetspot receive increased damage and are briefly knocked up.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Each strike has a sweetspot that deals extra damage and briefly knocks enemies up."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Repeated sweetspot hits combine increased damage with crowd control.",
+      "slot": "Q",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Sweetspots have specific overlap and center-based hitbox requirements.",
+        "The first two sweetspots are at the far edge; the third is inside the circular strike.",
+        "Recasts have a limited window, and E can reposition the strike during its cast."
+      ]
+    },
+    {
+      "answer": "Aatrox fires a directional chain that deals physical damage and slows the first enemy hit. A champion or large monster hit must leave the tether area quickly or be pulled toward its center and take damage again.",
+      "build_focus": "",
+      "counterplay": "Dodge the chain. If it hits you, leave the tether area promptly to avoid the pull and second damage.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aatrox sends a chain in the target direction that deals physical damage and slows the first enemy hit.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Aatrox fires a directional chain that deals physical damage and slows the first enemy hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "If the tether is not broken by the end of its duration, the target is dealt the same physical damage again and pulled to the center of the area.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "A champion or large monster hit must leave the tether area quickly or be pulled toward its center and take damage again."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The slow and delayed pull can restrict escape and set up further strikes.",
+      "slot": "W",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The tether reveals affected champions and large monsters.",
+        "A spell shield blocks initial application but not an already-applied chain's aftereffects.",
+        "Area orientation and the precise pull location depend on Aatrox's position."
+      ]
+    },
+    {
+      "answer": "Aatrox passively heals for a portion of the non-persistent damage he deals to enemy champions, after damage reduction. Activating this ability dashes him in the chosen direction.",
+      "build_focus": "",
+      "counterplay": "Account for his dash when avoiding sword strikes. Limit the damage he lands on champions to limit his healing.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Passively, Aatrox heals when damaging enemy champions.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Passive: Aatrox heals for 16% (+ 1.3% per 100 bonus health) of non- persistent post-mitigation damage he deals against enemy champions.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Aatrox passively heals for a portion of the non-persistent damage he deals to enemy champions, after damage reduction."
+        },
+        {
+          "citations": [
+            {
+              "quote": "On activation, he dashes in a direction.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Active: Aatrox dashes in the target direction.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Activating this ability dashes him in the chosen direction."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The dash changes his positioning, while passive healing supports continued fighting.",
+      "slot": "E",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The dash resets his basic attack timer and can overlap other abilities without cancelling them.",
+        "Terrain can extend the dash within limits; it does not cross every wall.",
+        "The model-darkening note describes a remnant visual, not a current attack damage buff."
+      ]
+    },
+    {
+      "answer": "Aatrox temporarily transforms, gaining attack damage, movement speed and increased self-healing. Activation fears nearby enemy minions. Champion takedowns extend the form's duration.",
+      "build_focus": "",
+      "counterplay": "Create distance during his empowered form and avoid giving him takedowns that prolong it.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Active: Aatrox unleashes his true form for a period, gaining a burst of move speed. During this time, Aatrox has increased attack damage, self-healing, and is ghosted.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Aatrox temporarily transforms, gaining attack damage, movement speed and increased self-healing."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Aatrox unleashes his demonic form, fearing nearby enemy minions",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "Activation fears nearby enemy minions."
+        },
+        {
+          "citations": [
+            {
+              "quote": "These effects are refreshed and the duration is extended whenever Aatrox scores a champion takedown.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "If he gets a takedown, this effect is extended.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "Champion takedowns extend the form's duration."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Increased damage, speed and healing create a major threat that takedowns can prolong.",
+      "slot": "R",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The form also grants ghosting and increased size; activation fear also affects monsters.",
+        "Movement speed decays, and champion takedowns refresh effects while extending duration subject to a cap.",
+        "Resurrection interactions do not mean this ability grants resurrection.",
+        "The supplied excerpt includes unrelated skin material and map-specific differences, excluded from the explanation."
+      ]
+    }
+  ],
+  "champion_id": 266,
+  "champion_name": "Aatrox",
+  "conflicts": [],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Track availability of the repeated strikes and their knockups, including the recast window.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Track availability of the chain's slow and delayed pull.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Track dash availability because it changes positioning during other abilities.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Track availability of the empowered form because it increases fighting threat.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "Evidence is pinned to supplied Data Dragon and Wiki versions; no live patch equivalence is established.",
+    "The passive visual cue is tentative clip-based interpretation, not current-client or skin-specific verification.",
+    "Counterplay and priority reasons are inferred teaching guidance grounded in the supplied mechanics.",
+    "Detailed timing, hitbox, terrain and resurrection interactions remain outside the beginner explanations.",
+    "No unresolved source contradiction was identified in the frozen core mechanics."
+  ],
+  "language": "en"
+}

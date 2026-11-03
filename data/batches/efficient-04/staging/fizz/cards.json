@@ -1,0 +1,915 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:105",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Fizz. Official role tags: Assassin, Fighter.",
+                "source_id": "riot:role"
+              }
+            ],
+            "claim": "Fizz is an assassin and fighter"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Magic Damage:80 / 130 / 180 / 230 / 280 (+ 95% AP)",
+                "source_id": "wiki:playful"
+              }
+            ],
+            "claim": "with AP-scaling magic damage"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Fizz dashes through his target, dealing magic damage and applying on hit effects.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Fizz can empower his next attack to deal bonus damage and empower his further attacks for a short time.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Fizz hops into the air, landing gracefully upon his spear and becoming untargetable.",
+                "source_id": "riot:E"
+              }
+            ],
+            "claim": "He dashes through enemies, empowers attacks and becomes untargetable with his spear hop"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After a short delay, a shark erupts from the ground, knocking up the target and knocking any nearby enemies aside. All enemies hit are dealt magic damage and slowed.",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "his shark delays an area burst and displacement"
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892616",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz"
+      },
+      "id": "champ:fizz:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Recognize his approach, untargetability and delayed shark threat."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:fizz:overview:L1",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Fizz. Official role tags: Assassin, Fighter.",
+                "source_id": "riot:role"
+              }
+            ],
+            "id": "d63948359a2c3aac095e9e25",
+            "summary": "Assassin and fighter."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Fizz hops into the air, landing gracefully upon his spear and becoming untargetable.",
+                "source_id": "riot:E"
+              }
+            ],
+            "id": "8a2993c008a3aa64fc2da4f7",
+            "summary": "His spear hop makes him untargetable."
+          },
+          {
+            "citations": [
+              {
+                "quote": "After a short delay, a shark erupts from the ground, knocking up the target and knocking any nearby enemies aside.",
+                "source_id": "riot:R"
+              }
+            ],
+            "id": "93908023f15dd406b51a831c",
+            "summary": "His shark causes delayed displacement."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Fizz's fighting pattern and main defensive timing.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "riot:Q",
+          "riot:W",
+          "riot:E",
+          "riot:R",
+          "wiki:playful"
+        ],
+        "subject_id": "riot:role",
+        "title": "Fizz",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Assassin / Fighter",
+        "answer": "Fizz is an assassin and fighter with AP-scaling magic damage. He dashes through enemies, empowers attacks and becomes untargetable with his spear hop; his shark delays an area burst and displacement.",
+        "build_focus": "AP",
+        "category": "Champion",
+        "champion": "Fizz",
+        "cooldown": "",
+        "counterplay": "Avoid the lure, spread away from its holder and save key attacks for after his spear hop.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/f0b256009653bb1f1cecd596b15019d79320c9f1556dbe3d671429d473fcd21a.jpg",
+        "id": "champ:fizz:overview:L1",
+        "level": "L1",
+        "media_path": "media/f0b256009653bb1f1cecd596b15019d79320c9f1556dbe3d671429d473fcd21a.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Fizz",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:105",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Fizz can move through units",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "Fizz can move through units"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "takes slightly reduced damage from all hits.",
+                "source_id": "wiki:nimblefighter"
+              }
+            ],
+            "claim": "takes slightly reduced damage from every hit"
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892616",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz"
+      },
+      "id": "champ:fizz:p:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Explains his movement through crowded fights and passive durability."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The damage reduction is increased to 14 (+ 1% AP) against monsters.",
+                "source_id": "wiki:nimblefighter"
+              }
+            ],
+            "status": "supported",
+            "summary": "Damage reduction is increased against monsters."
+          }
+        ],
+        "card_id": "champ:fizz:p:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Fizz can move through units",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "496790df0604ded37350cfe9",
+            "summary": "Can move through units."
+          },
+          {
+            "citations": [
+              {
+                "quote": "takes slightly reduced damage from all hits.",
+                "source_id": "wiki:nimblefighter"
+              }
+            ],
+            "id": "ac499c9301111448c8cc8c1b",
+            "summary": "Takes slightly reduced damage from all hits."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize passive movement freedom and damage reduction.",
+        "slot": "P",
+        "source_ids": [
+          "riot:P",
+          "wiki:nimblefighter"
+        ],
+        "subject_id": "wiki:nimblefighter",
+        "title": "Nimble Fighter",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Nimble Fighter",
+        "answer": "Fizz can move through units and takes slightly reduced damage from every hit.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Fizz",
+        "cooldown": "",
+        "counterplay": "Do not rely on units to obstruct his movement.",
+        "front_hint": "FIZZ · P",
+        "icon_path": "media/47fa7c54aa3c1fbaee25c7f3a235342e71f4e5b9d5751ea8a801c192f9cb81da.png",
+        "id": "champ:fizz:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/47fa7c54aa3c1fbaee25c7f3a235342e71f4e5b9d5751ea8a801c192f9cb81da.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Fizz",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:105",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Fizz dashes a fixed distance in the direction of the target enemy.",
+                "source_id": "wiki:urchinstrike"
+              }
+            ],
+            "claim": "Fizz dashes a fixed distance toward a target enemy."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If they are in range upon arrival, he deals magic damage plus 100% AD physical damage and applies on-hit effects.",
+                "source_id": "wiki:urchinstrike"
+              }
+            ],
+            "claim": "If the target is in range when he arrives, he deals magic and physical damage and applies on-hit effects."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892616",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz"
+      },
+      "id": "champ:fizz:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "His targeted approach delivers damage and on-hit effects."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Urchin Strike can only go through walls if the target is on the other side.",
+                "source_id": "wiki:urchinstrike"
+              }
+            ],
+            "status": "supported",
+            "summary": "Crossing a wall requires the target to be on the other side."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Seastone Trident and Chum the Waters can be cast during the dash.",
+                "source_id": "wiki:urchinstrike"
+              }
+            ],
+            "status": "supported",
+            "summary": "W and R can be cast during the dash."
+          }
+        ],
+        "card_id": "champ:fizz:q:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Fizz dashes a fixed distance in the direction of the target enemy.",
+                "source_id": "wiki:urchinstrike"
+              }
+            ],
+            "id": "a9ed46d980c1749a10238eee",
+            "summary": "Fixed-distance dash toward a target enemy."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If they are in range upon arrival, he deals magic damage plus 100% AD physical damage and applies on-hit effects.",
+                "source_id": "wiki:urchinstrike"
+              }
+            ],
+            "id": "9f241351e30a7b2075cc54ac",
+            "summary": "Deals mixed damage and applies on-hit effects if the target is in range on arrival."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the targeted dash and its attack-effect delivery.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:urchinstrike",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:urchinstrike",
+        "title": "Urchin Strike",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Urchin Strike",
+        "answer": "Fizz dashes a fixed distance toward a target enemy. If the target is in range when he arrives, he deals magic and physical damage and applies on-hit effects.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Fizz",
+        "cooldown": "",
+        "counterplay": "Respect his targeted approach and the empowered attack effects it can deliver.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/a56936bfe3ff0b22800620af4a7d85bbe14e7900a295a1f3ba39aad9c4e3a6e7.png",
+        "id": "champ:fizz:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/56e0b0ec6eb1e890237f693af0d6f9cd2ba892660467272b01ea6995e0a59220.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Fizz",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:105",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Fizz's basic attacks rend enemies on-hit, dealing magic damage every 0.5 seconds over 3 seconds, refreshing on subsequent hits.",
+                "source_id": "wiki:seastonetrident"
+              }
+            ],
+            "claim": "Fizz's attacks apply a refreshing magic-damage bleed."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Fizz empowers his next basic attack to deal bonus magic damage",
+                "source_id": "wiki:seastonetrident"
+              },
+              {
+                "quote": "Seastone Trident resets Fizz's basic attack timer.",
+                "source_id": "wiki:seastonetrident"
+              }
+            ],
+            "claim": "W empowers his next attack with bonus magic damage and resets his attack timer."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If this attack kills the target, the cooldown is reduced and the mana cost is refunded.",
+                "source_id": "wiki:seastonetrident"
+              },
+              {
+                "quote": "If this attack does not kill the target, Fizz's basic attacks deal bonus magic damage for a few seconds.",
+                "source_id": "wiki:seastonetrident"
+              }
+            ],
+            "claim": "A kill reduces its cooldown and refunds mana; otherwise, his subsequent attacks briefly deal bonus magic damage."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892616",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz"
+      },
+      "id": "champ:fizz:w:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Explains his attack burst, sustained follow-up and kill-based reuse."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:fizz:w:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Fizz's basic attacks rend enemies on-hit, dealing magic damage every 0.5 seconds over 3 seconds, refreshing on subsequent hits.",
+                "source_id": "wiki:seastonetrident"
+              }
+            ],
+            "id": "ed853e68769d4f3188494a71",
+            "summary": "Attacks apply a refreshing magic-damage bleed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Fizz empowers his next basic attack to deal bonus magic damage",
+                "source_id": "wiki:seastonetrident"
+              },
+              {
+                "quote": "Seastone Trident resets Fizz's basic attack timer.",
+                "source_id": "wiki:seastonetrident"
+              }
+            ],
+            "id": "e73ac100b44657e40de0b317",
+            "summary": "Empowers the next attack and resets the attack timer."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If this attack kills the target, the cooldown is reduced and the mana cost is refunded.",
+                "source_id": "wiki:seastonetrident"
+              }
+            ],
+            "id": "4259b4c9bc4a0186afcf15b6",
+            "summary": "An empowered attack kill reduces cooldown and refunds mana."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If this attack does not kill the target, Fizz's basic attacks deal bonus magic damage for a few seconds.",
+                "source_id": "wiki:seastonetrident"
+              }
+            ],
+            "id": "5e0ca3266729be6aac7effcd",
+            "summary": "Without a kill, subsequent attacks briefly gain bonus magic damage."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize empowered attacks, bleed and conditional follow-up.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:seastonetrident",
+          "riot:W"
+        ],
+        "subject_id": "wiki:seastonetrident",
+        "title": "Seastone Trident",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Seastone Trident",
+        "answer": "Fizz's attacks apply a refreshing magic-damage bleed. W empowers his next attack with bonus magic damage and resets his attack timer. A kill reduces its cooldown and refunds mana; otherwise, his subsequent attacks briefly deal bonus magic damage.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Fizz",
+        "cooldown": "",
+        "counterplay": "Limit repeated attacks during his empowered window and respect his faster reuse after a kill.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/f6a8322a2566d97c9c335b969c35aca59a0fb44b662f662f445e8b2d626f3d69.png",
+        "id": "champ:fizz:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/55dff0e2a4457598e6816297653eec54a55c2868398bf57eca4e04677ead6e48.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Fizz",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:105",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Fizz vaults in the target direction and balances onto his spear, becoming untargetable.",
+                "source_id": "wiki:playful"
+              }
+            ],
+            "claim": "Fizz vaults onto his spear and becomes untargetable."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Slamming the ground deals magic damage and slows nearby enemies.",
+                "source_id": "wiki:playful"
+              }
+            ],
+            "claim": "His normal landing deals nearby magic damage and slows enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Fizz dashes to the target location, hopping down and splashing onto the ground prematurely upon arrival to deal the same magic damage in a smaller radius but not applying the slow.",
+                "source_id": "wiki:trickster"
+              }
+            ],
+            "claim": "Recasting as Trickster makes him dash again and land early, dealing the same damage in a smaller area without the slow."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892616",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz"
+      },
+      "id": "champ:fizz:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Untargetability and alternative landings strongly affect attack timing and spacing."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Both Playful's and Trickster's dashes may be directed separately.",
+                "source_id": "wiki:trickster"
+              }
+            ],
+            "status": "supported",
+            "summary": "The dashes can be directed separately."
+          }
+        ],
+        "card_id": "champ:fizz:e:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Fizz vaults in the target direction and balances onto his spear, becoming untargetable.",
+                "source_id": "wiki:playful"
+              }
+            ],
+            "id": "fa62b76538af15a14c997e57",
+            "summary": "Vaults onto his spear and becomes untargetable."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Slamming the ground deals magic damage and slows nearby enemies.",
+                "source_id": "wiki:playful"
+              }
+            ],
+            "id": "d96ed93077127b69501dee51",
+            "summary": "Normal landing deals area magic damage and slows."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Fizz dashes to the target location, hopping down and splashing onto the ground prematurely upon arrival to deal the same magic damage in a smaller radius but not applying the slow.",
+                "source_id": "wiki:trickster"
+              }
+            ],
+            "id": "d3c6832420fefeee5e4bfdea",
+            "summary": "Trickster adds a dash and an early, smaller landing without a slow."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize untargetability and distinguish normal landing from the recast.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:playful",
+          "wiki:trickster",
+          "riot:E"
+        ],
+        "subject_id": "wiki:playful",
+        "title": "Playful / Trickster",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Playful",
+        "answer": "Fizz vaults onto his spear and becomes untargetable. His normal landing deals nearby magic damage and slows enemies. Recasting as Trickster makes him dash again and land early, dealing the same damage in a smaller area without the slow.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Fizz",
+        "cooldown": "",
+        "counterplay": "Hold key attacks until he becomes targetable and move away from his landing area.",
+        "front_hint": "FIZZ · E",
+        "icon_path": "media/ed65b73d811d9afcef9f3b9be33fbbde60809169400f090b856e7fa83e48eccd.png",
+        "id": "champ:fizz:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/ed65b73d811d9afcef9f3b9be33fbbde60809169400f090b856e7fa83e48eccd.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Fizz",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:105",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The lure attaches to the first enemy champion that touches it, slowing them.",
+                "source_id": "wiki:chumthewaters"
+              },
+              {
+                "quote": "The lure's holder is slowed and revealed for the duration",
+                "source_id": "wiki:chumthewaters"
+              }
+            ],
+            "claim": "Fizz throws a lure that attaches to the first enemy champion it touches, slowing and revealing them."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After a short delay, a shark erupts from the ground, knocking up the target and knocking any nearby enemies aside. All enemies hit are dealt magic damage and slowed.",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "After a delay, a shark deals area magic damage and slows, knocking the holder up and nearby enemies back."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The further the lure travels in its initial flight, the larger the shark that is attracted; increasing Chum the Waters' damage, slow, eruption radius and knock back distance.",
+                "source_id": "wiki:chumthewaters"
+              }
+            ],
+            "claim": "A longer initial lure flight increases damage, slow strength, eruption area and knockback distance."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892616",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz"
+      },
+      "id": "champ:fizz:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Recognize the delayed threat to its holder and surrounding teammates."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Chum the Waters will not attach the lure to an enemy champion if they have a spell shield",
+                "source_id": "wiki:chumthewaters"
+              },
+              {
+                "quote": "The area of effect for the eruption will be at the target's location at the time of the attachment being blocked",
+                "source_id": "wiki:chumthewaters"
+              }
+            ],
+            "status": "supported",
+            "summary": "A spell shield blocks attachment, but an eruption area still forms at the interception location."
+          }
+        ],
+        "card_id": "champ:fizz:r:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "The lure attaches to the first enemy champion that touches it, slowing them.",
+                "source_id": "wiki:chumthewaters"
+              },
+              {
+                "quote": "The lure's holder is slowed and revealed for the duration",
+                "source_id": "wiki:chumthewaters"
+              }
+            ],
+            "id": "eb07b8f98809dd9b5cffc69d",
+            "summary": "Lure attachment slows and reveals its holder."
+          },
+          {
+            "citations": [
+              {
+                "quote": "After a short delay, a shark erupts from the ground, knocking up the target and knocking any nearby enemies aside. All enemies hit are dealt magic damage and slowed.",
+                "source_id": "riot:R"
+              }
+            ],
+            "id": "82ac034f1afc9a6747429eba",
+            "summary": "Delayed eruption damages and slows, knocking the holder up and nearby enemies aside."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The further the lure travels in its initial flight, the larger the shark that is attracted; increasing Chum the Waters' damage, slow, eruption radius and knock back distance.",
+                "source_id": "wiki:chumthewaters"
+              }
+            ],
+            "id": "7611c6fe1390005c60d0a432",
+            "summary": "Longer initial flight strengthens the eruption and enlarges its area."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize lure attachment, delayed eruption and distance-based threat.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:chumthewaters",
+          "riot:R"
+        ],
+        "subject_id": "wiki:chumthewaters",
+        "title": "Chum the Waters",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Chum the Waters",
+        "answer": "Fizz throws a lure that attaches to the first enemy champion it touches, slowing and revealing them. After a delay, a shark deals area magic damage and slows, knocking the holder up and nearby enemies back. A longer initial lure flight increases damage, slow strength, eruption area and knockback distance.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Fizz",
+        "cooldown": "",
+        "counterplay": "Dodge the lure and spread away from an attached ally before the shark erupts.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/5d80eb2119bb73a21d66fcf49bd7ea71d2d919e273a57c9ce0f6986e1fa09acc.png",
+        "id": "champ:fizz:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/74a290e015b9e069127ae0daa0e945ef9fd7d6e3a1046e83c3119f7d8c77f63a.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Fizz",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

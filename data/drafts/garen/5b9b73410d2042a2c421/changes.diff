@@ -1,0 +1,588 @@
+--- approved-100
++++ proposed-106-drafts
+@@ -5530,6 +5530,585 @@
+         "visual_cue_media_path": "",
+         "visual_cue_status": ""
+       }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:86",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Name: Garen. Official role tags: Fighter, Tank.",
++                "source_id": "riot:role"
++              },
++              {
++                "quote": "Garen rapidly spins his sword around his body, dealing physical damage to nearby enemies.",
++                "source_id": "riot:E"
++              }
++            ],
++            "claim": "Garen is a fighter and tank who damages nearby enemies with sword spins."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Garen gains a burst of Move Speed, breaking free of all slows affecting him. His next attack strikes a vital area of his foe, dealing bonus damage and silencing them.",
++                "source_id": "riot:Q"
++              }
++            ],
++            "claim": "He approaches with a speed boost and a silencing attack"
++          },
++          {
++            "citations": [
++              {
++                "quote": "Garen calls upon the might of Demacia to attempt to execute an enemy champion.",
++                "source_id": "riot:R"
++              },
++              {
++                "quote": "Active: Garen strikes a lethal blow to an enemy champion that deals true damage based on the target's missing health.",
++                "source_id": "wiki:R"
++              }
++            ],
++            "claim": "then threatens weakened champions with a finishing blow."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/garen/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "3892614",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Garen"
++      },
++      "id": "champ:garen:overview:L1",
++      "importance": {
++        "priority": "B",
++        "reason": "His approach, nearby damage and finishing threat make spacing important."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Fighter / Tank",
++        "answer": "Garen is a fighter and tank who damages nearby enemies with sword spins. He approaches with a speed boost and a silencing attack, then threatens weakened champions with a finishing blow.",
++        "build_focus": "AD, Health",
++        "category": "Champion",
++        "champion": "Garen",
++        "cooldown": "",
++        "counterplay": "Keep space from his spin and empowered attack. Retreat before your health becomes critically low near him.",
++        "front_hint": "CHAMPION OVERVIEW",
++        "icon_path": "media/garen_portrait.jpg",
++        "id": "champ:garen:overview:L1",
++        "level": "L1",
++        "media_path": "media/garen_portrait.jpg",
++        "media_type": "portrait",
++        "patch": "",
++        "poster_path": "",
++        "priority": "B",
++        "question": "What can this champion do?",
++        "review_status": "",
++        "slot": "-",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/garen/",
++        "source_video_path": "",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Garen",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "AD and health are broad learning focuses grounded in Q/E AD scaling and W bonus-health shield scaling, not an optimal item build."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:86",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Innate: Garen continually regenerates a portion of his maximum health.",
++                "source_id": "wiki:P"
++              },
++              {
++                "quote": "If Garen has not recently been struck by damage or enemy abilities, he regenerates a percentage of his total health each second.",
++                "source_id": "riot:P"
++              }
++            ],
++            "claim": "Perseverance regenerates a portion of Garen's maximum health while active."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Perseverance is lost for 8 seconds if Garen takes damage from champions, epic monsters, or turrets, or if he is hit by an enemy ability or affected by an enemy summoner spell, refreshing on subsequent damage and hits taken from them.",
++                "source_id": "wiki:P"
++              }
++            ],
++            "claim": "Champion, epic monster or turret damage, enemy ability hits, and enemy summoner spells can temporarily interrupt it."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/garen/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "3892614",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Garen"
++      },
++      "id": "champ:garen:p:recognize:L2",
++      "importance": {
++        "priority": "B",
++        "reason": "His recovery affects how much lasting progress a short trade makes."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Perseverance",
++        "answer": "Perseverance regenerates a portion of Garen's maximum health while active. Champion, epic monster or turret damage, enemy ability hits, and enemy summoner spells can temporarily interrupt it.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Garen",
++        "cooldown": "",
++        "counterplay": "Use safe opportunities to pressure him so he cannot freely recover health between fights.",
++        "front_hint": "GAREN · PASSIVE",
++        "icon_path": "media/garen_p_icon.png",
++        "id": "champ:garen:p:recognize:L2",
++        "level": "L2",
++        "media_path": "media/garen_p_icon.png",
++        "media_type": "icon",
++        "patch": "",
++        "poster_path": "",
++        "priority": "B",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "P",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/garen/",
++        "source_video_path": "media/garen_p.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Garen",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": "needs_visual_cue_review"
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "The frames do not establish a recognizable healing cue or its timing; no visual cue is proposed.",
++        "Damage reduced to zero, dealt to shields, or absorbed by invulnerability does not start or refresh the interruption.",
++        "Subsequent qualifying events refresh the interruption; not every damage source interrupts regeneration."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:86",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Garen gains a burst of Move Speed, breaking free of all slows affecting him.",
++                "source_id": "riot:Q"
++              },
++              {
++                "quote": "Active: Garen gains bonus movement speed and cleanses from slows.",
++                "source_id": "wiki:Q"
++              }
++            ],
++            "claim": "Decisive Strike grants movement speed and removes existing slows."
++          },
++          {
++            "citations": [
++              {
++                "quote": "His next basic attack will lunge and deal bonus physical damage, silencing the target.",
++                "source_id": "wiki:Q"
++              },
++              {
++                "quote": "His next attack strikes a vital area of his foe, dealing bonus damage and silencing them.",
++                "source_id": "riot:Q"
++              }
++            ],
++            "claim": "Garen's next basic attack deals bonus physical damage and silences its target."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/garen/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "3892614",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Garen"
++      },
++      "id": "champ:garen:q:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "The movement speed and silence create a consequential approach threat."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Decisive Strike",
++        "answer": "Decisive Strike grants movement speed and removes existing slows. Garen's next basic attack deals bonus physical damage and silences its target.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Garen",
++        "cooldown": "",
++        "counterplay": "Keep distance when he speeds toward you. Do not rely on an existing slow to stop his approach.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/garen_q_icon.png",
++        "id": "champ:garen:q:recognize:L2",
++        "level": "L2",
++        "media_path": "media/garen_q.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "Q",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/garen/",
++        "source_video_path": "media/garen_q.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Garen",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Removing existing slows does not prevent their reapplication.",
++        "The empowered attack has a limited availability window, resets the attack timer and has an uncancellable windup.",
++        "Spell shields negate only the silence. Attack completion through untargetability, terrain interactions and on-hit details are omitted advanced exceptions."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:86",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Passive: Garen permanently gains bonus armor and magic resist by killing enemies, up to a cap.",
++                "source_id": "wiki:W"
++              },
++              {
++                "quote": "Garen passively increases his Armor and Magic Resist by killing enemies.",
++                "source_id": "riot:W"
++              }
++            ],
++            "claim": "Killing eligible enemies permanently builds Garen's armor and magic resistance, up to a cap."
++          },
++          {
++            "citations": [
++              {
++                "quote": "He may also activate this ability to give him a shield and tenacity for a brief moment",
++                "source_id": "riot:W"
++              },
++              {
++                "quote": "He also briefly gains a shield and increased tenacity.",
++                "source_id": "wiki:W"
++              }
++            ],
++            "claim": "Activating Courage briefly grants a shield and increased tenacity."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Active: Garen reduces incoming damage for 4 seconds. For the first 0.75 seconds, Garen additionally grants himself a shield and 60% tenacity.",
++                "source_id": "wiki:W"
++              }
++            ],
++            "claim": "It also reduces incoming damage for longer than the shield and tenacity last."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/garen/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "3892614",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Garen"
++      },
++      "id": "champ:garen:w:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "The shield and damage reduction can blunt a committed attack."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Courage",
++        "answer": "Killing eligible enemies permanently builds Garen's armor and magic resistance, up to a cap. Activating Courage briefly grants a shield and increased tenacity. It also reduces incoming damage for longer than the shield and tenacity last.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Garen",
++        "cooldown": "",
++        "counterplay": "Avoid committing your main burst of damage into his defensive activation.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/garen_w_icon.png",
++        "id": "champ:garen:w:recognize:L2",
++        "level": "L2",
++        "media_path": "media/garen_w.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "W",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/garen/",
++        "source_video_path": "media/garen_w.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Garen",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "The support review requests a plain-language definition of tenacity, but the supplied packet contains none. The supported core term is retained; this beginner-learning gap cannot be repaired without additional evidence.",
++        "Eligible kills exclude assists, wards, structures and several special units.",
++        "The Wiki summary mentions an additional boost at the resistance cap without specifying it in the detailed mechanics.",
++        "Map-specific differences and advanced tenacity interactions are omitted."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:86",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Garen rapidly spins his sword around his body, dealing physical damage to nearby enemies.",
++                "source_id": "riot:E"
++              },
++              {
++                "quote": "Active: Garen rapidly spins with his sword for a short time while ghosted, continually dealing physical damage to nearby enemies.",
++                "source_id": "wiki:E"
++              },
++              {
++                "quote": "Judgment deals 25% increased damage against the nearest enemy hit.",
++                "source_id": "wiki:E"
++              }
++            ],
++            "claim": "Judgment repeatedly deals physical damage to nearby enemies as Garen spins, with increased damage to the nearest enemy hit."
++          },
++          {
++            "citations": [
++              {
++                "quote": "He spins more based on his bonus attack speed.",
++                "source_id": "wiki:E"
++              },
++              {
++                "quote": "Judgment only scales with bonus attack speed from items and growth (per level).",
++                "source_id": "wiki:E"
++              }
++            ],
++            "claim": "Bonus attack speed from items and level growth increases his number of spins."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Enemy champions hit by enough spins will have reduced armor.",
++                "source_id": "wiki:E"
++              }
++            ],
++            "claim": "Repeated spin hits reduce enemy champions' armor."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/garen/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "3892614",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Garen"
++      },
++      "id": "champ:garen:e:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "Remaining nearby causes repeated damage and can reduce armor."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Judgment",
++        "answer": "Judgment repeatedly deals physical damage to nearby enemies as Garen spins, with increased damage to the nearest enemy hit. Bonus attack speed from items and level growth increases his number of spins. Repeated spin hits reduce enemy champions' armor.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Garen",
++        "cooldown": "",
++        "counterplay": "Move out of his spin to limit repeated hits and armor reduction. Avoid being the nearest enemy hit when possible.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/garen_e_icon.png",
++        "id": "champ:garen:e:recognize:L2",
++        "level": "L2",
++        "media_path": "media/garen_e.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "E",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/garen/",
++        "source_video_path": "media/garen_e.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Garen",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Armor reduction requires repeated hits rather than applying on the first hit; exact threshold and refresh rules are omitted.",
++        "Garen can move while spinning but cannot declare basic attacks. Recasting can end the spin early.",
++        "Not every source of bonus attack speed increases spin count, and the animation cap does not cap damage ticks."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:86",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Garen calls upon the might of Demacia to attempt to execute an enemy champion.",
++                "source_id": "riot:R"
++              },
++              {
++                "quote": "Active: Garen strikes a lethal blow to an enemy champion that deals true damage based on the target's missing health.",
++                "source_id": "wiki:R"
++              }
++            ],
++            "claim": "Demacian Justice targets an enemy champion with a true-damage finishing blow."
++          },
++          {
++            "citations": [
++              {
++                "quote": "True Damage:125 / 200 / 275 (+ 25 / 30 / 35% of target's missing health)",
++                "source_id": "wiki:R"
++              }
++            ],
++            "claim": "Its damage increases with the target's missing health."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/garen/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "3892614",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Garen"
++      },
++      "id": "champ:garen:r:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "Missing-health damage makes remaining nearby at low health especially dangerous."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Demacian Justice",
++        "answer": "Demacian Justice targets an enemy champion with a true-damage finishing blow. Its damage increases with the target's missing health.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Garen",
++        "cooldown": "",
++        "counterplay": "Retreat before your health becomes critically low near Garen. A shield or spell shield can help protect against his finishing attempt.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/garen_r_icon.png",
++        "id": "champ:garen:r:recognize:L2",
++        "level": "L2",
++        "media_path": "media/garen_r.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "R",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/garen/",
++        "source_video_path": "media/garen_r.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Garen",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "The finishing blow does not guarantee a kill through shields or spell shields.",
++        "Brief target reveal and cast cancellation conditions are omitted advanced details."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
+     }
+   ],
+   "schema_version": 1

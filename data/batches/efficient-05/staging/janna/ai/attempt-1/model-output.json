@@ -1,0 +1,417 @@
+{
+  "cards": [
+    {
+      "text": {
+        "answer": "Janna is a support mage who protects allies with shields, healing, knockups and knockbacks. Her damaging spells deal magic damage and scale with AP.",
+        "build_focus": "AP",
+        "counterplay": "Dodge her whirlwind, account for her knockback when approaching, and pressure allies after her shield fades.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {"quote": "Name: Janna. Official role tags: Support, Mage.", "source_id": "riot:role"},
+              {"quote": "Janna conjures a defensive gale that shields an ally champion or turret from incoming damage", "source_id": "riot:E"},
+              {"quote": "Recast: The whirlwind flies in the target direction over a short time, dealing magic damage and knocking up enemies hit.", "source_id": "wiki:howlinggale"},
+              {"quote": "Active: Janna unleashes a blast that knocks back nearby enemies, though not through terrain. She also channels the winds for a short time, continually healing nearby allies.", "source_id": "wiki:monsoon"}
+            ],
+            "claim": "Janna is a support mage who protects allies with shields, healing, knockups and knockbacks."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {"quote": "Minimum Magic Damage:55 / 90 / 125 / 160 / 195 (+ 50% AP)", "source_id": "wiki:howlinggale"},
+              {"quote": "Magic Damage:55 / 85 / 115 / 145 / 175 (+ 50% AP) (+ 30% bonus movement speed)", "source_id": "wiki:zephyr"}
+            ],
+            "claim": "Her damaging spells deal magic damage and scale with AP."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Recognize her protection and disengage before committing.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {"quote": "Name: Janna. Official role tags: Support, Mage.", "source_id": "riot:role"}
+            ],
+            "id": "riot:role",
+            "summary": "Janna is a support mage."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Janna's protective fighting pattern and damage focus.",
+        "slot": "",
+        "source_ids": ["riot:role", "riot:E", "wiki:howlinggale", "wiki:zephyr", "wiki:monsoon"],
+        "subject_id": "Janna",
+        "title": "Janna",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Nearby allied champions gain movement speed toward Janna. Her basic attacks and Zephyr deal bonus magic damage based on her bonus movement speed.",
+        "build_focus": "",
+        "counterplay": "Account for allies moving faster toward Janna when pursuing them.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {"quote": "Nearby allied champions gain bonus movement speed while moving toward Janna.", "source_id": "wiki:tailwind"}
+            ],
+            "claim": "Nearby allied champions gain movement speed toward Janna."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {"quote": "Her basic attacks and Zephyr deal bonus magic damage equal to a portion of her bonus movement speed.", "source_id": "wiki:tailwind"}
+            ],
+            "claim": "Her basic attacks and Zephyr deal bonus magic damage based on her bonus movement speed."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "Explains allied retreat speed and her extra poke damage.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {"quote": "Nearby allied champions gain bonus movement speed while moving toward Janna.", "source_id": "wiki:tailwind"}
+            ],
+            "id": "wiki:tailwind",
+            "summary": "Nearby allies move faster toward Janna."
+          },
+          {
+            "citations": [
+              {"quote": "Her basic attacks and Zephyr deal bonus magic damage equal to a portion of her bonus movement speed.", "source_id": "wiki:tailwind"}
+            ],
+            "id": "riot:P",
+            "summary": "Bonus movement speed adds magic damage to attacks and Zephyr."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize movement support and movement-speed-based damage.",
+        "slot": "P",
+        "source_ids": ["wiki:tailwind", "riot:P"],
+        "subject_id": "wiki:tailwind",
+        "title": "Tailwind",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Janna places a charging whirlwind whose direction is fixed when cast; she can release it early, or it releases automatically. The released whirlwind deals magic damage and knocks up enemies hit; charging increases its range, speed, damage and knockup duration.",
+        "build_focus": "",
+        "counterplay": "Move out of the whirlwind's path and avoid approaching along its cast direction.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {"quote": "Active: Janna summons a whirlwind at her current location that charges up over 3 seconds", "source_id": "wiki:howlinggale"},
+              {"quote": "Howling Gale's direction is determined by this cast.", "source_id": "wiki:howlinggale"},
+              {"quote": "Howling Gale can be recast at any time within the duration, and does so automatically after the duration.", "source_id": "wiki:howlinggale"}
+            ],
+            "claim": "Janna places a charging whirlwind whose direction is fixed when cast; she can release it early, or it releases automatically."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {"quote": "Active: Janna summons a whirlwind at her current location that matures over a short time, increasing its range, speed, damage, and knock up duration.", "source_id": "wiki:howlinggale"},
+              {"quote": "Recast: The whirlwind flies in the target direction over a short time, dealing magic damage and knocking up enemies hit.", "source_id": "wiki:howlinggale"}
+            ],
+            "claim": "The released whirlwind deals magic damage and knocks up enemies hit; charging increases its range, speed, damage and knockup duration."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Its delayed path and knockup are central to avoiding her disruption.",
+        "uncertainties": ["Base cooldown evidence is missing; its availability matters for engaging."]
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {"quote": "The storm does not interact with enemy units that stand on top of it while it is charging.", "source_id": "wiki:howlinggale"}
+            ],
+            "status": "supported",
+            "summary": "The charging storm does not interact with enemies standing on it."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {"quote": "Howling Gale's direction is determined by this cast.", "source_id": "wiki:howlinggale"},
+              {"quote": "Howling Gale can be recast at any time within the duration, and does so automatically after the duration.", "source_id": "wiki:howlinggale"}
+            ],
+            "id": "wiki:howlinggale",
+            "summary": "The initial cast fixes direction; release can be manual or automatic."
+          },
+          {
+            "citations": [
+              {"quote": "Active: Janna summons a whirlwind at her current location that matures over a short time, increasing its range, speed, damage, and knock up duration.", "source_id": "wiki:howlinggale"},
+              {"quote": "Recast: The whirlwind flies in the target direction over a short time, dealing magic damage and knocking up enemies hit.", "source_id": "wiki:howlinggale"}
+            ],
+            "id": "riot:Q",
+            "summary": "Charging strengthens the traveling magic-damage knockup."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the charged projectile and avoid its fixed path.",
+        "slot": "Q",
+        "source_ids": ["wiki:howlinggale", "riot:Q"],
+        "subject_id": "wiki:howlinggale",
+        "title": "Howling Gale",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Janna passively gains movement speed and can pass through units. Zephyr targets an enemy, dealing magic damage and slowing them.",
+        "build_focus": "",
+        "counterplay": "Respect her targeted slow when entering range, and account for her ability to move through units.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {"quote": "Janna summons an air elemental that passively increases her Move Speed and enables her to pass through units.", "source_id": "riot:W"}
+            ],
+            "claim": "Janna passively gains movement speed and can pass through units."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {"quote": "Active: Janna sends an air elemental to the target enemy, dealing magic damage and slowing them.", "source_id": "wiki:zephyr"}
+            ],
+            "claim": "Zephyr targets an enemy, dealing magic damage and slowing them."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "Recognize her targeted poke and movement advantage.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {"quote": "If the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).", "source_id": "wiki:zephyr"}
+            ],
+            "status": "supported",
+            "summary": "An invalid target during the cast can cancel Zephyr without consuming its cooldown or cost."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {"quote": "Janna summons an air elemental that passively increases her Move Speed and enables her to pass through units.", "source_id": "riot:W"}
+            ],
+            "id": "riot:W",
+            "summary": "Janna gains passive movement speed and passes through units."
+          },
+          {
+            "citations": [
+              {"quote": "Active: Janna sends an air elemental to the target enemy, dealing magic damage and slowing them.", "source_id": "wiki:zephyr"}
+            ],
+            "id": "wiki:zephyr",
+            "summary": "The active deals targeted magic damage and slows."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize targeted slowing poke and passive mobility.",
+        "slot": "W",
+        "source_ids": ["wiki:zephyr", "riot:W"],
+        "subject_id": "wiki:zephyr",
+        "title": "Zephyr",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Janna shields herself, an allied champion or an allied turret, granting bonus attack damage while the shield holds. Slowing or knocking up enemy champions with her abilities refunds part of this shield's cooldown.",
+        "build_focus": "",
+        "counterplay": "Account for the shielded target's stronger attacks, and avoid her crowd control to limit shield cooldown refunds.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {"quote": "Active: Janna can target an allied champion, turret, or herself to place a shield that decays over a short time. While the shield holds, the target gains bonus attack damage.", "source_id": "wiki:eyeofthestorm"}
+            ],
+            "claim": "Janna shields herself, an allied champion or an allied turret, granting bonus attack damage while the shield holds."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {"quote": "Passive: Whenever Janna's abilities slow or knock up at least one enemy champion, she refunds a portion of Eye of the Storm's cooldown.", "source_id": "wiki:eyeofthestorm"}
+            ],
+            "claim": "Slowing or knocking up enemy champions with her abilities refunds part of this shield's cooldown."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "The shield changes damage trades, and crowd control helps restore its availability.",
+        "uncertainties": ["Base shield cooldown is not supplied; the cooldown refund is supported."]
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {"quote": "This may occur once per spell cast.", "source_id": "wiki:eyeofthestorm"}
+            ],
+            "status": "supported",
+            "summary": "The cooldown refund occurs at most once per spell cast."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {"quote": "Active: Janna can target an allied champion, turret, or herself to place a shield that decays over a short time. While the shield holds, the target gains bonus attack damage.", "source_id": "wiki:eyeofthestorm"}
+            ],
+            "id": "wiki:eyeofthestorm",
+            "summary": "The shield protects herself, an allied champion or turret and grants attack damage while intact."
+          },
+          {
+            "citations": [
+              {"quote": "Passive: Whenever Janna's abilities slow or knock up at least one enemy champion, she refunds a portion of Eye of the Storm's cooldown.", "source_id": "wiki:eyeofthestorm"}
+            ],
+            "id": "riot:E",
+            "summary": "Ability slows and knockups against champions refund shield cooldown."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize protection, offensive empowerment and repeat-shield potential.",
+        "slot": "E",
+        "source_ids": ["wiki:eyeofthestorm", "riot:E"],
+        "subject_id": "wiki:eyeofthestorm",
+        "title": "Eye of the Storm",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Janna knocks nearby enemies back, then channels to continually heal herself and nearby allies. The knockback does not push enemies through terrain.",
+        "build_focus": "",
+        "counterplay": "Account for the knockback when closing in, and interrupt her channel to limit healing.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {"quote": "Active: Janna unleashes a blast that knocks back nearby enemies, though not through terrain. She also channels the winds for a short time, continually healing nearby allies.", "source_id": "wiki:monsoon"},
+              {"quote": "Janna also channels for up to 3 seconds, healing herself and nearby allies every 0.25 seconds.", "source_id": "wiki:monsoon"}
+            ],
+            "claim": "Janna knocks nearby enemies back, then channels to continually heal herself and nearby allies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {"quote": "Active: Janna unleashes a blast that knocks back nearby enemies, though not through terrain.", "source_id": "wiki:monsoon"}
+            ],
+            "claim": "The knockback does not push enemies through terrain."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Her major disengage can separate attackers and restore nearby allies.",
+        "uncertainties": ["Ultimate cooldown evidence is missing; its availability matters for committing to a fight."]
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {"quote": "Active: Janna unleashes a blast that knocks back nearby enemies, though not through terrain.", "source_id": "wiki:monsoon"}
+            ],
+            "id": "wiki:monsoon",
+            "summary": "The initial blast knocks nearby enemies back without pushing them through terrain."
+          },
+          {
+            "citations": [
+              {"quote": "Janna also channels for up to 3 seconds, healing herself and nearby allies every 0.25 seconds.", "source_id": "wiki:monsoon"}
+            ],
+            "id": "riot:R",
+            "summary": "The channel repeatedly heals Janna and nearby allies."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the displacement followed by a healing channel.",
+        "slot": "R",
+        "source_ids": ["wiki:monsoon", "riot:R"],
+        "subject_id": "wiki:monsoon",
+        "title": "Monsoon",
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Exact base cooldowns are absent from the supplied evidence.",
+    "No game patch label is established by the supplied evidence."
+  ],
+  "features": ["standard", "conditional_effects"],
+  "relationships": [
+    {
+      "citations": [
+        {"quote": "Passive: Whenever Janna's abilities slow or knock up at least one enemy champion, she refunds a portion of Eye of the Storm's cooldown.", "source_id": "wiki:eyeofthestorm"},
+        {"quote": "Recast: The whirlwind flies in the target direction over a short time, dealing magic damage and knocking up enemies hit.", "source_id": "wiki:howlinggale"}
+      ],
+      "condition": "Howling Gale knocks up an enemy champion.",
+      "from_id": "wiki:howlinggale",
+      "kind": "conditional_effect",
+      "to_id": "wiki:eyeofthestorm"
+    },
+    {
+      "citations": [
+        {"quote": "Passive: Whenever Janna's abilities slow or knock up at least one enemy champion, she refunds a portion of Eye of the Storm's cooldown.", "source_id": "wiki:eyeofthestorm"},
+        {"quote": "Active: Janna sends an air elemental to the target enemy, dealing magic damage and slowing them.", "source_id": "wiki:zephyr"}
+      ],
+      "condition": "Zephyr slows an enemy champion.",
+      "from_id": "wiki:zephyr",
+      "kind": "conditional_effect",
+      "to_id": "wiki:eyeofthestorm"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Movement support and bonus damage share the passive card.",
+      "source_id": "wiki:tailwind",
+      "target_subject_ids": ["wiki:tailwind"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Charge and release are taught together; activation interactions remain outside the central lesson.",
+      "source_id": "wiki:howlinggale",
+      "target_subject_ids": ["wiki:howlinggale"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Passive mobility and targeted slow share the primary ability card.",
+      "source_id": "wiki:zephyr",
+      "target_subject_ids": ["wiki:zephyr"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Shield, attack damage and conditional cooldown refund are merged into the primary card.",
+      "source_id": "wiki:eyeofthestorm",
+      "target_subject_ids": ["wiki:eyeofthestorm"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Knockback and healing channel share the primary card; item and summoner interactions are outside the central lesson.",
+      "source_id": "wiki:monsoon",
+      "target_subject_ids": ["wiki:monsoon"]
+    }
+  ],
+  "slots": [
+    {"role": "passive", "slot": "P", "source_ids": ["wiki:tailwind", "riot:P"]},
+    {"role": "active", "slot": "Q", "source_ids": ["wiki:howlinggale", "riot:Q"]},
+    {"role": "active", "slot": "W", "source_ids": ["wiki:zephyr", "riot:W"]},
+    {"role": "active", "slot": "E", "source_ids": ["wiki:eyeofthestorm", "riot:E"]},
+    {"role": "active", "slot": "R", "source_ids": ["wiki:monsoon", "riot:R"]}
+  ],
+  "summary": "An overview and primary ability cards cover Janna's movement support, charged whirlwind, targeted slow, empowering shield and healing disengage. Related passive and conditional effects remain within their primary cards."
+}

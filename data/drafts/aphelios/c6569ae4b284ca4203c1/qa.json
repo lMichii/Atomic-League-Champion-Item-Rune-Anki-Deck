@@ -1,0 +1,1991 @@
+{
+  "approval_blockers": [
+    "All cards require editorial approval and source-scope review.",
+    "Weapon/ability image matching and all animations/cues require manual visual review.",
+    "Missing variant animations use matched icons; generic slot clips are not variant verification.",
+    "Unknown gameplay patch is hidden; source-supported draft status is not human QA."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:overview:L1",
+        "core_coverage": [
+          {
+            "answer_quote": "Aphelios is a basic-attack-focused marksman who deals mainly physical damage.",
+            "covered": true,
+            "mechanic_id": "overview_fighting_role",
+            "reason": "Supported as a qualitative synthesis of his role, weapon attacks and physical-damage effects."
+          },
+          {
+            "answer_quote": "Severum's Onslaught grants movement speed, but he has no dash or blink, making positioning important when enemies close in.",
+            "covered": true,
+            "mechanic_id": "overview_mobility",
+            "reason": "The complete supplied active-kit enumeration supports the absence inference; its basis and completeness risk are explicitly recorded outside the card face."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [
+          {
+            "basis": "exhaustive_kit_inference",
+            "citations": [
+              {
+                "quote": "Aphelios wields 5 Lunari Weapons made by his sister Alune. He has access to two at a time: one main-hand and one off-hand. Each weapon has a unique Basic Attack and Ability. Attacks and abilities consume a weapon's ammo. When out of ammo, Aphelios discards the weapon and Alune summons the next of the 5.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Aphelios has 5 different activated abilities, based on his main-hand weapon:Calibrum (Rifle): Long range shot that marks its target for a long-range follow-up attack.Severum (Scythe Pistol): Run fast while attacking nearby enemies with both weapons.Gravitum (Cannon): Root all enemies slowed by this weapon.Infernum (Flamethrower): Blast enemies in a cone and attack them with your off-hand weapon.Crescendum (Chakram): Deploy a sentry that shoots your off-hand weapon.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Aphelios swaps his main-hand gun with his off-hand gun, replacing his basic attack and activated ability.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Aphelios has no third ability. This slot shows the next weapon Alune will give him. Weapon order begins fixed but may change over game time -- when a weapon is out of ammo it goes to the end of the order.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Fire a concentrated blast of moonlight that explodes on enemy champions. Applies the unique effect of Aphelios' main-hand gun.",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "he has no dash or blink, making positioning important when enemies close in."
+          }
+        ],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Aphelios. Official role tags: Marksman.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Each weapon has a unique Basic Attack and Ability.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Other abilities will create mirror chakrams that he gathers, and his basic attacks deal bonus physical damage based on how many mirror chakrams he holds.",
+              "source_id": "wiki:crescendum"
+            },
+            {
+              "quote": "Active: Aphelios fires a concentrated blast of moonlight that explodes upon hitting an enemy champion, dealing physical damage to enemy champions in the area.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "overview_fighting_role",
+          "summary": "Aphelios is a weapon-dependent marksman whose fighting centers on basic attacks, with a predominantly physical damage kit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Aphelios has 5 different activated abilities, based on his main-hand weapon:Calibrum (Rifle): Long range shot that marks its target for a long-range follow-up attack.Severum (Scythe Pistol): Run fast while attacking nearby enemies with both weapons.Gravitum (Cannon): Root all enemies slowed by this weapon.Infernum (Flamethrower): Blast enemies in a cone and attack them with your off-hand weapon.Crescendum (Chakram): Deploy a sentry that shoots your off-hand weapon.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Aphelios swaps his main-hand gun with his off-hand gun, replacing his basic attack and activated ability.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Aphelios has no third ability.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Fire a concentrated blast of moonlight that explodes on enemy champions. Applies the unique effect of Aphelios' main-hand gun.",
+              "source_id": "riot:R"
+            }
+          ],
+          "id": "overview_mobility",
+          "summary": "The supplied complete active kit provides movement speed through Severum, but no dash or blink; his positioning remains vulnerable to being closed on."
+        }
+      ],
+      "id": "champ:523:overview:L1",
+      "issues": [
+        "Dash and blink absence is an exhaustive-kit inference from the supplied P/Q/W/E/R descriptions, not an explicit assertion; it depends on their completeness.",
+        "AD denotes broad physical attack orientation, not a prescribed item build.",
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "overview",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:overview:L1",
+        "context_id": "",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "jpg",
+          "path": "media/aphelios_portrait.jpg",
+          "retrieved_at": "2026-10-31T23:38:17.389754+00:00",
+          "sha256": "a5aba47dcb8f66ac8823e3bc345552d028a65c3162dce8d6670c357fef5dd198",
+          "source_sha256": "a5aba47dcb8f66ac8823e3bc345552d028a65c3162dce8d6670c357fef5dd198",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "official champion portrait",
+        "slot_clip_candidate": null,
+        "subject_id": "riot:role",
+        "unresolved": [],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-overview-l1.html",
+      "purpose": "Recognize an attack-focused marksman; assess his equipped weapons before choosing spacing or committing to an engage.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "The individual actives do not share a cooldown.",
+              "source_id": "wiki:weaponsofthefaithful"
+            }
+          ],
+          "status": "supported",
+          "summary": "Weapon actives have independent cooldowns; swapping can expose a different available active."
+        }
+      ],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:system:p:thehitmanandtheseer:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Aphelios equips two of five weapons with distinct attacks and abilities; the main-hand determines his active, and weapon actives have separate cooldowns.",
+            "covered": true,
+            "mechanic_id": "system_equipment",
+            "reason": "Explains equipment, main-hand selection and the supported independent-cooldown interaction."
+          },
+          {
+            "answer_quote": "Basic attacks and weapon-active casts spend ammunition, but automatic attacks caused by abilities spend no additional ammunition; an empty weapon moves to the queue's end and is replaced by the next reserve weapon.",
+            "covered": true,
+            "mechanic_id": "system_ammo_cycle",
+            "reason": "Explains consumption, the automatic-attack exemption, replacement and queue cycling."
+          },
+          {
+            "answer_quote": "He starts with Calibrum main-hand and Severum off-hand, then Gravitum, Infernum and Crescendum in reserve; E shows the next weapon and can display a text prompt.",
+            "covered": true,
+            "mechanic_id": "system_queue_indicator",
+            "reason": "Gives the correct starting arrangement and explains E as a display and prompt."
+          },
+          {
+            "answer_quote": "Phase is available from the start, weapon actives unlock at level 2, and Moonlight Vigil unlocks at level 6 and improves at levels 11 and 16; skill points grant attack damage, attack speed or lethality instead of ability ranks.",
+            "covered": true,
+            "mechanic_id": "system_unlocks",
+            "reason": "All unlock levels and alternative skill-point uses match the evidence."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios wields 5 Lunari Weapons made by his sister Alune. He has access to two at a time: one main-hand and one off-hand. Each weapon has a unique Basic Attack and Ability.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "The active effect of Aphelios' ability varies based on his current main weapon.",
+              "source_id": "wiki:weaponsofthefaithful"
+            }
+          ],
+          "id": "system_equipment",
+          "summary": "His 5 weapons provide distinct attacks and abilities; he equips two at a time, with the main-hand weapon determining his active."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Attacks and abilities consume a weapon's ammo. When out of ammo, Aphelios discards the weapon and Alune summons the next of the 5.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Weapon order begins fixed but may change over game time -- when a weapon is out of ammo it goes to the end of the order.",
+              "source_id": "riot:E"
+            }
+          ],
+          "id": "system_ammo_cycle",
+          "summary": "Attacks and abilities spend weapon ammunition; depletion replaces that weapon with the next reserve weapon and sends the depleted weapon to the queue's end."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Aphelios begins the game with Calibrum as his main weapon and Severum in his off-hand, with Gravitum, Infernum, and Crescendum queued in reserve.",
+              "source_id": "wiki:thehitmanandtheseer"
+            },
+            {
+              "quote": "Aphelios has no third ability. This slot shows the next weapon Alune will give him.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Active: Aphelios receives a text prompt of the weapon Alune will create next.",
+              "source_id": "wiki:weaponqueuesystem"
+            }
+          ],
+          "id": "system_queue_indicator",
+          "summary": "He starts with Calibrum main-hand and Severum off-hand, followed by Gravitum, Infernum and Crescendum in reserve. E displays the next weapon and can show a text prompt; it is a queue indicator rather than a combat spell."
+        },
+        {
+          "citations": [
+            {
+              "quote": "He starts the game with Phase and automatically gains access to his primary abilities at level 2 and his ultimate ability, Moonlight Vigil, at level 6. Moonlight Vigil improves automatically at levels 11 and 16.",
+              "source_id": "wiki:thehitmanandtheseer"
+            },
+            {
+              "quote": "Aphelios cannot improve his abilities via skill points.",
+              "source_id": "wiki:thehitmanandtheseer"
+            },
+            {
+              "quote": "Aphelios may spend his skill points to gain bonus attack damage, bonus attack speed or lethality instead.",
+              "source_id": "wiki:thehitmanandtheseer"
+            }
+          ],
+          "id": "system_unlocks",
+          "summary": "Phase is available at the start; weapon actives unlock at level 2 and Moonlight Vigil at level 6, improving at levels 11 and 16. Skill points buy attack damage, attack speed or lethality instead of ability ranks."
+        }
+      ],
+      "id": "champ:523:system:p:thehitmanandtheseer:recognize:L2",
+      "issues": [
+        "This combined system lesson needs extra length to retain all frozen cores.",
+        "E is an indicator with a text prompt, not an additional combat spell.",
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "system",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:system:p:thehitmanandtheseer:recognize:L2",
+        "context_id": "",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/aphelios_p_icon.png",
+          "retrieved_at": "2026-10-31T23:38:17.687596+00:00",
+          "sha256": "5f4da611200c651d07b064595947a38177b27de31e280622be1573dd05fe8635",
+          "source_sha256": "5f4da611200c651d07b064595947a38177b27de31e280622be1573dd05fe8635",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/ApheliosP.png"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "exact primary ability name/source; no variant inference",
+        "slot_clip_candidate": null,
+        "subject_id": "wiki:thehitmanandtheseer",
+        "unresolved": [
+          "Passive/resource/leveling visual cues require manual review of the archived demonstration frames."
+        ],
+        "video": {
+          "kind": "webm",
+          "path": "media/aphelios_p.webm",
+          "retrieved_at": "2026-10-31T23:38:18.105038+00:00",
+          "sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+          "source_sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.webm"
+        }
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-system-p-thehitmanandtheseer-recognize-l2.html",
+      "purpose": "Track the equipped pair and ammunition cycle; anticipate changing threats and recognize the unusual early ability unlocks.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:weapon:none:calibrum:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Calibrum grants longer basic attack range while main-hand.",
+            "covered": true,
+            "mechanic_id": "calibrum_attack_range",
+            "reason": "States the range benefit with its main-hand condition."
+          },
+          {
+            "answer_quote": "Calibrum hits through abilities mark enemies for a long-range follow-up with the off-hand weapon, or the main-hand weapon if Calibrum is off-hand. The follow-up consumes all marks and adds physical damage for each mark consumed.",
+            "covered": true,
+            "mechanic_id": "calibrum_marks",
+            "reason": "Explains mark creation, weapon dependencies, consumption and bonus damage."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios has bonus range while Calibrum is his main weapon.",
+              "source_id": "wiki:calibrum"
+            }
+          ],
+          "id": "calibrum_attack_range",
+          "summary": "Calibrum grants bonus basic attack range while main-hand."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Abilities will mark targets, and he may attack them from far away with the current off-hand weapon, consuming all marks and dealing bonus physical damage for each mark consumed.",
+              "source_id": "wiki:calibrum"
+            },
+            {
+              "quote": "If Calibrum is the current off-hand weapon, the main weapon is used for the attack instead.",
+              "source_id": "wiki:calibrum"
+            }
+          ],
+          "id": "calibrum_marks",
+          "summary": "Calibrum ability marks enable a long-range follow-up using the other equipped weapon; consuming marks adds physical damage."
+        }
+      ],
+      "id": "champ:523:weapon:none:calibrum:recognize:L2",
+      "issues": [
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "weapon",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:weapon:none:calibrum:recognize:L2",
+        "context_id": "",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/unit-ea07b67447c92ea472de.png",
+          "retrieved_at": "2026-10-31T23:38:30.766528+00:00",
+          "sha256": "3be2d216a060fc432bec2a388773326bf947859dd74fdbe2acdce59e39030c55",
+          "source_sha256": "3be2d216a060fc432bec2a388773326bf947859dd74fdbe2acdce59e39030c55",
+          "source_url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/aphelios/hud/icons2d/calibrum_l.png"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "versioned CDragon asset filename matches canonical weapon anchor; visual review pending",
+        "slot_clip_candidate": null,
+        "subject_id": "wiki:calibrum",
+        "unresolved": [],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-weapon-none-calibrum-recognize-l2.html",
+      "purpose": "Recognize ranged harassment and respect marked follow-ups even after leaving ordinary attack range.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:ability_variant:q:moonshot:calibrum:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "With Calibrum main-hand, Moonshot fires a long-range directional bolt that deals physical damage to the first enemy hit and marks it for a long-range follow-up attack.",
+            "covered": true,
+            "mechanic_id": "moonshot_active",
+            "reason": "Correctly explains selection, first-hit collision, damage and marking."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aphelios fires a bolt of energy in the target direction that deals physical damage to the first enemy hit.",
+              "source_id": "wiki:moonshot"
+            },
+            {
+              "quote": "Calibrum (Rifle): Long range shot that marks its target for a long-range follow-up attack.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "id": "moonshot_active",
+          "summary": "Moonshot is a long-range directional bolt that damages the first enemy hit and marks it for a long-range follow-up attack."
+        }
+      ],
+      "id": "champ:523:ability_variant:q:moonshot:calibrum:recognize:L2",
+      "issues": [
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "ability_variant",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:ability_variant:q:moonshot:calibrum:recognize:L2",
+        "context_id": "wiki:calibrum",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/unit-4d6cb864b6252ba47d40.png",
+          "retrieved_at": "2026-10-31T23:38:30.977472+00:00",
+          "sha256": "417db9160ea9012d592b01585cc2ff8d0dca96983b6015ac0b6932ef9042df25",
+          "source_sha256": "417db9160ea9012d592b01585cc2ff8d0dca96983b6015ac0b6932ef9042df25",
+          "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Moonshot.png?97604"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+        "slot_clip_candidate": {
+          "kind": "webm",
+          "path": "media/aphelios_q.webm",
+          "retrieved_at": "2026-10-31T23:38:21.815635+00:00",
+          "sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+          "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+        },
+        "subject_id": "wiki:moonshot",
+        "unresolved": [
+          "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+        ],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-ability-variant-q-moonshot-calibrum-recognize-l2.html",
+      "purpose": "Recognize and dodge the rifle shot; use intervening units to prevent it from reaching a desired target.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:weapon:none:severum:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Severum attacks heal Aphelios, converting excess healing into a shield.",
+            "covered": true,
+            "mechanic_id": "severum_sustain",
+            "reason": "Explains both healing and excess-healing conversion."
+          },
+          {
+            "answer_quote": "Its basic attacks do not use projectiles, and their preparation before the hit cannot be cancelled.",
+            "covered": true,
+            "mechanic_id": "severum_attack_delivery",
+            "reason": "Accurately paraphrases non-projectile attacks and uncancellable windup."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios' basic attacks will heal him, and create a shield from excess healing.",
+              "source_id": "wiki:severum"
+            }
+          ],
+          "id": "severum_sustain",
+          "summary": "Severum attacks heal Aphelios, with excess healing converted into a shield."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Basic attacks with Severum are non-projectile and have an uncancellable windup.",
+              "source_id": "wiki:severum"
+            }
+          ],
+          "id": "severum_attack_delivery",
+          "summary": "Severum basic attacks are non-projectile and have an uncancellable windup."
+        }
+      ],
+      "id": "champ:523:weapon:none:severum:recognize:L2",
+      "issues": [
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "weapon",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:weapon:none:severum:recognize:L2",
+        "context_id": "",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/unit-4e2863f682cfffbdd446.png",
+          "retrieved_at": "2026-10-31T23:38:31.163533+00:00",
+          "sha256": "403466b3086885501e4d5880809efa3ebdb68ca3881aead176fb7e0a81d04053",
+          "source_sha256": "403466b3086885501e4d5880809efa3ebdb68ca3881aead176fb7e0a81d04053",
+          "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Severum.png?79ced"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+        "slot_clip_candidate": null,
+        "subject_id": "wiki:severum",
+        "unresolved": [],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-weapon-none-severum-recognize-l2.html",
+      "purpose": "Recognize sustain and shielding during trades; account for Severum's non-projectile attacks when relying on projectile defenses.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios cannot cast Phase nor Moonlight Vigil during Onslaught, but he is still able to move.",
+              "source_id": "wiki:onslaught"
+            }
+          ],
+          "status": "supported",
+          "summary": "Onslaught prevents Phase and Moonlight Vigil during its effect."
+        }
+      ],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:ability_variant:q:onslaught:severum:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "With Severum main-hand, Onslaught grants movement speed and lets Aphelios move while automatically alternating attacks between Severum and his off-hand weapon.",
+            "covered": true,
+            "mechanic_id": "onslaught_active",
+            "reason": "Explains movement, automatic attacks and both weapon dependencies."
+          },
+          {
+            "answer_quote": "It attacks the nearest visible enemy, prioritizing champions.",
+            "covered": true,
+            "mechanic_id": "onslaught_targeting",
+            "reason": "Matches the sourced targeting rule."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aphelios gains bonus movement speed and quickly attacks a nearby enemy with Severum and his current off-hand weapon, dealing physical damage.",
+              "source_id": "wiki:onslaught"
+            },
+            {
+              "quote": "Aphelios can move during Onslaught.",
+              "source_id": "wiki:onslaught"
+            },
+            {
+              "quote": "Attacks alternate between Severum and his current off-hand weapon",
+              "source_id": "wiki:onslaught"
+            }
+          ],
+          "id": "onslaught_active",
+          "summary": "Onslaught grants movement speed while Aphelios moves and automatically attacks a nearby enemy, alternating Severum and his off-hand weapon."
+        },
+        {
+          "citations": [
+            {
+              "quote": "automatically performing up to 6 (+ 2 per 100% bonus attack speed) attacks over the duration against the nearest visible enemy, prioritizing enemy champions.",
+              "source_id": "wiki:onslaught"
+            }
+          ],
+          "id": "onslaught_targeting",
+          "summary": "Automatic attacks select the nearest visible enemy, prioritizing champions."
+        }
+      ],
+      "id": "champ:523:ability_variant:q:onslaught:severum:recognize:L2",
+      "issues": [
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "ability_variant",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:ability_variant:q:onslaught:severum:recognize:L2",
+        "context_id": "wiki:severum",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/unit-15dd80a97f672e57b422.png",
+          "retrieved_at": "2026-10-31T23:38:31.347190+00:00",
+          "sha256": "90d1c61cc431da121e5b83045670295ece11f9d6426fccdedf5cb85661f0c962",
+          "source_sha256": "90d1c61cc431da121e5b83045670295ece11f9d6426fccdedf5cb85661f0c962",
+          "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Onslaught.png?d222d"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+        "slot_clip_candidate": {
+          "kind": "webm",
+          "path": "media/aphelios_q.webm",
+          "retrieved_at": "2026-10-31T23:38:21.815635+00:00",
+          "sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+          "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+        },
+        "subject_id": "wiki:onslaught",
+        "unresolved": [
+          "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+        ],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-ability-variant-q-onslaught-severum-recognize-l2.html",
+      "purpose": "Recognize mobile sustained fire and judge its additional threat from the off-hand weapon.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:weapon:none:gravitum:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Gravitum basic attacks slow enemies, with the slow weakening over time.",
+            "covered": true,
+            "mechanic_id": "gravitum_slow",
+            "reason": "Explains the decaying slow."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios' basic attacks apply a decaying slow.",
+              "source_id": "wiki:gravitum"
+            }
+          ],
+          "id": "gravitum_slow",
+          "summary": "Gravitum basic attacks apply a decaying slow."
+        }
+      ],
+      "id": "champ:523:weapon:none:gravitum:recognize:L2",
+      "issues": [
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "weapon",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:weapon:none:gravitum:recognize:L2",
+        "context_id": "",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/unit-ddfb992ed19a049a2333.png",
+          "retrieved_at": "2026-10-31T23:38:31.562687+00:00",
+          "sha256": "9e57778a68dfa57435dd353dd47399a8f515e0493d40fa2054a0d0834f21a705",
+          "source_sha256": "9e57778a68dfa57435dd353dd47399a8f515e0493d40fa2054a0d0834f21a705",
+          "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Gravitum.png?39bbd"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+        "slot_clip_candidate": null,
+        "subject_id": "wiki:gravitum",
+        "unresolved": [],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-weapon-none-gravitum-recognize-l2.html",
+      "purpose": "Recognize the control weapon: being hit creates a slow and exposes the target to Binding Eclipse.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "An enemy affected by Gravitum, or an in-flight Gravitum projectile, is required to cast this ability. In-flight projectiles will be empowered to apply Binding Eclipse's effects to their targets.",
+              "source_id": "wiki:bindingeclipse"
+            }
+          ],
+          "status": "supported",
+          "summary": "An in-flight Gravitum projectile can enable the cast and carry its effects on arrival."
+        }
+      ],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:ability_variant:q:bindingeclipse:gravitum:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "With Gravitum main-hand, Binding Eclipse deals magic damage and roots targetable enemies affected by Gravitum's slow.",
+            "covered": true,
+            "mechanic_id": "bindingeclipse_active",
+            "reason": "Explains the general debuff-dependent damage and root with the targetability condition; does not claim that a landed slow is the only cast-enabling circumstance."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aphelios deals magic damage and roots all targets that are slowed by Gravitum.",
+              "source_id": "wiki:bindingeclipse"
+            }
+          ],
+          "id": "bindingeclipse_active",
+          "summary": "Binding Eclipse deals magic damage and roots targets affected by Gravitum's slow."
+        }
+      ],
+      "id": "champ:523:ability_variant:q:bindingeclipse:gravitum:recognize:L2",
+      "issues": [
+        "An in-flight Gravitum projectile can enable the cast and carry its effects on arrival; an already-landed slow is not always required.",
+        "The source distinguishes the Gravitum debuff from actual slowing under immunity and describes a special exception; these advanced cases are outside the general lesson.",
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "ability_variant",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:ability_variant:q:bindingeclipse:gravitum:recognize:L2",
+        "context_id": "wiki:gravitum",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/unit-5e9f7e6e7b44a739297b.png",
+          "retrieved_at": "2026-10-31T23:38:31.784302+00:00",
+          "sha256": "4bec8b3e69c894b13ef867334d76a5785a28f9d8cccf0cefa26b1ecc6aa542bd",
+          "source_sha256": "4bec8b3e69c894b13ef867334d76a5785a28f9d8cccf0cefa26b1ecc6aa542bd",
+          "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Binding_Eclipse.png?d10ae"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+        "slot_clip_candidate": {
+          "kind": "webm",
+          "path": "media/aphelios_q.webm",
+          "retrieved_at": "2026-10-31T23:38:21.815635+00:00",
+          "sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+          "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+        },
+        "subject_id": "wiki:bindingeclipse",
+        "unresolved": [
+          "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+        ],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-ability-variant-q-bindingeclipse-gravitum-recognize-l2.html",
+      "purpose": "Recognize the root setup after a Gravitum hit; do not mistake this for a freely aimed root.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:weapon:none:infernum:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Infernum basic attacks deal increased damage to the primary target, damage other enemies along their path, and spread into a cone behind the primary target.",
+            "covered": true,
+            "mechanic_id": "infernum_splash",
+            "reason": "Explains all three core effects without asserting universally lower secondary damage."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios' basic attacks will hit all enemies in its trajectory, dealing increased damage to the main target and less damage to other targets. The attack will then spread into a cone behind his main target.",
+              "source_id": "wiki:infernum"
+            }
+          ],
+          "id": "infernum_splash",
+          "summary": "Infernum attacks deal increased damage to the primary target, damage enemies along their path, and spread into a cone behind the target."
+        }
+      ],
+      "id": "champ:523:weapon:none:infernum:recognize:L2",
+      "issues": [
+        "Secondary damage varies with level and target type; no universal relative-damage claim is taught.",
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "weapon",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:weapon:none:infernum:recognize:L2",
+        "context_id": "",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/unit-9fe9779b09f2c229c44e.png",
+          "retrieved_at": "2026-10-31T23:38:31.948671+00:00",
+          "sha256": "5dfb0a87b8a9d4f128cf362f2e1ef9539e23441300a86f85599aa066a6edc03b",
+          "source_sha256": "5dfb0a87b8a9d4f128cf362f2e1ef9539e23441300a86f85599aa066a6edc03b",
+          "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Infernum.png?c8030"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+        "slot_clip_candidate": null,
+        "subject_id": "wiki:infernum",
+        "unresolved": [],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-weapon-none-infernum-recognize-l2.html",
+      "purpose": "Recognize the area-damage weapon and avoid lining up behind his attack target.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:ability_variant:q:duskwave:infernum:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "With Infernum main-hand, Duskwave deals physical damage in a cone, then follows up against each enemy hit with a delayed off-hand attack.",
+            "covered": true,
+            "mechanic_id": "duskwave_active",
+            "reason": "Explains the cone, delay, affected targets and off-hand dependency without guaranteeing damage through defenses."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aphelios unleashes a wave of energy in a cone, dealing physical damage to enemies hit and locking on to each of them, basic attacking them after a delay.",
+              "source_id": "wiki:duskwave"
+            },
+            {
+              "quote": "Infernum (Flamethrower): Blast enemies in a cone and attack them with your off-hand weapon.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "id": "duskwave_active",
+          "summary": "Duskwave damages enemies in a cone, then follows up against those hit with delayed off-hand attacks."
+        }
+      ],
+      "id": "champ:523:ability_variant:q:duskwave:infernum:recognize:L2",
+      "issues": [
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "ability_variant",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:ability_variant:q:duskwave:infernum:recognize:L2",
+        "context_id": "wiki:infernum",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/unit-557d40e861eedf65ed09.png",
+          "retrieved_at": "2026-10-31T23:38:32.118062+00:00",
+          "sha256": "8b6247204cbeff7b817581fd367ab664b712b2131f5647e99d6904b6a46ff220",
+          "source_sha256": "8b6247204cbeff7b817581fd367ab664b712b2131f5647e99d6904b6a46ff220",
+          "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Duskwave.png?fc9ed"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+        "slot_clip_candidate": {
+          "kind": "webm",
+          "path": "media/aphelios_q.webm",
+          "retrieved_at": "2026-10-31T23:38:21.815635+00:00",
+          "sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+          "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+        },
+        "subject_id": "wiki:duskwave",
+        "unresolved": [
+          "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+        ],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-ability-variant-q-duskwave-infernum-recognize-l2.html",
+      "purpose": "Avoid the cone and recognize that its follow-up carries the off-hand weapon's threat.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:weapon:none:crescendum:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Crescendum must return before Aphelios can attack again, and catching it resets his attack timer, favoring close-range attacks with shorter return travel.",
+            "covered": true,
+            "mechanic_id": "crescendum_return",
+            "reason": "Explains the return gate and timer reset; the close-range consequence follows qualitatively from travel distance."
+          },
+          {
+            "answer_quote": "Abilities that would attack with Crescendum instead send returning mirror chakrams; catching them strengthens Crescendum attacks with bonus physical damage based on how many he holds. Catching another mirror chakram or attacking a champion with Crescendum refreshes their duration.",
+            "covered": true,
+            "mechanic_id": "crescendum_mirrors",
+            "reason": "Explains generation, collection, damage scaling and both refresh conditions."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios throws a chakram as his basic attack and he cannot attack again until it returns to him.",
+              "source_id": "wiki:crescendum"
+            },
+            {
+              "quote": "He is unable to declare basic attacks until he retrieves Crescendum, but the attack timer is reset once caught.",
+              "source_id": "wiki:crescendum"
+            }
+          ],
+          "id": "crescendum_return",
+          "summary": "Crescendum must return before Aphelios can attack again, and catching it resets his attack timer; shorter return travel favors close-range attacks."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Other abilities will create mirror chakrams that he gathers, and his basic attacks deal bonus physical damage based on how many mirror chakrams he holds.",
+              "source_id": "wiki:crescendum"
+            },
+            {
+              "quote": "Chakram duration is refreshed when Aphelios catches a new one or attacks a champion with Crescendum.",
+              "source_id": "wiki:crescendum"
+            }
+          ],
+          "id": "crescendum_mirrors",
+          "summary": "Abilities generate mirror chakrams that strengthen Crescendum attacks; catching more or attacking champions with Crescendum refreshes their duration."
+        }
+      ],
+      "id": "champ:523:weapon:none:crescendum:recognize:L2",
+      "issues": [
+        "Close-range advantage is a qualitative consequence of the sourced return gate and timer reset, not an explicit comparative assertion. The required basis enum has no general mechanical-derivation value; source_assertion identifies the underlying mechanics.",
+        "Mirror and spectral chakrams refer to the collected additional blades in these excerpts.",
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "weapon",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:weapon:none:crescendum:recognize:L2",
+        "context_id": "",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/unit-8481641dafb75438c87b.png",
+          "retrieved_at": "2026-10-31T23:38:32.275963+00:00",
+          "sha256": "e8dd8412d0fe6c6e674787c5d964b76d41171cf247e60fbe569ffcc3921854c0",
+          "source_sha256": "e8dd8412d0fe6c6e674787c5d964b76d41171cf247e60fbe569ffcc3921854c0",
+          "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Crescendum.png?12a70"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+        "slot_clip_candidate": null,
+        "subject_id": "wiki:crescendum",
+        "unresolved": [],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-weapon-none-crescendum-recognize-l2.html",
+      "purpose": "Recognize dangerous close-range damage, especially with accumulated mirror chakrams; disengage to let temporary strength expire.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "PENDING FOR TEST: Crescendum attack cannot exceed attack speed limit",
+              "source_id": "wiki:sentry"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "The attack-speed-limit note is explicitly pending testing and is excluded from learned mechanics."
+        }
+      ],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:ability_variant:q:sentry:crescendum:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "With Crescendum main-hand, Sentry places a stationary sentry that grants sight and automatically attacks the nearest visible enemy in range with a copy of the off-hand weapon.",
+            "covered": true,
+            "mechanic_id": "sentry_active",
+            "reason": "Explains placement, vision, targeting and off-hand dependence; stationary behavior is a reasonable consequence of the supplied emplacement description."
+          },
+          {
+            "answer_quote": "An enemy entering its range activates it and makes it targetable.",
+            "covered": true,
+            "mechanic_id": "sentry_activation",
+            "reason": "Explains activation and targetability."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aphelios deploys a lunar sentry that gains a copy of his off-hand weapon and attacks with it, dealing physical damage.",
+              "source_id": "wiki:sentry"
+            },
+            {
+              "quote": "The sentry grants sight of its surroundings and autonomously attacks the nearest visible enemy in range with a replica of Aphelios' current off-hand weapon",
+              "source_id": "wiki:sentry"
+            }
+          ],
+          "id": "sentry_active",
+          "summary": "Sentry deploys a stationary threat that grants sight and automatically attacks nearby visible enemies with a copy of the off-hand weapon."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The sentry activates if an enemy is within range of it, reducing its duration to 4 seconds and becoming targetable.",
+              "source_id": "wiki:sentry"
+            }
+          ],
+          "id": "sentry_activation",
+          "summary": "An enemy entering its range activates the sentry and makes it targetable."
+        }
+      ],
+      "id": "champ:523:ability_variant:q:sentry:crescendum:recognize:L2",
+      "issues": [
+        "The attack-speed-limit note is explicitly pending testing and is excluded.",
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "ability_variant",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:ability_variant:q:sentry:crescendum:recognize:L2",
+        "context_id": "wiki:crescendum",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/unit-00c29974b90e3b9ba45a.png",
+          "retrieved_at": "2026-10-31T23:38:32.456260+00:00",
+          "sha256": "4190c948375faed54c56c0aa5e2c99a0f1b3433d90f5d64096c4dff37bd40544",
+          "source_sha256": "4190c948375faed54c56c0aa5e2c99a0f1b3433d90f5d64096c4dff37bd40544",
+          "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Sentry.png?0b79c"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+        "slot_clip_candidate": {
+          "kind": "webm",
+          "path": "media/aphelios_q.webm",
+          "retrieved_at": "2026-10-31T23:38:21.815635+00:00",
+          "sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+          "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+        },
+        "subject_id": "wiki:sentry",
+        "unresolved": [
+          "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+        ],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-ability-variant-q-sentry-crescendum-recognize-l2.html",
+      "purpose": "Recognize off-hand-dependent zone control; avoid activating the sentry carelessly or destroy it once targetable.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:w:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Phase swaps Aphelios' main-hand and off-hand weapons, changing his basic attack and available weapon active.",
+            "covered": true,
+            "mechanic_id": "phase_swap",
+            "reason": "Directly explains the exchange and its consequences."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios swaps his main-hand gun with his off-hand gun, replacing his basic attack and activated ability.",
+              "source_id": "riot:W"
+            }
+          ],
+          "id": "phase_swap",
+          "summary": "Phase exchanges main-hand and off-hand weapons, changing his basic attack and available weapon active."
+        }
+      ],
+      "id": "champ:523:w:recognize:L2",
+      "issues": [
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "ability",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:w:recognize:L2",
+        "context_id": "wiki:thehitmanandtheseer",
+        "gif": {
+          "frames": 75,
+          "kind": "gif",
+          "loop": 0,
+          "path": "media/aphelios_w.gif",
+          "recipe": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+            "loop": 0,
+            "source_sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4"
+          },
+          "sha256": "4e6bdec21ee18b8536b279be31e89bd5b8f2835fe3936b204b57d5d7b4d09a61",
+          "source_sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_W1.webm"
+        },
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/aphelios_w_icon.png",
+          "retrieved_at": "2026-10-31T23:38:25.322497+00:00",
+          "sha256": "c61585d26b433718c3b7473e8e66b567b2fbc78f3e6e9cf91e3dfd19601f189f",
+          "source_sha256": "c61585d26b433718c3b7473e8e66b567b2fbc78f3e6e9cf91e3dfd19601f189f",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ApheliosW.png"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "exact primary ability name/source; no variant inference",
+        "slot_clip_candidate": null,
+        "subject_id": "wiki:phase",
+        "unresolved": [],
+        "video": {
+          "kind": "webm",
+          "path": "media/aphelios_w.webm",
+          "retrieved_at": "2026-10-31T23:38:25.565796+00:00",
+          "sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4",
+          "source_sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_W1.webm"
+        }
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-w-recognize-l2.html",
+      "purpose": "Reassess his threat immediately after a swap; the previously off-hand weapon can now supply the active.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Changing weapons while Moonlight Vigil is in flight does not change the effect it has when it hits.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "status": "supported",
+          "summary": "Swapping weapons during the projectile's flight does not change its weapon effect."
+        },
+        {
+          "citations": [
+            {
+              "quote": "When critically striking, the attacks on locked-on targets when using Severum and Crescendum deal slightly more than 120% damage.(bug) It is currently unknown where this damage originates from.",
+              "source_id": "wiki:moonlightvigil"
+            },
+            {
+              "quote": "PENDING FOR TEST: It is also unknown whether this is just a Practice Tool bug.",
+              "source_id": "wiki:moonlightvigil"
+            },
+            {
+              "quote": "Note: Values are outdated due to patch V26.01.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "The anomalous critical damage report is bug-labeled, unverified and accompanied by an outdated-values warning; it is excluded from core facts."
+        }
+      ],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:523:r:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Moonlight Vigil explodes on an enemy champion, deals physical damage to champions in the area, then follows with physical attacks carrying the main-hand weapon's effect chosen when fired; swapping during flight does not change it.",
+            "covered": true,
+            "mechanic_id": "moonlightvigil_base",
+            "reason": "Explains collision, area damage, follow-up attacks and the sourced weapon-effect lock."
+          },
+          {
+            "answer_quote": "Calibrum applies empowered marks",
+            "covered": true,
+            "mechanic_id": "moonlightvigil_calibrum",
+            "reason": "States the Calibrum outcome."
+          },
+          {
+            "answer_quote": "Severum heals Aphelios through the blast and follow-up attacks",
+            "covered": true,
+            "mechanic_id": "moonlightvigil_severum",
+            "reason": "States both healing components in the champion-hit context established by the opening sentence."
+          },
+          {
+            "answer_quote": "Gravitum applies an enhanced slow and lets Binding Eclipse root affected targets for longer.",
+            "covered": true,
+            "mechanic_id": "moonlightvigil_gravitum",
+            "reason": "Explains enhanced slowing and the conditional longer root, supported by the supplied comparison."
+          },
+          {
+            "answer_quote": "Infernum increases the initial blast's damage and makes follow-up attacks splash around targets, with overlapping areas damaging champions",
+            "covered": true,
+            "mechanic_id": "moonlightvigil_infernum",
+            "reason": "Explains increased blast damage, splash and overlap without relying on disputed formulas."
+          },
+          {
+            "answer_quote": "Crescendum grants mirror chakrams, increasing with the number of targets hit by the initial blast.",
+            "covered": true,
+            "mechanic_id": "moonlightvigil_crescendum",
+            "reason": "Explains generation and target-count dependence at the frozen qualitative level."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aphelios fires a concentrated blast of moonlight that explodes upon hitting an enemy champion, dealing physical damage to enemy champions in the area. Then basic attacks rain from the sky to the targets, dealing physical damage and applying unique effects of his main weapon.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "moonlightvigil_base",
+          "summary": "Moonlight Vigil explodes on an enemy champion, damages champions in the area, and follows with physical attacks carrying the main weapon's special effect."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Calibrum: Applies an empowered mark on all targets.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "moonlightvigil_calibrum",
+          "summary": "With Calibrum, Moonlight Vigil applies empowered marks to its targets."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Severum: The initial blast heals Aphelios, and so do the attacks.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "moonlightvigil_severum",
+          "summary": "With Severum, the blast and follow-up attacks heal Aphelios."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Gravitum: Increases the initial slow to 99% and empowers Binding Eclipse to root targets affected by the enhanced slow for 1.35 seconds.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "moonlightvigil_gravitum",
+          "summary": "With Gravitum, Moonlight Vigil applies an enhanced slow and empowers Binding Eclipse with a longer root against affected targets."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Infernum: The initial blast deals increased damage, and the attacks splash on each target.",
+              "source_id": "wiki:moonlightvigil"
+            },
+            {
+              "quote": "Enemy champions will take damage from overlapping areas.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "moonlightvigil_infernum",
+          "summary": "With Infernum, the initial blast deals increased damage and follow-up attacks splash around targets; overlapping areas can damage champions."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Crescendum: Aphelios gains more mirror chakrams with the more targets hit with the initial blast.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "moonlightvigil_crescendum",
+          "summary": "With Crescendum, Moonlight Vigil grants mirror chakrams, increasing with targets hit by the initial blast."
+        }
+      ],
+      "id": "champ:523:r:recognize:L2",
+      "issues": [
+        "The anomalous critical-damage report is bug-labeled and pending testing; exact damage values are excluded.",
+        "Alternative Infernum formulas and an outdated-values warning limit numerical reliability; qualitative cores are retained.",
+        "Counterplay inference type: qualitative_effect_derivation."
+      ],
+      "kind": "ability",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:523:r:recognize:L2",
+        "context_id": "wiki:thehitmanandtheseer",
+        "gif": {
+          "frames": 79,
+          "kind": "gif",
+          "loop": 0,
+          "path": "media/aphelios_r.gif",
+          "recipe": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+            "loop": 0,
+            "source_sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b"
+          },
+          "sha256": "b77da4bcf98e2f14d21a989fc3ed1f23626b8cefa82465295ffb5e13ac9dadf3",
+          "source_sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_R1.webm"
+        },
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/aphelios_r_icon.png",
+          "retrieved_at": "2026-10-31T23:38:28.502040+00:00",
+          "sha256": "d97226dae0e21ea9e6d694d1ca45eac2b4d6c9a32a03b7c0b46143e5b3d158ae",
+          "source_sha256": "d97226dae0e21ea9e6d694d1ca45eac2b4d6c9a32a03b7c0b46143e5b3d158ae",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ApheliosR.png"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "exact primary ability name/source; no variant inference",
+        "slot_clip_candidate": null,
+        "subject_id": "wiki:moonlightvigil",
+        "unresolved": [
+          "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+        ],
+        "video": {
+          "kind": "webm",
+          "path": "media/aphelios_r.webm",
+          "retrieved_at": "2026-10-31T23:38:28.717796+00:00",
+          "sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b",
+          "source_sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_R1.webm"
+        }
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-523-r-recognize-l2.html",
+      "purpose": "Identify the firing weapon to anticipate marks, healing, control, splash or strengthened follow-up attacks; spread against Infernum and respect Crescendum afterward.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "card_id": "champ:523:system:p:thehitmanandtheseer:recognize:L2",
+      "priority": "A",
+      "reason": "Separate weapon-active cooldowns mean a swap may expose another available active.",
+      "source_ids": [
+        "wiki:weaponsofthefaithful"
+      ]
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:bindingeclipse:gravitum:recognize:L2",
+      "priority": "A",
+      "reason": "Root availability changes the danger of a Gravitum hit.",
+      "source_ids": [
+        "wiki:bindingeclipse"
+      ]
+    },
+    {
+      "card_id": "champ:523:r:recognize:L2",
+      "priority": "A",
+      "reason": "Ultimate availability changes area threat and weapon-dependent follow-up.",
+      "source_ids": [
+        "riot:R",
+        "wiki:moonlightvigil"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "This is unapproved editorial material derived only from the supplied packet; no current-client verification was performed.",
+    "The pinned Data Dragon release does not establish a current game patch label.",
+    "The mobility conclusion is an inference from the complete supplied active kit, which lists movement speed but no displacement.",
+    "The shorter-return-distance benefit for Crescendum is inferred from its return-gated attack timing.",
+    "Moonlight Vigil includes explicitly outdated values and bug or pending-test notes; qualitative effects are retained without treating those numerical notes as current facts.",
+    "Crescendum attack-speed-limit behavior is pending testing and is not established.",
+    "Demonstration clips do not verify current-client or skin-specific recognition cues; no weapon colors or skin-specific visuals are asserted.",
+    "No dash or blink is an exhaustive-kit inference, not an explicit source assertion, and depends on the supplied enumeration being complete.",
+    "AD build_focus describes broad physical attack orientation; the sources do not prescribe an item build.",
+    "Counterplay inference type for every card is qualitative_effect_derivation, recorded in each card's metadata because the output schema has no dedicated counterplay inference field.",
+    "The close-range Crescendum consequence is derived from return travel and the attack-timer reset. The schema permits no general mechanical-inference basis; its source_assertion fact cites the underlying mechanics and discloses this limitation.",
+    "Stationary sentry behavior follows the supplied placement and autonomous in-range targeting description.",
+    "Binding Eclipse's general slow-to-root behavior retains the targetability condition; immunity and in-flight projectile exceptions remain metadata.",
+    "Numerical anomalies and pending-test claims are excluded without dropping qualitative frozen cores.",
+    "The supplied release is pinned; no patch label, appearance, animation or skin-specific behavior is inferred.",
+    "Dash/blink absence remains an explicitly typed exhaustive-kit inference with a recorded completeness dependency, rather than a confirmed source quotation.",
+    "The draft conflict entry mentioning a prior kit_complete=false review has no independently supplied supporting review. Treat that reference as unverified metadata; the supplied live sections support completeness at the requested teaching scope.",
+    "Crescendum's close-range advantage and Sentry's stationary characterization are qualitative derivations from supplied mechanics, not verbatim assertions; their metadata discloses this.",
+    "Ultimate numerical uncertainty and Binding Eclipse immunity/projectile exceptions remain metadata issues; they do not invalidate the supported qualitative cores."
+  ],
+  "features": [
+    "weapon_system",
+    "resource_cycle",
+    "ability_variants",
+    "conditional_effects",
+    "unconventional_leveling",
+    "noncombat_slot"
+  ],
+  "findings": [
+    {
+      "code": "adaptive_kit_structure",
+      "message": "15 live sections discovered; conventional slot headings are not a completeness contract."
+    },
+    {
+      "code": "noncombat_slot_without_animation",
+      "message": "Source inventory identifies an indicator/unused slot; no combat animation expected.",
+      "name": "aphelios_e.webm",
+      "original_code": "media_url_missing",
+      "severity": "info"
+    },
+    {
+      "code": "noncombat_slot_without_animation",
+      "message": "Source inventory identifies an indicator/unused slot; no combat animation expected.",
+      "original_code": "active_icon_fallback",
+      "severity": "info",
+      "slot": "E"
+    }
+  ],
+  "generation": {
+    "inventory": {
+      "attempts": 1,
+      "configured_model": "",
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 22264,
+            "output_tokens": 9859,
+            "reasoning_output_tokens": 116
+          }
+        ]
+      },
+      "output_sha256": "a6ad8bc92b30284e132d5f52d8e085e1a534f32012bfca68a40cba844947486c",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "2d5dc438f9e458fad3a701d1c6b91f4b27422467571ee6926739980fcc6516ac"
+    },
+    "model_source_characters": 26155,
+    "passes": [
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 0,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 36824,
+                "output_tokens": 8500,
+                "reasoning_output_tokens": 93
+              }
+            ]
+          },
+          "output_sha256": "f37641d185e43cf5149ee4c139aff6e27c6333e1e22de2a6ac0d32b8aa935f9b",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "c3d4e1fc642f3287121f47260c65979de782953ecc9d699618466d71ed8872f5"
+        },
+        "pass": 1,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 0,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 34767,
+                "output_tokens": 3828,
+                "reasoning_output_tokens": 52
+              }
+            ]
+          },
+          "output_sha256": "5563526a056c3302e63777f503a13740919a4fcf22898cfd0fd78bdc29b7f8c5",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "854237301874b222b6405a8a8447820fb7e5ab7815917947c0dac53115516057"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "bc1fffc1d7f3c68f035d693d98b836525f052e1f71a5f109d263460ae983a864",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "c6569ae4b284ca4203c19ccbf3a0ea9f693f526b6d648ab28a0b3995429c885d",
+    "usage": {
+      "available_receipt_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 93855,
+        "output_tokens": 22187,
+        "reasoning_output_tokens": 261
+      },
+      "logical_requests": 3,
+      "recorded_model_attempts": 3,
+      "scope": "Recorded generation usage; cached replay does not repeat these model calls. Failed-attempt usage may be unavailable.",
+      "usage_receipts_available": 3
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:523:ability_variant:q:bindingeclipse:gravitum:recognize:L2": {
+      "cid": 2313179069607,
+      "guid": "d086a70f8a38a8",
+      "nid": 1813179069607
+    },
+    "champ:523:ability_variant:q:duskwave:infernum:recognize:L2": {
+      "cid": 2390750516959,
+      "guid": "4517dd082baf4a",
+      "nid": 1890750516959
+    },
+    "champ:523:ability_variant:q:moonshot:calibrum:recognize:L2": {
+      "cid": 2512426161451,
+      "guid": "cfa714378d846a",
+      "nid": 2012426161451
+    },
+    "champ:523:ability_variant:q:onslaught:severum:recognize:L2": {
+      "cid": 2319180175150,
+      "guid": "a9a2423d44307f",
+      "nid": 1819180175150
+    },
+    "champ:523:ability_variant:q:sentry:crescendum:recognize:L2": {
+      "cid": 2364344069691,
+      "guid": "529d131e00a718",
+      "nid": 1864344069691
+    },
+    "champ:523:overview:L1": {
+      "cid": 2475999422445,
+      "guid": "a91bc3a499c302",
+      "nid": 1975999422445
+    },
+    "champ:523:r:recognize:L2": {
+      "cid": 2573218078854,
+      "guid": "8e607b75df65ba",
+      "nid": 2073218078854
+    },
+    "champ:523:system:p:thehitmanandtheseer:recognize:L2": {
+      "cid": 2566178444036,
+      "guid": "057e6b1b9651dd",
+      "nid": 2066178444036
+    },
+    "champ:523:w:recognize:L2": {
+      "cid": 2521447796515,
+      "guid": "5ba8ce54316030",
+      "nid": 2021447796515
+    },
+    "champ:523:weapon:none:calibrum:recognize:L2": {
+      "cid": 2524766597422,
+      "guid": "f9e9ca3889c57a",
+      "nid": 2024766597422
+    },
+    "champ:523:weapon:none:crescendum:recognize:L2": {
+      "cid": 2363920574292,
+      "guid": "ccfd810d471b44",
+      "nid": 1863920574292
+    },
+    "champ:523:weapon:none:gravitum:recognize:L2": {
+      "cid": 2405187111428,
+      "guid": "5fcd49ae486a56",
+      "nid": 1905187111428
+    },
+    "champ:523:weapon:none:infernum:recognize:L2": {
+      "cid": 2421208494786,
+      "guid": "f6dc1afe31217a",
+      "nid": 1921208494786
+    },
+    "champ:523:weapon:none:severum:recognize:L2": {
+      "cid": 2457986072575,
+      "guid": "eb0d50f12e086c",
+      "nid": 1957986072575
+    }
+  },
+  "kit_complete_draft": true,
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "AI planning/verification is fallible and cannot prove every source topic was inventoried."
+  ],
+  "media_references": [
+    "aphelios_p_icon.png",
+    "aphelios_portrait.jpg",
+    "aphelios_r.gif",
+    "aphelios_r_icon.png",
+    "aphelios_w.gif",
+    "aphelios_w_icon.png",
+    "unit-00c29974b90e3b9ba45a.png",
+    "unit-15dd80a97f672e57b422.png",
+    "unit-4d6cb864b6252ba47d40.png",
+    "unit-4e2863f682cfffbdd446.png",
+    "unit-557d40e861eedf65ed09.png",
+    "unit-5e9f7e6e7b44a739297b.png",
+    "unit-8481641dafb75438c87b.png",
+    "unit-9fe9779b09f2c229c44e.png",
+    "unit-ddfb992ed19a049a2333.png",
+    "unit-ea07b67447c92ea472de.png"
+  ],
+  "missing_media": [
+    {
+      "card_id": "champ:523:system:p:thehitmanandtheseer:recognize:L2",
+      "issues": [
+        "Passive/resource/leveling visual cues require manual review of the archived demonstration frames."
+      ]
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:moonshot:calibrum:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:onslaught:severum:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:bindingeclipse:gravitum:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:duskwave:infernum:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:sentry:crescendum:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:523:r:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ]
+    }
+  ],
+  "new_cards": 14,
+  "omitted_topics": [],
+  "passive_frame_evidence": [
+    {
+      "path": "visual-inputs/passive-1.png",
+      "sha256": "72a6f1bc9808b055dec784e963c85586bd676ab737a5c3a65752355721707c10",
+      "source_sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 2.7525
+    },
+    {
+      "path": "visual-inputs/passive-2.png",
+      "sha256": "aee460ee0d07dda39d949652077ab12119d27e33a2e4fa23f251dc80801b91c1",
+      "source_sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 7.34
+    },
+    {
+      "path": "visual-inputs/passive-3.png",
+      "sha256": "c57a3a2b04e4aed14144bb6c11f6973f433ad3ad839f4a5939066464490b146f",
+      "source_sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 11.9275
+    },
+    {
+      "path": "visual-inputs/passive-4.png",
+      "sha256": "9da2f19c50fb123c86ff31bf3bbd5f091c51542774edb21ea8747f47e40820c6",
+      "source_sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 16.515
+    }
+  ],
+  "publishable": false,
+  "schema_version": 2,
+  "source_conflicts": [
+    {
+      "resolution": "Treat E as a noncombat queue indicator with an informational text action. The wiki's 'Active' label does not establish a combat spell.",
+      "source_ids": [
+        "riot:E",
+        "wiki:weaponqueuesystem"
+      ],
+      "topic": "E described as no ability versus an informational active"
+    },
+    {
+      "resolution": "Teach qualitative ultimate effects. Exclude stale numerical values and the explicitly uncertain critical-damage anomaly.",
+      "source_ids": [
+        "wiki:moonlightvigil",
+        "riot:R"
+      ],
+      "topic": "Ultimate numerical notes include outdated values and an unverified bug"
+    },
+    {
+      "resolution": "Use the explicit Calibrum attribution in the Calibrum section. Treat the Crescendum projectile note embedded in Moonshot as cross-topic detail, not a Moonshot mechanic.",
+      "source_ids": [
+        "wiki:moonshot",
+        "wiki:calibrum",
+        "wiki:crescendum"
+      ],
+      "topic": "Cross-topic notes embedded in ability sections"
+    },
+    {
+      "resolution": "Teach E as a next-weapon indicator with an optional text prompt, consistent with having no third combat ability.",
+      "source_ids": [
+        "riot:E",
+        "wiki:weaponqueuesystem"
+      ],
+      "topic": "E indicator versus active text prompt"
+    },
+    {
+      "resolution": "Specify ammunition costs for basic attacks and primary casts, and explicitly exempt automatic attacks caused by abilities from additional costs.",
+      "source_ids": [
+        "riot:P",
+        "wiki:thehitmanandtheseer"
+      ],
+      "topic": "General ammunition description versus detailed cost rules"
+    },
+    {
+      "resolution": "Retain qualitative ultimate effects while excluding alternative numerical formulas, anomalous critical damage and pending-test claims.",
+      "source_ids": [
+        "riot:R",
+        "wiki:moonlightvigil"
+      ],
+      "topic": "Ultimate numerical uncertainty"
+    },
+    {
+      "resolution": "The supplied P/Q/W/E/R descriptions enumerate the active kit, permitting the requested absence inference. The review's kit_complete=false is retained as a completeness risk rather than treated as evidence of an omitted ability.",
+      "source_ids": [
+        "riot:P",
+        "riot:Q",
+        "riot:W",
+        "riot:E",
+        "riot:R"
+      ],
+      "topic": "Complete active enumeration versus review completeness flag"
+    },
+    {
+      "resolution": "E displays the next reserve weapon and can produce a text prompt; this does not establish a third combat spell.",
+      "source_ids": [
+        "riot:E",
+        "wiki:weaponqueuesystem"
+      ],
+      "topic": "E description"
+    },
+    {
+      "resolution": "The detailed ammunition rule qualifies the short general description: primary casts and ordinary attacks consume ammunition, while ability-generated automatic attacks consume no additional ammunition.",
+      "source_ids": [
+        "riot:P",
+        "wiki:thehitmanandtheseer"
+      ],
+      "topic": "Ammunition consumption"
+    },
+    {
+      "resolution": "Retain qualitative ultimate effects. Exclude conflicting formulas, bug reports, pending tests and outdated numerical examples from learned facts.",
+      "source_ids": [
+        "wiki:moonlightvigil",
+        "riot:R"
+      ],
+      "topic": "Ultimate numerical uncertainty"
+    },
+    {
+      "resolution": "The explicit in-flight swap rule qualifies the general current-main-weapon wording; teaching the firing weapon's effect is supported.",
+      "source_ids": [
+        "wiki:moonlightvigil",
+        "riot:R"
+      ],
+      "topic": "Ultimate weapon selection"
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4022591"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

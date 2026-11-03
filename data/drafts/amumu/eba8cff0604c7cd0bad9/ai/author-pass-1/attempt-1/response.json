@@ -1,0 +1,347 @@
+{
+  "cards": [
+    {
+      "answer": "Amumu is a tank and support who pulls himself into enemies and stuns nearby foes. He deals magic damage and makes cursed enemies take extra true damage from incoming magic damage. Focus on learning his tank role with health, armor and magic resistance.",
+      "build_focus": "Health, Armor, MR",
+      "counterplay": "Dodge his bandage and spread out when he approaches to limit his area stun.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Amumu. Official role tags: Tank, Support.",
+              "source_id": "riot:role"
+            }
+          ],
+          "claim": "Amumu is a tank and support"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Amumu tosses a sticky bandage at a target, stunning and damaging the target while he pulls himself to them.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Amumu entangles surrounding enemy units in bandages, applying his Curse, damaging and stunning them.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "pulls himself into enemies and stuns nearby foes"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Amumu releases his anger, dealing magic damage to nearby enemies.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Amumu's basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage.",
+              "source_id": "riot:P"
+            }
+          ],
+          "claim": "He deals magic damage and makes cursed enemies take extra true damage from incoming magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Name: Amumu. Official role tags: Tank, Support.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Physical Damage Reduction:5 / 7 / 9 / 11 / 13 (+ 3% bonus armor) (+ 3% bonus magic resistance)",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Focus on learning his tank role with health, armor and magic resistance."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Recognizing his engage and area stun helps prevent several teammates being caught together.",
+      "slot": "-",
+      "uncertainties": [
+        "The tank-stat learning focus is teaching guidance inferred from his role; health is not explicitly recommended by the supplied excerpts.",
+        "UNAPPROVED draft."
+      ]
+    },
+    {
+      "answer": "Amumu's basic attacks apply Curse to enemies. Cursed enemies take bonus true damage when they receive magic damage.",
+      "build_focus": "",
+      "counterplay": "Avoid taking magic damage while cursed when possible.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Amumu's basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage.",
+              "source_id": "riot:P"
+            }
+          ],
+          "claim": "Amumu's basic attacks apply Curse to enemies."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Curse targets take bonus true damage from incoming magic damage.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Amumu's basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage.",
+              "source_id": "riot:P"
+            }
+          ],
+          "claim": "Cursed enemies take bonus true damage when they receive magic damage."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Curse explains why incoming magic damage becomes more threatening.",
+      "slot": "P",
+      "uncertainties": [
+        "No passive frames or textual description of a visible Curse indicator were supplied.",
+        "Applying basic attacks can amplify their own magic on-hit damage; R's damage benefits only when Curse was already present.",
+        "UNAPPROVED draft."
+      ]
+    },
+    {
+      "answer": "Amumu throws a bandage in a direction, dealing magic damage to and stunning the first enemy hit while pulling himself to them. He stores up to two charges that replenish over time.",
+      "build_focus": "",
+      "counterplay": "Dodge the bandage's path. Be ready for another cast because he can store two charges.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Amumu throws a bandage in the target direction that deals magic damage to the first enemy hit, stunning them for 1 second and pulling him to them, during which they are revealed.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Amumu tosses a sticky bandage at a target, stunning and damaging the target while he pulls himself to them.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "Amumu throws a bandage in a direction, dealing magic damage to and stunning the first enemy hit while pulling himself to them."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Amumu periodically stocks a Bandage Toss charge, up to a maximum of 2.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "He stores up to two charges that replenish over time."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The stun and dash let Amumu start fights, and stored charges allow a follow-up.",
+      "slot": "Q",
+      "uncertainties": [
+        "Spell shields do not prevent the dash, and immobilization does not prevent it from commencing.",
+        "Dash tracking has a distance exception; the projectile can still damage and stun after Amumu dies.",
+        "UNAPPROVED draft."
+      ]
+    },
+    {
+      "answer": "Amumu toggles an aura that continually deals magic damage to nearby enemies, including damage based on their maximum health. Its damage refreshes existing Curse marks.",
+      "build_focus": "",
+      "counterplay": "Move away from Amumu to leave the damaging aura and stop it refreshing your existing Curse.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Toggle: Amumu begins crying, continually dealing magic damage to nearby enemies based on their maximum health.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Overcome by anguish, nearby enemies lose a percentage of their maximum Health each second and have their Curses refreshed.",
+              "source_id": "riot:W"
+            }
+          ],
+          "claim": "Amumu toggles an aura that continually deals magic damage to nearby enemies, including damage based on their maximum health."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Despair will refresh ongoing Curse marks on enemies hit.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Its damage refreshes existing Curse marks."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Remaining nearby means repeated damage and continued Curse refreshes.",
+      "slot": "W",
+      "uncertainties": [
+        "Refreshing Curse does not establish that W applies a new Curse.",
+        "W turns off automatically when Amumu cannot pay its mana cost.",
+        "UNAPPROVED draft."
+      ]
+    },
+    {
+      "answer": "Tantrum passively reduces incoming physical damage. Activating it deals magic damage to nearby enemies. Basic attacks that hit Amumu reduce its remaining cooldown.",
+      "build_focus": "",
+      "counterplay": "Keep your distance to avoid the area damage. Account for your basic attacks helping him use Tantrum again sooner.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Permanently reduces the physical damage Amumu would take.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Passive: Amumu gains damage reduction against physical damage.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Tantrum passively reduces incoming physical damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Amumu releases his anger, dealing magic damage to nearby enemies.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Activating it deals magic damage to nearby enemies."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Tantrum's cooldown is reduced whenever he is hit by a basic attack.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Basic attacks that hit Amumu reduce its remaining cooldown."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Physical damage reduction and attack-driven reuse matter in extended close-range fights.",
+      "slot": "E",
+      "uncertainties": [
+        "Blocked attacks still reduce the cooldown; attacks that miss because the attacker is blinded do not.",
+        "Certain repeated on-hit effects can trigger multiple cooldown reductions.",
+        "Physical reduction applies per damage instance before mitigation and has a cap.",
+        "UNAPPROVED draft."
+      ]
+    },
+    {
+      "answer": "Amumu deals magic damage to surrounding enemies, briefly interrupts their dashes and stuns them. He also applies Curse to affected enemies.",
+      "build_focus": "",
+      "counterplay": "Spread out and keep away from Amumu when he approaches to avoid several teammates being stunned together.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Amumu entangles nearby enemies in bandages, dealing magic damage as well as briefly knocking down and stunning them.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Amumu deals magic damage to surrounding enemies, briefly interrupts their dashes and stuns them."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Amumu entangles surrounding enemy units in bandages, applying his Curse, damaging and stunning them.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Amumu's basic attacks and Curse of the Sad Mummy mark enemies with Curse.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "He also applies Curse to affected enemies."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "An area stun can disable several enemies and decide a team fight.",
+      "slot": "R",
+      "uncertainties": [
+        "The excerpt names knockdown but does not explicitly define its dash-interruption behavior.",
+        "Curse is applied after R's damage; a newly applied Curse does not amplify that hit.",
+        "Spell shields block R and prevent its Curse application.",
+        "UNAPPROVED draft."
+      ]
+    }
+  ],
+  "champion_id": 32,
+  "champion_name": "Amumu",
+  "conflicts": [
+    {
+      "resolution": "Use the Wiki's specific basic-attack condition for the core explanation and retain detailed hit interactions in metadata.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Riot broadly says being hit reduces Tantrum's cooldown; Wiki specifies incoming basic attacks."
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Track stored charges and recharge separately from the delay between casts.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Incoming basic attacks change when Tantrum becomes available again.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability of the area stun strongly affects his engage threat.",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "Health as a tank learning focus is inferred guidance rather than an explicit source recommendation.",
+    "The R excerpt supplies the term knockdown without defining it; the dash-interruption paraphrase requires additional support.",
+    "No passive visual cue is established by the supplied evidence.",
+    "Pinned sources and demonstration clips do not establish current-client or skin-specific behavior.",
+    "Wiki R includes unrelated skin and lore material, which was excluded.",
+    "Advanced Curse timing, spell-shield and on-hit interactions are not fully taught in these beginner cards."
+  ],
+  "language": "en"
+}

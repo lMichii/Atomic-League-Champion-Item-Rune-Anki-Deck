@@ -1,0 +1,178 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Eligible damaging attacks and abilities apply a physical-damage bleed that stacks up to five times.",
+          "covered": true,
+          "mechanic_id": "P.bleed",
+          "reason": "Explains eligible application, physical bleed damage and the five-stack cap."
+        },
+        {
+          "answer_quote": "Reaching five stacks on an enemy champion or killing a champion with R temporarily grants Noxian Might. This grants attack damage and makes eligible bleed applications apply maximum stacks.",
+          "covered": true,
+          "mechanic_id": "P.noxian_might",
+          "reason": "Explains both general triggers, temporary empowerment and both benefits. Special R target exceptions can remain in metadata."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "After a windup, Darius swings his axe around himself, dealing physical damage.",
+          "covered": true,
+          "mechanic_id": "Q.circular_damage",
+          "reason": "Explicitly explains the windup, circular swing and damage type."
+        },
+        {
+          "answer_quote": "The outer blade deals more damage and can apply Hemorrhage; the inner handle deals less damage and neither applies nor refreshes it.",
+          "covered": true,
+          "mechanic_id": "Q.blade_handle",
+          "reason": "Explains the damage and bleed differences between blade and handle."
+        },
+        {
+          "answer_quote": "Blade hits on enemy champions and large monsters heal him based on his missing health and the number of eligible targets hit.",
+          "covered": true,
+          "mechanic_id": "Q.heal",
+          "reason": "Explains eligible healing targets and both scaling factors. Omitting the exact cap does not assert unlimited scaling."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Darius empowers his next basic attack to deal increased physical damage and slow its target.",
+          "covered": true,
+          "mechanic_id": "W.empowered_attack",
+          "reason": "Explains the empowered attack, damage increase and slow."
+        },
+        {
+          "answer_quote": "Activating W after a basic attack lets him attack again sooner.",
+          "covered": true,
+          "mechanic_id": "W.attack_reset",
+          "reason": "Explains the practical consequence of resetting the basic attack timer in beginner language."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Darius passively gains percentage armor penetration for his physical damage.",
+          "covered": true,
+          "mechanic_id": "E.armor_penetration",
+          "reason": "Explains passive percentage penetration and its physical-damage scope."
+        },
+        {
+          "answer_quote": "When activated, he sweeps a cone in front of him, pulling enemies hit toward him and slowing them.",
+          "covered": true,
+          "mechanic_id": "E.pull_slow",
+          "reason": "Explains the cone, pull and slow without asserting disputed rebound details."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Darius targets an enemy champion with a leap strike that deals true damage, increased by each Hemorrhage stack already on the target.",
+          "covered": true,
+          "mechanic_id": "R.true_damage",
+          "reason": "Explains champion targeting, the leap strike and true damage without promising a kill or unrestricted movement."
+        },
+        {
+          "answer_quote": "Darius targets an enemy champion with a leap strike that deals true damage, increased by each Hemorrhage stack already on the target.",
+          "covered": true,
+          "mechanic_id": "R.hemorrhage_scaling",
+          "reason": "Explicitly ties increased damage to stacks already present."
+        },
+        {
+          "answer_quote": "A qualifying kill lets him use R again through a temporary recast window; at maximum rank, it resets the cooldown permanently.",
+          "covered": true,
+          "mechanic_id": "R.kill_reuse",
+          "reason": "Explains qualified kill-based reuse and distinguishes temporary recasts from the maximum-rank reset."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Use the Wiki's enemy-champion restriction for maximum-stack empowerment; the passive draft does so.",
+      "source_ids": ["riot:P", "wiki:P"],
+      "topic": "Maximum-stack empowerment target scope"
+    },
+    {
+      "resolution": "Read broad passive application descriptions with the explicit Q handle exception. The drafts preserve eligible application and explain the exception.",
+      "source_ids": ["riot:P", "wiki:P", "wiki:Q"],
+      "topic": "General bleed application versus Q handle hits"
+    },
+    {
+      "resolution": "The detailed healing text and Riot both include large monsters, despite the Wiki's shorter champion-only description. Exact healing values and cap need not appear in this summary.",
+      "source_ids": ["riot:Q", "wiki:Q"],
+      "topic": "Q healing target scope within the excerpts"
+    },
+    {
+      "resolution": "Use the detailed Wiki qualification and rank distinction to refine Riot's abbreviated reset description. Keep special target exceptions in metadata.",
+      "source_ids": ["riot:R", "wiki:R"],
+      "topic": "R kill qualification and rank-dependent reuse"
+    }
+  ],
+  "factual_risks": [
+    "This support check does not provide human approval or visual verification.",
+    "Pinned source versions do not establish the current game patch.",
+    "AD and Health are inferred broad build guidance, not a sourced optimal build or evidence of direct health scaling.",
+    "E rebound-location and simultaneous-stun or brittle claims remain explicitly pending testing.",
+    "W's entire empowered attack being blocked by spell shields is explicitly reported by the Wiki but lacks independent corroboration in the supplied evidence.",
+    "Special R target exceptions distinguish cooldown resets from Noxian Might activation; the general beginner wording does not enumerate them.",
+    "No internal provenance or confidence labels appear in the visible answer, counterplay or build-focus text."
+  ]
+}

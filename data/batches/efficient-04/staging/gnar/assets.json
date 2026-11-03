@@ -1,0 +1,589 @@
+{
+  "abilities": {
+    "E": {
+      "gif": {
+        "frames": 79,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/gnar_e.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "67f5581639207650114b56a7556846ad869f974d4e034eb6ea12185466888d9a"
+        },
+        "sha256": "937d986401b90939c813fdb76bc082294bbb3ebe7e6f672e5a64d637bfd65a7f",
+        "source_sha256": "67f5581639207650114b56a7556846ad869f974d4e034eb6ea12185466888d9a",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_E1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/gnar_e_icon.png",
+        "retrieved_at": "2026-11-02T13:17:25.219349+00:00",
+        "sha256": "8738d4e7f4fa46d2c65e96deb5eeff634e2395a79b062a81da6b380660b651da",
+        "source_sha256": "8738d4e7f4fa46d2c65e96deb5eeff634e2395a79b062a81da6b380660b651da",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GnarE.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/gnar_e.webm",
+        "retrieved_at": "2026-11-02T13:17:25.798764+00:00",
+        "sha256": "67f5581639207650114b56a7556846ad869f974d4e034eb6ea12185466888d9a",
+        "source_sha256": "67f5581639207650114b56a7556846ad869f974d4e034eb6ea12185466888d9a",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_E1.webm"
+      }
+    },
+    "P": {
+      "gif": {
+        "frames": 80,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/gnar_p.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "9107a3ef3d7cc25e20c233075b4947725a481917dc08f3825f52f59bb3e64328"
+        },
+        "sha256": "d4d0957ff04477eb00dd48b1204b8af54217af48c944b852759205aa5aa38588",
+        "source_sha256": "9107a3ef3d7cc25e20c233075b4947725a481917dc08f3825f52f59bb3e64328",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_P1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/gnar_p_icon.png",
+        "retrieved_at": "2026-11-02T13:17:17.920594+00:00",
+        "sha256": "9f9f274e69bcf03dfc501d003d420593f398514ae320ed9609bba2ccf74b04e5",
+        "source_sha256": "9f9f274e69bcf03dfc501d003d420593f398514ae320ed9609bba2ccf74b04e5",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Gnar_Passive.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/gnar_p.webm",
+        "retrieved_at": "2026-11-02T13:17:18.234902+00:00",
+        "sha256": "9107a3ef3d7cc25e20c233075b4947725a481917dc08f3825f52f59bb3e64328",
+        "source_sha256": "9107a3ef3d7cc25e20c233075b4947725a481917dc08f3825f52f59bb3e64328",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_P1.webm"
+      }
+    },
+    "Q": {
+      "gif": {
+        "frames": 53,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/gnar_q.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "7314a2103ab20ab94c98e04d413e22bb3a8f0455d2ebfcd00b4710c8ca2ae1b9"
+        },
+        "sha256": "d64066075e5c0d1485dfe22f39b60aac6308d5a1420a9291a88c2963340a9631",
+        "source_sha256": "7314a2103ab20ab94c98e04d413e22bb3a8f0455d2ebfcd00b4710c8ca2ae1b9",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_Q1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/gnar_q_icon.png",
+        "retrieved_at": "2026-11-02T13:17:20.390003+00:00",
+        "sha256": "54afd4df5d54b8dc81543803169343cba1f499574ed8c188c5a866b7aae4b7a3",
+        "source_sha256": "54afd4df5d54b8dc81543803169343cba1f499574ed8c188c5a866b7aae4b7a3",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GnarQ.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/gnar_q.webm",
+        "retrieved_at": "2026-11-02T13:17:20.627582+00:00",
+        "sha256": "7314a2103ab20ab94c98e04d413e22bb3a8f0455d2ebfcd00b4710c8ca2ae1b9",
+        "source_sha256": "7314a2103ab20ab94c98e04d413e22bb3a8f0455d2ebfcd00b4710c8ca2ae1b9",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_Q1.webm"
+      }
+    },
+    "R": {
+      "gif": {
+        "frames": 44,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/gnar_r.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "2866928ed7b165280df787e3354c3d747417c584af96766890eb2a443641ff6b"
+        },
+        "sha256": "38c29c1465035bc29ab1d25e8055c8a79036d5f36850ddef00bf922b933ef3d5",
+        "source_sha256": "2866928ed7b165280df787e3354c3d747417c584af96766890eb2a443641ff6b",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_R1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/gnar_r_icon.png",
+        "retrieved_at": "2026-11-02T13:17:28.076105+00:00",
+        "sha256": "529f4e542e0d28033bb921ab4fa37c3a65b5d69001f2cb0170872dead71c10b5",
+        "source_sha256": "529f4e542e0d28033bb921ab4fa37c3a65b5d69001f2cb0170872dead71c10b5",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GnarR.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/gnar_r.webm",
+        "retrieved_at": "2026-11-02T13:17:28.323011+00:00",
+        "sha256": "2866928ed7b165280df787e3354c3d747417c584af96766890eb2a443641ff6b",
+        "source_sha256": "2866928ed7b165280df787e3354c3d747417c584af96766890eb2a443641ff6b",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_R1.webm"
+      }
+    },
+    "W": {
+      "gif": {
+        "frames": 86,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/gnar_w.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "23dda51a99c6a0d4ddef7cd1a7a3675c6386c3cf4b16792a9664b213c3168dd6"
+        },
+        "sha256": "f0fed80acdabf9ba919a2e3cf2b9b3310c3dc76431628eaf8acd0b1d9780e9de",
+        "source_sha256": "23dda51a99c6a0d4ddef7cd1a7a3675c6386c3cf4b16792a9664b213c3168dd6",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_W1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/gnar_w_icon.png",
+        "retrieved_at": "2026-11-02T13:17:22.525624+00:00",
+        "sha256": "84a0459b94c03f14450e97555ffced0cc1829bbb8b14de269cfe0a7e2f1c79df",
+        "source_sha256": "84a0459b94c03f14450e97555ffced0cc1829bbb8b14de269cfe0a7e2f1c79df",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GnarW.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/gnar_w.webm",
+        "retrieved_at": "2026-11-02T13:17:22.808496+00:00",
+        "sha256": "23dda51a99c6a0d4ddef7cd1a7a3675c6386c3cf4b16792a9664b213c3168dd6",
+        "source_sha256": "23dda51a99c6a0d4ddef7cd1a7a3675c6386c3cf4b16792a9664b213c3168dd6",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_W1.webm"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "card_id": "champ:gnar:overview:L1",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "jpg",
+        "path": "media/gnar_portrait.jpg",
+        "retrieved_at": "2026-11-02T13:17:17.264191+00:00",
+        "sha256": "a0cd03f10ea4bd399e7a0f595bbf70a32ff7486a6506b8fa46b58335f9a50a84",
+        "source_sha256": "a0cd03f10ea4bd399e7a0f595bbf70a32ff7486a6506b8fa46b58335f9a50a84",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "official champion portrait",
+      "slot_clip_candidate": null,
+      "subject_id": "riot:role",
+      "unresolved": [],
+      "video": null
+    },
+    {
+      "card_id": "champ:gnar:p:recognize:L2",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/gnar_p_icon.png",
+        "retrieved_at": "2026-11-02T13:17:17.920594+00:00",
+        "sha256": "9f9f274e69bcf03dfc501d003d420593f398514ae320ed9609bba2ccf74b04e5",
+        "source_sha256": "9f9f274e69bcf03dfc501d003d420593f398514ae320ed9609bba2ccf74b04e5",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Gnar_Passive.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": {
+        "kind": "webm",
+        "path": "media/gnar_p.webm",
+        "retrieved_at": "2026-11-02T13:17:18.234902+00:00",
+        "sha256": "9107a3ef3d7cc25e20c233075b4947725a481917dc08f3825f52f59bb3e64328",
+        "source_sha256": "9107a3ef3d7cc25e20c233075b4947725a481917dc08f3825f52f59bb3e64328",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_P1.webm"
+      },
+      "subject_id": "wiki:ragegene",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": {
+        "kind": "webm",
+        "path": "media/gnar_p.webm",
+        "retrieved_at": "2026-11-02T13:17:18.234902+00:00",
+        "sha256": "9107a3ef3d7cc25e20c233075b4947725a481917dc08f3825f52f59bb3e64328",
+        "source_sha256": "9107a3ef3d7cc25e20c233075b4947725a481917dc08f3825f52f59bb3e64328",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_P1.webm"
+      }
+    },
+    {
+      "card_id": "champ:gnar:q:recognize:L2",
+      "context_id": "wiki:ragegene",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-3fc52f0c54e89fe1dc8c.png",
+        "retrieved_at": "2026-11-02T13:17:30.141956+00:00",
+        "sha256": "eefb9ccfaacb3c8deabd71fc0947b8b37e9cf15885f2a699a9aa185df25d156c",
+        "source_sha256": "eefb9ccfaacb3c8deabd71fc0947b8b37e9cf15885f2a699a9aa185df25d156c",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Boomerang_Throw.png?da508"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": {
+        "kind": "webm",
+        "path": "media/gnar_q.webm",
+        "retrieved_at": "2026-11-02T13:17:20.627582+00:00",
+        "sha256": "7314a2103ab20ab94c98e04d413e22bb3a8f0455d2ebfcd00b4710c8ca2ae1b9",
+        "source_sha256": "7314a2103ab20ab94c98e04d413e22bb3a8f0455d2ebfcd00b4710c8ca2ae1b9",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_Q1.webm"
+      },
+      "subject_id": "wiki:boomerangthrow",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    },
+    {
+      "card_id": "champ:gnar:w:recognize:L2",
+      "context_id": "wiki:ragegene",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-106afce966a8d82f7b49.png",
+        "retrieved_at": "2026-11-02T13:17:30.379513+00:00",
+        "sha256": "8b5214e525b8a5d6b8ad99d512b325cc12fcf18f32669a269f1dd1aea70d7b57",
+        "source_sha256": "8b5214e525b8a5d6b8ad99d512b325cc12fcf18f32669a269f1dd1aea70d7b57",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Hyper_2.png?d7e98"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": {
+        "kind": "webm",
+        "path": "media/gnar_w.webm",
+        "retrieved_at": "2026-11-02T13:17:22.808496+00:00",
+        "sha256": "23dda51a99c6a0d4ddef7cd1a7a3675c6386c3cf4b16792a9664b213c3168dd6",
+        "source_sha256": "23dda51a99c6a0d4ddef7cd1a7a3675c6386c3cf4b16792a9664b213c3168dd6",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_W1.webm"
+      },
+      "subject_id": "wiki:hyper",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    },
+    {
+      "card_id": "champ:gnar:e:recognize:L2",
+      "context_id": "wiki:ragegene",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-4f93d8faf7e2a0d2023c.png",
+        "retrieved_at": "2026-11-02T13:17:30.553561+00:00",
+        "sha256": "0d7fc87d488e829f441a1de17ece5f5f03adcd6bbe511d5cfd73a3e11f9b5fd0",
+        "source_sha256": "0d7fc87d488e829f441a1de17ece5f5f03adcd6bbe511d5cfd73a3e11f9b5fd0",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Hop.png?1dcd4"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": {
+        "kind": "webm",
+        "path": "media/gnar_e.webm",
+        "retrieved_at": "2026-11-02T13:17:25.798764+00:00",
+        "sha256": "67f5581639207650114b56a7556846ad869f974d4e034eb6ea12185466888d9a",
+        "source_sha256": "67f5581639207650114b56a7556846ad869f974d4e034eb6ea12185466888d9a",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_E1.webm"
+      },
+      "subject_id": "wiki:hop",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    },
+    {
+      "card_id": "champ:gnar:r:recognize:L2",
+      "context_id": "wiki:ragegene",
+      "gif": {
+        "frames": 44,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/gnar_r.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "2866928ed7b165280df787e3354c3d747417c584af96766890eb2a443641ff6b"
+        },
+        "sha256": "38c29c1465035bc29ab1d25e8055c8a79036d5f36850ddef00bf922b933ef3d5",
+        "source_sha256": "2866928ed7b165280df787e3354c3d747417c584af96766890eb2a443641ff6b",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_R1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/gnar_r_icon.png",
+        "retrieved_at": "2026-11-02T13:17:28.076105+00:00",
+        "sha256": "529f4e542e0d28033bb921ab4fa37c3a65b5d69001f2cb0170872dead71c10b5",
+        "source_sha256": "529f4e542e0d28033bb921ab4fa37c3a65b5d69001f2cb0170872dead71c10b5",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GnarR.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:gnar",
+      "unresolved": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ],
+      "video": {
+        "kind": "webm",
+        "path": "media/gnar_r.webm",
+        "retrieved_at": "2026-11-02T13:17:28.323011+00:00",
+        "sha256": "2866928ed7b165280df787e3354c3d747417c584af96766890eb2a443641ff6b",
+        "source_sha256": "2866928ed7b165280df787e3354c3d747417c584af96766890eb2a443641ff6b",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_R1.webm"
+      }
+    }
+  ],
+  "current_client_verified": false,
+  "files": [
+    {
+      "kind": "jpg",
+      "path": "media/gnar_portrait.jpg",
+      "retrieved_at": "2026-11-02T13:17:17.264191+00:00",
+      "sha256": "a0cd03f10ea4bd399e7a0f595bbf70a32ff7486a6506b8fa46b58335f9a50a84",
+      "source_sha256": "a0cd03f10ea4bd399e7a0f595bbf70a32ff7486a6506b8fa46b58335f9a50a84",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg"
+    },
+    {
+      "kind": "png",
+      "path": "media/gnar_p_icon.png",
+      "retrieved_at": "2026-11-02T13:17:17.920594+00:00",
+      "sha256": "9f9f274e69bcf03dfc501d003d420593f398514ae320ed9609bba2ccf74b04e5",
+      "source_sha256": "9f9f274e69bcf03dfc501d003d420593f398514ae320ed9609bba2ccf74b04e5",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Gnar_Passive.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/gnar_p.webm",
+      "retrieved_at": "2026-11-02T13:17:18.234902+00:00",
+      "sha256": "9107a3ef3d7cc25e20c233075b4947725a481917dc08f3825f52f59bb3e64328",
+      "source_sha256": "9107a3ef3d7cc25e20c233075b4947725a481917dc08f3825f52f59bb3e64328",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_P1.webm"
+    },
+    {
+      "frames": 80,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/gnar_p.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "9107a3ef3d7cc25e20c233075b4947725a481917dc08f3825f52f59bb3e64328"
+      },
+      "sha256": "d4d0957ff04477eb00dd48b1204b8af54217af48c944b852759205aa5aa38588",
+      "source_sha256": "9107a3ef3d7cc25e20c233075b4947725a481917dc08f3825f52f59bb3e64328",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_P1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/gnar_q_icon.png",
+      "retrieved_at": "2026-11-02T13:17:20.390003+00:00",
+      "sha256": "54afd4df5d54b8dc81543803169343cba1f499574ed8c188c5a866b7aae4b7a3",
+      "source_sha256": "54afd4df5d54b8dc81543803169343cba1f499574ed8c188c5a866b7aae4b7a3",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GnarQ.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/gnar_q.webm",
+      "retrieved_at": "2026-11-02T13:17:20.627582+00:00",
+      "sha256": "7314a2103ab20ab94c98e04d413e22bb3a8f0455d2ebfcd00b4710c8ca2ae1b9",
+      "source_sha256": "7314a2103ab20ab94c98e04d413e22bb3a8f0455d2ebfcd00b4710c8ca2ae1b9",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_Q1.webm"
+    },
+    {
+      "frames": 53,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/gnar_q.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "7314a2103ab20ab94c98e04d413e22bb3a8f0455d2ebfcd00b4710c8ca2ae1b9"
+      },
+      "sha256": "d64066075e5c0d1485dfe22f39b60aac6308d5a1420a9291a88c2963340a9631",
+      "source_sha256": "7314a2103ab20ab94c98e04d413e22bb3a8f0455d2ebfcd00b4710c8ca2ae1b9",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_Q1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/gnar_w_icon.png",
+      "retrieved_at": "2026-11-02T13:17:22.525624+00:00",
+      "sha256": "84a0459b94c03f14450e97555ffced0cc1829bbb8b14de269cfe0a7e2f1c79df",
+      "source_sha256": "84a0459b94c03f14450e97555ffced0cc1829bbb8b14de269cfe0a7e2f1c79df",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GnarW.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/gnar_w.webm",
+      "retrieved_at": "2026-11-02T13:17:22.808496+00:00",
+      "sha256": "23dda51a99c6a0d4ddef7cd1a7a3675c6386c3cf4b16792a9664b213c3168dd6",
+      "source_sha256": "23dda51a99c6a0d4ddef7cd1a7a3675c6386c3cf4b16792a9664b213c3168dd6",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_W1.webm"
+    },
+    {
+      "frames": 86,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/gnar_w.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "23dda51a99c6a0d4ddef7cd1a7a3675c6386c3cf4b16792a9664b213c3168dd6"
+      },
+      "sha256": "f0fed80acdabf9ba919a2e3cf2b9b3310c3dc76431628eaf8acd0b1d9780e9de",
+      "source_sha256": "23dda51a99c6a0d4ddef7cd1a7a3675c6386c3cf4b16792a9664b213c3168dd6",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_W1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/gnar_e_icon.png",
+      "retrieved_at": "2026-11-02T13:17:25.219349+00:00",
+      "sha256": "8738d4e7f4fa46d2c65e96deb5eeff634e2395a79b062a81da6b380660b651da",
+      "source_sha256": "8738d4e7f4fa46d2c65e96deb5eeff634e2395a79b062a81da6b380660b651da",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GnarE.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/gnar_e.webm",
+      "retrieved_at": "2026-11-02T13:17:25.798764+00:00",
+      "sha256": "67f5581639207650114b56a7556846ad869f974d4e034eb6ea12185466888d9a",
+      "source_sha256": "67f5581639207650114b56a7556846ad869f974d4e034eb6ea12185466888d9a",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_E1.webm"
+    },
+    {
+      "frames": 79,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/gnar_e.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "67f5581639207650114b56a7556846ad869f974d4e034eb6ea12185466888d9a"
+      },
+      "sha256": "937d986401b90939c813fdb76bc082294bbb3ebe7e6f672e5a64d637bfd65a7f",
+      "source_sha256": "67f5581639207650114b56a7556846ad869f974d4e034eb6ea12185466888d9a",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_E1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/gnar_r_icon.png",
+      "retrieved_at": "2026-11-02T13:17:28.076105+00:00",
+      "sha256": "529f4e542e0d28033bb921ab4fa37c3a65b5d69001f2cb0170872dead71c10b5",
+      "source_sha256": "529f4e542e0d28033bb921ab4fa37c3a65b5d69001f2cb0170872dead71c10b5",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GnarR.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/gnar_r.webm",
+      "retrieved_at": "2026-11-02T13:17:28.323011+00:00",
+      "sha256": "2866928ed7b165280df787e3354c3d747417c584af96766890eb2a443641ff6b",
+      "source_sha256": "2866928ed7b165280df787e3354c3d747417c584af96766890eb2a443641ff6b",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_R1.webm"
+    },
+    {
+      "frames": 44,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/gnar_r.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "2866928ed7b165280df787e3354c3d747417c584af96766890eb2a443641ff6b"
+      },
+      "sha256": "38c29c1465035bc29ab1d25e8055c8a79036d5f36850ddef00bf922b933ef3d5",
+      "source_sha256": "2866928ed7b165280df787e3354c3d747417c584af96766890eb2a443641ff6b",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0150/ability_0150_R1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-3fc52f0c54e89fe1dc8c.png",
+      "retrieved_at": "2026-11-02T13:17:30.141956+00:00",
+      "sha256": "eefb9ccfaacb3c8deabd71fc0947b8b37e9cf15885f2a699a9aa185df25d156c",
+      "source_sha256": "eefb9ccfaacb3c8deabd71fc0947b8b37e9cf15885f2a699a9aa185df25d156c",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Boomerang_Throw.png?da508"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-106afce966a8d82f7b49.png",
+      "retrieved_at": "2026-11-02T13:17:30.379513+00:00",
+      "sha256": "8b5214e525b8a5d6b8ad99d512b325cc12fcf18f32669a269f1dd1aea70d7b57",
+      "source_sha256": "8b5214e525b8a5d6b8ad99d512b325cc12fcf18f32669a269f1dd1aea70d7b57",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Hyper_2.png?d7e98"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-4f93d8faf7e2a0d2023c.png",
+      "retrieved_at": "2026-11-02T13:17:30.553561+00:00",
+      "sha256": "0d7fc87d488e829f441a1de17ece5f5f03adcd6bbe511d5cfd73a3e11f9b5fd0",
+      "source_sha256": "0d7fc87d488e829f441a1de17ece5f5f03adcd6bbe511d5cfd73a3e11f9b5fd0",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/images/Gnar_Hop.png?1dcd4"
+    }
+  ],
+  "findings": [],
+  "missing_media": [
+    {
+      "card_id": "champ:gnar:p:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:gnar:q:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:gnar:w:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:gnar:e:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:gnar:r:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ]
+    }
+  ],
+  "portrait": {
+    "kind": "jpg",
+    "path": "media/gnar_portrait.jpg",
+    "retrieved_at": "2026-11-02T13:17:17.264191+00:00",
+    "sha256": "a0cd03f10ea4bd399e7a0f595bbf70a32ff7486a6506b8fa46b58335f9a50a84",
+    "source_sha256": "a0cd03f10ea4bd399e7a0f595bbf70a32ff7486a6506b8fa46b58335f9a50a84",
+    "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg"
+  },
+  "visual_qa": "unreviewed"
+}

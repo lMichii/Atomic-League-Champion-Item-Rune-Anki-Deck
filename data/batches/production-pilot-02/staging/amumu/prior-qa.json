@@ -1,0 +1,1061 @@
+{
+  "approval_blockers": [
+    "All six cards are drafts requiring explicit editorial approval.",
+    "All clips/cues need manual visual verification.",
+    "Game patch label has not been independently established."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "-"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:amumu:overview:L1",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Tank-stat learning focus is inferred teaching guidance based on his official tank role, not an optimal item build."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": null,
+      "media_type": "portrait",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "His engage and nearby stun threat strongly affect team positioning."
+      },
+      "slot": "-",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Amumu's basic attacks apply Curse to enemies.",
+            "covered": true,
+            "mechanic_id": "P.curse",
+            "reason": "Explicitly explains basic-attack Curse application."
+          },
+          {
+            "answer_quote": "Cursed enemies take bonus true damage when they receive magic damage.",
+            "covered": true,
+            "mechanic_id": "P.magic_amplification",
+            "reason": "Identifies the triggering damage and the bonus damage type without restricting the magic damage source."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "P"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:amumu:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "No passive visual frames or textual description of a visible Curse cue were supplied.",
+        "Wiki describes application-order exceptions: magic on-hit damage from the applying attack can benefit immediately, while R requires an existing Curse to amplify its own damage.",
+        "Wiki states that a spell shield blocking R also prevents its Curse application."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If the triggering basic attack from Amumu applies magic damage on-hit, Curse will be applied before the magic damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Magic on-hit damage from the applying basic attack can benefit from Curse."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The Curse application from Curse of the Sad Mummy happens after the magic damage is dealt by it, therefore amplifying the damage only if the target was also already marked before the hit.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "R's own damage benefits from Curse only if the target was already marked."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The application of Curse on Curse of the Sad Mummy is negated if the ability is blocked by a spell shield.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "A spell shield blocking R also prevents its Curse application."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Amumu's basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage.",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "P.curse",
+            "summary": "Basic attacks apply Curse to enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Curse targets take bonus true damage from incoming magic damage.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Amumu's basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage.",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "P.magic_amplification",
+            "summary": "Cursed enemies take bonus true damage when they receive magic damage."
+          }
+        ],
+        "slot": "P",
+        "unsupported_claims": [
+          "Curse amplifies physical or true damage.",
+          "Curse's bonus damage can only be triggered by Amumu's own magic damage."
+        ]
+      },
+      "media_type": "icon",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Curse explains the extra damage that follows his attacks."
+      },
+      "slot": "P",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Amumu throws a bandage that deals magic damage and stuns the first enemy hit, pulling him to them.",
+            "covered": true,
+            "mechanic_id": "Q.projectile_hit",
+            "reason": "Explains the thrown projectile, first-enemy collision, magic damage and stun."
+          },
+          {
+            "answer_quote": "pulling him to them.",
+            "covered": true,
+            "mechanic_id": "Q.dash",
+            "reason": "Clearly identifies Amumu as moving to the enemy hit."
+          },
+          {
+            "answer_quote": "He stores up to two charges that replenish over time.",
+            "covered": true,
+            "mechanic_id": "Q.charges",
+            "reason": "States the supported charge limit and periodic replenishment."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "Q"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:amumu:q:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Charge storage is explicit only in the supplied Wiki excerpt.",
+        "Wiki describes target tracking with a distance exception that sends Amumu to the target's previous location.",
+        "Wiki states that immobilization does not prevent the dash from commencing and spell shields do not prevent the dash.",
+        "Wiki states that the projectile can still damage and stun after Amumu dies, and W can be cast during the dash."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Despair can be cast during the dash.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "W can be cast during Q's dash."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Amumu will track the target if they change locations.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "He will dash to the target's previous location if the target is 2000 or more units away or moves beyond 2000 units.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "The dash tracks target movement, with a distance exception that sends Amumu to the target's previous location."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Immobilizing effects will not prevent Amumu from commencing the dash.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Amumu is still able to dash even if Bandage Toss is blocked by spell shield.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Immobilization does not prevent the dash from commencing, and a spell shield does not prevent the dash."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Bandage Toss does not fizzle on Amumu's death, and can still stun and damage enemies.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "The projectile can still damage and stun after Amumu dies."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Amumu throws a bandage that deals magic damage and stuns the first enemy hit while he dashes to them.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.projectile_hit",
+            "summary": "Throws a directional bandage that damages and stuns the first enemy hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Amumu tosses a sticky bandage at a target, stunning and damaging the target while he pulls himself to them.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "id": "Q.dash",
+            "summary": "Pulls Amumu to the enemy hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Amumu periodically stocks a Bandage Toss charge, up to a maximum of 2.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.charges",
+            "summary": "Stores up to two charges that replenish over time."
+          }
+        ],
+        "slot": "Q",
+        "unsupported_claims": [
+          "Q passes through enemies to hit a selected enemy.",
+          "Q pulls the enemy toward Amumu.",
+          "Q grants invulnerability during the dash."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The stun and dash let him close distance and start a fight."
+      },
+      "slot": "Q",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Amumu toggles an aura that continually deals magic damage to nearby enemies, including damage based on their maximum health.",
+            "covered": true,
+            "mechanic_id": "W.toggle_damage",
+            "reason": "Explains the toggle, nearby ongoing magic damage and maximum-health component."
+          },
+          {
+            "answer_quote": "Its damage refreshes existing Curse marks.",
+            "covered": true,
+            "mechanic_id": "W.curse_refresh",
+            "reason": "Explicitly limits refreshes to existing marks."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "W"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:amumu:w:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Wiki states that insufficient mana automatically ends the toggle and spell shields do not block its damage.",
+        "Refreshing Curse does not establish that W applies a new Curse.",
+        "Wiki describes exceptions for toggle interactions with the cited on-cast effects."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Despair is toggled off automatically if Amumu becomes unable to pay its mana cost.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "W automatically turns off when Amumu cannot pay its mana cost."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Spell shield\nNot Blocked",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "W is not blocked by spell shields."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Toggle abilities do not count as ability activations for the purposes of on-cast effects such as Spellblade and triggering Force Pulse's passive.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Toggling W does not count as an ability activation for the cited on-cast effects."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Toggle: Amumu begins crying, continually dealing magic damage to nearby enemies based on their maximum health.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.toggle_damage",
+            "summary": "A toggled aura continually deals magic damage to nearby enemies, including damage based on their maximum health."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Overcome by anguish, nearby enemies lose a percentage of their maximum Health each second and have their Curses refreshed.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Despair will refresh ongoing Curse marks on enemies hit.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "W.curse_refresh",
+            "summary": "Damage refreshes existing Curse marks on enemies hit."
+          }
+        ],
+        "slot": "W",
+        "unsupported_claims": [
+          "W applies Curse to enemies that are not already cursed.",
+          "W slows nearby enemies."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Remaining near him allows repeated damage and keeps existing Curse marks active."
+      },
+      "slot": "W",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Tantrum passively reduces incoming physical damage.",
+            "covered": true,
+            "mechanic_id": "E.physical_reduction",
+            "reason": "Explains passive physical damage reduction without implying complete negation."
+          },
+          {
+            "answer_quote": "Activating it deals magic damage to surrounding enemies.",
+            "covered": true,
+            "mechanic_id": "E.area_damage",
+            "reason": "States the activation, damage type and surrounding area."
+          },
+          {
+            "answer_quote": "Basic attacks that hit Amumu reduce its remaining cooldown.",
+            "covered": true,
+            "mechanic_id": "E.cooldown_reduction",
+            "reason": "Explains the supported basic-attack trigger and remaining-cooldown reduction. Detailed blocked-attack and on-hit interactions are optional here and retained in metadata."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "E"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:amumu:e:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Wiki describes physical reduction before mitigation, separately for each damage instance, capped at half of that instance.",
+        "Wiki states that physical basic attack damage and physical on-hit effects can receive reduction separately.",
+        "Wiki states that blocked attacks still reduce the cooldown, attacks missed through blindness do not, and certain repeated on-hit effects can trigger multiple reductions."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Passive: Amumu reduces every instance of pre-mitigation physical damage taken, capped at 50% of the damage instance.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The passive reduction applies to individual physical damage instances before mitigation and is capped at half of each instance."
+          },
+          {
+            "citations": [
+              {
+                "quote": "A basic attack's basic damage and each on-hit effect are all separate damage instances, and may be reduced each if they deal physical damage.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Physical basic attack damage and physical on-hit effects can each receive the reduction separately."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Tantrum's cooldown reduction will trigger multiple times for effects such as Double Strike and Guinsoo's Rageblade's Phantom Hit.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The cited repeated on-hit effects can trigger multiple cooldown reductions."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The cooldown will be reduced, even if the incoming attack is blocked.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "The cooldown will not be reduced, if the incoming attack misses due to the enemy being blinded.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Blocked attacks still reduce E's cooldown; attacks that miss because the attacker is blinded do not."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Permanently reduces the physical damage Amumu would take.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Passive: Amumu gains damage reduction against physical damage.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.physical_reduction",
+            "summary": "Passively reduces incoming physical damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Amumu releases his anger, dealing magic damage to nearby enemies.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.area_damage",
+            "summary": "Activation deals magic damage to surrounding enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Tantrum's cooldown is reduced whenever he is hit by a basic attack.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.cooldown_reduction",
+            "summary": "Incoming basic attacks reduce E's remaining cooldown, subject to detailed hit interactions."
+          }
+        ],
+        "slot": "E",
+        "unsupported_claims": [
+          "Every incoming spell or damage tick reduces E's cooldown.",
+          "E's passive reduces magic or true damage.",
+          "E completely negates small physical damage instances."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Physical damage reduction and repeated area damage affect close-range trades."
+      },
+      "slot": "E",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Amumu deals magic damage to surrounding enemies and stuns them.",
+            "covered": true,
+            "mechanic_id": "R.area_damage_stun",
+            "reason": "Explains both magic damage and stun in the area surrounding Amumu."
+          },
+          {
+            "answer_quote": "He also applies Curse to affected enemies.",
+            "covered": true,
+            "mechanic_id": "R.curse",
+            "reason": "Explicitly explains Curse application without claiming it amplifies R's own initial hit."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "R"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:amumu:r:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Wiki also describes a brief knockdown.",
+        "Curse is applied after R's damage; its own hit benefits only if the enemy was already cursed.",
+        "Wiki states that spell shields block R and its Curse application, and the cast uses Amumu's location at cast completion."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Amumu entangles nearby enemies in bandages, dealing magic damage as well as briefly knocking down and stunning them.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "R also briefly knocks down affected enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The Curse application from Curse of the Sad Mummy happens after the magic damage is dealt by it, therefore amplifying the damage only if the target was also already marked before the hit.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "R applies Curse after dealing its damage, so a newly applied Curse does not amplify that hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Spell shield\nBlocked",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "The application of Curse on Curse of the Sad Mummy is negated if the ability is blocked by a spell shield.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Spell shields block R and prevent its Curse application."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "R uses Amumu's location at the end of its cast time."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Amumu entangles nearby enemies in bandages, dealing magic damage as well as briefly knocking down and stunning them.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.area_damage_stun",
+            "summary": "Damages and stuns surrounding enemies in an area around Amumu."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Amumu entangles surrounding enemy units in bandages, applying his Curse, damaging and stunning them.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Amumu's basic attacks and Curse of the Sad Mummy mark enemies with Curse.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "R.curse",
+            "summary": "Applies Curse to affected enemies."
+          }
+        ],
+        "slot": "R",
+        "unsupported_claims": [
+          "R only affects enemy champions.",
+          "R always amplifies its own damage through the Curse it applies.",
+          "R makes Amumu invulnerable."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The area stun can stop several enemies and strongly influence a teamfight."
+      },
+      "slot": "R",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Charge replenishment and the interval between casts govern repeated engage threats.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Incoming basic attacks change when his area damage becomes available again.",
+      "slot": "E",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability of the area stun strongly affects teamfight engagement.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "Evidence is frozen to the supplied Data Dragon release and Wiki revision; current-client behavior was not verified.",
+    "The game patch label is unknown and must not be inferred from the Data Dragon version.",
+    "No visible passive cue is established by the supplied evidence.",
+    "Counterplay and the broad tank-stat learning focus are inferred teaching guidance.",
+    "Q blocker advice specifies the reader's own team's minions, which are enemies of Amumu, to resolve the previous allegiance ambiguity.",
+    "Supported advanced interactions are retained in metadata; the answers do not assert universal shield bypass, complete damage negation or immediate amplification of R's own damage.",
+    "Wiki skin and lore material was excluded from mechanics.",
+    "Assessment uses only supplied frozen excerpts; current-client behavior and visuals are unverified.",
+    "The L1 tank-stat build focus is inferred teaching guidance, not an evidence-established optimal build.",
+    "Counterplay follows the supplied mechanics as conditional advice, without guaranteed outcomes or invented timings.",
+    "Supported advanced exceptions are retained in draft metadata; their omission from concise answers does not make these general descriptions misleading."
+  ],
+  "findings": [
+    {
+      "code": "media_url_missing",
+      "name": "amumu_p.webm"
+    }
+  ],
+  "generation": {
+    "author": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 25865,
+            "output_tokens": 2919,
+            "reasoning_output_tokens": 21
+          }
+        ]
+      },
+      "output_sha256": "39527980bd905e148c6f9b67782f1c57e9463bc3d2a6d99af2f57101fbf7ae41",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "a56f8cf500f18b3674fe292874f254dffd4d2f55b4ecdb0f0f23560eb81f3d8c"
+    },
+    "mechanics": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 19220,
+            "output_tokens": 2108,
+            "reasoning_output_tokens": 0
+          }
+        ]
+      },
+      "output_sha256": "b027a54e938d9139222327e1a852c515cfdbf412765dcb866083c21cbac0a47d",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "32c0b955e5e017abc4f04dd374dce5adec4ba852ab1e6e4dfd2bac2bdc182cca"
+    },
+    "passes": [
+      {
+        "author": {
+          "attempts": 2,
+          "configured_model": "",
+          "execution_attempts": 2,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 0,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 22388,
+                "output_tokens": 2753,
+                "reasoning_output_tokens": 71
+              }
+            ]
+          },
+          "output_sha256": "ba659af23613c179c7a6c0cebd68d3376ec899ea9722728664be410239cd5b2d",
+          "prior_errors": [
+            "Counterplay for Q must contain NO numbers, including written number words or stack thresholds: ['2']. Keep source-supported quantities in the answer and make Counterplay qualitative."
+          ],
+          "provider": "codex",
+          "request_sha256": "848818f922eb38e87ab82619be9e6190186c38447595217a6a50380c208351ff"
+        },
+        "pass": 1,
+        "support_issues": 1,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 0,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 23965,
+                "output_tokens": 1574,
+                "reasoning_output_tokens": 91
+              }
+            ]
+          },
+          "output_sha256": "77312274bc35453e8f86f8434a653ad2fe6ca01ffdd1744fed4953f0f9641c4a",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "c905dbc392bc6985ee141129b00aa0eaf6a4b4338fe2d2824996b5b5e9590b85"
+        }
+      },
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 0,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 25865,
+                "output_tokens": 2919,
+                "reasoning_output_tokens": 21
+              }
+            ]
+          },
+          "output_sha256": "39527980bd905e148c6f9b67782f1c57e9463bc3d2a6d99af2f57101fbf7ae41",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "a56f8cf500f18b3674fe292874f254dffd4d2f55b4ecdb0f0f23560eb81f3d8c"
+        },
+        "pass": 2,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 0,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 24168,
+                "output_tokens": 1430,
+                "reasoning_output_tokens": 62
+              }
+            ]
+          },
+          "output_sha256": "b5d05cdd3f4b1e027e4270ba0277f5d4efa3f573e62ec597a794f1dff775cfe7",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "dad024bb52b57969f6a9169e1757d8211b4419e9559364f3262e6565cd22f7e4"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "eba8cff0604c7cd0bad9c92153ed7586155e88f3d33e222d3d9c3703b2c52dca",
+    "verifier": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 24168,
+            "output_tokens": 1430,
+            "reasoning_output_tokens": 62
+          }
+        ]
+      },
+      "output_sha256": "b5d05cdd3f4b1e027e4270ba0277f5d4efa3f573e62ec597a794f1dff775cfe7",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "dad024bb52b57969f6a9169e1757d8211b4419e9559364f3262e6565cd22f7e4"
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:amumu:e:recognize:L2": {
+      "cid": 2379250266354,
+      "guid": "26a8441604a5a2",
+      "nid": 1879250266354
+    },
+    "champ:amumu:overview:L1": {
+      "cid": 2564417617380,
+      "guid": "9caf30a0330c9b",
+      "nid": 2064417617380
+    },
+    "champ:amumu:p:recognize:L2": {
+      "cid": 2393075900428,
+      "guid": "76e0d0f876acbc",
+      "nid": 1893075900428
+    },
+    "champ:amumu:q:recognize:L2": {
+      "cid": 2588902295622,
+      "guid": "21fd40403183d1",
+      "nid": 2088902295622
+    },
+    "champ:amumu:r:recognize:L2": {
+      "cid": 2354695067587,
+      "guid": "04120dc60bf334",
+      "nid": 1854695067587
+    },
+    "champ:amumu:w:recognize:L2": {
+      "cid": 2401224522141,
+      "guid": "fd7a91cb36b2b4",
+      "nid": 1901224522141
+    }
+  },
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "Exact-quote matching does not prove semantic truth.",
+    "AI verification is fallible and is not a human content or visual review."
+  ],
+  "media_references": [
+    "amumu_e.gif",
+    "amumu_e_icon.png",
+    "amumu_p_icon.png",
+    "amumu_portrait.jpg",
+    "amumu_q.gif",
+    "amumu_q_icon.png",
+    "amumu_r.gif",
+    "amumu_r_icon.png",
+    "amumu_w.gif",
+    "amumu_w_icon.png"
+  ],
+  "new_cards": 6,
+  "passive_frame_evidence": [],
+  "publishable": false,
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "resolution": "Use Wiki's basic-attack trigger to qualify Riot's broad wording. Retain blocked attacks, blindness misses and repeated on-hit interactions in metadata without removing the general effect.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Riot describes E cooldown reduction whenever Amumu is hit; Wiki specifies basic attacks and detailed hit interactions."
+    },
+    {
+      "resolution": "The draft appropriately uses Wiki's more specific basic-attack trigger. Riot's broader wording does not establish that spells or every damage tick reduce the cooldown. Detailed hit interactions remain in metadata.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "E cooldown reduction: Riot says each time Amumu is hit; Wiki specifies basic attacks and on-hit interactions."
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4007948"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

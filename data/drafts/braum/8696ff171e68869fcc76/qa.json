@@ -1,0 +1,1162 @@
+{
+  "approval_blockers": [
+    "All six cards are drafts requiring explicit editorial approval.",
+    "All clips/cues need manual visual verification.",
+    "Game patch label has not been independently established."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "-"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:201:overview:L1",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Build focus is a broad learning recommendation based on his tank role, defensive resistances and Q's maximum-health scaling, not an optimal item build."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": null,
+      "media_type": "portrait",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "His protection and allied stun setup explain his fighting role."
+      },
+      "slot": "-",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Braum's basic attacks apply Concussive Blows stacks; after the first stack, allied champions' basic attacks also add stacks.",
+            "covered": true,
+            "mechanic_id": "P.stacking",
+            "reason": "Explains the initial application and allied champion basic-attack follow-up condition."
+          },
+          {
+            "answer_quote": "At 4 stacks, the target is stunned and takes magic damage.",
+            "covered": true,
+            "mechanic_id": "P.stun",
+            "reason": "States the supported threshold and both resulting effects."
+          },
+          {
+            "answer_quote": "Afterward, the target temporarily cannot gain new stacks, but Braum's basic attacks deal bonus magic damage to it.",
+            "covered": true,
+            "mechanic_id": "P.immunity_followup",
+            "reason": "Explains temporary stack immunity and restricts the bonus damage to Braum's basic attacks."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "P"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:201:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The prior exact marker sequence has been removed. Text excerpts do not describe its appearance; supplied demonstration frames do not establish current-client visual behavior.",
+        "Stacks expire and refresh with subsequent applications. Dodged, blocked or missed attacks do not apply stacks; these advanced details are omitted from the beginner explanation."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Concussive Blows won't be applied if the attack is dodged or blocked or if the attack misses.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Dodged, blocked or missed attacks do not apply stacks."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Braum's basic attacks and Winter's Bite each apply a stack of Concussive Blows to their target for 4 seconds, refreshing on subsequent applications and stacking up to 4 times.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Stacks last 4 seconds and subsequent applications refresh their duration."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Braum's basic attacks apply Concussive Blows. Once the first stack is applied, ally basic attacks also stack Concussive Blows.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Once the first stack has been applied, any allied champion's basic attack applies an additional stack to the target on-hit.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.stacking",
+            "summary": "Braum's basic attacks apply stacks; allied champions' basic attacks add stacks after the first is applied."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Upon reaching 4 stacks, the target is stunned and takes magic damage.",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "P.stun",
+            "summary": "Reaching four stacks stuns the target and deals magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's basic attacks.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.immunity_followup",
+            "summary": "After triggering, the target temporarily cannot receive new stacks, while Braum's basic attacks deal bonus magic damage to it."
+          }
+        ],
+        "slot": "P",
+        "unsupported_claims": [
+          "Allied abilities generally add Concussive Blows stacks.",
+          "Allied basic attacks receive Braum's bonus magic damage against temporarily stack-immune targets."
+        ]
+      },
+      "media_type": "icon",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Allied basic attacks can turn an initial stack into a stun."
+      },
+      "slot": "P",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Braum fires ice in a chosen direction, dealing magic damage to and slowing the first enemy hit.",
+            "covered": true,
+            "mechanic_id": "Q.damage_slow",
+            "reason": "Explains directional targeting, first-enemy collision, damage type and slow."
+          },
+          {
+            "answer_quote": "It also applies a Concussive Blows stack.",
+            "covered": true,
+            "mechanic_id": "Q.passive_stack",
+            "reason": "Explicitly states the single passive-stack application."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "Q"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:201:q:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The slow decays, and the projectile originates from Braum's position at the end of the cast time; advanced details are omitted."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "The projectile originates from Braum's position at the end of the cast time."
+          },
+          {
+            "citations": [
+              {
+                "quote": "slowing them by 70% decaying over 2 seconds.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "The slow decays over its duration."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Braum propels ice from his shield in the target direction, dealing magic damage to the first enemy hit and slowing them by 70% decaying over 2 seconds.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Braum propels freezing ice from his shield, slowing and dealing magic damage.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "id": "Q.damage_slow",
+            "summary": "Fires ice in a chosen direction, dealing magic damage to and slowing the first enemy hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Applies a stack of Concussive Blows.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Braum's basic attacks and Winter's Bite apply a stack of Concussive Blows.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "Q.passive_stack",
+            "summary": "Applies one Concussive Blows stack to its target."
+          }
+        ],
+        "slot": "Q",
+        "unsupported_claims": [
+          "The projectile pierces enemies and applies its effects to every enemy along its path."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The ranged slow and passive stack help set up allied attacks."
+      },
+      "slot": "Q",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Braum leaps to a targeted allied champion or minion.",
+            "covered": true,
+            "mechanic_id": "W.ally_dash",
+            "reason": "Explains the movement and supported allied target types."
+          },
+          {
+            "answer_quote": "On arrival, he and that ally temporarily gain armor and magic resistance.",
+            "covered": true,
+            "mechanic_id": "W.resistances",
+            "reason": "Identifies both recipients, both resistances and the arrival condition."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "W"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:201:w:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "An interrupted dash grants neither participant resistances.",
+        "Self-casting, landing-position rules, ward and trap exclusions, and casting interactions are supported advanced details omitted here."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Stand Behind Me can be self cast to instantly grant Braum the bonus resistances.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Self-casting instantly grants Braum the resistances."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Stand Behind Me can be used on allied minions but not on wards nor traps.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Wards and traps are not eligible targets."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Braum dashes to put himself between the target ally and the closest visible enemy champion within 1500 units",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "If there are no nearby enemy champions, Braum will dash to land up-to 150 units on the far side of his target.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Landing position depends on nearby visible enemy champions; without nearby enemy champions, Braum lands on the far side of the ally."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the dash is interrupted, neither Braum nor his ally receive the bonus resistances.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "An interrupted dash grants neither participant the resistances."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Unbreakable can be cast during the dash.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "If Unbreakable is cast during the dash, Winter's Bite and Glacial Fissure may also be cast.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "E can be cast during the dash; casting E during it also permits Q and R to be cast."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Braum leaps to a target allied champion or minion.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Braum dashes to a target allied champion or minion.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.ally_dash",
+            "summary": "Dashes to a targeted allied champion or minion."
+          },
+          {
+            "citations": [
+              {
+                "quote": "On arrival, Braum and the ally gain Armor and Magic Resist for a few seconds.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "On arrival, both of them gain armor and magic resistance for a few seconds.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.resistances",
+            "summary": "On arrival, temporarily grants armor and magic resistance to Braum and the targeted ally."
+          }
+        ],
+        "slot": "W",
+        "unsupported_claims": [
+          "The targeted ally becomes invulnerable.",
+          "The dash cleanses crowd control from the targeted ally."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "His allied leap enables repositioning and temporary defensive support."
+      },
+      "slot": "W",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Braum raises a directional shield that intercepts incoming hostile projectiles it can block, making them hit him and be destroyed.",
+            "covered": true,
+            "mechanic_id": "E.projectile_interception",
+            "reason": "Explains directional interception, redirection to Braum and destruction, with an eligibility qualification."
+          },
+          {
+            "answer_quote": "From that direction, he fully negates the first eligible instance of champion damage",
+            "covered": true,
+            "mechanic_id": "E.first_hit_negation",
+            "reason": "States full first-instance negation with direction, champion-source and eligibility qualifications."
+          },
+          {
+            "answer_quote": "From that direction, he fully negates the first eligible instance of champion damage and reduces subsequent eligible damage while the shield is raised.",
+            "covered": true,
+            "mechanic_id": "E.directional_damage_reduction",
+            "reason": "Explains subsequent directional reduction during the shield; the sentence identifies Braum as the beneficiary."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "E"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:201:e:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Pure true damage not consuming the first-hit reduction does not establish true-damage negation; eligible damage wording avoids that unsupported claim.",
+        "Turrets are unaffected. Damage reduction benefits only Braum and can apply beyond projectiles.",
+        "Intercepted projectiles can still trigger collision effects, debuffs and areas affecting other units.",
+        "Simultaneous damage, damage-over-time ticks, airborne summoned units, Rejuvenation and spell shields have advanced interaction rules omitted here.",
+        "Movement speed and ghosting are supported secondary effects omitted from the core explanation."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Unbreakable does not affect turrets.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Incoming: Damage sources coming from somewhere facing the shield. Those coming from different sides are not affected.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Protection is directional and does not affect turrets."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The first instance of damage dealt by a champion from this direction is reduced by 100%.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Unbreakable's full damage reduction can block multiple instances of damage if they're dealt at the same time.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Damage over time is calculated per tick but the full damage reduction will still only apply to a single tick.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "The one-time-use full damage reduction will not be consumed if the damage source is nothing but true damage.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The detailed first-hit rule specifies champion damage. Simultaneous instances can share full reduction; damage over time normally uses it on a single tick. Pure true damage does not consume it, which does not establish that true damage is negated."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The damage reduction will affect any source of damage whose origin is in front of the shield.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Melee and non-projectile-based ranged attacks.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Instantaneously-placed ground-targeted abilities (e.g. Lay Waste, Pillar of Flame, Rupture) relative to the ability's center and not the caster's.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "The damage reduction only benefits Braum.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Damage reduction extends beyond projectiles, including melee attacks and eligible abilities. Ground-targeted abilities use their center to determine direction. The reduction itself benefits only Braum."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Projectiles whose effects trigger on collision will still trigger - dealing damage, applying debuffs, creating area of effects and marking the target as 'hit'.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Projectiles that create an area of effect upon their collision will still affect other units and not only Braum.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Interception does not cancel collision effects, debuffs or resulting areas of effect; those areas can still affect other units."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Moving units do not count for being blocked by Unbreakable.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Champion summoned units are not classified as units until they hit the ground (e.g. Sapling Toss) and thus will interact with Unbreakable whilst en route.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Projectiles that cannot hit Braum or his allies (such as an enemy Prismatic Barrier) will not be intercepted.[2]",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Soraka's Starcall's Rejuvenation projectile is however blocked.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Moving units are not blocked. Airborne summoned units can interact before landing. Projectiles unable to hit Braum or allies generally are not intercepted, with a named Rejuvenation exception."
+          },
+          {
+            "citations": [
+              {
+                "quote": "While his shield is raised, Braum also gains 10% bonus movement speed and ghosting.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "While shielding, Braum gains movement speed and ghosting."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Braum is protected by a spell shield, both it and the one-time-use full damage reduction can be consumed by a single blockable spell.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "A single blockable spell can consume both a spell shield and E's one-time full reduction."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "creating a barrier in front of him that intercepts all incoming hostile projectiles",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.projectile_interception",
+            "summary": "Raises a directional shield that intercepts eligible incoming hostile projectiles, making them hit Braum and be destroyed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "He negates the damage of the first attack completely",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "The first instance of damage dealt by a champion from this direction is reduced by 100%.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.first_hit_negation",
+            "summary": "Fully negates the first eligible instance of champion damage from the shielded direction."
+          },
+          {
+            "citations": [
+              {
+                "quote": "reduces the damage of all subsequent attacks from this direction.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "reduces the damage Braum takes through it from enemies in the target direction.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.directional_damage_reduction",
+            "summary": "Reduces subsequent eligible damage Braum takes from the shielded direction while active."
+          }
+        ],
+        "slot": "E",
+        "unsupported_claims": [
+          "Braum or allies become immune to all damage and crowd control while E is active.",
+          "E directly grants its damage reduction to allies behind Braum.",
+          "Every projectile is intercepted regardless of eligibility.",
+          "The first-hit negation necessarily blocks true damage.",
+          "Destroying a projectile prevents all of its collision effects."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Projectile interception and directional damage denial can disrupt attacks aimed at his team."
+      },
+      "slot": "E",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Braum slams the ground, dealing magic damage and knocking up enemies around him and along a line in front of him.",
+            "covered": true,
+            "mechanic_id": "R.knockup",
+            "reason": "Explains knockup around Braum and along the forward line without claiming equal durations."
+          },
+          {
+            "answer_quote": "Braum slams the ground, dealing magic damage and knocking up enemies around him and along a line in front of him.",
+            "covered": true,
+            "mechanic_id": "R.damage",
+            "reason": "States magic damage in both supported areas."
+          },
+          {
+            "answer_quote": "The fissure leaves a lingering ice field that slows enemies within it.",
+            "covered": true,
+            "mechanic_id": "R.slow_field",
+            "reason": "Explains the lingering field and its slow on enemies inside."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "R"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:201:r:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The first target's knockup duration increases with distance; other targets receive a shorter fixed knockup.",
+        "The ability originates from Braum's position at the end of the cast time."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The first target hit is knocked up for at least 0.6 seconds, increased if they are further away from Braum. All other enemies hit are knocked up for 0.6 seconds.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "The first target's knockup duration increases with distance; other enemies receive the shorter fixed knockup."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "The ability originates from Braum's position at the end of the cast time."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Braum slams the ground, knocking up enemies nearby and in a line in front of him.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Braum slams the ground, knocking up enemies nearby and in a line in front of him.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.knockup",
+            "summary": "Knocks up enemies around Braum and along a line in front of him."
+          },
+          {
+            "citations": [
+              {
+                "quote": "creating a fissure from the impact that travels forth in the target direction, dealing magic damage to enemies within its path as well as those around Braum.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.damage",
+            "summary": "Deals magic damage around Braum and along the fissure's path."
+          },
+          {
+            "citations": [
+              {
+                "quote": "A fissure is left along the line that slows enemies.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "A field of ice is created along the fissure's path, lasting for 4 seconds and slowing enemies within the area every 0.25 seconds.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.slow_field",
+            "summary": "Leaves a lingering ice field along the fissure that slows enemies within it."
+          }
+        ],
+        "slot": "R",
+        "unsupported_claims": [
+          "Every enemy hit receives the first target's longer knockup.",
+          "The fissure forms impassable terrain.",
+          "The lingering field repeatedly knocks enemies up."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The knockup and lingering slow can disrupt several enemies and control their movement."
+      },
+      "slot": "R",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Shield availability determines whether Braum can intercept projectiles and deny incoming damage.",
+      "slot": "E",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Ultimate availability changes the threat of a line knockup and lingering slow field.",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Leap availability affects his ability to reach an ally and grant resistances.",
+      "slot": "W",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Projectile availability affects his ranged slow and passive-stack setup.",
+      "slot": "Q",
+      "source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "The Data Dragon release is pinned; no game patch label is inferred.",
+    "The prior passive visual description was removed because its exact sequence is not established by text. Demonstration frames are not current-client or skin-specific verification.",
+    "Build focus is an inferred broad learning recommendation, not an optimal build.",
+    "Wiki Arena differences and unrelated skin material are excluded.",
+    "Unbreakable has complex projectile eligibility and damage-origin rules. Interception does not imply cancellation of collision effects, immunity to crowd control or damage reduction shared with allies.",
+    "Pure true damage not consuming E's first-instance reduction does not establish that the damage is negated.",
+    "E's pure-true-damage non-consumption rule does not establish true-damage negation. The draft's eligibility qualification avoids that claim; the interaction remains a QA consideration.",
+    "E interception does not cancel collision effects or resulting areas of effect and does not grant allies Braum's damage reduction. The draft does not assert those broader protections.",
+    "The L1 build focus is a broad inference supported by the tank role, defensive resistances and Q health scaling, rather than evidence of an optimal build.",
+    "The supplied demonstration frames do not establish current-client passive visuals; no visual verification or human approval is provided by this check."
+  ],
+  "findings": [],
+  "generation": {
+    "author": {
+      "attempts": 1,
+      "configured_model": "",
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 30630,
+            "output_tokens": 3447,
+            "reasoning_output_tokens": 45
+          }
+        ]
+      },
+      "output_sha256": "f14e66bf05ae1248a5ee985f4d644ea769fc518f822b91a418f68943d492ef2a",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "2e9a3d7f2aa75b37d11d73f80d2c02822d0bca7ea13836ea50253e5379542eb7"
+    },
+    "mechanics": {
+      "attempts": 1,
+      "configured_model": "",
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 20919,
+            "output_tokens": 3850,
+            "reasoning_output_tokens": 26
+          }
+        ]
+      },
+      "output_sha256": "9659bec14b60b9bc32ffed44292fabac4e007c14ac568ba764ac2a8564c88ddd",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "18812f41fa42f883869db23fc934a2bfdfcb47c5a461a4d4cbc9e3fa9fc84632"
+    },
+    "passes": [
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 26384,
+                "output_tokens": 3379,
+                "reasoning_output_tokens": 58
+              }
+            ]
+          },
+          "output_sha256": "bbda5b550e64eb0a17218d3309f73bcc2d2bf0dfe7b69d4798500197e17d6282",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "282202e1e4a885de83891c591864f81779b575626844064197da53da826762e0"
+        },
+        "pass": 1,
+        "support_issues": 1,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 28589,
+                "output_tokens": 1760,
+                "reasoning_output_tokens": 130
+              }
+            ]
+          },
+          "output_sha256": "849d480bc2c85370e3d6917b9d6432054042850f03011449914ac79ce52e1d33",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "828791bf688f5a0166d56d1c3033986fa0f22bda4f794c54f2f28d7153e0704c"
+        }
+      },
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 30630,
+                "output_tokens": 3447,
+                "reasoning_output_tokens": 45
+              }
+            ]
+          },
+          "output_sha256": "f14e66bf05ae1248a5ee985f4d644ea769fc518f822b91a418f68943d492ef2a",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "2e9a3d7f2aa75b37d11d73f80d2c02822d0bca7ea13836ea50253e5379542eb7"
+        },
+        "pass": 2,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 28670,
+                "output_tokens": 1620,
+                "reasoning_output_tokens": 55
+              }
+            ]
+          },
+          "output_sha256": "d97f973e2acca3fd59681eb5eef3c70673519cf0da47e70c9835c122fb6ac876",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "a1ebbcd7b4c9ff32ed49c4f5d45ae2c02610d5b2699599affd1f0430d162aa0e"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "9112626374fe18ebffd91334c66b319ceb66c7460749964f803ee319a5e599bf",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "8696ff171e68869fcc76d9adc7ad9cec1b562da47c6bcd4e3a5e7529301662c2",
+    "verifier": {
+      "attempts": 1,
+      "configured_model": "",
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 28670,
+            "output_tokens": 1620,
+            "reasoning_output_tokens": 55
+          }
+        ]
+      },
+      "output_sha256": "d97f973e2acca3fd59681eb5eef3c70673519cf0da47e70c9835c122fb6ac876",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "a1ebbcd7b4c9ff32ed49c4f5d45ae2c02610d5b2699599affd1f0430d162aa0e"
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:201:e:recognize:L2": {
+      "cid": 2545925886488,
+      "guid": "182df7886777c0",
+      "nid": 2045925886488
+    },
+    "champ:201:overview:L1": {
+      "cid": 2548538803997,
+      "guid": "286318f287f80a",
+      "nid": 2048538803997
+    },
+    "champ:201:p:recognize:L2": {
+      "cid": 2587275806675,
+      "guid": "77cddcbc327da5",
+      "nid": 2087275806675
+    },
+    "champ:201:q:recognize:L2": {
+      "cid": 2346154917028,
+      "guid": "6cef1965da24a4",
+      "nid": 1846154917028
+    },
+    "champ:201:r:recognize:L2": {
+      "cid": 2341244899727,
+      "guid": "16cbeb5aad1ef4",
+      "nid": 1841244899727
+    },
+    "champ:201:w:recognize:L2": {
+      "cid": 2596572827652,
+      "guid": "6ad442a9017a38",
+      "nid": 2096572827652
+    }
+  },
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "Exact-quote matching does not prove semantic truth.",
+    "AI verification is fallible and is not a human content or visual review."
+  ],
+  "media_references": [
+    "braum_e.gif",
+    "braum_e_icon.png",
+    "braum_p_icon.png",
+    "braum_portrait.jpg",
+    "braum_q.gif",
+    "braum_q_icon.png",
+    "braum_r.gif",
+    "braum_r_icon.png",
+    "braum_w.gif",
+    "braum_w_icon.png"
+  ],
+  "new_cards": 6,
+  "passive_frame_evidence": [
+    {
+      "path": "visual-inputs/passive-1.png",
+      "sha256": "82fa7a765ad38d1437cae7692d8dd0ee764abaceca9a9f4a4ecc8ddfabaed542",
+      "source_sha256": "f4825a67f0f62ad2de0dc7562a3d43a7533657af66b37bc3fbb2c0211ec3ed2a",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 1.1754
+    },
+    {
+      "path": "visual-inputs/passive-2.png",
+      "sha256": "831f1c214b8c5752f972d0026fe7a1d2fc64fbb3dc70d9d952426c3fa0d0507c",
+      "source_sha256": "f4825a67f0f62ad2de0dc7562a3d43a7533657af66b37bc3fbb2c0211ec3ed2a",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 3.1344
+    },
+    {
+      "path": "visual-inputs/passive-3.png",
+      "sha256": "25e4ca91eda7d84d87ef4e4cbf264ab052002907413af31ad00d5847d04c8abf",
+      "source_sha256": "f4825a67f0f62ad2de0dc7562a3d43a7533657af66b37bc3fbb2c0211ec3ed2a",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 5.0934
+    },
+    {
+      "path": "visual-inputs/passive-4.png",
+      "sha256": "fde834713267dedd25e8fbfbf992d4962614e25740d03cf18aec3e03f62e1b20",
+      "source_sha256": "f4825a67f0f62ad2de0dc7562a3d43a7533657af66b37bc3fbb2c0211ec3ed2a",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 7.0524
+    }
+  ],
+  "publishable": false,
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "resolution": "Preserve interception, first-hit negation and subsequent reduction with directional and eligibility qualifications. Retain collision effects and detailed exceptions in metadata rather than implying universal protection.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Riot's broad projectile and first-attack wording is qualified by Wiki's detailed eligibility and champion-damage rules."
+    },
+    {
+      "resolution": "The Wiki qualifies Riot's broad wording with projectile eligibility, champion-source first-instance negation and directional damage rules. The draft preserves all required general mechanics with appropriate qualifications. Detailed collision effects and exceptions can remain in metadata.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Scope of Unbreakable's projectile interception and damage negation."
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4022592"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

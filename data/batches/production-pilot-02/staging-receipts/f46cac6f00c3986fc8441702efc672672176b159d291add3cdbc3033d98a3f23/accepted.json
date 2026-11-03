@@ -1,0 +1,312 @@
+{
+  "cards": [
+    {
+      "answer": "Aurora is an AP mage-assassin who combines damaging spells and attacks to trigger bonus magic damage and healing. She repositions with invisibility, a backward hop, and rift crossings. Counterplay: avoid repeated hits and returning bolts, and anticipate her repositioning.",
+      "build_focus": "AP",
+      "counterplay": "Avoid repeated hits and returning bolts, and anticipate her repositioning.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Aurora. Official role tags: Mage, Assassin.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Magic Damage:45 / 70 / 95 / 120 / 145 (+ 40% AP)",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Aurora is an AP mage-assassin"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Aurora's basic attacks and damaging abilities inflict a stack of Spirit Abjuration, stacking up to 3 times. The third stack consumes them all to deal bonus magic damage based on the target's maximum health.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Aurora heals over time based on her Spirits.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "combines damaging spells and attacks to trigger bonus magic damage and healing"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Upon completing the dash, she becomes invisible for a duration",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Aurora blasts energy and recoils backward.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "If Aurora touches the border, she dashes to the opposite side of it.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "She repositions with invisibility, a backward hop, and rift crossings."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Her repeated-hit damage and frequent repositioning define how enemies should approach fights.",
+      "slot": "-",
+      "uncertainties": []
+    },
+    {
+      "answer": "Spirit Abjuration: attacks and damaging abilities apply stacks; the third hit consumes them for bonus magic damage based on the target's maximum health. Triggering this against a champion frees a Spirit that follows Aurora and heals her over time. Counterplay: break off repeated trades before she triggers the passive.",
+      "build_focus": "",
+      "counterplay": "Break off repeated trades before she triggers the passive.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Aurora's basic attacks and damaging abilities inflict a stack of Spirit Abjuration, stacking up to 3 times. The third stack consumes them all to deal bonus magic damage based on the target's maximum health.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "attacks and damaging abilities apply stacks; the third hit consumes them for bonus magic damage based on the target's maximum health"
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the target was a champion, she exorcises them to free a Spirit that follows her for a few seconds. Aurora heals over time based on her Spirits.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Triggering this against a champion frees a Spirit that follows Aurora and heals her over time."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "Spirits following Aurora may cue that she has triggered her passive against champions and is receiving healing.",
+        "meaningful": true,
+        "source_ids": [
+          "wiki:P"
+        ]
+      },
+      "priority": "A",
+      "priority_reason": "Repeated hits add maximum-health damage and sustain.",
+      "slot": "P",
+      "uncertainties": [
+        "The Spirit cue is textual only; its appearance and readability have not been visually verified."
+      ]
+    },
+    {
+      "answer": "Twofold Hex: a bolt deals magic damage and curses enemies hit. Aurora can recall bolts from cursed targets toward herself, damaging enemies along their paths; this happens automatically when the marks expire. Returning bolts deal more damage to enemies with more missing health. Counterplay: dodge the outgoing bolt and move away from return paths toward Aurora.",
+      "build_focus": "",
+      "counterplay": "Dodge the outgoing bolt and move away from return paths toward Aurora.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Aurora fires a bolt of energy in the target direction that deals magic damage to enemies hit and marks them with a curse for 3.5 seconds.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "a bolt deals magic damage and curses enemies hit"
+        },
+        {
+          "citations": [
+            {
+              "quote": "She can then recast the ability to draw active curses back toward herself, damaging foes who are hit along the way.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "drawing the spiritual energy back to her as bolts that each deal magic damage to all enemies they pass through",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Aurora can recall bolts from cursed targets toward herself, damaging enemies along their paths"
+        },
+        {
+          "citations": [
+            {
+              "quote": "and does so automatically at the end of the mark's duration.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "this happens automatically when the marks expire"
+        },
+        {
+          "citations": [
+            {
+              "quote": "increased by 0% – 50% (based on target's missing health)",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Returning bolts deal more damage to enemies with more missing health."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The return paths create a further damage threat, especially against wounded enemies.",
+      "slot": "Q",
+      "uncertainties": []
+    },
+    {
+      "answer": "Across the Veil: Aurora hops, becomes briefly invisible on landing, and gains movement speed and the ability to move through units. A champion takedown shortly after she damages that champion resets this ability's cooldown. Counterplay: anticipate her escape direction and be ready for another hop after a takedown.",
+      "build_focus": "",
+      "counterplay": "Anticipate her escape direction and be ready for another hop after a takedown.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Aurora hops in the target direction inside a portal to the Spirit Realm. Upon completing the dash, she becomes invisible for a duration and gains Realm Hopper for 4 seconds.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Realm Hopper: Aurora becomes ghosted and gains bonus movement speed for the duration.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Aurora hops, becomes briefly invisible on landing, and gains movement speed and the ability to move through units."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Scoring a takedown against an enemy champion within 3 seconds of damaging them will reset Across the Veil's cooldown.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "A champion takedown shortly after she damages that champion resets this ability's cooldown."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Invisibility and takedown resets make her escape and follow-up movement hard to predict.",
+      "slot": "W",
+      "uncertainties": []
+    },
+    {
+      "answer": "The Weirding: Aurora fires a line blast that deals magic damage and briefly slows enemies while she recoils backward. Counterplay: sidestep the line and account for her backward movement when chasing.",
+      "build_focus": "",
+      "counterplay": "Sidestep the line and account for her backward movement when chasing.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Aurora blasts energy in a line in the target direction and recoils 250 units in the opposite direction. The blast deals magic damage to enemies hit and slows them by 80% for 1 second decaying after the first 0.15 seconds.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Aurora fires a line blast that deals magic damage and briefly slows enemies while she recoils backward."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "The slow and recoil help her create distance while dealing damage.",
+      "slot": "E",
+      "uncertainties": []
+    },
+    {
+      "answer": "Between Worlds: Aurora leaps and releases an expanding shockwave that deals magic damage and slows enemies. A circular rift forms: touching its border slows enemies, while Aurora can cross to the opposite side and becomes untargetable during travel. The rift closes if she leaves or dies, and she can close it early. Counterplay: avoid the shockwave, limit contact with the border, and anticipate her exit across the rift.",
+      "build_focus": "",
+      "counterplay": "Avoid the shockwave, limit contact with the border, and anticipate her exit across the rift.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Aurora becomes unstoppable and leaps, unleashing an expanding shockwave that deals magic damage to enemies hit and slows them briefly",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Aurora leaps and releases an expanding shockwave that deals magic damage and slows enemies."
+        },
+        {
+          "citations": [
+            {
+              "quote": "A circular rift then forms in the area.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "If an enemy collides with the border, they are slowed by 50% for a duration.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "If Aurora collides with the border, she dashes to the diametrically opposite side of the rift over 0.4 seconds, becoming untargetable and unable to act during the travel.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "A circular rift forms: touching its border slows enemies, while Aurora can cross to the opposite side and becomes untargetable during travel."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If Aurora dies or leaves the area, the rift will immediately close. Recast: Aurora closes the rift early.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "The rift closes if she leaves or dies, and she can close it early."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The rift changes movement and targeting throughout a fight.",
+      "slot": "R",
+      "uncertainties": []
+    }
+  ],
+  "champion_id": 893,
+  "champion_name": "Aurora",
+  "conflicts": [],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Track availability of her invisibility hop, accounting for champion takedown resets.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Ultimate availability determines whether she can create a rift for a major fight.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Her recoil and slow create a useful chase window when unavailable.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "AP build focus is inferred from the supplied AP damage scaling; no item build is supplied.",
+    "Ghosted is rendered as the ability to move through units; the supplied excerpts do not define the term.",
+    "Passive visual information is a tentative textual cue, without visual verification."
+  ],
+  "language": "en"
+}

@@ -1,0 +1,168 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Amumu's basic attacks apply Curse to enemies.",
+          "covered": true,
+          "mechanic_id": "P.curse",
+          "reason": "Explicitly explains basic-attack application."
+        },
+        {
+          "answer_quote": "Cursed enemies take bonus true damage when they receive magic damage.",
+          "covered": true,
+          "mechanic_id": "P.magic_amplification",
+          "reason": "Explains the damage trigger and bonus damage type without restricting the magic damage's source."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": false,
+      "core_coverage": [
+        {
+          "answer_quote": "Amumu throws a bandage that deals magic damage and stuns the first enemy hit, pulling him to them.",
+          "covered": true,
+          "mechanic_id": "Q.projectile_hit",
+          "reason": "Explains the thrown projectile, first-enemy collision, damage and stun."
+        },
+        {
+          "answer_quote": "pulling him to them.",
+          "covered": true,
+          "mechanic_id": "Q.dash",
+          "reason": "Explicitly identifies Amumu as moving to the enemy hit."
+        },
+        {
+          "answer_quote": "He stores up to two charges that replenish over time.",
+          "covered": true,
+          "mechanic_id": "Q.charges",
+          "reason": "Explains both the supported maximum and replenishment."
+        }
+      ],
+      "counterplay_grounded": false,
+      "english": true,
+      "facts_supported": false,
+      "issues": [
+        "Counterplay says to keep 'other enemy units' between the reader and Amumu. From the reader's perspective, those units can be Amumu's allies, which the supplied first-enemy-hit mechanic does not establish as blockers. Repair the allegiance wording to specify units that are enemies of Amumu.",
+        "The answer itself is supported; the unsupported blocker advice causes the card-level factual-support failure."
+      ],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Amumu toggles an aura that continually deals magic damage to nearby enemies, including damage based on their maximum health.",
+          "covered": true,
+          "mechanic_id": "W.toggle_damage",
+          "reason": "Explains the toggle, nearby repeated magic damage and maximum-health component."
+        },
+        {
+          "answer_quote": "Its damage refreshes existing Curse marks.",
+          "covered": true,
+          "mechanic_id": "W.curse_refresh",
+          "reason": "Explicitly limits refresh to existing marks."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Tantrum passively reduces incoming physical damage.",
+          "covered": true,
+          "mechanic_id": "E.physical_reduction",
+          "reason": "Explains the passive reduction and correct damage type."
+        },
+        {
+          "answer_quote": "Activating it deals magic damage to surrounding enemies.",
+          "covered": true,
+          "mechanic_id": "E.area_damage",
+          "reason": "Explains active area magic damage."
+        },
+        {
+          "answer_quote": "Basic attacks that hit Amumu reduce its remaining cooldown.",
+          "covered": true,
+          "mechanic_id": "E.cooldown_reduction",
+          "reason": "States the supported general trigger and remaining-cooldown effect without claiming that only successful damaging hits qualify."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Amumu deals magic damage to surrounding enemies and stuns them.",
+          "covered": true,
+          "mechanic_id": "R.area_damage_stun",
+          "reason": "Explains damage and stun in the area surrounding Amumu."
+        },
+        {
+          "answer_quote": "He also applies Curse to affected enemies.",
+          "covered": true,
+          "mechanic_id": "R.curse",
+          "reason": "Explicitly explains Curse application without claiming it amplifies that same hit."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Use Wiki's basic-attack trigger to qualify Riot's broad wording. The draft does so. Keep blocked attacks, blindness misses and repeated on-hit interactions in metadata; they do not require removing the general mechanic.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Riot describes E cooldown reduction whenever Amumu is hit; Wiki specifies basic attacks and detailed hit interactions."
+    }
+  ],
+  "factual_risks": [
+    "Q counterplay has an allegiance ambiguity that can teach incorrect projectile blocking.",
+    "The tank-stat build focus is inferred teaching guidance, not an evidence-established optimal build.",
+    "Supplied evidence is version-pinned; current-client behavior and visuals were not verified.",
+    "No visible passive cue is established by the supplied evidence.",
+    "Supported advanced exceptions can remain in metadata: the answers do not assert universal shield bypass, complete damage negation or immediate amplification of R's own damage.",
+    "UNAPPROVED and provenance notes occur in metadata, not in the supplied card-facing answers or counterplay. This check does not constitute human approval."
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "cards": [
+    {
+      "answer": "Gangplank is a fighter who uses targeted pistol shots and chained barrel explosions to fight at range. His damage favors AD, with physical damage from shots and barrels, true damage from his melee burn, and magic damage from his barrage.",
+      "build_focus": "AD",
+      "counterplay": "Keep clear of connected barrels, contest them when safe, and pressure him after his cleanse is spent.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Gangplank. Official role tags: Fighter.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Active: Gangplank shoots the target enemy with his pistol, dealing physical damage and applying on-hit and on-attack effects.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "The explosion will cause nearby Powder Kegs to also explode.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Gangplank is a fighter who uses targeted pistol shots and chained barrel explosions to fight at range."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Physical Damage:10 / 40 / 70 / 100 / 130 (+ 100% AD)",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Against an enemy champion, the explosion additionally deals bonus physical damage and ignores a portion of their armor.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "bonus true damage",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Trial by Fire cannot be applied with Parrrley nor Powder Keg.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Gangplank's melee strike will set his opponent on fire.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "each blast deals magic damage and slows enemies within.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "His damage favors AD, with physical damage from shots and barrels, true damage from his melee burn, and magic damage from his barrage."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Recognizing barrel threats and his cleanse is central to fighting him.",
+      "slot": "-",
+      "uncertainties": []
+    },
+    {
+      "answer": "Trial by Fire periodically empowers his melee attack to burn the target for true damage over time and grant him movement speed. Barrel explosions refresh the passive and grant its movement speed; Q and barrel explosions cannot apply the burn.",
+      "build_focus": "",
+      "counterplay": "Avoid prolonged melee trades around his barrel detonations.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Gangplank's melee strike will set his opponent on fire.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Innate: Every few seconds, Gangplank's next basic attack will burn the target, continually dealing bonus true damage and granting him bonus movement speed.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Trial by Fire periodically empowers his melee attack to burn the target for true damage over time and grant him movement speed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Every time a Powder Keg explodes, the cooldown for Trial by Fire resets and Gangplank gains its bonus movement speed.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Trial by Fire cannot be applied with Parrrley nor Powder Keg.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Barrel explosions refresh the passive and grant its movement speed; Q and barrel explosions cannot apply the burn."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "A target being set on fire is a tentative cue for the empowered melee hit.",
+        "meaningful": true,
+        "source_ids": [
+          "riot:P",
+          "wiki:P"
+        ]
+      },
+      "priority": "A",
+      "priority_reason": "Barrel resets make repeated melee burns a major trading threat.",
+      "slot": "P",
+      "uncertainties": []
+    },
+    {
+      "answer": "Parrrley is a targeted pistol shot that deals physical damage, applies on-hit effects, and can critically strike. It can detonate barrels; kills from the shot or its barrel explosions grant gold and Silver Serpents, which fund ultimate upgrades.",
+      "build_focus": "",
+      "counterplay": "Respect his targeted poke range and avoid standing near barrels he can shoot.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Gangplank fires a shot at the target enemy that deals physical damage, applies on-hit effects as a ranged attack, and triggers on-attack effects. This damage is affected by critical strike modifiers.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Parrrley is a targeted pistol shot that deals physical damage, applies on-hit effects, and can critically strike."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Kegs can be attacked by enemies or Gangplank (including his Parrrley)",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "When Gangplank destroys it, it explodes",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "If Parrrley kills the target, Gangplank plunders gold and Silver Serpents. Each enemy killed by a Powder Keg explosion that was originally set off by Parrrley also counts for the plunder.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Silver Serpents can be spent while at the shop to upgrade Cannon Barrage.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "It can detonate barrels; kills from the shot or its barrel explosions grant gold and Silver Serpents, which fund ultimate upgrades."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "His targeted poke also triggers his main barrel threat.",
+      "slot": "Q",
+      "uncertainties": []
+    },
+    {
+      "answer": "Remove Scurvy cleanses crowd control and heals him, with more healing when he is missing more health. It does not remove debuffs other than crowd control.",
+      "build_focus": "",
+      "counterplay": "Bait out his cleanse before committing important crowd control, and account for his healing when he is low.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Gangplank eats citrus to cleanse crowd control effects and heal based on his missing health.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Heal:45 / 70 / 95 / 120 / 145 (+ 90% AP) (+ 13% missing health)",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Remove Scurvy cleanses crowd control and heals him, with more healing when he is missing more health."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Remove Scurvy does not remove debuffs other than crowd control, even if both occur from the same effect.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "It does not remove debuffs other than crowd control."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "His cleanse and healing can undermine an attempted catch.",
+      "slot": "W",
+      "uncertainties": []
+    },
+    {
+      "answer": "Powder Keg places barrels whose health decays toward destruction range. Enemies can attack them to safely defuse them; if Gangplank destroys a barrel with an attack or Q, it explodes and detonates connected barrels. Explosions spread the triggering attack's damage, slow enemies, ignore part of their armor, and add physical damage against champions; critical strikes can amplify the explosion.",
+      "build_focus": "",
+      "counterplay": "Move away from connected barrels or contest the finishing attack when safe; watch for chains extending toward you.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Gangplank places a Powder Keg at the target location",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "The keg starts with 3 health and loses 1 every 2 / 1 / 0.5 (based on level) seconds until it is left with 1 health.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Powder Keg places barrels whose health decays toward destruction range."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Kegs can be attacked by enemies or Gangplank (including his Parrrley), dealing 1 damage to it. When an enemy destroys it, it is safely defused. When Gangplank destroys it, it explodes and also triggers a chain reaction that explodes other nearby connected kegs",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Enemies can attack them to safely defuse them; if Gangplank destroys a barrel with an attack or Q, it explodes and detonates connected barrels."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Enemies caught in an explosion are dealt the triggering attack's damage and slowed for 2 seconds. Against champions, the explosion also deals bonus physical damage.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "the damage dealt ignores 40% of the target's armor.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "The triggering attack on the keg can critically strike, causing the explosion to deal the attack's critical damage.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Explosions spread the triggering attack's damage, slow enemies, ignore part of their armor, and add physical damage against champions; critical strikes can amplify the explosion."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Barrel chains are his central area damage and spacing threat.",
+      "slot": "E",
+      "uncertainties": []
+    },
+    {
+      "answer": "Cannon Barrage targets an area globally, repeatedly dealing magic damage, slowing enemies, and revealing the area. Purchased upgrades can add a central true-damage impact with a stronger slow, increase the bombardment, or grant movement speed to Gangplank and allies inside.",
+      "build_focus": "",
+      "counterplay": "Leave the bombardment area promptly and avoid lingering in its center.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "TARGET RANGE:\nGlobal",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "granting sight of the area for the duration. Each wave deals magic damage to all enemies within the area and slows them",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Cannon Barrage targets an area globally, repeatedly dealing magic damage, slowing enemies, and revealing the area."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Gangplank can improve Cannon Barrage by purchasing upgrades in the shop with Silver Serpents.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Death's Daughter: A large cannonball lands in the center of the barrage after the first cluster of waves occur, dealing a cluster's worth of true damage to enemies within the impact and slowing them by 75% for 1 second.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "slows them by 30% for 0.5 seconds.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Fire at Will: Cannon Barrage fires「 6 additional waves 」「 2 additional clusters 」over its duration",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Raise Morale: Cannon Barrage grants Gangplank and all allies within the area 40% bonus movement speed",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Purchased upgrades can add a central true-damage impact with a stronger slow, increase the bombardment, or grant movement speed to Gangplank and allies inside."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Global area control lets him influence fights from far away.",
+      "slot": "R",
+      "uncertainties": []
+    }
+  ],
+  "champion_id": 41,
+  "champion_name": "Gangplank",
+  "conflicts": [],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Track the cleanse window before committing crowd control.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Barrel charge recharge and available stock govern his repeated chain threats.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Ultimate availability affects his ability to influence distant fights.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "AD build focus is inferred from the supplied physical damage, attack scaling, and barrel mechanics rather than an explicit build recommendation.",
+    "The passive cue is textual and tentative; no visual verification was supplied."
+  ],
+  "language": "en"
+}

@@ -1,0 +1,410 @@
+{
+  "all_pending_editorial_review": true,
+  "asset_version": "16.21.1",
+  "card_ids": [
+    "champ:renekton:overview:L1",
+    "champ:renekton:system:p:reignofanger:recognize:L2",
+    "champ:renekton:q:recognize:L2",
+    "champ:renekton:w:recognize:L2",
+    "champ:renekton:e:recognize:L2",
+    "champ:renekton:transformation:r:dominus:recognize:L2"
+  ],
+  "cards": 6,
+  "citations": 30,
+  "core_coverage_checked": true,
+  "decoded_media_files": 9,
+  "errors": 0,
+  "findings": [
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:renekton:overview:L1",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:renekton:system:p:reignofanger:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "passive_visual_cue",
+      "id": "champ:renekton:system:p:reignofanger:recognize:L2",
+      "message": "Determine whether an important passive/system cue needs supplementary media",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:renekton:q:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:renekton:w:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:renekton:e:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "static_fallback",
+      "id": "champ:renekton:transformation:r:dominus:recognize:L2",
+      "message": "No source-matched animation; inspect the actual ability/context before accepting the real icon",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:renekton:transformation:r:dominus:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "metadata",
+      "code": "unknown_gameplay_patch",
+      "id": "renekton",
+      "message": "Asset release is separate; unknown gameplay patch stays hidden",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "media_mapping",
+      "id": "champ:renekton:system:p:reignofanger:recognize:L2",
+      "message": "['Passive/resource/leveling visual cues require manual review of the archived demonstration frames.']",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "media_mapping",
+      "id": "champ:renekton:q:recognize:L2",
+      "message": "['The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review.']",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "media_mapping",
+      "id": "champ:renekton:w:recognize:L2",
+      "message": "['The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review.']",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "media_mapping",
+      "id": "champ:renekton:e:recognize:L2",
+      "message": "['The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review.']",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "media_mapping",
+      "id": "champ:renekton:transformation:r:dominus:recognize:L2",
+      "message": "['No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant.']",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "renekton",
+      "message": "{'resolution': \"Use the detailed passive's inclusive threshold of at least 50 Fury. Riot ability descriptions say more than 50; the wiki's introductory percentage wording is less precise than its detailed rule.\", 'source_ids': ['riot:Q', 'riot:W', 'wiki:reignofanger'], 'topic': 'Fury empowerment threshold'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "renekton",
+      "message": "{'resolution': \"Teach Slice's exclusion from Fury consumption and Dice's empowerment using the detailed passive and E descriptions.\", 'source_ids': ['wiki:reignofanger', 'wiki:sliceanddice', 'riot:E'], 'topic': 'Generic basic-ability empowerment wording versus Slice exception'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "renekton",
+      "message": "{'resolution': 'Use the detailed passive rule of at least 50 Fury, with Slice excluded, rather than the simplified descriptions saying more than 50.', 'source_ids': ['riot:Q', 'riot:W', 'wiki:reignofanger'], 'topic': 'Fury empowerment threshold'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "renekton",
+      "message": "{'resolution': 'Describe healing per enemy hit, increased against champions, following the detailed Q description; omit the simplified damage-proportional wording.', 'source_ids': ['riot:Q', 'wiki:cullthemeek'], 'topic': 'Cull the Meek healing model'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "renekton",
+      "message": "{'resolution': \"Apply the passive's explicit exception that empowered abilities do not generate Fury. Q's Fury generation is described only for its normal version.\", 'source_ids': ['wiki:reignofanger', 'wiki:cullthemeek', 'wiki:ruthlesspredator', 'wiki:sliceanddice'], 'topic': 'Ability-hit Fury generation versus empowerment exception'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "renekton",
+      "message": "{'resolution': \"Use the detailed passive's at-least-50 threshold and explicit Slice exception rather than the simplified Riot descriptions saying more than 50.\", 'source_ids': ['riot:Q', 'riot:W', 'wiki:reignofanger'], 'topic': 'Fury empowerment threshold'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "renekton",
+      "message": "{'resolution': 'Use the detailed per-enemy healing model, increased against champions, rather than describing healing as proportional to damage dealt.', 'source_ids': ['riot:Q', 'wiki:cullthemeek'], 'topic': 'Cull the Meek healing model'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "renekton",
+      "message": "{'resolution': 'Apply the explicit passive exception: empowered abilities do not generate Fury. Read general ability-hit generation statements subject to that exception.', 'source_ids': ['wiki:reignofanger', 'wiki:cullthemeek', 'wiki:ruthlesspredator', 'wiki:sliceanddice'], 'topic': 'Normal versus empowered Fury generation'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "The Data Dragon release is pinned; the packet does not establish a current game patch label.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "The pending parrying-effects test is uncertain and supplies no established Fury interaction.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "The cooldown-change note in wiki:W is excluded as an isolated numerical change note.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "Lore, skins, collection text and credits embedded in wiki:R are excluded from gameplay teaching.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "Health Relics and peripheral pickup interactions are omitted from the central Fury goal because their mode context is not established.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "Detailed wiki-only interaction exceptions remain advanced material; no current-client verification is supplied.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "Counterplay is qualitative inference from the supplied effects, not a guaranteed outcome.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "The overview's AD orientation summarizes basic-ability damage and scaling; it does not establish an optimal build or follow causally from Fury empowerment.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "No exhaustive-kit ability-absence inference is used; the Slice and empowered-Fury exceptions are explicit source assertions.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "W's general shield-destruction core describes champion combat; monster and structure exceptions and attack-trigger distinctions remain in metadata.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "Fury generation against blind, dodge and block remains unresolved in the supplied material.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "No patch label or visual appearance is inferred from the supplied material.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "General attack-generated Fury wording is a beginner summary: the detailed passive excludes structures, and empowered abilities do not generate Fury.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "W's shield-destruction wording must retain its declared champion-combat scope; the detailed source excludes monsters and says the empowered attack does not trigger against structures.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "AD is inferred broad learning guidance from the supplied scaling, not an explicit source statement establishing an optimal build. The external pedagogical metadata supplies the required interpretation.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "Counterplay is qualitative source-grounded inference and makes no timing or outcome guarantees.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "Fury generation against blind, dodge and block remains pending testing and is correctly confined to metadata.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "renekton",
+      "message": "No exhaustive-kit absence inference, patch identification or visual verification is asserted.",
+      "severity": "warning"
+    },
+    {
+      "category": "source",
+      "code": "findings",
+      "id": "renekton",
+      "message": "{'code': 'adaptive_kit_structure', 'message': '5 live sections discovered; conventional slot headings are not a completeness contract.'}",
+      "severity": "warning"
+    }
+  ],
+  "kit_schema": 2,
+  "media": {
+    "gif": 3,
+    "icon": 2,
+    "portrait": 1
+  },
+  "model_usage": {
+    "available_receipt_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 25472,
+      "input_tokens": 122684,
+      "output_tokens": 16287,
+      "reasoning_output_tokens": 389
+    },
+    "logical_requests": 5,
+    "recorded_model_attempts": 5,
+    "scope": "Recorded generation usage; cached replay does not repeat these model calls. Failed-attempt usage may be unavailable.",
+    "usage_receipts_available": 5
+  },
+  "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+  "schema_version": 1,
+  "section_dispositions": [
+    {
+      "disposition": "taught",
+      "reason": "The Fury cycle and Slice exception determine which threats are empowered; pending tests and peripheral interactions are excluded from cores.",
+      "source_id": "wiki:reignofanger",
+      "target_subject_ids": [
+        "wiki:reignofanger"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Surrounding damage, healing and empowerment form a distinct enemy-recognition goal; scaling and brief lockouts are unnecessary for it.",
+      "source_id": "wiki:cullthemeek",
+      "target_subject_ids": [
+        "wiki:cullthemeek"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The attack stun and empowered shield destruction are central threats; specialized trigger interactions are advanced material.",
+      "source_id": "wiki:ruthlesspredator",
+      "target_subject_ids": [
+        "wiki:ruthlesspredator"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Slice, its hit-gated Dice recast and Dice empowerment belong together as a movement-recognition goal.",
+      "source_id": "wiki:sliceanddice",
+      "target_subject_ids": [
+        "wiki:sliceanddice"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The transformation, aura, Fury generation and increased reach fit a shared sustained-fight goal without a separate form card.",
+      "source_id": "wiki:dominus",
+      "target_subject_ids": [
+        "wiki:dominus"
+      ]
+    }
+  ],
+  "slot_roles": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:reignofanger"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:cullthemeek"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:ruthlesspredator"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:sliceanddice"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:dominus"
+      ]
+    }
+  ],
+  "source_excerpts": 16,
+  "source_packet_sha256": "9545184766f85e58beb0d43f31e292ce491288a1d9ae50587ab656783c793026",
+  "warnings": 41,
+  "wiki_revision": "4028014"
+}

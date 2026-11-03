@@ -1,0 +1,1292 @@
+{
+  "approval_blockers": [
+    "All six cards are drafts requiring explicit editorial approval.",
+    "All clips/cues need manual visual verification.",
+    "Game patch label has not been independently established."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "-"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:warwick:overview:L1",
+      "issues": [
+        "UNAPPROVED draft.",
+        "AD is a broad stat learning focus supported by damage ratios, not an optimal build recommendation. The unsupported Health focus was removed."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": null,
+      "media_type": "portrait",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "His pursuit, healing and suppression explain his fighting role and main threats."
+      },
+      "slot": "-",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Basic attacks deal bonus magic damage.",
+            "covered": true,
+            "mechanic_id": "P.bonus_magic_damage",
+            "reason": "Directly explains the supported general attack effect; particular unit exceptions need not be enumerated."
+          },
+          {
+            "answer_quote": "Below 50% health, this passive damage also heals Warwick, with stronger healing below 25% health.",
+            "covered": true,
+            "mechanic_id": "P.low_health_healing",
+            "reason": "Explains both supported health thresholds without choosing the disputed healing multiplier."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "P"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:warwick:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Exact healing below 25% health conflicts: Riot says triple; Wiki says 250%.",
+        "The supplied frames do not clearly establish a distinctive passive cue; no visual proposal is made.",
+        "Wiki specifies damage ordering and unit eligibility exceptions. Other modified-health units remain pending testing."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If Warwick is below 25% health, this healing triples.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "While below 50% maximum health, Warwick also heals for 100% of the post-mitigation damage dealt by Eternal Hunger, increased to 250% while below 25% maximum health.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "disputed",
+            "summary": "The exact healing increase below 25% health conflicts: Riot says triple, while Wiki says 250%. Both establish stronger healing."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Eternal Hunger's damage is applied before the damage of the effect that triggers it.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Eternal Hunger does not affect:\nstructures\nwards (except effigies)\nJungle plants\nGangplank's kegs",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Eternal Hunger does affect:\nIllaoi's Tentacles\nYorick's Dark Procession",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Wiki specifies damage ordering and particular unit eligibility; these details qualify the general on-hit effect."
+          },
+          {
+            "citations": [
+              {
+                "quote": "PENDING FOR TEST: Other units with modified health behaviour.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "uncertain",
+            "summary": "Eligibility of other units with modified health behavior remains untested in the supplied evidence."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Warwick's basic attacks deal bonus magic damage.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Innate: Warwick deals bonus magic damage on-hit.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.bonus_magic_damage",
+            "summary": "Basic attacks deal bonus magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Warwick is below 50% health, he heals the same amount.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "While below 50% maximum health, Warwick also heals for 100% of the post-mitigation damage dealt by Eternal Hunger, increased to 250% while below 25% maximum health.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.low_health_healing",
+            "summary": "Below half health, the passive damage also heals Warwick; this healing increases further below one-quarter health."
+          }
+        ],
+        "slot": "P",
+        "unsupported_claims": [
+          "The passive heals Warwick regardless of his current health.",
+          "The passive affects every unit with modified health behavior."
+        ]
+      },
+      "media_type": "icon",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Low-health healing can make an extended fight unexpectedly dangerous."
+      },
+      "slot": "P",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Warwick lunges at a target and bites, dealing magic damage based partly on its maximum health and healing from the damage dealt.",
+            "covered": true,
+            "mechanic_id": "Q.bite_and_heal",
+            "reason": "Explains the lunge, damage type, partial maximum-health scaling and associated healing."
+          },
+          {
+            "answer_quote": "Holding the bite carries him behind the target and can follow its movement.",
+            "covered": true,
+            "mechanic_id": "Q.hold_and_follow",
+            "reason": "Explains held positioning and tracking without claiming exceptionless tracking."
+          },
+          {
+            "answer_quote": "While the bite is active, he is immune to displacement effects such as knockbacks.",
+            "covered": true,
+            "mechanic_id": "Q.displacement_immunity",
+            "reason": "States the supported immunity and its active window without extending it to all crowd control."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "Q"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:warwick:q:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Held tracking has spawn-platform and Sion-respawn exceptions with documented reliability caveats.",
+        "Displacement immunity does not prevent every crowd-control interruption.",
+        "Grounding and roots prevent starting the held channel but do not interrupt an existing channel.",
+        "Healing excludes additional on-hit damage; health-based damage is capped against monsters. Q also applies on-hit effects and life steal.",
+        "Tapped-cast cooldown refunds have documented reliability caveats."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "While Jaws of the Beast is active, Warwick is displacement immune and clamps his jaw on the target, following all of their movement.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Jaws of the Beast's channel cannot be initiated while grounded or rooted. Warwick can only use the normal cast.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "The channel will not be interrupted by either of the two effects, despite the lock-on being a movement channel.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Q grants displacement immunity while active. Grounding and roots prevent starting its held channel but do not interrupt an existing channel."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Every interrupting crowd control effect that is not resisted by the displacement immunity will prematurely stop the dash.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "The healing is calculated only from Jaws of the Beast's damage, while additional effects, such as on-hits, are not.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "The damage based on the target's health ratio is capped against monsters.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Jaws of the Beast applies on-hit effects and life steal.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Displacement immunity does not protect against every interruption. Healing excludes additional on-hit damage; the health-based damage is capped against monsters. Q applies on-hit effects and life steal."
+          },
+          {
+            "citations": [
+              {
+                "quote": "It has been special cased so Warwick never follows an enemy that uses a blink with a destination that is their spawn platform (such as Recall), or Sion when he respawns after his Glory in Death ends. This only applies to the charge when the ability is held.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Editor's Note: This may occasionally fail.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "uncertain",
+            "summary": "Wiki describes spawn-platform and Sion-respawn exceptions to held tracking but flags occasional failure."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the target dies prior to Warwick reaching them, Jaws of the Beast refunds its cooldown when tapped.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Editor's Note: The refund can occasionally fail. (bug)",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "uncertain",
+            "summary": "The described tapped-cast cooldown refund has a documented reliability caveat."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Warwick lunges forward and bites his target, dealing damage based on their maximum health and healing for damage dealt.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Active: Warwick lunges at his target and bites them, dealing magic damage that is increased based on the target's maximum health and healing himself for a portion of the damage dealt.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.bite_and_heal",
+            "summary": "Lunges at a target and bites, dealing magic damage based partly on the target's maximum health and healing Warwick from the damage dealt."
+          },
+          {
+            "citations": [
+              {
+                "quote": "When held, he also charges briefly, leaping behind his target.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "While Jaws of the Beast is in effect, Warwick gains displacement immunity and also follows all of his target's movements.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.hold_and_follow",
+            "summary": "Holding Q carries Warwick behind his target and allows him to follow its movement, subject to specific exceptions."
+          },
+          {
+            "citations": [
+              {
+                "quote": "While Jaws of the Beast is active, Warwick is displacement immune",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.displacement_immunity",
+            "summary": "Warwick gains displacement immunity while Q is active."
+          }
+        ],
+        "slot": "Q",
+        "unsupported_claims": [
+          "Q makes Warwick immune to all crowd control.",
+          "Held Q follows every movement without exceptions.",
+          "Q healing includes damage from additional on-hit effects."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Following movement and resisting displacement can defeat common escape attempts."
+      },
+      "slot": "Q",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Warwick senses enemy champions damaged below 50% health by him or allies, follows trails toward them with bonus movement speed that is temporarily lost in champion combat",
+            "covered": true,
+            "mechanic_id": "W.hunt_low_health",
+            "reason": "Explains eligible champion detection, trails, pursuit speed and the combat restriction."
+          },
+          {
+            "answer_quote": "and gains attack speed against low-health targets.",
+            "covered": true,
+            "mechanic_id": "W.attack_speed",
+            "reason": "Explicitly explains the low-health attack-speed benefit."
+          },
+          {
+            "answer_quote": "Both bonuses grow stronger against very wounded enemies.",
+            "covered": true,
+            "mechanic_id": "W.stronger_low_health_bonuses",
+            "reason": "Explains the supported increase without selecting disputed thresholds or multipliers."
+          },
+          {
+            "answer_quote": "Activating Blood Hunt temporarily marks the nearest enemy champion in its area and grants the bonuses against that target regardless of health.",
+            "covered": true,
+            "mechanic_id": "W.active_hunt",
+            "reason": "Explains temporary active marking, nearest-target selection, area restriction and health-independent bonuses."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "W"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:warwick:w:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Very-low-health thresholds and bonus multipliers conflict across sources and within Wiki.",
+        "Detection uses obscured vision, can include decoys, and has an allied Nexus Obelisk damage exception.",
+        "Attack-speed acquisition, refresh and persistence have additional timing rules."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "When they fall below 25% health, he frenzies and these bonuses triple.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "These bonuses are massively increased if the target is below 20% of their maximum health.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "The attack speed and movement speed bonuses granted by both passives are doubled against enemies who are below 25% of their maximum health.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "disputed",
+            "summary": "The exact very-low-health threshold and multiplier conflict across Riot and Wiki, including within Wiki. The general increase remains supported."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Passive: Warwick senses all enemy champions on the map who are damaged below 50% of their maximum health by him or an allied source, marking them with Blood Hunt until they regenerate or heal above this threshold again.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "This bonus is lost for 0.5 seconds upon entering champion combat, but will build up again over 3.5 seconds.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "The only exception is the allied Nexus Obelisk, because that deals internalraw damage, which does not trigger damage-related events such as Blood Hunt's marking.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Passive champion marking requires damage from Warwick or an allied source, with the stated Nexus Obelisk exception. Champion combat temporarily removes movement speed, which then rebuilds."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The initiation of the attack windup to gain the bonus attack speed is only for gaining the bonus; it does not refresh the duration of the attack speed buff if Warwick has it already.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Blood Hunt is a form of obscured vision.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Blood Hunt can detect and target decoys.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Attack windup grants but does not refresh an existing attack-speed buff. Detection uses obscured vision and can include decoys."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Warwick senses enemies below 50% health, gaining Move Speed toward and attack speed against them.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "He sees trails leading toward them and gains bonus movement speed while following a trail.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.hunt_low_health",
+            "summary": "Senses eligible low-health enemy champions and gains movement speed toward them along their trails, subject to combat restrictions."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Passive: Warwick gains attack speed against targets below 50% of their maximum health.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Warwick senses enemies below 50% health, gaining Move Speed toward and attack speed against them.",
+                "source_id": "riot:W"
+              }
+            ],
+            "id": "W.attack_speed",
+            "summary": "Gains bonus attack speed against low-health targets."
+          },
+          {
+            "citations": [
+              {
+                "quote": "When they fall below 25% health, he frenzies and these bonuses triple.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "The attack speed and movement speed bonuses granted by both passives are doubled against enemies who are below 25% of their maximum health.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.stronger_low_health_bonuses",
+            "summary": "The movement-speed and attack-speed bonuses grow stronger against very-low-health enemies; exact values are disputed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Warwick senses the nearest enemy champion in the area at the start of the cast time, marking them with Blood Hunt for 8 seconds, gaining both passive bonuses against them regardless of their current health.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.active_hunt",
+            "summary": "Activating W temporarily hunts the nearest enemy champion in its area and grants the passive bonuses against that target regardless of health."
+          }
+        ],
+        "slot": "W",
+        "unsupported_claims": [
+          "Blood Hunt grants unrestricted full vision of every low-health enemy.",
+          "The active marks every enemy champion in its area.",
+          "The movement-speed bonus remains fully active throughout champion combat."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "His hunt makes wounded targets easier to pursue and gives him an active way to hunt healthy targets."
+      },
+      "slot": "W",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Warwick temporarily reduces the damage he takes.",
+            "covered": true,
+            "mechanic_id": "E.damage_reduction",
+            "reason": "Explains temporary protection without choosing a disputed duration."
+          },
+          {
+            "answer_quote": "When the effect expires or he recasts it, he howls, fearing nearby enemies and making them flee.",
+            "covered": true,
+            "mechanic_id": "E.fear",
+            "reason": "Explains both general triggers, nearby scope and the fear's effect without claiming immediate recast availability or universal loss of protection."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "E"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:warwick:e:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Maximum damage-reduction duration conflicts between Riot and Wiki.",
+        "Manual recast has an initial delay and normally ends protection; R's channel can trigger the howl while preserving remaining protection.",
+        "Wiki also describes a slow during the fear.",
+        "The howl resets the attack timer but cancels an ongoing attack and briefly prevents attacks and ability casts."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Warwick gains damage reduction for 2.5 seconds.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Active: Warwick gains damage reduction for up to 2.75 seconds.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "disputed",
+            "summary": "The exact maximum damage-reduction duration conflicts; both sources establish temporary damage reduction."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Primal Howl can be recast after 1 second, and does so automatically after the duration.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Recast: Warwick howls, ending Primal Howl's effects and fearing nearby enemies for 1 second, slowing them by 90%.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Starting Infinite Duress' channel while Primal Howl is active will initiate the recast without ending the damage reduction buff prematurely.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Manual recast has an initial delay and normally ends the protection. Starting R's channel triggers the howl while preserving the remaining damage reduction."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Primal Howl's recast resets Warwick's basic attack timer.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "The recast's howling animation has a 0.25-second lockout time.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "This will also cancel Warwick's basic attack.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Warwick cannot attack or cast abilities during the animation, instead the last input will be buffered to play after it ends.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The howl resets the attack timer but also cancels an ongoing attack and briefly locks out attacks and abilities."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Warwick gains damage reduction for 2.5 seconds.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Active: Warwick gains damage reduction for a short time.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.damage_reduction",
+            "summary": "Temporarily reduces damage Warwick takes."
+          },
+          {
+            "citations": [
+              {
+                "quote": "At the end, or if re-activated, he howls, causing nearby enemies to flee for 1 second.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Recast: Warwick howls to briefly fear and slow nearby enemies.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.fear",
+            "summary": "At expiration or on recast, howls to fear nearby enemies, making them flee."
+          }
+        ],
+        "slot": "E",
+        "unsupported_claims": [
+          "E grants invulnerability or crowd-control immunity.",
+          "Manual recast is available immediately after activation.",
+          "E always loses its damage reduction when the howl triggers."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Combines defensive damage reduction with nearby crowd control."
+      },
+      "slot": "E",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Warwick leaps in a chosen direction, with more movement speed increasing his range",
+            "covered": true,
+            "mechanic_id": "R.directional_leap",
+            "reason": "Explains directional input and movement-speed-dependent range."
+          },
+          {
+            "answer_quote": "He stops on the first enemy champion hit and channels to suppress them, unless their spell shield or crowd-control immunity prevents the channel.",
+            "covered": true,
+            "mechanic_id": "R.suppression",
+            "reason": "Explains first-target collision, suppression channel and protections preventing initiation."
+          },
+          {
+            "answer_quote": "During the channel, he deals magic damage and heals from damage dealt.",
+            "covered": true,
+            "mechanic_id": "R.damage_and_healing",
+            "reason": "Explains channel damage type and healing without asserting guaranteed damage through suppression removal."
+          },
+          {
+            "answer_quote": "he is immune to crowd control during the leap.",
+            "covered": true,
+            "mechanic_id": "R.leap_cc_immunity",
+            "reason": "Correctly confines the stated immunity to the leap."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "R"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:warwick:r:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Crowd-control immunity starts during cast time but does not generally extend through the channel or missed-leap slide; Wiki lists a specific Singed exception.",
+        "A spell shield applied after channel initiation does not prevent the existing effects.",
+        "Removing suppression does not necessarily end the channel; Wiki describes continued strikes without damage.",
+        "The full channel applies on-hit and on-attack effects three times. Healing includes all damage Warwick deals to that target during R.",
+        "Wiki specifies Fate's Call as a special channel interruption."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If the target is crowd control immune or protected by spell shield upon collision, Warwick will not start the channel.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Spell shield will not prevent the effects of Infinite Duress if Warwick is already channeling.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Cleansing the suppression does not interrupt the channel and Warwick will continue to strike but not deal any damage.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Target crowd-control immunity or a spell shield at collision prevents channel initiation. A later spell shield does not block an existing channel; cleansing suppression leaves Warwick striking without damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Warwick does not collide with a champion, he will slide a fixed distance past the maximum range during which he is no longer crowd control immune",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Warwick gains the cc-immunity at the start of the cast time.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "During the suppresion, Warwick is cc-immune to Singed's Fling, however, he is not immune to Urgot's Fling, Rell's Fling or other effects. (unexpected)",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Crowd-control immunity starts during cast time and covers the leap, but not the missed-leap slide or the channel generally. Wiki identifies a specific Singed interaction during suppression."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Infinite Duress both applies on-hit effects and triggers on-attack effects 3 times over its duration.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Warwick heals for 100% of all post-mitigation damage he deals to the target during Infinite Duress.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Infinite Duress is special cased to have its channel interrupted by Fate's Call.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "The full channel applies on-hit and on-attack effects three times, and healing includes all damage Warwick deals to that target during R. Fate's Call specifically interrupts the channel."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Warwick leaps in a direction (scaling with his bonus Move Speed), suppressing the first champion he collides with for 1.5 seconds.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "The leap's range scales with Warwick's movement speed and he gains cc-immunity during it.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.directional_leap",
+            "summary": "Leaps in a chosen direction, with greater movement speed increasing leap range."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Warwick leaps in a direction (scaling with his bonus Move Speed), suppressing the first champion he collides with for 1.5 seconds.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Active: Warwick leaps a huge distance toward the target direction, stopping on the first champion he collides with, suppressing them while he channels for a brief time.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.suppression",
+            "summary": "Stops on the first enemy champion hit and channels to suppress them, subject to target protection and interruption."
+          },
+          {
+            "citations": [
+              {
+                "quote": "He mauls them over the duration, dealing magic damage and healing for 100% of the damage dealt.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.damage_and_healing",
+            "summary": "Deals magic damage during the channel and heals Warwick from damage dealt."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Warwick leaps in the target direction with crowd control immunity, stopping upon hitting an enemy champion.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.leap_cc_immunity",
+            "summary": "Warwick is immune to crowd control during the leap."
+          }
+        ],
+        "slot": "R",
+        "unsupported_claims": [
+          "Warwick is immune to all crowd control throughout R's channel.",
+          "R always suppresses a champion regardless of spell shields or crowd-control immunity.",
+          "Removing suppression necessarily ends Warwick's channel.",
+          "R can collide with and suppress multiple champions in one leap."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "His leap can suppress a key target while healing him."
+      },
+      "slot": "R",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Availability determines access to bite healing, movement tracking and displacement immunity.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Active availability determines whether he can hunt a nearby healthy champion.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability determines access to damage reduction and nearby fear.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability determines his major leap and suppression threat.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "Evidence is frozen to the supplied Data Dragon release and Wiki revision; it does not establish current-patch behavior.",
+    "Official demonstration frames do not establish current-client or skin-specific visual behavior.",
+    "Wiki pending-test notes and documented bugs are not promoted to universal rules.",
+    "Q tracking and interruption, W detection, E/R interaction and R channel protection have advanced exceptions retained in card metadata.",
+    "Counterplay and the broad AD learning focus are teaching recommendations grounded in the supplied effects and ratios; no optimal build is established.",
+    "This support check establishes neither human approval nor visual verification; supplied frames remain unverified.",
+    "Frozen excerpts do not establish current-patch behavior.",
+    "Q tracking exceptions and cooldown-refund reliability remain QA caveats; the qualified tracking wording does not promise universal following.",
+    "W's Nexus Obelisk exception, decoy detection and attack-speed timing are advanced qualifications; the draft does not claim unrestricted vision or exhaustive eligibility.",
+    "E's R-triggered howl can preserve protection. The draft does not claim that every howl ends damage reduction.",
+    "R target protection is evaluated at collision; later spell shields do not block an existing channel. Suppression removal can leave a nondamaging channel, and a specific Singed interaction qualifies channel interruption.",
+    "AD scaling supports the broad learning focus, but does not establish an optimal build. Expanding AD to attack damage would optionally improve beginner clarity.",
+    "No provenance, confidence or development labels appear in the answer or counterplay text; UNAPPROVED labels remain in metadata."
+  ],
+  "findings": [],
+  "generation": {
+    "author": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 33223,
+            "output_tokens": 3945,
+            "reasoning_output_tokens": 60
+          }
+        ]
+      },
+      "output_sha256": "4df3e41a5e20ede3bcf4b308dfc818887348420485f8f3eaf2d83a87a90354cd",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "a3ea5442baa315c033175b38232cfb01e0515f3218702b2cff98255accd33925"
+    },
+    "mechanics": {
+      "attempts": 4,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 22136,
+            "output_tokens": 4682,
+            "reasoning_output_tokens": 0
+          }
+        ]
+      },
+      "output_sha256": "cc6e263319d9a73fb4fb8813936fd00066e29200a3f2305b4beee2e8ea28d991",
+      "prior_errors": [
+        "Codex invocation failed: 2026-11-01T17:51:20.990216Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-11-01T17:51:21.844522Z  WARN codex_core::session::startup_prewarm: startup websocket prewarm setup failed: You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 10:15 PM.\n",
+        "Codex invocation failed: 2026-11-01T17:51:24.478921Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-11-01T17:51:25.118988Z  WARN codex_core::session::startup_prewarm: startup websocket prewarm setup failed: You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 10:15 PM.\n",
+        "Codex invocation failed: 2026-11-01T17:51:28.338397Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell\n2026-11-01T17:51:29.462635Z  WARN codex_core::session::startup_prewarm: startup websocket prewarm setup failed: You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/settings/usage to purchase more credits or try again at 10:15 PM.\n"
+      ],
+      "provider": "codex",
+      "request_sha256": "70bd58ce10a0985c143aa8ac622e0264b166b0add6e6f05e131fd4e152431d55"
+    },
+    "passes": [
+      {
+        "author": {
+          "attempts": 2,
+          "configured_model": "",
+          "execution_attempts": 2,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12928,
+                "input_tokens": 28399,
+                "output_tokens": 3749,
+                "reasoning_output_tokens": 65
+              }
+            ]
+          },
+          "output_sha256": "d3bfe91332f131c60932e53c5765d234b05ddc0fde423d82cbbfae338ab55d7a",
+          "prior_errors": [
+            "Numeric claim lacks a matching number in cited quotes"
+          ],
+          "provider": "codex",
+          "request_sha256": "ad50be5895aaa30ff363fcc44fc24ee7df027a97ea9e19997f64dbf297f266cd"
+        },
+        "pass": 1,
+        "support_issues": 1,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 31476,
+                "output_tokens": 2009,
+                "reasoning_output_tokens": 87
+              }
+            ]
+          },
+          "output_sha256": "c7c2b82f8ecdccf2ebca9f4e33cfe55330bed3ee6fe28190b7a0cca70198dda3",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "30a2cd017c12429c865b412b139905b6718332fee6e3b61f43ec7412fe740b0c"
+        }
+      },
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 33223,
+                "output_tokens": 3945,
+                "reasoning_output_tokens": 60
+              }
+            ]
+          },
+          "output_sha256": "4df3e41a5e20ede3bcf4b308dfc818887348420485f8f3eaf2d83a87a90354cd",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "a3ea5442baa315c033175b38232cfb01e0515f3218702b2cff98255accd33925"
+        },
+        "pass": 2,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12672,
+                "input_tokens": 31116,
+                "output_tokens": 1933,
+                "reasoning_output_tokens": 61
+              }
+            ]
+          },
+          "output_sha256": "ce1f571686d816ec88fedef1dfd5083a85f505ebc278c89ffbe8aa342fc7e888",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "c3913f8bc1ac13d5c286754dae436a0a6bbb43d35ddb6ce1b73d872b11209f63"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "afe3c0a49f73c771d1f4211f063ea228aa6fb5569aa175e3ab055ec81dab183f",
+    "verifier": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 12672,
+            "input_tokens": 31116,
+            "output_tokens": 1933,
+            "reasoning_output_tokens": 61
+          }
+        ]
+      },
+      "output_sha256": "ce1f571686d816ec88fedef1dfd5083a85f505ebc278c89ffbe8aa342fc7e888",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "c3913f8bc1ac13d5c286754dae436a0a6bbb43d35ddb6ce1b73d872b11209f63"
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:warwick:e:recognize:L2": {
+      "cid": 2547062063362,
+      "guid": "4355670c0dd376",
+      "nid": 2047062063362
+    },
+    "champ:warwick:overview:L1": {
+      "cid": 2358089791657,
+      "guid": "dff29b2fbe2b5d",
+      "nid": 1858089791657
+    },
+    "champ:warwick:p:recognize:L2": {
+      "cid": 2387112208750,
+      "guid": "154f2f38a86303",
+      "nid": 1887112208750
+    },
+    "champ:warwick:q:recognize:L2": {
+      "cid": 2587013574054,
+      "guid": "6c8bbba234a838",
+      "nid": 2087013574054
+    },
+    "champ:warwick:r:recognize:L2": {
+      "cid": 2347590643292,
+      "guid": "492e396176c080",
+      "nid": 1847590643292
+    },
+    "champ:warwick:w:recognize:L2": {
+      "cid": 2462573520117,
+      "guid": "f0076668aaf1b1",
+      "nid": 1962573520117
+    }
+  },
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "Exact-quote matching does not prove semantic truth.",
+    "AI verification is fallible and is not a human content or visual review."
+  ],
+  "media_references": [
+    "warwick_e.gif",
+    "warwick_e_icon.png",
+    "warwick_p_icon.png",
+    "warwick_portrait.jpg",
+    "warwick_q.gif",
+    "warwick_q_icon.png",
+    "warwick_r.gif",
+    "warwick_r_icon.png",
+    "warwick_w.gif",
+    "warwick_w_icon.png"
+  ],
+  "new_cards": 6,
+  "passive_frame_evidence": [
+    {
+      "path": "visual-inputs/passive-1.png",
+      "sha256": "7373382754053c993be1927ce72ccad82c0b6f10e433d4e1e96d8c13fd5ec7b3",
+      "source_sha256": "349fcacd41e1ce521f5bf88dc9eac07df0c741e7c8964eed2ad3e8591dddf2c3",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0019/ability_0019_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 1.0488
+    },
+    {
+      "path": "visual-inputs/passive-2.png",
+      "sha256": "81e9e88360fa9308eae8b5f83c7ba37e02054d2a40d70a3c6dc356375951d5ee",
+      "source_sha256": "349fcacd41e1ce521f5bf88dc9eac07df0c741e7c8964eed2ad3e8591dddf2c3",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0019/ability_0019_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 2.7968
+    },
+    {
+      "path": "visual-inputs/passive-3.png",
+      "sha256": "b64affb6594099f1d7538a061fe940d221ad02d37ce5c079b5521d45cb68c18e",
+      "source_sha256": "349fcacd41e1ce521f5bf88dc9eac07df0c741e7c8964eed2ad3e8591dddf2c3",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0019/ability_0019_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 4.5448
+    },
+    {
+      "path": "visual-inputs/passive-4.png",
+      "sha256": "1738e37d743d1b43f4126a8f685fbedd16968bd165f04aabf890cf576a77295e",
+      "source_sha256": "349fcacd41e1ce521f5bf88dc9eac07df0c741e7c8964eed2ad3e8591dddf2c3",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0019/ability_0019_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 6.2928
+    }
+  ],
+  "publishable": false,
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "resolution": "Retain stronger healing below one-quarter health without choosing the disputed triple or 250% multiplier.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Passive healing multiplier"
+    },
+    {
+      "resolution": "Retain stronger bonuses against very wounded enemies without choosing an exact threshold or multiplier; Riot and Wiki disagree, and Wiki is internally inconsistent.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "Blood Hunt enhanced bonuses"
+    },
+    {
+      "resolution": "Retain temporary damage reduction without choosing between the stated maximum durations of 2.5 and 2.75 seconds.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Primal Howl protection duration"
+    },
+    {
+      "resolution": "Unresolved exact multiplier: Riot says triple healing below 25% health; Wiki says 250%. The draft correctly retains only stronger healing.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Passive healing multiplier"
+    },
+    {
+      "resolution": "Unresolved threshold and multiplier: Riot specifies triple below 25%; Wiki variously specifies enhancement below 20% and doubling below 25%. The draft correctly retains the supported general increase.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "Blood Hunt enhanced bonuses"
+    },
+    {
+      "resolution": "Unresolved maximum protection duration: Riot states 2.5 seconds and Wiki states up to 2.75 seconds. The draft correctly avoids an exact duration.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Primal Howl protection duration"
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "3960181"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

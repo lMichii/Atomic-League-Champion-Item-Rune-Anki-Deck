@@ -1,0 +1,251 @@
+{
+  "all_pending_editorial_review": true,
+  "asset_version": "16.21.1",
+  "card_ids": [
+    "champ:akali:overview:L1",
+    "champ:akali:p:recognize:L2",
+    "champ:akali:q:recognize:L2",
+    "champ:akali:w:recognize:L2",
+    "champ:akali:e:recognize:L2",
+    "champ:akali:r:recognize:L2"
+  ],
+  "cards": 6,
+  "citations": 30,
+  "core_coverage_checked": true,
+  "decoded_media_files": 10,
+  "errors": 0,
+  "findings": [
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:akali:overview:L1",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:akali:p:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "passive_visual_cue",
+      "id": "champ:akali:p:recognize:L2",
+      "message": "Determine whether an important passive/system cue needs supplementary media",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:akali:q:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:akali:w:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:akali:e:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:akali:r:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "metadata",
+      "code": "unknown_gameplay_patch",
+      "id": "akali",
+      "message": "Asset release is separate; unknown gameplay patch stays hidden",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "akali",
+      "message": "{'resolution': \"Leave the first dash's damage type unspecified while retaining champion targeting and path damage.\", 'source_ids': ['wiki:R', 'riot:R'], 'topic': \"The Wiki's introductory R description says physical damage, while its detailed description says magic damage.\"}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "akali",
+      "message": "{'resolution': \"Use the Wiki's more specific outer-range restriction for the slow.\", 'source_ids': ['riot:Q', 'wiki:Q'], 'topic': 'Riot describes Q slowing without specifying which part of the cone applies it.'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "akali",
+      "message": "{'resolution': 'Describe increasing missing-health damage rather than a guaranteed kill.', 'source_ids': ['riot:R', 'wiki:R'], 'topic': \"Riot's execution shorthand is clarified by the Wiki's missing-health damage description.\"}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "akali",
+      "message": "{'resolution': 'Unresolved first-cast damage type: retain the supported damaging-dash core without specifying its type and preserve the QA flag.', 'source_ids': ['wiki:R', 'riot:R'], 'topic': \"The Wiki's introductory R description specifies physical damage, while its detailed description and damage records specify magic damage. Riot does not resolve the type.\"}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "akali",
+      "message": "{'resolution': \"Use the Wiki's explicit outer-range restriction, as the draft does.\", 'source_ids': ['riot:Q', 'wiki:Q'], 'topic': \"Riot's abbreviated Q description omits the slow's range restriction; the Wiki supplies it.\"}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "akali",
+      "message": "{'resolution': 'Describe missing-health damage rather than an automatic kill, as the draft does.', 'source_ids': ['riot:R', 'wiki:R'], 'topic': \"Riot's execution shorthand is clarified by the Wiki's explicit missing-health damage mechanic.\"}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "All six cards are UNAPPROVED drafts.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "Evidence is frozen to the supplied Data Dragon release and Wiki revision; no game patch label is inferred.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "No visual frames were supplied, and the passive cue has not been verified in the current client.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "Wiki excerpts include mode-specific changes and unrelated skin material; these are excluded from the explanations.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "R has an unresolved first-dash damage-type conflict.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "Shroud invisibility and E tracking have advanced exceptions; neither should be read as unconditional protection or pursuit.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "Counterplay is inferred teaching guidance grounded in the described effects.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "The first R dash's damage type remains unresolved in the supplied evidence.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "The passive visual description is supported by text only; no visual verification was supplied. Opponents cannot see the ring, so its exit should not be taught as a directly visible enemy cue.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "Passive ring creation and empowerment have advanced restrictions retained in metadata; the answer presents their supported general mechanics.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "Shroud invisibility has dashing and recalling exceptions and does not establish damage immunity or protection from every detection effect.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "E recast initiation has targetability and realm restrictions; its dash can also be interrupted. The draft does not promise an unavoidable return.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "akali",
+      "message": "Evidence is frozen to the supplied releases and revision; this check provides neither current-client verification nor human approval.",
+      "severity": "warning"
+    },
+    {
+      "category": "source",
+      "code": "findings",
+      "id": "akali",
+      "message": "{'code': 'media_url_missing', 'name': 'akali_p.webm'}",
+      "severity": "warning"
+    }
+  ],
+  "kit_schema": 1,
+  "media": {
+    "gif": 4,
+    "icon": 1,
+    "portrait": 1
+  },
+  "model_usage": {},
+  "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+  "schema_version": 1,
+  "section_dispositions": [],
+  "slot_roles": [
+    {
+      "role": "passive",
+      "slot": "P"
+    },
+    {
+      "role": "active",
+      "slot": "Q"
+    },
+    {
+      "role": "active",
+      "slot": "W"
+    },
+    {
+      "role": "active",
+      "slot": "E"
+    },
+    {
+      "role": "active",
+      "slot": "R"
+    }
+  ],
+  "source_excerpts": 11,
+  "source_packet_sha256": "274b8a5bdd19930ed967d38f9342c8bc078c590adcda34b692c8a0cbd37ad932",
+  "warnings": 28,
+  "wiki_revision": "4008175"
+}

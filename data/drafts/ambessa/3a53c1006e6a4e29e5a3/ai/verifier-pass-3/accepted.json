@@ -1,0 +1,228 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:ambessa:overview:L1",
+      "core_coverage": [
+        {
+          "answer_quote": "Ambessa is a fighter and assassin",
+          "covered": true,
+          "mechanic_id": "overview_role",
+          "reason": "Matches the supplied role tags."
+        },
+        {
+          "answer_quote": "combines physical ability damage with empowered attacks that restore energy",
+          "covered": true,
+          "mechanic_id": "overview_damage",
+          "reason": "Explains both physical ability damage and the attack-based energy cycle."
+        },
+        {
+          "answer_quote": "Her ability-linked dashes let her reposition, but cannot cross terrain or occur while immobilized or grounded. Her ultimate blinks her to the farthest enemy champion in a chosen line.",
+          "covered": true,
+          "mechanic_id": "overview_mobility",
+          "reason": "Explains dash access, limitations, and ultimate targeting."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:ambessa:system:p:drakehoundsstep:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "An attack or movement command during an ability's brief action lockout queues a dash toward that target or location afterward; the dash cannot cross terrain or occur while immobilized or grounded.",
+          "covered": true,
+          "mechanic_id": "step_trigger_limits",
+          "reason": "Explains the trigger and limits. Input replacement and control-related buffering exceptions remain in metadata."
+        },
+        {
+          "answer_quote": "Ability casts grant temporary Medarda Maxim stacks, up to three; basic attacks consume one each for extra range, attack speed, physical damage, and energy restoration.",
+          "covered": true,
+          "mechanic_id": "step_energy_cycle",
+          "reason": "Explains stack generation, cap, consumption, and every required benefit."
+        },
+        {
+          "answer_quote": "Ambessa sees her dash direction and destination indicator, and her empowered-attack pips are visible only to her player.",
+          "covered": false,
+          "mechanic_id": "step_private_indicators",
+          "reason": "Explains visibility and private pips, but does not establish that the dash indicator is private. The supplied evidence does not support that part of the frozen core; the draft appropriately avoids inventing it."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [
+        "The frozen private-indicator core is only partially supported and covered. Resolve its unsupported dash-indicator exclusivity in inventory metadata; do not add exclusivity to the answer."
+      ],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:ambessa:q:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Cunning Sweep is a directional slash that deals physical damage, increased at its outer edge.",
+          "covered": true,
+          "mechanic_id": "sweep_edge",
+          "reason": "Explains damage type, direction, and outer-edge amplification."
+        },
+        {
+          "answer_quote": "Hitting any enemy temporarily unlocks Sundering Slam.",
+          "covered": true,
+          "mechanic_id": "sweep_unlock",
+          "reason": "Preserves the enemy-hit condition and temporary follow-up access."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:ambessa:ability_variant:q:sunderingslam:cunningsweep:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "This follow-up deals physical damage in a line, with increased damage to the first enemy hit.",
+          "covered": true,
+          "mechanic_id": "slam_line_priority",
+          "reason": "Explains the variant's shape, damage type, and first-target amplification."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:ambessa:w:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Repudiation shields Ambessa as she braces, then smashes the ground to damage nearby enemies.",
+          "covered": true,
+          "mechanic_id": "repudiation_shield_smash",
+          "reason": "Explains the shield, brace, and nearby smash sequence."
+        },
+        {
+          "answer_quote": "If the shield absorbs champion, large-monster, or turret damage during bracing, the smash deals increased damage.",
+          "covered": true,
+          "mechanic_id": "repudiation_empower",
+          "reason": "Preserves shield absorption, qualifying damage sources, and the bracing condition."
+        },
+        {
+          "answer_quote": "Drakehound's Step can move the smash to her dash destination.",
+          "covered": true,
+          "mechanic_id": "repudiation_reposition",
+          "reason": "States supported possible relocation without making every dash timing equivalent."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:ambessa:e:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Lacerate spins around Ambessa, dealing physical damage and briefly slowing nearby enemies.",
+          "covered": true,
+          "mechanic_id": "lacerate_spin_slow",
+          "reason": "Explains the surrounding physical damage and slow."
+        },
+        {
+          "answer_quote": "Using Drakehound's Step after the spin triggers another spin at the dash endpoint, repeating the damage and slow.",
+          "covered": true,
+          "mechanic_id": "lacerate_dash_repeat",
+          "reason": "Explains the dash dependency, second spin location, and repeated effects."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:ambessa:r:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Public Execution passively grants armor penetration and healing from active-ability damage.",
+          "covered": true,
+          "mechanic_id": "execution_passive",
+          "reason": "Explains both passive benefits without asserting equal healing against every target type."
+        },
+        {
+          "answer_quote": "After preparing a line strike, Ambessa blinks behind the farthest enemy champion in its area, suppresses them, then slams them for damage and a stun.",
+          "covered": true,
+          "mechanic_id": "execution_target_control",
+          "reason": "Explains preparation, farthest-champion selection, blink position, and the normal successful control sequence. Suppression failure and removal are preserved in metadata."
+        },
+        {
+          "answer_quote": "During preparation and the target's suppression, she is immune to displacement and unable to act.",
+          "covered": true,
+          "mechanic_id": "execution_immunity",
+          "reason": "Correctly limits the immunity type and describes the corresponding inability to act."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Only empowered-attack pips are explicitly player-only. Keep dash-indicator visibility without asserting exclusivity; the frozen privacy core cannot receive full coverage.",
+      "source_ids": [
+        "wiki:drakehoundsstep",
+        "riot:P"
+      ],
+      "topic": "Frozen dash-indicator privacy exceeds supplied evidence"
+    },
+    {
+      "resolution": "Use the detailed shield-absorption condition: champion, large-monster, or turret damage during bracing.",
+      "source_ids": [
+        "riot:W",
+        "wiki:repudiation"
+      ],
+      "topic": "Broad non-minion wording versus enumerated empowerment sources"
+    },
+    {
+      "resolution": "Retain possible smash relocation. Keep the brace-versus-dash timing qualification in metadata.",
+      "source_ids": [
+        "wiki:repudiation",
+        "riot:W"
+      ],
+      "topic": "Repudiation relocation summary versus detailed timing"
+    }
+  ],
+  "factual_risks": [
+    "The frozen private-indicator core contains unsupported dash-indicator exclusivity; this is an inventory limitation, not a false draft assertion.",
+    "Dash buffering remains subject to later inputs and immobilization or grounding during lockout.",
+    "The ultimate answer describes its normal successful sequence; prevention or early removal of suppression can prevent damage and stun.",
+    "Ultimate passive healing is reduced against minions and monsters; this qualification is retained in metadata.",
+    "Counterplay is explicitly typed source-grounded inference and makes no avoidance guarantees. AD is a reasonable broad orientation supported by physical damage and bonus-AD scaling, not an optimal-build claim.",
+    "Bug and unexpected-behavior notes are not promoted to card facts. Interface descriptions do not verify current-client visuals or skins."
+  ],
+  "kit_complete": true,
+  "omitted_topics": []
+}

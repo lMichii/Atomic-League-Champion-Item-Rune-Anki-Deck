@@ -1,0 +1,205 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": false,
+      "issues": [
+        "The card-facing build focus 'AD, Health' is not fully grounded: supplied AD ratios support AD relevance, but the evidence does not establish Health as a build priority. The metadata disclaimer does not supply that support.",
+        "The overview's healing wording is acceptable as a general capability summary; passive healing conditions are explained on P."
+      ],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Basic attacks deal bonus magic damage.",
+          "covered": true,
+          "mechanic_id": "P.bonus_magic_damage",
+          "reason": "Directly explains the basic-attack bonus damage and its magic type."
+        },
+        {
+          "answer_quote": "Below 50% health, this passive damage also heals Warwick, with stronger healing below 25% health.",
+          "covered": true,
+          "mechanic_id": "P.low_health_healing",
+          "reason": "States both supported health thresholds and the shared increase without choosing a disputed multiplier."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Warwick lunges at a target and bites, dealing magic damage based partly on its maximum health and healing from the damage dealt.",
+          "covered": true,
+          "mechanic_id": "Q.bite_and_heal",
+          "reason": "Explains the lunge, bite, damage type, maximum-health contribution and healing."
+        },
+        {
+          "answer_quote": "Holding the bite carries him behind the target and can follow its movement.",
+          "covered": true,
+          "mechanic_id": "Q.hold_and_follow",
+          "reason": "Explains held repositioning and tracking without claiming exceptionless tracking."
+        },
+        {
+          "answer_quote": "While the bite is active, he is immune to displacement effects such as knockbacks.",
+          "covered": true,
+          "mechanic_id": "Q.displacement_immunity",
+          "reason": "States the immunity's scope and active window without extending it to all crowd control."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Warwick senses enemy champions damaged below 50% health by him or allies, follows trails toward them with bonus movement speed that is temporarily lost in champion combat",
+          "covered": true,
+          "mechanic_id": "W.hunt_low_health",
+          "reason": "Explains the marking condition, trails, pursuit speed and combat restriction."
+        },
+        {
+          "answer_quote": "and gains attack speed against low-health targets.",
+          "covered": true,
+          "mechanic_id": "W.attack_speed",
+          "reason": "Directly explains the low-health attack-speed benefit."
+        },
+        {
+          "answer_quote": "Both bonuses grow stronger against very wounded enemies.",
+          "covered": true,
+          "mechanic_id": "W.stronger_low_health_bonuses",
+          "reason": "Explains the shared supported increase without asserting disputed numbers."
+        },
+        {
+          "answer_quote": "Activating Blood Hunt temporarily marks the nearest enemy champion in its area and grants the bonuses against that target regardless of health.",
+          "covered": true,
+          "mechanic_id": "W.active_hunt",
+          "reason": "Explains nearest-target selection, area limitation, temporary marking and health-independent bonuses."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Warwick temporarily reduces the damage he takes.",
+          "covered": true,
+          "mechanic_id": "E.damage_reduction",
+          "reason": "Explains temporary protection without selecting a disputed duration."
+        },
+        {
+          "answer_quote": "When the effect expires or he recasts it, he howls, fearing nearby enemies and making them flee.",
+          "covered": true,
+          "mechanic_id": "E.fear",
+          "reason": "Explains expiration and recast triggers, nearby scope and fear behavior."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Warwick leaps in a chosen direction, with more movement speed increasing his range",
+          "covered": true,
+          "mechanic_id": "R.directional_leap",
+          "reason": "Explains direction selection and movement-speed range scaling."
+        },
+        {
+          "answer_quote": "He stops on the first enemy champion hit and channels to suppress them, unless their spell shield or crowd-control immunity prevents the channel.",
+          "covered": true,
+          "mechanic_id": "R.suppression",
+          "reason": "Explains first-target collision, channeled suppression and target protection; counterplay also identifies interruption."
+        },
+        {
+          "answer_quote": "During the channel, he deals magic damage and heals from damage dealt.",
+          "covered": true,
+          "mechanic_id": "R.damage_and_healing",
+          "reason": "Directly explains channel damage type and healing."
+        },
+        {
+          "answer_quote": "he is immune to crowd control during the leap.",
+          "covered": true,
+          "mechanic_id": "R.leap_cc_immunity",
+          "reason": "Limits the stated immunity to the leap."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Unresolved exact multiplier: retain the supported stronger-healing statement and keep numeric verification in QA metadata.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Below-25% passive healing: triple versus 250%"
+    },
+    {
+      "resolution": "Unresolved threshold and multiplier: retain the supported general increase and flag exact values for QA.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "Enhanced Blood Hunt bonuses: Riot says triple below 25%; Wiki says doubled below 25% and elsewhere references 20%"
+    },
+    {
+      "resolution": "Unresolved maximum duration: retain temporary damage reduction without an exact duration.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Primal Howl protection duration: 2.5 versus 2.75 seconds"
+    }
+  ],
+  "factual_risks": [
+    "All six cards remain unapproved; this review supplies neither human approval nor visual verification.",
+    "The L1 Health build focus requires supporting evidence or repair.",
+    "Passive eligibility for other modified-health units remains pending testing; the general attack wording need not enumerate established unit exceptions.",
+    "Held-Q tracking exceptions and tapped-Q cooldown refunds have documented reliability caveats; the draft makes no universal tracking or refund claim.",
+    "W detection uses obscured vision, includes decoys and has a Nexus Obelisk exception; these optional details do not invalidate the general draft.",
+    "E's R-triggered howl can preserve protection; the draft does not claim every howl ends damage reduction.",
+    "R immunity does not generally cover the channel or missed-leap slide. Counterplay correctly specifies interrupting crowd control rather than guaranteeing every crowd-control effect works.",
+    "No card-facing provenance, confidence or development labels were found; UNAPPROVED labels remain in metadata.",
+    "The supplied evidence is frozen and does not establish current-patch or skin-specific behavior."
+  ]
+}

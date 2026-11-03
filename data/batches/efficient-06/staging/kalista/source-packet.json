@@ -1,0 +1,364 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "Enter a movement command while winding up Kalista's basic attack or Pierce to lunge a short distance when she launches her attack.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Kalista_Passive.png",
+      "name": "Martial Poise",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0429/ability_0429_P1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "description": "Throw a fast moving spear that passes through enemies it kills.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KalistaMysticShot.png",
+      "name": "Pierce",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0429/ability_0429_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "description": "Gain bonus damage when Kalista and her Oathsworn strike the same target. Activate to send a soul to scout out the path, revealing the area in front of it.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KalistaW.png",
+      "name": "Sentinel",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0429/ability_0429_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "description": "Attacks impale their targets with spears. Activate to rip the spears out, slowing and dealing escalating damage.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KalistaExpungeWrapper.png",
+      "name": "Rend",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0429/ability_0429_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        160,
+        140,
+        120
+      ],
+      "description": "Kalista teleports the Oathsworn ally to herself. They gain the ability to dash toward a position, knocking enemy champions back.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KalistaRx.png",
+      "name": "Fate's Call",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0429/ability_0429_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/kalista/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Kalista"
+  },
+  "champion": {
+    "ddragon_id": "Kalista",
+    "name": "Kalista",
+    "riot_id": 429,
+    "roles": [
+      "Marksman"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/Kalista/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "9f624fa9527ec2c05009a4b6e4b9ce4019f040806b10a570bba0344af9c6acd3",
+      "text": "Enter a movement command while winding up Kalista's basic attack or Pierce to lunge a short distance when she launches her attack.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kalista.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "Martial Poise",
+      "provider": "league_wiki",
+      "sha256": "c64bdd3449bcece6055143410077a3fc745ba1380a5e7444671fd69c37d7e7fc",
+      "text": "Martial Poise\nTETHER RADIUS:\n1100\nMaximum Target Range:\n240 / 263 / 280 / 300 (based on Boots Tier)\nDash Speed:\n1025 / 1100 / 1160 (based on Boots Tier)\nInnate: During each basic attack or casting of Pierce, Kalista can optionally choose a target direction to quickly dash to. The range is based on dash angle and Kalista's Boots tier. The dash speed scales with bonus attack speed and movement speed effects. Innate - Oathsworn Bond: Kalista begins the game with an exclusive Black Spear.\nInnate: When Kalista inputs a movement command during her basic attack windup or shortly after it completes, or while in cast time of Pierce, she will dash in that direction.Kalista cannot dash while immobilized or grounded, and she will be knocked down by any immobilizing or polymorphing crowd control during the dash.\nMartial Poise's dash range and speed details:\nDash range of basic attacks is modified by the tier of Kalista's Boots and the angle of the dash.\nAt a 0° angle towards the target, the minimum dash range is 140 / 153 / 166 / 175 (based on Boots Tier) units.\nAt a 90° angle, the maximum dash range is 240 / 263 / 280 / 300 (based on Boots Tier) units.\nDash range of Pierce is 300 units when dashing anywhere in the direction of the point of cast.\nIf the dash is inputted to a location that is away from Pierce's point of cast, the dash range is reduced based on the angle, with a minimum distance of 150 units if the inputted location is directly opposite.\nDash speed is increased based on the tier of Kalista's Boots, and is affected by her bonus attack speed as well as movement speed modifiers she is under the effect of (including slows).\nInnate - Oathsworn Bond: Kalista begins the game with an exclusive Black Spear that she can activate on an allied champion to deem them Oathsworn, forming a tether together. While she and the ally bound as the Oathsworn are within tether range of each other, they can both interact with Soul-Mark and Fate's Call.\nKalista can purchase the Black Spear from the shop at no cost to obtain it again and, before 3 minutes of game time, may activate the item again on a different target to designate a new Oathsworn. See Black Spear for more details.\n\"The oath has been taken.\"\nNotes/General Details\nTargeting input\nDirection\nAffects\nSelf\nCounters\nGrounded\nDisabled\nKnockdown\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nBasic attacks and Pierce cannot be cast while dashing, unless animation cancelled with a movement command.\nKalista must wait for her auto attack windup or cast animation to finish, before she dashes. However, Kalista will dash immediately if the movement command to dash is input after her auto attack windup finishes.\nMartial Poise also \"remembers\" your auto attack target after dashing, letting you dash repeatedly by only clicking the ground.\nMartial Poise cannot keep up with attack speed values greater than 2.1, due to the combination of her auto attack windup taking too long, and her dashes being too slow. Movement speed bonuses make it less of an issue.\nSufficiently high attack speeds can also cause Martial Poise to interpret movement inputs as dash inputs, during the dash of a previous auto attack (such as jumping towards attack-move inputs).\nMove commands inputted during an attack windup or the cast time of Pierce while Kalista is immobilized or grounded will fail to cast and thus prevent the dash from triggering.\nIf multiple move commands are inputted during the attack windup, the most recent one is used for the dash's targeting.\nIf the most recent input is not a move command, the dash will not trigger.\nIn this case, the buffer for the previous move command was cancelled by a new non-move command such as an input for an attack or ability cast.\nThe move command will still be buffered to the end of the immobilization or the end of the attack windup or cast time of Pierce while grounded if it has not been overridden by other inputs.\nKalista's facing direction will change immediately on move command even among multiple inputs, but will not visually update until the dash.\nThe facing direction when dashing is considered to be in the direction of the dash, not her apparent facing direction based on her model's animation state.\nDash distance decreases as the dash direction becomes closer to the minimum direction. This defines a forward distance for basic attacks and a backwards distance for Pierce. Empirical testing has given the following values below.\nBasic attack dash range given the angle θ:\n{(175+(125×sin⁡(θ)))×T\nWhere T=0.800,0.875,0.950,1.000 depending on the tier of Boots (T0, T1, T2, T3)\nMinimum dash range of 225 units when dashing backwards\nPierce's dash range given the angle θ:\n{150+(150×sin⁡(θ))Backwards300Otherwise\nThere is a very brief grace period after completing a basic attack windup wherein Kalista can still input a movement command to trigger the dash.\nThe dash speed is unaffected by additive movement speed modifiers.\nThere are a total of 24 different dash ranges based on direction with Boots and Pierce being cast.\nKalista will automatically be issued an attack command on her attack target at the end of the dash, as long as they remain in her attack range by then.\nThe attack move (default A + MB1) click feature checks for targets in brief intervals only if Kalista is not dashing.\nSleep does not count for knocking the dash down.(bug)\nMap-Specific Differences\nUltra Rapid Fire differences edit\nNew Effect: Now enforces an attack speed cap of 6.0.\nNew Effect: Now converts every 0.7% bonus attack speed in excess of the cap into 1 bonus attack damage.\nArena differences edit\nNew Effect: Now enforces an attack speed cap of 6.0.\nNew Effect: Now converts every 0.7% bonus attack speed in excess of the cap into 1 bonus attack damage.\nDashing adds 80% bonus movement speed to Martial Poise's speed scaling.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kalista?oldid=4002537"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/Kalista/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "9f624fa9527ec2c05009a4b6e4b9ce4019f040806b10a570bba0344af9c6acd3",
+      "text": "Throw a fast moving spear that passes through enemies it kills.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kalista.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Pierce",
+      "provider": "league_wiki",
+      "sha256": "c64bdd3449bcece6055143410077a3fc745ba1380a5e7444671fd69c37d7e7fc",
+      "text": "Pierce\nCOST:\n60 / 65 / 70 / 75 / 80 Mana\nCOOLDOWN:\n9\nCAST TIME:\n0.25\nTARGET RANGE:\n1200\nWIDTH:\n80\nSPEED:\n2400\nActive: Kalista throws a spear in the target direction that deals physical damage to the first enemy hit. If Pierce kills 1 or more targets, the spear continues onward to transfer all of the last killed target's Rend stacks to the next enemy hit that survives.\nActive: Kalista launches a spear in the target direction that deals physical damage to the first enemy hit.\nPhysical Damage:10 / 75 / 140 / 205 / 270 (+ 105% AD)\nIf Pierce kills the target, the spear continues onward to transfer all of the target's Rend stacks to the next enemy it hits.\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIf Pierce kills multiple targets, only the last target killed will have their Rend stacks transferred to the next enemy hit that survives.(bug)\nPierce cannot be cast during the dash of Martial Poise unless animation cancelled with a movement command.\nThis ability will cast from wherever the caster is at the end of the cast time.\nMap-Specific Differences\nArena differences edit\nAD ratio changed to 105% AD.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kalista?oldid=4002537"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/Kalista/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "9f624fa9527ec2c05009a4b6e4b9ce4019f040806b10a570bba0344af9c6acd3",
+      "text": "Gain bonus damage when Kalista and her Oathsworn strike the same target. Activate to send a soul to scout out the path, revealing the area in front of it.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kalista.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Sentinel",
+      "provider": "league_wiki",
+      "sha256": "c64bdd3449bcece6055143410077a3fc745ba1380a5e7444671fd69c37d7e7fc",
+      "text": "Sentinel\nCOOLDOWN:\n30\nCAST TIME:\n0.5\nTARGET IMMUNITY:\n10\nRECHARGE:\n90 / 80 / 70 / 60 / 50\nTARGET RANGE:\n1400 - 5000\nTETHER RADIUS:\n1100\nPassive - Soul-Marked: While Kalista and her Oathsworn are tethered, their basic attacks and Pierce apply a Soul-Mark to their targets for a few seconds. If both Soul-Marks are applied to the same target, they take bonus magic damage. Passive: Kalista periodically stocks a Sentinel charge, up to a cap. Active: Kalista summons a Sentinel that patrols back and forth on a path to the target location, granting sight along its trajectory as it travels.\nPassive - Soul-Marked: While Kalista and her Oathsworn are tethered, their basic attacks and Pierce apply a Soul-Mark to the target hit for 4 seconds.\nIf both Kalista's and the Oathsworn's Soul-Mark are applied to the same enemy, the marks are consumed to deal magic damage to the target, capped against non-champions. Soul-Mark cannot affect an enemy more than once every few seconds.\nBonus Magic Damage:10 / 12 / 14 / 16 / 18% of target's maximum health\nMaximum Non-Champion Damage:100 / 125 / 150 / 175 / 200\nActive: Kalista summons a Sentinel that patrols back and forth on a path along the target direction, granting sight of its surroundings as it travels.\nKalista periodically stocks a Sentinel charge, up to a maximum of 2.\nSee Pets for more details about Sentinels.\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nEnemies\nDamage classification\nType\nProc damage\nSub-type(s)\nMagic\nCounters\nParries\nMissing\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe damage is dealt on-attack of Kalista's basic attack if she applies the second mark. If the Oathsworn does so instead, the damage is dealt on-hit of their basic attack.\nSoul-Marked's bonus damage is credited to Kalista and will benefit from both her magic penetration and spell effects.\nIf her Oathsworn ally scores a kill using Soul-Marked's bonus damage they will get a message stating 'Kill Secured' in place of the usual gold pop-up (the gold itself is credited to Kalista).\nThe Sentinel's sight reveal on enemy champions is accredited for assists and potentially kills (if they die shortly after being spotted).\nIt does not reveal stealthed targets.\nSentinel will cast from wherever Kalista is at the end of the cast time.\nPENDING FOR TEST: Soul Mark's interaction with parrying effects ( dodge, block, blind).\nPENDING FOR TEST: If Pierce kills the target by Soul-Mark's additional damage, it will/will not continue.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kalista?oldid=4002537"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/Kalista/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "9f624fa9527ec2c05009a4b6e4b9ce4019f040806b10a570bba0344af9c6acd3",
+      "text": "Attacks impale their targets with spears. Activate to rip the spears out, slowing and dealing escalating damage.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kalista.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Rend",
+      "provider": "league_wiki",
+      "sha256": "c64bdd3449bcece6055143410077a3fc745ba1380a5e7444671fd69c37d7e7fc",
+      "text": "Rend\nCOST:\n30 Mana\nCOOLDOWN:\n10 / 9.5 / 9 / 8.5 / 8\nCAST TIME:\n0.25\nEFFECT RADIUS:\n1100\nPassive: Kalista's basic attacks on-hit and Pierce lodge a spear into their target, applying a stack of Rend for a few seconds. Active: Kalista rips out all lodged spears from nearby enemies, consuming all of their stacks to deal physical damage and applying slow to them for a short time. Each additional spear on the target deals reduced damage. If Rend kills at least one target, the cooldown is reset and the mana cost is partially refunded.\nPassive: Kalista's basic attacks on-hit and Pierce apply a stack of Rend to enemies for 4 seconds, refreshing on subsequent hits and stacking up to 254 times per enemy.\nActive: Kalista rips out the lodged spears from all nearby enemies afflicted with Rend stacks, consuming the stacks on each target to deal physical damage and slow them for 2 seconds. For each stack beyond the first, the target is dealt additional physical damage. Rend deals 50% damage against epic monsters.Rend's cast also empowers the in-flight missiles of Kalista's basic attacks and Pierce to apply Rend's effects to their targets immediately upon hitting them.\nPhysical Damage:5 / 15 / 25 / 35 / 45 (+ 70% AD) (+ 65% AP)\nBonus Damage per Additional Stack:7 / 14 / 21 / 28 / 35 (+ 20 / 27.5 / 35 / 42.5 / 50% AD) (+ 50% AP)\nSlow:10 / 18 / 26 / 34 / 42% (+ 5% per 100 AP)\nIf Rend kills at least one target, its cooldown is reset and Kalista restores mana.\nMana Restored:10 / 15 / 20 / 25 / 30\nA nearby enemy with a Rend stack is required to cast this ability.\nNotes/General Details\nTargeting input\nProximity\nTarget out-of-range override\nThe ability will not cast\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nParries\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nRend cannot activate on untargetable enemies.\nRend applies its effects instantly on cast.\nRend can be used during the dash of Martial Poise, and during the cast time of Pierce. If Rend is used during the cast time of Pierce, before the projectile spawns, doing so will repeat the first-spear damage to a target already damaged by Rend, (unexpected) in addition to empowering the projectile with Rend's effects.\nThe cooldown will not reset if the target is protected by resurrection effects.\nIf Rend is used against Sion under the effects of Glory in Death, the cooldown will reset even if it does not kill him.(bug)\nA stack is not applied if the attack is dodged, blocked or missed while Kalista is blinded.\nPierce does not apply a stack of Rend if blocked by spell shield.\nWhile berserk, Kalista's attacks will also apply Rend stacks on allies.\nKalista will be unable to cast Rend if there are no stacks on an enemy in range.\nRend cannot cast on allies, even if a valid enemy target exists. As such, any spears on allied units are purely cosmetic.\nRend has a lower cast range than effect range.\nRend at maximum stacks will deal a total of 1776 / 3557 / 5338 / 7119 / 8900 (+ 5130 / 7027.5 / 8925 / 10822.5 / 12720% AD) (+ 12715% AP) physical damage.\nMap-Specific Differences\nArena differences edit\nAD ratio per additional stack changed to 20 / 27.5 / 35 / 42.5 / 50% AD.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kalista?oldid=4002537"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/Kalista/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "9f624fa9527ec2c05009a4b6e4b9ce4019f040806b10a570bba0344af9c6acd3",
+      "text": "Kalista teleports the Oathsworn ally to herself. They gain the ability to dash toward a position, knocking enemy champions back.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kalista.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Fate's Call",
+      "provider": "league_wiki",
+      "sha256": "c64bdd3449bcece6055143410077a3fc745ba1380a5e7444671fd69c37d7e7fc",
+      "text": "Fate's Call\nCOST:\n100 mana\nCOOLDOWN:\n160 / 140 / 120\nCAST TIME:\nnone\nTARGET RANGE:\n1200\nActive: Kalista invokes her tether to retrieve her Oathsworn, vanishing and cleansing them from all crowd control, and hold them for a few seconds. While held, the Oathsworn may dash to reappear at the target location. If they collide with an enemy champion, they knock up all nearby enemies.\nActive: Kalista invokes her tether to retrieve and hold her Oathsworn for 4 seconds. Kalista cleanses the Oathsworn from all crowd control and renders them invulnerable and untargetable for the duration, and pulls them to her over 1 second.\nWhile held, the Oathsworn is vanished and may select a target location to dash to with displacement immunity, ending Fate's Call's invocation and reappearing at the location. If the invocation ends without the Oathsworn selecting a target location, they will automatically do so at maximum range from Kalista's facing direction.\nThe Oathsworn's dash stops upon colliding with an enemy champion. Upon the dash ending by collision or arriving to the targeted location, the Oathsworn knocks back all nearby enemies and keeps them airborne for a set duration, while simultaneously landing to their base attack range from the closest target hit.\nAirborne Duration:1 / 1.5 / 2 seconds\nThe Oathsworn must be within tether range to cast this ability, and is also silenced and unable to perform movement or attack commands while Fate's Call is in effect.\n\"They shall not have you!\"\nNotes/General Details\nTargeting input\nProximity\nTarget out-of-range override\nThe ability will not cast\nAffects\nOathsworn Ally / Enemies\nCounters\nSpell shield\nBlocked\nKnockdown\nNot Interrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe Oathsworn's landing location of the lunge is precisely to their base attack range from the closest target they hit and relative to where this target would be displaced to from the knock back.\nIn other words, the Oathsworn will land to a location where they are within their exact base attack range of the target by the end of the target's displacement.\nThe calculated landing spot does not evaluate if the target was successfully displaced or not, meaning that the Oathsworn will end up closer than their base attack range if the closest target hit was not knocked back.\nThe airborne effect is attributed to Fate's Call's initial caster.\nIf the Oathsworn does not hit any targets with the knock up effect, the dash will simply end and they will reappear at the target location.\nKalista is briefly unable to start basic attacks or cast basic abilities when the Oathsworn starts their flight.\nThe following will defer Fate's Call's effects at the time of cast to the end of their duration if the Oathsworn is:\nIn a cast time.\nChanneling.\nFate's Call will not defer by the following channels: Recall, Defiant Dance, Realm Warp, and The Culling.\nFate's Call cannot be cast during the following channels: Teleport, Gate, Grand Starfall, Hero's Entrance and Stand United.\nUsing an ability that preloads UnstoppableForceMarker.\nIf the Oathsworn is still occupied after 6 seconds of being deferred from this time, Fate's Call will cancel.\nFate's Call will not pull the Oathsworn if they are dashing but they will be retrieved after 1 second regardless.\nFate's Call can be cast even if the Oathsworn is untargetable.\nFate's Call is disabled if the Oathsworn is resurrecting or is being affected by another Fate's Call.\nFate's Call can be used even if the Oathsworn is in a zombie state.\nFate's Call does not render the target vanished while being held if they are creating Curse of the Black Mist's aura.\nThe Oathsworn being held is represented by a light over Kalista's head.\nKalista's death does not cancel Fate's Call.\nPets[edit | edit source]\nSentinel\nPatrol\nChase\nBounty\nGold\n10\nExp\n0\nStatistics\nSight radius\n450\nHealth\n2\nIncoming damage modifier\n1 from champion basic attacks\nNot a valid target to minions, turrets and abilities\nCC resist\nImmune to crowd control\nMove speed\n280\nGameplay radius\n65\nPathing radius\n10\nControl type\nAutonomous\nTarget type\nMinion\nAbilities\nPatrol\nThe Sentinel patrols the area for 3 laps before disappearing, moving to the target location, returning to the earliest point near its cast location that it can see, and pathing around obstacles.\nSeek\nIn addition to its normal sight radius, the Sentinel grants sight in a cone in front of it.\nChase\nUpon detecting an enemy champion, the Sentinel chases them for 4 seconds, alerting Kalista to their presence with a scream, revealing their target for the duration, and disappearing after the chase ends.\nRush\nThe Sentinel initially gains 200 bonus movement speed, rapidly decaying down to its base movement speed, and is slowed by 50% while at 1 health.\nChampion skins[edit | edit source]\nThis article section only contains champion skins. For all associated collection items, see Kalista (Collection).\nOriginal\n20.11.2014\nA specter of wrath and retribution, Kalista is the undying spirit of vengeance, an armored nightmare summoned from the Shadow Isles to hunt deceivers and traitors. The betrayed may cry out in blood to be avenged, but Kalista only answers those willing to pay with their very souls. Those who become the focus of Kalista’s wrath should make their final peace, for any pact sealed with this grim hunter can only end with the cold, piercing fire of her soul-spears.\nMisty Lee\nPan Chengwei\nLoot eligible\nView in 3D • View Music\nBlood Moon\n975\n20.11.2014\nA demon of vengeance summoned on the night of the Blood Moon, Kalista's singular obsession with 'betrayers' knows no limits—any deception, no matter how trivial, will be met with death. Her victims are left hanging from the walls of their homes, a warning to those who remain.\nMisty Lee\nUnknown artist\nBlood Moon\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nWorlds 2015\n975\n27.09.2015\nCelebrating Worlds 2015 in Europe.\nMisty Lee\nChristian Fell\nWorld Championship\nLoot eligible\nLegacy\nNew SFX/VFX\nNew Animations\nNew Recall\nChromas\nView in 3D\nWorlds 2015 Kalista Chromas\nGolden\nSKT T1\n975\n17.08.2016\nHonoring Bang's winning performance as Kalista during the 2015 World Championship.\nMisty Lee\nVictor '3rdColossus' Maury\nWorld Champions: 2015\nLoot eligible\nLegacy\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nMarauder\n1350\n07.01.2021\nThe Magelords… furious, brutal, and glorious in their conquest—a sect of warriors long lost to the sands of time. Until now. Resurrected by the current Marauder leaders, Kalista's desire for vengeance has only festered over the millenia. Now she returns, more powerful than ever, to eradicate the Wardens and everything they've built.\nMisty Lee\nDavid Villegas, West Studio\nMarauder\nLoot eligible",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kalista?oldid=4002537"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/Kalista/tags",
+      "provider": "riot_ddragon",
+      "sha256": "9f624fa9527ec2c05009a4b6e4b9ce4019f040806b10a570bba0344af9c6acd3",
+      "text": "Name: Kalista. Official role tags: Marksman.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kalista.json"
+    },
+    {
+      "id": "wiki:basicattack",
+      "locator": "Basic_Attack",
+      "provider": "league_wiki",
+      "sha256": "c64bdd3449bcece6055143410077a3fc745ba1380a5e7444671fd69c37d7e7fc",
+      "text": "Basic Attack\nATTACK RANGE:\n525\nSPEED:\n2600\nBasic Attack: Kalista's basic attack windup is uncancellable except by casting Rend, although she can input a new attack command to change her target during the windup.\nAdditionally, Kalista's attack windup is only reduced by 0.75% per 1% bonus attack speed.\nNotes/General Details\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies\nDamage classification\nType\nBasic damage\nSub-type(s)\nPhysical\nCounters\nParries\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nNo additional details.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kalista?oldid=4002537"
+    },
+    {
+      "id": "wiki:martialpoise",
+      "locator": "Martial_Poise",
+      "provider": "league_wiki",
+      "sha256": "c64bdd3449bcece6055143410077a3fc745ba1380a5e7444671fd69c37d7e7fc",
+      "text": "Martial Poise\nTETHER RADIUS:\n1100\nMaximum Target Range:\n240 / 263 / 280 / 300 (based on Boots Tier)\nDash Speed:\n1025 / 1100 / 1160 (based on Boots Tier)\nInnate: During each basic attack or casting of Pierce, Kalista can optionally choose a target direction to quickly dash to. The range is based on dash angle and Kalista's Boots tier. The dash speed scales with bonus attack speed and movement speed effects. Innate - Oathsworn Bond: Kalista begins the game with an exclusive Black Spear.\nInnate: When Kalista inputs a movement command during her basic attack windup or shortly after it completes, or while in cast time of Pierce, she will dash in that direction.Kalista cannot dash while immobilized or grounded, and she will be knocked down by any immobilizing or polymorphing crowd control during the dash.\nMartial Poise's dash range and speed details:\nDash range of basic attacks is modified by the tier of Kalista's Boots and the angle of the dash.\nAt a 0° angle towards the target, the minimum dash range is 140 / 153 / 166 / 175 (based on Boots Tier) units.\nAt a 90° angle, the maximum dash range is 240 / 263 / 280 / 300 (based on Boots Tier) units.\nDash range of Pierce is 300 units when dashing anywhere in the direction of the point of cast.\nIf the dash is inputted to a location that is away from Pierce's point of cast, the dash range is reduced based on the angle, with a minimum distance of 150 units if the inputted location is directly opposite.\nDash speed is increased based on the tier of Kalista's Boots, and is affected by her bonus attack speed as well as movement speed modifiers she is under the effect of (including slows).\nInnate - Oathsworn Bond: Kalista begins the game with an exclusive Black Spear that she can activate on an allied champion to deem them Oathsworn, forming a tether together. While she and the ally bound as the Oathsworn are within tether range of each other, they can both interact with Soul-Mark and Fate's Call.\nKalista can purchase the Black Spear from the shop at no cost to obtain it again and, before 3 minutes of game time, may activate the item again on a different target to designate a new Oathsworn. See Black Spear for more details.\n\"The oath has been taken.\"\nNotes/General Details\nTargeting input\nDirection\nAffects\nSelf\nCounters\nGrounded\nDisabled\nKnockdown\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nBasic attacks and Pierce cannot be cast while dashing, unless animation cancelled with a movement command.\nKalista must wait for her auto attack windup or cast animation to finish, before she dashes. However, Kalista will dash immediately if the movement command to dash is input after her auto attack windup finishes.\nMartial Poise also \"remembers\" your auto attack target after dashing, letting you dash repeatedly by only clicking the ground.\nMartial Poise cannot keep up with attack speed values greater than 2.1, due to the combination of her auto attack windup taking too long, and her dashes being too slow. Movement speed bonuses make it less of an issue.\nSufficiently high attack speeds can also cause Martial Poise to interpret movement inputs as dash inputs, during the dash of a previous auto attack (such as jumping towards attack-move inputs).\nMove commands inputted during an attack windup or the cast time of Pierce while Kalista is immobilized or grounded will fail to cast and thus prevent the dash from triggering.\nIf multiple move commands are inputted during the attack windup, the most recent one is used for the dash's targeting.\nIf the most recent input is not a move command, the dash will not trigger.\nIn this case, the buffer for the previous move command was cancelled by a new non-move command such as an input for an attack or ability cast.\nThe move command will still be buffered to the end of the immobilization or the end of the attack windup or cast time of Pierce while grounded if it has not been overridden by other inputs.\nKalista's facing direction will change immediately on move command even among multiple inputs, but will not visually update until the dash.\nThe facing direction when dashing is considered to be in the direction of the dash, not her apparent facing direction based on her model's animation state.\nDash distance decreases as the dash direction becomes closer to the minimum direction. This defines a forward distance for basic attacks and a backwards distance for Pierce. Empirical testing has given the following values below.\nBasic attack dash range given the angle θ:\n{(175+(125×sin⁡(θ)))×T\nWhere T=0.800,0.875,0.950,1.000 depending on the tier of Boots (T0, T1, T2, T3)\nMinimum dash range of 225 units when dashing backwards\nPierce's dash range given the angle θ:\n{150+(150×sin⁡(θ))Backwards300Otherwise\nThere is a very brief grace period after completing a basic attack windup wherein Kalista can still input a movement command to trigger the dash.\nThe dash speed is unaffected by additive movement speed modifiers.\nThere are a total of 24 different dash ranges based on direction with Boots and Pierce being cast.\nKalista will automatically be issued an attack command on her attack target at the end of the dash, as long as they remain in her attack range by then.\nThe attack move (default A + MB1) click feature checks for targets in brief intervals only if Kalista is not dashing.\nSleep does not count for knocking the dash down.(bug)",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kalista?oldid=4002537"
+    },
+    {
+      "id": "wiki:pierce",
+      "locator": "Pierce",
+      "provider": "league_wiki",
+      "sha256": "c64bdd3449bcece6055143410077a3fc745ba1380a5e7444671fd69c37d7e7fc",
+      "text": "Pierce\nCOST:\n60 / 65 / 70 / 75 / 80 Mana\nCOOLDOWN:\n9\nCAST TIME:\n0.25\nTARGET RANGE:\n1200\nWIDTH:\n80\nSPEED:\n2400\nActive: Kalista throws a spear in the target direction that deals physical damage to the first enemy hit. If Pierce kills 1 or more targets, the spear continues onward to transfer all of the last killed target's Rend stacks to the next enemy hit that survives.\nActive: Kalista launches a spear in the target direction that deals physical damage to the first enemy hit.\nPhysical Damage:10 / 75 / 140 / 205 / 270 (+ 105% AD)\nIf Pierce kills the target, the spear continues onward to transfer all of the target's Rend stacks to the next enemy it hits.\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIf Pierce kills multiple targets, only the last target killed will have their Rend stacks transferred to the next enemy hit that survives.(bug)\nPierce cannot be cast during the dash of Martial Poise unless animation cancelled with a movement command.\nThis ability will cast from wherever the caster is at the end of the cast time.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kalista?oldid=4002537"
+    },
+    {
+      "id": "wiki:sentinel",
+      "locator": "Sentinel",
+      "provider": "league_wiki",
+      "sha256": "c64bdd3449bcece6055143410077a3fc745ba1380a5e7444671fd69c37d7e7fc",
+      "text": "Sentinel\nCOOLDOWN:\n30\nCAST TIME:\n0.5\nTARGET IMMUNITY:\n10\nRECHARGE:\n90 / 80 / 70 / 60 / 50\nTARGET RANGE:\n1400 - 5000\nTETHER RADIUS:\n1100\nPassive - Soul-Marked: While Kalista and her Oathsworn are tethered, their basic attacks and Pierce apply a Soul-Mark to their targets for a few seconds. If both Soul-Marks are applied to the same target, they take bonus magic damage. Passive: Kalista periodically stocks a Sentinel charge, up to a cap. Active: Kalista summons a Sentinel that patrols back and forth on a path to the target location, granting sight along its trajectory as it travels.\nPassive - Soul-Marked: While Kalista and her Oathsworn are tethered, their basic attacks and Pierce apply a Soul-Mark to the target hit for 4 seconds.\nIf both Kalista's and the Oathsworn's Soul-Mark are applied to the same enemy, the marks are consumed to deal magic damage to the target, capped against non-champions. Soul-Mark cannot affect an enemy more than once every few seconds.\nBonus Magic Damage:10 / 12 / 14 / 16 / 18% of target's maximum health\nMaximum Non-Champion Damage:100 / 125 / 150 / 175 / 200\nActive: Kalista summons a Sentinel that patrols back and forth on a path along the target direction, granting sight of its surroundings as it travels.\nKalista periodically stocks a Sentinel charge, up to a maximum of 2.\nSee Pets for more details about Sentinels.\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nEnemies\nDamage classification\nType\nProc damage\nSub-type(s)\nMagic\nCounters\nParries\nMissing\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe damage is dealt on-attack of Kalista's basic attack if she applies the second mark. If the Oathsworn does so instead, the damage is dealt on-hit of their basic attack.\nSoul-Marked's bonus damage is credited to Kalista and will benefit from both her magic penetration and spell effects.\nIf her Oathsworn ally scores a kill using Soul-Marked's bonus damage they will get a message stating 'Kill Secured' in place of the usual gold pop-up (the gold itself is credited to Kalista).\nThe Sentinel's sight reveal on enemy champions is accredited for assists and potentially kills (if they die shortly after being spotted).\nIt does not reveal stealthed targets.\nSentinel will cast from wherever Kalista is at the end of the cast time.\nPENDING FOR TEST: Soul Mark's interaction with parrying effects ( dodge, block, blind).\nPENDING FOR TEST: If Pierce kills the target by Soul-Mark's additional damage, it will/will not continue.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kalista?oldid=4002537"
+    },
+    {
+      "id": "wiki:rend",
+      "locator": "Rend",
+      "provider": "league_wiki",
+      "sha256": "c64bdd3449bcece6055143410077a3fc745ba1380a5e7444671fd69c37d7e7fc",
+      "text": "Rend\nCOST:\n30 Mana\nCOOLDOWN:\n10 / 9.5 / 9 / 8.5 / 8\nCAST TIME:\n0.25\nEFFECT RADIUS:\n1100\nPassive: Kalista's basic attacks on-hit and Pierce lodge a spear into their target, applying a stack of Rend for a few seconds. Active: Kalista rips out all lodged spears from nearby enemies, consuming all of their stacks to deal physical damage and applying slow to them for a short time. Each additional spear on the target deals reduced damage. If Rend kills at least one target, the cooldown is reset and the mana cost is partially refunded.\nPassive: Kalista's basic attacks on-hit and Pierce apply a stack of Rend to enemies for 4 seconds, refreshing on subsequent hits and stacking up to 254 times per enemy.\nActive: Kalista rips out the lodged spears from all nearby enemies afflicted with Rend stacks, consuming the stacks on each target to deal physical damage and slow them for 2 seconds. For each stack beyond the first, the target is dealt additional physical damage. Rend deals 50% damage against epic monsters.Rend's cast also empowers the in-flight missiles of Kalista's basic attacks and Pierce to apply Rend's effects to their targets immediately upon hitting them.\nPhysical Damage:5 / 15 / 25 / 35 / 45 (+ 70% AD) (+ 65% AP)\nBonus Damage per Additional Stack:7 / 14 / 21 / 28 / 35 (+ 20 / 27.5 / 35 / 42.5 / 50% AD) (+ 50% AP)\nSlow:10 / 18 / 26 / 34 / 42% (+ 5% per 100 AP)\nIf Rend kills at least one target, its cooldown is reset and Kalista restores mana.\nMana Restored:10 / 15 / 20 / 25 / 30\nA nearby enemy with a Rend stack is required to cast this ability.\nNotes/General Details\nTargeting input\nProximity\nTarget out-of-range override\nThe ability will not cast\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nParries\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nRend cannot activate on untargetable enemies.\nRend applies its effects instantly on cast.\nRend can be used during the dash of Martial Poise, and during the cast time of Pierce. If Rend is used during the cast time of Pierce, before the projectile spawns, doing so will repeat the first-spear damage to a target already damaged by Rend, (unexpected) in addition to empowering the projectile with Rend's effects.\nThe cooldown will not reset if the target is protected by resurrection effects.\nIf Rend is used against Sion under the effects of Glory in Death, the cooldown will reset even if it does not kill him.(bug)\nA stack is not applied if the attack is dodged, blocked or missed while Kalista is blinded.\nPierce does not apply a stack of Rend if blocked by spell shield.\nWhile berserk, Kalista's attacks will also apply Rend stacks on allies.\nKalista will be unable to cast Rend if there are no stacks on an enemy in range.\nRend cannot cast on allies, even if a valid enemy target exists. As such, any spears on allied units are purely cosmetic.\nRend has a lower cast range than effect range.\nRend at maximum stacks will deal a total of 1776 / 3557 / 5338 / 7119 / 8900 (+ 5130 / 7027.5 / 8925 / 10822.5 / 12720% AD) (+ 12715% AP) physical damage.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kalista?oldid=4002537"
+    },
+    {
+      "id": "wiki:fatescall",
+      "locator": "Fate's_Call",
+      "provider": "league_wiki",
+      "sha256": "c64bdd3449bcece6055143410077a3fc745ba1380a5e7444671fd69c37d7e7fc",
+      "text": "Fate's Call\nCOST:\n100 mana\nCOOLDOWN:\n160 / 140 / 120\nCAST TIME:\nnone\nTARGET RANGE:\n1200\nActive: Kalista invokes her tether to retrieve her Oathsworn, vanishing and cleansing them from all crowd control, and hold them for a few seconds. While held, the Oathsworn may dash to reappear at the target location. If they collide with an enemy champion, they knock up all nearby enemies.\nActive: Kalista invokes her tether to retrieve and hold her Oathsworn for 4 seconds. Kalista cleanses the Oathsworn from all crowd control and renders them invulnerable and untargetable for the duration, and pulls them to her over 1 second.\nWhile held, the Oathsworn is vanished and may select a target location to dash to with displacement immunity, ending Fate's Call's invocation and reappearing at the location. If the invocation ends without the Oathsworn selecting a target location, they will automatically do so at maximum range from Kalista's facing direction.\nThe Oathsworn's dash stops upon colliding with an enemy champion. Upon the dash ending by collision or arriving to the targeted location, the Oathsworn knocks back all nearby enemies and keeps them airborne for a set duration, while simultaneously landing to their base attack range from the closest target hit.\nAirborne Duration:1 / 1.5 / 2 seconds\nThe Oathsworn must be within tether range to cast this ability, and is also silenced and unable to perform movement or attack commands while Fate's Call is in effect.\n\"They shall not have you!\"\nNotes/General Details\nTargeting input\nProximity\nTarget out-of-range override\nThe ability will not cast\nAffects\nOathsworn Ally / Enemies\nCounters\nSpell shield\nBlocked\nKnockdown\nNot Interrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe Oathsworn's landing location of the lunge is precisely to their base attack range from the closest target they hit and relative to where this target would be displaced to from the knock back.\nIn other words, the Oathsworn will land to a location where they are within their exact base attack range of the target by the end of the target's displacement.\nThe calculated landing spot does not evaluate if the target was successfully displaced or not, meaning that the Oathsworn will end up closer than their base attack range if the closest target hit was not knocked back.\nThe airborne effect is attributed to Fate's Call's initial caster.\nIf the Oathsworn does not hit any targets with the knock up effect, the dash will simply end and they will reappear at the target location.\nKalista is briefly unable to start basic attacks or cast basic abilities when the Oathsworn starts their flight.\nThe following will defer Fate's Call's effects at the time of cast to the end of their duration if the Oathsworn is:\nIn a cast time.\nChanneling.\nFate's Call will not defer by the following channels: Recall, Defiant Dance, Realm Warp, and The Culling.\nFate's Call cannot be cast during the following channels: Teleport, Gate, Grand Starfall, Hero's Entrance and Stand United.\nUsing an ability that preloads UnstoppableForceMarker.\nIf the Oathsworn is still occupied after 6 seconds of being deferred from this time, Fate's Call will cancel.\nFate's Call will not pull the Oathsworn if they are dashing but they will be retrieved after 1 second regardless.\nFate's Call can be cast even if the Oathsworn is untargetable.\nFate's Call is disabled if the Oathsworn is resurrecting or is being affected by another Fate's Call.\nFate's Call can be used even if the Oathsworn is in a zombie state.\nFate's Call does not render the target vanished while being held if they are creating Curse of the Black Mist's aura.\nThe Oathsworn being held is represented by a light over Kalista's head.\nKalista's death does not cancel Fate's Call.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kalista?oldid=4002537"
+    }
+  ],
+  "findings": [
+    {
+      "code": "adaptive_kit_structure",
+      "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+    }
+  ],
+  "kit_sections": [
+    {
+      "anchor": "Basic_Attack",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Basic_Attack.png?66a25",
+      "id": "wiki:basicattack",
+      "name": "Basic Attack"
+    },
+    {
+      "anchor": "Martial_Poise",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Kalista_Martial_Poise.png?b1fde",
+      "id": "wiki:martialpoise",
+      "name": "Martial Poise"
+    },
+    {
+      "anchor": "Pierce",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Kalista_Pierce.png?21dda",
+      "id": "wiki:pierce",
+      "name": "Pierce"
+    },
+    {
+      "anchor": "Sentinel",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Sentinel_3.png?265df",
+      "id": "wiki:sentinel",
+      "name": "Sentinel"
+    },
+    {
+      "anchor": "Rend",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Kalista_Rend.png?12a7e",
+      "id": "wiki:rend",
+      "name": "Rend"
+    },
+    {
+      "anchor": "Fate's_Call",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Kalista_Fate%27s_Call.png?8154c",
+      "id": "wiki:fatescall",
+      "name": "Fate's Call"
+    }
+  ],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "media_catalog": [
+    {
+      "filename": "kalista_e.png",
+      "id": "cd:kalistaepng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/kalista/hud/icons2d/kalista_e.png"
+    },
+    {
+      "filename": "kalista_passive.png",
+      "id": "cd:kalistapassivepng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/kalista/hud/icons2d/kalista_passive.png"
+    },
+    {
+      "filename": "kalista_q.png",
+      "id": "cd:kalistaqpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/kalista/hud/icons2d/kalista_q.png"
+    },
+    {
+      "filename": "kalista_r.png",
+      "id": "cd:kalistarpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/kalista/hud/icons2d/kalista_r.png"
+    },
+    {
+      "filename": "kalista_w.png",
+      "id": "cd:kalistawpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/kalista/hud/icons2d/kalista_w.png"
+    }
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kalista_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 11749,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T13:38:45.816623+00:00",
+      "sha256": "9f624fa9527ec2c05009a4b6e4b9ce4019f040806b10a570bba0344af9c6acd3",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Kalista.json"
+    },
+    {
+      "bytes": 29488,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T13:38:45.956506+00:00",
+      "sha256": "9f520bfb6c900b6fc84268724ecdfc142a5bd874ddefee86bda1fb2892b7ad86",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/429.json"
+    },
+    {
+      "bytes": 166227,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:38:46.604017+00:00",
+      "sha256": "ad426acb2999b2b6b5052d562857254183d919c4d281ac7cd0e12bf46187aa8c",
+      "url": "https://www.leagueoflegends.com/en-us/champions/kalista/"
+    },
+    {
+      "bytes": 850776,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:38:46.887051+00:00",
+      "sha256": "c64bdd3449bcece6055143410077a3fc745ba1380a5e7444671fd69c37d7e7fc",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kalista"
+    },
+    {
+      "bytes": 8479,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:38:47.395668+00:00",
+      "sha256": "b763cec729789ccc45808e5bad5407825c673734477aa63ae7d32c3f14c6bdcc",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/kalista/hud/icons2d/"
+    }
+  ],
+  "schema_version": 2,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4002537"
+  }
+}

@@ -1,0 +1,339 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:karma:overview:L1",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Name: Karma. Official role tags: Mage, Support.",
+            "source_id": "riot:role"
+          },
+          {
+            "quote": "Active: Karma fires a bolt in the target direction that explodes on the first enemy hit, dealing magic damage to nearby enemies and briefly slowing them.",
+            "source_id": "wiki:innerflame"
+          },
+          {
+            "quote": "Active: Karma applies a shield on herself or the target allied champion for a short time, which briefly grants bonus movement speed.",
+            "source_id": "wiki:inspire"
+          }
+        ],
+        "id": "karma_overview_role",
+        "summary": "Karma is a mage/support with magic-damage poke, slows, shielding and movement-speed support."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Karma empowers her next ability to do an additional effect.",
+            "source_id": "riot:R"
+          },
+          {
+            "quote": "Karma's damaging abilities will reduce the cooldown of Mantra.",
+            "source_id": "riot:P"
+          }
+        ],
+        "id": "karma_overview_empowerment",
+        "summary": "Mantra empowers her next ability, and damaging abilities help bring Mantra back."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize a poke and protection mage whose empowerment choice changes the threat. Her supplied kit describes movement-speed boosts but no dash or blink; account for speed-assisted repositioning.",
+    "slot": "",
+    "source_ids": [
+      "riot:role",
+      "wiki:innerflame",
+      "wiki:inspire",
+      "riot:R",
+      "riot:P"
+    ],
+    "subject_id": "riot:role",
+    "title": "Karma: poke, protection and empowerment",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Mantra can be used while affected by cast-inhibiting crowd control.",
+            "source_id": "wiki:mantra"
+          }
+        ],
+        "status": "supported",
+        "summary": "Mantra itself can be activated during cast-inhibiting crowd control; this does not establish that the subsequent basic ability can be cast during it."
+      }
+    ],
+    "card_id": "champ:karma:system:r:mantra:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Karma empowers her next basic ability within 8 seconds for an additional effect.",
+            "source_id": "wiki:mantra"
+          }
+        ],
+        "id": "karma_system_next_cast",
+        "summary": "Mantra empowers the next basic ability rather than directly attacking an enemy."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Mantra is available at level 1 and does not require a skill point.",
+            "source_id": "riot:R"
+          },
+          {
+            "quote": "Karma begins the game with one rank in Mantra. Her empowered abilities scale based on Mantra's rank.",
+            "source_id": "wiki:mantra"
+          }
+        ],
+        "id": "karma_system_unlock",
+        "summary": "Mantra is available at level 1 without spending a skill point; empowered abilities scale with Mantra's rank."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Innate: Mantra's current cooldown is reduced by a few seconds for each enemy champion hit by Karma's damaging abilities.",
+            "source_id": "wiki:gatheringfire"
+          }
+        ],
+        "id": "karma_system_refresh",
+        "summary": "Gathering Fire reduces Mantra's current cooldown when Karma's damaging abilities hit enemy champions."
+      }
+    ],
+    "kind": "system",
+    "purpose": "Expect empowerment from the opening levels and recognize that successful champion damage accelerates its return.",
+    "slot": "R",
+    "source_ids": [
+      "wiki:mantra",
+      "riot:R",
+      "wiki:gatheringfire"
+    ],
+    "subject_id": "wiki:mantra",
+    "title": "Mantra and Gathering Fire",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:karma:q:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Karma fires a bolt in the target direction that explodes on the first enemy hit, dealing magic damage to nearby enemies and briefly slowing them.",
+            "source_id": "wiki:innerflame"
+          }
+        ],
+        "id": "karma_q_collision",
+        "summary": "Inner Flame is a directional bolt that explodes on the first enemy hit, damaging nearby enemies with magic damage and briefly slowing them."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the poke projectile and avoid its splash even when another unit intercepts it.",
+    "slot": "Q",
+    "source_ids": [
+      "wiki:innerflame"
+    ],
+    "subject_id": "wiki:innerflame",
+    "title": "Inner Flame: explosive slowing bolt",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Spell shield will block the initial impact from either ability but will not block Soulflare's field damage.",
+            "source_id": "wiki:soulflare"
+          }
+        ],
+        "status": "supported",
+        "summary": "A spell shield can block the initial impact while leaving the field damage unblocked."
+      }
+    ],
+    "card_id": "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+    "context_id": "wiki:mantra",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Mantra Bonus: Inner Flame deals increased damage, and fires a larger bolt that also explodes at max range. The explosion briefly creates a field that slows enemies, which then ruptures to deal magic damage.",
+            "source_id": "wiki:soulflare"
+          }
+        ],
+        "id": "karma_soulflare_bolt",
+        "summary": "Soulflare increases Inner Flame's damage and bolt size, and allows the bolt to explode at maximum range."
+      },
+      {
+        "citations": [
+          {
+            "quote": "The explosion briefly creates a field that slows enemies, which then ruptures to deal magic damage.",
+            "source_id": "wiki:soulflare"
+          }
+        ],
+        "id": "karma_soulflare_field",
+        "summary": "The explosion leaves a slowing field that later ruptures for magic damage."
+      }
+    ],
+    "kind": "ability_variant",
+    "purpose": "Recognize empowered Q and leave the lingering field before its delayed damage.",
+    "slot": "Q",
+    "source_ids": [
+      "wiki:soulflare"
+    ],
+    "subject_id": "wiki:soulflare",
+    "title": "Soulflare: empowered blast and delayed field",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:karma:w:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Karma deals magic damage to the target enemy champion, monster or pet and forms a tether between her and them for 2 seconds, during which they are revealed.",
+            "source_id": "wiki:focusedresolve"
+          }
+        ],
+        "id": "karma_w_tether",
+        "summary": "Focused Resolve targets an enemy champion, monster or pet, dealing magic damage and forming a revealing tether."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If the tether is not broken by the end of its duration, the target is dealt the same magic damage again and is rooted for a duration, during which they are revealed.",
+            "source_id": "wiki:focusedresolve"
+          }
+        ],
+        "id": "karma_w_completion",
+        "summary": "An unbroken tether ends with further magic damage and a root that continues revealing the target."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the tether as a delayed root threat and prioritize breaking it before completion.",
+    "slot": "W",
+    "source_ids": [
+      "wiki:focusedresolve"
+    ],
+    "subject_id": "wiki:focusedresolve",
+    "title": "Focused Resolve: tether into root",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Spell shield will block the tether's application and damage but not the aftereffects of one already applied.",
+            "source_id": "wiki:renewal"
+          }
+        ],
+        "status": "supported",
+        "summary": "Spell shielding does not stop the aftereffects of an already applied tether."
+      },
+      {
+        "citations": [
+          {
+            "quote": "On cast, Renewal is treated as 2 abilities for Conqueror and Electrocute, instead of 1.(bug)",
+            "source_id": "wiki:renewal"
+          }
+        ],
+        "status": "uncertain",
+        "summary": "The packet marks special rune counting as a bug; it is excluded from established mechanics."
+      }
+    ],
+    "card_id": "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+    "context_id": "wiki:mantra",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Focused Resolve's root is increased. Karma heals herself once on-cast, and again once the target is bound or dies while tethered.",
+            "source_id": "wiki:renewal"
+          }
+        ],
+        "id": "karma_renewal_root",
+        "summary": "Renewal extends Focused Resolve's root."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Mantra Bonus: Focused Resolve's root duration is increased. Karma heals for 17% (+ 1% per 100 AP) of her missing health once on-cast, and again once the tether lasts its full duration or the target dies while tethered.",
+            "source_id": "wiki:renewal"
+          }
+        ],
+        "id": "karma_renewal_heal",
+        "summary": "Renewal heals Karma based on missing health at cast, then heals her again if the tether completes or its target dies while tethered."
+      }
+    ],
+    "kind": "ability_variant",
+    "purpose": "Anticipate a low-health Karma's healing reversal and the longer root; breaking the tether can prevent its completion-triggered heal.",
+    "slot": "W",
+    "source_ids": [
+      "wiki:renewal"
+    ],
+    "subject_id": "wiki:renewal",
+    "title": "Renewal: self-healing tether",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:karma:e:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Karma applies a shield on herself or the target allied champion for a short time, which briefly grants bonus movement speed.",
+            "source_id": "wiki:inspire"
+          }
+        ],
+        "id": "karma_e_protection",
+        "summary": "Inspire briefly shields Karma or a targeted allied champion and grants bonus movement speed."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize protection and speed that can help a target escape, approach or maintain a tether.",
+    "slot": "E",
+    "source_ids": [
+      "wiki:inspire"
+    ],
+    "subject_id": "wiki:inspire",
+    "title": "Inspire: shield and movement speed",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:karma:ability_variant:e:defiance:mantra:recognize:L2",
+    "context_id": "wiki:mantra",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Inspire's shield is increased, and Inspire spreads to surrounding allied champions at reduced power.",
+            "source_id": "wiki:defiance"
+          },
+          {
+            "quote": "Mantra - Active: Inspire grants a bonus amount of shielding.Inspire spreads to surrounding allied champions, granting them a shield for 2.5 seconds and 15% bonus movement speed for 2 seconds.",
+            "source_id": "wiki:defiance"
+          }
+        ],
+        "id": "karma_defiance_group",
+        "summary": "Defiance strengthens the primary shield and spreads reduced-power shielding and movement speed to surrounding allied champions."
+      }
+    ],
+    "kind": "ability_variant",
+    "purpose": "Recognize group protection and acceleration that can enable a coordinated approach or retreat.",
+    "slot": "E",
+    "source_ids": [
+      "wiki:defiance"
+    ],
+    "subject_id": "wiki:defiance",
+    "title": "Defiance: group shielding and speed",
+    "unsupported_claims": []
+  }
+]

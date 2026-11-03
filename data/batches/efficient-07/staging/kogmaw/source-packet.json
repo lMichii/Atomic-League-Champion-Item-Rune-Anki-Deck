@@ -1,0 +1,239 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "4 seconds after dying, Kogmaw explodes, dealing true damage to surrounding enemies.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/KogMaw_IcathianSurprise.png",
+      "name": "Icathian Surprise",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0096/ability_0096_P1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "description": "Kog'Maw launches a corrosive projectile which deals magic damage and corrodes the target's armor and magic resist for a short time. Kog'Maw also gains additional attack speed.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KogMawQ.png",
+      "name": "Caustic Spittle",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0096/ability_0096_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        17,
+        17,
+        17,
+        17,
+        17
+      ],
+      "description": "Kog'Maw's attacks gain range and deal a percent of the target's maximum health as magic damage %i:OnHit% On-Hit.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KogMawBioArcaneBarrage.png",
+      "name": "Bio-Arcane Barrage",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0096/ability_0096_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "description": "Kog'Maw launches a peculiar ooze which damages all enemies it passes through and leaves a trail which slows enemies who stand on it.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KogMawVoidOoze.png",
+      "name": "Void Ooze",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0096/ability_0096_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        2,
+        1.5,
+        1
+      ],
+      "description": "Kog'Maw fires an artillery shell at a great distance dealing magic damage (increased significantly on low health enemies) and revealing non-stealthed targets. Additionally, multiple Living Artilleries in a short period of time cause them to cost additional Mana.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KogMawLivingArtillery.png",
+      "name": "Living Artillery",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0096/ability_0096_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/kog-maw/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw"
+  },
+  "champion": {
+    "ddragon_id": "KogMaw",
+    "name": "Kog'Maw",
+    "riot_id": 96,
+    "roles": [
+      "Marksman",
+      "Mage"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/KogMaw/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "8ccd3f91ce1bfa279a396fec89aef5b4089737e56b0fdf125a72550526673eab",
+      "text": "4 seconds after dying, Kogmaw explodes, dealing true damage to surrounding enemies.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/KogMaw.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "Icathian Surprise",
+      "provider": "league_wiki",
+      "sha256": "743e758dd402b5c5e3af59260409ed7411aa3560efc46310a5a885bba5aa8489",
+      "text": "Icathian Surprise\nEFFECT RADIUS:\n400\nInnate: Upon dying, Kog'Maw enters an untargetable zombie state for a few seconds, gradually gaining bonus movement speed. He explodes at the end of the duration, dealing true damage to nearby enemies.\nInnate: Upon taking fatal damage, Kog'Maw enters a zombie state for 4 seconds, becoming ghosted and gaining 10% bonus movement speed that increases up to 50% over the duration. At the end of the duration, he explodes to deal 140 – 650 (based on level) true damage to nearby enemies.\nWhile under this state, Kog'Maw becomes invulnerable, untargetable, and immune to crowd control, but is also rendered unable to declare basic attacks, cast abilities, use summoner spells, and activate items.\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf, Enemies\nDamage classification\nType\nArea damage\nSub-type(s)\nTrue\nCounters\nSpell shield\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIcathian Surprise's bonus movement speed increases by 2.5% every 0.264 seconds over the duration, up to the maximum of 50%. However, as a result of the ticks being rounded up from 0.25 seconds, the movement speed only reaches up to 45%.\nIcathian Surprise's untargetability does not destroy in-flight projectiles.\nIcathian Surprise will still trigger if Kog'Maw is killed by the Nexus Obelisk.\nIf Kog'Maw has the missile from a basic attack in-flight at the same time that he's moving while he dies, as long as the missile hits the target after Icathian Surprise has started, Kog'Maw will be able to use a basic attack once during Icathian Surprise.\nKog'Maw's usable summoner spells will be placed on a 5 second cooldown upon becoming a zombie.\nDuring Icathian Surprise, Kog'Maw's attack range is reduced「 to 0 」「 by 500 」, making him automatically path near enemies he is trying to target.\nZombie states trigger upon taking lethal damage.\nRaw damage effects will not prevent zombie states from triggering.\nAll resurrection effects will take precedence over effects that reanimate as a zombie.\nA champion that enters a zombie state will start their death timer upon triggering the effect.\nMost buffs and debuffs will be lost upon transitioning into a zombie state.\nThose that persist through death, such as Brand's Blaze, will remain.\nUndisplayed marker buffs, such as those imposed by Veigar's Event Horizon and Viktor's Gravity Field to prevent being affected multiple times by the same effect, will be lost.(bug)\nThis does not apply when transitioning from one zombie state to another zombie state.(bug)\nUnits within a zombie state cannot:\nUse Recall or Refillable Potion.\nActivate resurrection effects.\nTake Dark Passage, Catapult, or gates.\nInitate the Rift Herald Rodeo.\nPick up the Eye of the Herald.\nBe targeted by the following:\nBailout\nChronoshift\nUmbral Trespass.\nBe affected by the following:\nCurse of the Black Mist\nFear Beyond Death's chain missile\nTest of Spirit's initial missile\nLamb's Respite\nRealm of Death\nFountain health restore\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw?oldid=4067451"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/KogMaw/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "8ccd3f91ce1bfa279a396fec89aef5b4089737e56b0fdf125a72550526673eab",
+      "text": "Kog'Maw launches a corrosive projectile which deals magic damage and corrodes the target's armor and magic resist for a short time. Kog'Maw also gains additional attack speed.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/KogMaw.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Caustic Spittle",
+      "provider": "league_wiki",
+      "sha256": "743e758dd402b5c5e3af59260409ed7411aa3560efc46310a5a885bba5aa8489",
+      "text": "Caustic Spittle\nCOST:\n40 Mana\nCOOLDOWN:\n7\nCAST TIME:\nBasic attack timer\nRANGE:\n1200\nWIDTH:\n140\nSPEED:\n1650\nPassive: Kog'Maw gains bonus attack speed. Active: Kog'Maw ejects a wad of spittle in the target direction that deals magic damage to the first enemy hit, reducing their armor and magic resistance for a few seconds.\nPassive: Kog'Maw gains bonus attack speed.\nBonus Attack Speed:5 / 10 / 15 / 20 / 25%\nActive: Kog'Maw ejects a wad of spittle in the target direction that deals magic damage to the first enemy hit and reduces their armor and magic resistance for 4 seconds.\nMagic Damage:80 / 125 / 170 / 215 / 260 (+ 90% AP)\nResistances Reduction:16 / 20 / 24 / 28 / 32%\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThis ability will cast from wherever the caster is at the start of the cast time.\nMap-Specific Differences\nARAM differences edit\nResistances reduction changed to 15 / 18 / 21 / 24 / 27%.\nArena differences edit\nResistances reduction changed to 15 / 17.5 / 20 / 22.5 / 25%.\nAP ratio changed to 100% AP.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw?oldid=4067451"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/KogMaw/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "8ccd3f91ce1bfa279a396fec89aef5b4089737e56b0fdf125a72550526673eab",
+      "text": "Kog'Maw's attacks gain range and deal a percent of the target's maximum health as magic damage %i:OnHit% On-Hit.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/KogMaw.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Bio-Arcane Barrage",
+      "provider": "league_wiki",
+      "sha256": "743e758dd402b5c5e3af59260409ed7411aa3560efc46310a5a885bba5aa8489",
+      "text": "Bio-Arcane Barrage\nCOST:\n40 Mana\nCOOLDOWN:\n17\nCAST TIME:\nnone\nActive: Kog'Maw empowers his basic attacks for a period, gaining bonus attack range and dealing bonus magic damage based on the target's maximum health.\nActive: Kog'Maw empowers his basic attacks for the next 8 seconds to gain bonus attack range and deal bonus magic damage on-hit, capped at 100 against minions and monsters.\nBonus Attack Range:130 / 150 / 170 / 190 / 210\nBonus Magic Damage:3 / 3.75 / 4.5 / 5.25 / 6% (+ 1.5% per 100 AP) of target's maximum health\nNotes/General Details\nTargeting input\nAuto\nDamage classification\nType\nProc damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nNot Blocked\nParries\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe attacks do not deal the bonus damage against structures.\nMap-Specific Differences\nARAM differences edit\nTarget health ratio changed to 2.5 / 3 / 3.5 / 4 / 4.5% of target's maximum health.\nArena differences edit\nBase damage changed to 2 / 2.75 / 3.5 / 4.25 / 5% of target's maximum health.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw?oldid=4067451"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/KogMaw/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "8ccd3f91ce1bfa279a396fec89aef5b4089737e56b0fdf125a72550526673eab",
+      "text": "Kog'Maw launches a peculiar ooze which damages all enemies it passes through and leaves a trail which slows enemies who stand on it.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/KogMaw.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Void Ooze",
+      "provider": "league_wiki",
+      "sha256": "743e758dd402b5c5e3af59260409ed7411aa3560efc46310a5a885bba5aa8489",
+      "text": "Void Ooze\nCOST:\n40 / 55 / 70 / 85 / 100 Mana\nCOOLDOWN:\n12\nCAST TIME:\n0.25\nRANGE:\n1360\nWIDTH:\n240\nSPEED:\n1400\nActive: Kog'Maw spews a gob of ooze in the target direction that deals magic damage to enemies hit. It leaves a field of ooze in its wake for a few seconds that slows enemies.\nActive: Kog'Maw spews a gob of ooze in the target direction that deals magic damage to enemies hit.\nMagic Damage:70 / 110 / 150 / 190 / 230 (+ 65% AP)\nA field of ooze is created in its wake for 3 seconds, slowing enemies within the area every 0.25 seconds.\nSlow:40 / 45 / 50 / 55 / 60%\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThis ability will cast from wherever the caster is at the start of the cast time.\nPENDING FOR TEST:: The missile leaves a blob of ooze on the ground every 125 units traveled.\nMap-Specific Differences\nArena differences edit\nAP ratio changed to 100% AP.\nSlow strength changed to 20 / 30 / 40 / 50 / 60%.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw?oldid=4067451"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/KogMaw/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "8ccd3f91ce1bfa279a396fec89aef5b4089737e56b0fdf125a72550526673eab",
+      "text": "Kog'Maw fires an artillery shell at a great distance dealing magic damage (increased significantly on low health enemies) and revealing non-stealthed targets. Additionally, multiple Living Artilleries in a short period of time cause them to cost additional Mana.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/KogMaw.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Living Artillery",
+      "provider": "league_wiki",
+      "sha256": "743e758dd402b5c5e3af59260409ed7411aa3560efc46310a5a885bba5aa8489",
+      "text": "Living Artillery\nCOST:\n40 – 400 (based on stacks) Mana\nCOOLDOWN:\n2 / 1.5 / 1\nCAST TIME:\n0.25\nTARGET RANGE:\n1300 / 1550 / 1800\nEFFECT RADIUS:\n240\nActive: Kog'Maw spits a globule of acid into the air that drops to the target location, dealing magic damage to enemies hit based on their missing health. The damage is further doubled against enemies at low health. Kog'Maw then gains a stack of Living Artillery, stacking up to a cap. Living Artillery: For each stack, Living Artillery gains increased mana cost.\nActive: Kog'Maw spits a globule of acid into the air that drops to the target location after 0.6 seconds, granting sight of the area before dealing magic damage to enemies hit and revealing them for 2 seconds. Living Artillery's damage is increased by 0% – 50% (based on target's missing health), or instead by 100% if the target is below 40% maximum health.\nMinimum Magic Damage:100 / 140 / 180 (+ 75% bonus AD) (+ 35 / 40 / 45% AP)Maximum Magic Damage:200 / 280 / 360 (+ 150% bonus AD) (+ 70 / 80 / 90% AP)\nKog'Maw then generates a stack of Living Artillery for 8 seconds, refreshing on subsequent casts and stacking up to 9 times.\nLiving Artillery: For each stack, Living Artillery's mana cost is increased by 40.\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nWalk in range of the target location to cast\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nLiving Artillery will not reveal stealthed champions.\nPinging Living Artillery will additionally display the remaining time duration of its stacks.\nMap-Specific Differences\nArena differences edit\nAP ratio changed to 55 / 60 / 65% AP.\nChampion skins[edit | edit source]\nThis article section only contains champion skins. For all associated collection items, see Kog'Maw (Collection).\nOriginal\n24.06.2010\nBelched forth from a rotting Void incursion deep in the wastelands of Icathia, Kog’Maw is an inquisitive yet putrid creature with a caustic, gaping mouth. This particular Void-spawn needs to gnaw and drool on anything within reach to truly understand it. Though not inherently evil, Kog’Maw’s beguiling naiveté is dangerous, as it often precedes a feeding frenzy—not for sustenance, but to satisfy its unending curiosity.\nPatrick Seitz\nAlex 'alexplank' Flores\nLoot eligible\nView in 3D\nCaterpillar\n520\n24.06.2010\nKog'Maw, ever lost in thought, sat upon his toadstool until he was famished. “Wonderland is full of such delights,” he mused, gulping down the toadstool entirely. “It would be a shame not to devour them all.”\nPatrick Seitz\nUnknown artist\nStorybook\nLoot eligible\nLegacy\nView in 3D\nSonoran\n520\n24.06.2010\nLong considered a pest by frontier settlers, Kog'Maw critters have been growing in number as more dangerous beasts are pushed to the brink of extinction. And they are very, very hungry.\nPatrick Seitz\nUnknown artist\nHigh Noon\nLoot eligible\nLegacy\nView in 3D\nMonarch\n520\n16.11.2010\nPatrick Seitz\nUnknown artist\nLegacy\nLoot eligible\nNew Animations\nNew Recall\nView in 3D\nReindeer\n975\n14.12.2010\nIt is rumored that Kog'Maw stole his glowing nose and deer antlers from a particularly adorable creature he devoured. Whether or not the theory is true, Kog'Maw is now the most famous reindeer of all.\nPatrick Seitz\nUnknown artist\nSnowdown Showdown\nLoot eligible\nLegacy\nAdditional/unique quotes\nNew SFX/VFX\nView in 3D • View Music\nLion Dance\n1350\n01.02.2011\nIt is unclear if Kog'Maw even understands what Lunar Revel is, but someone seems to have painted him for it. That person has presumably been eaten and digested, but Kog'Maw does look very festive.\nPatrick Seitz\nUnknown artist\nLunar Revel: Firecracker\nLoot eligible\nNew SFX/VFX\nView in 3D\nDeep Sea\n975\n19.09.2011\n“Perhaps my old mind was deceived by the fury of the storm. Yet as we sank, I glimpsed a field of lights beneath the waves, a thousand eyes of wicked alabaster… they were dark things tearing into the flesh of our crew as if all they ever knew was hunger.”\nPatrick Seitz\nKienan 'Knockwurst' Lafferty\nForgotten Depths\nLoot eligible\nLegacy\nNew SFX/VFX\nView in 3D\nJurassic\n975\n23.03.2012\nPatrick Seitz\nUnknown artist\nDay Job\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nBattlecast\n1350\n25.11.2014\nMass-produced artillery units based on the now-extinct Kog'Maw organism, Viktor has invented an ingenious shell delivery system best appreciated from about a hundred miles away—the latest design's maximum range.\nPatrick Seitz\nUnknown artist\nBattlecast\nLoot eligible\nVoice filter\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nPug'Maw\n975\n29.03.2017\nPug'Maw is a nine month old purebred pug with a sweet disposition and possibly some sort of salivary problem. Great with children and pets. Highly food motivated. Has eaten three action figures and one doll, approach with extreme caution.\nPatrick Seitz\nPan Chengwei\nToy Box\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nChromas",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw?oldid=4067451"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/KogMaw/tags",
+      "provider": "riot_ddragon",
+      "sha256": "8ccd3f91ce1bfa279a396fec89aef5b4089737e56b0fdf125a72550526673eab",
+      "text": "Name: Kog'Maw. Official role tags: Marksman, Mage.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/KogMaw.json"
+    }
+  ],
+  "findings": [
+    {
+      "code": "source_unavailable",
+      "message": "HTTP Error 404: Not Found",
+      "url": "https://www.leagueoflegends.com/en-us/champions/kog-maw/"
+    }
+  ],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/KogMaw_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 13520,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T18:04:19.787387+00:00",
+      "sha256": "8ccd3f91ce1bfa279a396fec89aef5b4089737e56b0fdf125a72550526673eab",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/KogMaw.json"
+    },
+    {
+      "bytes": 73365,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T18:04:19.938755+00:00",
+      "sha256": "53b505dedf024211725dc24ac2c6a337bd6ef158453ae47eac1c806a6d114f64",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/96.json"
+    },
+    {
+      "bytes": 879425,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T18:04:20.703742+00:00",
+      "sha256": "743e758dd402b5c5e3af59260409ed7411aa3560efc46310a5a885bba5aa8489",
+      "url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw"
+    }
+  ],
+  "schema_version": 1,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4067451"
+  }
+}

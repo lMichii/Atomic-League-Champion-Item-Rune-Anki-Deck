@@ -1,0 +1,340 @@
+{
+  "cards": [
+    {
+      "answer": "Miss Fortune is a marksman and mage who deals bonus physical damage when switching attack targets. She can slow enemies in an area and channel a cone of bullets for heavy damage.",
+      "build_focus": "AD",
+      "counterplay": "Avoid standing behind her targets or grouping inside her bullet cone.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Miss Fortune. Official role tags: Marksman, Mage.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Miss Fortune deals bonus physical damage whenever she basic attacks a new target.",
+              "source_id": "riot:P"
+            }
+          ],
+          "claim": "Miss Fortune is a marksman and mage who deals bonus physical damage when switching attack targets."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune reveals an area with a flurry of bullets, dealing waves of damage to opponents and slowing them.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Miss Fortune channels a barrage of bullets into a cone in front of her, dealing large amounts of damage to enemies.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "She can slow enemies in an area and channel a cone of bullets for heavy damage."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Introduces her damage role and the area threats enemies need to recognize.",
+      "slot": "-",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "AD is a broad learning focus inferred from the supplied physical-damage mechanics and AD scaling, not an optimal build recommendation."
+      ]
+    },
+    {
+      "answer": "Basic attacks against a new eligible target deal bonus physical damage. Switching targets lets Love Tap trigger again.",
+      "build_focus": "",
+      "counterplay": "Expect extra damage when she switches her attacks onto you.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune deals bonus physical damage whenever she basic attacks a new target.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "The empowered attack will not trigger against buildings.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Basic attacks against a new eligible target deal bonus physical damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune's basic attacks apply a mark that expires when attacking a new enemy. If the enemy was unmarked, this also deals bonus physical damage.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Switching targets lets Love Tap trigger again."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "A heart-shaped marker appears beside the target she has just attacked.",
+        "meaningful": true,
+        "source_ids": [
+          "riot:P",
+          "wiki:P"
+        ]
+      },
+      "priority": "B",
+      "priority_reason": "Target switching changes her attack damage and supports Strut's cooldown reduction.",
+      "slot": "P",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The heart-marker cue is a tentative proposal from the supplied official-clip frames, not current-client or skin-specific verification; text sources describe a mark but not its appearance.",
+        "Advanced exceptions omitted from beginner text: reduced bonus damage against minions, no trigger against buildings, primary-target-only interaction with Runaan's Hurricane, and life steal application."
+      ]
+    },
+    {
+      "answer": "Double Up fires a targeted shot that deals physical damage and can bounce to another enemy behind the first. Both hits can apply Love Tap.",
+      "build_focus": "",
+      "counterplay": "Avoid standing directly behind an enemy she can shoot.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune fires a bullet at an enemy, damaging them and a target behind them.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Miss Fortune fires a shot at the target enemy that deals physical damage, which then bounces to hit another enemy behind them.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Double Up fires a targeted shot that deals physical damage and can bounce to another enemy behind the first."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Both strikes can also apply Love Tap.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "Both hits can apply Love Tap."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "The bounce threatens enemies using other units as cover.",
+      "slot": "Q",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The bounce requires an eligible secondary target. It can critically strike and is guaranteed to do so when the primary target is killed.",
+        "Advanced targeting priorities, on-hit interactions, spell shields, attack-range adjustments and cast cancellation are omitted from beginner text."
+      ]
+    },
+    {
+      "answer": "Strut passively builds movement speed after time without taking non-periodic damage. Activating it instantly grants the increased movement speed bonus and temporarily boosts attack speed. Love Tap triggers reduce Strut's remaining cooldown.",
+      "build_focus": "",
+      "counterplay": "Land direct damage to disrupt her passive movement speed, and respect her attack-speed boost.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune gains bonus movement speed after 4 seconds without taking non- periodic damage. This bonus is increased after another 3 seconds, and is granted instantly whenever Strut is cast.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Strut passively builds movement speed after time without taking non-periodic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "This bonus is increased after another few seconds, and is granted instantly whenever Strut is cast.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "This ability can be activated to grant bonus Attack Speed for a short duration.",
+              "source_id": "riot:W"
+            }
+          ],
+          "claim": "Activating it instantly grants the increased movement speed bonus and temporarily boosts attack speed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "While it's on cooldown, Love Taps reduce the remaining cooldown of Strut.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Marking a new target with Love Tap reduces Strut's current cooldown by 2 seconds.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Love Tap triggers reduce Strut's remaining cooldown."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Explains her movement, attack-speed boost and target-switching synergy.",
+      "slot": "W",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Riot summarizes the passive condition as not being attacked; Wiki specifies non-periodic damage and excludes zero-damage instances."
+      ]
+    },
+    {
+      "answer": "Make It Rain creates a temporary bullet storm at a chosen location, repeatedly dealing magic damage and slowing enemies inside. It also grants sight of the area.",
+      "build_focus": "",
+      "counterplay": "Leave the bullet storm to avoid further damage and slowing.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune casts a storm of bullets at the target location for a short time, which continually deals magic damage and slows enemies within.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Miss Fortune reveals an area with a flurry of bullets, dealing waves of damage to opponents and slowing them.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "Make It Rain creates a temporary bullet storm at a chosen location, repeatedly dealing magic damage and slowing enemies inside."
+        },
+        {
+          "citations": [
+            {
+              "quote": "granting sight of the area",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Miss Fortune reveals an area with a flurry of bullets",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "It also grants sight of the area."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Its area slow restricts movement and makes other damage harder to escape.",
+      "slot": "E",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Area sight does not establish true sight or detection of invisible enemies.",
+        "Wiki states that the slow cannot be cleansed and spell shields do not block the ability; these advanced interactions are omitted from beginner text."
+      ]
+    },
+    {
+      "answer": "Bullet Time channels repeated waves of bullets into a cone in front of Miss Fortune, dealing physical damage. Each wave can critically strike.",
+      "build_focus": "",
+      "counterplay": "Move out of the cone quickly, or interrupt her channel with a cast-inhibiting effect.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune channels a barrage of bullets into a cone in front of her, dealing large amounts of damage to enemies.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Miss Fortune channels for a short time, firing several waves of bullets in the target direction that deal physical damage to enemies hit.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Bullet Time channels repeated waves of bullets into a cone in front of Miss Fortune, dealing physical damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Each wave of Bullet Time can critically strike",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Each wave can critically strike.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Each wave can critically strike."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "A sustained cone of heavy damage can threaten several enemies at once.",
+      "slot": "R",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Wiki's precise unseen-location reveal conditions and geometry are pending testing and excluded.",
+        "Flash behavior depends on cast-time versus channel timing; advanced redirection and cancellation details are omitted.",
+        "Each target can take damage from only one projectile per wave. Spell shields do not block the barrage; projectile blocking and channel interruption are distinct interactions."
+      ]
+    }
+  ],
+  "champion_id": 21,
+  "champion_name": "Miss Fortune",
+  "conflicts": [
+    {
+      "resolution": "Use Wiki's more specific non-periodic-damage condition for Strut, retaining the zero-damage exception in metadata.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "Strut's passive movement-speed condition"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Track availability of her major channeled area-damage threat.",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Track availability of the area slow that restricts enemy movement.",
+      "slot": "E",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Its attack-speed boost matters in trades, and Love Tap changes its remaining cooldown.",
+      "slot": "W",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "The Riot champion page returned HTTP 404; supplied Riot evidence comes from pinned Data Dragon excerpts.",
+    "Data Dragon version numbering does not establish a game patch label.",
+    "Official clip frames support only a tentative passive cue proposal, not current-client or skin-specific visual verification.",
+    "Wiki excerpts contain Arena differences, skin material and pending-test notes; these are excluded from the learning answers.",
+    "Counterplay is inferred teaching guidance grounded in the supplied effects.",
+    "Advanced interaction details omitted from beginner answers remain scoped in card metadata; no unresolved exception was used to remove a supported core mechanic."
+  ],
+  "language": "en"
+}

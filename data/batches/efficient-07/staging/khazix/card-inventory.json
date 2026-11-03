@@ -1,0 +1,278 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:khazix:overview:L1",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Kha'Zix slashes the target enemy, dealing physical damage, increased against Isolated targets.",
+            "source_id": "wiki:tastetheirfear"
+          }
+        ],
+        "id": "471b806e83783d7cb422941e",
+        "summary": "Physical damage increases against isolated targets."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Active: Kha'Zix gains Unseen Threat and becomes invisible and gains bonus movement speed for a brief time. Upon breaking invisibility, Void Assault can be cast a second time at no additional cost.",
+            "source_id": "wiki:voidassault"
+          }
+        ],
+        "id": "96d754cca62f144b67a80a5d",
+        "summary": "Repeatable invisibility grants movement speed and Unseen Threat."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize his isolation-focused fighting pattern and AD damage focus.",
+    "slot": "",
+    "source_ids": [
+      "wiki:tastetheirfear",
+      "wiki:voidspike",
+      "wiki:leap",
+      "wiki:voidassault"
+    ],
+    "subject_id": "riot:role",
+    "title": "Kha'Zix",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Void Assault grants Unseen Threat even if Kha'Zix never becomes unseen (e.g. affected by true sight).",
+            "source_id": "wiki:unseenthreat"
+          }
+        ],
+        "status": "supported",
+        "summary": "Void Assault grants the passive even when true sight prevents him from becoming unseen."
+      }
+    ],
+    "card_id": "champ:khazix:p:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Unseen Threat: Kha'Zix's next basic attack against an enemy champion deals bonus magic damage and slows them for a short time.",
+            "source_id": "wiki:unseenthreat"
+          }
+        ],
+        "id": "372384a672fa3103f7ace6e2",
+        "summary": "Empowers the next champion attack with magic damage and a slow."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Innate: Kha'Zix gains Unseen Threat whenever the enemy loses sight of him or he activates Void Assault.",
+            "source_id": "wiki:unseenthreat"
+          }
+        ],
+        "id": "eaa62f8b6e986884ce11ca8d",
+        "summary": "Losing enemy vision or activating Void Assault grants Unseen Threat."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize his empowered attack after vision loss or ultimate activation.",
+    "slot": "P",
+    "source_ids": [
+      "wiki:unseenthreat"
+    ],
+    "subject_id": "wiki:unseenthreat",
+    "title": "Unseen Threat",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "A team's allies are champions, pets, minions and outer turrets.",
+            "source_id": "wiki:evolvedreaperclaws"
+          }
+        ],
+        "status": "supported",
+        "summary": "Allied champions, pets, minions and outer turrets count for isolation."
+      }
+    ],
+    "card_id": "champ:khazix:q:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Passive: Kha'Zix considers any enemy unit to be Isolated if they are not nearby to one of their allies.",
+            "source_id": "wiki:tastetheirfear"
+          },
+          {
+            "quote": "Active: Kha'Zix slashes the target enemy, dealing physical damage, increased against Isolated targets.",
+            "source_id": "wiki:tastetheirfear"
+          }
+        ],
+        "id": "d51cdedf8c5dd8df5c2f76cb",
+        "summary": "A targeted physical strike deals increased damage to enemies without nearby allies."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Passive: Kha'Zix gains bonus range on his basic attacks and Taste Their Fear. Evolved Bonus: If the target is Isolated, the cooldown is reduced.",
+            "source_id": "wiki:evolvedreaperclaws"
+          }
+        ],
+        "id": "805ac69fec79650f043e12e0",
+        "summary": "Evolution adds attack and Q range and reduces Q cooldown against isolated targets."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize isolation damage and the evolved cooldown threat.",
+    "slot": "Q",
+    "source_ids": [
+      "wiki:tastetheirfear",
+      "wiki:evolvedreaperclaws"
+    ],
+    "subject_id": "wiki:tastetheirfear",
+    "title": "Taste Their Fear",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:khazix:w:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Kha'Zix fires a bolt of spikes in the target direction that explodes upon hitting an enemy, dealing physical damage to nearby enemies. Kha'Zix heals himself if he is within the explosion.",
+            "source_id": "wiki:voidspike"
+          }
+        ],
+        "id": "dcd75f1806f116e086340247",
+        "summary": "Spikes explode on contact for area physical damage and heal Kha'Zix if he is in the explosion."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Evolved Bonus: Void Spike now fires three clusters in a cone, slowing and revealing enemy champions hit for a short time. The slow is more potent against Isolated targets.",
+            "source_id": "wiki:evolvedspikeracks"
+          }
+        ],
+        "id": "655dddba5738a1c108300246",
+        "summary": "Evolution adds a cone spread, champion reveal and slow, stronger against isolated targets."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the projectile explosion and evolved slow and reveal.",
+    "slot": "W",
+    "source_ids": [
+      "wiki:voidspike",
+      "wiki:evolvedspikeracks"
+    ],
+    "subject_id": "wiki:voidspike",
+    "title": "Void Spike",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Taste Their Fear can be cast during the dash.",
+            "source_id": "wiki:leap"
+          }
+        ],
+        "status": "supported",
+        "summary": "Taste Their Fear can be cast during Leap."
+      }
+    ],
+    "card_id": "champ:khazix:e:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Kha'Zix leaps to the target location, dealing physical damage to nearby enemies upon landing.",
+            "source_id": "wiki:leap"
+          }
+        ],
+        "id": "f9c3da0009ad69c13a841dca",
+        "summary": "Leaps to a location and damages nearby enemies on landing."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Evolved Bonus: Leap gains increased range, and the cooldown resets upon scoring a champion takedown.",
+            "source_id": "wiki:evolvedwings"
+          }
+        ],
+        "id": "d0a55cdf6f7b7080e5cd49b7",
+        "summary": "Evolution increases range and resets the cooldown on champion takedowns."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize his engage range and potential takedown resets.",
+    "slot": "E",
+    "source_ids": [
+      "wiki:leap",
+      "wiki:evolvedwings",
+      "riot:E"
+    ],
+    "subject_id": "wiki:leap",
+    "title": "Leap",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:khazix:r:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Kha'Zix gains Unseen Threat and becomes invisible and gains bonus movement speed for a brief time. Upon breaking invisibility, Void Assault can be cast a second time at no additional cost.",
+            "source_id": "wiki:voidassault"
+          }
+        ],
+        "id": "389dfee792de10cceb8accc3",
+        "summary": "Grants repeatable invisibility, movement speed and Unseen Threat."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Passive: Each rank in Void Assault allows Kha'Zix to evolve one of his abilities, granting it additional effects.",
+            "source_id": "wiki:voidassault"
+          }
+        ],
+        "id": "d2bf052f9b64564b3927b883",
+        "summary": "Each ultimate rank permits an ability evolution."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Evolved Bonus: The invisibility is extended, and Void Assault can be cast up to 3 times.",
+            "source_id": "wiki:evolvedadaptivecloaking"
+          },
+          {
+            "quote": "Evolved Bonus: The invisibility now lasts 2 seconds, and Void Assault can be recast twice.",
+            "source_id": "wiki:evolvedadaptivecloaking"
+          }
+        ],
+        "id": "4d0fc4b9627d2a60c0dd7ce9",
+        "summary": "Evolution extends invisibility and adds recasts."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize repeated stealth approaches and the ability evolution system.",
+    "slot": "R",
+    "source_ids": [
+      "wiki:voidassault",
+      "wiki:evolvedadaptivecloaking",
+      "riot:R"
+    ],
+    "subject_id": "wiki:voidassault",
+    "title": "Void Assault",
+    "unsupported_claims": []
+  }
+]

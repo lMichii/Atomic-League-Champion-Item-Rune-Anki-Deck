@@ -1,0 +1,702 @@
+{
+  "cards": [
+    {
+      "text": {
+        "answer": "Aurelion Sol is an AP mage whose damaging abilities collect permanent Stardust to strengthen his kit. He channels sustained breath damage, can cast while flying over terrain, and uses a pulling black hole and a crowd-controlling star impact. Break contact with his breath, leave the black hole, and move away from the star's impact area.",
+        "build_focus": "AP",
+        "counterplay": "Break contact with his breath, leave the black hole, and move away from the star's impact area.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Aurelion Sol. Official role tags: Mage.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Magic Damage per Second:45 / 60 / 75 / 90 / 105 (+ 55% AP)",
+                "source_id": "wiki:breathoflight"
+              },
+              {
+                "quote": "Aurelion Sol's damaging Abilities break down enemies into stacks of Stardust, which permanently improves each of his abilities.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "Aurelion Sol is an AP mage whose damaging abilities collect permanent Stardust to strengthen his kit."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "exhaling a beam in the target direction that continuously deals magic damage to the first enemy hit and reduced damage to other enemies.",
+                "source_id": "wiki:breathoflight"
+              },
+              {
+                "quote": "Aurelion Sol flies over terrain in a targeted direction. While in this state, he can cast other abilities.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Aurelion Sol summons a black hole, damaging enemies and slowly pulling them toward its center.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "This impact deals magic damage and stuns enemies",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "He channels sustained breath damage, can cast while flying over terrain, and uses a pulling black hole and a crowd-controlling star impact."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Establishes his sustained damage pattern, scaling, mobility, and main areas to avoid.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Aurelion Sol's damaging Abilities break down enemies into stacks of Stardust, which permanently improves each of his abilities.",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "riot:P",
+            "summary": "Damaging abilities collect permanent Stardust that strengthens his abilities."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Aurelion Sol flies over terrain in a targeted direction. While in this state, he can cast other abilities.",
+                "source_id": "riot:W"
+              }
+            ],
+            "id": "riot:W",
+            "summary": "He can cast abilities while flying over terrain."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize his overall fighting pattern and practical responses.",
+        "slot": "",
+        "source_ids": ["riot:role", "riot:P", "riot:W", "riot:E", "riot:R", "wiki:breathoflight"],
+        "subject_id": "riot:role",
+        "title": "Aurelion Sol",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Cosmic Creator gives Aurelion Sol permanent Stardust from his damaging abilities. Stardust strengthens Breath of Light's maximum-health burst damage, enlarges Singularity and raises its execute threshold, extends Astral Flight's range, and enlarges his ultimate's impact area.",
+        "build_focus": "",
+        "counterplay": "Avoid lingering in his damaging abilities and respect his growing area coverage.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Innate: Aurelion Sol's damaging abilities against enemies generate him permanent stacks of Stardust, which gradually augments his abilities.",
+                "source_id": "wiki:cosmiccreator"
+              }
+            ],
+            "claim": "Cosmic Creator gives Aurelion Sol permanent Stardust from his damaging abilities."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Breath of Light's bursts deal bonus magic damage based on the target's maximum health.\nSingularity's area and execute threshold are increased.\nFalling Star/ The Skies Descend has increased impact area.",
+                "source_id": "wiki:cosmiccreator"
+              },
+              {
+                "quote": "Stardust increases Astral Flight's maximum range.",
+                "source_id": "riot:W"
+              }
+            ],
+            "claim": "Stardust strengthens Breath of Light's maximum-health burst damage, enlarges Singularity and raises its execute threshold, extends Astral Flight's range, and enlarges his ultimate's impact area."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "His permanent scaling changes damage and area threats as the game progresses.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Innate: Aurelion Sol's damaging abilities against enemies generate him permanent stacks of Stardust, which gradually augments his abilities.",
+                "source_id": "wiki:cosmiccreator"
+              }
+            ],
+            "id": "wiki:cosmiccreator",
+            "summary": "Damaging abilities generate permanent Stardust that augments his kit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Breath of Light's bursts deal bonus magic damage based on the target's maximum health.\nSingularity's area and execute threshold are increased.\nFalling Star/ The Skies Descend has increased impact area.",
+                "source_id": "wiki:cosmiccreator"
+              },
+              {
+                "quote": "Stardust increases Astral Flight's maximum range.",
+                "source_id": "riot:W"
+              }
+            ],
+            "id": "riot:P",
+            "summary": "Stardust improves breath bursts, black hole size and execution, flight range, and ultimate impact size."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize permanent growth in his damage, reach, and area control.",
+        "slot": "P",
+        "source_ids": ["wiki:cosmiccreator", "riot:P", "riot:W"],
+        "subject_id": "wiki:cosmiccreator",
+        "title": "Cosmic Creator",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Breath of Light is a steerable channel that continuously deals magic damage to the first enemy hit and reduced splash damage nearby. Sustained contact with the same target triggers bonus magic-damage bursts; bursts against champions generate Stardust.",
+        "build_focus": "",
+        "counterplay": "Break sustained contact with the beam and avoid clustering around its target.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "exhaling a beam in the target direction that continuously deals magic damage to the first enemy hit and reduced damage to other enemies. Aurelion Sol can steer the beam in any direction.",
+                "source_id": "wiki:breathoflight"
+              },
+              {
+                "quote": "damaging the first enemy hit and splashing reduced damage onto nearby enemies.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "claim": "Breath of Light is a steerable channel that continuously deals magic damage to the first enemy hit and reduced splash damage nearby."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The beam will deal a burst of bonus magic damage for each full second that it damages the same enemy, and generates Stardust if the target is a champion.",
+                "source_id": "wiki:breathoflight"
+              }
+            ],
+            "claim": "Sustained contact with the same target triggers bonus magic-damage bursts; bursts against champions generate Stardust."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Recognizing sustained beam contact helps limit his central damage and Stardust generation.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "At max rank, Breath of Light's channel duration may last indefinitely.",
+                "source_id": "wiki:breathoflight"
+              }
+            ],
+            "status": "supported",
+            "summary": "At maximum rank, the channel can persist for an extended duration."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the channel is cancelled within the first 0.25 seconds, Breath of Light is placed on a 1-second lockout but does not go on cooldown.",
+                "source_id": "wiki:breathoflight"
+              }
+            ],
+            "status": "supported",
+            "summary": "Very early cancellation can apply a brief lockout without triggering the normal cooldown; do not assume every ended channel creates a normal cooldown window."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "exhaling a beam in the target direction that continuously deals magic damage to the first enemy hit and reduced damage to other enemies. Aurelion Sol can steer the beam in any direction.",
+                "source_id": "wiki:breathoflight"
+              }
+            ],
+            "id": "wiki:breathoflight",
+            "summary": "A steerable beam continuously damages its primary target and splashes reduced damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The beam will deal a burst of bonus magic damage for each full second that it damages the same enemy, and generates Stardust if the target is a champion.",
+                "source_id": "wiki:breathoflight"
+              }
+            ],
+            "id": "riot:Q",
+            "summary": "Maintaining contact triggers bonus bursts and generates Stardust against champions."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the beam and the danger of sustained contact.",
+        "slot": "Q",
+        "source_ids": ["wiki:breathoflight", "riot:Q"],
+        "subject_id": "wiki:breathoflight",
+        "title": "Breath of Light",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Astral Flight carries Aurelion Sol over terrain while allowing him to cast abilities. During flight, Breath of Light has no cooldown or maximum channel duration and deals increased flat damage, but channeling slows his flight. Immobilizing crowd control interrupts the flight, and a champion takedown soon after he damages them greatly reduces its cooldown.",
+        "build_focus": "",
+        "counterplay": "Use immobilizing crowd control to contest his flight, and anticipate renewed mobility after a takedown.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Aurelion Sol flies over terrain in a targeted direction. While in this state, he can cast other abilities.",
+                "source_id": "riot:W"
+              }
+            ],
+            "claim": "Astral Flight carries Aurelion Sol over terrain while allowing him to cast abilities."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "During flight, he can cast any of his abilities, and Breath of Light has no cooldown, no maximum channel duration, and its flat damage is increased. Aurelion Sol flies at a reduced speed while channeling Breath of Light.",
+                "source_id": "wiki:astralflight"
+              }
+            ],
+            "claim": "During flight, Breath of Light has no cooldown or maximum channel duration and deals increased flat damage, but channeling slows his flight."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Aurelion Sol will be knocked down by any immobilizing crowd control during the dash.",
+                "source_id": "wiki:astralflight"
+              },
+              {
+                "quote": "Scoring a champion takedown within 3 seconds of damaging them refunds a large portion of Astral Flight's cooldown.",
+                "source_id": "wiki:astralflight"
+              }
+            ],
+            "claim": "Immobilizing crowd control interrupts the flight, and a champion takedown soon after he damages them greatly reduces its cooldown."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Flight enables mobile breath damage and can become available again quickly after takedowns.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If a takedown is scored while Astral Flight is active, the cooldown will be reduced after it ends.",
+                "source_id": "wiki:astralflight"
+              }
+            ],
+            "status": "supported",
+            "summary": "A qualifying takedown during flight applies its cooldown reduction after flight ends."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Aurelion Sol flies over terrain in a targeted direction. While in this state, he can cast other abilities.",
+                "source_id": "riot:W"
+              }
+            ],
+            "id": "riot:W",
+            "summary": "He flies over terrain and can cast during flight."
+          },
+          {
+            "citations": [
+              {
+                "quote": "During flight, he can cast any of his abilities, and Breath of Light has no cooldown, no maximum channel duration, and its flat damage is increased. Aurelion Sol flies at a reduced speed while channeling Breath of Light.",
+                "source_id": "wiki:astralflight"
+              }
+            ],
+            "id": "wiki:breathoflight",
+            "summary": "Flight enhances Breath of Light and removes its cooldown and channel limit, while channeling reduces flight speed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Aurelion Sol will be knocked down by any immobilizing crowd control during the dash.",
+                "source_id": "wiki:astralflight"
+              }
+            ],
+            "id": "wiki:astralflight",
+            "summary": "Immobilizing crowd control interrupts flight."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Scoring a champion takedown within 3 seconds of damaging them refunds a large portion of Astral Flight's cooldown.",
+                "source_id": "wiki:astralflight"
+              }
+            ],
+            "id": "riot:W",
+            "summary": "A qualifying champion takedown greatly reduces flight's cooldown."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize mobile casting, enhanced breath, and takedown-driven mobility.",
+        "slot": "W",
+        "source_ids": ["wiki:astralflight", "riot:W"],
+        "subject_id": "wiki:astralflight",
+        "title": "Astral Flight",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Singularity creates a black hole that continually deals magic damage and drags enemies toward its center, where low-health enemies can be executed. It grants Stardust for time champions spend inside and for enemies killed within the area.",
+        "build_focus": "",
+        "counterplay": "Leave the black hole promptly and avoid its center when low on health.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Aurelion Sol conjures a black hole at the target location for a few seconds that continually deals magic damage to enemies within. Enemies in the black hole are dragged toward the center. Enemies within the center are executed at low health.",
+                "source_id": "wiki:singularity"
+              }
+            ],
+            "claim": "Singularity creates a black hole that continually deals magic damage and drags enemies toward its center, where low-health enemies can be executed."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After Singularity ends, it generates 1 Stardust for each full second that enemy champions were inside it, as well as varying amounts for enemy units that were killed while being within the area:",
+                "source_id": "wiki:singularity"
+              }
+            ],
+            "claim": "It grants Stardust for time champions spend inside and for enemies killed within the area."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "The pull, execute threat, and Stardust reward make lingering in the area dangerous.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Enemies within the center are executed below 5% (+ 2.6% per 100 Stardust) of their maximum health, excluding epic monsters.",
+                "source_id": "wiki:singularity"
+              }
+            ],
+            "status": "supported",
+            "summary": "Epic monsters are excluded from the execute."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Aurelion Sol conjures a black hole at the target location for a few seconds that continually deals magic damage to enemies within. Enemies in the black hole are dragged toward the center. Enemies within the center are executed at low health.",
+                "source_id": "wiki:singularity"
+              }
+            ],
+            "id": "wiki:singularity",
+            "summary": "The black hole damages, pulls inward, and executes low-health enemies in its center."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This ability grants Stardust each time an enemy dies within the black hole and for each second an enemy champion is caught inside it.",
+                "source_id": "riot:E"
+              }
+            ],
+            "id": "riot:E",
+            "summary": "Champion time inside and deaths within the area generate Stardust."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the pulling area and its low-health execution threat.",
+        "slot": "E",
+        "source_ids": ["wiki:singularity", "riot:E"],
+        "subject_id": "wiki:singularity",
+        "title": "Singularity",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Falling Star strikes a target area after a delay, dealing magic damage and stunning enemies hit. Hitting champions grants Stardust; gathering enough Stardust after learning the ability upgrades the next cast into The Skies Descend.",
+        "build_focus": "",
+        "counterplay": "Move out of the targeted area and avoid clustering with allies.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Aurelion Sol calls down a star that strikes the target location after 1.25 seconds, dealing magic damage to enemies hit and stunning them for 1 second.",
+                "source_id": "wiki:fallingstar"
+              }
+            ],
+            "claim": "Falling Star strikes a target area after a delay, dealing magic damage and stunning enemies hit."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "This generates Stardust for each enemy champion hit.",
+                "source_id": "wiki:fallingstar"
+              },
+              {
+                "quote": "Once Falling Star has been learned, gathering 75 Stardust causes the next cast of Falling Star to transform into The Skies Descend, empowering the impact with new effects.",
+                "source_id": "wiki:fallingstar"
+              }
+            ],
+            "claim": "Hitting champions grants Stardust; gathering enough Stardust after learning the ability upgrades the next cast into The Skies Descend."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "The area stun can initiate fights and sets up recognition of the empowered cast.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Aurelion Sol calls down a star that strikes the target location after 1.25 seconds, dealing magic damage to enemies hit and stunning them for 1 second.",
+                "source_id": "wiki:fallingstar"
+              }
+            ],
+            "id": "wiki:fallingstar",
+            "summary": "A delayed star impact deals magic damage and stuns enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This generates Stardust for each enemy champion hit.",
+                "source_id": "wiki:fallingstar"
+              },
+              {
+                "quote": "Once Falling Star has been learned, gathering 75 Stardust causes the next cast of Falling Star to transform into The Skies Descend, empowering the impact with new effects.",
+                "source_id": "wiki:fallingstar"
+              }
+            ],
+            "id": "wiki:theskiesdescend",
+            "summary": "Champion hits grant Stardust, and sufficient collection upgrades the next ultimate."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the base ultimate's delayed area stun and upgrade condition.",
+        "slot": "R",
+        "source_ids": ["wiki:fallingstar", "riot:R"],
+        "subject_id": "wiki:fallingstar",
+        "title": "Falling Star",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "The Skies Descend is the empowered ultimate: a delayed star impact deals increased magic damage over a larger area and knocks enemies up instead of stunning them. An expanding shockwave slows enemies it hits and deals magic damage to champions and epic monsters.",
+        "build_focus": "",
+        "counterplay": "Move away from the impact area and watch for the outward-moving shockwave.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Aurelion Sol calls down a giant star that strikes the target location after 2 seconds, dealing 25% increased damage in a larger area and knocking up enemies hit for 1 second.",
+                "source_id": "wiki:theskiesdescend"
+              },
+              {
+                "quote": "dealing increased magic damage in a larger area",
+                "source_id": "wiki:theskiesdescend"
+              },
+              {
+                "quote": "knocking up enemies rather than stunning them.",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "The Skies Descend is the empowered ultimate: a delayed star impact deals increased magic damage over a larger area and knocks enemies up instead of stunning them."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "This sends a massive shockwave that rapidly expands outward, briefly slowing all enemies hit, and dealing magic damage to enemy champions and epic monsters.",
+                "source_id": "wiki:theskiesdescend"
+              }
+            ],
+            "claim": "An expanding shockwave slows enemies it hits and deals magic damage to champions and epic monsters."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "The larger knockup area and outward shockwave require a different response from the base ultimate.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Enemies hit by the star are immune to the shockwave.",
+                "source_id": "wiki:theskiesdescend"
+              }
+            ],
+            "status": "supported",
+            "summary": "Enemies hit by the star do not also take its shockwave."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The shockwave radius and path are globally visible on the minimap.",
+                "source_id": "wiki:theskiesdescend"
+              }
+            ],
+            "status": "supported",
+            "summary": "The shockwave's radius and path are globally visible on the minimap."
+          }
+        ],
+        "context_id": "wiki:fallingstar",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Aurelion Sol calls down a giant star that strikes the target location, dealing increased magic damage in a larger area and briefly knocking up enemies hit.",
+                "source_id": "wiki:theskiesdescend"
+              }
+            ],
+            "id": "wiki:theskiesdescend",
+            "summary": "The empowered impact is larger, deals increased magic damage, and knocks enemies up."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This sends a massive shockwave that rapidly expands outward, briefly slowing all enemies hit, and dealing magic damage to enemy champions and epic monsters.",
+                "source_id": "wiki:theskiesdescend"
+              }
+            ],
+            "id": "riot:R",
+            "summary": "An outward shockwave slows enemies and damages champions and epic monsters."
+          }
+        ],
+        "kind": "ability_variant",
+        "purpose": "Distinguish the empowered knockup and shockwave from the base ultimate.",
+        "slot": "R",
+        "source_ids": ["wiki:theskiesdescend", "wiki:fallingstar", "riot:R"],
+        "subject_id": "wiki:theskiesdescend",
+        "title": "The Skies Descend",
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Normal cooldown values are not supplied. Flight's takedown reduction, flight's removal of Breath of Light's cooldown, and Breath of Light's early-cancellation lockout are important cooldown topics covered without supplementary cards."
+  ],
+  "features": ["standard", "ability_variants", "conditional_effects"],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "Once Falling Star has been learned, gathering 75 Stardust causes the next cast of Falling Star to transform into The Skies Descend, empowering the impact with new effects.",
+          "source_id": "wiki:fallingstar"
+        }
+      ],
+      "condition": "Sufficient Stardust has been gathered after learning the ultimate or since the previous empowered cast.",
+      "from_id": "wiki:theskiesdescend",
+      "kind": "variant_of",
+      "to_id": "wiki:fallingstar"
+    },
+    {
+      "citations": [
+        {
+          "quote": "During flight, he can cast any of his abilities, and Breath of Light has no cooldown, no maximum channel duration, and its flat damage is increased.",
+          "source_id": "wiki:astralflight"
+        }
+      ],
+      "condition": "While Astral Flight is active.",
+      "from_id": "wiki:astralflight",
+      "kind": "conditional_effect",
+      "to_id": "wiki:breathoflight"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Permanent Stardust growth is taught on the passive card.",
+      "source_id": "wiki:cosmiccreator",
+      "target_subject_ids": ["wiki:cosmiccreator"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Beam contact and bursts are taught on the primary ability card; flight enhancement is merged into Astral Flight.",
+      "source_id": "wiki:breathoflight",
+      "target_subject_ids": ["wiki:breathoflight", "wiki:astralflight"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Flight, breath enhancement, interruption, and takedown cooldown reduction are taught together.",
+      "source_id": "wiki:astralflight",
+      "target_subject_ids": ["wiki:astralflight"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Pull, execution, and Stardust generation are taught together.",
+      "source_id": "wiki:singularity",
+      "target_subject_ids": ["wiki:singularity"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The base ultimate and its upgrade condition have a primary ability card.",
+      "source_id": "wiki:fallingstar",
+      "target_subject_ids": ["wiki:fallingstar"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The empowered ultimate has a distinct recognition purpose through its knockup and expanding shockwave.",
+      "source_id": "wiki:theskiesdescend",
+      "target_subject_ids": ["wiki:theskiesdescend"]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": ["wiki:cosmiccreator", "riot:P"]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": ["wiki:breathoflight", "riot:Q"]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": ["wiki:astralflight", "riot:W"]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": ["wiki:singularity", "riot:E"]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": ["wiki:fallingstar", "wiki:theskiesdescend", "riot:R"]
+    }
+  ],
+  "summary": "An overview, primary passive and ability cards, and a distinct empowered-ultimate card teach sustained breath damage, mobile casting, permanent scaling, area control, and ultimate recognition."
+}

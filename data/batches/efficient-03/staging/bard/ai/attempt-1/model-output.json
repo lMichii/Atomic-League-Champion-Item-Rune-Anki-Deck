@@ -1,0 +1,337 @@
+{
+  "cards": [
+    {
+      "answer": "Bard is a support mage who combines magic-damage attacks with conditional stuns and portals through terrain. His damage benefits from AP, while his ultimate puts allies and enemies into stasis.",
+      "build_focus": "AP",
+      "counterplay": "Avoid lining up with terrain or other enemies, and approach his portals cautiously.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Bard. Official role tags: Support, Mage.",
+              "source_id": "riot:role"
+            }
+          ],
+          "claim": "Bard is a support mage"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Bard attracts lesser spirits that assist with his basic attacks to deal extra magic damage.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "If it strikes a wall, it will stun the initial target; if it strikes another enemy, it will stun them both.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Bard opens a portal in nearby terrain.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "combines magic-damage attacks with conditional stuns and portals through terrain"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Magic Damage:80 / 120 / 160 / 200 / 240 (+ 80% AP)",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "his basic attacks are empowered to each consume a Meep on-attack to deal 30 (+ 6 per 5 Chimes collected) (+ 40% AP) bonus magic damage.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "His damage benefits from AP"
+        },
+        {
+          "citations": [
+            {
+              "quote": "putting all champions, minions, monsters, and turrets hit into stasis for a brief time.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "his ultimate puts allies and enemies into stasis"
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Recognizing his binding setup and terrain access helps avoid picks.",
+      "slot": "-",
+      "uncertainties": []
+    },
+    {
+      "answer": "Traveler's Call: Meeps empower Bard's basic attacks with bonus magic damage. Collecting chimes grants experience, restores mana and provides out-of-combat movement speed; it also upgrades Meeps to slow enemies and damage an area around and behind their target.",
+      "build_focus": "",
+      "counterplay": "Respect empowered attacks and avoid clustering behind his attack target.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Meeps: Bard generates meeps that are each consumed in his basic attacks, dealing bonus magic damage.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Meeps empower Bard's basic attacks with bonus magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "These grant experience, restore mana, and provide out of combat Move Speed.",
+              "source_id": "riot:P"
+            }
+          ],
+          "claim": "Collecting chimes grants experience, restores mana and provides out-of-combat movement speed"
+        },
+        {
+          "citations": [
+            {
+              "quote": "At 5 chimes, Meeps apply a slow to enemies.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "At 15 chimes, Meeps deal damage to nearby enemies and in a cone behind the target.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "it also upgrades Meeps to slow enemies and damage an area around and behind their target."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "Small spirits at Bard's side may indicate available Meeps for empowered attacks.",
+        "meaningful": true,
+        "source_ids": [
+          "wiki:P"
+        ]
+      },
+      "priority": "B",
+      "priority_reason": "Explains his empowered attack threat and growing area pressure.",
+      "slot": "P",
+      "uncertainties": [
+        "The passive cue is tentative text-based guidance; no visual verification was supplied."
+      ]
+    },
+    {
+      "answer": "Cosmic Binding: Bard fires a bolt that deals magic damage and slows the first enemy hit, then continues behind them. If it reaches terrain, it stuns that enemy; if it reaches another enemy, it damages the additional enemy and stuns both.",
+      "build_focus": "",
+      "counterplay": "Avoid lining up with terrain or other enemies behind you.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Bard fires an energy bolt in the target direction that deals magic damage and slows the first enemy hit. After the bolt hits an enemy, it continues onward.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Bard fires a bolt that deals magic damage and slows the first enemy hit, then continues behind them."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If it strikes a wall, it will stun the initial target; if it strikes another enemy, it will stun them both.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "If the bolt hits terrain or a second enemy, it stuns both targets for the same duration, dealing the same damage to the secondary target.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "If it reaches terrain, it stuns that enemy; if it reaches another enemy, it damages the additional enemy and stuns both."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "His main binding threat depends on positioning behind the initial target.",
+      "slot": "Q",
+      "uncertainties": []
+    },
+    {
+      "answer": "Caretaker's Shrine: Bard places a shrine that grows stronger over time. Bard or an ally can consume it for healing and a burst of movement speed; an enemy stepping on it destroys it.",
+      "build_focus": "",
+      "counterplay": "Step on exposed enemy shrines when safe to deny their healing.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Bard conjures a shrine which powers up over a period",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Bard places a shrine that grows stronger over time."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the champion is an ally or Bard himself, they are healed for an amount based on the shrine's power and gain bonus movement speed decaying over 1.5 seconds.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Shrines may last indefinitely until being consumed by a champion moving over them.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Bard or an ally can consume it for healing and a burst of movement speed"
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the champion is an enemy, the shrine is destroyed.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "an enemy stepping on it destroys it."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Shrines sustain his team and can be denied by enemies.",
+      "slot": "W",
+      "uncertainties": []
+    },
+    {
+      "answer": "Magical Journey: Bard opens a one-way portal through terrain that allies and enemies can use. Bard and his allies travel faster through it, and travelers are revealed during passage. Champions cannot enter while immobilized or grounded.",
+      "build_focus": "",
+      "counterplay": "Check the exit before following Bard, and consider guarding it instead of chasing through.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Bard opens a portal in nearby terrain. Allies and enemies alike can take a one-way trip through that terrain by moving into the portal.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "Bard opens a one-way portal through terrain that allies and enemies can use."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Bard and allies travel through the portal at 33% increased speed.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "A champion can pass through the corridor by selecting it while within proximity of it, becoming revealed during the travel.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Bard and his allies travel faster through it, and travelers are revealed during passage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Magical Journey cannot be taken while immobilized or grounded.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Champions cannot enter while immobilized or grounded."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Shared portal access and unequal travel speeds shape chase decisions.",
+      "slot": "E",
+      "uncertainties": []
+    },
+    {
+      "answer": "Tempered Fate: Bard sends energy arcing to a location, briefly putting affected allies and enemies into stasis. It also affects minions, monsters and turrets, including epic monsters.",
+      "build_focus": "",
+      "counterplay": "Move away from the landing area and prepare for affected champions to return to the fight.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Bard sends spirit energy arcing to a location, putting all champions, minions, monsters, and turrets hit into stasis for a brief time.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "Bard sends energy arcing to a location, briefly putting affected allies and enemies into stasis."
+        },
+        {
+          "citations": [
+            {
+              "quote": "putting all champions, minions, monsters, and turrets hit into stasis for a brief time.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Epic monsters and turrets are affected by Tempered Fate despite being immune to crowd control.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "It also affects minions, monsters and turrets, including epic monsters."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Area stasis can reshape fights and interrupt turret or objective interactions.",
+      "slot": "R",
+      "uncertainties": []
+    }
+  ],
+  "champion_id": 432,
+  "champion_name": "Bard",
+  "conflicts": [],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Track Cosmic Binding availability as his main conditional stun threat.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Shrine charge recharge governs access to repeated healing and movement speed.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Portal availability changes his team's access through terrain.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Ultimate availability changes fight and objective setup.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "The supplied evidence names stasis but does not define its full effects; no additional stasis mechanics are asserted.",
+    "AP focus describes supported damage scaling rather than a verified item-build recommendation."
+  ],
+  "language": "en"
+}

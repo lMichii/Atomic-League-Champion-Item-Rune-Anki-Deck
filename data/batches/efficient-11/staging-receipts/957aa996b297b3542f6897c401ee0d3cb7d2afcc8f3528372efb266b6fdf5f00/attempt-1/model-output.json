@@ -1,0 +1,762 @@
+{
+  "cards": [
+    {
+      "text": {
+        "answer": "Shaco is an ambush attacker who blinks into invisibility and rewards attacks from behind. His attacks deal physical damage, while his boxes and thrown dagger deal magic damage; his kit has AD and AP scaling.",
+        "build_focus": "AD / AP",
+        "counterplay": "Watch flank routes, avoid chasing through prepared ground, and keep your distance from his dying clone.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco becomes invisible for a short time and blinks to the target location.",
+                "source_id": "wiki:deceive"
+              },
+              {
+                "quote": "Shaco's basic attacks deal bonus physical damage when hitting an enemy from behind.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "claim": "Shaco is an ambush attacker who blinks into invisibility and rewards attacks from behind."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco's basic attacks deal bonus physical damage when hitting an enemy from behind.",
+                "source_id": "wiki:backstab"
+              },
+              {
+                "quote": "automatically fire at nearby enemies, dealing magic damage",
+                "source_id": "wiki:jackinthebox"
+              },
+              {
+                "quote": "Shaco throws a dagger at the target enemy that slows them for a short time, dealing magic damage",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "claim": "His attacks deal physical damage, while his boxes and thrown dagger deal magic damage"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "(+ 80% bonus AD) (+ 60% AP)",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "claim": "his kit has AD and AP scaling."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Establishes his ambush pattern, mixed damage, and major positioning threats.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shaco becomes invisible for a short time and blinks to the target location.",
+                "source_id": "wiki:deceive"
+              }
+            ],
+            "id": "wiki:deceive",
+            "summary": "Shaco combines invisibility with a blink."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Shaco's basic attacks deal bonus physical damage when hitting an enemy from behind.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "id": "wiki:backstab",
+            "summary": "Attacking from behind increases his basic attack damage."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Shaco's ambush pattern and main positioning threats.",
+        "slot": "",
+        "source_ids": [
+          "wiki:backstab",
+          "wiki:deceive",
+          "wiki:jackinthebox",
+          "wiki:twoshivpoison",
+          "wiki:hallucinate"
+        ],
+        "subject_id": "riot:role",
+        "title": "Shaco",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Backstab makes Shaco's basic attacks deal bonus physical damage from behind. Deceive's empowered attack critically strikes from behind, and Two-Shiv Poison gains extra magic damage from behind.",
+        "build_focus": "",
+        "counterplay": "Be wary of turning your back during a close trade or retreat.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco's basic attacks deal bonus physical damage when hitting an enemy from behind.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "claim": "Backstab makes Shaco's basic attacks deal bonus physical damage from behind."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Deceive and Two-Shiv Poison have additional effects when they hit an enemy from behind.",
+                "source_id": "wiki:backstab"
+              },
+              {
+                "quote": "Backstab Bonus: The attack will critically strike.",
+                "source_id": "wiki:deceive"
+              },
+              {
+                "quote": "Backstab Bonus: The dagger deals additional bonus magic damage.",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "claim": "Deceive's empowered attack critically strikes from behind, and Two-Shiv Poison gains extra magic damage from behind."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "Facing affects his attack and dagger damage.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The attacks do not deal the bonus damage against structures.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "status": "supported",
+            "summary": "Backstab's basic attack bonus does not apply against structures."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shaco's basic attacks deal bonus physical damage when hitting an enemy from behind.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "id": "wiki:backstab",
+            "summary": "Basic attacks gain physical damage from behind."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Deceive and Two-Shiv Poison have additional effects when they hit an enemy from behind.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "id": "wiki:deceive",
+            "summary": "Deceive and Two-Shiv Poison also reward rear hits."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the importance of facing when trading with Shaco.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:backstab",
+          "wiki:deceive",
+          "wiki:twoshivpoison",
+          "riot:P"
+        ],
+        "subject_id": "wiki:backstab",
+        "title": "Backstab",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Deceive makes Shaco invisible and blinks him to a target location. His next attack shortly after invisibility ends gains bonus physical damage and critically strikes from behind. Attacking or casting Two-Shiv Poison breaks the invisibility; casting Jack in the Box or Hallucinate does not.",
+        "build_focus": "",
+        "counterplay": "Watch possible flank and escape routes, and be cautious about his opening attack from behind.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco becomes invisible for a short time and blinks to the target location.",
+                "source_id": "wiki:deceive"
+              }
+            ],
+            "claim": "Deceive makes Shaco invisible and blinks him to a target location."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After breaking the invisibility, his next basic attack within a brief moment will deal bonus physical damage. Backstab Bonus: The attack will critically strike.",
+                "source_id": "wiki:deceive"
+              },
+              {
+                "quote": "critically striking if he attacks from behind.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "claim": "His next attack shortly after invisibility ends gains bonus physical damage and critically strikes from behind."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Deceive's invisibility breaks when Shaco uses a basic attack or casts Two-Shiv Poison, but not from casting Jack in the Box or Hallucinate.",
+                "source_id": "wiki:deceive"
+              }
+            ],
+            "claim": "Attacking or casting Two-Shiv Poison breaks the invisibility; casting Jack in the Box or Hallucinate does not."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "His main ambush and repositioning tool changes where threats can come from.",
+        "uncertainties": [
+          "Deceive's cooldown is not supplied, so its reuse window cannot be taught."
+        ]
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shaco becomes invisible for a short time and blinks to the target location.",
+                "source_id": "wiki:deceive"
+              }
+            ],
+            "id": "wiki:deceive",
+            "summary": "Combines a blink with temporary invisibility."
+          },
+          {
+            "citations": [
+              {
+                "quote": "After breaking the invisibility, his next basic attack within a brief moment will deal bonus physical damage. Backstab Bonus: The attack will critically strike.",
+                "source_id": "wiki:deceive"
+              }
+            ],
+            "id": "riot:Q",
+            "summary": "Empowers his next attack shortly after invisibility ends, with a critical strike for a rear hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Deceive's invisibility breaks when Shaco uses a basic attack or casts Two-Shiv Poison, but not from casting Jack in the Box or Hallucinate.",
+                "source_id": "wiki:deceive"
+              }
+            ],
+            "id": "wiki:jackinthebox",
+            "summary": "Boxes and Hallucinate can be cast without breaking Deceive's invisibility."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize stealth approaches, repositioning, and the empowered opening attack.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:deceive",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:deceive",
+        "title": "Deceive",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Jack in the Box becomes hidden after arming. Enemy contact triggers nearby fear, a brief root, and a slow; the box then fires magic damage at nearby visible enemies. Its attacks deal increased damage when focused on a single target. Revealing a hidden box makes it targetable and vulnerable while visible.",
+        "build_focus": "",
+        "counterplay": "Avoid chasing through prepared ground, and use trap reveal effects to expose hidden boxes for attacks.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco summons a box at the target location that becomes stealthed after a short time.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "claim": "Jack in the Box becomes hidden after arming."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The box will spring out upon enemy contact, fearing nearby enemies",
+                "source_id": "wiki:jackinthebox"
+              },
+              {
+                "quote": "Enemy champions hit are also briefly rooted.",
+                "source_id": "wiki:jackinthebox"
+              },
+              {
+                "quote": "enemies hit also have their movement speed reduced.",
+                "source_id": "wiki:jackinthebox"
+              },
+              {
+                "quote": "it will automatically fire at nearby visible enemies every 0.5 seconds, dealing magic damage with each attack.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "claim": "Enemy contact triggers nearby fear, a brief root, and a slow; the box then fires magic damage at nearby visible enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If the box attacks only one target, it deals increased damage.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "claim": "Its attacks deal increased damage when focused on a single target."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Effects that reveal stealthed traps will render the box targetable and vulnerable while it can be seen.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "claim": "Revealing a hidden box makes it targetable and vulnerable while visible."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Hidden crowd control makes pursuit and prepared areas dangerous.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shaco summons a box at the target location that becomes stealthed after a short time.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "id": "wiki:jackinthebox",
+            "summary": "Placed boxes become hidden after arming."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The box will spring out upon enemy contact, fearing nearby enemies",
+                "source_id": "wiki:jackinthebox"
+              },
+              {
+                "quote": "Enemy champions hit are also briefly rooted.",
+                "source_id": "wiki:jackinthebox"
+              },
+              {
+                "quote": "enemies hit also have their movement speed reduced.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "id": "riot:W",
+            "summary": "Contact activates fear, a brief root, and a slow."
+          },
+          {
+            "citations": [
+              {
+                "quote": "automatically fire at nearby enemies, dealing magic damage that is increased when attacking only one enemy.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "id": "wiki:twoshivpoison",
+            "summary": "Activated boxes fire magic damage, increased against a single target."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Effects that reveal stealthed traps will render the box targetable and vulnerable while it can be seen.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "id": "wiki:deceive",
+            "summary": "Trap reveal effects allow hidden boxes to be targeted and damaged while revealed."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize hidden traps, their control effects, and how revealing them permits attacks.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:jackinthebox",
+          "riot:W"
+        ],
+        "subject_id": "wiki:jackinthebox",
+        "title": "Jack in the Box",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "While Two-Shiv Poison is ready, Shaco's basic attacks slow enemies. Casting it throws a targeted dagger that deals magic damage and slows, with increased damage against low-health targets and extra magic damage from behind. Casting the dagger puts the passive attack slow on hold until the ability is ready again.",
+        "build_focus": "",
+        "counterplay": "Respect the dagger when low on health, and watch for its cast before trying to disengage from his attacks.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "While Two-Shiv Poison is not on cooldown, Shaco's basic attacks will slow enemies for a short time.",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "claim": "While Two-Shiv Poison is ready, Shaco's basic attacks slow enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco throws a dagger at the target enemy that slows them for a short time, dealing magic damage that is increased if they are at low health. Backstab Bonus: The dagger deals additional bonus magic damage.",
+                "source_id": "wiki:twoshivpoison"
+              },
+              {
+                "quote": "Deceive and Two-Shiv Poison have additional effects when they hit an enemy from behind.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "claim": "Casting it throws a targeted dagger that deals magic damage and slows, with increased damage against low-health targets and extra magic damage from behind."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco's basic attacks slow enemies for 2 seconds while Two-Shiv Poison is not on cooldown.",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "claim": "Casting the dagger puts the passive attack slow on hold until the ability is ready again."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Explains his chase pressure, finishing damage, and the passive slow's cooldown condition.",
+        "uncertainties": [
+          "The cooldown duration is not supplied; only the passive slow's dependence on ability readiness is established."
+        ]
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "While Two-Shiv Poison is not on cooldown, Shaco's basic attacks will slow enemies for a short time.",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "id": "wiki:twoshivpoison",
+            "summary": "Basic attacks slow while the ability is ready."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Shaco throws a dagger at the target enemy that slows them for a short time, dealing magic damage that is increased if they are at low health.",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "id": "riot:E",
+            "summary": "The targeted dagger slows and deals magic damage, increased against low-health enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Deceive and Two-Shiv Poison have additional effects when they hit an enemy from behind.",
+                "source_id": "wiki:backstab"
+              },
+              {
+                "quote": "Backstab Bonus: The dagger deals additional bonus magic damage.",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "id": "wiki:backstab",
+            "summary": "Rear hits add magic damage to the dagger."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize passive chase slows and the targeted finishing threat.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:twoshivpoison",
+          "wiki:backstab",
+          "riot:E"
+        ],
+        "subject_id": "wiki:twoshivpoison",
+        "title": "Two-Shiv Poison",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Hallucinate briefly makes Shaco vanish and blink, creating a controllable clone that can attack. When the clone dies or expires, it explodes for nearby magic damage and deploys mini-boxes that activate immediately, fearing, rooting, and slowing nearby enemies before attacking them.",
+        "build_focus": "",
+        "counterplay": "Keep space from the clone as it nears death, and avoid standing near its explosion and boxes.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco briefly vanishes and blinks in the target direction, creating a clone of himself for some time.",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "remaining within control range of him as a controllable clone",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "Shaco creates an illusion of himself near him, which can attack nearby enemies",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "Hallucinate briefly makes Shaco vanish and blink, creating a controllable clone that can attack."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The clone will explode upon dying or expiring to deal magic damage to nearby enemies and deploy three mini-boxes that activate instantly, fearing nearby enemies",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "and rooting them for 0.5 seconds",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "enemies hit also have their movement speed reduced.",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "deal modified magic damage with each attack",
+                "source_id": "wiki:hallucinate"
+              }
+            ],
+            "claim": "When the clone dies or expires, it explodes for nearby magic damage and deploys mini-boxes that activate immediately, fearing, rooting, and slowing nearby enemies before attacking them."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "The clone creates a second attacker and a dangerous death-triggered area threat.",
+        "uncertainties": [
+          "Hallucinate's cooldown is not supplied, so its reuse window cannot be taught."
+        ]
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If the explosion hits at least one minion, the boxes will fear all enemies regardless of their unit type for 2.2 seconds, causing enemy champions to be feared for the non-champion fear duration.(bug)",
+                "source_id": "wiki:hallucinate"
+              }
+            ],
+            "status": "supported",
+            "summary": "A documented bug can extend the fear against champions when the explosion hits a minion."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shaco briefly vanishes and blinks in the target direction, creating a clone of himself for some time.",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "remaining within control range of him as a controllable clone",
+                "source_id": "wiki:hallucinate"
+              }
+            ],
+            "id": "wiki:hallucinate",
+            "summary": "Shaco vanishes and repositions while creating a controllable clone."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Shaco creates an illusion of himself near him, which can attack nearby enemies",
+                "source_id": "riot:R"
+              }
+            ],
+            "id": "riot:R",
+            "summary": "The clone can attack enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The clone will explode upon dying or expiring to deal magic damage to nearby enemies and deploy three mini-boxes that activate instantly, fearing nearby enemies",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "and rooting them for 0.5 seconds",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "enemies hit also have their movement speed reduced.",
+                "source_id": "wiki:hallucinate"
+              }
+            ],
+            "id": "wiki:jackinthebox",
+            "summary": "Clone death or expiry causes a magic explosion and immediately active crowd-control boxes."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the attacking clone and avoid its death-triggered explosion and boxes.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:hallucinate",
+          "riot:R"
+        ],
+        "subject_id": "wiki:hallucinate",
+        "title": "Hallucinate",
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "No reliable visual method for distinguishing Shaco from his clone is supplied.",
+    "Important cooldown durations for Deceive and Hallucinate are absent; Two-Shiv Poison's readiness condition is supplied without a cooldown duration."
+  ],
+  "features": [
+    "standard",
+    "conditional_effects"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "Deceive and Two-Shiv Poison have additional effects when they hit an enemy from behind.",
+          "source_id": "wiki:backstab"
+        }
+      ],
+      "condition": "The empowered attack hits from behind.",
+      "from_id": "wiki:backstab",
+      "kind": "conditional_effect",
+      "to_id": "wiki:deceive"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Deceive and Two-Shiv Poison have additional effects when they hit an enemy from behind.",
+          "source_id": "wiki:backstab"
+        }
+      ],
+      "condition": "The dagger hits from behind.",
+      "from_id": "wiki:backstab",
+      "kind": "conditional_effect",
+      "to_id": "wiki:twoshivpoison"
+    },
+    {
+      "citations": [
+        {
+          "quote": "The boxes possess Jack in the Box's effects",
+          "source_id": "wiki:hallucinate"
+        }
+      ],
+      "condition": "The clone dies or expires and deploys mini-boxes.",
+      "from_id": "wiki:hallucinate",
+      "kind": "conditional_effect",
+      "to_id": "wiki:jackinthebox"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Rear-hit damage and its related ability bonuses are taught together.",
+      "source_id": "wiki:backstab",
+      "target_subject_ids": [
+        "wiki:backstab"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Blink, invisibility, empowered attack, and stealth-breaking casts are central recognition effects.",
+      "source_id": "wiki:deceive",
+      "target_subject_ids": [
+        "wiki:deceive"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Hidden trap activation, control, damage, and reveal interaction are taught together.",
+      "source_id": "wiki:jackinthebox",
+      "target_subject_ids": [
+        "wiki:jackinthebox"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Passive readiness condition and active dagger effects share the primary ability card.",
+      "source_id": "wiki:twoshivpoison",
+      "target_subject_ids": [
+        "wiki:twoshivpoison"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Clone creation, control, explosion, and mini-box effects are merged into the primary ultimate card.",
+      "source_id": "wiki:hallucinate",
+      "target_subject_ids": [
+        "wiki:hallucinate"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:backstab",
+        "riot:P"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:deceive",
+        "riot:Q"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:jackinthebox",
+        "riot:W"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:twoshivpoison",
+        "riot:E"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:hallucinate",
+        "riot:R"
+      ]
+    }
+  ],
+  "summary": "One overview and primary P/Q/W/E/R cards teach Shaco's ambushes, rear-hit bonuses, traps, dagger, and clone. Related conditional effects and mini-boxes are merged into their primary abilities."
+}

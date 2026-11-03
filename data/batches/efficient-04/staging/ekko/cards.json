@@ -1,0 +1,555 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:245",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Ekko. Official role tags: Assassin, Mage.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Magic Damage:200 / 350 / 500 (+ 175% AP)",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "Ekko is an AP assassin-mage with magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Ekko rolls in the target direction, gaining bonus attack range. His next basic attack blinks him to the target and deals bonus magic damage.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "He uses a dash and an empowered blink attack to engage"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Ekko's basic attacks on-hit and damaging abilities apply stacks, the third stack deals bonus magic damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "triggers bonus damage through repeated hits"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Ekko enters stasis and rewinds to the afterimage, healing based on the damage received in the last 4 seconds. He then explodes, dealing magic damage to nearby enemies.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "can rewind to heal and damage nearby enemies"
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4057838",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko"
+      },
+      "id": "champ:ekko:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "His engage, repeated-hit damage and rewind define the matchup."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Assassin / Mage",
+        "answer": "Ekko is an AP assassin-mage with magic damage. He uses a dash and an empowered blink attack to engage, triggers bonus damage through repeated hits, and can rewind to heal and damage nearby enemies.",
+        "build_focus": "AP",
+        "category": "Champion",
+        "champion": "Ekko",
+        "cooldown": "",
+        "counterplay": "Limit repeated hits, leave his delayed zone, and avoid his rewind destination.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/9616673dc514f56126bf6fc6ad96f5a74791bbd9e131b014750bb81e3a531378.jpg",
+        "id": "champ:ekko:overview:L1",
+        "level": "L1",
+        "media_path": "media/9616673dc514f56126bf6fc6ad96f5a74791bbd9e131b014750bb81e3a531378.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Ekko",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:245",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Every third attack or damaging spell on the same target deals bonus magic damage",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Ekko's basic attacks on-hit and damaging abilities apply stacks, the third stack deals bonus magic damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Attacks and damaging abilities stack on the same enemy; the third stack deals bonus magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the target was a champion, this grants bonus movement speed to Ekko.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Triggering it against a champion grants Ekko movement speed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Resonance cannot affect the same target more than once every few seconds.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "The same target cannot trigger it again immediately."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4057838",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko"
+      },
+      "id": "champ:ekko:p:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The damage trigger and movement speed shape his trades."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Z-Drive Resonance",
+        "answer": "Z-Drive Resonance: Attacks and damaging abilities stack on the same enemy; the third stack deals bonus magic damage. Triggering it against a champion grants Ekko movement speed. The same target cannot trigger it again immediately.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Ekko",
+        "cooldown": "",
+        "counterplay": "Break off repeated-hit trades and respect his speed after the trigger.",
+        "front_hint": "EKKO · PASSIVE",
+        "icon_path": "media/ea57b905acb1add81096e0503e1a93ea1c46611627bfb1e3881da143a3f663d6.png",
+        "id": "champ:ekko:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/ea57b905acb1add81096e0503e1a93ea1c46611627bfb1e3881da143a3f663d6.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Ekko",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": "needs_visual_cue_review"
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:245",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Ekko throws a temporal grenade that deals magic damage to enemies hit.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "After a delay, the grenade homes back to Ekko, dealing magic damage to enemies hit.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Ekko throws a grenade that deals magic damage outward and on its return to him."
+          },
+          {
+            "citations": [
+              {
+                "quote": "It expands at max range or upon hitting an enemy champion, slowing nearby enemies. After a delay, the grenade homes back to Ekko",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "It expands into a field that slows nearby enemies before returning."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4057838",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko"
+      },
+      "id": "champ:ekko:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Its outward and returning damage threaten repeated hits while the field slows movement."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Timewinder",
+        "answer": "Timewinder: Ekko throws a grenade that deals magic damage outward and on its return to him. It expands into a field that slows nearby enemies before returning.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Ekko",
+        "cooldown": "",
+        "counterplay": "Move out of the slowing field and watch the return path toward Ekko.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/e1b95e474123f95d2a79d1479db6d30b35db67313da0f4e65af0acecb80bc744.png",
+        "id": "champ:ekko:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/3a9d02b66e2ed275685f4ad648f3df7ed30fe9f84dce1aeb7d1955fa914d85b9.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Ekko",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:245",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "creating an anomaly after a few seconds that slows enemies caught inside.",
+                "source_id": "riot:W"
+              }
+            ],
+            "claim": "A delayed sphere slows enemies inside."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Ekko enters the sphere, it detonates, stunning enemies within and granting Ekko a shield.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "If Ekko enters it, he gains a shield and stuns enemies within."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Passive: Ekko's basic attacks deal bonus magic damage against a low-health target, increased based on their missing health.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "His attacks also deal bonus magic damage to low-health enemies, increasing with their missing health."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4057838",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko"
+      },
+      "id": "champ:ekko:w:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The conditional stun and shield can turn an engage, while the passive threatens weakened enemies."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Parallel Convergence",
+        "answer": "Parallel Convergence: A delayed sphere slows enemies inside. If Ekko enters it, he gains a shield and stuns enemies within. His attacks also deal bonus magic damage to low-health enemies, increasing with their missing health.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Ekko",
+        "cooldown": "",
+        "counterplay": "Leave the sphere before Ekko enters and avoid trading attacks while low on health.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/b81cf6967cdf3860f362fca332a389a6dc5d9de420941d33423768fbcf90d0da.png",
+        "id": "champ:ekko:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/96d8e6d92182a94b6211e05897cd3b92fe11a8bcf88a702a720e79538a981047.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Ekko",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:245",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Ekko dashes in the target direction, then empowers his next basic attack within 3 seconds to have a 0.25-second cast time, gain 300 bonus range",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "Ekko dashes, then gains extra range on his next basic attack."
+          },
+          {
+            "citations": [
+              {
+                "quote": "His next basic attack blinks him to the target and deals bonus magic damage.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "That attack blinks him to the target and deals bonus magic damage."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4057838",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko"
+      },
+      "id": "champ:ekko:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The dash followed by a blink defines his immediate engage reach."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Phase Dive",
+        "answer": "Phase Dive: Ekko dashes, then gains extra range on his next basic attack. That attack blinks him to the target and deals bonus magic damage.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Ekko",
+        "cooldown": "",
+        "counterplay": "Keep your distance after his dash and expect the follow-up blink attack.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/dcc877c642ede7e7576ce9ac9590e1fd3c5eca88c4d6550d8e12f520fa606b95.png",
+        "id": "champ:ekko:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/032601bec87ad2c4701b48c38b9c67851b976001c02f1de0379281cb32643f8e.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Ekko",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:245",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Passive: Ekko reveals a time-delayed afterimage of himself that tracks where he was 4 seconds ago.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "Ekko's time-delayed afterimage tracks his earlier position."
+          },
+          {
+            "citations": [
+              {
+                "quote": "becoming untargetable and rewinding to a more favorable point in time.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Active: Ekko enters stasis and rewinds to the afterimage",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "afterwards heals himself, increased by 0% – 300% (based on health lost in the last 4 seconds)",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "On activation, he becomes untargetable and rewinds to it, healing more based on recent health lost."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Upon arrival, the stasis ends and he creates an explosion that deals magic damage to nearby enemies.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "His arrival deals magic damage to nearby enemies."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4057838",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko"
+      },
+      "id": "champ:ekko:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "His defensive rewind also threatens damage at the destination."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Chronobreak",
+        "answer": "Chronobreak: Ekko's time-delayed afterimage tracks his earlier position. On activation, he becomes untargetable and rewinds to it, healing more based on recent health lost. His arrival deals magic damage to nearby enemies.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Ekko",
+        "cooldown": "",
+        "counterplay": "Track the afterimage, avoid its location, and account for his rewind before committing to a chase.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/c3ea6c956579836f97bd39fdf01a8b84ee77ac46e4f5f09bd91b7628d137f545.png",
+        "id": "champ:ekko:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/59c2f3011a6f535e8c6dc3fa5cb857cc1e2c76109a4855da85eddb13d870a69b.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Ekko",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

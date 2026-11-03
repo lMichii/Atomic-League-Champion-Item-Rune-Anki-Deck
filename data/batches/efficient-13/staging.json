@@ -1,0 +1,532 @@
+{
+  "approved_before": {
+    "data/content/editorial.json": "99a5bf2692dcba838b44f760962428a3e11fda582246b01b9d8bebc5f2ce1714",
+    "data/content/editorial.lock.json": "f396f168e9fa4dbddafd651116129f1f6bc63d35cf860185298c780d649ab9f8",
+    "data/content/pilot.json": "9f79b15b1b815a10097a92e76602d38f84bfd0752b6884a0a567b61c41441319",
+    "data/content/pilot.lock.json": "cada3e1dc45899483494e35ed0ec18171d1bd515c591b24d024f4a9025bae583",
+    "data/content/production.json": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "data/content/production.lock.json": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "data/sources/editorial.json": "e8bb35f575c6baf8c9dd3e2b9f2bf28b6e565b18836181771c6cc1a3dfc015ec",
+    "data/sources/pilot.json": "944046cc983be9862dad79fad975c9dc927d830d5bd0bd9d137067560baa2724",
+    "data/sources/production.json": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "champions": {
+    "syndra": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 21841,
+              "output_tokens": 2860,
+              "reasoning_output_tokens": 47
+            }
+          ]
+        },
+        "output_sha256": "36a8b48e8fa6efb5a83e1cfe20a1c4d7dc33c71f0978e044a8195230a43c7a65",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "5e0fb584ebdc7bc020456586d418d48d7961b0baabcf7eb1797b3e5f913e9eb4"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:15:03.697800+00:00",
+      "findings": [],
+      "ids": [
+        "champ:syndra:overview:L1",
+        "champ:syndra:p:recognize:L2",
+        "champ:syndra:q:recognize:L2",
+        "champ:syndra:w:recognize:L2",
+        "champ:syndra:e:recognize:L2",
+        "champ:syndra:r:recognize:L2"
+      ],
+      "manifest_sha256": "d120b6df79542b676d35cf38b5094f18962f0710b168aa3145c2ca1d320db154",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-13/staging/syndra",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/793992851dbd363d8c19bf0753fef782d7d85f45106e3d0629311bd68bc08173",
+      "status": "generated"
+    },
+    "tahmkench": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 22777,
+              "output_tokens": 5990,
+              "reasoning_output_tokens": 47
+            }
+          ]
+        },
+        "output_sha256": "05de1f55c6e23889f04e8dcfbf3f855b241779c2e57d08dfb154b9a089ccaf0e",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "86c2c0e36ded987d8f23ee10f065a4edab28570db600c830d0461b2c7739687b"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:16:41.605244+00:00",
+      "findings": [
+        {
+          "code": "source_unavailable",
+          "message": "HTTP Error 404: Not Found",
+          "url": "https://www.leagueoflegends.com/en-us/champions/tahm-kench/"
+        },
+        {
+          "code": "adaptive_kit_structure",
+          "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+        }
+      ],
+      "ids": [
+        "champ:tahmkench:overview:L1",
+        "champ:tahmkench:p:recognize:L2",
+        "champ:tahmkench:q:recognize:L2",
+        "champ:tahmkench:w:recognize:L2",
+        "champ:tahmkench:e:recognize:L2",
+        "champ:tahmkench:r:recognize:L2"
+      ],
+      "manifest_sha256": "0c23bbfd409266024c8d8d4e124d6e1b291ebeb309b8e19ed8e52a80e7c8ef9e",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-13/staging/tahmkench",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/f3dcdc25e14b8aed5c035fc3cc55b967a525d9254bfc8e1d9aa7f452f863f5e2",
+      "status": "generated"
+    },
+    "taliyah": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 20565,
+              "output_tokens": 2549,
+              "reasoning_output_tokens": 71
+            }
+          ]
+        },
+        "output_sha256": "688c9e63b5fcd7a02bd74634a443a44fa93f107f69b6f107551cb49293c6d2d3",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "5fdc81a0f8b0a70d247108669d2c6590d175d0913f6e53b7eea811c24749aeda"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:17:42.577267+00:00",
+      "findings": [],
+      "ids": [
+        "champ:taliyah:overview:L1",
+        "champ:taliyah:p:recognize:L2",
+        "champ:taliyah:q:recognize:L2",
+        "champ:taliyah:w:recognize:L2",
+        "champ:taliyah:e:recognize:L2",
+        "champ:taliyah:r:recognize:L2"
+      ],
+      "manifest_sha256": "f5938d5b57c069100daa46e7fb6150486f7bb8e375d5b5713f550ed8cce2e321",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-13/staging/taliyah",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/d565b5de5a3c3f9a9e738990f0939ba44048a25db3ed86a4e403011adc87336f",
+      "status": "generated"
+    },
+    "talon": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 20841,
+              "output_tokens": 2418,
+              "reasoning_output_tokens": 61
+            }
+          ]
+        },
+        "output_sha256": "12e00adb5630bfb261c9869040a3dbdd6209715566648e4b54b7b55dfaeca200",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "bfbb4301bbdad6382c3bb04acc29935fd0b21a1f82113cfc26f1e1e9dc392659"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:18:35.968048+00:00",
+      "findings": [],
+      "ids": [
+        "champ:talon:overview:L1",
+        "champ:talon:p:recognize:L2",
+        "champ:talon:q:recognize:L2",
+        "champ:talon:w:recognize:L2",
+        "champ:talon:e:recognize:L2",
+        "champ:talon:r:recognize:L2"
+      ],
+      "manifest_sha256": "566daf99e0df89d969ef3e71a98fdcbe0bee4e0018d0b6aba394682a739ee5f0",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-13/staging/talon",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/b2dcfba82d8089f6b8c552adc189acfafd7b24e531824e2a50da90e1ab7e07c8",
+      "status": "generated"
+    },
+    "taric": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 12800,
+              "input_tokens": 20065,
+              "output_tokens": 2427,
+              "reasoning_output_tokens": 160
+            }
+          ]
+        },
+        "output_sha256": "1322ae9e10bdf15fb4b971722e94a173708a9d4a937fd7c726a7c5419906ef36",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "6b43fa53ef5d10f1063427eab7c020d4e74a0a3c4e45693b5086ce676da2ad28"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:19:34.728603+00:00",
+      "findings": [],
+      "ids": [
+        "champ:taric:overview:L1",
+        "champ:taric:p:recognize:L2",
+        "champ:taric:q:recognize:L2",
+        "champ:taric:w:recognize:L2",
+        "champ:taric:e:recognize:L2",
+        "champ:taric:r:recognize:L2"
+      ],
+      "manifest_sha256": "6b496ffc2ee094959f6d9b8a01f12b8e1de0b8a7d2a5072e1b27d88880174a7f",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-13/staging/taric",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/447ec372e4d2882fdda94bfcf9328e328d39040641399e75bb8790282a483c41",
+      "status": "generated"
+    },
+    "teemo": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 21315,
+              "output_tokens": 2331,
+              "reasoning_output_tokens": 46
+            }
+          ]
+        },
+        "output_sha256": "931cd3c60c0ce042823fc1ee81042621b430ab144ddba45bc5c91ca59c87db82",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "5f679add0f8f9e75ce75b27ac5a43a333194d090da6754955e213654caad5bd0"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:20:28.799369+00:00",
+      "findings": [],
+      "ids": [
+        "champ:teemo:overview:L1",
+        "champ:teemo:p:recognize:L2",
+        "champ:teemo:q:recognize:L2",
+        "champ:teemo:w:recognize:L2",
+        "champ:teemo:e:recognize:L2",
+        "champ:teemo:r:recognize:L2"
+      ],
+      "manifest_sha256": "d65f75621d3d26e911a28974f41e10d454d08f72d57ee630466d17050aa707cf",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-13/staging/teemo",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/b0502a21bc0455b774f75c6a1fc08df3e71a09faddde7af5bfea645ef0f81581",
+      "status": "generated"
+    },
+    "tristana": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 21233,
+              "output_tokens": 2412,
+              "reasoning_output_tokens": 92
+            }
+          ]
+        },
+        "output_sha256": "5c5b5f471a61b44894de91f971a0f413ab1316a323b5542dfbc94863db3e4af6",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "253e3cf3337911afad2ee92d290b9ce25aecbb623653f6da47536493a9286eb9"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:21:20.065237+00:00",
+      "findings": [
+        {
+          "code": "media_unavailable",
+          "name": "tristana_p.webm",
+          "url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0018/ability_0018_P1.webm"
+        }
+      ],
+      "ids": [
+        "champ:tristana:overview:L1",
+        "champ:tristana:p:recognize:L2",
+        "champ:tristana:q:recognize:L2",
+        "champ:tristana:w:recognize:L2",
+        "champ:tristana:e:recognize:L2",
+        "champ:tristana:r:recognize:L2"
+      ],
+      "manifest_sha256": "06077cd1fba9ba157d7fdb8e7fdd8871c53ab942519103da93b2a40a957975b4",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-13/staging/tristana",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/4b7dcd72bc6bd6d09df9226310121dbafaed3faac9c7a6a5470875d053b843cc",
+      "status": "generated"
+    },
+    "trundle": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 12800,
+              "input_tokens": 20431,
+              "output_tokens": 2159,
+              "reasoning_output_tokens": 45
+            }
+          ]
+        },
+        "output_sha256": "22307bc7fd65a503c8c789aed93ab796975d5b6b2a8289e1ef8b9671633bfaa2",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "4a9a0b58aeea9289320e6a1be8e6adc98ef3dba79130d0699278ebef5169af9a"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:22:14.489347+00:00",
+      "findings": [],
+      "ids": [
+        "champ:trundle:overview:L1",
+        "champ:trundle:p:recognize:L2",
+        "champ:trundle:q:recognize:L2",
+        "champ:trundle:w:recognize:L2",
+        "champ:trundle:e:recognize:L2",
+        "champ:trundle:r:recognize:L2"
+      ],
+      "manifest_sha256": "a766d7fe2457ef27dc0983aaa5b166a416d0b0018791b72f3fea31da9e43724c",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-13/staging/trundle",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/27771abe1f05f50173dcb0fc30d5cfccd72d6ebd6c236afdd1be8eb3ce9e8589",
+      "status": "generated"
+    },
+    "tryndamere": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 12800,
+              "input_tokens": 21463,
+              "output_tokens": 2230,
+              "reasoning_output_tokens": 69
+            }
+          ]
+        },
+        "output_sha256": "6f430a2995ab0a241553a396b5a2d17d30bcd72e01d88474ce09be999d4ad9a6",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "5cb4b3596bd124e020cd733627c29df2669d2e218e7245335e67f9b3d584ae16"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:23:08.128399+00:00",
+      "findings": [],
+      "ids": [
+        "champ:tryndamere:overview:L1",
+        "champ:tryndamere:p:recognize:L2",
+        "champ:tryndamere:q:recognize:L2",
+        "champ:tryndamere:w:recognize:L2",
+        "champ:tryndamere:e:recognize:L2",
+        "champ:tryndamere:r:recognize:L2"
+      ],
+      "manifest_sha256": "892c64772639724b56273c4a1792a970034617afe2b9445dc0cdb969d6fae303",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-13/staging/tryndamere",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/12680ba27a964bb35d835bb3cf5fdad7b8b07e06d55cccb172c4b80577187dbe",
+      "status": "generated"
+    },
+    "twistedfate": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 20242,
+              "output_tokens": 2352,
+              "reasoning_output_tokens": 91
+            }
+          ]
+        },
+        "output_sha256": "99c01d348206ecde0f571031f9320ca93f9361a4a79426a3f024b416f7f71693",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "3fa238998730407e4953982e5ed8494356fc2f06e72e4d0f67399260b78e14e3"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:24:01.554218+00:00",
+      "findings": [
+        {
+          "code": "source_unavailable",
+          "message": "HTTP Error 404: Not Found",
+          "url": "https://www.leagueoflegends.com/en-us/champions/twisted-fate/"
+        }
+      ],
+      "ids": [
+        "champ:twistedfate:overview:L1",
+        "champ:twistedfate:p:recognize:L2",
+        "champ:twistedfate:q:recognize:L2",
+        "champ:twistedfate:w:recognize:L2",
+        "champ:twistedfate:e:recognize:L2",
+        "champ:twistedfate:r:recognize:L2"
+      ],
+      "manifest_sha256": "34467db48178238459599774465a402c5e1969d2a4c88b37ba6acd4ee460fbcb",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-13/staging/twistedfate",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/7fcfb4a69c503c4b021176d3c7c7b47555f14a8a0a4bd6c72573126ef0941e03",
+      "status": "generated"
+    }
+  },
+  "created_at": "2026-11-02T23:14:01.179194+00:00",
+  "editorial_approval": false,
+  "id": "efficient-13",
+  "import_status": "not_recorded",
+  "mode": "author_only_staging",
+  "output": "build/staging/efficient-13.apkg",
+  "package": {
+    "cards": 60,
+    "media": 100,
+    "notes": 60,
+    "sha256": "e0fd135730777210673729c1a67852602c5fbc48238bdbd830033102be575072",
+    "sqlite_integrity": "ok"
+  },
+  "status": "staging_exported",
+  "updated_at": "2026-11-02T23:24:01.554218+00:00"
+}

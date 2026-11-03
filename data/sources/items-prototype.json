@@ -1,0 +1,237 @@
+{
+  "asset_version": "16.21.1",
+  "card_evidence": {
+    "item:3077:overview:L1": [
+      "riot-items",
+      "Tiamat"
+    ],
+    "item:3140:cleanse_limits:L2": [
+      "riot-items",
+      "Quicksilver_Sash"
+    ],
+    "item:3140:overview:L1": [
+      "riot-items",
+      "Quicksilver_Sash"
+    ],
+    "item:3153:overview:L1": [
+      "riot-items",
+      "Blade_of_the_Ruined_King"
+    ],
+    "item:3157:overview:L1": [
+      "riot-items",
+      "Zhonya%27s_Hourglass"
+    ],
+    "item:3916:overview:L1": [
+      "riot-items",
+      "Oblivion_Orb",
+      "Grievous_Wounds"
+    ],
+    "term:grievous_wounds:L0": [
+      "riot-items",
+      "Grievous_Wounds"
+    ],
+    "term:on_hit:L0": [
+      "riot-items",
+      "On-hit",
+      "Blade_of_the_Ruined_King"
+    ],
+    "term:stasis:L0": [
+      "riot-items",
+      "Zhonya%27s_Hourglass"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "Zhonya%27s_Hourglass",
+      "sha256": "6bbf1fcb2a994b9c054a2885272078cdfbf8028894821b16c2c48f01b96c0467",
+      "text": "Unique – Time Stop: Put yourself in stasis for 2.5 seconds, rendering you untargetable and invulnerable for the duration but also unable to move, declare basic attacks, cast abilities, use summoner spells, or activate items (120 second cooldown).",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zhonya%27s_Hourglass"
+    },
+    {
+      "id": "Quicksilver_Sash",
+      "sha256": "566138a6501bc7f7a63e22a1df7cc6b6985cb1f844b653995392059500f07f22",
+      "text": "Unique – Quicksilver: Removes all crowd control debuffs (except Airborne) from your champion (90 second cooldown).\nQuicksilver is disabled during Airborne effects.\nQuicksilver removes suppression and nearsight while Cleanse does not.\nCleanse removes summoner spell debuffs while Quicksilver does not.\nQuicksilver does not remove any accompanying, persistent effects that occur with crowd control from an enemy ability unless otherwise stated. Some examples include the tether from Malzahar's Nether Grasp, the on-hit attacks from Warwick's Infinite Duress, and the damage reduction from Exhaust.\nQuicksilver cannot remove stasis.\nNo longer cleanses Mordekaiser's Realm of Death.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quicksilver_Sash"
+    },
+    {
+      "id": "Oblivion_Orb",
+      "sha256": "ae67b747c446fca24dc1d219958c7143d93e7155fc8aa3e10ad89432820c7a1e",
+      "text": "Unique – Grievous Wounds: Dealing magic damage to enemy champions inflicts them with Grievous Wounds for 3 seconds.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Oblivion_Orb"
+    },
+    {
+      "id": "Tiamat",
+      "sha256": "f63d3d28d8fe6068bc9751c7c0767e59ab159ca1578da9934aa4191da0db7435",
+      "text": "Unique – Crescent: Deal 75% AD physical damage to enemies within a 450 radius in front of you (10 second cooldown).\nUnique – Cleave: Basic attacks on-hit deal ( 40% AD / 20% AD) physical damage to other enemies in a 350 radius centered around the target.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Tiamat"
+    },
+    {
+      "id": "Blade_of_the_Ruined_King",
+      "sha256": "cfbc199aa97fc312124d49a2691441c1c76e484031aca36f8a43dc6476af1edf",
+      "text": "Unique – Mist's Edge: Basic attacks deal bonus physical damage on-hit equal to ( 9% / 6%) of the target's current health, with a maximum of 100 against minions and monsters.\nUnique – Clawing Shadows: Basic attacks on-hit against enemy champions apply a stack for 6 seconds, stacking up to 3 times. The third stack consumes them all to slow the target by 30% for 1 second (15 second cooldown).",
+      "url": "https://wiki.leagueoflegends.com/en-us/Blade_of_the_Ruined_King"
+    },
+    {
+      "id": "Grievous_Wounds",
+      "sha256": "7e24a5bbc3aa58ee7081179afc64106aeb18ff220a78d69db31f65c5ad1320b0",
+      "text": "Grievous Wounds is a debuff that reduces all of a unit's healing and health regeneration received by 40%.\nShields are a way of temporarily adding health to a champion that is not reduced by Grievous Wounds.\nGrievous Wounds does not stack; the duration of the debuff will overlap on separate effects and refresh on the same effect.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Grievous_Wounds"
+    },
+    {
+      "id": "On-hit",
+      "sha256": "5e179fac357b1ecc969e9a0d78a002d585a3a239c27a56252848d127b1254511",
+      "text": "Attack effects are effects that trigger on a champion's basic attacks.\nThe following effects are applied and/or triggered when a champion's basic attack has hit the target.\nApplying on-hit effects[edit | edit source]\nAkshan's Dirty Fighting and Heroic Swing (25% on-hit damage effectiveness)\nEzreal's Mystic Shot",
+      "url": "https://wiki.leagueoflegends.com/en-us/On-hit"
+    }
+  ],
+  "findings": [
+    {
+      "code": "wiki_redirect",
+      "note": "The Wiki Stasis alias redirects to Invulnerability; the Stasis card cites the explicit Hourglass Stasis definition instead.",
+      "resource": "Stasis"
+    }
+  ],
+  "patch": "26.21",
+  "resources": [
+    {
+      "bytes": 683365,
+      "id": "riot-items",
+      "kind": "json",
+      "path": "data/sources/raw/items/e4d316609f9c616a51863c4b8314204c82c01b8a971f54c6d46e86e17c43b106.json",
+      "retrieved_at": "2026-11-03T18:54:28.827948+00:00",
+      "sha256": "e4d316609f9c616a51863c4b8314204c82c01b8a971f54c6d46e86e17c43b106",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/item.json"
+    },
+    {
+      "bytes": 155114,
+      "id": "Zhonya%27s_Hourglass",
+      "kind": "html",
+      "path": "data/sources/raw/items/6bbf1fcb2a994b9c054a2885272078cdfbf8028894821b16c2c48f01b96c0467.html",
+      "retrieved_at": "2026-11-03T18:54:29.164531+00:00",
+      "sha256": "6bbf1fcb2a994b9c054a2885272078cdfbf8028894821b16c2c48f01b96c0467",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zhonya%27s_Hourglass",
+      "wiki_revision": "4049423"
+    },
+    {
+      "bytes": 102646,
+      "id": "Quicksilver_Sash",
+      "kind": "html",
+      "path": "data/sources/raw/items/566138a6501bc7f7a63e22a1df7cc6b6985cb1f844b653995392059500f07f22.html",
+      "retrieved_at": "2026-11-03T18:54:29.443722+00:00",
+      "sha256": "566138a6501bc7f7a63e22a1df7cc6b6985cb1f844b653995392059500f07f22",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quicksilver_Sash",
+      "wiki_revision": "3729899"
+    },
+    {
+      "bytes": 81174,
+      "id": "Oblivion_Orb",
+      "kind": "html",
+      "path": "data/sources/raw/items/ae67b747c446fca24dc1d219958c7143d93e7155fc8aa3e10ad89432820c7a1e.html",
+      "retrieved_at": "2026-11-03T18:54:29.701146+00:00",
+      "sha256": "ae67b747c446fca24dc1d219958c7143d93e7155fc8aa3e10ad89432820c7a1e",
+      "url": "https://wiki.leagueoflegends.com/en-us/Oblivion_Orb",
+      "wiki_revision": "3985489"
+    },
+    {
+      "bytes": 150906,
+      "id": "Tiamat",
+      "kind": "html",
+      "path": "data/sources/raw/items/f63d3d28d8fe6068bc9751c7c0767e59ab159ca1578da9934aa4191da0db7435.html",
+      "retrieved_at": "2026-11-03T18:54:29.938445+00:00",
+      "sha256": "f63d3d28d8fe6068bc9751c7c0767e59ab159ca1578da9934aa4191da0db7435",
+      "url": "https://wiki.leagueoflegends.com/en-us/Tiamat",
+      "wiki_revision": "4064196"
+    },
+    {
+      "bytes": 203633,
+      "id": "Blade_of_the_Ruined_King",
+      "kind": "html",
+      "path": "data/sources/raw/items/cfbc199aa97fc312124d49a2691441c1c76e484031aca36f8a43dc6476af1edf.html",
+      "retrieved_at": "2026-11-03T18:54:30.372770+00:00",
+      "sha256": "cfbc199aa97fc312124d49a2691441c1c76e484031aca36f8a43dc6476af1edf",
+      "url": "https://wiki.leagueoflegends.com/en-us/Blade_of_the_Ruined_King",
+      "wiki_revision": "4070335"
+    },
+    {
+      "bytes": 228556,
+      "id": "Grievous_Wounds",
+      "kind": "html",
+      "path": "data/sources/raw/items/7e24a5bbc3aa58ee7081179afc64106aeb18ff220a78d69db31f65c5ad1320b0.html",
+      "retrieved_at": "2026-11-03T18:54:30.738345+00:00",
+      "sha256": "7e24a5bbc3aa58ee7081179afc64106aeb18ff220a78d69db31f65c5ad1320b0",
+      "url": "https://wiki.leagueoflegends.com/en-us/Grievous_Wounds",
+      "wiki_revision": "3969410"
+    },
+    {
+      "bytes": 542129,
+      "id": "On-hit",
+      "kind": "html",
+      "path": "data/sources/raw/items/5e179fac357b1ecc969e9a0d78a002d585a3a239c27a56252848d127b1254511.html",
+      "retrieved_at": "2026-11-03T18:54:31.077559+00:00",
+      "sha256": "5e179fac357b1ecc969e9a0d78a002d585a3a239c27a56252848d127b1254511",
+      "url": "https://wiki.leagueoflegends.com/en-us/On-hit",
+      "wiki_revision": "4084301"
+    },
+    {
+      "bytes": 348915,
+      "id": "Stasis",
+      "kind": "html",
+      "path": "data/sources/raw/items/96709335ca239ec6323e949d0d21667c3f3e7ce0a8060b4a8e518657d93f8ba1.html",
+      "retrieved_at": "2026-11-03T18:54:31.419112+00:00",
+      "sha256": "96709335ca239ec6323e949d0d21667c3f3e7ce0a8060b4a8e518657d93f8ba1",
+      "url": "https://wiki.leagueoflegends.com/en-us/Stasis",
+      "wiki_revision": "3990045"
+    },
+    {
+      "bytes": 6401,
+      "id": "icon:3077",
+      "kind": "png",
+      "path": "data/items-prototype/media/item-3077.png",
+      "retrieved_at": "2026-11-03T19:00:01.500782+00:00",
+      "rights": "Riot Games item icon; educational prototype; distribution rights not granted by this record.",
+      "sha256": "70f3d871814a43b48b62c1e02579effe1a2481cc23ac61498cd2cfa1dff4fff4",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3077.png"
+    },
+    {
+      "bytes": 5508,
+      "id": "icon:3140",
+      "kind": "png",
+      "path": "data/items-prototype/media/item-3140.png",
+      "retrieved_at": "2026-11-03T19:00:02.706871+00:00",
+      "rights": "Riot Games item icon; educational prototype; distribution rights not granted by this record.",
+      "sha256": "16cedabad67792f551e8893a34338f7981b3b52c444a23035846fcab954a299f",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3140.png"
+    },
+    {
+      "bytes": 6909,
+      "id": "icon:3153",
+      "kind": "png",
+      "path": "data/items-prototype/media/item-3153.png",
+      "retrieved_at": "2026-11-03T19:00:03.908411+00:00",
+      "rights": "Riot Games item icon; educational prototype; distribution rights not granted by this record.",
+      "sha256": "626dbfdca488a6e42602dd6e8a28e9b65b26992a6cdc805f0d6c1ab0de3b7627",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3153.png"
+    },
+    {
+      "bytes": 7290,
+      "id": "icon:3157",
+      "kind": "png",
+      "path": "data/items-prototype/media/item-3157.png",
+      "retrieved_at": "2026-11-03T19:00:05.215124+00:00",
+      "rights": "Riot Games item icon; educational prototype; distribution rights not granted by this record.",
+      "sha256": "fc0908ad8621e96ad635b5bac67e09f663ec80735efd732b10f07d8c498443aa",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3157.png"
+    },
+    {
+      "bytes": 6443,
+      "id": "icon:3916",
+      "kind": "png",
+      "path": "data/items-prototype/media/item-3916.png",
+      "retrieved_at": "2026-11-03T19:00:06.386145+00:00",
+      "rights": "Riot Games item icon; educational prototype; distribution rights not granted by this record.",
+      "sha256": "8446613ded24b9caf452ab94d4b24af5a9a21aab36dffc90ddb4a4d6b757fd12",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/item/3916.png"
+    }
+  ],
+  "scope": "Summoner's Rift item prototype; historical raw pages retained, live card claims use current sections only."
+}

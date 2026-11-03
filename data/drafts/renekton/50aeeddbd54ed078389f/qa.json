@@ -1,0 +1,1123 @@
+{
+  "approval_blockers": [
+    "All cards require editorial approval and source-scope review.",
+    "Weapon/ability image matching and all animations/cues require manual visual review.",
+    "Missing variant animations use matched icons; generic slot clips are not variant verification.",
+    "Unknown gameplay patch is hidden; source-supported draft status is not human QA."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:renekton:overview:L1",
+        "core_coverage": [
+          {
+            "answer_quote": "Renekton is a close-range fighter/tank with an AD damage focus: his basic abilities deal physical damage and provide healing and a targeted stun, while Dominus adds nearby magic damage.",
+            "covered": true,
+            "mechanic_id": "overview_fighting_role",
+            "reason": "Explains the role, damage types, healing and targeted stun. AD is supported as the externally typed broad learning orientation."
+          },
+          {
+            "answer_quote": "His attacks build Fury that empowers abilities. Slice is a damaging dash that unlocks a second dash only if it hits an enemy.",
+            "covered": true,
+            "mechanic_id": "overview_threat_access",
+            "reason": "Explains Fury empowerment and the enemy-hit requirement for the second dash."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Renekton. Official role tags: Fighter, Tank.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Active: Renekton cleaves around himself, dealing physical damage to nearby enemies.",
+              "source_id": "wiki:cullthemeek"
+            },
+            {
+              "quote": "Active: Renekton's next basic attack within a few seconds will strike twice, dealing modified physical damage and briefly stunning the target.",
+              "source_id": "wiki:ruthlesspredator"
+            },
+            {
+              "quote": "During this time, Renekton creates an aura that continually deals magic damage to nearby enemies.",
+              "source_id": "wiki:dominus"
+            }
+          ],
+          "id": "overview_fighting_role",
+          "summary": "Renekton is a close-range fighter/tank whose basic combat abilities deal physical damage, with healing and a targeted stun; Dominus adds nearby magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Renekton's attacks generate Fury, increased when he is low on life. This Fury can empower his abilities with bonus effects.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Active - Slice: Renekton dashes in the target direction, dealing physical damage to enemies he passes through. If he hits an enemy, he can recast Slice and Dice within the next few seconds.",
+              "source_id": "wiki:sliceanddice"
+            }
+          ],
+          "id": "overview_threat_access",
+          "summary": "Fury strengthens his threats. Slice provides dash access, while access to its recast depends on hitting an enemy."
+        }
+      ],
+      "id": "champ:renekton:overview:L1",
+      "issues": [
+        "AD describes a broad damage orientation from basic-ability damage and scaling, not an optimal item build."
+      ],
+      "kind": "overview",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:renekton:overview:L1",
+        "context_id": "",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "jpg",
+          "path": "media/renekton_portrait.jpg",
+          "retrieved_at": "2026-11-01T17:47:20.731187+00:00",
+          "sha256": "9293da39c0a0988e6d76d33a27168bebe99cd28f4efca484bcb62e70d0e7dc24",
+          "source_sha256": "9293da39c0a0988e6d76d33a27168bebe99cd28f4efca484bcb62e70d0e7dc24",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renekton_0.jpg"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "official champion portrait",
+        "slot_clip_candidate": null,
+        "subject_id": "riot:role",
+        "unresolved": [],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-renekton-overview-l1.html",
+      "purpose": "Recognize his close-range damage, sustain, stun and conditional pursuit before choosing trade distance.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Additionally, while Dominus is active, the timer is continuously refreshed.",
+              "source_id": "wiki:reignofanger"
+            }
+          ],
+          "status": "supported",
+          "summary": "Dominus continuously refreshes the Fury-loss timer."
+        },
+        {
+          "citations": [
+            {
+              "quote": "PENDING FOR TEST: Fury generation with parrying effects ( blind, dodge, block)",
+              "source_id": "wiki:reignofanger"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "Fury generation against parrying effects is explicitly pending testing."
+        }
+      ],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:renekton:system:p:reignofanger:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Basic attacks and ability hits build Fury, which decays after inactivity; Fury generation increases below half health.",
+            "covered": true,
+            "mechanic_id": "fury_generation_decay",
+            "reason": "Explains generation, decay and the low-health bonus; the following sentences supply the empowered-ability exception."
+          },
+          {
+            "answer_quote": "At least 50 Fury makes the next eligible basic ability consume 50 Fury for an empowered effect. Slice is excluded from this empowerment, and empowered abilities do not generate Fury.",
+            "covered": true,
+            "mechanic_id": "fury_spending",
+            "reason": "States the detailed threshold, expenditure and both required exceptions."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Innate: Renekton's basic attacks on-hit and ability hits generate Fury, which continually expires after a period without fighting. He generates bonus Fury while below half health.",
+              "source_id": "wiki:reignofanger"
+            }
+          ],
+          "id": "fury_generation_decay",
+          "summary": "Basic attacks and ability hits build Fury; it decays after inactivity, and generation increases below half health."
+        },
+        {
+          "citations": [
+            {
+              "quote": "While Renekton has at least 50 Fury, his next basic ability, excluding Slice, consumes 50 Fury to become empowered with an additional effect. Empowered abilities do not generate Fury.",
+              "source_id": "wiki:reignofanger"
+            }
+          ],
+          "id": "fury_spending",
+          "summary": "At least 50 Fury empowers the next eligible basic ability and consumes 50 Fury. Slice is excluded, and empowered abilities do not generate Fury."
+        }
+      ],
+      "id": "champ:renekton:system:p:reignofanger:recognize:L2",
+      "issues": [
+        "Dominus continuously refreshes the Fury-loss timer.",
+        "Fury generation against blind, dodge and block is explicitly pending testing in the supplied material."
+      ],
+      "kind": "system",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:renekton:system:p:reignofanger:recognize:L2",
+        "context_id": "",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/renekton_p_icon.png",
+          "retrieved_at": "2026-11-01T17:47:21.376320+00:00",
+          "sha256": "c65595d4de35b9776820720cbc361f98d566216b6312c4e4061ceaf52ae25544",
+          "source_sha256": "c65595d4de35b9776820720cbc361f98d566216b6312c4e4061ceaf52ae25544",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Renekton_Passive.png"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "exact primary ability name/source; no variant inference",
+        "slot_clip_candidate": null,
+        "subject_id": "wiki:reignofanger",
+        "unresolved": [
+          "Passive/resource/leveling visual cues require manual review of the archived demonstration frames."
+        ],
+        "video": {
+          "kind": "webm",
+          "path": "media/renekton_p.webm",
+          "retrieved_at": "2026-11-01T17:47:21.696127+00:00",
+          "sha256": "d3f7d6d2710a215ade99ff2d1cf2e95e3a1a78278ec2583ad89382043e6c88b7",
+          "source_sha256": "d3f7d6d2710a215ade99ff2d1cf2e95e3a1a78278ec2583ad89382043e6c88b7",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0058/ability_0058_P1.webm"
+        }
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-renekton-system-p-reignofanger-recognize-l2.html",
+      "purpose": "Read Fury before committing, including when low health increases his ability to rebuild it.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:renekton:q:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Cull the Meek deals physical damage around Renekton and heals him for each enemy hit, with more healing against champions. Its normal version also generates Fury.",
+            "covered": true,
+            "mechanic_id": "cull_area_sustain",
+            "reason": "Explains surrounding damage, per-target healing, increased champion healing and normal-version Fury generation."
+          },
+          {
+            "answer_quote": "Fury empowerment increases its damage and healing.",
+            "covered": true,
+            "mechanic_id": "cull_empowerment",
+            "reason": "Explicitly explains both empowered benefits."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Renekton cleaves around himself, dealing physical damage to nearby enemies. He also generates Fury and heals for each enemy hit, increased against champions.",
+              "source_id": "wiki:cullthemeek"
+            }
+          ],
+          "id": "cull_area_sustain",
+          "summary": "Cull the Meek deals physical damage around Renekton, generates Fury and heals per enemy hit, with increased healing against champions."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Reign of Anger Bonus: Cull the Meek has increased damage and healing.",
+              "source_id": "wiki:cullthemeek"
+            }
+          ],
+          "id": "cull_empowerment",
+          "summary": "Fury empowerment increases its damage and healing."
+        }
+      ],
+      "id": "champ:renekton:q:recognize:L2",
+      "issues": [],
+      "kind": "ability",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:renekton:q:recognize:L2",
+        "context_id": "",
+        "gif": {
+          "frames": 35,
+          "kind": "gif",
+          "loop": 0,
+          "path": "media/renekton_q.gif",
+          "recipe": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+            "loop": 0,
+            "source_sha256": "4139fd61788401586806321efa8b92dc224a9aed752da8432b82f4ac34001bd1"
+          },
+          "sha256": "705e0fa642cb886a056b619f4a85b5745c0c4011474023b0d15cd6eadd55fec2",
+          "source_sha256": "4139fd61788401586806321efa8b92dc224a9aed752da8432b82f4ac34001bd1",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0058/ability_0058_Q1.webm"
+        },
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/renekton_q_icon.png",
+          "retrieved_at": "2026-11-01T17:47:23.517456+00:00",
+          "sha256": "1d7e8298b91ee674772658a478b182b9e3b79e5899ac0432bf91adbdbd26bc52",
+          "source_sha256": "1d7e8298b91ee674772658a478b182b9e3b79e5899ac0432bf91adbdbd26bc52",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/RenektonCleave.png"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "exact primary ability name/source; no variant inference",
+        "slot_clip_candidate": null,
+        "subject_id": "wiki:cullthemeek",
+        "unresolved": [
+          "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+        ],
+        "video": {
+          "kind": "webm",
+          "path": "media/renekton_q.webm",
+          "retrieved_at": "2026-11-01T17:47:23.823065+00:00",
+          "sha256": "4139fd61788401586806321efa8b92dc224a9aed752da8432b82f4ac34001bd1",
+          "source_sha256": "4139fd61788401586806321efa8b92dc224a9aed752da8432b82f4ac34001bd1",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0058/ability_0058_Q1.webm"
+        }
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-renekton-q-recognize-l2.html",
+      "purpose": "Recognize his surrounding sustain threat and avoid giving him easy healing during trades.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Even if empowered Ruthless Predator is blocked by a spell shield, it will still destroy any existing damage shields on the target.",
+              "source_id": "wiki:ruthlesspredator"
+            }
+          ],
+          "status": "supported",
+          "summary": "The supplied wiki states that a spell shield does not prevent empowered Ruthless Predator from destroying existing damage shields."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Ruthless Predator does not cause Renekton to attack twice/thrice. Effects that trigger on-attack or interact with the attack windup will only trigger once and thus do not interact with Ruthless Predator.",
+              "source_id": "wiki:ruthlesspredator"
+            }
+          ],
+          "status": "supported",
+          "summary": "Its repeated strikes should not be interpreted as repeated attacks for on-attack triggers."
+        }
+      ],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:renekton:w:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Ruthless Predator modifies Renekton's next basic attack to strike twice, dealing physical damage and briefly stunning the target.",
+            "covered": true,
+            "mechanic_id": "predator_attack_stun",
+            "reason": "Explains the modified attack, two strikes, damage type and targeted stun without calling the strikes separate attacks."
+          },
+          {
+            "answer_quote": "Fury empowerment makes it strike three times, deal more damage, stun longer and destroy the target's damage shields before dealing damage.",
+            "covered": true,
+            "mechanic_id": "predator_empowered_shieldbreak",
+            "reason": "Explains every frozen empowered core effect. The general shield statement is supported for the declared champion-combat scope; monster and structure exceptions remain metadata."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Renekton's next basic attack within a few seconds will strike twice, dealing modified physical damage and briefly stunning the target.",
+              "source_id": "wiki:ruthlesspredator"
+            }
+          ],
+          "id": "predator_attack_stun",
+          "summary": "Ruthless Predator modifies his next basic attack to strike twice, dealing physical damage and briefly stunning its target."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Reign of Anger Bonus: Renekton instead strikes 3 times with increased stun duration, destroying damage shields on the target before dealing damage.",
+              "source_id": "wiki:ruthlesspredator"
+            }
+          ],
+          "id": "predator_empowered_shieldbreak",
+          "summary": "Fury empowerment makes it strike 3 times, extends the stun and destroys damage shields before dealing damage."
+        }
+      ],
+      "id": "champ:renekton:w:recognize:L2",
+      "issues": [
+        "The general shield-destruction explanation describes champion combat; the detailed rule excludes monsters.",
+        "The supplied material states that a spell shield does not prevent empowered W from destroying existing damage shields.",
+        "Repeated strikes belong to one modified attack; on-attack and attack-windup effects do not trigger once per strike.",
+        "The supplied material states that the empowered attack does not trigger against structures."
+      ],
+      "kind": "ability",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:renekton:w:recognize:L2",
+        "context_id": "",
+        "gif": {
+          "frames": 43,
+          "kind": "gif",
+          "loop": 0,
+          "path": "media/renekton_w.gif",
+          "recipe": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+            "loop": 0,
+            "source_sha256": "7b0418039329f3d8ebb1a0d673fa90c85796a3a49b10d2f072f71836221f78a7"
+          },
+          "sha256": "7fbb641ff2119f600da1ec2e610db4909a9150e5f621c6e17d174fe079989955",
+          "source_sha256": "7b0418039329f3d8ebb1a0d673fa90c85796a3a49b10d2f072f71836221f78a7",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0058/ability_0058_W1.webm"
+        },
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/renekton_w_icon.png",
+          "retrieved_at": "2026-11-01T17:47:25.647213+00:00",
+          "sha256": "01d45316f3898d9064b98ac2c898bf9ac317a839719ea0ebb48b62330107ff5f",
+          "source_sha256": "01d45316f3898d9064b98ac2c898bf9ac317a839719ea0ebb48b62330107ff5f",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/RenektonPreExecute.png"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "exact primary ability name/source; no variant inference",
+        "slot_clip_candidate": null,
+        "subject_id": "wiki:ruthlesspredator",
+        "unresolved": [
+          "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+        ],
+        "video": {
+          "kind": "webm",
+          "path": "media/renekton_w.webm",
+          "retrieved_at": "2026-11-01T17:47:25.948773+00:00",
+          "sha256": "7b0418039329f3d8ebb1a0d673fa90c85796a3a49b10d2f072f71836221f78a7",
+          "source_sha256": "7b0418039329f3d8ebb1a0d673fa90c85796a3a49b10d2f072f71836221f78a7",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0058/ability_0058_W1.webm"
+        }
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-renekton-w-recognize-l2.html",
+      "purpose": "Recognize the targeted stun threat and the added danger of relying on damage shields against empowered W.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:renekton:e:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Slice dashes through enemies, dealing physical damage; hitting an enemy briefly unlocks Dice, a second dash that also deals physical damage.",
+            "covered": true,
+            "mechanic_id": "slice_dice_access",
+            "reason": "Explains both damaging dashes and the hit-gated recast."
+          },
+          {
+            "answer_quote": "Fury empowers Dice with additional damage and temporary armor reduction on enemies hit. Slice does not consume Fury for empowerment.",
+            "covered": true,
+            "mechanic_id": "dice_empowered_armor",
+            "reason": "Correctly assigns empowerment and armor reduction to Dice and excludes Slice from Fury expenditure."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active - Slice: Renekton dashes in the target direction, dealing physical damage to enemies he passes through. If he hits an enemy, he can recast Slice and Dice within the next few seconds. Recast - Dice: Renekton dashes in the target direction, dealing physical damage to enemies he passes through.",
+              "source_id": "wiki:sliceanddice"
+            }
+          ],
+          "id": "slice_dice_access",
+          "summary": "Slice dashes through enemies for physical damage. Hitting an enemy unlocks a brief opportunity to recast as Dice, another damaging dash."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Reign of Anger Bonus: Dice, the recast, deals additional damage and reduces enemy armor for a few seconds.",
+              "source_id": "wiki:sliceanddice"
+            },
+            {
+              "quote": "While Renekton has at least 50 Fury, his next basic ability, excluding Slice, consumes 50 Fury to become empowered with an additional effect.",
+              "source_id": "wiki:reignofanger"
+            }
+          ],
+          "id": "dice_empowered_armor",
+          "summary": "Fury empowers Dice with additional damage and temporary armor reduction; Slice does not consume Fury for empowerment."
+        }
+      ],
+      "id": "champ:renekton:e:recognize:L2",
+      "issues": [],
+      "kind": "ability",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:renekton:e:recognize:L2",
+        "context_id": "",
+        "gif": {
+          "frames": 48,
+          "kind": "gif",
+          "loop": 0,
+          "path": "media/renekton_e.gif",
+          "recipe": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+            "loop": 0,
+            "source_sha256": "4e14f70e30cdf8dcd25ded92166f370afadf3dfafbd8fe4b3273df3c6c1cca88"
+          },
+          "sha256": "5613f7623f50d8c9ff26a29e69c63b68663e44b70fd2c97b91edf9556e08862b",
+          "source_sha256": "4e14f70e30cdf8dcd25ded92166f370afadf3dfafbd8fe4b3273df3c6c1cca88",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0058/ability_0058_E1.webm"
+        },
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/renekton_e_icon.png",
+          "retrieved_at": "2026-11-01T17:47:27.845559+00:00",
+          "sha256": "6c3766d92e85d4b0d461a18b961fcd6adc6e6cf95be74ed479c3ff8f4d0e5cdf",
+          "source_sha256": "6c3766d92e85d4b0d461a18b961fcd6adc6e6cf95be74ed479c3ff8f4d0e5cdf",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/RenektonSliceAndDice.png"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "exact primary ability name/source; no variant inference",
+        "slot_clip_candidate": null,
+        "subject_id": "wiki:sliceanddice",
+        "unresolved": [
+          "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+        ],
+        "video": {
+          "kind": "webm",
+          "path": "media/renekton_e.webm",
+          "retrieved_at": "2026-11-01T17:47:28.112725+00:00",
+          "sha256": "4e14f70e30cdf8dcd25ded92166f370afadf3dfafbd8fe4b3273df3c6c1cca88",
+          "source_sha256": "4e14f70e30cdf8dcd25ded92166f370afadf3dfafbd8fe4b3273df3c6c1cca88",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0058/ability_0058_E1.webm"
+        }
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-renekton-e-recognize-l2.html",
+      "purpose": "Track whether Slice hit an enemy before judging his remaining pursuit or escape, and recognize empowered Dice's armor reduction.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "card_id": "champ:renekton:transformation:r:dominus:recognize:L2",
+        "core_coverage": [
+          {
+            "answer_quote": "Dominus transforms Renekton into Tyrant form, granting bonus health, size and attack range, plus a larger Cull the Meek area.",
+            "covered": true,
+            "mechanic_id": "dominus_transformation",
+            "reason": "Explains the transformation and every frozen transformation benefit."
+          },
+          {
+            "answer_quote": "It grants Fury on activation and continually generates more during the form, up to a cap. Its aura continually deals magic damage to nearby enemies.",
+            "covered": true,
+            "mechanic_id": "dominus_aura_fury",
+            "reason": "Distinguishes activation Fury from ongoing capped generation and explains the nearby magic-damage aura."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true
+      },
+      "confirmed_vs_inferred": {
+        "answer_assertions": "Cited draft claims, not human verified",
+        "answer_inferences": [],
+        "build_focus": "broad_learning_orientation",
+        "counterplay": "source_grounded_inference"
+      },
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Renekton transforms into the Tyrant form, gaining bonus Health and dealing damage to enemies around him. While in this form, Renekton gains Fury periodically.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Active: Renekton empowers himself for some time, gaining Fury, bonus health, bonus size, bonus attack range, and increased area on Cull the Meek.",
+              "source_id": "wiki:dominus"
+            }
+          ],
+          "id": "dominus_transformation",
+          "summary": "Dominus transforms Renekton into Tyrant form, granting bonus health, size, attack range and increased Cull the Meek area."
+        },
+        {
+          "citations": [
+            {
+              "quote": "During this time, Renekton creates an aura that continually deals magic damage to nearby enemies. He also continually generates Fury, up to a cap.",
+              "source_id": "wiki:dominus"
+            },
+            {
+              "quote": "Active: Renekton empowers himself for some time, gaining Fury, bonus health, bonus size, bonus attack range, and increased area on Cull the Meek.",
+              "source_id": "wiki:dominus"
+            }
+          ],
+          "id": "dominus_aura_fury",
+          "summary": "Dominus grants Fury on activation and continually generates more, up to a cap, while its aura continually deals nearby magic damage."
+        }
+      ],
+      "id": "champ:renekton:transformation:r:dominus:recognize:L2",
+      "issues": [],
+      "kind": "transformation",
+      "manual_visual_review_required": true,
+      "media": {
+        "card_id": "champ:renekton:transformation:r:dominus:recognize:L2",
+        "context_id": "",
+        "gif": null,
+        "human_verified": false,
+        "icon": {
+          "kind": "png",
+          "path": "media/unit-0bb40ab9e4779edd1a3a.png",
+          "retrieved_at": "2026-11-01T17:47:31.903388+00:00",
+          "sha256": "ebe757a562225376d617d741571b0334d24f560d70c2025ad077801f02c0ef22",
+          "source_sha256": "ebe757a562225376d617d741571b0334d24f560d70c2025ad077801f02c0ef22",
+          "source_url": "https://wiki.leagueoflegends.com/en-us/images/Renekton_Dominus.png?3a147"
+        },
+        "manual_weapon_ability_matching_required": true,
+        "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+        "slot_clip_candidate": {
+          "kind": "webm",
+          "path": "media/renekton_r.webm",
+          "retrieved_at": "2026-11-01T17:47:30.176624+00:00",
+          "sha256": "94fcedfb85e4a98f4e1fc13f2936ae25e48d294d0a88072ab658e3f31a54a880",
+          "source_sha256": "94fcedfb85e4a98f4e1fc13f2936ae25e48d294d0a88072ab658e3f31a54a880",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0058/ability_0058_R1.webm"
+        },
+        "subject_id": "wiki:dominus",
+        "unresolved": [
+          "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+        ],
+        "video": null
+      },
+      "missing_supported_core_ids": [],
+      "preview": "previews/champ-renekton-transformation-r-dominus-recognize-l2.html",
+      "purpose": "Recognize his enlarged sustained-fight state, account for renewed Fury, and reassess close-range trades when he activates it.",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "unsupported_claims": []
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "card_id": "champ:renekton:w:recognize:L2",
+      "priority": "A",
+      "reason": "Availability of his targeted stun affects opportunities to approach and trade.",
+      "source_ids": [
+        "wiki:W",
+        "wiki:ruthlesspredator"
+      ]
+    },
+    {
+      "card_id": "champ:renekton:e:recognize:L2",
+      "priority": "A",
+      "reason": "Dash availability and the conditional recast affect pursuit and escape.",
+      "source_ids": [
+        "wiki:sliceanddice"
+      ]
+    },
+    {
+      "card_id": "champ:renekton:transformation:r:dominus:recognize:L2",
+      "priority": "A",
+      "reason": "Ultimate availability changes his durability and sustained close-range threat.",
+      "source_ids": [
+        "wiki:dominus"
+      ]
+    },
+    {
+      "card_id": "champ:renekton:q:recognize:L2",
+      "priority": "B",
+      "reason": "Availability of surrounding damage and healing affects repeated trades.",
+      "source_ids": [
+        "wiki:cullthemeek"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "The Data Dragon release is pinned; the packet does not establish a current game patch label.",
+    "The pending parrying-effects test is uncertain and supplies no established Fury interaction.",
+    "The cooldown-change note in wiki:W is excluded as an isolated numerical change note.",
+    "Lore, skins, collection text and credits embedded in wiki:R are excluded from gameplay teaching.",
+    "Health Relics and peripheral pickup interactions are omitted from the central Fury goal because their mode context is not established.",
+    "Detailed wiki-only interaction exceptions remain advanced material; no current-client verification is supplied.",
+    "Counterplay is qualitative inference from the supplied effects, not a guaranteed outcome.",
+    "The overview's AD orientation summarizes basic-ability damage and scaling; it does not establish an optimal build or follow causally from Fury empowerment.",
+    "No exhaustive-kit ability-absence inference is used; the Slice and empowered-Fury exceptions are explicit source assertions.",
+    "W's general shield-destruction core describes champion combat; monster and structure exceptions and attack-trigger distinctions remain in metadata.",
+    "Fury generation against blind, dodge and block remains unresolved in the supplied material.",
+    "No patch label or visual appearance is inferred from the supplied material.",
+    "General attack-generated Fury wording is a beginner summary: the detailed passive excludes structures, and empowered abilities do not generate Fury.",
+    "W's shield-destruction wording must retain its declared champion-combat scope; the detailed source excludes monsters and says the empowered attack does not trigger against structures.",
+    "AD is inferred broad learning guidance from the supplied scaling, not an explicit source statement establishing an optimal build. The external pedagogical metadata supplies the required interpretation.",
+    "Counterplay is qualitative source-grounded inference and makes no timing or outcome guarantees.",
+    "Fury generation against blind, dodge and block remains pending testing and is correctly confined to metadata.",
+    "No exhaustive-kit absence inference, patch identification or visual verification is asserted."
+  ],
+  "features": [
+    "standard",
+    "resource_cycle",
+    "transformations",
+    "conditional_effects"
+  ],
+  "findings": [
+    {
+      "code": "adaptive_kit_structure",
+      "message": "5 live sections discovered; conventional slot headings are not a completeness contract."
+    }
+  ],
+  "generation": {
+    "inventory": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 20316,
+            "output_tokens": 4180,
+            "reasoning_output_tokens": 75
+          }
+        ]
+      },
+      "output_sha256": "e09799a1213b63a84c426ef23f8396ecc837409d18a11983487b98cab1ba9443",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "e74c239b0072df5e27011f7cd6c359ce383d8bc2872f71f93e9e36a9662ea8bf"
+    },
+    "model_source_characters": 19038,
+    "passes": [
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 0,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 22399,
+                "output_tokens": 4009,
+                "reasoning_output_tokens": 79
+              }
+            ]
+          },
+          "output_sha256": "f4f8b84678660b9d41a0191287334ea4b6803b002b46dcfb34680a2f51390ace",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "ca7bbb84d727a5d52b50b51c0afe97120c2955f3646f13edc8112da69477938b"
+        },
+        "pass": 1,
+        "support_issues": 1,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 0,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 26470,
+                "output_tokens": 1972,
+                "reasoning_output_tokens": 76
+              }
+            ]
+          },
+          "output_sha256": "f6208e88d06b7ae9c903b08dc702a2173bebe149c4e786a81e26d9491f262d87",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "3eccb7564f2a7028d530aef4faee1453340a618dbd53e1269b02869f14bbfb6b"
+        }
+      },
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 0,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12800,
+                "input_tokens": 27447,
+                "output_tokens": 4127,
+                "reasoning_output_tokens": 43
+              }
+            ]
+          },
+          "output_sha256": "ab73d6e299e5c9f9c86fa5146f17c62514b50a20f1614077dd510893c81decf6",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "767907e9303c746c1f9cbd66b2bffdf8f3598d5bf06e9eb0e9fad5cb114a5f30"
+        },
+        "pass": 2,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 0,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12672,
+                "input_tokens": 26052,
+                "output_tokens": 1999,
+                "reasoning_output_tokens": 116
+              }
+            ]
+          },
+          "output_sha256": "adc3e217827613266020971b9dea3945a4e8ef55f1838ce117e80e31edb5dedb",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "18139279a9c5620d561871d2f1f990daa4d29137219e249ecac81f098edffba7"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "50aeeddbd54ed078389ff3a1eb0088807f575be771b542b0b470f1b103b1ed7b",
+    "usage": {
+      "available_receipt_usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 25472,
+        "input_tokens": 122684,
+        "output_tokens": 16287,
+        "reasoning_output_tokens": 389
+      },
+      "logical_requests": 5,
+      "recorded_model_attempts": 5,
+      "scope": "Recorded generation usage; cached replay does not repeat these model calls. Failed-attempt usage may be unavailable.",
+      "usage_receipts_available": 5
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:renekton:e:recognize:L2": {
+      "cid": 2443198998884,
+      "guid": "7cb9c4bf7abf9a",
+      "nid": 1943198998884
+    },
+    "champ:renekton:overview:L1": {
+      "cid": 2476407151626,
+      "guid": "2111ece874ba1b",
+      "nid": 1976407151626
+    },
+    "champ:renekton:q:recognize:L2": {
+      "cid": 2428349481109,
+      "guid": "64c55be2c7b001",
+      "nid": 1928349481109
+    },
+    "champ:renekton:system:p:reignofanger:recognize:L2": {
+      "cid": 2364534311136,
+      "guid": "f71508c7240652",
+      "nid": 1864534311136
+    },
+    "champ:renekton:transformation:r:dominus:recognize:L2": {
+      "cid": 2482905247646,
+      "guid": "4c16f97ef27cd2",
+      "nid": 1982905247646
+    },
+    "champ:renekton:w:recognize:L2": {
+      "cid": 2568671499961,
+      "guid": "ede0332899a4af",
+      "nid": 2068671499961
+    }
+  },
+  "kit_complete_draft": true,
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "AI planning/verification is fallible and cannot prove every source topic was inventoried."
+  ],
+  "media_references": [
+    "renekton_e.gif",
+    "renekton_e_icon.png",
+    "renekton_p_icon.png",
+    "renekton_portrait.jpg",
+    "renekton_q.gif",
+    "renekton_q_icon.png",
+    "renekton_w.gif",
+    "renekton_w_icon.png",
+    "unit-0bb40ab9e4779edd1a3a.png"
+  ],
+  "missing_media": [
+    {
+      "card_id": "champ:renekton:system:p:reignofanger:recognize:L2",
+      "issues": [
+        "Passive/resource/leveling visual cues require manual review of the archived demonstration frames."
+      ]
+    },
+    {
+      "card_id": "champ:renekton:q:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ]
+    },
+    {
+      "card_id": "champ:renekton:w:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ]
+    },
+    {
+      "card_id": "champ:renekton:e:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ]
+    },
+    {
+      "card_id": "champ:renekton:transformation:r:dominus:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    }
+  ],
+  "new_cards": 6,
+  "omitted_topics": [],
+  "passive_frame_evidence": [
+    {
+      "path": "visual-inputs/passive-1.png",
+      "sha256": "c1cc0a0bcaa31c04cabf6d87c80811c44e6188f5ccb2c3e9c596eada9306133a",
+      "source_sha256": "d3f7d6d2710a215ade99ff2d1cf2e95e3a1a78278ec2583ad89382043e6c88b7",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0058/ability_0058_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 0.8704
+    },
+    {
+      "path": "visual-inputs/passive-2.png",
+      "sha256": "3057eb4b622f2560a0c279bf798993b6986c9b7c9557b0515c0ac95d17c47578",
+      "source_sha256": "d3f7d6d2710a215ade99ff2d1cf2e95e3a1a78278ec2583ad89382043e6c88b7",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0058/ability_0058_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 2.3212
+    },
+    {
+      "path": "visual-inputs/passive-3.png",
+      "sha256": "8596c22cc9985196b33ef29fc0516520a39cc2a0194781521efc54f608029233",
+      "source_sha256": "d3f7d6d2710a215ade99ff2d1cf2e95e3a1a78278ec2583ad89382043e6c88b7",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0058/ability_0058_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 3.7719
+    },
+    {
+      "path": "visual-inputs/passive-4.png",
+      "sha256": "3f46c598880d74c67a8b03cdddee481c42a40c21d297b5072df7efbaab1b3519",
+      "source_sha256": "d3f7d6d2710a215ade99ff2d1cf2e95e3a1a78278ec2583ad89382043e6c88b7",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0058/ability_0058_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 5.2227
+    }
+  ],
+  "publishable": false,
+  "schema_version": 2,
+  "source_conflicts": [
+    {
+      "resolution": "Use the detailed passive's inclusive threshold of at least 50 Fury. Riot ability descriptions say more than 50; the wiki's introductory percentage wording is less precise than its detailed rule.",
+      "source_ids": [
+        "riot:Q",
+        "riot:W",
+        "wiki:reignofanger"
+      ],
+      "topic": "Fury empowerment threshold"
+    },
+    {
+      "resolution": "Teach Slice's exclusion from Fury consumption and Dice's empowerment using the detailed passive and E descriptions.",
+      "source_ids": [
+        "wiki:reignofanger",
+        "wiki:sliceanddice",
+        "riot:E"
+      ],
+      "topic": "Generic basic-ability empowerment wording versus Slice exception"
+    },
+    {
+      "resolution": "Use the detailed passive rule of at least 50 Fury, with Slice excluded, rather than the simplified descriptions saying more than 50.",
+      "source_ids": [
+        "riot:Q",
+        "riot:W",
+        "wiki:reignofanger"
+      ],
+      "topic": "Fury empowerment threshold"
+    },
+    {
+      "resolution": "Describe healing per enemy hit, increased against champions, following the detailed Q description; omit the simplified damage-proportional wording.",
+      "source_ids": [
+        "riot:Q",
+        "wiki:cullthemeek"
+      ],
+      "topic": "Cull the Meek healing model"
+    },
+    {
+      "resolution": "Apply the passive's explicit exception that empowered abilities do not generate Fury. Q's Fury generation is described only for its normal version.",
+      "source_ids": [
+        "wiki:reignofanger",
+        "wiki:cullthemeek",
+        "wiki:ruthlesspredator",
+        "wiki:sliceanddice"
+      ],
+      "topic": "Ability-hit Fury generation versus empowerment exception"
+    },
+    {
+      "resolution": "Use the detailed passive's at-least-50 threshold and explicit Slice exception rather than the simplified Riot descriptions saying more than 50.",
+      "source_ids": [
+        "riot:Q",
+        "riot:W",
+        "wiki:reignofanger"
+      ],
+      "topic": "Fury empowerment threshold"
+    },
+    {
+      "resolution": "Use the detailed per-enemy healing model, increased against champions, rather than describing healing as proportional to damage dealt.",
+      "source_ids": [
+        "riot:Q",
+        "wiki:cullthemeek"
+      ],
+      "topic": "Cull the Meek healing model"
+    },
+    {
+      "resolution": "Apply the explicit passive exception: empowered abilities do not generate Fury. Read general ability-hit generation statements subject to that exception.",
+      "source_ids": [
+        "wiki:reignofanger",
+        "wiki:cullthemeek",
+        "wiki:ruthlesspredator",
+        "wiki:sliceanddice"
+      ],
+      "topic": "Normal versus empowered Fury generation"
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4028014"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Basic attacks against a new eligible target deal bonus physical damage. Switching targets lets Love Tap trigger again.",
+          "covered": true,
+          "mechanic_id": "P.new_target_damage",
+          "reason": "Explains the bonus damage and target switching. The eligibility qualifier accommodates buildings without requiring an exception list."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Double Up fires a targeted shot that deals physical damage and can bounce to another enemy behind the first.",
+          "covered": true,
+          "mechanic_id": "Q.bouncing_damage",
+          "reason": "Explains targeting, damage type and bounce direction; 'can' avoids promising a bounce without a secondary target."
+        },
+        {
+          "answer_quote": "Both hits can apply Love Tap.",
+          "covered": true,
+          "mechanic_id": "Q.love_tap",
+          "reason": "Explicitly states the supported interaction for both hits."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Strut passively builds movement speed in stages after avoiding damage, except repeated damage over time.",
+          "covered": true,
+          "mechanic_id": "W.passive_movement_speed",
+          "reason": "Explains passive movement speed accumulation and the detailed source's periodic-damage exception."
+        },
+        {
+          "answer_quote": "Activating it instantly grants the higher movement speed bonus and temporarily boosts attack speed.",
+          "covered": true,
+          "mechanic_id": "W.active_attack_speed",
+          "reason": "Explicitly states the temporary attack-speed benefit of activation."
+        },
+        {
+          "answer_quote": "Activating it instantly grants the higher movement speed bonus and temporarily boosts attack speed.",
+          "covered": true,
+          "mechanic_id": "W.instant_movement_bonus",
+          "reason": "Explicitly states immediate acquisition of the increased movement bonus."
+        },
+        {
+          "answer_quote": "Love Tap triggers reduce Strut's remaining cooldown.",
+          "covered": true,
+          "mechanic_id": "W.love_tap_cooldown",
+          "reason": "Names the trigger and the remaining cooldown it reduces."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Make It Rain creates a temporary bullet storm at a chosen location, repeatedly dealing magic damage and slowing enemies inside.",
+          "covered": true,
+          "mechanic_id": "E.area_damage",
+          "reason": "Explains placement, temporary duration, repeated damage and damage type."
+        },
+        {
+          "answer_quote": "Make It Rain creates a temporary bullet storm at a chosen location, repeatedly dealing magic damage and slowing enemies inside.",
+          "covered": true,
+          "mechanic_id": "E.slow",
+          "reason": "Explicitly identifies the slow on enemies inside."
+        },
+        {
+          "answer_quote": "It also grants sight of the area.",
+          "covered": true,
+          "mechanic_id": "E.area_vision",
+          "reason": "States area sight without claiming invisible-enemy detection."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Bullet Time channels repeated waves of bullets into a cone in front of Miss Fortune, dealing physical damage.",
+          "covered": true,
+          "mechanic_id": "R.channeled_cone_damage",
+          "reason": "Explains channeling, repeated waves, cone direction and physical damage."
+        },
+        {
+          "answer_quote": "Each wave can critically strike.",
+          "covered": true,
+          "mechanic_id": "R.wave_critical_strikes",
+          "reason": "Explicitly states critical-strike capability per wave."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Use Wiki's detailed non-periodic-damage condition to qualify Riot's broad 'not attacked' summary. Retain the zero-damage exception in metadata; its omission does not make this beginner explanation misleading.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "Strut movement-speed damage condition"
+    }
+  ],
+  "factual_risks": [
+    "The validation error 'Unknown verifier source' remains unresolved; this content check does not establish verifier provenance.",
+    "Pinned Data Dragon excerpts and the supplied Wiki revision do not establish current-client accuracy or a game patch label; the Riot champion page was unavailable.",
+    "Bullet Time's precise unseen-location reveal conditions remain pending testing in the supplied source and require QA before use.",
+    "The passive visual cue remains unverified and appropriately excluded from card-facing text.",
+    "The overview's AD focus is a supported teaching inference from physical damage and AD scaling, not evidence of an optimal build.",
+    "This review provides AI support checking only; it does not constitute human approval or visual verification."
+  ]
+}

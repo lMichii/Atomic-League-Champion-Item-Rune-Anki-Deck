@@ -1,0 +1,589 @@
+{
+  "cards": [
+    {
+      "text": {
+        "answer": "Senna is a support marksman who gains attack damage and range from Mist. She combines physical damage with healing, camouflage and a global shielding beam.",
+        "build_focus": "AD",
+        "counterplay": "Avoid extended trades while marked, spread away from rooted allies, and approach her mist cautiously.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Senna. Official role tags: Support, Marksman.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Mist fuels her Relic Cannon's power with increased Attack Damage, Attack Range, and Critical Strike Chance.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "Senna is a support marksman who gains attack damage and range from Mist."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Senna and allied champions hit are healed. Enemies hit are dealt physical damage",
+                "source_id": "wiki:piercingdarkness"
+              },
+              {
+                "quote": "Senna creates an aura of mist and gains camouflage",
+                "source_id": "wiki:curseoftheblackmist"
+              },
+              {
+                "quote": "She then fires a global beam that shields allies from harm",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "She combines physical damage with healing, camouflage and a global shielding beam."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Establishes her sustained trading, supportive effects and growing reach.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "riot:role",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Senna. Official role tags: Support, Marksman.",
+                "source_id": "riot:role"
+              }
+            ],
+            "id": "riot:role",
+            "summary": "Support marksman."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Mist fuels her Relic Cannon's power with increased Attack Damage, Attack Range, and Critical Strike Chance.",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "riot:P",
+            "summary": "Mist increases attack damage, attack range and critical strike chance."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Senna's fighting pattern and supportive threat.",
+        "slot": "",
+        "source_ids": ["riot:role", "riot:P", "wiki:piercingdarkness", "wiki:curseoftheblackmist", "riot:R"],
+        "subject_id": "riot:role",
+        "title": "Senna",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Attacks and abilities mark enemy champions; a subsequent hit collects Mist and deals bonus physical damage based on current health. Nearby deaths can leave collectible Mist Wraiths, and Mist increases her attack damage, range and critical strike chance. Her attacks take longer to fire, deal bonus damage and briefly grant movement speed.",
+        "build_focus": "",
+        "counterplay": "Back away after being marked and respect her growing attack range.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Senna's basic attacks on-hit and abilities mark enemy champions hit for 4 seconds. Subsequent attacks or ability hits against marked targets will consume the mark to grant Senna a stack of Mist and deal bonus physical damage equal to 1% – 10% (based on level) of the target's current health",
+                "source_id": "wiki:absolution"
+              }
+            ],
+            "claim": "Attacks and abilities mark enemy champions; a subsequent hit collects Mist and deals bonus physical damage based on current health."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Enemies that die near Senna may spawn a Mist Wraith from their corpse",
+                "source_id": "wiki:absolution"
+              },
+              {
+                "quote": "She can kill Mist Wraiths to gain gold and Mist stacks.",
+                "source_id": "wiki:absolution"
+              },
+              {
+                "quote": "Mist fuels her Relic Cannon's power with increased Attack Damage, Attack Range, and Critical Strike Chance.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "Nearby deaths can leave collectible Mist Wraiths, and Mist increases her attack damage, range and critical strike chance."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Attacks from Senna's Relic Cannon take longer to fire, deal bonus damage, and briefly grant her a portion of her target's Move Speed.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "Her attacks take longer to fire, deal bonus damage and briefly grant movement speed."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Explains repeat-hit trading and permanent range growth.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Additionally, every 1% critical strike chance in excess of 100% is converted into 0.35% life steal.",
+                "source_id": "wiki:absolution"
+              }
+            ],
+            "status": "supported",
+            "summary": "Excess critical strike chance converts into life steal."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Basic Attack: Senna blasts the target with her relic cannon that uses a non-projectile beam",
+                "source_id": "wiki:basicattack"
+              }
+            ],
+            "status": "supported",
+            "summary": "Her basic attack uses a non-projectile beam."
+          }
+        ],
+        "context_id": "wiki:absolution",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Subsequent hits collect the Mist, dealing bonus physical damage based on the target's current health",
+                "source_id": "wiki:absolution"
+              }
+            ],
+            "id": "wiki:absolution",
+            "summary": "Repeat hits collect Mist and deal current-health-based physical damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Mist fuels her Relic Cannon's power with increased Attack Damage, Attack Range, and Critical Strike Chance.",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "riot:P",
+            "summary": "Collected Mist increases offensive stats and reach."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize her marked-target trades and scaling attack reach.",
+        "slot": "P",
+        "source_ids": ["wiki:absolution", "riot:P", "wiki:basicattack"],
+        "subject_id": "wiki:absolution",
+        "title": "Absolution",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Senna fires a beam through a target: it heals her and allied champions, while damaging and slowing enemies. Her attacks reduce its remaining cooldown.",
+        "build_focus": "",
+        "counterplay": "Avoid lining up with her beam and limit her opportunities to keep attacking.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Senna fires a unified beam of light and shadow through a target",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Senna and allied champions hit are healed. Enemies hit are dealt physical damage, which applies life steal and on-hit effects, and slowed for a short time.",
+                "source_id": "wiki:piercingdarkness"
+              }
+            ],
+            "claim": "Senna fires a beam through a target: it heals her and allied champions, while damaging and slowing enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Piercing Darkness' current cooldown is reduced by 1 second on-attack.",
+                "source_id": "wiki:piercingdarkness"
+              }
+            ],
+            "claim": "Her attacks reduce its remaining cooldown."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Central damage, sustain and slow tool; attack-based cooldown reduction affects repeat casts.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "wiki:piercingdarkness",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Senna and allied champions hit are healed. Enemies hit are dealt physical damage, which applies life steal and on-hit effects, and slowed for a short time.",
+                "source_id": "wiki:piercingdarkness"
+              }
+            ],
+            "id": "wiki:piercingdarkness",
+            "summary": "The beam heals friendly champions and damages and slows enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Piercing Darkness' current cooldown is reduced by 1 second on-attack.",
+                "source_id": "wiki:piercingdarkness"
+              }
+            ],
+            "id": "riot:Q",
+            "summary": "Attacks reduce the remaining cooldown."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize her beam's combined trading and healing effects.",
+        "slot": "Q",
+        "source_ids": ["wiki:piercingdarkness", "riot:Q"],
+        "subject_id": "wiki:piercingdarkness",
+        "title": "Piercing Darkness",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "The projectile damages and attaches to the first enemy hit. After a delay, or when that target dies, it roots the target and nearby enemies.",
+        "build_focus": "",
+        "counterplay": "Dodge the projectile and move away from an affected ally before the root spreads.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Senna throws a globule of Black Mist in the target direction that deals physical damage to the first enemy hit and attaches to them",
+                "source_id": "wiki:lastembrace"
+              }
+            ],
+            "claim": "The projectile damages and attaches to the first enemy hit."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After the duration or when the target dies, the Black Mist spreads out of the target, rooting them and surrounding enemies for a few seconds.",
+                "source_id": "wiki:lastembrace"
+              }
+            ],
+            "claim": "After a delay, or when that target dies, it roots the target and nearby enemies."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Delayed spreading crowd control creates a major positioning threat.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Last Embrace will not root the primary target if they are untargetable.",
+                "source_id": "wiki:lastembrace"
+              }
+            ],
+            "status": "supported",
+            "summary": "An untargetable primary target is not rooted."
+          }
+        ],
+        "context_id": "wiki:lastembrace",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "deals physical damage to the first enemy hit and sticks onto them.",
+                "source_id": "wiki:lastembrace"
+              },
+              {
+                "quote": "After the duration or when the target dies, the Black Mist spreads out of the target, rooting them and surrounding enemies for a few seconds.",
+                "source_id": "wiki:lastembrace"
+              }
+            ],
+            "id": "wiki:lastembrace",
+            "summary": "Attaches to the first enemy and spreads a root after a delay or the target's death."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize and respond to the spreading root.",
+        "slot": "W",
+        "source_ids": ["wiki:lastembrace", "riot:W"],
+        "subject_id": "wiki:lastembrace",
+        "title": "Last Embrace",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Senna surrounds herself with mist, camouflaging herself and allies who enter it and granting movement speed. Camouflaged allies outside the mist appear as identity-obscuring wraiths within enemy line of sight. Camouflage can return after stealth-breaking actions stop.",
+        "build_focus": "",
+        "counterplay": "Approach the mist cautiously and avoid committing before identifying the concealed allies.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Senna creates an aura of mist and gains camouflage",
+                "source_id": "wiki:curseoftheblackmist"
+              },
+              {
+                "quote": "Allied champions that enter the mist gain Wraith Form for the remaining duration. Senna and allies camouflaged by Curse of the Black Mist also gain bonus movement speed. Wraith Form: Gain camouflage.",
+                "source_id": "wiki:curseoftheblackmist"
+              }
+            ],
+            "claim": "Senna surrounds herself with mist, camouflaging herself and allies who enter it and granting movement speed."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Enemies are granted obscured vision of camouflaged Wraiths moving outside the mist within their line of sight.",
+                "source_id": "wiki:curseoftheblackmist"
+              },
+              {
+                "quote": "Obscured units appear as Wraiths, hence the name. The wraith model does not distinguish which champion is obscured.",
+                "source_id": "wiki:curseoftheblackmist"
+              }
+            ],
+            "claim": "Camouflaged allies outside the mist appear as identity-obscuring wraiths within enemy line of sight."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If Senna breaks the camouflage, she regains it after 1.75 seconds without performing actions that break stealth.",
+                "source_id": "wiki:curseoftheblackmist"
+              },
+              {
+                "quote": "Wraith Form can be regained if lost by breaking the camouflage after 1.75 seconds without performing actions that break stealth.",
+                "source_id": "wiki:curseoftheblackmist"
+              }
+            ],
+            "claim": "Camouflage can return after stealth-breaking actions stop."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Concealment, obscured identities and movement speed affect engagement decisions.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Allied champions who enter the mist and have stealth of their own will still gain the Wraith Form buff but they will not grant obscured vision of themselves to the enemy while out of the mist nor will they appear as a Wraith.",
+                "source_id": "wiki:curseoftheblackmist"
+              }
+            ],
+            "status": "supported",
+            "summary": "Allies with their own stealth have exceptions to the obscured wraith appearance."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Wraith Form ends immediately upon Senna's death.",
+                "source_id": "wiki:curseoftheblackmist"
+              }
+            ],
+            "status": "supported",
+            "summary": "Allied Wraith Form ends when Senna dies."
+          }
+        ],
+        "context_id": "wiki:curseoftheblackmist",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Allied champions that enter the mist gain Wraith Form for the remaining duration. Senna and allies camouflaged by Curse of the Black Mist also gain bonus movement speed. Wraith Form: Gain camouflage.",
+                "source_id": "wiki:curseoftheblackmist"
+              }
+            ],
+            "id": "wiki:curseoftheblackmist",
+            "summary": "Mist grants camouflage and movement speed to Senna and participating allies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Enemies are granted obscured vision of camouflaged Wraiths moving outside the mist within their line of sight.",
+                "source_id": "wiki:curseoftheblackmist"
+              },
+              {
+                "quote": "The wraith model does not distinguish which champion is obscured.",
+                "source_id": "wiki:curseoftheblackmist"
+              }
+            ],
+            "id": "riot:E",
+            "summary": "Allied wraiths outside the mist obscure champion identity within enemy line of sight."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize shared concealment and allied Wraith Form together.",
+        "slot": "E",
+        "source_ids": ["wiki:curseoftheblackmist", "riot:E"],
+        "subject_id": "wiki:curseoftheblackmist",
+        "title": "Curse of the Black Mist",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Senna fires a global beam: its broad wave shields her and allied champions hit, while its narrow center deals physical damage to enemy champions and reveals them.",
+        "build_focus": "",
+        "counterplay": "Move out of the beam's center and account for incoming shields when pursuing enemies.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "She then fires a global beam",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "The beam consists of a broad wave of light, and a narrow wave of shadow at the center.",
+                "source_id": "wiki:dawningshadow"
+              },
+              {
+                "quote": "The shadow wave deals physical damage to enemy champions hit and reveals them",
+                "source_id": "wiki:dawningshadow"
+              },
+              {
+                "quote": "The light wave grants a shield to Senna and allied champions hit",
+                "source_id": "wiki:dawningshadow"
+              }
+            ],
+            "claim": "Senna fires a global beam: its broad wave shields her and allied champions hit, while its narrow center deals physical damage to enemy champions and reveals them."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Global shielding and central damage can change distant fights.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The broad wave is a singular projectile that can be destroyed.\nThe narrow wave will be destroyed with it in the process.",
+                "source_id": "wiki:dawningshadow"
+              }
+            ],
+            "status": "supported",
+            "summary": "Destroying the broad projectile also destroys the narrow wave."
+          }
+        ],
+        "context_id": "wiki:dawningshadow",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "She then fires a global beam that shields allies from harm, while damaging enemies caught in the center.",
+                "source_id": "riot:R"
+              }
+            ],
+            "id": "riot:R",
+            "summary": "Global beam combines allied shielding with central enemy damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The shadow wave deals physical damage to enemy champions hit and reveals them",
+                "source_id": "wiki:dawningshadow"
+              }
+            ],
+            "id": "wiki:dawningshadow",
+            "summary": "The central wave also reveals enemy champions hit."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Distinguish the broad shielding area from the damaging center.",
+        "slot": "R",
+        "source_ids": ["wiki:dawningshadow", "riot:R"],
+        "subject_id": "wiki:dawningshadow",
+        "title": "Dawning Shadow",
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Important cooldown topic: attacks reduce Piercing Darkness' remaining cooldown; this is taught on Q without a supplementary card.",
+    "No base ability cooldowns are supplied, so exact punish windows are not established.",
+    "Pending block, blind and dodge interactions are excluded.",
+    "Unrelated skin and biography material appended to wiki:R is outside the learning scope."
+  ],
+  "features": ["standard", "conditional_effects"],
+  "relationships": [],
+  "section_disposition": [
+    {
+      "disposition": "merged",
+      "reason": "Basic attack recognition is incorporated into Absolution; technical attack properties remain advanced metadata.",
+      "source_id": "wiki:basicattack",
+      "target_subject_ids": ["wiki:absolution"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary passive card covers marked-target trading and Mist growth.",
+      "source_id": "wiki:absolution",
+      "target_subject_ids": ["wiki:absolution"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary Q card covers damage, slowing, healing and cooldown reduction.",
+      "source_id": "wiki:piercingdarkness",
+      "target_subject_ids": ["wiki:piercingdarkness"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary W card includes the delayed root and target-death trigger.",
+      "source_id": "wiki:lastembrace",
+      "target_subject_ids": ["wiki:lastembrace"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Wraith Form is merged into E because it shares the same recognition and response purpose.",
+      "source_id": "wiki:curseoftheblackmist",
+      "target_subject_ids": ["wiki:curseoftheblackmist"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary R card distinguishes global shielding from central damage and reveal.",
+      "source_id": "wiki:dawningshadow",
+      "target_subject_ids": ["wiki:dawningshadow"]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": ["wiki:absolution", "riot:P"]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": ["wiki:piercingdarkness", "riot:Q"]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": ["wiki:lastembrace", "riot:W"]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": ["wiki:curseoftheblackmist", "riot:E"]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": ["wiki:dawningshadow", "riot:R"]
+    }
+  ],
+  "summary": "Overview and primary passive/ability cards; basic attacks merge into Absolution, and allied Wraith Form merges into Curse of the Black Mist."
+}

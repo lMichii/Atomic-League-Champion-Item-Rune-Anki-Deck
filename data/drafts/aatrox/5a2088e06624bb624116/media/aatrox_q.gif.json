@@ -1,0 +1,10 @@
+{
+  "recipe": {
+    "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+    "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+    "loop": 0,
+    "source_sha256": "f5fa3ba99a169b71dbe01272cc60b3ae70b9223f04167156fd63b77cc0de67b1"
+  },
+  "sha256": "33e153ccb802551cd73e2cc55a45be206bf3eb24a3c754415c9db91854e37b6f",
+  "status": "converted"
+}

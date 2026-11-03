@@ -1,0 +1,620 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:41",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Gangplank. Official role tags: Fighter.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Physical Damage:10 / 40 / 70 / 100 / 130 (+ 100% AD)",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Gangplank is an AD-focused fighter"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Gangplank shoots the target enemy with his pistol, dealing physical damage and applying on-hit and on-attack effects.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "When Gangplank destroys it, it explodes and also triggers a chain reaction that explodes other nearby connected kegs",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Enemies caught in an explosion are dealt the triggering attack's damage and slowed for 2 seconds.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "combines pistol shots with connected barrel explosions that damage and slow enemies"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Every few seconds, Gangplank's melee strike will set his opponent on fire.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "continually dealing bonus true damage",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "His melee passive adds true damage"
+          },
+          {
+            "citations": [
+              {
+                "quote": "TARGET RANGE:\nGlobal",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Active: Gangplank orders a cannon bombardment to the target location, each blast deals magic damage and slows enemies within.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "his global ultimate bombards an area with magic damage"
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/gangplank/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4091402",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gangplank"
+      },
+      "id": "champ:gangplank:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Recognizing barrel chains is central to fighting Gangplank."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Fighter",
+        "answer": "Gangplank is an AD-focused fighter who combines pistol shots with connected barrel explosions that damage and slow enemies. His melee passive adds true damage, while his global ultimate bombards an area with magic damage.",
+        "build_focus": "AD",
+        "category": "Champion",
+        "champion": "Gangplank",
+        "cooldown": "",
+        "counterplay": "Keep away from connected barrels, contest vulnerable kegs when safe, and leave the bombardment area.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/91f16753b7821f7ae36d1f428bffcf1ce0ffd6bf80c92f034a3410e70fee9d35.jpg",
+        "id": "champ:gangplank:overview:L1",
+        "level": "L1",
+        "media_path": "media/91f16753b7821f7ae36d1f428bffcf1ce0ffd6bf80c92f034a3410e70fee9d35.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/gangplank/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Gangplank",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:41",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Every few seconds, Gangplank's melee strike will set his opponent on fire.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Innate: Every few seconds, Gangplank's next basic attack will burn the target, continually dealing bonus true damage and granting him bonus movement speed.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Trial by Fire periodically empowers a melee attack to burn its target with true damage and grant Gangplank movement speed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Every time a Powder Keg explodes, the cooldown for Trial by Fire resets and Gangplank gains its bonus movement speed.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Detonating a Powder Keg resets the passive and grants its movement speed"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Trial by Fire cannot be applied with Parrrley nor Powder Keg.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Q and barrel explosions cannot apply the burn."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/gangplank/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4091402",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gangplank"
+      },
+      "id": "champ:gangplank:p:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Barrel detonations renew his melee trading threat."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Trial by Fire",
+        "answer": "Trial by Fire periodically empowers a melee attack to burn its target with true damage and grant Gangplank movement speed. Detonating a Powder Keg resets the passive and grants its movement speed; Q and barrel explosions cannot apply the burn.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Gangplank",
+        "cooldown": "",
+        "counterplay": "Limit melee trades and expect renewed burn pressure after he detonates a barrel.",
+        "front_hint": "GANGPLANK · PASSIVE",
+        "icon_path": "media/1706cb9323155d8a534f4ec13a467762f713d76704b7b854db2d9dac495576ba.png",
+        "id": "champ:gangplank:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/1706cb9323155d8a534f4ec13a467762f713d76704b7b854db2d9dac495576ba.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/gangplank/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Gangplank",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": "needs_visual_cue_review"
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "The fire cue is textual and tentative; its appearance and passive-ready indicator are not visually verified."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:41",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Gangplank fires a shot at the target enemy that deals physical damage, applies on-hit effects as a ranged attack, and triggers on-attack effects. This damage is affected by critical strike modifiers.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Parrrley is a targeted pistol shot that deals physical damage, applies on-hit effects, and benefits from critical strike modifiers."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Parrrley kills the target, Gangplank plunders gold and Silver Serpents. Each enemy killed by a Powder Keg explosion that was originally set off by Parrrley also counts for the plunder.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Kills grant gold and Silver Serpents, including kills from barrels detonated by Q"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Silver Serpents can be spent while at the shop to upgrade Cannon Barrage.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Silver Serpents fund ultimate upgrades."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/gangplank/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4091402",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gangplank"
+      },
+      "id": "champ:gangplank:q:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "His targeted poke also triggers barrels and supports ultimate upgrades."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Parrrley",
+        "answer": "Parrrley is a targeted pistol shot that deals physical damage, applies on-hit effects, and benefits from critical strike modifiers. Kills grant gold and Silver Serpents, including kills from barrels detonated by Q; Silver Serpents fund ultimate upgrades.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Gangplank",
+        "cooldown": "",
+        "counterplay": "Respect his targeted poke range and avoid barrel chains he can trigger with his pistol.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/e60419408d2ea9fd4f50be090c7f2849f7ec05a46ed8ba5b1bc4bce22d09e1cd.png",
+        "id": "champ:gangplank:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/1f0181cf4d29a789fa56dc56cab44429cb8651294fe3e1f89fd57bf1cb9bbcc6.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/gangplank/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Gangplank",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:41",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Gangplank eats citrus to cleanse crowd control effects and heal based on his missing health.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Heal:45 / 70 / 95 / 120 / 145 (+ 90% AP) (+ 13% missing health)",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "Remove Scurvy cleanses Gangplank's crowd control and heals him, with more healing as his missing health increases."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Remove Scurvy does not remove debuffs other than crowd control, even if both occur from the same effect.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "It does not remove other debuffs."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/gangplank/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4091402",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gangplank"
+      },
+      "id": "champ:gangplank:w:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "His cleanse and heal directly affect crowd-control commitments and kill attempts."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Remove Scurvy",
+        "answer": "Remove Scurvy cleanses Gangplank's crowd control and heals him, with more healing as his missing health increases. It does not remove other debuffs.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Gangplank",
+        "cooldown": "",
+        "counterplay": "Bait out his cleanse before committing further crowd control, and account for his healing when chasing.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/5a3c092392fde5d871fcd1327299d8a1aee73322a163c326731e60713d675f98.png",
+        "id": "champ:gangplank:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/b8fe4c2a385dfa7ffe3182cdd436cf1243179335c2aa4f30ad9ea95abc963fbf.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/gangplank/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Gangplank",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:41",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Gangplank consumes a charge to place a powder keg at the target location",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "The keg starts with 3 health and loses 1 every 2 / 1 / 0.5 (based on level) seconds until it is left with 1 health.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Kegs can be attacked by enemies or Gangplank (including his Parrrley), dealing 1 damage to it.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "Powder Keg places barrels whose health decays, allowing attacks from either side to destroy them."
+          },
+          {
+            "citations": [
+              {
+                "quote": "When an enemy destroys it, it is safely defused.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "Enemy destruction safely defuses a barrel"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Kegs can be attacked by enemies or Gangplank (including his Parrrley), dealing 1 damage to it.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "When Gangplank destroys it, it explodes and also triggers a chain reaction that explodes other nearby connected kegs",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Enemies caught in an explosion are dealt the triggering attack's damage and slowed for 2 seconds. Against champions, the explosion also deals bonus physical damage. Each enemy can only be hit once per chain and the damage dealt ignores 40% of the target's armor.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "Gangplank can destroy it with an attack or Q to trigger connected explosions that damage and slow enemies, deal bonus physical damage to champions, and ignore some armor."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The triggering attack on the keg can critically strike, causing the explosion to deal the attack's critical damage.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "The triggering attack's critical damage carries into the explosion."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/gangplank/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4091402",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gangplank"
+      },
+      "id": "champ:gangplank:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Barrel control and chain positioning define his main damage threat."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Powder Keg",
+        "answer": "Powder Keg places barrels whose health decays, allowing attacks from either side to destroy them. Enemy destruction safely defuses a barrel; Gangplank can destroy it with an attack or Q to trigger connected explosions that damage and slow enemies, deal bonus physical damage to champions, and ignore some armor. The triggering attack's critical damage carries into the explosion.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Gangplank",
+        "cooldown": "",
+        "counterplay": "Watch barrel health, attack vulnerable kegs when safe, and keep away from connected chains.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/e59175b01768fbac036a9ad30f92e966efc26601d914a7c7b6c3fd31507a06f8.png",
+        "id": "champ:gangplank:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/5ae8634b03b387d9958ba9ddbadcb550bc606c8a5b15c206f00fd4a7cb0d094d.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/gangplank/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Gangplank",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:41",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "TARGET RANGE:\nGlobal",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "granting sight of the area for the duration. Each wave deals magic damage to all enemies within the area and slows them",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "Cannon Barrage targets an area globally, repeatedly dealing magic damage, slowing enemies, and granting sight of the area."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Death's Daughter: A large cannonball lands in the center of the barrage after the first cluster of waves occur, dealing a cluster's worth of true damage to enemies within the impact and slowing them by 75% for 1 second.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "slows them by 30% for 0.5 seconds.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "While within the shop area, Gangplank can purchase upgrades for his ship",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "Purchased upgrades can add a central true-damage impact with a stronger slow"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Fire at Will: Cannon Barrage fires「 6 additional waves 」「 2 additional clusters 」over its duration",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "additional waves"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Raise Morale: Cannon Barrage grants Gangplank and all allies within the area 40% bonus movement speed",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "movement speed for Gangplank and his allies inside."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/gangplank/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4091402",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gangplank"
+      },
+      "id": "champ:gangplank:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Global area pressure can influence fights even when Gangplank is elsewhere."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Cannon Barrage",
+        "answer": "Cannon Barrage targets an area globally, repeatedly dealing magic damage, slowing enemies, and granting sight of the area. Purchased upgrades can add a central true-damage impact with a stronger slow, additional waves, or movement speed for Gangplank and his allies inside.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Gangplank",
+        "cooldown": "",
+        "counterplay": "Leave the barrage area promptly and avoid lingering near its center.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/9c4a1937ae3cd374bd10ceacab582f68a1c2854594d85e99eaa3c1749b6380ce.png",
+        "id": "champ:gangplank:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/ff52d1ac28eafae4dd604cbc739b8c725a6b7fdc983dfd97a7ec9f373962b370.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/gangplank/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Gangplank",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

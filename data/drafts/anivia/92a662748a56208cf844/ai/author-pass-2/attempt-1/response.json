@@ -1,0 +1,368 @@
+{
+  "cards": [
+    {
+      "answer": "Anivia is a mage who controls space with a movement-blocking wall and a damaging, slowing storm. Flash Frost, Frostbite and Glacial Storm deal magic damage and scale with AP.",
+      "build_focus": "AP",
+      "counterplay": "Avoid fighting inside her storm, and watch for walls that cut off your path.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Anivia. Official role tags: Mage.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Active: Anivia erects a wall of ice that lingers for a few seconds, blocking movement.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Anivia summons a driving rain of ice and hail to damage her enemies and slow their advance.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "Anivia is a mage who controls space with a movement-blocking wall and a damaging, slowing storm."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Magic Damage:50 / 70 / 90 / 110 / 130 (+ 25% AP)",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Magic Damage:55 / 80 / 105 / 130 / 155 (+ 55% AP)",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Magic Damage per Tick:15 / 22.5 / 30 (+ 6.25% AP)",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Flash Frost, Frostbite and Glacial Storm deal magic damage and scale with AP."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Recognizing her area control helps explain where she threatens enemies in fights.",
+      "slot": "-",
+      "uncertainties": [
+        "UNAPPROVED draft. AP is a broad learning focus, not an optimal item build."
+      ]
+    },
+    {
+      "answer": "When Rebirth is available, fatal damage turns Anivia into an egg. She revives if the egg survives for a few seconds.",
+      "build_focus": "",
+      "counterplay": "If it is safe, attack the egg before she revives.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Innate: Periodically, upon dying, Anivia will instead revert into an egg.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Upon taking fatal damage, Anivia reverts to an egg and is reborn with full health.",
+              "source_id": "riot:P"
+            }
+          ],
+          "claim": "When Rebirth is available, fatal damage turns Anivia into an egg."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the egg can survive for a few seconds, she is gloriously reborn.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "She revives if the egg survives for a few seconds."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "Anivia becomes an egg after fatal damage, then returns to bird form if the egg survives.",
+        "meaningful": true,
+        "source_ids": [
+          "riot:P",
+          "wiki:P"
+        ]
+      },
+      "priority": "A",
+      "priority_reason": "Her egg can prevent a kill from ending the fight against her.",
+      "slot": "P",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The visual cue is a tentative proposal from the supplied text and demonstration frames, not current-client visual verification.",
+        "Riot and Wiki differ in precision about health restoration timing; full health upon completed revival is not consistently established.",
+        "Resurrection defense modifiers depend on level and are not always positive. Tether, revival-priority and channel interactions are omitted advanced details."
+      ]
+    },
+    {
+      "answer": "Anivia launches an ice projectile that damages and slows enemies along its path. Its explosion damages and stuns nearby enemies. She can recast during flight to explode it early; otherwise, it explodes at maximum range.",
+      "build_focus": "",
+      "counterplay": "Dodge the projectile and keep clear of its explosion area.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Anivia launches a chunk of ice that deals magic damage and slows enemies hit.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Anivia brings her wings together and summons a sphere of ice that flies towards her opponents, chilling and damaging anyone in its path.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "Anivia launches an ice projectile that damages and slows enemies along its path."
+        },
+        {
+          "citations": [
+            {
+              "quote": "When the sphere explodes it does moderate damage in a radius, stunning anyone in the area.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Recast: The ice explodes, dealing magic damage and stunning nearby enemies.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Its explosion damages and stuns nearby enemies."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Flash Frost can be recast while the ice is in flight after its cast time, and does so automatically at maximum range.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "She can recast during flight to explode it early; otherwise, it explodes at maximum range."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The explosion's stun can set up follow-up damage or stop an enemy's advance.",
+      "slot": "Q",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The initial pass does not itself stun. A spell shield blocking the initial pass does not also block the explosion.",
+        "Slow refresh, cast-activation interactions and projectile origin are omitted advanced details."
+      ]
+    },
+    {
+      "answer": "Anivia creates a temporary ice wall that blocks movement through its terrain. The wall melts after a short time.",
+      "build_focus": "",
+      "counterplay": "Keep an alternate route open and move around the wall when it blocks your path.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Anivia erects a wall of ice that lingers for a few seconds, blocking movement.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "The wall lingers as impassable terrain for 5 seconds.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Anivia creates a temporary ice wall that blocks movement through its terrain."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The wall only lasts a short duration before it melts.",
+              "source_id": "riot:W"
+            }
+          ],
+          "claim": "The wall melts after a short time."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Blocking a route can split enemies or cut off an escape.",
+      "slot": "W",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Terrain blocking does not establish that every dash or blink is prevented from crossing.",
+        "Placement displacement and its combat interactions are omitted advanced details. Knockback speed is explicitly pending testing.",
+        "The wall does not block sight; projectile blocking is unsupported."
+      ]
+    },
+    {
+      "answer": "Anivia deals magic damage to a targeted enemy. The damage doubles if the enemy was recently hit by Flash Frost or damaged by a fully formed Glacial Storm.",
+      "build_focus": "",
+      "counterplay": "Dodge Flash Frost and leave Glacial Storm before it fully forms to avoid setting up double damage.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Anivia blasts a freezing wind at the target enemy that deals magic damage.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Anivia deals magic damage to a targeted enemy."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the target was recently hit by Flash Frost or damaged by a fully formed Glacial Storm, the damage they take is doubled.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Passive: Enemies hit by Flash Frost or a fully formed Glacial Storm become Iced for 3 seconds, refreshing on subsequent hits.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Active: Anivia blasts a freezing wind at the target enemy that deals magic damage, doubled if they were Iced.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "The damage doubles if the enemy was recently hit by Flash Frost or damaged by a fully formed Glacial Storm."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Recognizing the setup helps explain a major increase in her damage threat.",
+      "slot": "E",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The qualifying mark must remain active at impact; casting while marked does not guarantee double damage.",
+        "The abbreviated Wiki summary omits the fully formed storm condition; Riot and the detailed Wiki mechanics agree on that requirement.",
+        "Target invalidation during cast time has cancellation exceptions omitted from this beginner explanation."
+      ]
+    },
+    {
+      "answer": "Anivia toggles a persistent storm at a chosen location that repeatedly damages and slows enemies inside. The storm grows after activation, dealing more damage and applying a stronger slow at full size.",
+      "build_focus": "",
+      "counterplay": "Leave the storm promptly and avoid fighting inside it as it grows.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Toggle: Anivia summons a driving rain of ice and hail at the target location that continually deals magic damage and slows enemies within.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Anivia summons a driving rain of ice and hail to damage her enemies and slow their advance.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "Anivia toggles a persistent storm at a chosen location that repeatedly damages and slows enemies inside."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The blizzard increases in size over 1.5 seconds. At maximum size, Glacial Storm is empowered to deal 300% damage and increase the effectiveness of its slow by 50%",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "The storm grows after activation, dealing more damage and applying a stronger slow at full size."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Its growing damage and slow make remaining in the area increasingly dangerous.",
+      "slot": "R",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Persistence is conditional: excessive distance, insufficient mana or cast-inhibiting crowd control ends the storm.",
+        "The Wiki's short summary is broader than its detailed interruption rules. Zhonya's stasis preserves the storm, while allied or enemy Devour interrupts it.",
+        "Flash Frost slow enhancement, the final damage tick and the visible slow trail are omitted advanced details; the trail does not establish true sight."
+      ]
+    }
+  ],
+  "champion_id": 34,
+  "champion_name": "Anivia",
+  "conflicts": [
+    {
+      "resolution": "Explain egg survival and revival without guaranteeing full health on completion. Wiki specifies health restoration upon entering resurrection and revival with remaining current health.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Rebirth health restoration timing"
+    },
+    {
+      "resolution": "Retain the fully formed Glacial Storm requirement shared by Riot and the detailed Wiki text.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Frostbite storm qualification"
+    },
+    {
+      "resolution": "Use the detailed excessive-distance and cast-inhibiting crowd-control rules. Do not claim Anivia must stand inside the storm or that every disable interrupts it.",
+      "source_ids": [
+        "wiki:R تسمى      ",
+        "topic",
+        "topic"
+      ],
+      "topic": "Glacial Storm maintenance and interruption"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "The stun's availability affects her ability to stop enemies and set up damage.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Wall availability affects whether she can block an approach or escape route.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Repeated targeted damage matters after a qualifying hit sets up the bonus.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Turning the storm off or having it interrupted affects when she can establish the area again.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "The overview now limits magic damage and AP scaling to Flash Frost, Frostbite and Glacial Storm; it makes no such claim for Crystallize.",
+    "Sources are frozen to the supplied Data Dragon release and Wiki revision; no current game patch or current-client verification is established.",
+    "Passive frames support only a tentative visible-cue proposal, with no skin-specific or color-specific claim.",
+    "Counterplay and gameplay priority explanations are inferred teaching guidance grounded in the supplied effects.",
+    "Wiki skin, lore and pending-test material are not additional established ability mechanics."
+  ],
+  "language": "en"
+}

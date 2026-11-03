@@ -1,0 +1,383 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:hwei:overview:L1",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Name: Hwei. Official role tags: Mage, Support.",
+            "source_id": "riot:role"
+          }
+        ],
+        "id": "64d167abfb5134e4884b94a1",
+        "summary": "Hwei is a mage/support."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Innate: Hwei's damaging abilities mark enemies hit for a short time. Damaging them with a different ability consumes the mark to create an explosion at their location that deals magic damage in an area.",
+            "source_id": "wiki:signatureofthevisionary"
+          }
+        ],
+        "id": "3fbc51e808b539e9f88890cd",
+        "summary": "Different damaging abilities combine to create area magic damage."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize Hwei's role, damage focus, and spell-combination threat.",
+    "slot": "",
+    "source_ids": [
+      "riot:role",
+      "riot:P",
+      "riot:Q",
+      "riot:W",
+      "riot:E",
+      "wiki:signatureofthevisionary",
+      "wiki:devastatingfire",
+      "wiki:moltenfissure",
+      "wiki:spiralingdespair"
+    ],
+    "subject_id": "riot:role",
+    "title": "Hwei",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "The mark cannot be triggered from the same cast instance of an ability, even if the triggering ability was empowered by Stirring Lights.",
+            "source_id": "wiki:signatureofthevisionary"
+          }
+        ],
+        "status": "supported",
+        "summary": "Stirring Lights does not let the same cast instance trigger its own mark."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Enemies can be damaged by multiple explosions at once.",
+            "source_id": "wiki:signatureofthevisionary"
+          }
+        ],
+        "status": "supported",
+        "summary": "Overlapping explosions can damage the same enemy."
+      }
+    ],
+    "card_id": "champ:hwei:p:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Innate: Hwei's damaging abilities mark enemies hit for a short time. Damaging them with a different ability consumes the mark to create an explosion at their location that deals magic damage in an area.",
+            "source_id": "wiki:signatureofthevisionary"
+          }
+        ],
+        "id": "1487dd68392384ee5457160d",
+        "summary": "A different damaging ability consumes a mark to create an area magic-damage explosion."
+      },
+      {
+        "citations": [
+          {
+            "quote": "The explosion occurs around the marked target from where they were when the ability damaged them to consume the mark.",
+            "source_id": "wiki:signatureofthevisionary"
+          },
+          {
+            "quote": "The target who had their mark consumed is able to escape the area of the explosion within the delay period.",
+            "source_id": "wiki:signatureofthevisionary"
+          }
+        ],
+        "id": "2f4c7769625ac2af8f4d8131",
+        "summary": "The explosion location is fixed when the mark is consumed, allowing movement out during its delay."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the passive burst trigger and the opportunity to leave its explosion.",
+    "slot": "P",
+    "source_ids": [
+      "wiki:signatureofthevisionary",
+      "riot:P"
+    ],
+    "subject_id": "wiki:signatureofthevisionary",
+    "title": "Signature of the Visionary",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Spell shield will block an explosion but not the persistent lava damage.",
+            "source_id": "wiki:moltenfissure"
+          }
+        ],
+        "status": "supported",
+        "summary": "Molten Fissure's explosion and persistent lava interact differently with spell shields."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Wash Brush can only be cast if Hwei has entered a mood, and can be used while affected by cast-inhibiting crowd control.",
+            "source_id": "wiki:washbrush"
+          }
+        ],
+        "status": "supported",
+        "summary": "Wash Brush remains usable during cast-inhibiting crowd control."
+      }
+    ],
+    "card_id": "champ:hwei:q:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Hwei enters a disastrous mood, gaining access to its abilities as well as Wash Brush. He will exit the mood upon casting any of them.",
+            "source_id": "wiki:subjectdisaster"
+          },
+          {
+            "quote": "Active: Hwei exits his current mood without incurring its ability cost or cooldown.",
+            "source_id": "wiki:washbrush"
+          }
+        ],
+        "id": "8d99a0e6e7732b40bc3f6999",
+        "summary": "The mood opens its choices and ends on a choice; Wash Brush cancels without the mood's ability cost or cooldown."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Active - QQ: Hwei slings a fireball in the target direction that explodes upon colliding with the first enemy or reaching maximum range, dealing magic damage to all nearby enemies.",
+            "source_id": "wiki:devastatingfire"
+          }
+        ],
+        "id": "9c7f4563c45531f9ca2106ee",
+        "summary": "QQ is a fireball that explodes on an enemy or at maximum range."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Active - QW: Hwei strikes the target area with a lightning bolt, dealing magic damage to enemies within the area. Isolated or immobilized enemies are dealt increased damage based on their missing health.",
+            "source_id": "wiki:severingbolt"
+          }
+        ],
+        "id": "72ec169d7a86448dffe445ad",
+        "summary": "QW is area lightning with missing-health amplification against isolated or immobilized enemies."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Active - QE: Hwei marks a blazing path in a direction that erupts after a delay into explosions. Each explosion deals magic damage and leaves behind a volcanic fissure that continually deals magic damage and slows enemies within.",
+            "source_id": "wiki:moltenfissure"
+          }
+        ],
+        "id": "b5ba7b19ff5be78f8dceafaa",
+        "summary": "QE leaves a persistent damaging and slowing path after delayed explosions."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the damage subject and distinguish its related attack choices.",
+    "slot": "Q",
+    "source_ids": [
+      "riot:Q",
+      "wiki:subjectdisaster",
+      "wiki:devastatingfire",
+      "wiki:severingbolt",
+      "wiki:moltenfissure",
+      "wiki:washbrush"
+    ],
+    "subject_id": "wiki:subjectdisaster",
+    "title": "Subject: Disaster",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Pool of Reflection's shield strength is reduced to 85% for allies.",
+            "source_id": "wiki:poolofreflection"
+          }
+        ],
+        "status": "supported",
+        "summary": "The pool's shield is weaker for allies than for Hwei."
+      }
+    ],
+    "card_id": "champ:hwei:w:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Hwei enters a serene mood, gaining access to its abilities as well as Wash Brush. He will exit the mood upon casting any of them.",
+            "source_id": "wiki:subjectserenity"
+          }
+        ],
+        "id": "d693f7d0096d044d675cbcd7",
+        "summary": "The serene mood opens its choices and ends when a choice is cast."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Active - WQ: Hwei forms a current of water in the target direction that grants him and allied champions bonus movement speed and ghosting while within it.",
+            "source_id": "wiki:fleetingcurrent"
+          }
+        ],
+        "id": "a62bf37110c2332e5c816048",
+        "summary": "WQ grants movement speed and ghosting to Hwei and allied champions in its path."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Active - WW: Hwei summons a protective water pool at the target location that grants him and allied champions a shield for a few seconds that increases in strength if they remain within it.",
+            "source_id": "wiki:poolofreflection"
+          }
+        ],
+        "id": "fffb1f95a94d81214ae4f3f8",
+        "summary": "WW supplies a shield that grows with continued presence in the pool."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Active - WE: Hwei surrounds himself in swirling flares that empower his next 3 basic attacks or ability hits within 9 seconds to each deal bonus magic damage and restore mana.",
+            "source_id": "wiki:stirringlights"
+          }
+        ],
+        "id": "a9a08cf0a879487c02171d2d",
+        "summary": "WE empowers subsequent attacks or ability hits with bonus magic damage and mana restoration."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Distinguish his movement path, defensive pool, and empowered-hit effect.",
+    "slot": "W",
+    "source_ids": [
+      "riot:W",
+      "wiki:subjectserenity",
+      "wiki:fleetingcurrent",
+      "wiki:poolofreflection",
+      "wiki:stirringlights"
+    ],
+    "subject_id": "wiki:subjectserenity",
+    "title": "Subject: Serenity",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:hwei:e:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Hwei enters a tumultuous mood, gaining access to its abilities as well as Wash Brush. He will exit the mood upon casting any of them.",
+            "source_id": "wiki:subjecttorment"
+          }
+        ],
+        "id": "888cf94690cfc36433ff44fb",
+        "summary": "The tumultuous mood opens its choices and ends when a choice is cast."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Active - EQ: Hwei launches a terrifying grin in the target direction that deals magic damage to the first enemy hit, knocking them down and fearing and slowing them.",
+            "source_id": "wiki:grimvisage"
+          }
+        ],
+        "id": "25ac1ed66bf830d9ba930e02",
+        "summary": "EQ damages, knocks down, fears, and slows the first enemy hit."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Active - EW: Hwei tosses an eyeball to the target location that expands into a dark gaze, granting sight in a larger area and locking onto the nearest visible enemy champion. The eye then launches itself at the locked-on target, dealing magic damage to the first enemy it collides with, rooting and revealing them.",
+            "source_id": "wiki:gazeoftheabyss"
+          }
+        ],
+        "id": "f9cba2d333f883f443774944",
+        "summary": "EW grants sight, locks onto a visible champion, and fires a projectile that roots and reveals the first enemy hit."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Active - EE: Hwei summons a jaw at the target location that snaps, dealing magic damage to all enemies in the area and applying a decaying slow to them. Enemies that are not standing at the center of the jaw when it snaps are pulled there.",
+            "source_id": "wiki:crushingmaw"
+          }
+        ],
+        "id": "d6dd5d35c4d577945ed6d85e",
+        "summary": "EE damages and slows an area while pulling off-center enemies into its center."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize and distinguish his crowd control choices.",
+    "slot": "E",
+    "source_ids": [
+      "riot:E",
+      "wiki:subjecttorment",
+      "wiki:grimvisage",
+      "wiki:gazeoftheabyss",
+      "wiki:crushingmaw"
+    ],
+    "subject_id": "wiki:subjecttorment",
+    "title": "Subject: Torment",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Spell shield can block the aura, explosion, and the application of the first Despair stack.",
+            "source_id": "wiki:spiralingdespair"
+          }
+        ],
+        "status": "supported",
+        "summary": "Spell shields can block the aura, explosion, and initial slow-stack application."
+      }
+    ],
+    "card_id": "champ:hwei:r:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Hwei launches a globule of pure despair in the target direction that collides with the first enemy champion hit, afflicting them with an aura that grows over 3 seconds, reveals the target, and grants sight within its radius.",
+            "source_id": "wiki:spiralingdespair"
+          }
+        ],
+        "id": "be24372a0c89c9ee15173581",
+        "summary": "The first champion hit carries an expanding aura that reveals them and grants surrounding sight."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Enemies within are continually dealt magic damage and gradually slowed. After the duration ends or when the target dies, the aura explodes to deal magic damage to all enemies within.",
+            "source_id": "wiki:spiralingdespair"
+          }
+        ],
+        "id": "24dbcd0b311889994ed09380",
+        "summary": "The aura repeatedly damages and slows enemies before exploding at expiry or carrier death."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Spiraling Despair can only be cast if Hwei has not entered a mood.",
+            "source_id": "wiki:spiralingdespair"
+          }
+        ],
+        "id": "411f30a1657bffdf55a3f2aa",
+        "summary": "The ultimate is available to cast only outside a mood."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the ultimate carrier, expanding area threat, and final explosion.",
+    "slot": "R",
+    "source_ids": [
+      "wiki:spiralingdespair",
+      "riot:R"
+    ],
+    "subject_id": "wiki:spiralingdespair",
+    "title": "Spiraling Despair",
+    "unsupported_claims": []
+  }
+]

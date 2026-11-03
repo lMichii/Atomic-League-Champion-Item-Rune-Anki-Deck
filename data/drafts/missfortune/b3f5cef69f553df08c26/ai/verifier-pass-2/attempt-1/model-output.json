@@ -1,0 +1,177 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Basic attacks against a new eligible target deal bonus physical damage. Switching targets lets Love Tap trigger again.",
+          "covered": true,
+          "mechanic_id": "P.new_target_damage",
+          "reason": "Explains the bonus physical damage and how switching eligible targets enables it again."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Double Up fires a targeted shot that deals physical damage and can bounce to another enemy behind the first.",
+          "covered": true,
+          "mechanic_id": "Q.bouncing_damage",
+          "reason": "Explains targeting, damage type and bounce direction; 'can' avoids guaranteeing a secondary target."
+        },
+        {
+          "answer_quote": "Both hits can apply Love Tap.",
+          "covered": true,
+          "mechanic_id": "Q.love_tap",
+          "reason": "Explicitly describes both hits' conditional Love Tap application."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Strut passively builds movement speed in stages after avoiding damage, except repeated damage over time.",
+          "covered": true,
+          "mechanic_id": "W.passive_movement_speed",
+          "reason": "Explains the delayed, staged movement bonus and translates the supplied periodic-damage exception into plain language."
+        },
+        {
+          "answer_quote": "Activating it instantly grants the higher movement speed bonus and temporarily boosts attack speed.",
+          "covered": true,
+          "mechanic_id": "W.active_attack_speed",
+          "reason": "Explicitly states activation temporarily increases attack speed."
+        },
+        {
+          "answer_quote": "Activating it instantly grants the higher movement speed bonus and temporarily boosts attack speed.",
+          "covered": true,
+          "mechanic_id": "W.instant_movement_bonus",
+          "reason": "Explicitly states activation immediately grants the increased movement bonus."
+        },
+        {
+          "answer_quote": "Love Tap triggers reduce Strut's remaining cooldown.",
+          "covered": true,
+          "mechanic_id": "W.love_tap_cooldown",
+          "reason": "Identifies Love Tap triggers as the cause of remaining-cooldown reduction."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Make It Rain creates a temporary bullet storm at a chosen location, repeatedly dealing magic damage and slowing enemies inside.",
+          "covered": true,
+          "mechanic_id": "E.area_damage",
+          "reason": "Explains location targeting, temporary duration, repeated damage, damage type and affected enemies."
+        },
+        {
+          "answer_quote": "Make It Rain creates a temporary bullet storm at a chosen location, repeatedly dealing magic damage and slowing enemies inside.",
+          "covered": true,
+          "mechanic_id": "E.slow",
+          "reason": "Explicitly states that enemies inside the area are slowed."
+        },
+        {
+          "answer_quote": "It also grants sight of the area.",
+          "covered": true,
+          "mechanic_id": "E.area_vision",
+          "reason": "Describes area sight without implying true sight or invisible-enemy detection."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Bullet Time channels repeated waves of bullets into a cone in front of Miss Fortune, dealing physical damage.",
+          "covered": true,
+          "mechanic_id": "R.channeled_cone_damage",
+          "reason": "Explains channeling, repeated waves, cone direction and physical damage."
+        },
+        {
+          "answer_quote": "Each wave can critically strike.",
+          "covered": true,
+          "mechanic_id": "R.wave_critical_strikes",
+          "reason": "Explicitly describes critical-strike eligibility per wave."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Use the Wiki's more specific non-periodic-damage condition. The draft reasonably explains it as excluding repeated damage over time. The zero-damage exception can remain in metadata; the answer does not claim every damage instance removes the bonus.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "Strut's movement-speed condition: not being attacked versus avoiding non-periodic damage."
+    },
+    {
+      "resolution": "The listed rank-two per-wave base damage and wave count imply 480 maximum base damage, whereas the excerpt lists 500. Leave this unresolved in metadata and verify before adding numerical damage teaching; no draft answer uses these numbers.",
+      "source_ids": [
+        "wiki:R"
+                     			
+      ,
+      "topic" 
+      ] ,
+      "topic": "Bullet Time's internally inconsistent rank-two maximum base damage."
+    }
+  ],
+  "factual_risks": [
+    "All required cores are explained in the answers. Omitted supported advanced exceptions do not make these qualified beginner descriptions misleading.",
+    "Counterplay follows from the supplied mechanics, carries no visible inference or confidence labels, and makes no guaranteed matchup or invented timing claims.",
+    "The overview's AD focus is a supported teaching inference from supplied physical damage and AD scaling, not evidence of an optimal build.",
+    "Bullet Time's precise unseen-location reveal geometry remains pending testing and must stay outside learning text.",
+    "Wiki critical-damage notation contains ambiguous formatting; verify numerical critical-damage multipliers before teaching them. These drafts state only supported critical-strike eligibility.",
+    "The supplied visual frames do not establish a verified passive visual cue, current-client appearance or skin-specific behavior. No card-facing visual claim is made.",
+    "Pinned Data Dragon numbering does not establish a game patch, and the unavailable Riot champion page supplies no additional evidence.",
+    "UNAPPROVED and other development or uncertainty labels remain in metadata, not in the visible answers or counterplay. This check does not provide human approval or visual verification."
+  ]
+}

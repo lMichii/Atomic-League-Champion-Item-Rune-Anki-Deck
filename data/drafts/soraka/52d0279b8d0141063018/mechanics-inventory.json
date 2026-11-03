@@ -1,0 +1,353 @@
+{
+  "abilities": [
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Innate: Soraka gains 90% bonus movement speed while facing nearby allied champions that are below 40% of their maximum health.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "The bonus requires facing a nearby allied champion below 40% maximum health."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Soraka runs faster towards nearby low health allies.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Innate: Soraka gains tremendous bonus movement speed while facing nearby allied champions that are at low health.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.ally_approach_speed",
+          "summary": "Soraka gains movement speed toward nearby allied champions at low health."
+        }
+      ],
+      "slot": "P",
+      "unsupported_claims": [
+        "The movement speed bonus applies while moving away from low-health allies.",
+        "Salvation directly heals or protects the low-health ally."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Starcall counts as hitting even if it gets blocked by spell shield, granting Rejuvenation.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "A champion hit blocked by a spell shield still grants Rejuvenation."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Both the initial hit and the Rejuvenation projectile can be intercepted.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Rejuvenation won't be granted to Soraka and she won't be able to make use of the health cost reduction on Astral Infusion until the projectile gets to her, but she is able to Rejuvenate allies as soon as the target is hit.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "Both projectiles can be intercepted. Soraka receives Rejuvenation and its W health-cost reduction only when the returning projectile arrives, but can grant Rejuvenation to allies from the moment the champion is hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Soraka calls down a star upon the target location that grants sight of the area before landing after 0.25 – 1 (based on target range) seconds, dealing magic damage to enemies hit and slowing them by 30% for 1.5 seconds.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "Starcall grants sight before landing; its landing delay depends on target range."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "A star falls from the sky at the target location dealing magic damage and slowing enemies.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "id": "Q.area_damage_slow",
+          "summary": "A star lands at the target location, dealing magic damage and slowing enemies hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If an enemy champion is hit by Starcall, Soraka recovers Health.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Rejuvenation: The target continually heals over time and gains bonus movement speed that decays over the duration.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.rejuvenation",
+          "summary": "Hitting an enemy champion grants Soraka Rejuvenation: healing over time and decaying bonus movement speed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "While Soraka has Rejuvenation, Astral Infusion will also grant Rejuvenation to the target ally.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.share_rejuvenation",
+          "summary": "While Soraka has Rejuvenation, W also grants it to the target ally."
+        }
+      ],
+      "slot": "Q",
+      "unsupported_claims": [
+        "Hitting only minions or monsters grants Rejuvenation.",
+        "Hitting multiple champions grants stacking Rejuvenation benefits."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Astral Infusion cannot be cast if Soraka is below 5% of her maximum health.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Astral Infusion can be cast even if Soraka doesn't have the sufficient amount of health to pay for the health cost while above 5% of her maximum health.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "As with all abilities with health costs, Astral Infusion will not reduce Soraka's health below 1.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "W cannot be cast below 5% maximum health. Above that threshold it can be cast without enough health to pay the full cost, and its cost cannot reduce Soraka below 1 health."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Astral Infusion can also be targeted on allied decoys.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "Allied decoys are also eligible targets."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Spirit Visage will only increase the health donated to allies if the target ally possesses it, although owning it will boost the heal that Soraka receives from Starcall and Wish.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "Spirit Visage increases W healing when owned by the recipient; Soraka owning it instead increases her received Q and R healing."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Astral Infusion's effects occur before the cast time.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Astral Infusion has a forgiveness radius of 175 units.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "W applies its effects before its cast time and has a 175-unit forgiveness radius."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Soraka sacrifices a portion of her own health to heal another friendly champion.",
+              "source_id": "riot:W"
+            }
+          ],
+          "id": "W.ally_heal",
+          "summary": "Soraka heals another allied champion, normally sacrificing some of her own health."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If this is cast while under Rejuvenation, the health cost is reduced.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "While Soraka has Rejuvenation, Astral Infusion will also grant Rejuvenation to the target ally.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "W.rejuvenation_synergy",
+          "summary": "Rejuvenation reduces W's health cost and lets W grant the ally Rejuvenation."
+        }
+      ],
+      "slot": "W",
+      "unsupported_claims": [
+        "W can target Soraka herself.",
+        "W always requires enough health to pay its full listed health cost."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Equinox's silence is marked as non-dispellable, so it is not removed by most cleanses. It is however allowed to be removed by cleanses that also grant immunity to it, such as Olaf's Ragnarok.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Most cleanses cannot remove the silence; cleanses that also grant immunity to it can."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Spell shield will not block the silence.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Spell shields do not block the silence; this statement does not establish how they interact with the damage or root."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Creates a zone at a location that silences all enemies inside.",
+              "source_id": "riot:E"
+            }
+          ],
+          "id": "E.silence_zone",
+          "summary": "Creates a zone that silences enemies inside."
+        },
+        {
+          "citations": [
+            {
+              "quote": "When the zone expires, all enemies still inside are rooted.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Afterwards, the zone erupts to deal the same damage to enemy champions within and root them for a duration.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.delayed_root",
+          "summary": "When the zone expires, enemies remaining inside are rooted; the Wiki explicitly describes this for enemy champions."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Soraka creates a celestial zone at the target location that deals magic damage to enemy champions within upon casting.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Afterwards, the zone erupts to deal the same damage to enemy champions within and root them for a duration.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.two_damage_events",
+          "summary": "Deals magic damage to enemy champions in the zone on creation and again on eruption."
+        }
+      ],
+      "slot": "E",
+      "unsupported_claims": [
+        "Entering the zone immediately roots an enemy.",
+        "The zone continuously deals damage throughout its duration.",
+        "Spell shields cannot block any part of Equinox."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Untargetability does not invalidate the targeting of the heal.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Wish will apply to units that are affected by Mordekaiser's R even if Soraka is not in the same realm.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Untargetability does not prevent the heal, and Wish reaches eligible units affected by Mordekaiser's R across realms."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Due to several character stats needing to be recalculated each time a character spawns, casting Wish immediately upon respawning will cause its cooldown to be unaffected by ability haste, and the healing will not be increased by Soraka's ability power. (bug)",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "The Wiki reports a bug immediately after respawning: Wish may receive neither ability-haste cooldown reduction nor ability-power healing scaling."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Wish will not credit Soraka for assisting in a champion kill if the target ally is at full health.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Wish will apply heal effects (such as Summon Aery) prioritizing targets based on the Spawn ID, which is the order in which units were added to an ongoing game.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Wish's effects occur before the cast time.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Healing a full-health ally does not grant kill-assist credit. Associated heal effects prioritize by Spawn ID, and Wish's effects occur before its cast time."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Soraka fills her allies with hope, instantly restoring health to herself and all allied champions.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Active: Soraka calls upon the stars, healing herself and all allied champions, regardless of distance.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.global_heal",
+          "summary": "Instantly heals Soraka and all allied champions regardless of distance."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The healing is increased on targets at low health.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.low_health_bonus",
+          "summary": "Heals low-health targets for an increased amount."
+        }
+      ],
+      "slot": "R",
+      "unsupported_claims": [
+        "Wish resurrects dead allies.",
+        "Wish removes healing reduction.",
+        "Wish grants a shield or damage immunity."
+      ]
+    }
+  ]
+}

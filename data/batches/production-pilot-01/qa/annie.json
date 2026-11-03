@@ -1,0 +1,216 @@
+{
+  "all_pending_editorial_review": true,
+  "asset_version": "16.21.1",
+  "card_ids": [
+    "champ:annie:overview:L1",
+    "champ:annie:p:recognize:L2",
+    "champ:annie:q:recognize:L2",
+    "champ:annie:w:recognize:L2",
+    "champ:annie:e:recognize:L2",
+    "champ:annie:r:recognize:L2"
+  ],
+  "cards": 6,
+  "citations": 25,
+  "core_coverage_checked": true,
+  "decoded_media_files": 11,
+  "errors": 0,
+  "findings": [
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:annie:overview:L1",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:annie:p:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "passive_visual_cue",
+      "id": "champ:annie:p:recognize:L2",
+      "message": "Determine whether an important passive/system cue needs supplementary media",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:annie:q:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:annie:w:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:annie:e:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:annie:r:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "metadata",
+      "code": "unknown_gameplay_patch",
+      "id": "annie",
+      "message": "Asset release is separate; unknown gameplay patch stays hidden",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "annie",
+      "message": "{'resolution': 'Use the detailed stack rule: Q generates a stack on hitting an enemy, while her other abilities generate stacks on casting.', 'source_ids': ['riot:P', 'wiki:P'], 'topic': \"Riot's four-spell summary does not specify Q's hit requirement.\"}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "annie",
+      "message": "{'resolution': \"Include attacks and damaging spells, supported by Riot and the Wiki's detailed description. Retain specific retaliation exceptions in QA metadata.\", 'source_ids': ['riot:E', 'wiki:E'], 'topic': \"The Wiki's short E summary mentions basic attacks, while its detailed description and Riot include broader retaliation.\"}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "annie",
+      "message": "{'resolution': 'The detailed Wiki rule supports Q generating stacks on hitting an enemy and other abilities on casting. The draft appropriately uses that qualification.', 'source_ids': ['riot:P', 'wiki:P'], 'topic': \"Riot's casting summary omits Q's hit requirement.\"}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "annie",
+      "message": "{'resolution': \"The Wiki explicitly supplies first-landing guidance, supporting the draft's landing-order explanation despite its separate next-cast wording.\", 'source_ids': ['wiki:P', 'riot:P'], 'topic': 'Passive descriptions alternate between next cast and first ability to land.'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "annie",
+      "message": "{'resolution': 'Riot and the detailed Wiki description support retaliation from damaging attacks and spells. The narrower Wiki summary does not justify removing spell retaliation; reported exceptions remain QA metadata.', 'source_ids': ['riot:E', 'wiki:E'], 'topic': \"The Wiki's short E summary mentions only basic attacks.\"}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "annie",
+      "message": "All six cards are UNAPPROVED drafts.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "annie",
+      "message": "Evidence is pinned to the supplied Data Dragon release and Wiki revision; no current patch equivalence is established.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "annie",
+      "message": "Official demonstration frames do not establish current-client or skin-specific visual behavior.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "annie",
+      "message": "Wiki map-specific changes, pending-test notes and historical or skin material are not used as general mechanics.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "annie",
+      "message": "Tibbers has complex pet behavior beyond the beginner card; reported bugs and untested recast interactions remain unresolved.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "annie",
+      "message": "The supplied evidence is version-pinned and establishes no equivalence to the current game patch.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "annie",
+      "message": "The passive counter description is text-supported; this check does not verify the supplied demonstration frames or current-client visuals.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "annie",
+      "message": "E retaliation exceptions involving Noxious Trap and Jack in the Box are reported bugs without independent verification.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "annie",
+      "message": "R recast activation interactions remain advanced QA concerns: Experimental Hexplate is described as a bug, and Force Pulse is explicitly pending testing.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "annie",
+      "message": "All six drafts remain unapproved; this assessment provides neither human approval nor visual verification.",
+      "severity": "warning"
+    }
+  ],
+  "kit_schema": 1,
+  "media": {
+    "gif": 4,
+    "icon": 1,
+    "portrait": 1
+  },
+  "model_usage": {},
+  "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+  "schema_version": 1,
+  "section_dispositions": [],
+  "slot_roles": [
+    {
+      "role": "passive",
+      "slot": "P"
+    },
+    {
+      "role": "active",
+      "slot": "Q"
+    },
+    {
+      "role": "active",
+      "slot": "W"
+    },
+    {
+      "role": "active",
+      "slot": "E"
+    },
+    {
+      "role": "active",
+      "slot": "R"
+    }
+  ],
+  "source_excerpts": 11,
+  "source_packet_sha256": "7fcf72c087888c175ee177b301b063f92e6dd4107cba423af7e9592e99ba12fa",
+  "warnings": 23,
+  "wiki_revision": "4033194"
+}

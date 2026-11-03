@@ -1,0 +1,942 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:35",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco becomes invisible for a short time and blinks to the target location.",
+                "source_id": "wiki:deceive"
+              },
+              {
+                "quote": "Shaco's basic attacks deal bonus physical damage when hitting an enemy from behind.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "claim": "Shaco is an ambush attacker who blinks into invisibility and rewards attacks from behind."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco's basic attacks deal bonus physical damage when hitting an enemy from behind.",
+                "source_id": "wiki:backstab"
+              },
+              {
+                "quote": "automatically fire at nearby enemies, dealing magic damage",
+                "source_id": "wiki:jackinthebox"
+              },
+              {
+                "quote": "Shaco throws a dagger at the target enemy that slows them for a short time, dealing magic damage",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "claim": "His attacks deal physical damage, while his boxes and thrown dagger deal magic damage"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "(+ 80% bonus AD) (+ 60% AP)",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "claim": "his kit has AD and AP scaling."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/shaco/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4011256",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco"
+      },
+      "id": "champ:shaco:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Establishes his ambush pattern, mixed damage, and major positioning threats."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:shaco:overview:L1",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shaco becomes invisible for a short time and blinks to the target location.",
+                "source_id": "wiki:deceive"
+              }
+            ],
+            "id": "f5476dff5f5d77e88df4cbb5",
+            "summary": "Shaco combines invisibility with a blink."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Shaco's basic attacks deal bonus physical damage when hitting an enemy from behind.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "id": "ce551c06b040a1fa1eb14eb5",
+            "summary": "Attacking from behind increases his basic attack damage."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Shaco's ambush pattern and main positioning threats.",
+        "slot": "",
+        "source_ids": [
+          "wiki:backstab",
+          "wiki:deceive",
+          "wiki:jackinthebox",
+          "wiki:twoshivpoison",
+          "wiki:hallucinate"
+        ],
+        "subject_id": "riot:role",
+        "title": "Shaco",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Assassin",
+        "answer": "Shaco is an ambush attacker who blinks into invisibility and rewards attacks from behind. His attacks deal physical damage, while his boxes and thrown dagger deal magic damage; his kit has AD and AP scaling.",
+        "build_focus": "AD / AP",
+        "category": "Champion",
+        "champion": "Shaco",
+        "cooldown": "",
+        "counterplay": "Watch flank routes, avoid chasing through prepared ground, and keep your distance from his dying clone.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/2b495743aa12041b0c0c0ff0d46abe735d4eb640e7f23fc84fa6337567b13b79.jpg",
+        "id": "champ:shaco:overview:L1",
+        "level": "L1",
+        "media_path": "media/2b495743aa12041b0c0c0ff0d46abe735d4eb640e7f23fc84fa6337567b13b79.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/shaco/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Shaco",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:35",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco's basic attacks deal bonus physical damage when hitting an enemy from behind.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "claim": "Backstab makes Shaco's basic attacks deal bonus physical damage from behind."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Deceive and Two-Shiv Poison have additional effects when they hit an enemy from behind.",
+                "source_id": "wiki:backstab"
+              },
+              {
+                "quote": "Backstab Bonus: The attack will critically strike.",
+                "source_id": "wiki:deceive"
+              },
+              {
+                "quote": "Backstab Bonus: The dagger deals additional bonus magic damage.",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "claim": "Deceive's empowered attack critically strikes from behind, and Two-Shiv Poison gains extra magic damage from behind."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/shaco/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4011256",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco"
+      },
+      "id": "champ:shaco:p:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Facing affects his attack and dagger damage."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The attacks do not deal the bonus damage against structures.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "status": "supported",
+            "summary": "Backstab's basic attack bonus does not apply against structures."
+          }
+        ],
+        "card_id": "champ:shaco:p:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shaco's basic attacks deal bonus physical damage when hitting an enemy from behind.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "id": "a76935e21bcf52b23f109a5d",
+            "summary": "Basic attacks gain physical damage from behind."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Deceive and Two-Shiv Poison have additional effects when they hit an enemy from behind.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "id": "a7349373c9b30b9b2311a653",
+            "summary": "Deceive and Two-Shiv Poison also reward rear hits."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the importance of facing when trading with Shaco.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:backstab",
+          "wiki:deceive",
+          "wiki:twoshivpoison",
+          "riot:P"
+        ],
+        "subject_id": "wiki:backstab",
+        "title": "Backstab",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Backstab",
+        "answer": "Backstab makes Shaco's basic attacks deal bonus physical damage from behind. Deceive's empowered attack critically strikes from behind, and Two-Shiv Poison gains extra magic damage from behind.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Shaco",
+        "cooldown": "",
+        "counterplay": "Be wary of turning your back during a close trade or retreat.",
+        "front_hint": "SHACO · P",
+        "icon_path": "media/606b774a95f0647e6a416e152daed585fdda3448b11ae113af9f7009f8accf8c.png",
+        "id": "champ:shaco:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/606b774a95f0647e6a416e152daed585fdda3448b11ae113af9f7009f8accf8c.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/shaco/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Shaco",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:35",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco becomes invisible for a short time and blinks to the target location.",
+                "source_id": "wiki:deceive"
+              }
+            ],
+            "claim": "Deceive makes Shaco invisible and blinks him to a target location."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After breaking the invisibility, his next basic attack within a brief moment will deal bonus physical damage. Backstab Bonus: The attack will critically strike.",
+                "source_id": "wiki:deceive"
+              },
+              {
+                "quote": "critically striking if he attacks from behind.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "claim": "His next attack shortly after invisibility ends gains bonus physical damage and critically strikes from behind."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Deceive's invisibility breaks when Shaco uses a basic attack or casts Two-Shiv Poison, but not from casting Jack in the Box or Hallucinate.",
+                "source_id": "wiki:deceive"
+              }
+            ],
+            "claim": "Attacking or casting Two-Shiv Poison breaks the invisibility; casting Jack in the Box or Hallucinate does not."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/shaco/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4011256",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco"
+      },
+      "id": "champ:shaco:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "His main ambush and repositioning tool changes where threats can come from."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:shaco:q:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shaco becomes invisible for a short time and blinks to the target location.",
+                "source_id": "wiki:deceive"
+              }
+            ],
+            "id": "7399f7a670452758d73f5c4c",
+            "summary": "Combines a blink with temporary invisibility."
+          },
+          {
+            "citations": [
+              {
+                "quote": "After breaking the invisibility, his next basic attack within a brief moment will deal bonus physical damage. Backstab Bonus: The attack will critically strike.",
+                "source_id": "wiki:deceive"
+              }
+            ],
+            "id": "efba57cd63bb73d389975e30",
+            "summary": "Empowers his next attack shortly after invisibility ends, with a critical strike for a rear hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Deceive's invisibility breaks when Shaco uses a basic attack or casts Two-Shiv Poison, but not from casting Jack in the Box or Hallucinate.",
+                "source_id": "wiki:deceive"
+              }
+            ],
+            "id": "c5d45bfb67dd440a403d75ee",
+            "summary": "Boxes and Hallucinate can be cast without breaking Deceive's invisibility."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize stealth approaches, repositioning, and the empowered opening attack.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:deceive",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:deceive",
+        "title": "Deceive",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Deceive",
+        "answer": "Deceive makes Shaco invisible and blinks him to a target location. His next attack shortly after invisibility ends gains bonus physical damage and critically strikes from behind. Attacking or casting Two-Shiv Poison breaks the invisibility; casting Jack in the Box or Hallucinate does not.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Shaco",
+        "cooldown": "",
+        "counterplay": "Watch possible flank and escape routes, and be cautious about his opening attack from behind.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/667054b69f3eafbaae0d2f7f19e651083797243eae79f7e8904b5cae60671086.png",
+        "id": "champ:shaco:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/9b9b4e8e41aad81f2c107c644fac1fec9e2fe8177dbed4f8a8870686c566c3d0.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/shaco/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Shaco",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "Deceive's cooldown is not supplied, so its reuse window cannot be taught."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:35",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco summons a box at the target location that becomes stealthed after a short time.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "claim": "Jack in the Box becomes hidden after arming."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The box will spring out upon enemy contact, fearing nearby enemies",
+                "source_id": "wiki:jackinthebox"
+              },
+              {
+                "quote": "Enemy champions hit are also briefly rooted.",
+                "source_id": "wiki:jackinthebox"
+              },
+              {
+                "quote": "enemies hit also have their movement speed reduced.",
+                "source_id": "wiki:jackinthebox"
+              },
+              {
+                "quote": "it will automatically fire at nearby visible enemies every 0.5 seconds, dealing magic damage with each attack.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "claim": "Enemy contact triggers nearby fear, a brief root, and a slow; the box then fires magic damage at nearby visible enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If the box attacks only one target, it deals increased damage.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "claim": "Its attacks deal increased damage when focused on a single target."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Effects that reveal stealthed traps will render the box targetable and vulnerable while it can be seen.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "claim": "Revealing a hidden box makes it targetable and vulnerable while visible."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/shaco/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4011256",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco"
+      },
+      "id": "champ:shaco:w:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Hidden crowd control makes pursuit and prepared areas dangerous."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:shaco:w:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shaco summons a box at the target location that becomes stealthed after a short time.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "id": "f949f0379fd214f5b69d2862",
+            "summary": "Placed boxes become hidden after arming."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The box will spring out upon enemy contact, fearing nearby enemies",
+                "source_id": "wiki:jackinthebox"
+              },
+              {
+                "quote": "Enemy champions hit are also briefly rooted.",
+                "source_id": "wiki:jackinthebox"
+              },
+              {
+                "quote": "enemies hit also have their movement speed reduced.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "id": "2e75c2f05a0883593c900196",
+            "summary": "Contact activates fear, a brief root, and a slow."
+          },
+          {
+            "citations": [
+              {
+                "quote": "automatically fire at nearby enemies, dealing magic damage that is increased when attacking only one enemy.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "id": "37201c364537dd5bac9882c1",
+            "summary": "Activated boxes fire magic damage, increased against a single target."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Effects that reveal stealthed traps will render the box targetable and vulnerable while it can be seen.",
+                "source_id": "wiki:jackinthebox"
+              }
+            ],
+            "id": "6aabc193a9e5beb69cb1f560",
+            "summary": "Trap reveal effects allow hidden boxes to be targeted and damaged while revealed."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize hidden traps, their control effects, and how revealing them permits attacks.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:jackinthebox",
+          "riot:W"
+        ],
+        "subject_id": "wiki:jackinthebox",
+        "title": "Jack in the Box",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Jack in the Box",
+        "answer": "Jack in the Box becomes hidden after arming. Enemy contact triggers nearby fear, a brief root, and a slow; the box then fires magic damage at nearby visible enemies. Its attacks deal increased damage when focused on a single target. Revealing a hidden box makes it targetable and vulnerable while visible.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Shaco",
+        "cooldown": "",
+        "counterplay": "Avoid chasing through prepared ground, and use trap reveal effects to expose hidden boxes for attacks.",
+        "front_hint": "SHACO · W",
+        "icon_path": "media/ef29ea49fae8ee74f59f74d8ae35704065a29ec1763499743270276608ab80d3.png",
+        "id": "champ:shaco:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/ef29ea49fae8ee74f59f74d8ae35704065a29ec1763499743270276608ab80d3.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/shaco/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Shaco",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:35",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "While Two-Shiv Poison is not on cooldown, Shaco's basic attacks will slow enemies for a short time.",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "claim": "While Two-Shiv Poison is ready, Shaco's basic attacks slow enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco throws a dagger at the target enemy that slows them for a short time, dealing magic damage that is increased if they are at low health. Backstab Bonus: The dagger deals additional bonus magic damage.",
+                "source_id": "wiki:twoshivpoison"
+              },
+              {
+                "quote": "Deceive and Two-Shiv Poison have additional effects when they hit an enemy from behind.",
+                "source_id": "wiki:backstab"
+              }
+            ],
+            "claim": "Casting it throws a targeted dagger that deals magic damage and slows, with increased damage against low-health targets and extra magic damage from behind."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco's basic attacks slow enemies for 2 seconds while Two-Shiv Poison is not on cooldown.",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "claim": "Casting the dagger puts the passive attack slow on hold until the ability is ready again."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/shaco/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4011256",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco"
+      },
+      "id": "champ:shaco:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Explains his chase pressure, finishing damage, and the passive slow's cooldown condition."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:shaco:e:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "While Two-Shiv Poison is not on cooldown, Shaco's basic attacks will slow enemies for a short time.",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "id": "d14592913a026e4a640d8e97",
+            "summary": "Basic attacks slow while the ability is ready."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Shaco throws a dagger at the target enemy that slows them for a short time, dealing magic damage that is increased if they are at low health.",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "id": "82990202267a80f3a6376c22",
+            "summary": "The targeted dagger slows and deals magic damage, increased against low-health enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Deceive and Two-Shiv Poison have additional effects when they hit an enemy from behind.",
+                "source_id": "wiki:backstab"
+              },
+              {
+                "quote": "Backstab Bonus: The dagger deals additional bonus magic damage.",
+                "source_id": "wiki:twoshivpoison"
+              }
+            ],
+            "id": "88677f2a58d0859d45effd32",
+            "summary": "Rear hits add magic damage to the dagger."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize passive chase slows and the targeted finishing threat.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:twoshivpoison",
+          "wiki:backstab",
+          "riot:E"
+        ],
+        "subject_id": "wiki:twoshivpoison",
+        "title": "Two-Shiv Poison",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Two-Shiv Poison",
+        "answer": "While Two-Shiv Poison is ready, Shaco's basic attacks slow enemies. Casting it throws a targeted dagger that deals magic damage and slows, with increased damage against low-health targets and extra magic damage from behind. Casting the dagger puts the passive attack slow on hold until the ability is ready again.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Shaco",
+        "cooldown": "",
+        "counterplay": "Respect the dagger when low on health, and watch for its cast before trying to disengage from his attacks.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/db858e2ba984883cb2fcc4424e446fca81fa5cc282cdd969f866bfcee2fec8a7.png",
+        "id": "champ:shaco:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/3d86f385cfa325946a087bb8b62a0943d3a0a5cccfc9649a61c933f99a638c46.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/shaco/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Shaco",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "The cooldown duration is not supplied; only the passive slow's dependence on ability readiness is established."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:35",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shaco briefly vanishes and blinks in the target direction, creating a clone of himself for some time.",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "remaining within control range of him as a controllable clone",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "Shaco creates an illusion of himself near him, which can attack nearby enemies",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "Hallucinate briefly makes Shaco vanish and blink, creating a controllable clone that can attack."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The clone will explode upon dying or expiring to deal magic damage to nearby enemies and deploy three mini-boxes that activate instantly, fearing nearby enemies",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "and rooting them for 0.5 seconds",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "enemies hit also have their movement speed reduced.",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "deal modified magic damage with each attack",
+                "source_id": "wiki:hallucinate"
+              }
+            ],
+            "claim": "When the clone dies or expires, it explodes for nearby magic damage and deploys mini-boxes that activate immediately, fearing, rooting, and slowing nearby enemies before attacking them."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/shaco/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4011256",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco"
+      },
+      "id": "champ:shaco:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The clone creates a second attacker and a dangerous death-triggered area threat."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If the explosion hits at least one minion, the boxes will fear all enemies regardless of their unit type for 2.2 seconds, causing enemy champions to be feared for the non-champion fear duration.(bug)",
+                "source_id": "wiki:hallucinate"
+              }
+            ],
+            "status": "supported",
+            "summary": "A documented bug can extend the fear against champions when the explosion hits a minion."
+          }
+        ],
+        "card_id": "champ:shaco:r:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shaco briefly vanishes and blinks in the target direction, creating a clone of himself for some time.",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "remaining within control range of him as a controllable clone",
+                "source_id": "wiki:hallucinate"
+              }
+            ],
+            "id": "a91217d28e719d3eda2ef2ff",
+            "summary": "Shaco vanishes and repositions while creating a controllable clone."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Shaco creates an illusion of himself near him, which can attack nearby enemies",
+                "source_id": "riot:R"
+              }
+            ],
+            "id": "001a31260c34edd91d2972d7",
+            "summary": "The clone can attack enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The clone will explode upon dying or expiring to deal magic damage to nearby enemies and deploy three mini-boxes that activate instantly, fearing nearby enemies",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "and rooting them for 0.5 seconds",
+                "source_id": "wiki:hallucinate"
+              },
+              {
+                "quote": "enemies hit also have their movement speed reduced.",
+                "source_id": "wiki:hallucinate"
+              }
+            ],
+            "id": "aac81a036f9fa0e352e016dc",
+            "summary": "Clone death or expiry causes a magic explosion and immediately active crowd-control boxes."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the attacking clone and avoid its death-triggered explosion and boxes.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:hallucinate",
+          "riot:R"
+        ],
+        "subject_id": "wiki:hallucinate",
+        "title": "Hallucinate",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Hallucinate",
+        "answer": "Hallucinate briefly makes Shaco vanish and blink, creating a controllable clone that can attack. When the clone dies or expires, it explodes for nearby magic damage and deploys mini-boxes that activate immediately, fearing, rooting, and slowing nearby enemies before attacking them.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Shaco",
+        "cooldown": "",
+        "counterplay": "Keep space from the clone as it nears death, and avoid standing near its explosion and boxes.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/a803194c3bb17f6c180c4770c7df6abddbacc660dceea5a804e11be43b488602.png",
+        "id": "champ:shaco:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/486e8cd2f97c957385f7a7f2e6dd0c8efca85ab1b6e3fd49bebc45d1a6caca39.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/shaco/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Shaco",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "Hallucinate's cooldown is not supplied, so its reuse window cannot be taught."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

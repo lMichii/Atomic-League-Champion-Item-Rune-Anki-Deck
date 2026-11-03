@@ -1,0 +1,5303 @@
+{
+  "approved_before": {
+    "data/content/editorial.json": "37d223e1221c32993f3df2d7cf917b7dc4ae18aab7682037877b59512883ec68",
+    "data/content/editorial.lock.json": "47e082525e7e7dd3018bed7a597b559791bfa78df467f7a975753215b36d1c19",
+    "data/content/pilot.json": "9f79b15b1b815a10097a92e76602d38f84bfd0752b6884a0a567b61c41441319",
+    "data/content/pilot.lock.json": "cada3e1dc45899483494e35ed0ec18171d1bd515c591b24d024f4a9025bae583",
+    "data/content/production.json": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "data/content/production.lock.json": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "data/sources/editorial.json": "9968242e0615f5b99d8410f284b4b4995cf53105f5076f6bc695d9cd917b82bf",
+    "data/sources/pilot.json": "944046cc983be9862dad79fad975c9dc927d830d5bd0bd9d137067560baa2724",
+    "data/sources/production.json": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "batch_review": null,
+  "batch_size": 10,
+  "champions": {
+    "annie": {
+      "approved_cards": 0,
+      "archive": "data/drafts/annie/b371d44901a61a8e14df",
+      "attempts": [
+        {
+          "finished_at": "2026-11-01T17:12:51.550507+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/b0874efaecdbde204e3ab84bb7b9a557f850e87536ff00c6786da5fa1f5232ba/attempt-1",
+            ".cache/generator/ai/e99714ab7f84e701728d6c84c880677fa81bbab1c370395496ca0ca11a4f9d59/attempt-1",
+            ".cache/generator/ai/ef430d049103ae06174fd949b8bb4f1333dc66b7e8007b53f8921eec06ea658f/attempt-1"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "8a6cbd010d7b17bc8eb6ada2f95cbc38c4070c9860281bb405ee0aef421b2652",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "started_at": "2026-11-01T17:10:20.507301+00:00",
+          "status": "completed"
+        }
+      ],
+      "ddragon_id": "Annie",
+      "editorial_cards": 0,
+      "editorial_import": {
+        "cards": 26,
+        "imported": [
+          "champ:annie:overview:L1",
+          "champ:annie:p:recognize:L2",
+          "champ:annie:q:recognize:L2",
+          "champ:annie:w:recognize:L2",
+          "champ:annie:e:recognize:L2",
+          "champ:annie:r:recognize:L2"
+        ],
+        "incoming_preserved": []
+      },
+      "name": "Annie",
+      "qa": {
+        "all_pending_editorial_review": true,
+        "asset_version": "16.21.1",
+        "card_ids": [
+          "champ:annie:overview:L1",
+          "champ:annie:p:recognize:L2",
+          "champ:annie:q:recognize:L2",
+          "champ:annie:w:recognize:L2",
+          "champ:annie:e:recognize:L2",
+          "champ:annie:r:recognize:L2"
+        ],
+        "cards": 6,
+        "citations": 25,
+        "core_coverage_checked": true,
+        "decoded_media_files": 11,
+        "errors": 0,
+        "findings": [
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:annie:overview:L1",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:annie:p:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "passive_visual_cue",
+            "id": "champ:annie:p:recognize:L2",
+            "message": "Determine whether an important passive/system cue needs supplementary media",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:annie:q:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:annie:w:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:annie:e:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:annie:r:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "metadata",
+            "code": "unknown_gameplay_patch",
+            "id": "annie",
+            "message": "Asset release is separate; unknown gameplay patch stays hidden",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "annie",
+            "message": "{'resolution': 'Use the detailed stack rule: Q generates a stack on hitting an enemy, while her other abilities generate stacks on casting.', 'source_ids': ['riot:P', 'wiki:P'], 'topic': \"Riot's four-spell summary does not specify Q's hit requirement.\"}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "annie",
+            "message": "{'resolution': \"Include attacks and damaging spells, supported by Riot and the Wiki's detailed description. Retain specific retaliation exceptions in QA metadata.\", 'source_ids': ['riot:E', 'wiki:E'], 'topic': \"The Wiki's short E summary mentions basic attacks, while its detailed description and Riot include broader retaliation.\"}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "annie",
+            "message": "{'resolution': 'The detailed Wiki rule supports Q generating stacks on hitting an enemy and other abilities on casting. The draft appropriately uses that qualification.', 'source_ids': ['riot:P', 'wiki:P'], 'topic': \"Riot's casting summary omits Q's hit requirement.\"}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "annie",
+            "message": "{'resolution': \"The Wiki explicitly supplies first-landing guidance, supporting the draft's landing-order explanation despite its separate next-cast wording.\", 'source_ids': ['wiki:P', 'riot:P'], 'topic': 'Passive descriptions alternate between next cast and first ability to land.'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "annie",
+            "message": "{'resolution': 'Riot and the detailed Wiki description support retaliation from damaging attacks and spells. The narrower Wiki summary does not justify removing spell retaliation; reported exceptions remain QA metadata.', 'source_ids': ['riot:E', 'wiki:E'], 'topic': \"The Wiki's short E summary mentions only basic attacks.\"}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "annie",
+            "message": "All six cards are UNAPPROVED drafts.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "annie",
+            "message": "Evidence is pinned to the supplied Data Dragon release and Wiki revision; no current patch equivalence is established.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "annie",
+            "message": "Official demonstration frames do not establish current-client or skin-specific visual behavior.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "annie",
+            "message": "Wiki map-specific changes, pending-test notes and historical or skin material are not used as general mechanics.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "annie",
+            "message": "Tibbers has complex pet behavior beyond the beginner card; reported bugs and untested recast interactions remain unresolved.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "annie",
+            "message": "The supplied evidence is version-pinned and establishes no equivalence to the current game patch.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "annie",
+            "message": "The passive counter description is text-supported; this check does not verify the supplied demonstration frames or current-client visuals.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "annie",
+            "message": "E retaliation exceptions involving Noxious Trap and Jack in the Box are reported bugs without independent verification.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "annie",
+            "message": "R recast activation interactions remain advanced QA concerns: Experimental Hexplate is described as a bug, and Force Pulse is explicitly pending testing.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "annie",
+            "message": "All six drafts remain unapproved; this assessment provides neither human approval nor visual verification.",
+            "severity": "warning"
+          }
+        ],
+        "kit_schema": 1,
+        "media": {
+          "gif": 4,
+          "icon": 1,
+          "portrait": 1
+        },
+        "model_usage": {},
+        "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+        "schema_version": 1,
+        "section_dispositions": [],
+        "slot_roles": [
+          {
+            "role": "passive",
+            "slot": "P"
+          },
+          {
+            "role": "active",
+            "slot": "Q"
+          },
+          {
+            "role": "active",
+            "slot": "W"
+          },
+          {
+            "role": "active",
+            "slot": "E"
+          },
+          {
+            "role": "active",
+            "slot": "R"
+          }
+        ],
+        "source_excerpts": 11,
+        "source_packet_sha256": "7fcf72c087888c175ee177b301b063f92e6dd4107cba423af7e9592e99ba12fa",
+        "warnings": 23,
+        "wiki_revision": "4033194"
+      },
+      "reserved_by": null,
+      "result": {
+        "ai_support_issues": 0,
+        "approved": false,
+        "approved_cards_unchanged": 100,
+        "cards": 6,
+        "champion": {
+          "ddragon_id": "Annie",
+          "name": "Annie",
+          "riot_id": 1,
+          "roles": [
+            "Mage",
+            "Support"
+          ]
+        },
+        "output": "build/generated/annie/b371d44901a61a8e14df",
+        "previews": "build/generated/annie/b371d44901a61a8e14df/previews/index.html",
+        "proposal_sha256": "bbf54902aa542021ce06a89740aded31027f9a4f73829fd4648ba2aa25ae40d3",
+        "published": false,
+        "status": "drafts_ready_for_review"
+      },
+      "riot_id": 1,
+      "skip_reason": null,
+      "slug": "annie",
+      "source_input": "build/generated/inputs/7fcf72c087888c175ee177b301b063f92e6dd4107cba423af7e9592e99ba12fa",
+      "source_sha256": "7fcf72c087888c175ee177b301b063f92e6dd4107cba423af7e9592e99ba12fa",
+      "status": "completed"
+    },
+    "darius": {
+      "approved_cards": 0,
+      "archive": "data/drafts/darius/4b2a157f2e2172dbb5a9",
+      "attempts": [
+        {
+          "error": "AI author failed after 3 attempts this execution; inspect D:\\Billo Programme\\League Anki\\.cache\\generator\\ai\\5ff1862e8acbbda80773124fee6c0311cb4bf2c9d5f9fead3d547b27e93e398b",
+          "error_type": "ModelError",
+          "finished_at": "2026-11-01T17:17:27.711189+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/35f4817c9f1aa9fe5807508cc43a8e154e39e2556c7684cd146743a36655e0bc/attempt-1",
+            ".cache/generator/ai/5ff1862e8acbbda80773124fee6c0311cb4bf2c9d5f9fead3d547b27e93e398b/attempt-1",
+            ".cache/generator/ai/5ff1862e8acbbda80773124fee6c0311cb4bf2c9d5f9fead3d547b27e93e398b/attempt-2",
+            ".cache/generator/ai/5ff1862e8acbbda80773124fee6c0311cb4bf2c9d5f9fead3d547b27e93e398b/attempt-3"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "8a6cbd010d7b17bc8eb6ada2f95cbc38c4070c9860281bb405ee0aef421b2652",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "started_at": "2026-11-01T17:12:51.870735+00:00",
+          "status": "failed"
+        },
+        {
+          "finished_at": "2026-11-01T17:29:29.521091+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/45f96c10d5e05c9f4c248b9a80d42dcf1b71cabf15c5007f89c8ba37edacdae7/attempt-1",
+            ".cache/generator/ai/5ff1862e8acbbda80773124fee6c0311cb4bf2c9d5f9fead3d547b27e93e398b/attempt-4",
+            ".cache/generator/ai/8c6260d415f4ad3de7247dc45e25246096c2c7fe3cc04b76f653124760c82c33/attempt-1",
+            ".cache/generator/ai/98f8f5aa3095e11b07613c2506f0507fddac7867ec56ac4711bfbcbf5c24a506/attempt-1",
+            ".cache/generator/ai/9acafe38a206bc4fe9d022cef1df3641189caad0d7b094bf7f69c9d746404360/attempt-1",
+            ".cache/generator/ai/def1622198fa0a33f57add1573b00b6b6b8fd7ce1f1559abb6e15fc602489311/attempt-1"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "started_at": "2026-11-01T17:25:01.361836+00:00",
+          "status": "completed"
+        }
+      ],
+      "ddragon_id": "Darius",
+      "editorial_cards": 0,
+      "editorial_import": {
+        "cards": 32,
+        "imported": [
+          "champ:darius:overview:L1",
+          "champ:darius:p:recognize:L2",
+          "champ:darius:q:recognize:L2",
+          "champ:darius:w:recognize:L2",
+          "champ:darius:e:recognize:L2",
+          "champ:darius:r:recognize:L2"
+        ],
+        "incoming_preserved": []
+      },
+      "name": "Darius",
+      "qa": {
+        "all_pending_editorial_review": true,
+        "asset_version": "16.21.1",
+        "card_ids": [
+          "champ:darius:overview:L1",
+          "champ:darius:p:recognize:L2",
+          "champ:darius:q:recognize:L2",
+          "champ:darius:w:recognize:L2",
+          "champ:darius:e:recognize:L2",
+          "champ:darius:r:recognize:L2"
+        ],
+        "cards": 6,
+        "citations": 27,
+        "core_coverage_checked": true,
+        "decoded_media_files": 10,
+        "errors": 0,
+        "findings": [
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:darius:overview:L1",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:darius:p:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "passive_visual_cue",
+            "id": "champ:darius:p:recognize:L2",
+            "message": "Determine whether an important passive/system cue needs supplementary media",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:darius:q:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:darius:w:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:darius:e:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:darius:r:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "metadata",
+            "code": "unknown_gameplay_patch",
+            "id": "darius",
+            "message": "Asset release is separate; unknown gameplay patch stays hidden",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "darius",
+            "message": "{'resolution': \"Use Wiki's enemy-champion restriction for maximum-stack empowerment rather than extending Riot's broad wording to every enemy type.\", 'source_ids': ['riot:P', 'wiki:P'], 'topic': 'Maximum-stack empowerment target scope'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "darius",
+            "message": "{'resolution': 'Preserve general eligible bleed application and explicitly explain that Q handle hits neither apply nor refresh it.', 'source_ids': ['riot:P', 'wiki:P', 'wiki:Q'], 'topic': 'General passive application versus Q handle exception'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "darius",
+            "message": "{'resolution': 'Preserve qualifying kill-based reuse and distinguish the temporary recast window from the permanent maximum-rank cooldown reset. Retain special target exceptions in metadata.', 'source_ids': ['riot:R', 'wiki:R'], 'topic': 'R kill qualification and rank-dependent reuse'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "darius",
+            "message": "{'resolution': \"Use the Wiki's enemy-champion restriction for maximum-stack empowerment; the passive draft does so.\", 'source_ids': ['riot:P', 'wiki:P'], 'topic': 'Maximum-stack empowerment target scope'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "darius",
+            "message": "{'resolution': 'Read broad passive application descriptions with the explicit Q handle exception. The drafts preserve eligible application and explain the exception.', 'source_ids': ['riot:P', 'wiki:P', 'wiki:Q'], 'topic': 'General bleed application versus Q handle hits'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "darius",
+            "message": "{'resolution': \"The detailed healing text and Riot both include large monsters, despite the Wiki's shorter champion-only description. Exact healing values and cap need not appear in this summary.\", 'source_ids': ['riot:Q', 'wiki:Q'], 'topic': 'Q healing target scope within the excerpts'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "darius",
+            "message": "{'resolution': \"Use the detailed Wiki qualification and rank distinction to refine Riot's abbreviated reset description. Keep special target exceptions in metadata.\", 'source_ids': ['riot:R', 'wiki:R'], 'topic': 'R kill qualification and rank-dependent reuse'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "All six cards are UNAPPROVED drafts.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "Counterplay and broad build focus are inferred teaching guidance.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "Pinned Data Dragon and Wiki versions do not establish the current game patch.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "No passive visual cue is proposed; demonstration frames do not establish current-client or skin-specific appearance.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "Pending-test E notes and unrelated skin material are excluded from factual explanations.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "Advanced bleed application, W spell-shield behavior and R reset qualification and cancellation exceptions remain relevant beyond these beginner summaries.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "W's attack reset is explained as an earlier follow-up attack to address the beginner-language support review.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "This support check does not provide human approval or visual verification.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "Pinned source versions do not establish the current game patch.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "AD and Health are inferred broad build guidance, not a sourced optimal build or evidence of direct health scaling.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "E rebound-location and simultaneous-stun or brittle claims remain explicitly pending testing.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "W's entire empowered attack being blocked by spell shields is explicitly reported by the Wiki but lacks independent corroboration in the supplied evidence.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "Special R target exceptions distinguish cooldown resets from Noxian Might activation; the general beginner wording does not enumerate them.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "darius",
+            "message": "No internal provenance or confidence labels appear in the visible answer, counterplay or build-focus text.",
+            "severity": "warning"
+          }
+        ],
+        "kit_schema": 1,
+        "media": {
+          "gif": 4,
+          "icon": 1,
+          "portrait": 1
+        },
+        "model_usage": {},
+        "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+        "schema_version": 1,
+        "section_dispositions": [],
+        "slot_roles": [
+          {
+            "role": "passive",
+            "slot": "P"
+          },
+          {
+            "role": "active",
+            "slot": "Q"
+          },
+          {
+            "role": "active",
+            "slot": "W"
+          },
+          {
+            "role": "active",
+            "slot": "E"
+          },
+          {
+            "role": "active",
+            "slot": "R"
+          }
+        ],
+        "source_excerpts": 11,
+        "source_packet_sha256": "9af1b5da4d1763b8bc81413286fbe02860723403edc5af4232f5ada99d6170be",
+        "warnings": 29,
+        "wiki_revision": "4022598"
+      },
+      "reserved_by": null,
+      "result": {
+        "ai_support_issues": 0,
+        "approved": false,
+        "approved_cards_unchanged": 100,
+        "cards": 6,
+        "champion": {
+          "ddragon_id": "Darius",
+          "name": "Darius",
+          "riot_id": 122,
+          "roles": [
+            "Fighter",
+            "Tank"
+          ]
+        },
+        "output": "build/generated/darius/4b2a157f2e2172dbb5a9",
+        "previews": "build/generated/darius/4b2a157f2e2172dbb5a9/previews/index.html",
+        "proposal_sha256": "0ed0a7d07900c0be291a87617f94fb4cf9f1cd2df47a29a7bc74c8fe3ab17781",
+        "published": false,
+        "status": "drafts_ready_for_review"
+      },
+      "riot_id": 122,
+      "skip_reason": null,
+      "slug": "darius",
+      "source_input": "build/generated/inputs/9af1b5da4d1763b8bc81413286fbe02860723403edc5af4232f5ada99d6170be",
+      "source_sha256": "9af1b5da4d1763b8bc81413286fbe02860723403edc5af4232f5ada99d6170be",
+      "status": "completed"
+    },
+    "garen": {
+      "approved_cards": 0,
+      "archive": "data/drafts/garen/5b9b73410d2042a2c421",
+      "attempts": [
+        {
+          "error": "Pre-existing editorial work changed; batch will not overwrite it",
+          "error_type": "ValueError",
+          "finished_at": "2026-11-01T17:22:42.416266+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/24ea2b7dbd202bfdc578500d208fdef0258ac737101a995cd9ddacc434a31849/attempt-1",
+            ".cache/generator/ai/57107d4eea506d31db9f577b41823e16c2b141aff6fb8e6c5ead7d80e44f5fe2/attempt-1",
+            ".cache/generator/ai/5e7164c585c15275fef445c80a8de563358a10351411b867b3c248f2a145f0fe/attempt-1",
+            ".cache/generator/ai/ba18c4a7c3b38d0a81b19982292c01fa6a5d22de309934009a16a4c1d1b6197b/attempt-1",
+            ".cache/generator/ai/dd1729b55c6a86b8408275bdf50abf255a05984b5f5e06695d613f5782888cc5/attempt-1",
+            ".cache/generator/ai/e053eb5b32aff2aa98f6b4e58336b6487c858b5fbf9c12e51ddd57fe029d453d/attempt-1",
+            ".cache/generator/ai/ecc2bb309dcbae1ef0a0a7a1cd4f1cc8dab0e7c7fb0f6bfb276139a86020c9b6/attempt-1"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "8a6cbd010d7b17bc8eb6ada2f95cbc38c4070c9860281bb405ee0aef421b2652",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "started_at": "2026-11-01T17:17:27.934089+00:00",
+          "status": "failed"
+        },
+        {
+          "finished_at": "2026-11-01T17:29:37.813660+00:00",
+          "new_model_attempts": [],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "started_at": "2026-11-01T17:29:29.844620+00:00",
+          "status": "completed"
+        }
+      ],
+      "ddragon_id": "Garen",
+      "editorial_cards": 0,
+      "editorial_import": {
+        "cards": 38,
+        "imported": [
+          "champ:garen:overview:L1",
+          "champ:garen:p:recognize:L2",
+          "champ:garen:q:recognize:L2",
+          "champ:garen:w:recognize:L2",
+          "champ:garen:e:recognize:L2",
+          "champ:garen:r:recognize:L2"
+        ],
+        "incoming_preserved": []
+      },
+      "name": "Garen",
+      "qa": {
+        "all_pending_editorial_review": true,
+        "asset_version": "16.21.1",
+        "card_ids": [
+          "champ:garen:overview:L1",
+          "champ:garen:p:recognize:L2",
+          "champ:garen:q:recognize:L2",
+          "champ:garen:w:recognize:L2",
+          "champ:garen:e:recognize:L2",
+          "champ:garen:r:recognize:L2"
+        ],
+        "cards": 6,
+        "citations": 26,
+        "core_coverage_checked": true,
+        "decoded_media_files": 10,
+        "errors": 0,
+        "findings": [
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:garen:overview:L1",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:garen:p:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "passive_visual_cue",
+            "id": "champ:garen:p:recognize:L2",
+            "message": "Determine whether an important passive/system cue needs supplementary media",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:garen:q:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:garen:w:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:garen:e:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:garen:r:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "semantic_review",
+            "id": "champ:garen:w:recognize:L2",
+            "message": "AI support checker reported unresolved claims; human factual review required",
+            "severity": "warning"
+          },
+          {
+            "category": "metadata",
+            "code": "unknown_gameplay_patch",
+            "id": "garen",
+            "message": "Asset release is separate; unknown gameplay patch stays hidden",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "garen",
+            "message": "{'resolution': \"Use the Wiki's specific eligible interruption sources and retain damage-prevention exceptions in metadata. Do not describe every damage source as interrupting regeneration.\", 'source_ids': ['riot:P', 'wiki:P'], 'topic': 'Passive interruption scope'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "garen",
+            "message": "{'resolution': \"Follow the Wiki's explicit timing: damage reduction begins at activation and lasts beyond the brief shield and tenacity window.\", 'source_ids': ['riot:W', 'wiki:W'], 'topic': 'Courage damage-reduction timing'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "garen",
+            "message": "{'resolution': 'Preserve capped resistance gains. Leave the additional cap boost unresolved because the detailed excerpt does not specify it.', 'source_ids': ['wiki:W', 'riot:W'], 'topic': \"Additional defensive boost at Courage's resistance cap\"}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "garen",
+            "message": "{'resolution': \"Use the Wiki's specific interruption sources and damage-prevention exceptions to qualify Riot's broad summary. The draft's conditional wording is supported.\", 'source_ids': ['riot:P', 'wiki:P'], 'topic': 'Passive interruption scope'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "garen",
+            "message": "{'resolution': \"The Wiki explicitly places damage reduction at activation and beyond the opening shield window. The draft accommodates that timing; Riot's sequential wording should not establish a delayed start.\", 'source_ids': ['riot:W', 'wiki:W'], 'topic': 'Courage damage-reduction timing'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "garen",
+            "message": "{'resolution': 'The Wiki summary asserts an additional permanent boost at the cap, but its detailed mechanics do not specify that boost. Retain the supported capped gains and flag the additional boost for QA.', 'source_ids': ['wiki:W', 'riot:W'], 'topic': \"Unresolved additional resistance boost at Courage's cap\"}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "All six cards are UNAPPROVED drafts.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "The requested beginner explanation of tenacity remains unresolved because the packet does not define it and additional evidence cannot be obtained within this task.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "The demonstration frames do not establish a healing cue, current-client behavior or skin-specific appearance.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "The pinned Data Dragon release does not establish a game patch label.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "Counterplay is inferred teaching guidance grounded in the supplied effects.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "AD and health are broad learning focuses, not an optimal item build.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "Wiki-only mechanics lack independent Riot confirmation where Riot's excerpts are silent.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "Historical skin prose, bugs and map-specific variants are excluded from the core explanations.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "The supplied evidence does not define tenacity, leaving a beginner-learning gap.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "The AD and Health build focus has scaling support in Q/E and W respectively, but the evidence does not establish an optimal build.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "The supplied frames do not establish a recognizable healing cue or current-client behavior; no visual verification is provided.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "The pinned Data Dragon version does not establish a game patch label.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "Counterplay is supported as conditional inference, without guaranteed outcomes or invented timings. Its visible wording contains no inference or confidence labels.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "UNAPPROVED and support-review labels occur in metadata, not in the answer or counterplay text; keep them out of card-facing presentation.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "garen",
+            "message": "This support check does not constitute human approval.",
+            "severity": "warning"
+          },
+          {
+            "category": "source",
+            "code": "findings",
+            "id": "garen",
+            "message": "{'code': 'ai_support_check_failed', 'id': 'champ:garen:w:recognize:L2', 'issues': ['UNAPPROVED draft.', 'The support review requests a plain-language definition of tenacity, but the supplied packet contains none. The supported core term is retained; this beginner-learning gap cannot be repaired without additional evidence.', 'Eligible kills exclude assists, wards, structures and several special units.', 'The Wiki summary mentions an additional boost at the resistance cap without specifying it in the detailed mechanics.', 'Map-specific differences and advanced tenacity interactions are omitted.', 'Tenacity is unexplained jargon for beginners. Obtain supporting evidence for a plain-language definition and add it while retaining the supported mechanic.']}",
+            "severity": "warning"
+          }
+        ],
+        "kit_schema": 1,
+        "media": {
+          "gif": 4,
+          "icon": 1,
+          "portrait": 1
+        },
+        "model_usage": {},
+        "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+        "schema_version": 1,
+        "section_dispositions": [],
+        "slot_roles": [
+          {
+            "role": "passive",
+            "slot": "P"
+          },
+          {
+            "role": "active",
+            "slot": "Q"
+          },
+          {
+            "role": "active",
+            "slot": "W"
+          },
+          {
+            "role": "active",
+            "slot": "E"
+          },
+          {
+            "role": "active",
+            "slot": "R"
+          }
+        ],
+        "source_excerpts": 11,
+        "source_packet_sha256": "d09aa49b2b5cd5e6b158268d89f4c5d766aedbaf4b2de5fa3e592901ef88e3d5",
+        "warnings": 31,
+        "wiki_revision": "3892614"
+      },
+      "reserved_by": null,
+      "result": {
+        "ai_support_issues": 1,
+        "approved": false,
+        "approved_cards_unchanged": 100,
+        "cards": 6,
+        "champion": {
+          "ddragon_id": "Garen",
+          "name": "Garen",
+          "riot_id": 86,
+          "roles": [
+            "Fighter",
+            "Tank"
+          ]
+        },
+        "output": "build/generated/garen/5b9b73410d2042a2c421",
+        "previews": "build/generated/garen/5b9b73410d2042a2c421/previews/index.html",
+        "proposal_sha256": "c4f1fe4b64cc5ea6ca00a82f846ae8313ff32d9b056023c3b30badf6d5d2622f",
+        "published": false,
+        "status": "drafts_ready_for_review"
+      },
+      "riot_id": 86,
+      "skip_reason": null,
+      "slug": "garen",
+      "source_input": "build/generated/inputs/d09aa49b2b5cd5e6b158268d89f4c5d766aedbaf4b2de5fa3e592901ef88e3d5",
+      "source_sha256": "d09aa49b2b5cd5e6b158268d89f4c5d766aedbaf4b2de5fa3e592901ef88e3d5",
+      "status": "completed"
+    },
+    "karma": {
+      "approved_cards": 0,
+      "archive": "data/drafts/karma/bb319fa856301728ae26",
+      "attempts": [
+        {
+          "finished_at": "2026-11-01T17:32:39.822442+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/2c9ac5160fbd1002b4f475fa4065c87d5e3c0e297f81735c0a4c101c0c51108c/attempt-1",
+            ".cache/generator/ai/981369aa2097ce95e5659dd1b836d68ffb1e145af4e97f435b75ef7caccea936/attempt-1",
+            ".cache/generator/ai/c35e1e801c4118b2799d41865250cf18f2de73ac6d0f8f48697d0072846c58e4/attempt-1"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "started_at": "2026-11-01T17:29:38.117064+00:00",
+          "status": "completed"
+        }
+      ],
+      "ddragon_id": "Karma",
+      "editorial_cards": 0,
+      "editorial_import": {
+        "cards": 46,
+        "imported": [
+          "champ:karma:overview:L1",
+          "champ:karma:system:r:mantra:recognize:L2",
+          "champ:karma:q:recognize:L2",
+          "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+          "champ:karma:w:recognize:L2",
+          "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+          "champ:karma:e:recognize:L2",
+          "champ:karma:ability_variant:e:defiance:mantra:recognize:L2"
+        ],
+        "incoming_preserved": []
+      },
+      "name": "Karma",
+      "qa": {
+        "all_pending_editorial_review": true,
+        "asset_version": "16.21.1",
+        "card_ids": [
+          "champ:karma:overview:L1",
+          "champ:karma:system:r:mantra:recognize:L2",
+          "champ:karma:q:recognize:L2",
+          "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+          "champ:karma:w:recognize:L2",
+          "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+          "champ:karma:e:recognize:L2",
+          "champ:karma:ability_variant:e:defiance:mantra:recognize:L2"
+        ],
+        "cards": 8,
+        "citations": 20,
+        "core_coverage_checked": true,
+        "decoded_media_files": 12,
+        "errors": 0,
+        "findings": [
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:karma:overview:L1",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:karma:system:r:mantra:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "passive_visual_cue",
+            "id": "champ:karma:system:r:mantra:recognize:L2",
+            "message": "Determine whether an important passive/system cue needs supplementary media",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:karma:q:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "static_fallback",
+            "id": "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+            "message": "No source-matched animation; inspect the actual ability/context before accepting the real icon",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:karma:w:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "static_fallback",
+            "id": "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+            "message": "No source-matched animation; inspect the actual ability/context before accepting the real icon",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:karma:e:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "static_fallback",
+            "id": "champ:karma:ability_variant:e:defiance:mantra:recognize:L2",
+            "message": "No source-matched animation; inspect the actual ability/context before accepting the real icon",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:karma:ability_variant:e:defiance:mantra:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "metadata",
+            "code": "unknown_gameplay_patch",
+            "id": "karma",
+            "message": "Asset release is separate; unknown gameplay patch stays hidden",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "media_mapping",
+            "id": "champ:karma:system:r:mantra:recognize:L2",
+            "message": "['The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review.', 'Passive/resource/leveling visual cues require manual review of the archived demonstration frames.']",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "media_mapping",
+            "id": "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+            "message": "['No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant.']",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "media_mapping",
+            "id": "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+            "message": "['No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant.']",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "media_mapping",
+            "id": "champ:karma:ability_variant:e:defiance:mantra:recognize:L2",
+            "message": "['No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant.']",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "karma",
+            "message": "{'resolution': 'Use qualitative damage effects. The appended change note is not treated as a current damage table.', 'source_ids': ['wiki:Q', 'wiki:soulflare'], 'topic': 'Soulflare damage arrays coexist with a different appended primary-damage change note.'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "karma",
+            "message": "{'resolution': 'Teach champion-hit cooldown reduction qualitatively from the dedicated live section and Riot description; omit exact reduction values.', 'source_ids': ['wiki:P', 'wiki:gatheringfire', 'riot:P'], 'topic': \"Gathering Fire's live description is mixed with an uncontextualized historical cooldown-reduction change line in wiki:P.\"}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "karma",
+            "message": "{'resolution': 'Retain the shared qualitative cooldown-reduction mechanic; omit exact reduction amounts.', 'source_ids': ['riot:P', 'wiki:P', 'wiki:gatheringfire'], 'topic': 'Passive excerpts contain differing numeric cooldown-reduction text.'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "karma",
+            "message": "{'resolution': 'Retain increased impact damage and delayed field damage; omit disputed damage values.', 'source_ids': ['wiki:Q', 'wiki:soulflare'], 'topic': 'Soulflare excerpts include damage tables and a differing change-note value.'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "karma",
+            "message": "{'resolution': 'Keep qualitative champion-hit cooldown recovery. The change-note fragment does not establish a competing current value; omit numerical claims rather than treating historical text as current mechanics.', 'source_ids': ['riot:P', 'wiki:P', 'wiki:gatheringfire'], 'topic': 'Passive numerical descriptions mixed with a change-note fragment.'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "karma",
+            "message": "{'resolution': 'Keep increased impact damage and delayed field damage. The differing change-note value is not established as current and need not override the qualitative mechanics.', 'source_ids': ['wiki:Q', 'wiki:soulflare'], 'topic': 'Soulflare damage tables mixed with a historical change-note value.'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "The packet does not establish a current patch label; pinned Data Dragon numbering must not be converted into one.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "The absence of a dash or blink is an inference from the complete supplied active kit, not an explicit quoted mobility restriction.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "Renewal bug and unexpected-interaction notes are not established current mechanics; visual tether bugs, cast-cancellation bugs and rune interactions are excluded from core requirements.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "Lore, skins and collection text embedded in wiki:R do not describe combat mechanics.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "Exact damage, shielding, healing, cooldown and duration arrays are unnecessary for these recognition goals and may contain stale notes.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "This inventory is unapproved editorial material.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "Build focus is a broad AP learning orientation, not an optimal item-build claim.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "Counterplay is qualitative guidance derived from the described effects, rather than an explicit source assertion or a guaranteed outcome.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "The supplied excerpts mix repeated descriptions, numeric tables, change notes and bug reports; learning answers retain the frozen qualitative cores.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "No ability-absence inference is used; the answers make no claim that Karma lacks a dash or blink.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "No current patch, animation, color or skin claim is established from the supplied material.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "Counterplay is appropriately typed in external metadata as source-grounded inference; it introduces no unsupported timings or guaranteed escape outcomes.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "Renewal counterplay specifically prevents the completion-triggered heal; it does not claim that breaking the tether reverses the initial heal or removes the separate death-trigger condition.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "AP is a broad learning orientation supported by supplied scaling evidence, not an optimal-build claim.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "karma",
+            "message": "Bug reports, historical fragments and demonstration limitations remain outside card-facing mechanics. No exhaustive ability-absence inference or human approval is asserted.",
+            "severity": "warning"
+          },
+          {
+            "category": "source",
+            "code": "findings",
+            "id": "karma",
+            "message": "{'code': 'adaptive_kit_structure', 'message': '8 live sections discovered; conventional slot headings are not a completeness contract.'}",
+            "severity": "warning"
+          },
+          {
+            "category": "source",
+            "code": "findings",
+            "id": "karma",
+            "message": "{'code': 'media_url_missing', 'name': 'karma_p.webm'}",
+            "severity": "warning"
+          }
+        ],
+        "kit_schema": 2,
+        "media": {
+          "gif": 4,
+          "icon": 3,
+          "portrait": 1
+        },
+        "model_usage": {
+          "available_receipt_usage": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 67993,
+            "output_tokens": 10070,
+            "reasoning_output_tokens": 193
+          },
+          "logical_requests": 3,
+          "recorded_model_attempts": 3,
+          "scope": "Recorded generation usage; cached replay does not repeat these model calls. Failed-attempt usage may be unavailable.",
+          "usage_receipts_available": 3
+        },
+        "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+        "schema_version": 1,
+        "section_dispositions": [
+          {
+            "disposition": "merged",
+            "reason": "Passive cooldown recovery belongs with the empowerment cycle rather than a separate recognition card.",
+            "source_id": "wiki:gatheringfire",
+            "target_subject_ids": [
+              "wiki:mantra"
+            ]
+          },
+          {
+            "disposition": "taught",
+            "reason": "Projectile collision, splash and slowing define the base poke threat.",
+            "source_id": "wiki:innerflame",
+            "target_subject_ids": [
+              "wiki:innerflame"
+            ]
+          },
+          {
+            "disposition": "taught",
+            "reason": "The delayed field creates a distinct avoidance goal; spell-shield behavior remains advanced and numerical change notes are excluded.",
+            "source_id": "wiki:soulflare",
+            "target_subject_ids": [
+              "wiki:soulflare"
+            ]
+          },
+          {
+            "disposition": "taught",
+            "reason": "Recognizing and breaking the tether is a distinct response to the delayed root.",
+            "source_id": "wiki:focusedresolve",
+            "target_subject_ids": [
+              "wiki:focusedresolve"
+            ]
+          },
+          {
+            "disposition": "taught",
+            "reason": "Self-healing and the extended root change enemy commitment decisions; bug notes remain outside core learning.",
+            "source_id": "wiki:renewal",
+            "target_subject_ids": [
+              "wiki:renewal"
+            ]
+          },
+          {
+            "disposition": "taught",
+            "reason": "Targeted shielding and speed have a distinct defensive and repositioning purpose.",
+            "source_id": "wiki:inspire",
+            "target_subject_ids": [
+              "wiki:inspire"
+            ]
+          },
+          {
+            "disposition": "taught",
+            "reason": "Group shielding and acceleration are recognizably different from the targeted base cast.",
+            "source_id": "wiki:defiance",
+            "target_subject_ids": [
+              "wiki:defiance"
+            ]
+          },
+          {
+            "disposition": "taught",
+            "reason": "The system card explains empowerment selection, early availability and rank dependence together with passive recovery.",
+            "source_id": "wiki:mantra",
+            "target_subject_ids": [
+              "wiki:mantra"
+            ]
+          }
+        ],
+        "slot_roles": [
+          {
+            "role": "passive",
+            "slot": "P",
+            "source_ids": [
+              "wiki:gatheringfire",
+              "riot:P"
+            ]
+          },
+          {
+            "role": "active",
+            "slot": "Q",
+            "source_ids": [
+              "wiki:innerflame",
+              "wiki:soulflare"
+            ]
+          },
+          {
+            "role": "active",
+            "slot": "W",
+            "source_ids": [
+              "wiki:focusedresolve",
+              "wiki:renewal"
+            ]
+          },
+          {
+            "role": "active",
+            "slot": "E",
+            "source_ids": [
+              "wiki:inspire",
+              "wiki:defiance"
+            ]
+          },
+          {
+            "role": "active",
+            "slot": "R",
+            "source_ids": [
+              "wiki:mantra",
+              "riot:R"
+            ]
+          }
+        ],
+        "source_excerpts": 19,
+        "source_packet_sha256": "f19d60ffe939a23d3284cd4ffe3a797dd429fd4574822ab76572566ed98abcf2",
+        "warnings": 40,
+        "wiki_revision": "4091137"
+      },
+      "reserved_by": null,
+      "result": {
+        "ai_support_issues": 0,
+        "approved": false,
+        "approved_cards_unchanged": 100,
+        "cards": 8,
+        "champion": {
+          "ddragon_id": "Karma",
+          "name": "Karma",
+          "riot_id": 43,
+          "roles": [
+            "Mage",
+            "Support"
+          ]
+        },
+        "model_usage": {
+          "available_receipt_usage": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 67993,
+            "output_tokens": 10070,
+            "reasoning_output_tokens": 193
+          },
+          "logical_requests": 3,
+          "recorded_model_attempts": 3,
+          "scope": "Recorded generation usage; cached replay does not repeat these model calls. Failed-attempt usage may be unavailable.",
+          "usage_receipts_available": 3
+        },
+        "output": "build/generated/karma/bb319fa856301728ae26",
+        "previews": "build/generated/karma/bb319fa856301728ae26/previews/index.html",
+        "published": false,
+        "status": "drafts_ready_for_review"
+      },
+      "riot_id": 43,
+      "skip_reason": null,
+      "slug": "karma",
+      "source_input": "build/generated/inputs/f19d60ffe939a23d3284cd4ffe3a797dd429fd4574822ab76572566ed98abcf2",
+      "source_sha256": "f19d60ffe939a23d3284cd4ffe3a797dd429fd4574822ab76572566ed98abcf2",
+      "status": "completed"
+    },
+    "malphite": {
+      "approved_cards": 0,
+      "archive": "data/drafts/malphite/7e5b0f90c0bf60c20a67",
+      "attempts": [
+        {
+          "finished_at": "2026-11-01T17:36:19.085232+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/09c5d7b185e3f92d71fb58ed4ae092e9380dc185a7a58322c5df08b5fa8b0f88/attempt-1",
+            ".cache/generator/ai/9b7bbc7a418eb220ee9002d476299cf0445b2bad92545974c75e8f2a5db9e618/attempt-1",
+            ".cache/generator/ai/b6db7954eff4ec51f3526c8444f795f3f3e386310eba594f003f7e7c007e6f0c/attempt-1",
+            ".cache/generator/ai/c3166191feb6e241a2c0720eff27e8bf9babab4212e42be380e29e762c01dd08/attempt-1",
+            ".cache/generator/ai/edb2185ac44f59547d2fe98a5a9bce13d02e8e4444ffff5886d358654a27077e/attempt-1"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "started_at": "2026-11-01T17:32:40.177603+00:00",
+          "status": "completed"
+        }
+      ],
+      "ddragon_id": "Malphite",
+      "editorial_cards": 0,
+      "editorial_import": {
+        "cards": 52,
+        "imported": [
+          "champ:malphite:overview:L1",
+          "champ:malphite:p:recognize:L2",
+          "champ:malphite:q:recognize:L2",
+          "champ:malphite:w:recognize:L2",
+          "champ:malphite:e:recognize:L2",
+          "champ:malphite:r:recognize:L2"
+        ],
+        "incoming_preserved": []
+      },
+      "name": "Malphite",
+      "qa": {
+        "all_pending_editorial_review": true,
+        "asset_version": "16.21.1",
+        "card_ids": [
+          "champ:malphite:overview:L1",
+          "champ:malphite:p:recognize:L2",
+          "champ:malphite:q:recognize:L2",
+          "champ:malphite:w:recognize:L2",
+          "champ:malphite:e:recognize:L2",
+          "champ:malphite:r:recognize:L2"
+        ],
+        "cards": 6,
+        "citations": 25,
+        "core_coverage_checked": true,
+        "decoded_media_files": 10,
+        "errors": 0,
+        "findings": [
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:malphite:overview:L1",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:malphite:p:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "passive_visual_cue",
+            "id": "champ:malphite:p:recognize:L2",
+            "message": "Determine whether an important passive/system cue needs supplementary media",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:malphite:q:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:malphite:w:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:malphite:e:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:malphite:r:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "metadata",
+            "code": "unknown_gameplay_patch",
+            "id": "malphite",
+            "message": "Asset release is separate; unknown gameplay patch stays hidden",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "malphite",
+            "message": "{'resolution': \"Use the Wiki's specific qualification: damage absorbed by shields does not restart recharge. Do not interpret Riot's shorter wording as an every-hit rule.\", 'source_ids': ['riot:P', 'wiki:P'], 'topic': 'Passive recharge wording'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "malphite",
+            "message": "{'resolution': \"The Wiki supplies a specific exception to Riot's abbreviated recharge wording: shield-absorbed damage does not restart recharge. The draft includes this qualification.\", 'source_ids': ['riot:P', 'wiki:P'], 'topic': 'Passive recharge trigger'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "All six cards are UNAPPROVED drafts.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "The frozen Data Dragon release does not establish a game patch label.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "Official demonstration frames do not verify current-client or skin-specific appearance. The previously asserted passive visual transition was removed.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "Counterplay and fight-starting role guidance are teaching inferences grounded in the supplied effects.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "MR build guidance was removed because the packet does not support it; AP focus is supported by supplied spell scaling.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "Several core mechanics are supplied only by the Wiki because Riot's summaries omit them.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "Skin lore and specialized mode details were not used as standard ability mechanics.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "This review checks supplied textual evidence only; it does not provide human approval or visual verification.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "The pinned Data Dragon release does not establish a game patch label.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "Several required mechanics rely on the supplied Wiki excerpt because Riot's summaries omit them.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "R's crowd-control resistance must remain distinct from invulnerability, casting while grounded, and cancellation through death or documented nonfatal interruption. The draft preserves that distinction.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "The L1 AP statement is supported across the supplied ability formulas, although its attached citations show only E and R.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "malphite",
+            "message": "No passive visual cue is asserted; the demonstration frames do not establish current-client or skin-specific appearance.",
+            "severity": "warning"
+          }
+        ],
+        "kit_schema": 1,
+        "media": {
+          "gif": 4,
+          "icon": 1,
+          "portrait": 1
+        },
+        "model_usage": {},
+        "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+        "schema_version": 1,
+        "section_dispositions": [],
+        "slot_roles": [
+          {
+            "role": "passive",
+            "slot": "P"
+          },
+          {
+            "role": "active",
+            "slot": "Q"
+          },
+          {
+            "role": "active",
+            "slot": "W"
+          },
+          {
+            "role": "active",
+            "slot": "E"
+          },
+          {
+            "role": "active",
+            "slot": "R"
+          }
+        ],
+        "source_excerpts": 11,
+        "source_packet_sha256": "3fc0b5e4c04b04070054a042353f188365fe8c2c1310e073d1aae1fea3917b8a",
+        "warnings": 23,
+        "wiki_revision": "4007956"
+      },
+      "reserved_by": null,
+      "result": {
+        "ai_support_issues": 0,
+        "approved": false,
+        "approved_cards_unchanged": 100,
+        "cards": 6,
+        "champion": {
+          "ddragon_id": "Malphite",
+          "name": "Malphite",
+          "riot_id": 54,
+          "roles": [
+            "Tank",
+            "Mage"
+          ]
+        },
+        "output": "build/generated/malphite/7e5b0f90c0bf60c20a67",
+        "previews": "build/generated/malphite/7e5b0f90c0bf60c20a67/previews/index.html",
+        "proposal_sha256": "2ebedf45a4a6d3b93ad0702bbae39a18217966a2d5f955a8147d3d3b0745b688",
+        "published": false,
+        "status": "drafts_ready_for_review"
+      },
+      "riot_id": 54,
+      "skip_reason": null,
+      "slug": "malphite",
+      "source_input": "build/generated/inputs/3fc0b5e4c04b04070054a042353f188365fe8c2c1310e073d1aae1fea3917b8a",
+      "source_sha256": "3fc0b5e4c04b04070054a042353f188365fe8c2c1310e073d1aae1fea3917b8a",
+      "status": "completed"
+    },
+    "missfortune": {
+      "approved_cards": 0,
+      "archive": "data/drafts/missfortune/b3f5cef69f553df08c26",
+      "attempts": [
+        {
+          "finished_at": "2026-11-01T17:41:10.480612+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/3b5a1578676f723a25830afb7695d4bcf10a5ba4160a9007fb764815dd35b20e/attempt-1",
+            ".cache/generator/ai/6e870bc6d60681a353a51eb06ccda64ba894379c51a25de2d03cdec6998cfc31/attempt-1",
+            ".cache/generator/ai/6e870bc6d60681a353a51eb06ccda64ba894379c51a25de2d03cdec6998cfc31/attempt-2",
+            ".cache/generator/ai/8418c72c298385c1837fc9ea0f857cda5d23aa4a276fc66e33ddcc165806deba/attempt-1",
+            ".cache/generator/ai/dd2cc56fe84f362ec23b6536861f5736defbe6f2770d656951da0244d24927a1/attempt-1",
+            ".cache/generator/ai/deb0e5a2992702b800b8dd81ed8e879993f549183f8887387bc2e392dd50c462/attempt-1",
+            ".cache/generator/ai/deb0e5a2992702b800b8dd81ed8e879993f549183f8887387bc2e392dd50c462/attempt-2"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "started_at": "2026-11-01T17:36:19.405905+00:00",
+          "status": "completed"
+        }
+      ],
+      "ddragon_id": "MissFortune",
+      "editorial_cards": 0,
+      "editorial_import": {
+        "cards": 58,
+        "imported": [
+          "champ:missfortune:overview:L1",
+          "champ:missfortune:p:recognize:L2",
+          "champ:missfortune:q:recognize:L2",
+          "champ:missfortune:w:recognize:L2",
+          "champ:missfortune:e:recognize:L2",
+          "champ:missfortune:r:recognize:L2"
+        ],
+        "incoming_preserved": []
+      },
+      "name": "Miss Fortune",
+      "qa": {
+        "all_pending_editorial_review": true,
+        "asset_version": "16.21.1",
+        "card_ids": [
+          "champ:missfortune:overview:L1",
+          "champ:missfortune:p:recognize:L2",
+          "champ:missfortune:q:recognize:L2",
+          "champ:missfortune:w:recognize:L2",
+          "champ:missfortune:e:recognize:L2",
+          "champ:missfortune:r:recognize:L2"
+        ],
+        "cards": 6,
+        "citations": 23,
+        "core_coverage_checked": true,
+        "decoded_media_files": 10,
+        "errors": 0,
+        "findings": [
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:missfortune:overview:L1",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:missfortune:p:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "passive_visual_cue",
+            "id": "champ:missfortune:p:recognize:L2",
+            "message": "Determine whether an important passive/system cue needs supplementary media",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:missfortune:q:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:missfortune:w:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:missfortune:e:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:missfortune:r:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "metadata",
+            "code": "unknown_gameplay_patch",
+            "id": "missfortune",
+            "message": "Asset release is separate; unknown gameplay patch stays hidden",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "missfortune",
+            "message": "{'resolution': \"Use Wiki's more specific damage condition, explained as excluding repeated damage over time. Retain its zero-damage exception in metadata.\", 'source_ids': ['riot:W', 'wiki:W'], 'topic': \"Strut's passive movement-speed condition\"}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "missfortune",
+            "message": "{'resolution': \"Use Wiki's detailed non-periodic-damage condition to qualify Riot's broad 'not attacked' summary. Retain the zero-damage exception in metadata; its omission does not make this beginner explanation misleading.\", 'source_ids': ['riot:W', 'wiki:W'], 'topic': 'Strut movement-speed damage condition'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "All six cards are UNAPPROVED drafts.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "The Riot champion page returned HTTP 404; supplied Riot evidence comes from pinned Data Dragon excerpts.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "Data Dragon version numbering does not establish a game patch label.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "The tentative passive visual proposal remains in metadata only; supplied clip frames do not establish current-client or skin-specific appearance.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "Wiki excerpts include Arena differences, skin material and pending-test notes; these are excluded from the learning answers.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "The overview's AD focus and counterplay recommendations are teaching inferences grounded in the supplied mechanics.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "All frozen core mechanics are retained. Advanced exceptions are scoped in metadata without turning general behavior into universal rules.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "The validation error 'Unknown verifier source' remains unresolved; this content check does not establish verifier provenance.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "Pinned Data Dragon excerpts and the supplied Wiki revision do not establish current-client accuracy or a game patch label; the Riot champion page was unavailable.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "Bullet Time's precise unseen-location reveal conditions remain pending testing in the supplied source and require QA before use.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "The passive visual cue remains unverified and appropriately excluded from card-facing text.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "The overview's AD focus is a supported teaching inference from physical damage and AD scaling, not evidence of an optimal build.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "missfortune",
+            "message": "This review provides AI support checking only; it does not constitute human approval or visual verification.",
+            "severity": "warning"
+          },
+          {
+            "category": "source",
+            "code": "findings",
+            "id": "missfortune",
+            "message": "{'code': 'source_unavailable', 'message': 'HTTP Error 404: Not Found', 'url': 'https://www.leagueoflegends.com/en-us/champions/miss-fortune/'}",
+            "severity": "warning"
+          }
+        ],
+        "kit_schema": 1,
+        "media": {
+          "gif": 4,
+          "icon": 1,
+          "portrait": 1
+        },
+        "model_usage": {},
+        "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+        "schema_version": 1,
+        "section_dispositions": [],
+        "slot_roles": [
+          {
+            "role": "passive",
+            "slot": "P"
+          },
+          {
+            "role": "active",
+            "slot": "Q"
+          },
+          {
+            "role": "active",
+            "slot": "W"
+          },
+          {
+            "role": "active",
+            "slot": "E"
+          },
+          {
+            "role": "active",
+            "slot": "R"
+          }
+        ],
+        "source_excerpts": 11,
+        "source_packet_sha256": "772ef321947d4b6fd0062b70c5bd014b8b6d35e03a6b1b18ee313043475a9da3",
+        "warnings": 24,
+        "wiki_revision": "4036014"
+      },
+      "reserved_by": null,
+      "result": {
+        "ai_support_issues": 0,
+        "approved": false,
+        "approved_cards_unchanged": 100,
+        "cards": 6,
+        "champion": {
+          "ddragon_id": "MissFortune",
+          "name": "Miss Fortune",
+          "riot_id": 21,
+          "roles": [
+            "Marksman",
+            "Mage"
+          ]
+        },
+        "output": "build/generated/missfortune/b3f5cef69f553df08c26",
+        "previews": "build/generated/missfortune/b3f5cef69f553df08c26/previews/index.html",
+        "proposal_sha256": "cad0accce1a4928a861f94960f90294df7711ab302b8c7db852a5ea8ca8aef6f",
+        "published": false,
+        "status": "drafts_ready_for_review"
+      },
+      "riot_id": 21,
+      "skip_reason": null,
+      "slug": "missfortune",
+      "source_input": "build/generated/inputs/772ef321947d4b6fd0062b70c5bd014b8b6d35e03a6b1b18ee313043475a9da3",
+      "source_sha256": "772ef321947d4b6fd0062b70c5bd014b8b6d35e03a6b1b18ee313043475a9da3",
+      "status": "completed"
+    },
+    "orianna": {
+      "approved_cards": 0,
+      "archive": "data/drafts/orianna/2c3d579cdcf4c13901a3",
+      "attempts": [
+        {
+          "finished_at": "2026-11-01T17:46:07.703950+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/4ffc91f425a266242828c7ee23a193eda0625ee446215ec2da8fa5df364eadb7/attempt-1",
+            ".cache/generator/ai/585655c6cf8660268cbcc6544de9c2ec1109436e130f09065e2602211a4b3d57/attempt-1",
+            ".cache/generator/ai/86386da942f30bfc01c24c5b66c23c7c2cfefe2bea9dacc5e018fdbeea3da88d/attempt-1",
+            ".cache/generator/ai/86386da942f30bfc01c24c5b66c23c7c2cfefe2bea9dacc5e018fdbeea3da88d/attempt-2",
+            ".cache/generator/ai/b88cef5606f2448c1be978cbe5d7b5526d705bfc87f02e861afdfdad3a83e805/attempt-1",
+            ".cache/generator/ai/df790e9fb150e9784739fa491ef4db30e3cbfde9316b6d48af141f4f7f0a68f4/attempt-1"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "started_at": "2026-11-01T17:41:10.960764+00:00",
+          "status": "completed"
+        }
+      ],
+      "ddragon_id": "Orianna",
+      "editorial_cards": 0,
+      "editorial_import": {
+        "cards": 64,
+        "imported": [
+          "champ:orianna:overview:L1",
+          "champ:orianna:p:recognize:L2",
+          "champ:orianna:q:recognize:L2",
+          "champ:orianna:w:recognize:L2",
+          "champ:orianna:e:recognize:L2",
+          "champ:orianna:r:recognize:L2"
+        ],
+        "incoming_preserved": []
+      },
+      "name": "Orianna",
+      "qa": {
+        "all_pending_editorial_review": true,
+        "asset_version": "16.21.1",
+        "card_ids": [
+          "champ:orianna:overview:L1",
+          "champ:orianna:p:recognize:L2",
+          "champ:orianna:q:recognize:L2",
+          "champ:orianna:w:recognize:L2",
+          "champ:orianna:e:recognize:L2",
+          "champ:orianna:r:recognize:L2"
+        ],
+        "cards": 6,
+        "citations": 32,
+        "core_coverage_checked": true,
+        "decoded_media_files": 11,
+        "errors": 0,
+        "findings": [
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:orianna:overview:L1",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:orianna:p:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "passive_visual_cue",
+            "id": "champ:orianna:p:recognize:L2",
+            "message": "Determine whether an important passive/system cue needs supplementary media",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:orianna:q:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:orianna:w:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:orianna:e:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:orianna:r:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "metadata",
+            "code": "unknown_gameplay_patch",
+            "id": "orianna",
+            "message": "Asset release is separate; unknown gameplay patch stays hidden",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "orianna",
+            "message": "{'resolution': 'Retain the supported delayed displacement toward the Ball. Leave terrain traversal unresolved without asserting either wall interaction.', 'source_ids': ['wiki:R', 'riot:R'], 'topic': 'The Wiki active description excludes displacement through terrain, while its notes allow passage through walls; Riot does not resolve the conflict.'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "orianna",
+            "message": "{'resolution': 'Describe the Ball as the shockwave source without asserting a precise end-of-cast positioning rule.', 'source_ids': ['wiki:R', 'riot:R'], 'topic': \"R's end-of-cast positioning notes ambiguously refer to the caster and the Ball's attached carrier.\"}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "orianna",
+            "message": "{'resolution': 'Keep terrain traversal unresolved for QA. The supported general displacement remains covered; the draft asserts neither wall outcome.', 'source_ids': ['wiki:R', 'riot:R'], 'topic': \"Wiki R's active description excludes displacement through terrain, but its notes allow passage through walls. Riot does not resolve this.\"}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "orianna",
+            "message": "{'resolution': 'Keep the precise end-of-cast origin rule unresolved for QA. The general Ball-centered description is supported.', 'source_ids': ['wiki:R', 'riot:R'], 'topic': \"Wiki R's positioning notes refer ambiguously to both the caster and the attached carrier.\"}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "All six cards are UNAPPROVED drafts.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "Only the supplied frozen evidence was used; no current-client verification or patch inference was performed.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "Counterplay, priorities and the AP learning focus are inferred teaching guidance grounded in the supplied mechanics.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "The passive buff-bar cue is a tentative proposal supported by Wiki text, not visually verified by the supplied demonstration frames.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "Q projectile-blocker interactions remain unresolved and are not treated as established mechanics.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "R terrain traversal and precise end-of-cast origin remain unresolved.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "Ball retrieval, leash limits, carrier state, interception and travel-time casting restrictions create advanced positioning exceptions.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "Q persistence wording allows further commands to reposition the Ball rather than treating retrieval and leash limits as exhaustive.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "Arena-specific values, historical material, skin descriptions and transcluded pet ability labels were not used to establish standard ability effects.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "The passive buff-bar cue is supported by wiki:P text but is not visually verified; the supplied frames do not establish its appearance.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "Q projectile-blocker outcomes remain explicitly pending or questioned in the evidence.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "The AP focus is teaching guidance supported by damage and shield scaling, not evidence of an optimal build.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "Omitted stack expiry, lingering slow decay, temporary shield duration and advanced travel or carrier exceptions do not make these qualified beginner descriptions misleading.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "Counterplay and priority judgments follow from supplied mechanics without guaranteed outcomes or invented timings.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "orianna",
+            "message": "UNAPPROVED and other provenance labels occur in metadata, not card-facing wording. This check does not confer human approval or current-client verification.",
+            "severity": "warning"
+          }
+        ],
+        "kit_schema": 1,
+        "media": {
+          "gif": 4,
+          "icon": 1,
+          "portrait": 1
+        },
+        "model_usage": {},
+        "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+        "schema_version": 1,
+        "section_dispositions": [],
+        "slot_roles": [
+          {
+            "role": "passive",
+            "slot": "P"
+          },
+          {
+            "role": "active",
+            "slot": "Q"
+          },
+          {
+            "role": "active",
+            "slot": "W"
+          },
+          {
+            "role": "active",
+            "slot": "E"
+          },
+          {
+            "role": "active",
+            "slot": "R"
+          }
+        ],
+        "source_excerpts": 11,
+        "source_packet_sha256": "a6e62a6c7579eb8e615b9c18a7f9ec86a575c66290c925b4de1eef75c77993ae",
+        "warnings": 27,
+        "wiki_revision": "3892665"
+      },
+      "reserved_by": null,
+      "result": {
+        "ai_support_issues": 0,
+        "approved": false,
+        "approved_cards_unchanged": 100,
+        "cards": 6,
+        "champion": {
+          "ddragon_id": "Orianna",
+          "name": "Orianna",
+          "riot_id": 61,
+          "roles": [
+            "Mage",
+            "Support"
+          ]
+        },
+        "output": "build/generated/orianna/2c3d579cdcf4c13901a3",
+        "previews": "build/generated/orianna/2c3d579cdcf4c13901a3/previews/index.html",
+        "proposal_sha256": "03c5f006685dea23f1c79402eaa9dd14053763d6fa83c60fb425bb6953a4bd0d",
+        "published": false,
+        "status": "drafts_ready_for_review"
+      },
+      "riot_id": 61,
+      "skip_reason": null,
+      "slug": "orianna",
+      "source_input": "build/generated/inputs/a6e62a6c7579eb8e615b9c18a7f9ec86a575c66290c925b4de1eef75c77993ae",
+      "source_sha256": "a6e62a6c7579eb8e615b9c18a7f9ec86a575c66290c925b4de1eef75c77993ae",
+      "status": "completed"
+    },
+    "renekton": {
+      "approved_cards": 0,
+      "archive": "data/drafts/renekton/50aeeddbd54ed078389f",
+      "attempts": [
+        {
+          "finished_at": "2026-11-01T17:50:38.579762+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/18139279a9c5620d561871d2f1f990daa4d29137219e249ecac81f098edffba7/attempt-1",
+            ".cache/generator/ai/3eccb7564f2a7028d530aef4faee1453340a618dbd53e1269b02869f14bbfb6b/attempt-1",
+            ".cache/generator/ai/767907e9303c746c1f9cbd66b2bffdf8f3598d5bf06e9eb0e9fad5cb114a5f30/attempt-1",
+            ".cache/generator/ai/ca7bbb84d727a5d52b50b51c0afe97120c2955f3646f13edc8112da69477938b/attempt-1",
+            ".cache/generator/ai/e74c239b0072df5e27011f7cd6c359ce383d8bc2872f71f93e9e36a9662ea8bf/attempt-1"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "started_at": "2026-11-01T17:46:08.032655+00:00",
+          "status": "completed"
+        }
+      ],
+      "ddragon_id": "Renekton",
+      "editorial_cards": 0,
+      "editorial_import": {
+        "cards": 70,
+        "imported": [
+          "champ:renekton:overview:L1",
+          "champ:renekton:system:p:reignofanger:recognize:L2",
+          "champ:renekton:q:recognize:L2",
+          "champ:renekton:w:recognize:L2",
+          "champ:renekton:e:recognize:L2",
+          "champ:renekton:transformation:r:dominus:recognize:L2"
+        ],
+        "incoming_preserved": []
+      },
+      "name": "Renekton",
+      "qa": {
+        "all_pending_editorial_review": true,
+        "asset_version": "16.21.1",
+        "card_ids": [
+          "champ:renekton:overview:L1",
+          "champ:renekton:system:p:reignofanger:recognize:L2",
+          "champ:renekton:q:recognize:L2",
+          "champ:renekton:w:recognize:L2",
+          "champ:renekton:e:recognize:L2",
+          "champ:renekton:transformation:r:dominus:recognize:L2"
+        ],
+        "cards": 6,
+        "citations": 30,
+        "core_coverage_checked": true,
+        "decoded_media_files": 9,
+        "errors": 0,
+        "findings": [
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:renekton:overview:L1",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:renekton:system:p:reignofanger:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "passive_visual_cue",
+            "id": "champ:renekton:system:p:reignofanger:recognize:L2",
+            "message": "Determine whether an important passive/system cue needs supplementary media",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:renekton:q:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:renekton:w:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:renekton:e:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "static_fallback",
+            "id": "champ:renekton:transformation:r:dominus:recognize:L2",
+            "message": "No source-matched animation; inspect the actual ability/context before accepting the real icon",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:renekton:transformation:r:dominus:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "metadata",
+            "code": "unknown_gameplay_patch",
+            "id": "renekton",
+            "message": "Asset release is separate; unknown gameplay patch stays hidden",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "media_mapping",
+            "id": "champ:renekton:system:p:reignofanger:recognize:L2",
+            "message": "['Passive/resource/leveling visual cues require manual review of the archived demonstration frames.']",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "media_mapping",
+            "id": "champ:renekton:q:recognize:L2",
+            "message": "['The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review.']",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "media_mapping",
+            "id": "champ:renekton:w:recognize:L2",
+            "message": "['The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review.']",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "media_mapping",
+            "id": "champ:renekton:e:recognize:L2",
+            "message": "['The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review.']",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "media_mapping",
+            "id": "champ:renekton:transformation:r:dominus:recognize:L2",
+            "message": "['No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant.']",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "renekton",
+            "message": "{'resolution': \"Use the detailed passive's inclusive threshold of at least 50 Fury. Riot ability descriptions say more than 50; the wiki's introductory percentage wording is less precise than its detailed rule.\", 'source_ids': ['riot:Q', 'riot:W', 'wiki:reignofanger'], 'topic': 'Fury empowerment threshold'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "renekton",
+            "message": "{'resolution': \"Teach Slice's exclusion from Fury consumption and Dice's empowerment using the detailed passive and E descriptions.\", 'source_ids': ['wiki:reignofanger', 'wiki:sliceanddice', 'riot:E'], 'topic': 'Generic basic-ability empowerment wording versus Slice exception'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "renekton",
+            "message": "{'resolution': 'Use the detailed passive rule of at least 50 Fury, with Slice excluded, rather than the simplified descriptions saying more than 50.', 'source_ids': ['riot:Q', 'riot:W', 'wiki:reignofanger'], 'topic': 'Fury empowerment threshold'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "renekton",
+            "message": "{'resolution': 'Describe healing per enemy hit, increased against champions, following the detailed Q description; omit the simplified damage-proportional wording.', 'source_ids': ['riot:Q', 'wiki:cullthemeek'], 'topic': 'Cull the Meek healing model'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "renekton",
+            "message": "{'resolution': \"Apply the passive's explicit exception that empowered abilities do not generate Fury. Q's Fury generation is described only for its normal version.\", 'source_ids': ['wiki:reignofanger', 'wiki:cullthemeek', 'wiki:ruthlesspredator', 'wiki:sliceanddice'], 'topic': 'Ability-hit Fury generation versus empowerment exception'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "renekton",
+            "message": "{'resolution': \"Use the detailed passive's at-least-50 threshold and explicit Slice exception rather than the simplified Riot descriptions saying more than 50.\", 'source_ids': ['riot:Q', 'riot:W', 'wiki:reignofanger'], 'topic': 'Fury empowerment threshold'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "renekton",
+            "message": "{'resolution': 'Use the detailed per-enemy healing model, increased against champions, rather than describing healing as proportional to damage dealt.', 'source_ids': ['riot:Q', 'wiki:cullthemeek'], 'topic': 'Cull the Meek healing model'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "renekton",
+            "message": "{'resolution': 'Apply the explicit passive exception: empowered abilities do not generate Fury. Read general ability-hit generation statements subject to that exception.', 'source_ids': ['wiki:reignofanger', 'wiki:cullthemeek', 'wiki:ruthlesspredator', 'wiki:sliceanddice'], 'topic': 'Normal versus empowered Fury generation'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "The Data Dragon release is pinned; the packet does not establish a current game patch label.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "The pending parrying-effects test is uncertain and supplies no established Fury interaction.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "The cooldown-change note in wiki:W is excluded as an isolated numerical change note.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "Lore, skins, collection text and credits embedded in wiki:R are excluded from gameplay teaching.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "Health Relics and peripheral pickup interactions are omitted from the central Fury goal because their mode context is not established.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "Detailed wiki-only interaction exceptions remain advanced material; no current-client verification is supplied.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "Counterplay is qualitative inference from the supplied effects, not a guaranteed outcome.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "The overview's AD orientation summarizes basic-ability damage and scaling; it does not establish an optimal build or follow causally from Fury empowerment.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "No exhaustive-kit ability-absence inference is used; the Slice and empowered-Fury exceptions are explicit source assertions.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "W's general shield-destruction core describes champion combat; monster and structure exceptions and attack-trigger distinctions remain in metadata.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "Fury generation against blind, dodge and block remains unresolved in the supplied material.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "No patch label or visual appearance is inferred from the supplied material.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "General attack-generated Fury wording is a beginner summary: the detailed passive excludes structures, and empowered abilities do not generate Fury.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "W's shield-destruction wording must retain its declared champion-combat scope; the detailed source excludes monsters and says the empowered attack does not trigger against structures.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "AD is inferred broad learning guidance from the supplied scaling, not an explicit source statement establishing an optimal build. The external pedagogical metadata supplies the required interpretation.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "Counterplay is qualitative source-grounded inference and makes no timing or outcome guarantees.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "Fury generation against blind, dodge and block remains pending testing and is correctly confined to metadata.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "renekton",
+            "message": "No exhaustive-kit absence inference, patch identification or visual verification is asserted.",
+            "severity": "warning"
+          },
+          {
+            "category": "source",
+            "code": "findings",
+            "id": "renekton",
+            "message": "{'code': 'adaptive_kit_structure', 'message': '5 live sections discovered; conventional slot headings are not a completeness contract.'}",
+            "severity": "warning"
+          }
+        ],
+        "kit_schema": 2,
+        "media": {
+          "gif": 3,
+          "icon": 2,
+          "portrait": 1
+        },
+        "model_usage": {
+          "available_receipt_usage": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 25472,
+            "input_tokens": 122684,
+            "output_tokens": 16287,
+            "reasoning_output_tokens": 389
+          },
+          "logical_requests": 5,
+          "recorded_model_attempts": 5,
+          "scope": "Recorded generation usage; cached replay does not repeat these model calls. Failed-attempt usage may be unavailable.",
+          "usage_receipts_available": 5
+        },
+        "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+        "schema_version": 1,
+        "section_dispositions": [
+          {
+            "disposition": "taught",
+            "reason": "The Fury cycle and Slice exception determine which threats are empowered; pending tests and peripheral interactions are excluded from cores.",
+            "source_id": "wiki:reignofanger",
+            "target_subject_ids": [
+              "wiki:reignofanger"
+            ]
+          },
+          {
+            "disposition": "taught",
+            "reason": "Surrounding damage, healing and empowerment form a distinct enemy-recognition goal; scaling and brief lockouts are unnecessary for it.",
+            "source_id": "wiki:cullthemeek",
+            "target_subject_ids": [
+              "wiki:cullthemeek"
+            ]
+          },
+          {
+            "disposition": "taught",
+            "reason": "The attack stun and empowered shield destruction are central threats; specialized trigger interactions are advanced material.",
+            "source_id": "wiki:ruthlesspredator",
+            "target_subject_ids": [
+              "wiki:ruthlesspredator"
+            ]
+          },
+          {
+            "disposition": "taught",
+            "reason": "Slice, its hit-gated Dice recast and Dice empowerment belong together as a movement-recognition goal.",
+            "source_id": "wiki:sliceanddice",
+            "target_subject_ids": [
+              "wiki:sliceanddice"
+            ]
+          },
+          {
+            "disposition": "taught",
+            "reason": "The transformation, aura, Fury generation and increased reach fit a shared sustained-fight goal without a separate form card.",
+            "source_id": "wiki:dominus",
+            "target_subject_ids": [
+              "wiki:dominus"
+            ]
+          }
+        ],
+        "slot_roles": [
+          {
+            "role": "passive",
+            "slot": "P",
+            "source_ids": [
+              "wiki:reignofanger"
+            ]
+          },
+          {
+            "role": "active",
+            "slot": "Q",
+            "source_ids": [
+              "wiki:cullthemeek"
+            ]
+          },
+          {
+            "role": "active",
+            "slot": "W",
+            "source_ids": [
+              "wiki:ruthlesspredator"
+            ]
+          },
+          {
+            "role": "active",
+            "slot": "E",
+            "source_ids": [
+              "wiki:sliceanddice"
+            ]
+          },
+          {
+            "role": "active",
+            "slot": "R",
+            "source_ids": [
+              "wiki:dominus"
+            ]
+          }
+        ],
+        "source_excerpts": 16,
+        "source_packet_sha256": "9545184766f85e58beb0d43f31e292ce491288a1d9ae50587ab656783c793026",
+        "warnings": 41,
+        "wiki_revision": "4028014"
+      },
+      "reserved_by": null,
+      "result": {
+        "ai_support_issues": 0,
+        "approved": false,
+        "approved_cards_unchanged": 100,
+        "cards": 6,
+        "champion": {
+          "ddragon_id": "Renekton",
+          "name": "Renekton",
+          "riot_id": 58,
+          "roles": [
+            "Fighter",
+            "Tank"
+          ]
+        },
+        "model_usage": {
+          "available_receipt_usage": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 25472,
+            "input_tokens": 122684,
+            "output_tokens": 16287,
+            "reasoning_output_tokens": 389
+          },
+          "logical_requests": 5,
+          "recorded_model_attempts": 5,
+          "scope": "Recorded generation usage; cached replay does not repeat these model calls. Failed-attempt usage may be unavailable.",
+          "usage_receipts_available": 5
+        },
+        "output": "build/generated/renekton/50aeeddbd54ed078389f",
+        "previews": "build/generated/renekton/50aeeddbd54ed078389f/previews/index.html",
+        "published": false,
+        "status": "drafts_ready_for_review"
+      },
+      "riot_id": 58,
+      "skip_reason": null,
+      "slug": "renekton",
+      "source_input": "build/generated/inputs/9545184766f85e58beb0d43f31e292ce491288a1d9ae50587ab656783c793026",
+      "source_sha256": "9545184766f85e58beb0d43f31e292ce491288a1d9ae50587ab656783c793026",
+      "status": "completed"
+    },
+    "soraka": {
+      "approved_cards": 0,
+      "archive": "data/drafts/soraka/52d0279b8d0141063018",
+      "attempts": [
+        {
+          "error": "AI mechanics failed after 3 attempts this execution; inspect D:\\Billo Programme\\League Anki\\.cache\\generator\\ai\\b5e0cdc0f2ee5bd16f2b59d18be022bc04da7192a079141ebc73c50f1b110921",
+          "error_type": "ModelError",
+          "finished_at": "2026-11-01T17:51:03.826035+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/b5e0cdc0f2ee5bd16f2b59d18be022bc04da7192a079141ebc73c50f1b110921/attempt-1",
+            ".cache/generator/ai/b5e0cdc0f2ee5bd16f2b59d18be022bc04da7192a079141ebc73c50f1b110921/attempt-2",
+            ".cache/generator/ai/b5e0cdc0f2ee5bd16f2b59d18be022bc04da7192a079141ebc73c50f1b110921/attempt-3"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "stage": "generating",
+          "started_at": "2026-11-01T17:50:38.906904+00:00",
+          "status": "failed"
+        },
+        {
+          "finished_at": "2026-11-01T17:56:30.119922+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/991bffcc309962fec8e8037a05934dddd53c33c52ced0475622f34a0a732617f/attempt-1",
+            ".cache/generator/ai/b5e0cdc0f2ee5bd16f2b59d18be022bc04da7192a079141ebc73c50f1b110921/attempt-4",
+            ".cache/generator/ai/fae729033af93040c27603ce92a81876d46e4307b954957d9279fdb903e75ff0/attempt-1"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "started_at": "2026-11-01T17:54:15.842602+00:00",
+          "status": "completed"
+        }
+      ],
+      "ddragon_id": "Soraka",
+      "editorial_cards": 0,
+      "editorial_import": {
+        "cards": 76,
+        "imported": [
+          "champ:soraka:overview:L1",
+          "champ:soraka:p:recognize:L2",
+          "champ:soraka:q:recognize:L2",
+          "champ:soraka:w:recognize:L2",
+          "champ:soraka:e:recognize:L2",
+          "champ:soraka:r:recognize:L2"
+        ],
+        "incoming_preserved": []
+      },
+      "name": "Soraka",
+      "qa": {
+        "all_pending_editorial_review": true,
+        "asset_version": "16.21.1",
+        "card_ids": [
+          "champ:soraka:overview:L1",
+          "champ:soraka:p:recognize:L2",
+          "champ:soraka:q:recognize:L2",
+          "champ:soraka:w:recognize:L2",
+          "champ:soraka:e:recognize:L2",
+          "champ:soraka:r:recognize:L2"
+        ],
+        "cards": 6,
+        "citations": 25,
+        "core_coverage_checked": true,
+        "decoded_media_files": 11,
+        "errors": 0,
+        "findings": [
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:soraka:overview:L1",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:soraka:p:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "passive_visual_cue",
+            "id": "champ:soraka:p:recognize:L2",
+            "message": "Determine whether an important passive/system cue needs supplementary media",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:soraka:q:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:soraka:w:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:soraka:e:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:soraka:r:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "metadata",
+            "code": "unknown_gameplay_patch",
+            "id": "soraka",
+            "message": "Asset release is separate; unknown gameplay patch stays hidden",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "soraka",
+            "message": "{'resolution': 'Describe the delayed root for enemy champions, preserving the supported core without asserting its behavior for every enemy unit.', 'source_ids': ['riot:E', 'wiki:E'], 'topic': 'Equinox root target scope'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "soraka",
+            "message": "{'resolution': 'The draft preserves the delayed-root core using enemy champions, the shared supported scope. Root behavior for other enemy units remains unresolved and requires QA only if broader wording is desired.', 'source_ids': ['riot:E', 'wiki:E'], 'topic': 'Equinox root target scope: Riot says all enemies; the Wiki explicitly describes enemy champions.'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "All six cards are UNAPPROVED drafts.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "Evidence is pinned to Data Dragon 16.21.1 and Wiki revision 3892689; a live game patch is not established.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "Official passive clip frames are demonstrations, not current-client or skin-specific verification.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "Map-specific differences are present in the Wiki excerpts; the cards describe the supplied general mechanics.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "Counterplay and gameplay priorities are inferred teaching guidance grounded in the supplied effects.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "Advanced projectile, health-cost, cleanse and realm interactions are summarized in metadata rather than expanded into beginner answers.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "This check assesses supplied textual evidence only; it is neither human approval nor visual verification.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "Evidence is pinned to Data Dragon 16.21.1 and Wiki revision 3892689; current-client behavior and a live patch label are not established.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "The passive arrow description is textually supported by wiki:P, but the supplied demonstration frames do not establish current-client or skin-specific visuals.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "Q's general Rejuvenation description omits supported delivery and interception details. It must not be interpreted as guaranteeing immediate receipt; sharing can begin before Soraka receives the returning projectile.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "W's supported low-health casting restriction and health-cost exceptions are omitted beginner details, not contradicted by its qualified normal-cost description.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "The excerpts include map-specific differences and a reported immediate-respawn Wish bug; the draft makes no precise cost, scaling or cooldown promises affected by those details.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "AP as a learning focus is supported by supplied healing and damage ratios, but those ratios do not establish an optimal build.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "soraka",
+            "message": "No internal provenance, confidence or development labels appear in the card-facing answers, counterplay or passive description; such labels remain in metadata.",
+            "severity": "warning"
+          }
+        ],
+        "kit_schema": 1,
+        "media": {
+          "gif": 4,
+          "icon": 1,
+          "portrait": 1
+        },
+        "model_usage": {},
+        "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+        "schema_version": 1,
+        "section_dispositions": [],
+        "slot_roles": [
+          {
+            "role": "passive",
+            "slot": "P"
+          },
+          {
+            "role": "active",
+            "slot": "Q"
+          },
+          {
+            "role": "active",
+            "slot": "W"
+          },
+          {
+            "role": "active",
+            "slot": "E"
+          },
+          {
+            "role": "active",
+            "slot": "R"
+          }
+        ],
+        "source_excerpts": 11,
+        "source_packet_sha256": "7f52b579ec0c4d4617a8e7d366fe0334811421de01cbcba8c989d91a8578b2c6",
+        "warnings": 24,
+        "wiki_revision": "3892689"
+      },
+      "reserved_by": null,
+      "result": {
+        "ai_support_issues": 0,
+        "approved": false,
+        "approved_cards_unchanged": 100,
+        "cards": 6,
+        "champion": {
+          "ddragon_id": "Soraka",
+          "name": "Soraka",
+          "riot_id": 16,
+          "roles": [
+            "Support",
+            "Mage"
+          ]
+        },
+        "output": "build/generated/soraka/52d0279b8d0141063018",
+        "previews": "build/generated/soraka/52d0279b8d0141063018/previews/index.html",
+        "proposal_sha256": "51a52910fd55569b5c26005c057887d4b4b41a8828f4b57690e5becd1b3edf8e",
+        "published": false,
+        "status": "drafts_ready_for_review"
+      },
+      "riot_id": 16,
+      "skip_reason": null,
+      "slug": "soraka",
+      "source_input": "build/generated/inputs/7f52b579ec0c4d4617a8e7d366fe0334811421de01cbcba8c989d91a8578b2c6",
+      "source_sha256": "7f52b579ec0c4d4617a8e7d366fe0334811421de01cbcba8c989d91a8578b2c6",
+      "status": "completed"
+    },
+    "warwick": {
+      "approved_cards": 0,
+      "archive": "data/drafts/warwick/afe3c0a49f73c771d1f4",
+      "attempts": [
+        {
+          "error": "AI mechanics failed after 3 attempts this execution; inspect D:\\Billo Programme\\League Anki\\.cache\\generator\\ai\\70bd58ce10a0985c143aa8ac622e0264b166b0add6e6f05e131fd4e152431d55",
+          "error_type": "ModelError",
+          "finished_at": "2026-11-01T17:51:30.541133+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/70bd58ce10a0985c143aa8ac622e0264b166b0add6e6f05e131fd4e152431d55/attempt-1",
+            ".cache/generator/ai/70bd58ce10a0985c143aa8ac622e0264b166b0add6e6f05e131fd4e152431d55/attempt-2",
+            ".cache/generator/ai/70bd58ce10a0985c143aa8ac622e0264b166b0add6e6f05e131fd4e152431d55/attempt-3"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "stage": "generating",
+          "started_at": "2026-11-01T17:51:04.127956+00:00",
+          "status": "failed"
+        },
+        {
+          "finished_at": "2026-11-01T18:01:55.865781+00:00",
+          "new_model_attempts": [
+            ".cache/generator/ai/30a2cd017c12429c865b412b139905b6718332fee6e3b61f43ec7412fe740b0c/attempt-1",
+            ".cache/generator/ai/70bd58ce10a0985c143aa8ac622e0264b166b0add6e6f05e131fd4e152431d55/attempt-4",
+            ".cache/generator/ai/a3ea5442baa315c033175b38232cfb01e0515f3218702b2cff98255accd33925/attempt-1",
+            ".cache/generator/ai/ad50be5895aaa30ff363fcc44fc24ee7df027a97ea9e19997f64dbf297f266cd/attempt-1",
+            ".cache/generator/ai/ad50be5895aaa30ff363fcc44fc24ee7df027a97ea9e19997f64dbf297f266cd/attempt-2",
+            ".cache/generator/ai/c3913f8bc1ac13d5c286754dae436a0a6bbb43d35ddb6ce1b73d872b11209f63/attempt-1"
+          ],
+          "processor": {
+            "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+            "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+            "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+          },
+          "started_at": "2026-11-01T17:56:30.532207+00:00",
+          "status": "completed"
+        }
+      ],
+      "ddragon_id": "Warwick",
+      "editorial_cards": 0,
+      "editorial_import": {
+        "cards": 82,
+        "imported": [
+          "champ:warwick:overview:L1",
+          "champ:warwick:p:recognize:L2",
+          "champ:warwick:q:recognize:L2",
+          "champ:warwick:w:recognize:L2",
+          "champ:warwick:e:recognize:L2",
+          "champ:warwick:r:recognize:L2"
+        ],
+        "incoming_preserved": []
+      },
+      "name": "Warwick",
+      "qa": {
+        "all_pending_editorial_review": true,
+        "asset_version": "16.21.1",
+        "card_ids": [
+          "champ:warwick:overview:L1",
+          "champ:warwick:p:recognize:L2",
+          "champ:warwick:q:recognize:L2",
+          "champ:warwick:w:recognize:L2",
+          "champ:warwick:e:recognize:L2",
+          "champ:warwick:r:recognize:L2"
+        ],
+        "cards": 6,
+        "citations": 29,
+        "core_coverage_checked": true,
+        "decoded_media_files": 10,
+        "errors": 0,
+        "findings": [
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:warwick:overview:L1",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:warwick:p:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "passive_visual_cue",
+            "id": "champ:warwick:p:recognize:L2",
+            "message": "Determine whether an important passive/system cue needs supplementary media",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:warwick:q:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:warwick:w:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:warwick:e:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "media",
+            "code": "manual_visual_review",
+            "id": "champ:warwick:r:recognize:L2",
+            "message": "Human ability/variant/cue matching and current-client appearance review required",
+            "severity": "warning"
+          },
+          {
+            "category": "metadata",
+            "code": "unknown_gameplay_patch",
+            "id": "warwick",
+            "message": "Asset release is separate; unknown gameplay patch stays hidden",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "warwick",
+            "message": "{'resolution': 'Retain stronger healing below one-quarter health without choosing the disputed triple or 250% multiplier.', 'source_ids': ['riot:P', 'wiki:P'], 'topic': 'Passive healing multiplier'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "warwick",
+            "message": "{'resolution': 'Retain stronger bonuses against very wounded enemies without choosing an exact threshold or multiplier; Riot and Wiki disagree, and Wiki is internally inconsistent.', 'source_ids': ['riot:W', 'wiki:W'], 'topic': 'Blood Hunt enhanced bonuses'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "warwick",
+            "message": "{'resolution': 'Retain temporary damage reduction without choosing between the stated maximum durations of 2.5 and 2.75 seconds.', 'source_ids': ['riot:E', 'wiki:E'], 'topic': 'Primal Howl protection duration'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "warwick",
+            "message": "{'resolution': 'Unresolved exact multiplier: Riot says triple healing below 25% health; Wiki says 250%. The draft correctly retains only stronger healing.', 'source_ids': ['riot:P', 'wiki:P'], 'topic': 'Passive healing multiplier'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "warwick",
+            "message": "{'resolution': 'Unresolved threshold and multiplier: Riot specifies triple below 25%; Wiki variously specifies enhancement below 20% and doubling below 25%. The draft correctly retains the supported general increase.', 'source_ids': ['riot:W', 'wiki:W'], 'topic': 'Blood Hunt enhanced bonuses'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "source_conflicts",
+            "id": "warwick",
+            "message": "{'resolution': 'Unresolved maximum protection duration: Riot states 2.5 seconds and Wiki states up to 2.75 seconds. The draft correctly avoids an exact duration.', 'source_ids': ['riot:E', 'wiki:E'], 'topic': 'Primal Howl protection duration'}",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "All six cards are UNAPPROVED drafts.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "Evidence is frozen to the supplied Data Dragon release and Wiki revision; it does not establish current-patch behavior.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "Official demonstration frames do not establish current-client or skin-specific visual behavior.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "Wiki pending-test notes and documented bugs are not promoted to universal rules.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "Q tracking and interruption, W detection, E/R interaction and R channel protection have advanced exceptions retained in card metadata.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "Counterplay and the broad AD learning focus are teaching recommendations grounded in the supplied effects and ratios; no optimal build is established.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "This support check establishes neither human approval nor visual verification; supplied frames remain unverified.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "Frozen excerpts do not establish current-patch behavior.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "Q tracking exceptions and cooldown-refund reliability remain QA caveats; the qualified tracking wording does not promise universal following.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "W's Nexus Obelisk exception, decoy detection and attack-speed timing are advanced qualifications; the draft does not claim unrestricted vision or exhaustive eligibility.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "E's R-triggered howl can preserve protection. The draft does not claim that every howl ends damage reduction.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "R target protection is evaluated at collision; later spell shields do not block an existing channel. Suppression removal can leave a nondamaging channel, and a specific Singed interaction qualifies channel interruption.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "AD scaling supports the broad learning focus, but does not establish an optimal build. Expanding AD to attack damage would optionally improve beginner clarity.",
+            "severity": "warning"
+          },
+          {
+            "category": "factual",
+            "code": "factual_risks",
+            "id": "warwick",
+            "message": "No provenance, confidence or development labels appear in the answer or counterplay text; UNAPPROVED labels remain in metadata.",
+            "severity": "warning"
+          }
+        ],
+        "kit_schema": 1,
+        "media": {
+          "gif": 4,
+          "icon": 1,
+          "portrait": 1
+        },
+        "model_usage": {},
+        "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+        "schema_version": 1,
+        "section_dispositions": [],
+        "slot_roles": [
+          {
+            "role": "passive",
+            "slot": "P"
+          },
+          {
+            "role": "active",
+            "slot": "Q"
+          },
+          {
+            "role": "active",
+            "slot": "W"
+          },
+          {
+            "role": "active",
+            "slot": "E"
+          },
+          {
+            "role": "active",
+            "slot": "R"
+          }
+        ],
+        "source_excerpts": 11,
+        "source_packet_sha256": "2152a147fe8191a80f96629f5b794affb5b15c072778bc60633a306beecf8876",
+        "warnings": 28,
+        "wiki_revision": "3960181"
+      },
+      "reserved_by": null,
+      "result": {
+        "ai_support_issues": 0,
+        "approved": false,
+        "approved_cards_unchanged": 100,
+        "cards": 6,
+        "champion": {
+          "ddragon_id": "Warwick",
+          "name": "Warwick",
+          "riot_id": 19,
+          "roles": [
+            "Fighter",
+            "Tank"
+          ]
+        },
+        "output": "build/generated/warwick/afe3c0a49f73c771d1f4",
+        "previews": "build/generated/warwick/afe3c0a49f73c771d1f4/previews/index.html",
+        "proposal_sha256": "3f328f45d5b84b9061347b1a1c309df92aec6d63aa0870d6046eb594f6b3723b",
+        "published": false,
+        "status": "drafts_ready_for_review"
+      },
+      "riot_id": 19,
+      "skip_reason": null,
+      "slug": "warwick",
+      "source_input": "build/generated/inputs/2152a147fe8191a80f96629f5b794affb5b15c072778bc60633a306beecf8876",
+      "source_sha256": "2152a147fe8191a80f96629f5b794affb5b15c072778bc60633a306beecf8876",
+      "status": "completed"
+    }
+  },
+  "concurrent_editorial_changes": {
+    "champ:523:overview:L1": {
+      "disposition": "Preserved external review/edit; the batch does not modify this record",
+      "initial_sha256": "0fd640236546f7a1aeca6e951a0a74761241dd175a3004d42f7630eb84946a91",
+      "observed_sha256": "57cfedf5aad190319a91e52f15e10764f5518effc5874440071d98fa83682405"
+    },
+    "champ:523:system:p:thehitmanandtheseer:recognize:L2": {
+      "disposition": "Preserved external review/edit; the batch does not modify this record",
+      "initial_sha256": "67fb41f332f351ab0781d9f422d158f5bea28d97d76245a430526f09600dbbdb",
+      "observed_sha256": "b91d2c3df0649f02e73c4280fb3afb7354b4dddd5366ce73d2529c8e9e2bb950"
+    },
+    "champ:523:w:recognize:L2": {
+      "disposition": "Preserved external review/edit; the batch does not modify this record",
+      "initial_sha256": "f95b69e9a16a49337d14f9cc738ef8a8a4ef72c51daff34f6c1156415c2e6d41",
+      "observed_sha256": "de5ae74ebb3306161f99856fb6fc8dbdc9ee0997451e461fdaea4a7cad453175"
+    }
+  },
+  "config_sha256": "f5117bfef7b2a6fc63763f1f3c0e123a27c5d80d8770e81d3afe2df00fc5da29",
+  "created_at": "2026-11-01T17:10:01.124444+00:00",
+  "existing_editorial_sha256": {
+    "champ:201:e:recognize:L2": "36e7557c6da7aa71846f651db124d79bef7c0d2c132fc621e78324b2d51debf2",
+    "champ:201:overview:L1": "3c112d44b31074ba20920322c5ea0b74caf526ec4ece02492233bd02426a875d",
+    "champ:201:p:recognize:L2": "270f2f2ab8d1c9d96bff1bdd9be568a67c2d16c487af14474849efbf1d37ec86",
+    "champ:201:q:recognize:L2": "41767d90434ba4f1bb272dc86db6e07238b5ff40ba1d56302370f4259289cde2",
+    "champ:201:r:recognize:L2": "add17d8bd3fa0701fd0683557e846dc46083b71cb654910b9b3b590f000fb1b6",
+    "champ:201:w:recognize:L2": "7e1563aa72d6ababf381a9af65cee308453da990a57f8a50150645d8c813c936",
+    "champ:523:ability_variant:q:bindingeclipse:gravitum:recognize:L2": "d0d080fac683b1095d4a31abb1334e87b618f57fcbb6ede0a3fd0f32d07bd68b",
+    "champ:523:ability_variant:q:duskwave:infernum:recognize:L2": "a4cdad77b10117601275ac7b2c43f6a9fa80cff682f34a174587383e68fb7428",
+    "champ:523:ability_variant:q:moonshot:calibrum:recognize:L2": "c9cd112a564a4f0a61b5f0975be0078e6ad70b5912b35bb73e15ae7d347855b9",
+    "champ:523:ability_variant:q:onslaught:severum:recognize:L2": "57326623492431a79351f13b083a0fd7593dd03748469db6901d445d941d3209",
+    "champ:523:ability_variant:q:sentry:crescendum:recognize:L2": "01a5d20dc729be91d33ed17808ae817923d7ea97fe104174122f2c81b490b3d0",
+    "champ:523:overview:L1": "0fd640236546f7a1aeca6e951a0a74761241dd175a3004d42f7630eb84946a91",
+    "champ:523:r:recognize:L2": "e49a11ff9e4e3c36dd08f5d35cab7170d015e6343a8586187ec3356720a8b500",
+    "champ:523:system:p:thehitmanandtheseer:recognize:L2": "67fb41f332f351ab0781d9f422d158f5bea28d97d76245a430526f09600dbbdb",
+    "champ:523:w:recognize:L2": "f95b69e9a16a49337d14f9cc738ef8a8a4ef72c51daff34f6c1156415c2e6d41",
+    "champ:523:weapon:none:calibrum:recognize:L2": "ebba2bc00d412f8a9d0b62f1c4a67f37f496b9722e7ee2c5252ebc5ac5d7baf0",
+    "champ:523:weapon:none:crescendum:recognize:L2": "4e27bc3a32ce495918ab6ca15650745d47278f3a1df790b94098979946d48109",
+    "champ:523:weapon:none:gravitum:recognize:L2": "dd56106310ce67373ee52ab30d5c883efa9d621e44de6bfe95e8fdd847d2eaa9",
+    "champ:523:weapon:none:infernum:recognize:L2": "ec491386e62b526f2cce04dfe18ec48a0bcea7cfc446082db62ba3e719e3c7a7",
+    "champ:523:weapon:none:severum:recognize:L2": "6382dd489cc6b63d62e17df9ad0ccc05a2b7bbf83b092f70ef559e9bfae77359"
+  },
+  "id": "production-pilot-01",
+  "inventory_before": [
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Aatrox",
+      "editorial_cards": 0,
+      "name": "Aatrox",
+      "reserved_by": null,
+      "riot_id": 266,
+      "slug": "aatrox",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 6,
+      "ddragon_id": "Ahri",
+      "editorial_cards": 0,
+      "name": "Ahri",
+      "reserved_by": null,
+      "riot_id": 103,
+      "slug": "ahri",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Akali",
+      "editorial_cards": 0,
+      "name": "Akali",
+      "reserved_by": null,
+      "riot_id": 84,
+      "slug": "akali",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Akshan",
+      "editorial_cards": 0,
+      "name": "Akshan",
+      "reserved_by": null,
+      "riot_id": 166,
+      "slug": "akshan",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Alistar",
+      "editorial_cards": 0,
+      "name": "Alistar",
+      "reserved_by": null,
+      "riot_id": 12,
+      "slug": "alistar",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Ambessa",
+      "editorial_cards": 0,
+      "name": "Ambessa",
+      "reserved_by": null,
+      "riot_id": 799,
+      "slug": "ambessa",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Amumu",
+      "editorial_cards": 0,
+      "name": "Amumu",
+      "reserved_by": null,
+      "riot_id": 32,
+      "slug": "amumu",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Anivia",
+      "editorial_cards": 0,
+      "name": "Anivia",
+      "reserved_by": null,
+      "riot_id": 34,
+      "slug": "anivia",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Annie",
+      "editorial_cards": 0,
+      "name": "Annie",
+      "reserved_by": null,
+      "riot_id": 1,
+      "slug": "annie",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Aphelios",
+      "editorial_cards": 14,
+      "name": "Aphelios",
+      "reserved_by": null,
+      "riot_id": 523,
+      "slug": "aphelios",
+      "status": "editorial_pending"
+    },
+    {
+      "approved_cards": 6,
+      "ddragon_id": "Ashe",
+      "editorial_cards": 0,
+      "name": "Ashe",
+      "reserved_by": null,
+      "riot_id": 22,
+      "slug": "ashe",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "AurelionSol",
+      "editorial_cards": 0,
+      "name": "Aurelion Sol",
+      "reserved_by": null,
+      "riot_id": 136,
+      "slug": "aurelionsol",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Aurora",
+      "editorial_cards": 0,
+      "name": "Aurora",
+      "reserved_by": null,
+      "riot_id": 893,
+      "slug": "aurora",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Azir",
+      "editorial_cards": 0,
+      "name": "Azir",
+      "reserved_by": null,
+      "riot_id": 268,
+      "slug": "azir",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Bard",
+      "editorial_cards": 0,
+      "name": "Bard",
+      "reserved_by": null,
+      "riot_id": 432,
+      "slug": "bard",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Belveth",
+      "editorial_cards": 0,
+      "name": "Bel'Veth",
+      "reserved_by": null,
+      "riot_id": 200,
+      "slug": "belveth",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 7,
+      "ddragon_id": "Blitzcrank",
+      "editorial_cards": 0,
+      "name": "Blitzcrank",
+      "reserved_by": null,
+      "riot_id": 53,
+      "slug": "blitzcrank",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Brand",
+      "editorial_cards": 0,
+      "name": "Brand",
+      "reserved_by": null,
+      "riot_id": 63,
+      "slug": "brand",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 6,
+      "ddragon_id": "Braum",
+      "editorial_cards": 6,
+      "name": "Braum",
+      "reserved_by": null,
+      "riot_id": 201,
+      "slug": "braum",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Briar",
+      "editorial_cards": 0,
+      "name": "Briar",
+      "reserved_by": null,
+      "riot_id": 233,
+      "slug": "briar",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 6,
+      "ddragon_id": "Caitlyn",
+      "editorial_cards": 0,
+      "name": "Caitlyn",
+      "reserved_by": null,
+      "riot_id": 51,
+      "slug": "caitlyn",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Camille",
+      "editorial_cards": 0,
+      "name": "Camille",
+      "reserved_by": null,
+      "riot_id": 164,
+      "slug": "camille",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Cassiopeia",
+      "editorial_cards": 0,
+      "name": "Cassiopeia",
+      "reserved_by": null,
+      "riot_id": 69,
+      "slug": "cassiopeia",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Chogath",
+      "editorial_cards": 0,
+      "name": "Cho'Gath",
+      "reserved_by": null,
+      "riot_id": 31,
+      "slug": "chogath",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Corki",
+      "editorial_cards": 0,
+      "name": "Corki",
+      "reserved_by": null,
+      "riot_id": 42,
+      "slug": "corki",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Darius",
+      "editorial_cards": 0,
+      "name": "Darius",
+      "reserved_by": null,
+      "riot_id": 122,
+      "slug": "darius",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Diana",
+      "editorial_cards": 0,
+      "name": "Diana",
+      "reserved_by": null,
+      "riot_id": 131,
+      "slug": "diana",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Draven",
+      "editorial_cards": 0,
+      "name": "Draven",
+      "reserved_by": null,
+      "riot_id": 119,
+      "slug": "draven",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "DrMundo",
+      "editorial_cards": 0,
+      "name": "Dr. Mundo",
+      "reserved_by": null,
+      "riot_id": 36,
+      "slug": "drmundo",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Ekko",
+      "editorial_cards": 0,
+      "name": "Ekko",
+      "reserved_by": null,
+      "riot_id": 245,
+      "slug": "ekko",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Elise",
+      "editorial_cards": 0,
+      "name": "Elise",
+      "reserved_by": null,
+      "riot_id": 60,
+      "slug": "elise",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Evelynn",
+      "editorial_cards": 0,
+      "name": "Evelynn",
+      "reserved_by": null,
+      "riot_id": 28,
+      "slug": "evelynn",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 6,
+      "ddragon_id": "Ezreal",
+      "editorial_cards": 0,
+      "name": "Ezreal",
+      "reserved_by": null,
+      "riot_id": 81,
+      "slug": "ezreal",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Fiddlesticks",
+      "editorial_cards": 0,
+      "name": "Fiddlesticks",
+      "reserved_by": null,
+      "riot_id": 9,
+      "slug": "fiddlesticks",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Fiora",
+      "editorial_cards": 0,
+      "name": "Fiora",
+      "reserved_by": null,
+      "riot_id": 114,
+      "slug": "fiora",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Fizz",
+      "editorial_cards": 0,
+      "name": "Fizz",
+      "reserved_by": null,
+      "riot_id": 105,
+      "slug": "fizz",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Galio",
+      "editorial_cards": 0,
+      "name": "Galio",
+      "reserved_by": null,
+      "riot_id": 3,
+      "slug": "galio",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Gangplank",
+      "editorial_cards": 0,
+      "name": "Gangplank",
+      "reserved_by": null,
+      "riot_id": 41,
+      "slug": "gangplank",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Garen",
+      "editorial_cards": 0,
+      "name": "Garen",
+      "reserved_by": null,
+      "riot_id": 86,
+      "slug": "garen",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Gnar",
+      "editorial_cards": 0,
+      "name": "Gnar",
+      "reserved_by": null,
+      "riot_id": 150,
+      "slug": "gnar",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Gragas",
+      "editorial_cards": 0,
+      "name": "Gragas",
+      "reserved_by": null,
+      "riot_id": 79,
+      "slug": "gragas",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Graves",
+      "editorial_cards": 0,
+      "name": "Graves",
+      "reserved_by": null,
+      "riot_id": 104,
+      "slug": "graves",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Gwen",
+      "editorial_cards": 0,
+      "name": "Gwen",
+      "reserved_by": null,
+      "riot_id": 887,
+      "slug": "gwen",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Hecarim",
+      "editorial_cards": 0,
+      "name": "Hecarim",
+      "reserved_by": null,
+      "riot_id": 120,
+      "slug": "hecarim",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Heimerdinger",
+      "editorial_cards": 0,
+      "name": "Heimerdinger",
+      "reserved_by": null,
+      "riot_id": 74,
+      "slug": "heimerdinger",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Hwei",
+      "editorial_cards": 0,
+      "name": "Hwei",
+      "reserved_by": null,
+      "riot_id": 910,
+      "slug": "hwei",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Illaoi",
+      "editorial_cards": 0,
+      "name": "Illaoi",
+      "reserved_by": null,
+      "riot_id": 420,
+      "slug": "illaoi",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Irelia",
+      "editorial_cards": 0,
+      "name": "Irelia",
+      "reserved_by": null,
+      "riot_id": 39,
+      "slug": "irelia",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Ivern",
+      "editorial_cards": 0,
+      "name": "Ivern",
+      "reserved_by": null,
+      "riot_id": 427,
+      "slug": "ivern",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Janna",
+      "editorial_cards": 0,
+      "name": "Janna",
+      "reserved_by": null,
+      "riot_id": 40,
+      "slug": "janna",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "JarvanIV",
+      "editorial_cards": 0,
+      "name": "Jarvan IV",
+      "reserved_by": null,
+      "riot_id": 59,
+      "slug": "jarvaniv",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Jax",
+      "editorial_cards": 0,
+      "name": "Jax",
+      "reserved_by": null,
+      "riot_id": 24,
+      "slug": "jax",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Jayce",
+      "editorial_cards": 0,
+      "name": "Jayce",
+      "reserved_by": null,
+      "riot_id": 126,
+      "slug": "jayce",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Jhin",
+      "editorial_cards": 0,
+      "name": "Jhin",
+      "reserved_by": null,
+      "riot_id": 202,
+      "slug": "jhin",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 6,
+      "ddragon_id": "Jinx",
+      "editorial_cards": 0,
+      "name": "Jinx",
+      "reserved_by": null,
+      "riot_id": 222,
+      "slug": "jinx",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Kaisa",
+      "editorial_cards": 0,
+      "name": "Kai'Sa",
+      "reserved_by": null,
+      "riot_id": 145,
+      "slug": "kaisa",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Kalista",
+      "editorial_cards": 0,
+      "name": "Kalista",
+      "reserved_by": null,
+      "riot_id": 429,
+      "slug": "kalista",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Karma",
+      "editorial_cards": 0,
+      "name": "Karma",
+      "reserved_by": null,
+      "riot_id": 43,
+      "slug": "karma",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Karthus",
+      "editorial_cards": 0,
+      "name": "Karthus",
+      "reserved_by": null,
+      "riot_id": 30,
+      "slug": "karthus",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Kassadin",
+      "editorial_cards": 0,
+      "name": "Kassadin",
+      "reserved_by": null,
+      "riot_id": 38,
+      "slug": "kassadin",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Katarina",
+      "editorial_cards": 0,
+      "name": "Katarina",
+      "reserved_by": null,
+      "riot_id": 55,
+      "slug": "katarina",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Kayle",
+      "editorial_cards": 0,
+      "name": "Kayle",
+      "reserved_by": null,
+      "riot_id": 10,
+      "slug": "kayle",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Kayn",
+      "editorial_cards": 0,
+      "name": "Kayn",
+      "reserved_by": null,
+      "riot_id": 141,
+      "slug": "kayn",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Kennen",
+      "editorial_cards": 0,
+      "name": "Kennen",
+      "reserved_by": null,
+      "riot_id": 85,
+      "slug": "kennen",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Khazix",
+      "editorial_cards": 0,
+      "name": "Kha'Zix",
+      "reserved_by": null,
+      "riot_id": 121,
+      "slug": "khazix",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Kindred",
+      "editorial_cards": 0,
+      "name": "Kindred",
+      "reserved_by": null,
+      "riot_id": 203,
+      "slug": "kindred",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Kled",
+      "editorial_cards": 0,
+      "name": "Kled",
+      "reserved_by": null,
+      "riot_id": 240,
+      "slug": "kled",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "KogMaw",
+      "editorial_cards": 0,
+      "name": "Kog'Maw",
+      "reserved_by": null,
+      "riot_id": 96,
+      "slug": "kogmaw",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "KSante",
+      "editorial_cards": 0,
+      "name": "K'Sante",
+      "reserved_by": null,
+      "riot_id": 897,
+      "slug": "ksante",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Leblanc",
+      "editorial_cards": 0,
+      "name": "LeBlanc",
+      "reserved_by": null,
+      "riot_id": 7,
+      "slug": "leblanc",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "LeeSin",
+      "editorial_cards": 0,
+      "name": "Lee Sin",
+      "reserved_by": null,
+      "riot_id": 64,
+      "slug": "leesin",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 6,
+      "ddragon_id": "Leona",
+      "editorial_cards": 0,
+      "name": "Leona",
+      "reserved_by": null,
+      "riot_id": 89,
+      "slug": "leona",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Lillia",
+      "editorial_cards": 0,
+      "name": "Lillia",
+      "reserved_by": null,
+      "riot_id": 876,
+      "slug": "lillia",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Lissandra",
+      "editorial_cards": 0,
+      "name": "Lissandra",
+      "reserved_by": null,
+      "riot_id": 127,
+      "slug": "lissandra",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 6,
+      "ddragon_id": "Locke",
+      "editorial_cards": 0,
+      "name": "Locke",
+      "reserved_by": null,
+      "riot_id": 805,
+      "slug": "locke",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Lucian",
+      "editorial_cards": 0,
+      "name": "Lucian",
+      "reserved_by": null,
+      "riot_id": 236,
+      "slug": "lucian",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Lulu",
+      "editorial_cards": 0,
+      "name": "Lulu",
+      "reserved_by": null,
+      "riot_id": 117,
+      "slug": "lulu",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 6,
+      "ddragon_id": "Lux",
+      "editorial_cards": 0,
+      "name": "Lux",
+      "reserved_by": null,
+      "riot_id": 99,
+      "slug": "lux",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Malphite",
+      "editorial_cards": 0,
+      "name": "Malphite",
+      "reserved_by": null,
+      "riot_id": 54,
+      "slug": "malphite",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Malzahar",
+      "editorial_cards": 0,
+      "name": "Malzahar",
+      "reserved_by": null,
+      "riot_id": 90,
+      "slug": "malzahar",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Maokai",
+      "editorial_cards": 0,
+      "name": "Maokai",
+      "reserved_by": null,
+      "riot_id": 57,
+      "slug": "maokai",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "MasterYi",
+      "editorial_cards": 0,
+      "name": "Master Yi",
+      "reserved_by": null,
+      "riot_id": 11,
+      "slug": "masteryi",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Mel",
+      "editorial_cards": 0,
+      "name": "Mel",
+      "reserved_by": null,
+      "riot_id": 800,
+      "slug": "mel",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Milio",
+      "editorial_cards": 0,
+      "name": "Milio",
+      "reserved_by": null,
+      "riot_id": 902,
+      "slug": "milio",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "MissFortune",
+      "editorial_cards": 0,
+      "name": "Miss Fortune",
+      "reserved_by": null,
+      "riot_id": 21,
+      "slug": "missfortune",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "MonkeyKing",
+      "editorial_cards": 0,
+      "name": "Wukong",
+      "reserved_by": null,
+      "riot_id": 62,
+      "slug": "monkeyking",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Mordekaiser",
+      "editorial_cards": 0,
+      "name": "Mordekaiser",
+      "reserved_by": null,
+      "riot_id": 82,
+      "slug": "mordekaiser",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 6,
+      "ddragon_id": "Morgana",
+      "editorial_cards": 0,
+      "name": "Morgana",
+      "reserved_by": null,
+      "riot_id": 25,
+      "slug": "morgana",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Naafiri",
+      "editorial_cards": 0,
+      "name": "Naafiri",
+      "reserved_by": null,
+      "riot_id": 950,
+      "slug": "naafiri",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Nami",
+      "editorial_cards": 0,
+      "name": "Nami",
+      "reserved_by": null,
+      "riot_id": 267,
+      "slug": "nami",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Nasus",
+      "editorial_cards": 0,
+      "name": "Nasus",
+      "reserved_by": null,
+      "riot_id": 75,
+      "slug": "nasus",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 7,
+      "ddragon_id": "Nautilus",
+      "editorial_cards": 0,
+      "name": "Nautilus",
+      "reserved_by": null,
+      "riot_id": 111,
+      "slug": "nautilus",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Neeko",
+      "editorial_cards": 0,
+      "name": "Neeko",
+      "reserved_by": null,
+      "riot_id": 518,
+      "slug": "neeko",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Nidalee",
+      "editorial_cards": 0,
+      "name": "Nidalee",
+      "reserved_by": null,
+      "riot_id": 76,
+      "slug": "nidalee",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Nilah",
+      "editorial_cards": 0,
+      "name": "Nilah",
+      "reserved_by": null,
+      "riot_id": 895,
+      "slug": "nilah",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Nocturne",
+      "editorial_cards": 0,
+      "name": "Nocturne",
+      "reserved_by": null,
+      "riot_id": 56,
+      "slug": "nocturne",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Nunu",
+      "editorial_cards": 0,
+      "name": "Nunu & Willump",
+      "reserved_by": null,
+      "riot_id": 20,
+      "slug": "nunu",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Olaf",
+      "editorial_cards": 0,
+      "name": "Olaf",
+      "reserved_by": null,
+      "riot_id": 2,
+      "slug": "olaf",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Orianna",
+      "editorial_cards": 0,
+      "name": "Orianna",
+      "reserved_by": null,
+      "riot_id": 61,
+      "slug": "orianna",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Ornn",
+      "editorial_cards": 0,
+      "name": "Ornn",
+      "reserved_by": null,
+      "riot_id": 516,
+      "slug": "ornn",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Pantheon",
+      "editorial_cards": 0,
+      "name": "Pantheon",
+      "reserved_by": null,
+      "riot_id": 80,
+      "slug": "pantheon",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Poppy",
+      "editorial_cards": 0,
+      "name": "Poppy",
+      "reserved_by": null,
+      "riot_id": 78,
+      "slug": "poppy",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Pyke",
+      "editorial_cards": 0,
+      "name": "Pyke",
+      "reserved_by": null,
+      "riot_id": 555,
+      "slug": "pyke",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Qiyana",
+      "editorial_cards": 0,
+      "name": "Qiyana",
+      "reserved_by": null,
+      "riot_id": 246,
+      "slug": "qiyana",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Quinn",
+      "editorial_cards": 0,
+      "name": "Quinn",
+      "reserved_by": null,
+      "riot_id": 133,
+      "slug": "quinn",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Rakan",
+      "editorial_cards": 0,
+      "name": "Rakan",
+      "reserved_by": null,
+      "riot_id": 497,
+      "slug": "rakan",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Rammus",
+      "editorial_cards": 0,
+      "name": "Rammus",
+      "reserved_by": null,
+      "riot_id": 33,
+      "slug": "rammus",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "RekSai",
+      "editorial_cards": 0,
+      "name": "Rek'Sai",
+      "reserved_by": null,
+      "riot_id": 421,
+      "slug": "reksai",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Rell",
+      "editorial_cards": 0,
+      "name": "Rell",
+      "reserved_by": null,
+      "riot_id": 526,
+      "slug": "rell",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Renata",
+      "editorial_cards": 0,
+      "name": "Renata Glasc",
+      "reserved_by": null,
+      "riot_id": 888,
+      "slug": "renata",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Renekton",
+      "editorial_cards": 0,
+      "name": "Renekton",
+      "reserved_by": null,
+      "riot_id": 58,
+      "slug": "renekton",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Rengar",
+      "editorial_cards": 0,
+      "name": "Rengar",
+      "reserved_by": null,
+      "riot_id": 107,
+      "slug": "rengar",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Riven",
+      "editorial_cards": 0,
+      "name": "Riven",
+      "reserved_by": null,
+      "riot_id": 92,
+      "slug": "riven",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Rumble",
+      "editorial_cards": 0,
+      "name": "Rumble",
+      "reserved_by": null,
+      "riot_id": 68,
+      "slug": "rumble",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Ryze",
+      "editorial_cards": 0,
+      "name": "Ryze",
+      "reserved_by": null,
+      "riot_id": 13,
+      "slug": "ryze",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Samira",
+      "editorial_cards": 0,
+      "name": "Samira",
+      "reserved_by": null,
+      "riot_id": 360,
+      "slug": "samira",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Sejuani",
+      "editorial_cards": 0,
+      "name": "Sejuani",
+      "reserved_by": null,
+      "riot_id": 113,
+      "slug": "sejuani",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Senna",
+      "editorial_cards": 0,
+      "name": "Senna",
+      "reserved_by": null,
+      "riot_id": 235,
+      "slug": "senna",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Seraphine",
+      "editorial_cards": 0,
+      "name": "Seraphine",
+      "reserved_by": null,
+      "riot_id": 147,
+      "slug": "seraphine",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Sett",
+      "editorial_cards": 0,
+      "name": "Sett",
+      "reserved_by": null,
+      "riot_id": 875,
+      "slug": "sett",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Shaco",
+      "editorial_cards": 0,
+      "name": "Shaco",
+      "reserved_by": null,
+      "riot_id": 35,
+      "slug": "shaco",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Shen",
+      "editorial_cards": 0,
+      "name": "Shen",
+      "reserved_by": null,
+      "riot_id": 98,
+      "slug": "shen",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Shyvana",
+      "editorial_cards": 0,
+      "name": "Shyvana",
+      "reserved_by": null,
+      "riot_id": 102,
+      "slug": "shyvana",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Singed",
+      "editorial_cards": 0,
+      "name": "Singed",
+      "reserved_by": null,
+      "riot_id": 27,
+      "slug": "singed",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Sion",
+      "editorial_cards": 0,
+      "name": "Sion",
+      "reserved_by": null,
+      "riot_id": 14,
+      "slug": "sion",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Sivir",
+      "editorial_cards": 0,
+      "name": "Sivir",
+      "reserved_by": null,
+      "riot_id": 15,
+      "slug": "sivir",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Skarner",
+      "editorial_cards": 0,
+      "name": "Skarner",
+      "reserved_by": null,
+      "riot_id": 72,
+      "slug": "skarner",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Smolder",
+      "editorial_cards": 0,
+      "name": "Smolder",
+      "reserved_by": null,
+      "riot_id": 901,
+      "slug": "smolder",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Sona",
+      "editorial_cards": 0,
+      "name": "Sona",
+      "reserved_by": null,
+      "riot_id": 37,
+      "slug": "sona",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Soraka",
+      "editorial_cards": 0,
+      "name": "Soraka",
+      "reserved_by": null,
+      "riot_id": 16,
+      "slug": "soraka",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Swain",
+      "editorial_cards": 0,
+      "name": "Swain",
+      "reserved_by": null,
+      "riot_id": 50,
+      "slug": "swain",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Sylas",
+      "editorial_cards": 0,
+      "name": "Sylas",
+      "reserved_by": null,
+      "riot_id": 517,
+      "slug": "sylas",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Syndra",
+      "editorial_cards": 0,
+      "name": "Syndra",
+      "reserved_by": null,
+      "riot_id": 134,
+      "slug": "syndra",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "TahmKench",
+      "editorial_cards": 0,
+      "name": "Tahm Kench",
+      "reserved_by": null,
+      "riot_id": 223,
+      "slug": "tahmkench",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Taliyah",
+      "editorial_cards": 0,
+      "name": "Taliyah",
+      "reserved_by": null,
+      "riot_id": 163,
+      "slug": "taliyah",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Talon",
+      "editorial_cards": 0,
+      "name": "Talon",
+      "reserved_by": null,
+      "riot_id": 91,
+      "slug": "talon",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Taric",
+      "editorial_cards": 0,
+      "name": "Taric",
+      "reserved_by": null,
+      "riot_id": 44,
+      "slug": "taric",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Teemo",
+      "editorial_cards": 0,
+      "name": "Teemo",
+      "reserved_by": null,
+      "riot_id": 17,
+      "slug": "teemo",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 7,
+      "ddragon_id": "Thresh",
+      "editorial_cards": 0,
+      "name": "Thresh",
+      "reserved_by": null,
+      "riot_id": 412,
+      "slug": "thresh",
+      "status": "approved"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Tristana",
+      "editorial_cards": 0,
+      "name": "Tristana",
+      "reserved_by": null,
+      "riot_id": 18,
+      "slug": "tristana",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Trundle",
+      "editorial_cards": 0,
+      "name": "Trundle",
+      "reserved_by": null,
+      "riot_id": 48,
+      "slug": "trundle",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Tryndamere",
+      "editorial_cards": 0,
+      "name": "Tryndamere",
+      "reserved_by": null,
+      "riot_id": 23,
+      "slug": "tryndamere",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "TwistedFate",
+      "editorial_cards": 0,
+      "name": "Twisted Fate",
+      "reserved_by": null,
+      "riot_id": 4,
+      "slug": "twistedfate",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Twitch",
+      "editorial_cards": 0,
+      "name": "Twitch",
+      "reserved_by": null,
+      "riot_id": 29,
+      "slug": "twitch",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Udyr",
+      "editorial_cards": 0,
+      "name": "Udyr",
+      "reserved_by": null,
+      "riot_id": 77,
+      "slug": "udyr",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Urgot",
+      "editorial_cards": 0,
+      "name": "Urgot",
+      "reserved_by": null,
+      "riot_id": 6,
+      "slug": "urgot",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Varus",
+      "editorial_cards": 0,
+      "name": "Varus",
+      "reserved_by": null,
+      "riot_id": 110,
+      "slug": "varus",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Vayne",
+      "editorial_cards": 0,
+      "name": "Vayne",
+      "reserved_by": null,
+      "riot_id": 67,
+      "slug": "vayne",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Veigar",
+      "editorial_cards": 0,
+      "name": "Veigar",
+      "reserved_by": null,
+      "riot_id": 45,
+      "slug": "veigar",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Velkoz",
+      "editorial_cards": 0,
+      "name": "Vel'Koz",
+      "reserved_by": null,
+      "riot_id": 161,
+      "slug": "velkoz",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Vex",
+      "editorial_cards": 0,
+      "name": "Vex",
+      "reserved_by": null,
+      "riot_id": 711,
+      "slug": "vex",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Vi",
+      "editorial_cards": 0,
+      "name": "Vi",
+      "reserved_by": null,
+      "riot_id": 254,
+      "slug": "vi",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Viego",
+      "editorial_cards": 0,
+      "name": "Viego",
+      "reserved_by": null,
+      "riot_id": 234,
+      "slug": "viego",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Viktor",
+      "editorial_cards": 0,
+      "name": "Viktor",
+      "reserved_by": null,
+      "riot_id": 112,
+      "slug": "viktor",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Vladimir",
+      "editorial_cards": 0,
+      "name": "Vladimir",
+      "reserved_by": null,
+      "riot_id": 8,
+      "slug": "vladimir",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Volibear",
+      "editorial_cards": 0,
+      "name": "Volibear",
+      "reserved_by": null,
+      "riot_id": 106,
+      "slug": "volibear",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Warwick",
+      "editorial_cards": 0,
+      "name": "Warwick",
+      "reserved_by": null,
+      "riot_id": 19,
+      "slug": "warwick",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Xayah",
+      "editorial_cards": 0,
+      "name": "Xayah",
+      "reserved_by": null,
+      "riot_id": 498,
+      "slug": "xayah",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Xerath",
+      "editorial_cards": 0,
+      "name": "Xerath",
+      "reserved_by": null,
+      "riot_id": 101,
+      "slug": "xerath",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "XinZhao",
+      "editorial_cards": 0,
+      "name": "Xin Zhao",
+      "reserved_by": null,
+      "riot_id": 5,
+      "slug": "xinzhao",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Yasuo",
+      "editorial_cards": 0,
+      "name": "Yasuo",
+      "reserved_by": null,
+      "riot_id": 157,
+      "slug": "yasuo",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Yone",
+      "editorial_cards": 0,
+      "name": "Yone",
+      "reserved_by": null,
+      "riot_id": 777,
+      "slug": "yone",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Yorick",
+      "editorial_cards": 0,
+      "name": "Yorick",
+      "reserved_by": null,
+      "riot_id": 83,
+      "slug": "yorick",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Yunara",
+      "editorial_cards": 0,
+      "name": "Yunara",
+      "reserved_by": null,
+      "riot_id": 804,
+      "slug": "yunara",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Yuumi",
+      "editorial_cards": 0,
+      "name": "Yuumi",
+      "reserved_by": null,
+      "riot_id": 350,
+      "slug": "yuumi",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Zaahen",
+      "editorial_cards": 0,
+      "name": "Zaahen",
+      "reserved_by": null,
+      "riot_id": 904,
+      "slug": "zaahen",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Zac",
+      "editorial_cards": 0,
+      "name": "Zac",
+      "reserved_by": null,
+      "riot_id": 154,
+      "slug": "zac",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Zed",
+      "editorial_cards": 0,
+      "name": "Zed",
+      "reserved_by": null,
+      "riot_id": 238,
+      "slug": "zed",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Zeri",
+      "editorial_cards": 0,
+      "name": "Zeri",
+      "reserved_by": null,
+      "riot_id": 221,
+      "slug": "zeri",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Ziggs",
+      "editorial_cards": 0,
+      "name": "Ziggs",
+      "reserved_by": null,
+      "riot_id": 115,
+      "slug": "ziggs",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Zilean",
+      "editorial_cards": 0,
+      "name": "Zilean",
+      "reserved_by": null,
+      "riot_id": 26,
+      "slug": "zilean",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Zoe",
+      "editorial_cards": 0,
+      "name": "Zoe",
+      "reserved_by": null,
+      "riot_id": 142,
+      "slug": "zoe",
+      "status": "eligible"
+    },
+    {
+      "approved_cards": 0,
+      "ddragon_id": "Zyra",
+      "editorial_cards": 0,
+      "name": "Zyra",
+      "reserved_by": null,
+      "riot_id": 143,
+      "slug": "zyra",
+      "status": "eligible"
+    }
+  ],
+  "roster": {
+    "index": {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    "version": "16.21.1",
+    "versions": {
+      "bytes": 5229,
+      "kind": "json",
+      "retrieved_at": "2026-11-01T17:10:00.903500+00:00",
+      "sha256": "344c1f32acc5af49a90bd10355f8ee6ba59e4119d6797ce0f26e287463e2262a",
+      "url": "https://ddragon.leagueoflegends.com/api/versions.json"
+    }
+  },
+  "roster_sha256": "73fe90b19409ec58761efe8f28bbd2c897c280da8985882b8d44f7157f00d564",
+  "schema_version": 1,
+  "status": "awaiting_batch_review",
+  "updated_at": "2026-11-01T18:04:32.422261+00:00"
+}

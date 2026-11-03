@@ -1,0 +1,365 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "The Cursed Horde: Yorick can summon Mist Walkers to swarm and attack nearby enemies.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Yorick_P.png",
+      "name": "Shepherd of Souls",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": null
+    },
+    {
+      "cooldown_source_only": [
+        6,
+        5.5,
+        5,
+        4.5,
+        4
+      ],
+      "description": "Yorick deals bonus damage on his next attack and heals himself. If the target is a champion or large monster or if the target dies, a grave will be dug.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/YorickQ.png",
+      "name": "Last Rites",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0083/ability_0083_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        20,
+        18,
+        16,
+        14,
+        12
+      ],
+      "description": "Yorick summons a destructible wall at target location that will block enemy movement.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/YorickW.png",
+      "name": "Dark Procession",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0083/ability_0083_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Yorick throws a globule of Black Mist that reduces armor, damages, slows and marks enemies. Summoned units gain move speed when moving towards marked targets.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/YorickE.png",
+      "name": "Mourning Mist",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0083/ability_0083_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        160,
+        130,
+        100
+      ],
+      "description": "Yorick summons the Maiden of the Mist that causes Yorick's attacks against the Maiden's target to deal bonus damage. The Maiden will also automatically raise Walkers from dead enemies.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/YorickR.png",
+      "name": "Eulogy of the Isles",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0083/ability_0083_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/yorick/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Yorick"
+  },
+  "champion": {
+    "ddragon_id": "Yorick",
+    "name": "Yorick",
+    "riot_id": 83,
+    "roles": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/Yorick/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "a85526e54a987c28d74db779e4853ed47734aa2ca8737b4b2c4084e962a9c678",
+      "text": "The Cursed Horde: Yorick can summon Mist Walkers to swarm and attack nearby enemies.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Yorick.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "Shepherd of Souls",
+      "provider": "league_wiki",
+      "sha256": "8a75950d463d71e64ac27cc66f600af2f274a2cdc73af04e2ccd6d7651a19607",
+      "text": "Shepherd of Souls\nEFFECT RADIUS:\n1000 • 2500\nInnate- Final Service: Enemies that die near Yorick will leave a grave, as well as those he kills or damages with Last Rites. Yorick can use Awakening and Mourning Mist to turn all graves into Mist Walkers that assist him in combat. Innate - The Cursed Horde: Mist Walkers will autonomously advance a lane upon entering combat within. Yorick can have up to 4 Mist Walkers.\nInnate - Final Service: Whenever Yorick uses Last Rites to score the killing blow on any enemy or damage an enemy champion or large monster, he raises a grave at their location. Additionally, a grave is passively raised for every 8th – 2nd (based on level) enemy that dies otherwise near him. Up to 4 graves can exist at once, lasting until Yorick exits the general area or dies, with the furthest one always being replaced by the newest upon raising one over the limit.\nYorick can use Awakening and Mourning Mist's mark to raise 1 Mist Walker from each grave after a 1-second delay, consuming the graves in the process.\nInnate - The Cursed Horde: Up to 4 Mist Walkers can be active at once near Yorick or near The Maiden, with the nearest one always being replaced by the newest upon raising one over the limit.\nSee Pets for more details about Mist Walkers.\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nDamaging a large monster or champion with Last Rites will only spawn 1 grave, even if it kills them.\nMap-Specific Differences\nARAM differences edit\nDeaths required for a grave changed to 5 at all levels.\nArena differences edit\nNew Effect: Now spawns a grave at a random location within 600 units every 8 seconds.\nGhoul attack damage AD ratio changed to 15% AD.\nGhoul health changed to 70% value.\nAbility Preview Video\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick?oldid=4011713"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/Yorick/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "a85526e54a987c28d74db779e4853ed47734aa2ca8737b4b2c4084e962a9c678",
+      "text": "Yorick deals bonus damage on his next attack and heals himself. If the target is a champion or large monster or if the target dies, a grave will be dug.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Yorick.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Last Rites",
+      "provider": "league_wiki",
+      "sha256": "8a75950d463d71e64ac27cc66f600af2f274a2cdc73af04e2ccd6d7651a19607",
+      "text": "Last Rites\nCOST:\n20 Mana\nCOOLDOWN:\n6 / 5.5 / 5 / 4.5 / 4\nCAST TIME:\nnone\nActive: Yorick's next basic attack within a few seconds will gain bonus range, deal bonus physical damage, and heal him based on his missing health. If there are at least 3 graves nearby while Last Rites is active or on cooldown, he can cast Awakening.\nActive: Yorick empowers his next basic attack within 5 seconds to have an uncancellable windup, gain 50 bonus range, deal bonus physical damage, and heal him. The heal is reduced by 50% against non-champions.\nBonus Physical Damage:30 / 50 / 70 / 90 / 110 (+ 50% AD)\nHeal:10 – 78 (based on level) (+ 6 / 7 / 8 / 9 / 10% of his missing health)Non-Champion Heal:5 – 39 (based on level) (+ 3 / 3.5 / 4 / 4.5 / 5% of his missing health)\nWhile there are at least 3 graves nearby and Last Rites is active or on cooldown, Yorick can cast Awakening.\nLast Rites resets Yorick's basic attack timer.\nEdit\nAwakening\nCAST TIME:\nnone\nRANGE:\n1000\nActive: Yorick summons Mist Walkers from the graves around him.\nActive: Yorick exhumes a Mist Walker under his command from each nearby grave.\nTargeting input\nAuto\nAffects\nSelf, Enemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nNot Blocked\nParries\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nNo additional notes.\nTargeting input\nProximity\nTarget out-of-range override\nThe ability will not cast\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nAwakening counts as an ability activation for the purposes of on-cast effects such as Spellblade and triggering Force Pulse's passive.\nMist Walkers update their statistics correspondingly to Yorick's during the periodic stat update, with the exception of their maximum health.\nAwakening cannot be cast without enough graves in range.\nLast Rites\nARAM differences edit\nAD ratio changed to 30% AD.\nHeal health ratio changed to 4 / 5 / 6 / 7 / 8% of his missing health.\nArena differences edit\nHeal health ratio changed to 6 / 7 / 8 / 9 / 10% of his missing health.\nNo video available.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick?oldid=4011713"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/Yorick/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "a85526e54a987c28d74db779e4853ed47734aa2ca8737b4b2c4084e962a9c678",
+      "text": "Yorick summons a destructible wall at target location that will block enemy movement.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Yorick.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Dark Procession",
+      "provider": "league_wiki",
+      "sha256": "8a75950d463d71e64ac27cc66f600af2f274a2cdc73af04e2ccd6d7651a19607",
+      "text": "Dark Procession\nCOST:\n70 Mana\nCOOLDOWN:\n20 / 18 / 16 / 14 / 12\nCAST TIME:\nnone\nTARGET RANGE:\n600\nEFFECT RADIUS:\n225 • 200\nImpassable perimeter:\n125 - 325\nActive: Yorick summons a destructible ring of spirits at the target location that knocks aside enemies hit. It remains as terrain against enemies for a few seconds.\nActive: Yorick summons a ring of spirits around the target location that arises after a 0.75-second delay, knocking aside enemies hit by the walls over 0.25 seconds, though not through terrain. Within 210-units, they are pulled inside; otherwise they are pushed away. The ring remains for 4 seconds as impassible terrain against enemies, granting sight inside the ring.\nDark Procession can only be targeted by enemy champion basic attacks and turrets. The wall takes 1 damage per attack from champions and is destroyed instantly from turret attacks.\nWall Health:2 / 2 / 3 / 3 / 4\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nWalk in range of the target location to cast\nAffects\nEnemies\nCounters\nSpell shield\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nDark Procession has a turret prioritization value of 6, equal to that of super minions.\nYorick's other pets each have a lower prioritization value, allowing him to delay the turret from targeting the The Maiden or a Mist Walker for one attack.\nDark Procession deals 0 proc true damage to enemies it knocks aside, which triggers in-combat effects such as drawing turret and monster aggression, Sudden Impact or applying Elixir of Sorcery.\nThe perimeter is made up of 18 units with 100 pathing radius and 20 gameplay radius each, which interact with effects like Warwick's Eternal Hunger. [1]\nYorick marks any enemy champion within repeatedly while the cage persists in order to gain assist credit, lasting for the standard credit timer.\nAbility Preview Video\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick?oldid=4011713"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/Yorick/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "a85526e54a987c28d74db779e4853ed47734aa2ca8737b4b2c4084e962a9c678",
+      "text": "Yorick throws a globule of Black Mist that reduces armor, damages, slows and marks enemies. Summoned units gain move speed when moving towards marked targets.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Yorick.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Mourning Mist",
+      "provider": "league_wiki",
+      "sha256": "8a75950d463d71e64ac27cc66f600af2f274a2cdc73af04e2ccd6d7651a19607",
+      "text": "Mourning Mist\nCOST:\n50 / 55 / 60 / 65 / 70 Mana\nCOOLDOWN:\n12 / 11 / 10 / 9 / 8\nCAST TIME:\n0.25\nTARGET RANGE:\n700\nEFFECT RADIUS:\n1500\nSPEED:\n1800\nActive: Yorick hurls a globule of Black Mist that splashes at the target location dealing magic damage to enemies. Enemy champions and monsters hit are also shortly slowed, and marked Cursed for a few seconds. Yorick and his summons gain bonus movement speed toward a Cursed target. Mist Walkers will leap to a nearby Cursed target and focus them. Cursed: The target has reduced armor. Nearby graves automatically raise a Mist Walkers.\nActive: Yorick hurls a globule of Black Mist that splashes across an area at the target location, dealing magic damage to enemies hit, down to a minimum threshold against minions, and capped against monsters. Enemy champions and monsters hit are slowed by 30% for 1.5 seconds and marked as Cursed for 4 seconds.\nMagic Damage:6 / 6.5 / 7 / 7.5 / 8% (+ 3% per 100 AP) of target's maximum health\nMinimum Minion Damage:70 / 105 / 140 / 175 / 210 (+ 100% AP)\nCapped Monster Damage:50 / 75 / 100 / 125 / 150 (+ 100% AP)\nCursed: The target is revealed and inflicted with armor reduction, and continually raises a Mist Walker from each nearby grave, up to a maximum of 4.\nYorick, Mist Walkers and the The Maiden gain bonus movement speed while facing nearby Cursed enemies. Mist Walkers will leap to nearby Cursed enemy champions and large monsters once, attacking them upon arrival.\nArmor Reduction:13 / 16 / 19 / 22 / 25% of target's armor\nBonus Movement Speed:18 / 21 / 24 / 27 / 30%\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nYorick will snap his facing direction towards the target location at the start of the cast time.\nThe speed boost toward marked targets does not require sight of them.\nThe Mist Walkers do not leap if they are immobilized or grounded, or if the marked target is untargetable.\nThe damage done by the Mist Walkers' leap shares a cast instance with Mourning Mist.\nAbility Preview Video\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick?oldid=4011713"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/Yorick/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "a85526e54a987c28d74db779e4853ed47734aa2ca8737b4b2c4084e962a9c678",
+      "text": "Yorick summons the Maiden of the Mist that causes Yorick's attacks against the Maiden's target to deal bonus damage. The Maiden will also automatically raise Walkers from dead enemies.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Yorick.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Eulogy of the Isles",
+      "provider": "league_wiki",
+      "sha256": "8a75950d463d71e64ac27cc66f600af2f274a2cdc73af04e2ccd6d7651a19607",
+      "text": "Eulogy of the Isles\nCOST:\n100 Mana\nCOOLDOWN:\n160 / 130 / 100\nCAST TIME:\n0.5\nTARGET RANGE:\n600\nActive: Yorick summons the Maiden of the Mist and a few Mist Walkers at the target location. The Maiden will automatically raise Mist Walkers from dead enemies, and mark her attack target with Touch of the Maiden. Eulogy of the Isles can be recast while the Maiden is active. Recast: Yorick sets the Maiden free, allowing her to push the nearest lane. Touch of the Maiden: Yorick's next basic attack will consume the mark to deal bonus magic damage by a portion of the target's maximum health.\nActive: Yorick summons the Maiden of the Mist over 1.5 seconds, along with a number of Mist Walkers surrounding her at the target location, which remain on the battlefield until she or Yorick dies. Eulogy of the Isles can be recast once while the Maiden is alive after 10 seconds of the activation.\nMist Walkers:2 / 3 / 4\nRecast: Yorick sets the Maiden free, allowing her to push the nearest lane until she dies.\nSee Pets for more details about The Maiden of the Mist.\n\"Behold the horrors of the Isles!\" Maiden of the Mist: \"The mist takes all!\"\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nSee the Pets section below for more details about The Maiden of the Mist and Mist Walkers.\nThe extra Mist Walkers spawn 250 units from the Maiden summon location.\nThe Maiden updates her stats when Yorick's stats change, and as Eulogy of the Isles is ranked up.\nWhen Yorick dies, The Maiden rapidly loses portions of her maximum health over 3 seconds until she dies.\nThe loss of maximum health occurs in 0.6-second intervals, in which she loses 20% on the first, 25% on the second, 33.3% on the third, 50% on the fourth, and 100% on the fifth.\nYorick will snap his facing direction towards the target location at the start of the cast time.\nMap-Specific Differences\nSwiftplay differences edit\nDamage from Maiden of the Mist's attacks against turrets changed to 30%.\nBonus damage against marked targets changed to 1.5 / 1.75 / 2% of target's maximum health.\nArena differences edit\nMaiden health changed to 100% value.\nPets[edit | edit source]\nMist Walker\nBounty\nGold\n2\nExp\n0\nCS\n0\nStatistics\nHealth\n100 – 331.35 (based on level) (+ 15% of Yorick's bonus health)\nAttack damage\n15 – 113.33 (based on level) (+ 20% of Yorick's bonus AD)\nAttack speed\n0.54 – 0.96 (based on level)\nAttack range\n125\nArmor\n0\nMagic resist\n0\nMove speed\n325\nGameplay radius\n1\nPathing radius\n20\nControl type\nAutonomous\nTarget type\nMinion, does not count towards creep score\nOn-hit effects\nMist Walkers' attacks are mitigated by dodge, block, and blind. They also deal 60% damage against monsters and 50% damage against turrets.\nSpell effects\nMist Walkers' basic attacks apply spell effects as area damage, including leaping to marked enemies.\nProtection\nMist Walkers receive 60% damage from lane minions; 66% – 40% (based on level) damage from area of effect abilities; 200% damage from melee champion basic attacks; and they are instantly killed by a turret shot.\nAbilities\nEndless March\nMist Walkers remain near Yorick (preferably 200 units behind him) until they enter combat in a lane, whereupon they proceed along the lane and attack any enemy in their path.\nFrenzied\nWhile within 1500 units of an enemy marked as Cursed by Mourning Mist, Mist Walkers benefit from the ability's bonus movement speed, and have the ability to leap to marked enemy champions and large monsters, dealing 100% of their AD upon arrival. While Mist Walkers are targeting a unit due to this effect, an exclamation mark indicator will be visible over their head.\nHasted\nWhile Mist Walkers are within 1600 units of Yorick, they gain 60 bonus movement speed and benefit from Yorick's flat movement speed bonuses. Phase Rush is a percentual exception. Summons gain bonus movement speed when returning to Yorick. This movement speed bonus is based on the distance between Yorick and the summon.\nNotes\nIf Mist Walkers are attacking a jungle monster when Yorick casts Recall, they will continue attacking it until his channel completes, after which they withdraw to him, or they die.\nUnlike other pets, Mist Walkers are not prioritized by turrets over siege minions, though they are prioritized over the Maiden of the Mist.\nMist Walkers will level up with Yorick when he does.\nMist Walkers will blink to Yorick's location after he completes a Teleport channel.\nThe attacks of Mist Walkers belong to separate cast instances.\nThe damage done by the Mist Walkers' leap shares a cast instance with Mourning Mist.\nMaiden of the Mist\nBounty\nGold\n50\nExp\n0\nStatistics\nHealth\n1050 – 3700 (based on level) (+ 60% of Yorick's bonus health)\nMagic damage\n50 / 75 / 100 (+ 30% of Yorick's bonus AD)\nAttack speed\n1.0\nAttack range\n600\nArmor\n30 – 100 (based on level)\nMagic resist\n30 – 100 (based on level)\nMove speed\n300\nGameplay radius\n20\nPathing radius\n40\nControl type\nAutonomous\nTarget type\nMinion\nOn-hit effects\nThe Maiden of the Mist's attacks are mitigated by dodge and blind, but not mitigated by block. They also deal 50% damage against turrets.\nSpell effects\nThe Maiden of the Mist's basic attacks apply spell effects as area damage.\nProtection\nThe Maiden of the Mist takes 30% damage from lane minions.\nAbilities\nNatural Recovery\nThe Maiden of the Mist regenerates 2.5 health per second.\nEndless March\nThe Maiden of the Mist is permanently ghosted and follows Yorick (preferably idle within 100 units of the location 500 units behind him), leashing back to him if he moves 1200 units away from her.\nTouch of the Maiden\nThe Maiden of the Mist's attacks against an enemy champion apply a mark, which is lost from the current target whenever Yorick commands her to a new target or her acquisition of that current target otherwise ends. Yorick's next basic attack or Mourning Mist hit against the marked target consumes the mark to deal bonus magic damage equal to 2 / 2.5 / 3% of the target's maximum health, capped at 30 against monsters.\nUndead Army\nWhenever a nearby enemy dies while there are fewer than 4 Mist Walkers under the Maiden of the Mist's command, she raises another Mist Walker from that enemy's corpse.\nFrenzied\nWhile nearby an enemy marked as Cursed by Mourning Mist, the Maiden of the Mist benefits from the ability's bonus movement speed, and actively seeks to assist Yorick if he is nearby and in combat with an enemy champion. While the Maiden of the Mist is targeting a Cursed unit, an exclamation mark indicator will be visible over her head.\nHasted\nWhile the Maiden of the Mist is within 2000 units of Yorick, she gains 60 bonus movement speed and benefits from Yorick's flat movement speed bonuses.\nNotes\nUnlike other pets, the Maiden of the Mist is not prioritized by turrets over any type of minion.\nThe Maiden of the Mist will level up with Yorick when he does.\nThe Maiden of the Mist will blink to Yorick's location after he completes a Teleport channel.\nChampion skins[edit | edit source]\nThis article section only contains champion skins. For all associated collection items, see Yorick (Collection).\nOriginal\n22.06.2011\nThe last survivor of a long-forgotten religious order, Yorick is both blessed and cursed with power over the dead. Trapped on the Shadow Isles, his only companions are the rotting corpses and shrieking spirits that he gathers to him. Yorick’s monstrous actions belie his noble purpose: to free his home from the curse of the Ruination.\nDaniel Riordan",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick?oldid=4011713"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/Yorick/tags",
+      "provider": "riot_ddragon",
+      "sha256": "a85526e54a987c28d74db779e4853ed47734aa2ca8737b4b2c4084e962a9c678",
+      "text": "Name: Yorick. Official role tags: Fighter, Tank.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Yorick.json"
+    },
+    {
+      "id": "wiki:shepherdofsouls",
+      "locator": "Shepherd_of_Souls",
+      "provider": "league_wiki",
+      "sha256": "8a75950d463d71e64ac27cc66f600af2f274a2cdc73af04e2ccd6d7651a19607",
+      "text": "Shepherd of Souls\nEFFECT RADIUS:\n1000 • 2500\nInnate- Final Service: Enemies that die near Yorick will leave a grave, as well as those he kills or damages with Last Rites. Yorick can use Awakening and Mourning Mist to turn all graves into Mist Walkers that assist him in combat. Innate - The Cursed Horde: Mist Walkers will autonomously advance a lane upon entering combat within. Yorick can have up to 4 Mist Walkers.\nInnate - Final Service: Whenever Yorick uses Last Rites to score the killing blow on any enemy or damage an enemy champion or large monster, he raises a grave at their location. Additionally, a grave is passively raised for every 8th – 2nd (based on level) enemy that dies otherwise near him. Up to 4 graves can exist at once, lasting until Yorick exits the general area or dies, with the furthest one always being replaced by the newest upon raising one over the limit.\nYorick can use Awakening and Mourning Mist's mark to raise 1 Mist Walker from each grave after a 1-second delay, consuming the graves in the process.\nInnate - The Cursed Horde: Up to 4 Mist Walkers can be active at once near Yorick or near The Maiden, with the nearest one always being replaced by the newest upon raising one over the limit.\nSee Pets for more details about Mist Walkers.\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nDamaging a large monster or champion with Last Rites will only spawn 1 grave, even if it kills them.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick?oldid=4011713"
+    },
+    {
+      "id": "wiki:lastrites",
+      "locator": "Last_Rites",
+      "provider": "league_wiki",
+      "sha256": "8a75950d463d71e64ac27cc66f600af2f274a2cdc73af04e2ccd6d7651a19607",
+      "text": "Last Rites\nCOST:\n20 Mana\nCOOLDOWN:\n6 / 5.5 / 5 / 4.5 / 4\nCAST TIME:\nnone\nActive: Yorick's next basic attack within a few seconds will gain bonus range, deal bonus physical damage, and heal him based on his missing health. If there are at least 3 graves nearby while Last Rites is active or on cooldown, he can cast Awakening.\nActive: Yorick empowers his next basic attack within 5 seconds to have an uncancellable windup, gain 50 bonus range, deal bonus physical damage, and heal him. The heal is reduced by 50% against non-champions.\nBonus Physical Damage:30 / 50 / 70 / 90 / 110 (+ 50% AD)\nHeal:10 – 78 (based on level) (+ 6 / 7 / 8 / 9 / 10% of his missing health)Non-Champion Heal:5 – 39 (based on level) (+ 3 / 3.5 / 4 / 4.5 / 5% of his missing health)\nWhile there are at least 3 graves nearby and Last Rites is active or on cooldown, Yorick can cast Awakening.\nLast Rites resets Yorick's basic attack timer.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick?oldid=4011713"
+    },
+    {
+      "id": "wiki:awakening",
+      "locator": "Awakening",
+      "provider": "league_wiki",
+      "sha256": "8a75950d463d71e64ac27cc66f600af2f274a2cdc73af04e2ccd6d7651a19607",
+      "text": "Awakening\nCAST TIME:\nnone\nRANGE:\n1000\nActive: Yorick summons Mist Walkers from the graves around him.\nActive: Yorick exhumes a Mist Walker under his command from each nearby grave.\nTargeting input\nAuto\nAffects\nSelf, Enemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nNot Blocked\nParries\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nNo additional notes.\nTargeting input\nProximity\nTarget out-of-range override\nThe ability will not cast\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nAwakening counts as an ability activation for the purposes of on-cast effects such as Spellblade and triggering Force Pulse's passive.\nMist Walkers update their statistics correspondingly to Yorick's during the periodic stat update, with the exception of their maximum health.\nAwakening cannot be cast without enough graves in range.\nLast Rites\nARAM differences edit\nAD ratio changed to 30% AD.\nHeal health ratio changed to 4 / 5 / 6 / 7 / 8% of his missing health.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick?oldid=4011713"
+    },
+    {
+      "id": "wiki:darkprocession",
+      "locator": "Dark_Procession",
+      "provider": "league_wiki",
+      "sha256": "8a75950d463d71e64ac27cc66f600af2f274a2cdc73af04e2ccd6d7651a19607",
+      "text": "Dark Procession\nCOST:\n70 Mana\nCOOLDOWN:\n20 / 18 / 16 / 14 / 12\nCAST TIME:\nnone\nTARGET RANGE:\n600\nEFFECT RADIUS:\n225 • 200\nImpassable perimeter:\n125 - 325\nActive: Yorick summons a destructible ring of spirits at the target location that knocks aside enemies hit. It remains as terrain against enemies for a few seconds.\nActive: Yorick summons a ring of spirits around the target location that arises after a 0.75-second delay, knocking aside enemies hit by the walls over 0.25 seconds, though not through terrain. Within 210-units, they are pulled inside; otherwise they are pushed away. The ring remains for 4 seconds as impassible terrain against enemies, granting sight inside the ring.\nDark Procession can only be targeted by enemy champion basic attacks and turrets. The wall takes 1 damage per attack from champions and is destroyed instantly from turret attacks.\nWall Health:2 / 2 / 3 / 3 / 4\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nWalk in range of the target location to cast\nAffects\nEnemies\nCounters\nSpell shield\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nDark Procession has a turret prioritization value of 6, equal to that of super minions.\nYorick's other pets each have a lower prioritization value, allowing him to delay the turret from targeting the The Maiden or a Mist Walker for one attack.\nDark Procession deals 0 proc true damage to enemies it knocks aside, which triggers in-combat effects such as drawing turret and monster aggression, Sudden Impact or applying Elixir of Sorcery.\nThe perimeter is made up of 18 units with 100 pathing radius and 20 gameplay radius each, which interact with effects like Warwick's Eternal Hunger. [1]\nYorick marks any enemy champion within repeatedly while the cage persists in order to gain assist credit, lasting for the standard credit timer.\nAbility Preview Video\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick?oldid=4011713"
+    },
+    {
+      "id": "wiki:mourningmist",
+      "locator": "Mourning_Mist",
+      "provider": "league_wiki",
+      "sha256": "8a75950d463d71e64ac27cc66f600af2f274a2cdc73af04e2ccd6d7651a19607",
+      "text": "Mourning Mist\nCOST:\n50 / 55 / 60 / 65 / 70 Mana\nCOOLDOWN:\n12 / 11 / 10 / 9 / 8\nCAST TIME:\n0.25\nTARGET RANGE:\n700\nEFFECT RADIUS:\n1500\nSPEED:\n1800\nActive: Yorick hurls a globule of Black Mist that splashes at the target location dealing magic damage to enemies. Enemy champions and monsters hit are also shortly slowed, and marked Cursed for a few seconds. Yorick and his summons gain bonus movement speed toward a Cursed target. Mist Walkers will leap to a nearby Cursed target and focus them. Cursed: The target has reduced armor. Nearby graves automatically raise a Mist Walkers.\nActive: Yorick hurls a globule of Black Mist that splashes across an area at the target location, dealing magic damage to enemies hit, down to a minimum threshold against minions, and capped against monsters. Enemy champions and monsters hit are slowed by 30% for 1.5 seconds and marked as Cursed for 4 seconds.\nMagic Damage:6 / 6.5 / 7 / 7.5 / 8% (+ 3% per 100 AP) of target's maximum health\nMinimum Minion Damage:70 / 105 / 140 / 175 / 210 (+ 100% AP)\nCapped Monster Damage:50 / 75 / 100 / 125 / 150 (+ 100% AP)\nCursed: The target is revealed and inflicted with armor reduction, and continually raises a Mist Walker from each nearby grave, up to a maximum of 4.\nYorick, Mist Walkers and the The Maiden gain bonus movement speed while facing nearby Cursed enemies. Mist Walkers will leap to nearby Cursed enemy champions and large monsters once, attacking them upon arrival.\nArmor Reduction:13 / 16 / 19 / 22 / 25% of target's armor\nBonus Movement Speed:18 / 21 / 24 / 27 / 30%\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nYorick will snap his facing direction towards the target location at the start of the cast time.\nThe speed boost toward marked targets does not require sight of them.\nThe Mist Walkers do not leap if they are immobilized or grounded, or if the marked target is untargetable.\nThe damage done by the Mist Walkers' leap shares a cast instance with Mourning Mist.\nAbility Preview Video\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick?oldid=4011713"
+    },
+    {
+      "id": "wiki:eulogyoftheisles",
+      "locator": "Eulogy_of_the_Isles",
+      "provider": "league_wiki",
+      "sha256": "8a75950d463d71e64ac27cc66f600af2f274a2cdc73af04e2ccd6d7651a19607",
+      "text": "Eulogy of the Isles\nCOST:\n100 Mana\nCOOLDOWN:\n160 / 130 / 100\nCAST TIME:\n0.5\nTARGET RANGE:\n600\nActive: Yorick summons the Maiden of the Mist and a few Mist Walkers at the target location. The Maiden will automatically raise Mist Walkers from dead enemies, and mark her attack target with Touch of the Maiden. Eulogy of the Isles can be recast while the Maiden is active. Recast: Yorick sets the Maiden free, allowing her to push the nearest lane. Touch of the Maiden: Yorick's next basic attack will consume the mark to deal bonus magic damage by a portion of the target's maximum health.\nActive: Yorick summons the Maiden of the Mist over 1.5 seconds, along with a number of Mist Walkers surrounding her at the target location, which remain on the battlefield until she or Yorick dies. Eulogy of the Isles can be recast once while the Maiden is alive after 10 seconds of the activation.\nMist Walkers:2 / 3 / 4\nRecast: Yorick sets the Maiden free, allowing her to push the nearest lane until she dies.\nSee Pets for more details about The Maiden of the Mist.\n\"Behold the horrors of the Isles!\" Maiden of the Mist: \"The mist takes all!\"\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nSee the Pets section below for more details about The Maiden of the Mist and Mist Walkers.\nThe extra Mist Walkers spawn 250 units from the Maiden summon location.\nThe Maiden updates her stats when Yorick's stats change, and as Eulogy of the Isles is ranked up.\nWhen Yorick dies, The Maiden rapidly loses portions of her maximum health over 3 seconds until she dies.\nThe loss of maximum health occurs in 0.6-second intervals, in which she loses 20% on the first, 25% on the second, 33.3% on the third, 50% on the fourth, and 100% on the fifth.\nYorick will snap his facing direction towards the target location at the start of the cast time.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick?oldid=4011713"
+    }
+  ],
+  "findings": [
+    {
+      "code": "adaptive_kit_structure",
+      "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+    }
+  ],
+  "kit_sections": [
+    {
+      "anchor": "Shepherd_of_Souls",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Shepherd_of_Souls.png?21feb",
+      "id": "wiki:shepherdofsouls",
+      "name": "Shepherd of Souls"
+    },
+    {
+      "anchor": "Last_Rites",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Last_Rites.png?ed3d7",
+      "id": "wiki:lastrites",
+      "name": "Last Rites"
+    },
+    {
+      "anchor": "Awakening",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Awakening.png?aa357",
+      "id": "wiki:awakening",
+      "name": "Awakening"
+    },
+    {
+      "anchor": "Dark_Procession",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Dark_Procession.png?b894f",
+      "id": "wiki:darkprocession",
+      "name": "Dark Procession"
+    },
+    {
+      "anchor": "Mourning_Mist",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Mourning_Mist.png?c202e",
+      "id": "wiki:mourningmist",
+      "name": "Mourning Mist"
+    },
+    {
+      "anchor": "Eulogy_of_the_Isles",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Yorick_Eulogy_of_the_Isles.png?c844e",
+      "id": "wiki:eulogyoftheisles",
+      "name": "Eulogy of the Isles"
+    }
+  ],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "media_catalog": [
+    {
+      "filename": "yorick_e.png",
+      "id": "cd:yorickepng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/yorick/hud/icons2d/yorick_e.png"
+    },
+    {
+      "filename": "yorick_p.png",
+      "id": "cd:yorickppng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/yorick/hud/icons2d/yorick_p.png"
+    },
+    {
+      "filename": "yorick_q.png",
+      "id": "cd:yorickqpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/yorick/hud/icons2d/yorick_q.png"
+    },
+    {
+      "filename": "yorick_r.png",
+      "id": "cd:yorickrpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/yorick/hud/icons2d/yorick_r.png"
+    },
+    {
+      "filename": "yorick_w.png",
+      "id": "cd:yorickwpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/yorick/hud/icons2d/yorick_w.png"
+    }
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yorick_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 14021,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T23:41:15.023449+00:00",
+      "sha256": "a85526e54a987c28d74db779e4853ed47734aa2ca8737b4b2c4084e962a9c678",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Yorick.json"
+    },
+    {
+      "bytes": 43065,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T23:41:15.167675+00:00",
+      "sha256": "c9f6313b6bdd9276c09d28bf1d042c4e127d825a41d283bd6c935fff125c110c",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/83.json"
+    },
+    {
+      "bytes": 169467,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T23:41:15.650318+00:00",
+      "sha256": "7fe529a5973268d6d21d79fd6dd082aa35a53989da573d33e76de260a0f3dd14",
+      "url": "https://www.leagueoflegends.com/en-us/champions/yorick/"
+    },
+    {
+      "bytes": 815984,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T23:41:15.896220+00:00",
+      "sha256": "8a75950d463d71e64ac27cc66f600af2f274a2cdc73af04e2ccd6d7651a19607",
+      "url": "https://wiki.leagueoflegends.com/en-us/Yorick"
+    },
+    {
+      "bytes": 8445,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T23:41:16.192959+00:00",
+      "sha256": "f574e0f919d55889979067abea477856a6ea642feccabbb07c6fd86c07be2484",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/yorick/hud/icons2d/"
+    }
+  ],
+  "schema_version": 2,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4011713"
+  }
+}

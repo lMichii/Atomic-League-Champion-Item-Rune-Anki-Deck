@@ -1,0 +1,307 @@
+{
+  "cards": [
+    {
+      "answer": "Brand is a mage/support with an AP build focus and magic damage. He chains spells to empower follow-up hits and trigger delayed area explosions from Blaze. Spread out and dodge Sear, especially while Ablaze.",
+      "build_focus": "AP",
+      "counterplay": "Spread out and dodge Sear, especially while Ablaze.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Brand. Official role tags: Mage, Support.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Magic Damage:70 / 100 / 130 / 160 / 190 (+ 65% AP)",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Brand is a mage/support with an AP build focus and magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Subsequent abilities used against a target with Ablaze are empowered.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "At three stacks, champions and large monsters become unstable and explode after a brief delay, dealing magic damage to nearby enemies and applying a stack of Ablaze.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "He chains spells to empower follow-up hits and trigger delayed area explosions from Blaze."
+        },
+        {
+          "citations": [
+            {
+              "quote": "It detonates in 2 seconds, applying spell effects and dealing massive damage in an area around the victim.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Brand launches a fireball in the target direction that deals magic damage to the first enemy hit.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "If the target is ablaze, Sear will stun the target.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "Spread out and dodge Sear, especially while Ablaze."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Recognizing his spell chaining and area damage is central to fighting him.",
+      "slot": "-",
+      "uncertainties": []
+    },
+    {
+      "answer": "Blaze makes Brand's abilities apply stacking magic damage over time based on the target's maximum health. At maximum stacks, champions and large monsters trigger a delayed explosion that damages nearby enemies and applies Ablaze. The explosion still occurs if its host dies.",
+      "build_focus": "",
+      "counterplay": "Separate from allies when an explosion is forming.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Brand's abilities apply a stack of Ablaze to enemies hit.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "While afflicted with Ablaze, the target is continually dealt magic damage equal to a portion of their maximum health.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Blaze makes Brand's abilities apply stacking magic damage over time based on the target's maximum health."
+        },
+        {
+          "citations": [
+            {
+              "quote": "At three stacks, champions and large monsters become unstable and explode after a brief delay, dealing magic damage to nearby enemies and applying a stack of Ablaze.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "At maximum stacks, champions and large monsters trigger a delayed explosion that damages nearby enemies and applies Ablaze."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The ring will form even if the target dies to the ability applying the third stack, and will still trigger the explosion if the target dies before it.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "The explosion still occurs if its host dies."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "A fiery ring around the target may cue the pending Blaze explosion.",
+        "meaningful": true,
+        "source_ids": [
+          "wiki:P"
+        ]
+      },
+      "priority": "A",
+      "priority_reason": "The delayed explosion makes clustering dangerous even after its host dies.",
+      "slot": "P",
+      "uncertainties": []
+    },
+    {
+      "answer": "Sear fires a directional fireball that deals magic damage to the first enemy hit. It also stuns if that target is already Ablaze.",
+      "build_focus": "",
+      "counterplay": "Dodge sideways or use minions as cover, especially while Ablaze.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Brand launches a fireball in the target direction that deals magic damage to the first enemy hit.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Sear fires a directional fireball that deals magic damage to the first enemy hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the target is ablaze, Sear will stun the target.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "It also stuns if that target is already Ablaze."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "His conditional stun is a major threat during spell chains.",
+      "slot": "Q",
+      "uncertainties": []
+    },
+    {
+      "answer": "Pillar of Flame erupts at a chosen location after a brief delay, dealing area magic damage. Targets already Ablaze take extra damage.",
+      "build_focus": "",
+      "counterplay": "Move out of the targeted area before it erupts.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "After a short delay, Brand creates a Pillar of Flame at a target area, dealing magic damage to enemy units within the area.",
+              "source_id": "riot:W"
+            }
+          ],
+          "claim": "Pillar of Flame erupts at a chosen location after a brief delay, dealing area magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Ablaze Bonus: An Ablaze target hit will take bonus damage.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Targets already Ablaze take extra damage."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "The delayed area hit is a practical dodge opportunity and a stronger threat while burning.",
+      "slot": "W",
+      "uncertainties": []
+    },
+    {
+      "answer": "Conflagration targets an enemy and spreads magic damage to nearby enemies. Its spread reaches farther if the primary target is already Ablaze. Spread targets are selected when Brand casts; moving away afterward does not avoid the homing flames.",
+      "build_focus": "",
+      "counterplay": "Keep away from nearby enemies Brand can target, especially those already Ablaze.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Brand sets the target enemy aflame, which creates a blast that deals magic damage to them and nearby enemies.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Conflagration targets an enemy and spreads magic damage to nearby enemies."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Ablaze Bonus: The blast spreads twice as far on an Ablaze target.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Its spread reaches farther if the primary target is already Ablaze."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The flame spreads to enemies near the primary target at the time of cast.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Enemies that move out of range after the fact will still be hit, as the flame is spread as homing missiles to each of its targets.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Spread targets are selected when Brand casts; moving away afterward does not avoid the homing flames."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Nearby units can extend his threat beyond the directly targeted enemy.",
+      "slot": "E",
+      "uncertainties": []
+    },
+    {
+      "answer": "Pyroclasm launches a fireball that bounces between nearby enemies and Brand, dealing magic damage to enemies it hits. It favors Ablaze enemy champions and briefly slows targets already Ablaze. It can hit the same enemy repeatedly, and bounce targets need not be visible.",
+      "build_focus": "",
+      "counterplay": "Spread away from allies, nearby minions, and Brand to limit bounce opportunities.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Brand launches a fireball at the target enemy that bounces between nearby enemies and Brand up to four times, dealing magic damage to enemies each time",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Pyroclasm launches a fireball that bounces between nearby enemies and Brand, dealing magic damage to enemies it hits."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Pyroclasm prioritizes Ablaze enemy champions, then other enemy champions, then any valid bounce target, then Brand.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Ablaze Bonus: An Ablaze target will also be briefly slowed when hit.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "It favors Ablaze enemy champions and briefly slows targets already Ablaze."
+        },
+        {
+          "citations": [
+            {
+              "quote": "This can affect the same enemy more than once.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "The target does not have to be visible for the fireball to bounce to them.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "It can hit the same enemy repeatedly, and bounce targets need not be visible."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Bounce positioning can expose enemies to repeated hits and further Blaze stacks.",
+      "slot": "R",
+      "uncertainties": []
+    }
+  ],
+  "champion_id": 63,
+  "champion_name": "Brand",
+  "conflicts": [],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Sear availability determines his immediate conditional stun threat.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Pyroclasm availability strongly affects clustered fights and repeated-hit pressure.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "factual_risks": [],
+  "language": "en"
+}

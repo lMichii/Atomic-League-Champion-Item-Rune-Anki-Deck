@@ -1,0 +1,625 @@
+{
+  "cards": [
+    {
+      "text": {
+        "answer": "Tahm Kench is a tank/support with health-scaling bonus magic damage. His attacks and Tongue Lash build stacks that enable a stun or enemy Devour, while Thick Skin supplies healing or a shield.",
+        "build_focus": "Health, Armor, MR",
+        "counterplay": "Avoid repeated hits, dodge his tongue, and move away from his dive destination.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Tahm Kench. Official role tags: Tank, Support.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Tahm Kench's basic attacks and Tongue Lash deal bonus magic damage based on his bonus health",
+                "source_id": "wiki:anacquiredtaste"
+              }
+            ],
+            "claim": "Tahm Kench is a tank/support with health-scaling bonus magic damage."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Tahm Kench's basic attacks and Tongue Lash deal bonus magic damage based on his bonus health, and apply a stack of An Acquired Taste against champions",
+                "source_id": "wiki:anacquiredtaste"
+              },
+              {
+                "quote": "If the champion already has 3 stacks of An Acquired Taste, they are stunned and the stacks are consumed.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Devour can only be cast on enemies with 3 stacks of An Acquired Taste.",
+                "source_id": "wiki:devour"
+              },
+              {
+                "quote": "While Thick Skin is off cooldown, and after a few seconds without taking damage, Tahm Kench rapidly consumes his grey health to heal up to a portion. Active: Tahm Kench converts his grey health into a shield that lasts a short time.",
+                "source_id": "wiki:thickskin"
+              }
+            ],
+            "claim": "His attacks and Tongue Lash build stacks that enable a stun or enemy Devour, while Thick Skin supplies healing or a shield."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Establishes his stack-based threat and durability.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Tahm Kench. Official role tags: Tank, Support.",
+                "source_id": "riot:role"
+              }
+            ],
+            "id": "riot:role",
+            "summary": "Tank/support."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Tongue Lash and Devour gain additional effects against enemies with 3 stacks, consuming them all.",
+                "source_id": "wiki:anacquiredtaste"
+              }
+            ],
+            "id": "wiki:anacquiredtaste",
+            "summary": "Stacks enable enhanced Tongue Lash and Devour effects."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize his fighting pattern and defensive build focus.",
+        "slot": "",
+        "source_ids": ["riot:role", "wiki:anacquiredtaste", "riot:Q", "wiki:devour", "wiki:thickskin", "wiki:abyssaldive"],
+        "subject_id": "riot:role",
+        "title": "Tahm Kench",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "His basic attacks and Tongue Lash deal bonus magic damage that scales with bonus health and apply An Acquired Taste to champions. At three stacks, Tongue Lash can stun or Devour can swallow the enemy; either consumes the stacks.",
+        "build_focus": "",
+        "counterplay": "Back away as stacks build and avoid letting him refresh them.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Tahm Kench's basic attacks and Tongue Lash deal bonus magic damage based on his bonus health, and apply a stack of An Acquired Taste against champions",
+                "source_id": "wiki:anacquiredtaste"
+              }
+            ],
+            "claim": "His basic attacks and Tongue Lash deal bonus magic damage that scales with bonus health and apply An Acquired Taste to champions."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If the champion already has 3 stacks of An Acquired Taste, they are stunned and the stacks are consumed.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Devour can only be cast on enemies with 3 stacks of An Acquired Taste.",
+                "source_id": "wiki:devour"
+              },
+              {
+                "quote": "Tongue Lash and Devour gain additional effects against enemies with 3 stacks, consuming them all.",
+                "source_id": "wiki:anacquiredtaste"
+              }
+            ],
+            "claim": "At three stacks, Tongue Lash can stun or Devour can swallow the enemy; either consumes the stacks."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Stacks determine when his strongest enemy control becomes available.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Tahm Kench's basic attacks and Tongue Lash deal bonus magic damage based on his bonus health, and apply a stack of An Acquired Taste against champions",
+                "source_id": "wiki:anacquiredtaste"
+              }
+            ],
+            "id": "wiki:anacquiredtaste",
+            "summary": "Attacks and Tongue Lash apply stacks and bonus magic damage scaling with bonus health."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Tongue Lash and Devour gain additional effects against enemies with 3 stacks, consuming them all.",
+                "source_id": "wiki:anacquiredtaste"
+              }
+            ],
+            "id": "riot:P",
+            "summary": "Full stacks empower Tongue Lash or Devour and are consumed."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize stack accumulation as an escalating control threat.",
+        "slot": "P",
+        "source_ids": ["wiki:anacquiredtaste", "riot:Q", "wiki:devour"],
+        "subject_id": "wiki:anacquiredtaste",
+        "title": "An Acquired Taste",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Tongue Lash damages and slows the first enemy hit, healing Tahm Kench if it hits a champion. Against a champion with three stacks, it stuns and consumes the stacks; he can also cast Devour during the lash to pull that target in and swallow them.",
+        "build_focus": "",
+        "counterplay": "Dodge sideways or keep other enemy units in the tongue's path, especially when marked with stacks.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Tahm Kench lashes his tongue in the target direction that deals magic damage to the first enemy hit and shortly slows them. If this hits an enemy champion, Tahm Kench also heals based on his missing health.",
+                "source_id": "wiki:tonguelash"
+              }
+            ],
+            "claim": "Tongue Lash damages and slows the first enemy hit, healing Tahm Kench if it hits a champion."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If the champion already has 3 stacks of An Acquired Taste, they are stunned and the stacks are consumed.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "An Acquired Taste Bonus: The target is briefly stunned. Devour can be cast during Tongue Lash at no cost to pull the target to Tahm Kench before swallowing them.",
+                "source_id": "wiki:tonguelash"
+              }
+            ],
+            "claim": "Against a champion with three stacks, it stuns and consumes the stacks; he can also cast Devour during the lash to pull that target in and swallow them."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "His ranged slow, sustain and stack-based control share this attack.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "deals magic damage to the first enemy hit and shortly slows them. If this hits an enemy champion, Tahm Kench also heals based on his missing health.",
+                "source_id": "wiki:tonguelash"
+              }
+            ],
+            "id": "wiki:tonguelash",
+            "summary": "First-hit damage and slow; champion hits heal him."
+          },
+          {
+            "citations": [
+              {
+                "quote": "An Acquired Taste Bonus: The target is briefly stunned. Devour can be cast during Tongue Lash at no cost to pull the target to Tahm Kench before swallowing them.",
+                "source_id": "wiki:tonguelash"
+              }
+            ],
+            "id": "riot:Q",
+            "summary": "Full-stack targets can be stunned or pulled into Devour through Tongue Lash."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the tongue as both a sustain tool and a ranged control threat.",
+        "slot": "Q",
+        "source_ids": ["wiki:tonguelash", "riot:Q"],
+        "subject_id": "wiki:tonguelash",
+        "title": "Tongue Lash",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Abyssal Dive channels before relocating Tahm Kench to a target area, dealing magic damage and knocking up and stunning nearby enemies. Its destination indicator becomes visible to enemies during the channel if they have sight of the area. Hitting a champion refunds part of its cooldown and mana cost.",
+        "build_focus": "",
+        "counterplay": "Move out of the destination area when the indicator appears and avoid clustering.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Tahm Kench briefly channels, then dives into the waters to blink to the target location. He emerges to deal magic damage to nearby enemies, as well as briefly knock up and stun them.",
+                "source_id": "wiki:abyssaldive"
+              }
+            ],
+            "claim": "Abyssal Dive channels before relocating Tahm Kench to a target area, dealing magic damage and knocking up and stunning nearby enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Enemies can see the indicator for Tahm Kench's destination after he has channeled for 0.75 seconds, if they have sight of the area.",
+                "source_id": "wiki:abyssaldive"
+              }
+            ],
+            "claim": "Its destination indicator becomes visible to enemies during the channel if they have sight of the area."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If this hits at least one enemy champion, a portion of the cooldown and mana cost are refunded.",
+                "source_id": "wiki:abyssaldive"
+              }
+            ],
+            "claim": "Hitting a champion refunds part of its cooldown and mana cost."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Area control and relocation create an important engage threat.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Tahm Kench briefly channels, then dives into the waters to blink to the target location. He emerges to deal magic damage to nearby enemies, as well as briefly knock up and stun them.",
+                "source_id": "wiki:abyssaldive"
+              }
+            ],
+            "id": "wiki:abyssaldive",
+            "summary": "Channeled relocation with area damage and crowd control."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Enemies can see the indicator for Tahm Kench's destination after he has channeled for 0.75 seconds, if they have sight of the area.",
+                "source_id": "wiki:abyssaldive"
+              }
+            ],
+            "id": "riot:W",
+            "summary": "Enemies with sight of the destination can see its indicator during the channel."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If this hits at least one enemy champion, a portion of the cooldown and mana cost are refunded.",
+                "source_id": "wiki:abyssaldive"
+              }
+            ],
+            "id": "wiki:W",
+            "summary": "Champion hits partially refund cooldown and mana."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the dive destination and its repeat-engage potential.",
+        "slot": "W",
+        "source_ids": ["wiki:abyssaldive", "riot:W", "wiki:W"],
+        "subject_id": "wiki:abyssaldive",
+        "title": "Abyssal Dive",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Thick Skin stores part of incoming damage as grey health. When it is off cooldown, a break from taking damage lets him consume grey health to heal; activating it instead converts his current grey health into a temporary shield.",
+        "build_focus": "",
+        "counterplay": "Keep pressure when safe to delay his healing, and avoid committing damage into his temporary shield.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Tahm Kench stores grey health equal to a portion of damage taken",
+                "source_id": "wiki:thickskin"
+              }
+            ],
+            "claim": "Thick Skin stores part of incoming damage as grey health."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "While Thick Skin is off cooldown, and after a few seconds without taking damage, Tahm Kench rapidly consumes his grey health to heal up to a portion. Active: Tahm Kench converts his grey health into a shield that lasts a short time.",
+                "source_id": "wiki:thickskin"
+              }
+            ],
+            "claim": "When it is off cooldown, a break from taking damage lets him consume grey health to heal; activating it instead converts his current grey health into a temporary shield."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Explains why apparent damage progress can turn into healing or shielding.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "increased while there are at least 2 nearby visible enemy champions either dead or alive.",
+                "source_id": "wiki:thickskin"
+              }
+            ],
+            "status": "supported",
+            "summary": "Grey-health storage increases near multiple visible enemy champions, including dead champions."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Tahm Kench stores grey health equal to a portion of damage taken",
+                "source_id": "wiki:thickskin"
+              }
+            ],
+            "id": "wiki:thickskin",
+            "summary": "Damage taken generates grey health."
+          },
+          {
+            "citations": [
+              {
+                "quote": "While Thick Skin is off cooldown, and after a few seconds without taking damage, Tahm Kench rapidly consumes his grey health to heal up to a portion. Active: Tahm Kench converts his grey health into a shield that lasts a short time.",
+                "source_id": "wiki:thickskin"
+              }
+            ],
+            "id": "riot:E",
+            "summary": "Grey health supports delayed healing while the ability is ready or an active temporary shield."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize his damage-storage defense and delayed recovery.",
+        "slot": "E",
+        "source_ids": ["wiki:thickskin", "riot:E"],
+        "subject_id": "wiki:thickskin",
+        "title": "Thick Skin",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Devour swallows a champion, making them untargetable while inside. Enemies require three An Acquired Taste stacks and are suppressed, while Tahm Kench is slowed and grounded; swallowed allies cannot act but gain a shield, and he gains movement speed and can carry them with Abyssal Dive. Regurgitate spits the champion in a chosen direction, dealing magic damage based on maximum health to enemies.",
+        "build_focus": "",
+        "counterplay": "Respect his swallow threat as stacks build, and account for his ability to carry a threatened ally to safety.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "swallowing them to carry them in his belly for up to 3 seconds. While inside, the target is attached to Tahm Kench and is rendered untargetable and displacement immune.",
+                "source_id": "wiki:devour"
+              }
+            ],
+            "claim": "Devour swallows a champion, making them untargetable while inside."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Devour can only be cast on enemies with 3 stacks of An Acquired Taste.",
+                "source_id": "wiki:devour"
+              },
+              {
+                "quote": "The target is suppressed during Devour's cast time and while attached. Tahm Kench will also be grounded and slowed by 40% under those same conditions.",
+                "source_id": "wiki:devour"
+              },
+              {
+                "quote": "If the target is an ally, they become unable to act and are granted a shield",
+                "source_id": "wiki:devour"
+              },
+              {
+                "quote": "Tahm Kench will also gain 60% bonus movement speed for 3 seconds and is unable to cast movement spells besides Abyssal Dive while an ally is inside of his belly.",
+                "source_id": "wiki:devour"
+              }
+            ],
+            "claim": "Enemies require three An Acquired Taste stacks and are suppressed, while Tahm Kench is slowed and grounded; swallowed allies cannot act but gain a shield, and he gains movement speed and can carry them with Abyssal Dive."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Tahm Kench spits the swallowed champion in the target direction. If they are an enemy, he deals magic damage based on the target's maximum health.",
+                "source_id": "wiki:regurgitate"
+              }
+            ],
+            "claim": "Regurgitate spits the champion in a chosen direction, dealing magic damage based on maximum health to enemies."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Defines both his enemy removal threat and his ally rescue.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Allies can see if this spell is ready next to Tahm Kench's health bar.",
+                "source_id": "wiki:regurgitate"
+              }
+            ],
+            "status": "supported",
+            "summary": "Allies have a Devour readiness indicator next to his health bar; enemy visibility is not established."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the target resists the suppression by being immune to crowd control, displacement immune, or having a spell shield, Tahm Kench will not pull the target towards him.",
+                "source_id": "wiki:regurgitate"
+              }
+            ],
+            "status": "supported",
+            "summary": "Resisting suppression can prevent the enemy swallow's pull."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Devour can only be cast on enemies with 3 stacks of An Acquired Taste.",
+                "source_id": "wiki:devour"
+              },
+              {
+                "quote": "The target is suppressed while swallowed. Tahm Kench will also be grounded and slowed while an enemy is swallowed.",
+                "source_id": "wiki:devour"
+              }
+            ],
+            "id": "wiki:devour",
+            "summary": "Full-stack enemies can be swallowed and suppressed, slowing and grounding Tahm Kench."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the target is an ally, they become unable to act and are granted a shield",
+                "source_id": "wiki:devour"
+              },
+              {
+                "quote": "Tahm Kench will also gain 60% bonus movement speed for 3 seconds and is unable to cast movement spells besides Abyssal Dive while an ally is inside of his belly.",
+                "source_id": "wiki:devour"
+              }
+            ],
+            "id": "riot:R",
+            "summary": "Allied swallowing provides shielding and transport with movement speed or Abyssal Dive."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Tahm Kench spits the swallowed champion in the target direction. If they are an enemy, he deals magic damage based on the target's maximum health.",
+                "source_id": "wiki:regurgitate"
+              }
+            ],
+            "id": "wiki:regurgitate",
+            "summary": "Regurgitate releases the target directionally and damages enemies based on maximum health."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize offensive swallowing, allied rescue and the release effect together.",
+        "slot": "R",
+        "source_ids": ["wiki:devour", "wiki:regurgitate", "riot:R"],
+        "subject_id": "wiki:devour",
+        "title": "Devour and Regurgitate",
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Important cooldown topics: Abyssal Dive receives a partial refund on champion hits; Thick Skin's passive healing requires the ability to be off cooldown. Exact cooldowns are omitted.",
+    "The supplied evidence establishes ally visibility of Devour readiness but does not establish enemy visibility.",
+    "Build focus is a qualitative tank-oriented learning recommendation; the supplied evidence does not establish item choices."
+  ],
+  "features": ["standard", "ability_variants", "conditional_effects"],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "Tahm Kench can cast Regurgitate within the duration, and automatically does so afterwards.",
+          "source_id": "wiki:devour"
+        }
+      ],
+      "condition": "A champion is swallowed.",
+      "from_id": "wiki:devour",
+      "kind": "unlocks",
+      "to_id": "wiki:regurgitate"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Tongue Lash and Devour gain additional effects against enemies with 3 stacks, consuming them all.",
+          "source_id": "wiki:anacquiredtaste"
+        }
+      ],
+      "condition": "The enemy has full An Acquired Taste stacks.",
+      "from_id": "wiki:anacquiredtaste",
+      "kind": "conditional_effect",
+      "to_id": "wiki:tonguelash"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Devour can only be cast on enemies with 3 stacks of An Acquired Taste.",
+          "source_id": "wiki:devour"
+        }
+      ],
+      "condition": "The enemy has full An Acquired Taste stacks.",
+      "from_id": "wiki:anacquiredtaste",
+      "kind": "unlocks",
+      "to_id": "wiki:devour"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Central stack and health-scaling damage mechanic.",
+      "source_id": "wiki:anacquiredtaste",
+      "target_subject_ids": ["wiki:anacquiredtaste"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary ranged slow, healing and stack-based control.",
+      "source_id": "wiki:tonguelash",
+      "target_subject_ids": ["wiki:tonguelash"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary relocation and area control.",
+      "source_id": "wiki:abyssaldive",
+      "target_subject_ids": ["wiki:abyssaldive"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Central grey-health healing and shielding.",
+      "source_id": "wiki:thickskin",
+      "target_subject_ids": ["wiki:thickskin"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Enemy swallowing and allied rescue share a primary ability card.",
+      "source_id": "wiki:devour",
+      "target_subject_ids": ["wiki:devour"]
+    },
+    {
+      "disposition": "merged",
+      "reason": "Release and enemy damage complete Devour's recognition purpose; detailed interactions remain advanced.",
+      "source_id": "wiki:regurgitate",
+      "target_subject_ids": ["wiki:devour"]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": ["wiki:anacquiredtaste"]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": ["wiki:tonguelash"]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": ["wiki:abyssaldive"]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": ["wiki:thickskin"]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": ["wiki:devour", "wiki:regurgitate"]
+    }
+  ],
+  "summary": "An overview and primary ability cards teach stack-based control, tongue sustain, dive engagement, grey-health defense and offensive or protective swallowing. Regurgitate is merged into Devour."
+}

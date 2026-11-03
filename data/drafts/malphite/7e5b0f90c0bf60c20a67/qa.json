@@ -1,0 +1,1097 @@
+{
+  "approval_blockers": [
+    "All six cards are drafts requiring explicit editorial approval.",
+    "All clips/cues need manual visual verification.",
+    "Game patch label has not been independently established."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "-"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:malphite:overview:L1",
+      "issues": [
+        "UNAPPROVED draft.",
+        "AP is a broad damage-scaling learning focus, not an optimal build recommendation. Health and armor interactions are explained in the answer.",
+        "The packet does not support MR build guidance."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": null,
+      "media_type": "portrait",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Recognizing his durable engage role helps opponents anticipate a fight-starting knockup."
+      },
+      "slot": "-",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Malphite passively gains a damage-absorbing shield based on his maximum health.",
+            "covered": true,
+            "mechanic_id": "P.shield",
+            "reason": "Explains the passive shield, damage absorption and maximum-health dependence."
+          },
+          {
+            "answer_quote": "It recharges after a few seconds without taking damage; damage absorbed by shields does not restart its recharge.",
+            "covered": true,
+            "mechanic_id": "P.recharge",
+            "reason": "Explains recharge and explicitly includes the shield-absorbed damage exception."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "P"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:malphite:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The previous rocky-layer recharge description has been removed. Text does not establish that visible transition, and the supplied demonstration frames do not resolve its meaning.",
+        "No passive visual cue is proposed pending separate visual QA; current-client appearance is not verified.",
+        "Armor-based size growth and its exclusion of Thunderclap bonus armor are supported advanced details omitted from the beginner explanation."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Granite Shield does not refresh its cooldown from damage that is mitigated by shields.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Damage absorbed by shields does not restart Granite Shield's recharge cooldown."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The shield lasts until it is broken, and replenishes to full strength after a few seconds of not taking damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "The shield persists until broken and recharges to full strength."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Malphite gains increased percentage size equal to 8% of his total armor, capped at 35% increased size at 437.5 armor.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "His increased size does not consider Thunderclap's bonus armor.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Armor increases Malphite's size up to a cap; Thunderclap's bonus armor does not contribute to this size increase."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Malphite is shielded by a layer of rock which absorbs damage up to 10% of his maximum Health.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Malphite grants himself a shield equal to 10% of his maximum health.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.shield",
+            "summary": "Passively gains a damage-absorbing shield based on maximum health."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Malphite has not been hit for a few seconds, this effect recharges.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "which refreshes after a few seconds without taking damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.recharge",
+            "summary": "The shield recharges after a period without taking damage, subject to the shield-absorbed damage exception."
+          }
+        ],
+        "slot": "P",
+        "unsupported_claims": [
+          "Every hit restarts shield recharge, including damage fully absorbed by shields.",
+          "The shield grants invulnerability or crowd-control immunity."
+        ]
+      },
+      "media_type": "icon",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The shield absorbs damage and changes how effectively opponents can trade with him."
+      },
+      "slot": "P",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Malphite sends a targeted shard that deals magic damage on impact.",
+            "covered": true,
+            "mechanic_id": "Q.damage",
+            "reason": "Explains targeting, damage type and impact."
+          },
+          {
+            "answer_quote": "It temporarily slows the target and grants him movement speed based on how much speed the target loses.",
+            "covered": true,
+            "mechanic_id": "Q.speed_steal",
+            "reason": "Explains both speed effects and makes the gain dependent on actual speed loss."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "Q"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:malphite:q:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Slow resistance or immunity can reduce or eliminate his movement-speed gain.",
+        "Cast cancellation conditions and impact-time speed calculation are supported advanced details omitted from the beginner explanation."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Malphite also gains bonus movement speed equal to the raw amount of movement speed the target lost from the slow for the duration.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Slow-resistant and slow-immune targets will reduce or nullify Malphite's gain.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "The movement-speed gain depends on the target's raw speed loss; slow resistance or immunity can reduce or eliminate it."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Seismic Shard's movement speed gain is based off the target's movement speed raw total movement speed lost at the time of impact.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Malphite will gain the bonus movement speed for the full duration as long as Seismic Shard impacts the target.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "The speed gain is determined at impact and lasts its full duration when the shard impacts."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Specified target eligibility failures during the cast cancel the ability without spending its cost or starting its cooldown."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Malphite sends a shard of the earth through the ground at his foe, dealing damage upon impact",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Malphite sends a shard to the target enemy that deals magic damage",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.damage",
+            "summary": "Sends a targeted shard that deals magic damage on impact."
+          },
+          {
+            "citations": [
+              {
+                "quote": "stealing Move Speed for 3 seconds.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "slows them for a few seconds. He also gains bonus movement speed for the same duration.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.speed_steal",
+            "summary": "Temporarily slows the target and grants Malphite movement speed, with the gain depending on the speed actually lost."
+          }
+        ],
+        "slot": "Q",
+        "unsupported_claims": [
+          "Malphite gains the same movement speed regardless of the target's slow resistance or immunity.",
+          "The shard damages or slows an area around its target."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "The slow and movement-speed gain help him chase or disengage."
+      },
+      "slot": "Q",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Thunderclap passively grants bonus armor, with that bonus tripled while Granite Shield is active.",
+            "covered": true,
+            "mechanic_id": "W.armor",
+            "reason": "Correctly triples the ability's armor bonus rather than total armor."
+          },
+          {
+            "answer_quote": "Activating it empowers Malphite's next basic attack with extra range and additional physical damage.",
+            "covered": true,
+            "mechanic_id": "W.empowered_attack",
+            "reason": "Explains activation, the next basic attack, extra range and additional physical damage."
+          },
+          {
+            "answer_quote": "For a short time, his basic attacks also create a forward cone that deals physical damage.",
+            "covered": true,
+            "mechanic_id": "W.cone",
+            "reason": "Explains the temporary attack-triggered cone and its damage type without guaranteeing damage to the primary target."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "W"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:malphite:w:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Granite Shield triples Thunderclap's armor bonus, not total armor.",
+        "Cone damage requires the target to be inside the cone when struck.",
+        "Attack-timer reset, monster damage bonus and empowered-windup restrictions are supported advanced details omitted from the beginner explanation.",
+        "The empowered attack resists specified cancellation inputs, but Hextech Rocketbelt can cancel its windup."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Thunderclap resets Malphite's basic attack timer.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Activation resets the basic attack timer."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Thunderclap deals 180% damage against monsters.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Thunderclap deals increased damage against monsters."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Benefits from Thunderclap's cone effect.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Unlike similar spells, it does not deal its damage separately to the primary target of the attack(s); if the target is outside the area of effect when struck, it will not take the additional damage.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "The initial empowered attack also triggers the cone; the primary target receives cone damage only if inside its area when struck."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Prevents Malphite from casting Seismic Shard and Ground Slam during its windup.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Cannot have its windup canceled by new movement or attack commands, or casting Unstoppable Force.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Can have its windup canceled by casting Hextech Rocketbelt.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "The empowered attack's windup restricts Q and E casting and resists specified cancellation inputs, but Hextech Rocketbelt can cancel it."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Passive: Malphite gains bonus armor, tripled while Granite Shield is active.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.armor",
+            "summary": "Passively grants bonus armor, with that bonus tripled while Granite Shield is active."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Malphite's next basic attack within a few seconds is empowered to gain bonus range and deal additional physical damage.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.empowered_attack",
+            "summary": "Activation empowers the next basic attack with extra range and additional physical damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "For the next few seconds, his attacks create aftershocks in front of him.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Malphite's basic attacks for the next few seconds trigger a cone in the direction of the target that deals physical damage to enemies hit.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.cone",
+            "summary": "For a short duration, basic attacks trigger a forward cone of physical damage."
+          }
+        ],
+        "slot": "W",
+        "unsupported_claims": [
+          "Granite Shield triples Malphite's total armor.",
+          "Cone damage always hits the primary attack target regardless of its position.",
+          "The empowered attack's windup cannot be canceled by any means."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "The armor bonus improves durability, while empowered attacks threaten nearby groups."
+      },
+      "slot": "W",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Malphite slams the ground around himself, dealing magic damage to nearby enemies. The damage increases with his armor, and enemies hit temporarily lose attack speed.",
+            "covered": true,
+            "mechanic_id": "E.area_damage",
+            "reason": "Explains the nearby area around Malphite, magic damage and armor scaling."
+          },
+          {
+            "answer_quote": "The damage increases with his armor, and enemies hit temporarily lose attack speed.",
+            "covered": true,
+            "mechanic_id": "E.attack_speed_reduction",
+            "reason": "Explicitly explains temporary attack-speed reduction on affected enemies."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "E"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:malphite:e:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The supplied multiple-Ground-Slam stacking statement applies only to One for All.",
+        "Effect origin at the end of the cast and multiplicative stacking with other attack-speed reductions are supported advanced details omitted from the beginner explanation."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The cripple stacks multiplicatively with other sources of attack speed reductions.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The attack-speed reduction stacks multiplicatively with other attack-speed reductions."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The effect originates from Malphite's position at the end of the cast time."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Malphite slams the ground, sending out a shockwave that deals magic damage based on his Armor",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Malphite slams the ground beneath him, dealing magic damage to nearby enemies",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.area_damage",
+            "summary": "Deals magic damage to nearby enemies around Malphite; the damage scales with armor."
+          },
+          {
+            "citations": [
+              {
+                "quote": "reduces the Attack Speed of enemies for a short duration.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "crippling them for 3 seconds.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.attack_speed_reduction",
+            "summary": "Temporarily reduces affected enemies' attack speed."
+          }
+        ],
+        "slot": "E",
+        "unsupported_claims": [
+          "Ground Slam reduces movement speed.",
+          "Multiple Ground Slams stack their attack-speed reductions in standard play; the supplied stacking statement is limited to One for All."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The attack-speed reduction weakens enemies who depend on basic attacks."
+      },
+      "slot": "E",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Malphite rapidly dashes to a chosen location, resisting interruption by crowd control during the dash.",
+            "covered": true,
+            "mechanic_id": "R.dash",
+            "reason": "Explicitly explains rapid movement to a chosen location."
+          },
+          {
+            "answer_quote": "Malphite rapidly dashes to a chosen location, resisting interruption by crowd control during the dash.",
+            "covered": true,
+            "mechanic_id": "R.displacement_immunity",
+            "reason": "Explains crowd-control interruption resistance without claiming immunity to every cancellation case."
+          },
+          {
+            "answer_quote": "On arrival, he deals magic damage to nearby enemies and knocks them into the air.",
+            "covered": true,
+            "mechanic_id": "R.impact",
+            "reason": "Explains arrival-based area magic damage and knockup."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "R"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:malphite:r:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Grounding disables casting; knockdown does not interrupt the dash.",
+        "Death cancels the dash. Nonfatal interruption such as entering resurrection can stop it and move the effect to the stopped location.",
+        "Crowd-control resistance does not establish invulnerability or untargetability.",
+        "Minimum range and maximum-range targeting behavior are supported advanced details omitted from the beginner explanation."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Grounded\nDisabled",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Knockdown\nNot Interrupted",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Grounding disables use, while knockdown does not interrupt the dash."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Malphite dies during his dash, the ability cancels.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "If the dash is interrupted without Malphite dying, for instance when he enters resurrection during Unstoppable Force, he halts and the ability instead affects enemies at the stopped location.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Death cancels the ability during the dash; a nonfatal interruption such as entering resurrection makes it affect enemies at the stopped location."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Unstoppable Force has no minimum dash range.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Target out-of-range override\nTarget at maximum range (clamped)",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "The dash has no minimum range; targeting beyond maximum range clamps the destination to maximum range."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Malphite launches himself to a location at high speed",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Malphite dashes with displacement immunity to the target location.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.dash",
+            "summary": "Rapidly dashes to a chosen location."
+          },
+          {
+            "citations": [
+              {
+                "quote": "displacement immunity: The dash cannot be deterred by crowd control.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.displacement_immunity",
+            "summary": "The dash resists interruption by crowd control, subject to the separately documented cancellation cases."
+          },
+          {
+            "citations": [
+              {
+                "quote": "damaging enemies and knocking them into the air.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Upon arrival, he deals magic damage to nearby enemies and briefly knocks them up.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.impact",
+            "summary": "On arrival, deals magic damage to nearby enemies and knocks them into the air."
+          }
+        ],
+        "slot": "R",
+        "unsupported_claims": [
+          "Malphite is invulnerable or untargetable during the dash.",
+          "The ability can be cast while grounded.",
+          "The dash cannot end early under any circumstances.",
+          "Enemies along the entire travel path take damage and are knocked up."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "A fast area knockup can start a fight and catch several enemies together."
+      },
+      "slot": "R",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Availability of his rapid area knockup strongly affects engage threat.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability of the nearby attack-speed reduction matters when committing to basic-attack trades.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Availability of the targeted slow and speed gain affects chasing and spacing.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "The frozen Data Dragon release does not establish a game patch label.",
+    "Official demonstration frames do not verify current-client or skin-specific appearance. The previously asserted passive visual transition was removed.",
+    "Counterplay and fight-starting role guidance are teaching inferences grounded in the supplied effects.",
+    "MR build guidance was removed because the packet does not support it; AP focus is supported by supplied spell scaling.",
+    "Several core mechanics are supplied only by the Wiki because Riot's summaries omit them.",
+    "Skin lore and specialized mode details were not used as standard ability mechanics.",
+    "This review checks supplied textual evidence only; it does not provide human approval or visual verification.",
+    "The pinned Data Dragon release does not establish a game patch label.",
+    "Several required mechanics rely on the supplied Wiki excerpt because Riot's summaries omit them.",
+    "R's crowd-control resistance must remain distinct from invulnerability, casting while grounded, and cancellation through death or documented nonfatal interruption. The draft preserves that distinction.",
+    "The L1 AP statement is supported across the supplied ability formulas, although its attached citations show only E and R.",
+    "No passive visual cue is asserted; the demonstration frames do not establish current-client or skin-specific appearance."
+  ],
+  "findings": [],
+  "generation": {
+    "author": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 29402,
+            "output_tokens": 3312,
+            "reasoning_output_tokens": 85
+          }
+        ]
+      },
+      "output_sha256": "4bb4c1f17505893798d25b3c4a805b452f9fe422d9a620ac6627fab5fc75d1a7",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "c3166191feb6e241a2c0720eff27e8bf9babab4212e42be380e29e762c01dd08"
+    },
+    "mechanics": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 21233,
+            "output_tokens": 2283,
+            "reasoning_output_tokens": 0
+          }
+        ]
+      },
+      "output_sha256": "d210158c852ec2610af293610761a1b5846a3e6311712ccfe5c444b36f3827e7",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "edb2185ac44f59547d2fe98a5a9bce13d02e8e4444ffff5886d358654a27077e"
+    },
+    "passes": [
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 25623,
+                "output_tokens": 3092,
+                "reasoning_output_tokens": 120
+              }
+            ]
+          },
+          "output_sha256": "073cbc15a24eac08f8a7778a26335b3edadea229b3d61a56fa635da3c86e49cc",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "09c5d7b185e3f92d71fb58ed4ae092e9380dc185a7a58322c5df08b5fa8b0f88"
+        },
+        "pass": 1,
+        "support_issues": 2,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 27502,
+                "output_tokens": 1562,
+                "reasoning_output_tokens": 86
+              }
+            ]
+          },
+          "output_sha256": "e2a8def44026a096092f53f6ac27a9f4219ba851bf77d9f3bcf00aaa7d79ff93",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "9b7bbc7a418eb220ee9002d476299cf0445b2bad92545974c75e8f2a5db9e618"
+        }
+      },
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 29402,
+                "output_tokens": 3312,
+                "reasoning_output_tokens": 85
+              }
+            ]
+          },
+          "output_sha256": "4bb4c1f17505893798d25b3c4a805b452f9fe422d9a620ac6627fab5fc75d1a7",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "c3166191feb6e241a2c0720eff27e8bf9babab4212e42be380e29e762c01dd08"
+        },
+        "pass": 2,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 27727,
+                "output_tokens": 1524,
+                "reasoning_output_tokens": 54
+              }
+            ]
+          },
+          "output_sha256": "323d0a9115273de5ce9fc83be3c94907c7925adaa53563019df97c7833e6e79e",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "b6db7954eff4ec51f3526c8444f795f3f3e386310eba594f003f7e7c007e6f0c"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "7e5b0f90c0bf60c20a67aa57628a6edf895d26b646c3394f69f538eebaab3b4b",
+    "verifier": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 27727,
+            "output_tokens": 1524,
+            "reasoning_output_tokens": 54
+          }
+        ]
+      },
+      "output_sha256": "323d0a9115273de5ce9fc83be3c94907c7925adaa53563019df97c7833e6e79e",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "b6db7954eff4ec51f3526c8444f795f3f3e386310eba594f003f7e7c007e6f0c"
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:malphite:e:recognize:L2": {
+      "cid": 2383525878392,
+      "guid": "bb185fcf1fa612",
+      "nid": 1883525878392
+    },
+    "champ:malphite:overview:L1": {
+      "cid": 2567513398288,
+      "guid": "d9ef6cbaa541db",
+      "nid": 2067513398288
+    },
+    "champ:malphite:p:recognize:L2": {
+      "cid": 2541022941580,
+      "guid": "6b58c33999f837",
+      "nid": 2041022941580
+    },
+    "champ:malphite:q:recognize:L2": {
+      "cid": 2490537528119,
+      "guid": "7913192776a4bf",
+      "nid": 1990537528119
+    },
+    "champ:malphite:r:recognize:L2": {
+      "cid": 2571099780011,
+      "guid": "b0241ee7079155",
+      "nid": 2071099780011
+    },
+    "champ:malphite:w:recognize:L2": {
+      "cid": 2573654274939,
+      "guid": "2a5ce92135061a",
+      "nid": 2073654274939
+    }
+  },
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "Exact-quote matching does not prove semantic truth.",
+    "AI verification is fallible and is not a human content or visual review."
+  ],
+  "media_references": [
+    "malphite_e.gif",
+    "malphite_e_icon.png",
+    "malphite_p_icon.png",
+    "malphite_portrait.jpg",
+    "malphite_q.gif",
+    "malphite_q_icon.png",
+    "malphite_r.gif",
+    "malphite_r_icon.png",
+    "malphite_w.gif",
+    "malphite_w_icon.png"
+  ],
+  "new_cards": 6,
+  "passive_frame_evidence": [
+    {
+      "path": "visual-inputs/passive-1.png",
+      "sha256": "8b65d7fde5703c342d437db06ee0327c408d36366301d3cc4e880e01199e0535",
+      "source_sha256": "28ccd4d2016e1804e8d5c999c0623d9d521638633439aa79584052e132feec4f",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0054/ability_0054_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 1.6453
+    },
+    {
+      "path": "visual-inputs/passive-2.png",
+      "sha256": "150430ee816b6c8ccda0c7e42ebfd08daf1c72ea82fc33553cd45691f8f2bff7",
+      "source_sha256": "28ccd4d2016e1804e8d5c999c0623d9d521638633439aa79584052e132feec4f",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0054/ability_0054_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 4.3876
+    },
+    {
+      "path": "visual-inputs/passive-3.png",
+      "sha256": "d79d3d560d2e082479c5001be05a5cca928828ab1c99758bff0bc1909657ca5b",
+      "source_sha256": "28ccd4d2016e1804e8d5c999c0623d9d521638633439aa79584052e132feec4f",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0054/ability_0054_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 7.1299
+    },
+    {
+      "path": "visual-inputs/passive-4.png",
+      "sha256": "04a6856d04fac19fdd6ae91176b3c869dd63a9ec9041898afd0f481b18a2786a",
+      "source_sha256": "28ccd4d2016e1804e8d5c999c0623d9d521638633439aa79584052e132feec4f",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0054/ability_0054_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 9.8721
+    }
+  ],
+  "publishable": false,
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "resolution": "Use the Wiki's specific qualification: damage absorbed by shields does not restart recharge. Do not interpret Riot's shorter wording as an every-hit rule.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Passive recharge wording"
+    },
+    {
+      "resolution": "The Wiki supplies a specific exception to Riot's abbreviated recharge wording: shield-absorbed damage does not restart recharge. The draft includes this qualification.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Passive recharge trigger"
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4007956"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

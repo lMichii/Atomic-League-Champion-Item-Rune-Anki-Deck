@@ -1,0 +1,552 @@
+{
+  "approved_before": {
+    "data/content/editorial.json": "99a5bf2692dcba838b44f760962428a3e11fda582246b01b9d8bebc5f2ce1714",
+    "data/content/editorial.lock.json": "f396f168e9fa4dbddafd651116129f1f6bc63d35cf860185298c780d649ab9f8",
+    "data/content/pilot.json": "9f79b15b1b815a10097a92e76602d38f84bfd0752b6884a0a567b61c41441319",
+    "data/content/pilot.lock.json": "cada3e1dc45899483494e35ed0ec18171d1bd515c591b24d024f4a9025bae583",
+    "data/content/production.json": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "data/content/production.lock.json": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "data/sources/editorial.json": "e8bb35f575c6baf8c9dd3e2b9f2bf28b6e565b18836181771c6cc1a3dfc015ec",
+    "data/sources/pilot.json": "944046cc983be9862dad79fad975c9dc927d830d5bd0bd9d137067560baa2724",
+    "data/sources/production.json": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "champions": {
+    "shen": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 14976,
+              "input_tokens": 20858,
+              "output_tokens": 2809,
+              "reasoning_output_tokens": 86
+            }
+          ]
+        },
+        "output_sha256": "f3d789da923bb658d442422c2dc37cc5aa64802a67bd75de7e37bd6c358d3a5c",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "a65eeeb3dcc9eeab283fff2990efa0661b63c48465f21d171d655d362fda2b0b"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:02:10.931058+00:00",
+      "findings": [],
+      "ids": [
+        "champ:shen:overview:L1",
+        "champ:shen:p:recognize:L2",
+        "champ:shen:q:recognize:L2",
+        "champ:shen:w:recognize:L2",
+        "champ:shen:e:recognize:L2",
+        "champ:shen:r:recognize:L2"
+      ],
+      "manifest_sha256": "1066a2e9fc95e26d3091b678e134893676efdf41aa6108f55ea066eaa2725ec1",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-12/staging/shen",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/ce0d15128e55e94e659c834b7f7dc186aabaf97c1e49a8fc304a667029a56b92",
+      "status": "generated"
+    },
+    "shyvana": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 22378,
+              "output_tokens": 6067,
+              "reasoning_output_tokens": 51
+            }
+          ]
+        },
+        "output_sha256": "36a3518384d4ef2e47bab65f8cd43888b89e617b85eb040a172bd8ee2f9d5af1",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "ef501121fa64a40ad2b373e0ffa7008af562da11ca51b2c643f2edd298fd1654"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:03:59.578687+00:00",
+      "findings": [
+        {
+          "code": "adaptive_kit_structure",
+          "message": "5 live sections discovered; conventional slot headings are not a completeness contract."
+        },
+        {
+          "code": "media_unavailable",
+          "name": "shyvana_p.webm",
+          "url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_P1.webm"
+        }
+      ],
+      "ids": [
+        "champ:shyvana:overview:L1",
+        "champ:shyvana:p:recognize:L2",
+        "champ:shyvana:q:recognize:L2",
+        "champ:shyvana:w:recognize:L2",
+        "champ:shyvana:e:recognize:L2",
+        "champ:shyvana:r:recognize:L2"
+      ],
+      "manifest_sha256": "515bd3022a6c22897d25feead4aeda5a7b2d065743b1ea090157d79b1a51da95",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-12/staging/shyvana",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/208e2a7bcded9423d748397ae664c02a43b80a4209907cefb045abd3f90a0835",
+      "status": "generated"
+    },
+    "singed": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 20243,
+              "output_tokens": 2026,
+              "reasoning_output_tokens": 45
+            }
+          ]
+        },
+        "output_sha256": "d058cde8f373d572acdc3ac7c52df0f875141469a7f42c195b65b856a6e9aa47",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "f5d059a0a3b08c3c0542c319a6d730d3016b4c00b681a32f8171a8293780346e"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:04:53.340099+00:00",
+      "findings": [
+        {
+          "code": "media_url_missing",
+          "name": "singed_p.webm"
+        }
+      ],
+      "ids": [
+        "champ:singed:overview:L1",
+        "champ:singed:p:recognize:L2",
+        "champ:singed:q:recognize:L2",
+        "champ:singed:w:recognize:L2",
+        "champ:singed:e:recognize:L2",
+        "champ:singed:r:recognize:L2"
+      ],
+      "manifest_sha256": "773fa075f42081b6cf0d7e2303787e8835d2b9a8456f889cdad63cac5f08d9c7",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-12/staging/singed",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/b44250eed4fd9178127e917d78794c5271849874a1f63dd1cb7bf77e3819d484",
+      "status": "generated"
+    },
+    "sion": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 13312,
+              "input_tokens": 28561,
+              "output_tokens": 7268,
+              "reasoning_output_tokens": 103
+            }
+          ]
+        },
+        "output_sha256": "9b2a4eca4f2e2cfdf8bec3913d1edd1ff818469917af1d44a07b0dd006789359",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "e5c8b359ee9bde98d4580e36e562162f7d2284effef11834273bb0329da252f2"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:06:55.738892+00:00",
+      "findings": [
+        {
+          "code": "adaptive_kit_structure",
+          "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+        }
+      ],
+      "ids": [
+        "champ:sion:overview:L1",
+        "champ:sion:p:recognize:L2",
+        "champ:sion:q:recognize:L2",
+        "champ:sion:w:recognize:L2",
+        "champ:sion:e:recognize:L2",
+        "champ:sion:r:recognize:L2"
+      ],
+      "manifest_sha256": "8ea7397c84dee827fae6213540d9141b833f199f90ea91e3871053587630e1e4",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-12/staging/sion",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/27993a2910f7271fb0825f07b90081a4fc549647df50c59b46569fba0c86ecca",
+      "status": "generated"
+    },
+    "sivir": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 17522,
+              "output_tokens": 5070,
+              "reasoning_output_tokens": 117
+            }
+          ]
+        },
+        "output_sha256": "9f1b948537e8d6bd4bfa76d467e9ad397ed0ee817ef52d97dcefe8ffcec04629",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "8f46cfc3dafb959e6a8e5ff9248a3b042edca47f1e7e60afcf5ca067ae51ecee"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:08:28.523090+00:00",
+      "findings": [
+        {
+          "code": "adaptive_kit_structure",
+          "message": "5 live sections discovered; conventional slot headings are not a completeness contract."
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:sivir:r:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        }
+      ],
+      "ids": [
+        "champ:sivir:overview:L1",
+        "champ:sivir:p:recognize:L2",
+        "champ:sivir:q:recognize:L2",
+        "champ:sivir:w:recognize:L2",
+        "champ:sivir:e:recognize:L2",
+        "champ:sivir:r:recognize:L2"
+      ],
+      "manifest_sha256": "04fe6c051b4d22496f9645183b04ac91044150f2ec4d87b5790eda2968db032e",
+      "media": {
+        "gif": 3,
+        "icon": 2,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-12/staging/sivir",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/bda89a0b78215977d98b8d66070768d51d8fba2b24941f539baa86a37dc1772f",
+      "status": "generated"
+    },
+    "skarner": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 25621,
+              "output_tokens": 6015,
+              "reasoning_output_tokens": 96
+            }
+          ]
+        },
+        "output_sha256": "88ea3525cfc6b9bba68ac0aa508a4f0631d0f220fcd4eef0261139b34ced55a0",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "836eb69fac1e91475c0ff75772f489034c2f783bf68e0570f92d53474300fc00"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:09:46.567751+00:00",
+      "findings": [
+        {
+          "code": "adaptive_kit_structure",
+          "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:skarner:q:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        }
+      ],
+      "ids": [
+        "champ:skarner:overview:L1",
+        "champ:skarner:p:recognize:L2",
+        "champ:skarner:q:recognize:L2",
+        "champ:skarner:w:recognize:L2",
+        "champ:skarner:e:recognize:L2",
+        "champ:skarner:r:recognize:L2"
+      ],
+      "manifest_sha256": "d863b7642e15e72c9d92869776141020afa707dd34e25c8211a5813b5adcc181",
+      "media": {
+        "gif": 3,
+        "icon": 2,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-12/staging/skarner",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/7a170b7f56d0cdd7fc04d3e7446b8b92e07c94a2a44c30b5ba8b449db5172336",
+      "status": "generated"
+    },
+    "smolder": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 21297,
+              "output_tokens": 2262,
+              "reasoning_output_tokens": 53
+            }
+          ]
+        },
+        "output_sha256": "5f074e16764e6689783ef22a3a73751c7ec4ba3d8512eb8b6cd2ed6161cc3d13",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "39b4e6dae73fb19a50adfa804ee0065bdb9a76239c6e788cda38d146abc11437"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:10:40.188377+00:00",
+      "findings": [],
+      "ids": [
+        "champ:smolder:overview:L1",
+        "champ:smolder:p:recognize:L2",
+        "champ:smolder:q:recognize:L2",
+        "champ:smolder:w:recognize:L2",
+        "champ:smolder:e:recognize:L2",
+        "champ:smolder:r:recognize:L2"
+      ],
+      "manifest_sha256": "e0ffb896568d3c22f92d1be608da0cb98ad386556365fed7fb227ffddaf1627a",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-12/staging/smolder",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/74853ac8a743b1c7d6db1301d4f2bedd1df455d073b44ffc0a8092df853e46bd",
+      "status": "generated"
+    },
+    "sona": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 20585,
+              "output_tokens": 2722,
+              "reasoning_output_tokens": 54
+            }
+          ]
+        },
+        "output_sha256": "ce15d2e073ada178cffa48b6eeeca48a721fccf4f43b091213955ad99d4aec58",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "9d57d0a1b95be89cd1d78dd88efddeadb4b81e3a086c1f30e768fee86ce6752c"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:11:33.810571+00:00",
+      "findings": [],
+      "ids": [
+        "champ:sona:overview:L1",
+        "champ:sona:p:recognize:L2",
+        "champ:sona:q:recognize:L2",
+        "champ:sona:w:recognize:L2",
+        "champ:sona:e:recognize:L2",
+        "champ:sona:r:recognize:L2"
+      ],
+      "manifest_sha256": "629e94cf1d0c888ad04c704af285fff71a4d9d0241099a23eff69578682f0f8e",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-12/staging/sona",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/1cd9c4ca614069615287f5d5873dbaa5572c5ef670762f5ba404f1fbd6dfe908",
+      "status": "generated"
+    },
+    "swain": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 20860,
+              "output_tokens": 5700,
+              "reasoning_output_tokens": 49
+            }
+          ]
+        },
+        "output_sha256": "c724b811072ea7e675f3ea0d4d415319bd826ec718eafc775520bff92dc9ad8a",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "2212e5f65bb4ca33a9c839440140282f1b02328499c721acb7b55ab96e53ab21"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T23:12:53.911584+00:00",
+      "findings": [
+        {
+          "code": "adaptive_kit_structure",
+          "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+        }
+      ],
+      "ids": [
+        "champ:swain:overview:L1",
+        "champ:swain:p:recognize:L2",
+        "champ:swain:q:recognize:L2",
+        "champ:swain:w:recognize:L2",
+        "champ:swain:e:recognize:L2",
+        "champ:swain:r:recognize:L2"
+      ],
+      "manifest_sha256": "4546cc17ad1ea8979fc3f6b9ecef54b09ca203c938cf19dcbf7bda21499c0e6c",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-12/staging/swain",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/819cd2f616a28469ff30332c78c1a90a511f5d5c940d6ef4c1cf85603d73aaa8",
+      "status": "generated"
+    },
+    "sylas": {
+      "author_receipt": {
+        "execution_attempts": 0,
+        "metadata": {
+          "at": "2026-11-03T12:55:33.765474+00:00",
+          "changed": "Only cleared six invalid Sylas context references; learning text and Counterplay unchanged.",
+          "editorial_approval": false,
+          "explicit_user_confirmation": "Ja, nur die ungültigen Kontextverweise entfernen und Sylas abschließen"
+        },
+        "output_sha256": "19b870f3bac6d10395cd84f7e563a60c04e36d15aaa2c7cbc58efb394873792b",
+        "provider": "human_context_correction",
+        "request_sha256": "1b42756c8886511ca987b38aacb7b49f035186fb5c082767fc443080cf9c08f8"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-03T12:56:01.888425+00:00",
+      "findings": [
+        {
+          "code": "adaptive_kit_structure",
+          "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:sylas:e:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        }
+      ],
+      "ids": [
+        "champ:sylas:overview:L1",
+        "champ:sylas:p:recognize:L2",
+        "champ:sylas:q:recognize:L2",
+        "champ:sylas:w:recognize:L2",
+        "champ:sylas:e:recognize:L2",
+        "champ:sylas:r:recognize:L2"
+      ],
+      "manifest_sha256": "7e9ddcae67c9355290d5e0491992cf79c556f75af71e5e8b86645c6af70f53f4",
+      "media": {
+        "gif": 3,
+        "icon": 2,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-12/staging/sylas",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/11fa8f01cfc47224eb48c62a2c42d9dc04cf73a8efcf10f671953c51735589a7",
+      "status": "generated"
+    }
+  },
+  "created_at": "2026-11-02T23:01:01.438776+00:00",
+  "editorial_approval": false,
+  "id": "efficient-12",
+  "import_status": "not_recorded",
+  "mode": "author_only_staging",
+  "output": "build/staging/efficient-12.apkg",
+  "package": {
+    "cards": 60,
+    "media": 97,
+    "notes": 60,
+    "sha256": "d50bc5b97e974fac02e98030c378c7cee7c6a5405841496998c1c7c1955fed18",
+    "sqlite_integrity": "ok"
+  },
+  "status": "staging_exported",
+  "updated_at": "2026-11-03T12:56:01.888425+00:00"
+}

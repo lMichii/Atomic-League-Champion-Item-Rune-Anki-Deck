@@ -1,0 +1,434 @@
+{
+  "all_pending_editorial_review": true,
+  "asset_version": "16.21.1",
+  "card_ids": [
+    "champ:karma:overview:L1",
+    "champ:karma:system:r:mantra:recognize:L2",
+    "champ:karma:q:recognize:L2",
+    "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+    "champ:karma:w:recognize:L2",
+    "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+    "champ:karma:e:recognize:L2",
+    "champ:karma:ability_variant:e:defiance:mantra:recognize:L2"
+  ],
+  "cards": 8,
+  "citations": 20,
+  "core_coverage_checked": true,
+  "decoded_media_files": 12,
+  "errors": 0,
+  "findings": [
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:karma:overview:L1",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:karma:system:r:mantra:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "passive_visual_cue",
+      "id": "champ:karma:system:r:mantra:recognize:L2",
+      "message": "Determine whether an important passive/system cue needs supplementary media",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:karma:q:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "static_fallback",
+      "id": "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+      "message": "No source-matched animation; inspect the actual ability/context before accepting the real icon",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:karma:w:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "static_fallback",
+      "id": "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+      "message": "No source-matched animation; inspect the actual ability/context before accepting the real icon",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:karma:e:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "static_fallback",
+      "id": "champ:karma:ability_variant:e:defiance:mantra:recognize:L2",
+      "message": "No source-matched animation; inspect the actual ability/context before accepting the real icon",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "manual_visual_review",
+      "id": "champ:karma:ability_variant:e:defiance:mantra:recognize:L2",
+      "message": "Human ability/variant/cue matching and current-client appearance review required",
+      "severity": "warning"
+    },
+    {
+      "category": "metadata",
+      "code": "unknown_gameplay_patch",
+      "id": "karma",
+      "message": "Asset release is separate; unknown gameplay patch stays hidden",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "media_mapping",
+      "id": "champ:karma:system:r:mantra:recognize:L2",
+      "message": "['The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review.', 'Passive/resource/leveling visual cues require manual review of the archived demonstration frames.']",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "media_mapping",
+      "id": "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+      "message": "['No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant.']",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "media_mapping",
+      "id": "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+      "message": "['No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant.']",
+      "severity": "warning"
+    },
+    {
+      "category": "media",
+      "code": "media_mapping",
+      "id": "champ:karma:ability_variant:e:defiance:mantra:recognize:L2",
+      "message": "['No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant.']",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "karma",
+      "message": "{'resolution': 'Use qualitative damage effects. The appended change note is not treated as a current damage table.', 'source_ids': ['wiki:Q', 'wiki:soulflare'], 'topic': 'Soulflare damage arrays coexist with a different appended primary-damage change note.'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "karma",
+      "message": "{'resolution': 'Teach champion-hit cooldown reduction qualitatively from the dedicated live section and Riot description; omit exact reduction values.', 'source_ids': ['wiki:P', 'wiki:gatheringfire', 'riot:P'], 'topic': \"Gathering Fire's live description is mixed with an uncontextualized historical cooldown-reduction change line in wiki:P.\"}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "karma",
+      "message": "{'resolution': 'Retain the shared qualitative cooldown-reduction mechanic; omit exact reduction amounts.', 'source_ids': ['riot:P', 'wiki:P', 'wiki:gatheringfire'], 'topic': 'Passive excerpts contain differing numeric cooldown-reduction text.'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "karma",
+      "message": "{'resolution': 'Retain increased impact damage and delayed field damage; omit disputed damage values.', 'source_ids': ['wiki:Q', 'wiki:soulflare'], 'topic': 'Soulflare excerpts include damage tables and a differing change-note value.'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "karma",
+      "message": "{'resolution': 'Keep qualitative champion-hit cooldown recovery. The change-note fragment does not establish a competing current value; omit numerical claims rather than treating historical text as current mechanics.', 'source_ids': ['riot:P', 'wiki:P', 'wiki:gatheringfire'], 'topic': 'Passive numerical descriptions mixed with a change-note fragment.'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "source_conflicts",
+      "id": "karma",
+      "message": "{'resolution': 'Keep increased impact damage and delayed field damage. The differing change-note value is not established as current and need not override the qualitative mechanics.', 'source_ids': ['wiki:Q', 'wiki:soulflare'], 'topic': 'Soulflare damage tables mixed with a historical change-note value.'}",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "The packet does not establish a current patch label; pinned Data Dragon numbering must not be converted into one.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "The absence of a dash or blink is an inference from the complete supplied active kit, not an explicit quoted mobility restriction.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "Renewal bug and unexpected-interaction notes are not established current mechanics; visual tether bugs, cast-cancellation bugs and rune interactions are excluded from core requirements.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "Lore, skins and collection text embedded in wiki:R do not describe combat mechanics.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "Exact damage, shielding, healing, cooldown and duration arrays are unnecessary for these recognition goals and may contain stale notes.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "This inventory is unapproved editorial material.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "Build focus is a broad AP learning orientation, not an optimal item-build claim.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "Counterplay is qualitative guidance derived from the described effects, rather than an explicit source assertion or a guaranteed outcome.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "The supplied excerpts mix repeated descriptions, numeric tables, change notes and bug reports; learning answers retain the frozen qualitative cores.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "No ability-absence inference is used; the answers make no claim that Karma lacks a dash or blink.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "No current patch, animation, color or skin claim is established from the supplied material.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "Counterplay is appropriately typed in external metadata as source-grounded inference; it introduces no unsupported timings or guaranteed escape outcomes.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "Renewal counterplay specifically prevents the completion-triggered heal; it does not claim that breaking the tether reverses the initial heal or removes the separate death-trigger condition.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "AP is a broad learning orientation supported by supplied scaling evidence, not an optimal-build claim.",
+      "severity": "warning"
+    },
+    {
+      "category": "factual",
+      "code": "factual_risks",
+      "id": "karma",
+      "message": "Bug reports, historical fragments and demonstration limitations remain outside card-facing mechanics. No exhaustive ability-absence inference or human approval is asserted.",
+      "severity": "warning"
+    },
+    {
+      "category": "source",
+      "code": "findings",
+      "id": "karma",
+      "message": "{'code': 'adaptive_kit_structure', 'message': '8 live sections discovered; conventional slot headings are not a completeness contract.'}",
+      "severity": "warning"
+    },
+    {
+      "category": "source",
+      "code": "findings",
+      "id": "karma",
+      "message": "{'code': 'media_url_missing', 'name': 'karma_p.webm'}",
+      "severity": "warning"
+    }
+  ],
+  "kit_schema": 2,
+  "media": {
+    "gif": 4,
+    "icon": 3,
+    "portrait": 1
+  },
+  "model_usage": {
+    "available_receipt_usage": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 67993,
+      "output_tokens": 10070,
+      "reasoning_output_tokens": 193
+    },
+    "logical_requests": 3,
+    "recorded_model_attempts": 3,
+    "scope": "Recorded generation usage; cached replay does not repeat these model calls. Failed-attempt usage may be unavailable.",
+    "usage_receipts_available": 3
+  },
+  "qa_processor_sha256": "46d72e6ca50f576b2a2ea4932409ea29c9bd4449de504e2000a09387a4956d72",
+  "schema_version": 1,
+  "section_dispositions": [
+    {
+      "disposition": "merged",
+      "reason": "Passive cooldown recovery belongs with the empowerment cycle rather than a separate recognition card.",
+      "source_id": "wiki:gatheringfire",
+      "target_subject_ids": [
+        "wiki:mantra"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Projectile collision, splash and slowing define the base poke threat.",
+      "source_id": "wiki:innerflame",
+      "target_subject_ids": [
+        "wiki:innerflame"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The delayed field creates a distinct avoidance goal; spell-shield behavior remains advanced and numerical change notes are excluded.",
+      "source_id": "wiki:soulflare",
+      "target_subject_ids": [
+        "wiki:soulflare"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Recognizing and breaking the tether is a distinct response to the delayed root.",
+      "source_id": "wiki:focusedresolve",
+      "target_subject_ids": [
+        "wiki:focusedresolve"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Self-healing and the extended root change enemy commitment decisions; bug notes remain outside core learning.",
+      "source_id": "wiki:renewal",
+      "target_subject_ids": [
+        "wiki:renewal"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Targeted shielding and speed have a distinct defensive and repositioning purpose.",
+      "source_id": "wiki:inspire",
+      "target_subject_ids": [
+        "wiki:inspire"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Group shielding and acceleration are recognizably different from the targeted base cast.",
+      "source_id": "wiki:defiance",
+      "target_subject_ids": [
+        "wiki:defiance"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The system card explains empowerment selection, early availability and rank dependence together with passive recovery.",
+      "source_id": "wiki:mantra",
+      "target_subject_ids": [
+        "wiki:mantra"
+      ]
+    }
+  ],
+  "slot_roles": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:gatheringfire",
+        "riot:P"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:innerflame",
+        "wiki:soulflare"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:focusedresolve",
+        "wiki:renewal"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:inspire",
+        "wiki:defiance"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:mantra",
+        "riot:R"
+      ]
+    }
+  ],
+  "source_excerpts": 19,
+  "source_packet_sha256": "f19d60ffe939a23d3284cd4ffe3a797dd429fd4574822ab76572566ed98abcf2",
+  "warnings": 40,
+  "wiki_revision": "4091137"
+}

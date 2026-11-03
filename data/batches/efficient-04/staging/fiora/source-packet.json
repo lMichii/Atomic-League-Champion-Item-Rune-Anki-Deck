@@ -1,0 +1,240 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "Fiora has revealed a Vital on this Champion. If she hits the Vital, she restores Health and gains Move Speed.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Fiora_P.png",
+      "name": "Duelist's Dance",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0114/ability_0114_P1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        13,
+        11.25,
+        9.5,
+        7.75,
+        6
+      ],
+      "description": "Fiora lunges in a direction and stabs a nearby enemy, dealing physical damage and applying on-hit effects.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/FioraQ.png",
+      "name": "Lunge",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0114/ability_0114_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        24,
+        22,
+        20,
+        18,
+        16
+      ],
+      "description": "Fiora parries all incoming damage and disables for a short time, then stabs in a direction. This stab slows the first enemy champion hit, or stuns them if Fiora blocked an immobilizing effect with this ability.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/FioraW.png",
+      "name": "Riposte",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0114/ability_0114_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "description": "Fiora has increased attack speed for the next two attacks. The first attack slows the target, and the second attack will critically strike.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/FioraE.png",
+      "name": "Bladework",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0114/ability_0114_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        110,
+        90,
+        70
+      ],
+      "description": "Fiora reveals all four Vitals on an enemy champion and gains Move Speed while near them. If Fiora hits all four Vitals or if the target dies after she has hit at least one, Fiora and her allies in the area are healed over the next few seconds.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/FioraR.png",
+      "name": "Grand Challenge",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0114/ability_0114_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/fiora/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Fiora"
+  },
+  "champion": {
+    "ddragon_id": "Fiora",
+    "name": "Fiora",
+    "riot_id": 114,
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/Fiora/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "56316c7a7d807923649e6fcafac4010a4913677860539bb83d6cff4a1ea51864",
+      "text": "Fiora has revealed a Vital on this Champion. If she hits the Vital, she restores Health and gains Move Speed.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiora.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "Duelist's Dance",
+      "provider": "league_wiki",
+      "sha256": "09d47b869c7210a489ad49a7ef5979dee421b4503aff68667cf6c9694218bc55",
+      "text": "Duelist's Dance\nEFFECT RADIUS:\n1200 • 1350 • 250\nANGLE:\n90°\nInnate: Fiora challenges nearby enemy champions, calling out a direction from which she will try to strike their Vitals. A new Vital is called out after some time or if one is struck. Striking a vital deals bonus true damage based on the target's maximum health, heals Fiora and grants her a burst of movement speed.\nInnate: Fiora identifies the Vitals of nearby enemy champions, marked as an arc around them in North-, East-, South- or Westward direction. Vitals take 1.75 seconds to become targetable and linger for 13.25 seconds afterwards while Fiora remains near the target, otherwise the Vital will disappear. After a Vital expires, Fiora identifies a new one on her target.\nDealing damage in the direction of a Vital will trigger it to deal bonus true damage equal to 3% (+ 4% per 100 bonus AD) of target's maximum health, heal Fiora for 35 – 100 (based on level), and grant her 20% / 30% / 40% / 50% (based on Grand Challenge's Rank) bonus movement speed that decays over 1.85 seconds.\nNotes/General Details\nTargeting input\nPassive\nAffects\nEnemies\nDamage classification\nType\nProc damage\nSub-type(s)\nTrue\nCounters\nSpell shield\nNot Blocked\nParries\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nVitals can be triggered by any source of damage Fiora deals, except those with default damage and reactive damage types.\nThe Vitals are visible to all units.\nA Vital's angle is fixed to the champion's model and doesn't interact with its orientation.\nVitals spawn directions alternate in a Northeast-Southwest pattern. Other than that, they have a 50% chance to spawn North or East, or South or West, respectively.\nPENDING FOR TEST: The direction of the first Vital upon Fiora and her enemy encountering one another in the game for the first time is always Southward or Westward. This is true regardless of whether Fiora is in the Blue or Red team.\nVitals will not trigger if the attack is dodged or missed while Fiora is blinded.\nBlock will not prevent a trigger.\nIf the Vital is triggered by Lunge, it can be dodged, but it can't be blocked and will trigger even if Fiora is blinded.\nVitals are identified upon an enemy gaining sight of Fiora, and they are maintained while enemies maintain sight of Fiora.\nIf Fiora has no sight of the enemy (and is in the valid radius of her), the Vital will not disappear.\nIf the enemy has no sight of Fiora, Vitals are not identified.\nTips & Tricks\nWhile Duelist's Dance's Vitals are a persistent effect, the identifying itself can be a powerful vision tool to control for ambushes and flanks, as enemies cannot know Fiora is in range until they see her.\nMap-Specific Differences\nArena differences edit\nBase damage changed to 2% of target's maximum health.\nBonus AD ratio changed to 3% per 100 bonus AD.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiora?oldid=3892617"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/Fiora/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "56316c7a7d807923649e6fcafac4010a4913677860539bb83d6cff4a1ea51864",
+      "text": "Fiora lunges in a direction and stabs a nearby enemy, dealing physical damage and applying on-hit effects.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiora.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Lunge",
+      "provider": "league_wiki",
+      "sha256": "09d47b869c7210a489ad49a7ef5979dee421b4503aff68667cf6c9694218bc55",
+      "text": "Lunge\nCOST:\n20 Mana\nCOOLDOWN:\n13 / 11.25 / 9.5 / 7.75 / 6\nCAST TIME:\nnone\nTARGET RANGE:\n50 - 400\nRANGE:\n420\nSPEED:\n1100 (+ 300% • 350% bonus movement speed)\nActive: Fiora dashes in the target direction and then stabs a nearby enemy, dealing physical damage and applying on-hit effects. If she stabs a target, the cooldown is reduced.\nActive: Fiora dashes in the target direction, then stabs a nearby enemy based on a priority. Lunge can hit structures and wards. Stabbing a target reduces Lunge's cooldown by 50%.\nThe stab deals physical damage and applies on-hit effects.\nPhysical Damage:70 / 80 / 90 / 100 / 110 (+ 90 / 95 / 100 / 105 / 110% bonus AD)\nFiora can cast any of her abilities during the dash. The target does not have to be visible to be hit by this ability, unless it is a ward.\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nEnemies\nDamage classification\nType\nSee Notes\nSub-type(s)\nPhysical\nMinion Aggro\nDrawn\nCounters\nSpell shield\nBlocked\nParries\nSee Notes\nGrounded\nDisabled\nKnockdown\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nLunge deals basic damage, but also triggers spell effects by also being tagged as spell damage.\nLunge's dash speed is modified by her bonus movement speed at the time of cast:\n1100 + 350% bonus movement speed, capped at 1600 maximum dash speed if bonus movement speed is positive.\n1100 + 300% bonus movement speed, capped at 850 minimum dash speed if bonus movement speed is negative.\nThe stab searches for targets in its radius and prioritizes in order of:\nNearest enemy champion affected by Grand Challenge with a Vital facing Fiora.\nNearest enemy champion with their Vital facing Fiora.\nNearest enemy champion affected by Grand Challenge.\nEnemy champion with the lowest health percent out of all champions <20% remaining health.\nNearest enemy champion, minion, or monster within 60% of the radius ( 252) with current health below Lunge's pre-mitigation damage.\nNearest enemy champion in the radius check.\nNearest champion in a rectangular check with 160 width and 450 units length backwards from Fiora's current facing direction, ignoring the normal radius check.\nTurning Fiora's facing direction during the dash (e.g. by casting Riposte) can create some very long range hits opposite to her new facing direction, especially against targets with a large gameplay radius.(bug)\nNearest enemy minion with current health below Lunge's pre-mitigation damage.\nAny nearest enemy minion or monster.\nStructures.\nVisible wards.\nLunge cannot target jungle plants.\nFiora does not stab if the dash is interrupted.\nFlash is disabled during the dash.\nLunge does not interrupt issued orders.\nThe user can freely input a movement or attack order during the dash to perform it after the dash ends.\nThis behavior is the same regardless of whether Lunge hits an enemy or not.\nLunge can be dodged or blocked, negating its damage.\nLunge does not apply on-attack effects but is special cased to stack Energized upon hitting an enemy.\nMap-Specific Differences\nArena differences edit\nBase damage changed to 55 / 65 / 75 / 85 / 95.\nBonus AD ratio changed to 70 / 75 / 80 / 85 / 90% bonus AD.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiora?oldid=3892617"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/Fiora/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "56316c7a7d807923649e6fcafac4010a4913677860539bb83d6cff4a1ea51864",
+      "text": "Fiora parries all incoming damage and disables for a short time, then stabs in a direction. This stab slows the first enemy champion hit, or stuns them if Fiora blocked an immobilizing effect with this ability.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiora.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Riposte",
+      "provider": "league_wiki",
+      "sha256": "09d47b869c7210a489ad49a7ef5979dee421b4503aff68667cf6c9694218bc55",
+      "text": "Riposte\nCOST:\n50 Mana\nCOOLDOWN:\n24 / 22 / 20 / 18 / 16\nCAST TIME:\nnone\nTARGET RANGE:\n900\nWIDTH:\n140\nSPEED:\n3200\nActive: Fiora briefly parries all incoming damage and debuffs, then stabs in a direction, dealing magic damage to enemies hit. The stab slows the first enemy champion hit, or stuns them if Fiora parried a hostile immobilizing effect.\nActive: Fiora enters a defensive stance for 0.75 seconds, during which she is unable to act, prevents all incoming non- turret damage, and gains debuff immunity.\nAdditionally, over the first 0.5 seconds of the duration, Fiora poises to strike, after which she sends a shock with her sword in a line in the target direction, dealing magic damage to all enemies hit until colliding with an enemy champion.\nMagic Damage:110 / 150 / 190 / 230 / 270 (+ 100% AP)\nThe enemy champion struck is also slowed and crippled by 25% for 2 seconds. If Riposte negates at least one hostile immobilizing effect, Fiora stuns the target for the same duration instead.\n\"En garde!\"\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nRiposte does not grant invulnerability but instead reduces any incoming damage by 100% late into the damage event. Because of this, it interacts differently with effects triggered from damage:\nLife steal and healing based on damage dealt (Vamp) will still have effect even if the damage is ultimately ignored by Riposte.\nShields will absorb damage before Riposte takes effect.\nFiora cannot be executed by Pyke's Death from Below during Riposte, but she may by Aspect of the Dragon.\nRiposte prevents Azir's Shurima's Legacy's Sun Disc damage. (unexpected)\nThe debuff immunity encompasses:\nCrowd control.\nNote that this is not crowd control immunity, and effects that look specifically for that will not consider Riposte (e.g., Yasuo's Last Breath may not be cast on cc-immune targets but it can be cast while Fiora is in Riposte). [1]\nDebuffs from summoner spells such as Exhaust's damage reduction and all of Ignite's effects.\nPersistent damage application.\nTether application (e.g., Camille's The Hextech Ultimatum and Illaoi's Test of Spirit), with the exception of Malzahar's Nether Grasp. [2]\nSome mark applications (e.g., Duelist's Dance and Zilean's Time Bomb), but not some other (e.g., Grand Challenge, Braum's Concussive Blows and Winter's Bite, Caitlyn's Ace in the Hole, Kennen's Electrical Surge's passive effect, Tahm Kench's Tongue Lash, and Vi's Cease and Desist).\nIf Fiora negates an immobilizing effect when the shock missile has struck an enemy champion already, the afflicted slow and cripple on the target will be removed and they will become stunned for a duration equal to the slow and cripple's remaining duration (effectively converting the slow/cripple into the stun).\nThis event may only occur in the last 0.25 seconds of Riposte's duration, during which Fiora retains her stance even while the missile is in-flight (timing of her stance and the missile's travel time overlap).\nSince the stun is applied equal to the remaining duration, it will last shorter than if it were applied normally.\nThis results in an unintended consequence of the stun duration being reduced by tenacity twice, as the base stun duration would be equal to the reduced duration of the slow and cripple after tenacity is applied to it.(unexpected)\nThe slow debuff on the target is however not removed properly, despite the slow itself being removed.(bug)\nRiposte will not negate nearsight.\nImmobilizing effects include those from Blast Cone (only if triggered by an enemy) and epic monsters.\nRiposte does not count K'Sante's All Out as an immobilizing effect. (bug)\nIn the last 0.25 seconds of Riposte's duration, Fiora cannot be selected. This is distinct from untargetability and there are no known interactions beyond this.\nRiposte's effect prioritization is as follows:\nRiposte will negate effects before spell shields.\nMorgana's Black Shield will negate crowd control before Riposte.\nBeing hit by a crowd control while affected by Black Shield means Riposte will not trigger its stun empowerment condition, as it itself must negate the immobilize and not any other external source.\nSpell shield will also prevent Vitals from being triggered by Riposte's shock.\nThe shock missile takes ~0.25 seconds to reach maximum range.\nThe shock missile will be fired from wherever Fiora is after the first 0.5 seconds of Riposte.\nThe following table refers for interactions while Fiora is performing Riposte:\nAttacking\nDisabled\nAbilities\nDisabled\nMovement\nDisabled\nItems\nUsable\nN/A\nDisabled\nAll items are disabled\nInterrupted by\nN/A\nConsumables\nDisabled\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nFlash Teleport Recall\nInterrupted by\nN/A\nInterrupted by\nDeath\nMap-Specific Differences\nArena differences edit\nCooldown changed to 28 / 26 / 24 / 22 / 20 seconds.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiora?oldid=3892617"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/Fiora/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "56316c7a7d807923649e6fcafac4010a4913677860539bb83d6cff4a1ea51864",
+      "text": "Fiora has increased attack speed for the next two attacks. The first attack slows the target, and the second attack will critically strike.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiora.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Bladework",
+      "provider": "league_wiki",
+      "sha256": "09d47b869c7210a489ad49a7ef5979dee421b4503aff68667cf6c9694218bc55",
+      "text": "Bladework\nCOST:\n40 Mana\nCOOLDOWN:\n11 / 10 / 9 / 8 / 7\nCAST TIME:\nnone\nActive: Fiora gains bonus range and bonus attack speed for the next two attacks. The first attack slows the target, and the second attack will critically strike.\nActive: Fiora empowers her next two basic attacks on-attack within 4 seconds to gain 25 bonus range and bonus attack speed.\nBonus Attack Speed:50 / 60 / 70 / 80 / 90%\nThe first attack slows the target by 30% for 1 second but cannot critically strike. The second attack will critically strike for modified critical damage, including to structures.\nCritical damage:160 / 170 / 180 / 190 / 200%\nBladework resets Fiora's basic attack timer.\nNotes/General Details\nTargeting input\nAuto\nAffects\nSelf\nDamage classification\nType\nAbility damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nSee Notes\nParries\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nSpell shield will only block the slow from the first hit.\nSundered Sky's Lightshield Strike's critical damage will override Bladework's if the resulting damage would be higher.\nThis does not account for any critical damage bonuses that may affect Lightshield Strike.\nBladework's first basic attack will slow even if it is dodged, blocked or missed.\nNeither Bladework attack will deal damage if it is dodged, blocked or missed.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiora?oldid=3892617"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/Fiora/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "56316c7a7d807923649e6fcafac4010a4913677860539bb83d6cff4a1ea51864",
+      "text": "Fiora reveals all four Vitals on an enemy champion and gains Move Speed while near them. If Fiora hits all four Vitals or if the target dies after she has hit at least one, Fiora and her allies in the area are healed over the next few seconds.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiora.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Grand Challenge",
+      "provider": "league_wiki",
+      "sha256": "09d47b869c7210a489ad49a7ef5979dee421b4503aff68667cf6c9694218bc55",
+      "text": "Grand Challenge\nCOST:\n100 Mana\nCOOLDOWN:\n110 / 90 / 70\nCAST TIME:\nnone\nTARGET RANGE:\n500\nEFFECT RADIUS:\n550 • 600\nPassive: Duelist's Dance's bonus movement speed is increased. Active: Fiora reveals all Vitals on an enemy champion and gains bonus movement speed while near them. If Fiora triggers at least one Vital before the target dies, or triggers all four, she creates a Victory Zone which continually heals Fiora and her allies.\nPassive: Duelist's Dance's bonus movement speed is increased.\nAdditional Bonus Movement Speed:10 / 20 / 30%\nActive: Fiora challenges the target enemy champion for 8 seconds, highlighting all four of their Vitals after a 0.5-second delay. While in effect, Duelist's Dance does not identify new Vitals on Grand Challenge's target, and unlike Duelist's Dance, Grand Challenge's Vitals will linger regardless of range.\nWhile near the target, Fiora gains Duelist's Dance's bonus movement speed.\nIf Fiora triggers at least one Vital before the target dies, or triggers all four otherwise, a Victory Zone is created on their death location for 5 seconds, which heals Fiora and all allies within the area every 0.25 seconds.\nHeal per Tick:20 / 26.25 / 32.5 (+ 17.5% bonus AD)Heal per Second:80 / 105 / 130 (+ 70% bonus AD)Maximum Heal:400 / 525 / 650 (+ 350% bonus AD)\nNotes/General Details\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nSelf, Enemies\nCounters\nSpell shield\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nGrand Challenge is dispelled instantly if targeting a decoy.\nGrand Challenge cannot be cast on Sion's Glory in Death.\nThe damage of this ability scales with Duelist's Dance.\nEven if Fiora dies, the Victory Zone will trigger so long as she hit at least one Vital and they die before the Vitals wear off.\nResurrection effects will not prevent the activation of the Victory Zone.\nThe Victory Zone will not heal untargetable units.\nFiora will automatically attack the target upon casting if the target was selected while they were not in range of the ability.\nAttempting to cast Grand Challenge on a target already affected by it will incur a 1-second cooldown and a text saying that the ability cannot be stacked will pop out of the target.\nTips & Tricks\nIf the target stays very close to terrain they can prevent Fiora from hitting all vitals.\nMap-Specific Differences\nOne for All differences edit\nAttempting to cast Grand Challenge on a target that is already affected by it will inform the player that it \"Cannot be stacked\" once Fiora is in cast range.\nChampion skins[edit | edit source]\nThis article section only contains champion skins. For all associated collection items, see Fiora (Collection).\nOriginal\n29.02.2012\nThe most feared duelist in all Valoran, Fiora is as renowned for her brusque manner and cunning mind as she is for the speed of her bluesteel rapier. Born to House Laurent in the kingdom of Demacia, Fiora took control of the family from her father in the wake of a scandal that nearly destroyed them. House Laurent's reputation was sundered, but Fiora bends her every effort to restore her family's honor and return them to their rightful place among the great and good of Demacia.\nKaren Strassman\nJason Chan\nLoot eligible\nView in 3D\nRoyal Guard\n520\n29.02.2012\nIf one dares to gaze upon the crown, they'll immediately catch the careful eye of Fiora, the captain of the Royal Guard. Cunning, keen, and shrewd, she's written her own legend at the tip of her rapier, a legend so large that it's said, as a child, she could slice a falling leaf perfectly in half. Whether or not it's true... Fiora has never told.\nKaren Strassman\nBo 'chenbowow' Chen\nFables\nLoot eligible\nView in 3D\nNightraven\n750\n29.02.2012\nKaren Strassman\nUnknown artist\nBloodstone\nLoot eligible\nView in 3D\nHeadmistress\n975\n26.10.2012\nATTENTION ALL STUDENTS: Concerning the recent upswing in vandalism and general troublemaking, it has come to my attention these behaviors may be intended to draw the personal attention of our headmistress. The dean reminds students that such encounters can be fatal, and encourages them to re-read the Academy code of conduct.\nKaren Strassman\nUnknown artist\nAcademy\nLoot eligible\nLegacy\nNew SFX/VFX\nChromas\nView in 3D\nHeadmistress Fiora Chromas\nAmethyst\nCatseye\nJasper\nPearl\nQuartz\nRuby\nSandstone\nSapphire\nPROJECT\n1350\n07.09.2015\nAugmented for speed, Fiora uses her zero-pulse sword to fight alongside Ashe and the other members of G/NETIC. The full-length energy blade allows for flawless attack precision and maximum repel strength, while the spatially controlled atomic tip coating is most suited for single-target combat.\nKaren Strassman\nAlex 'alexplank' Flores\nPROJECT\nLoot eligible\nVoice filter\nAdditional/unique quotes\nNew SFX/VFX\nNew Animations\nNew Recall\nChromas\nView in 3D\nPROJECT: Fiora Chromas\nReckoning\nPool Party\n1350\n13.07.2016\nFiora can stop a pool party dead in its tracks and she knows it. What she truly longs for is a worthy opponent—but alas, some people are just too good at crushing the party scene.\nKaren Strassman\nPan Chengwei\nPool Party\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nChromas\nView in 3D\nPool Party Fiora Chromas\nAquamarine\nCitrine\nPearl\nRainbow\nRose Quartz\nSapphire\nTanzanite\nTurquoise\nSoaring Sword\n1350\n27.09.2017\nA pupil of a famous martial arts school, Fiora pined after her fellow student Yi, but was never able to win his heart. Now she pursues him as he searches for the fabled sword of jade, to protect the artifact from the man she once loved.\nKaren Strassman\nJean 'Curing' Go\nImmortal Journey\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nHeartpiercer\n1350\n11.02.2019\nFiora fancies herself the ultimate rival in all things romantic—a duelist unsurpassed in swordsmanship and love. How ironic that she finally seems to have met her match…\nKaren Strassman",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiora?oldid=3892617"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/Fiora/tags",
+      "provider": "riot_ddragon",
+      "sha256": "56316c7a7d807923649e6fcafac4010a4913677860539bb83d6cff4a1ea51864",
+      "text": "Name: Fiora. Official role tags: Fighter, Assassin.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiora.json"
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 17558,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T13:07:36.724654+00:00",
+      "sha256": "56316c7a7d807923649e6fcafac4010a4913677860539bb83d6cff4a1ea51864",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Fiora.json"
+    },
+    {
+      "bytes": 90629,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T13:07:36.898910+00:00",
+      "sha256": "f30979c670d5d2a5fe3d87e5ee0801dcde10a58be64fbb13722dd140166f7abb",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/114.json"
+    },
+    {
+      "bytes": 177579,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:07:37.277578+00:00",
+      "sha256": "555d50590b16051fc1f756cba3f4e44e04a989b2a22604b37435315a80a58d59",
+      "url": "https://www.leagueoflegends.com/en-us/champions/fiora/"
+    },
+    {
+      "bytes": 960012,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:07:37.568503+00:00",
+      "sha256": "09d47b869c7210a489ad49a7ef5979dee421b4503aff68667cf6c9694218bc55",
+      "url": "https://wiki.leagueoflegends.com/en-us/Fiora"
+    }
+  ],
+  "schema_version": 1,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "3892617"
+  }
+}

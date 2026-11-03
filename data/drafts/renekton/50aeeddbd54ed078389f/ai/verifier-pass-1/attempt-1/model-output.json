@@ -1,0 +1,188 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": false,
+      "beginner_friendly": true,
+      "card_id": "champ:renekton:overview:L1",
+      "core_coverage": [
+        {
+          "answer_quote": "Renekton is a close-range fighter/tank whose basic abilities deal physical damage, with healing and a targeted stun; Dominus adds nearby magic damage.",
+          "covered": true,
+          "mechanic_id": "overview_fighting_role",
+          "reason": "Explains his role, damage types, healing and targeted stun."
+        },
+        {
+          "answer_quote": "His attacks build Fury that empowers abilities, giving him an AD damage focus. Slice is a damaging dash that unlocks a second dash only if it hits an enemy.",
+          "covered": true,
+          "mechanic_id": "overview_threat_access",
+          "reason": "Explains Fury empowerment and the hit condition for another dash."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": false,
+      "issues": [
+        "“Fury that empowers abilities, giving him an AD damage focus” incorrectly makes AD orientation a consequence of Fury empowerment. The supplied AD scalings support the separately typed broad orientation, not this causal connection. Separate the statements, for example: “His attacks build Fury that empowers abilities. His basic abilities have an AD damage focus.”"
+      ],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:renekton:system:p:reignofanger:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Basic attacks and ability hits build Fury, which decays after inactivity; Fury generation increases below half health.",
+          "covered": true,
+          "mechanic_id": "fury_generation_decay",
+          "reason": "Explains generation, decay and increased generation at low health; the following exception qualifies empowered abilities."
+        },
+        {
+          "answer_quote": "At least 50 Fury makes the next eligible basic ability consume 50 Fury for an empowered effect. Slice is excluded from this empowerment, and empowered abilities do not generate Fury.",
+          "covered": true,
+          "mechanic_id": "fury_spending",
+          "reason": "Includes the threshold, expenditure, Slice exception and generation restriction."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:renekton:q:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Cull the Meek deals physical damage around Renekton and heals him for each enemy hit, with more healing against champions. Its normal version also generates Fury.",
+          "covered": true,
+          "mechanic_id": "cull_area_sustain",
+          "reason": "Explains surrounding physical damage, per-target healing, champion healing and normal-version Fury generation."
+        },
+        {
+          "answer_quote": "Fury empowerment increases its damage and healing.",
+          "covered": true,
+          "mechanic_id": "cull_empowerment",
+          "reason": "Explicitly explains both empowered benefits."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:renekton:w:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Ruthless Predator modifies Renekton's next basic attack to strike twice, dealing physical damage and briefly stunning the target.",
+          "covered": true,
+          "mechanic_id": "predator_attack_stun",
+          "reason": "Explains one modified attack, its two strikes, damage and stun."
+        },
+        {
+          "answer_quote": "Fury empowerment makes it strike three times, deal more damage, stun longer and destroy the target's damage shields before dealing damage.",
+          "covered": true,
+          "mechanic_id": "predator_empowered_shieldbreak",
+          "reason": "Explains the empowered strikes, increased damage, longer stun and shield destruction in the stated champion-combat scope."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:renekton:e:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Slice dashes through enemies, dealing physical damage; hitting an enemy briefly unlocks Dice, a second dash that also deals physical damage.",
+          "covered": true,
+          "mechanic_id": "slice_dice_access",
+          "reason": "Explains both damaging dashes and the hit-gated recast."
+        },
+        {
+          "answer_quote": "Fury empowers Dice with additional damage and temporary armor reduction on enemies hit. Slice does not consume Fury for empowerment.",
+          "covered": true,
+          "mechanic_id": "dice_empowered_armor",
+          "reason": "Explains Dice's empowered effects and Slice's exclusion."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:renekton:transformation:r:dominus:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Dominus transforms Renekton into Tyrant form, granting bonus health, size and attack range, plus a larger Cull the Meek area.",
+          "covered": true,
+          "mechanic_id": "dominus_transformation",
+          "reason": "Explains the transformation and every frozen transformation benefit."
+        },
+        {
+          "answer_quote": "It grants Fury on activation and continually generates more during the form, up to a cap. Its aura continually deals magic damage to nearby enemies.",
+          "covered": true,
+          "mechanic_id": "dominus_aura_fury",
+          "reason": "Explains initial and ongoing Fury generation, its cap and nearby magic damage."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Use the detailed passive's at-least-50 threshold and explicit Slice exception. The draft follows this resolution.",
+      "source_ids": [
+        "riot:Q",
+        "riot:W",
+        "wiki:reignofanger"
+      ],
+      "topic": "Fury empowerment threshold"
+    },
+    {
+      "resolution": "Use the detailed per-enemy healing model, increased against champions, rather than damage-proportional healing. The draft follows this resolution.",
+      "source_ids": [
+        "riot:Q",
+        "wiki:cullthemeek"
+      ],
+      "topic": "Cull the Meek healing model"
+    },
+    {
+      "resolution": "Apply the passive's explicit restriction that empowered abilities generate no Fury. The draft appropriately qualifies Q's generation.",
+      "source_ids": [
+        "wiki:reignofanger",
+        "wiki:cullthemeek",
+        "wiki:ruthlesspredator",
+        "wiki:sliceanddice"
+      ],
+      "topic": "General ability-hit Fury generation versus empowerment exception"
+    }
+  ],
+  "factual_risks": [
+    "The overview needs its unsupported causal link between Fury and AD orientation removed; a separate broad AD orientation is supported by the supplied scalings.",
+    "W's shield destruction is taught for champion combat. Preserve the metadata exceptions for monsters, structures and attack-trigger distinctions.",
+    "Fury generation against blind, dodge and block remains pending testing and is appropriately excluded from learning prose.",
+    "Counterplay is externally typed as source-grounded inference and follows the supplied effects without invented timings or guarantees.",
+    "No exhaustive-kit absence inference, optimal-build claim, historical mechanic, internal review label or implied human approval appears on the card faces."
+  ],
+  "kit_complete": true,
+  "omitted_topics": []
+}

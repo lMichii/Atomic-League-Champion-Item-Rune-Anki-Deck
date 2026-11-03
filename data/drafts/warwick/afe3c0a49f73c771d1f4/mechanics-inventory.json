@@ -1,0 +1,530 @@
+{
+  "abilities": [
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "If Warwick is below 25% health, this healing triples.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "While below 50% maximum health, Warwick also heals for 100% of the post-mitigation damage dealt by Eternal Hunger, increased to 250% while below 25% maximum health.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "disputed",
+          "summary": "The exact healing increase below 25% health conflicts: Riot says triple, while Wiki says 250%. Both establish stronger healing."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Eternal Hunger's damage is applied before the damage of the effect that triggers it.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Eternal Hunger does not affect:\nstructures\nwards (except effigies)\nJungle plants\nGangplank's kegs",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Eternal Hunger does affect:\nIllaoi's Tentacles\nYorick's Dark Procession",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "Wiki specifies damage ordering and particular unit eligibility; these details qualify the general on-hit effect."
+        },
+        {
+          "citations": [
+            {
+              "quote": "PENDING FOR TEST: Other units with modified health behaviour.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "Eligibility of other units with modified health behavior remains untested in the supplied evidence."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Warwick's basic attacks deal bonus magic damage.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Innate: Warwick deals bonus magic damage on-hit.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.bonus_magic_damage",
+          "summary": "Basic attacks deal bonus magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If Warwick is below 50% health, he heals the same amount.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "While below 50% maximum health, Warwick also heals for 100% of the post-mitigation damage dealt by Eternal Hunger, increased to 250% while below 25% maximum health.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.low_health_healing",
+          "summary": "Below half health, the passive damage also heals Warwick; this healing increases further below one-quarter health."
+        }
+      ],
+      "slot": "P",
+      "unsupported_claims": [
+        "The passive heals Warwick regardless of his current health.",
+        "The passive affects every unit with modified health behavior."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "While Jaws of the Beast is active, Warwick is displacement immune and clamps his jaw on the target, following all of their movement.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Jaws of the Beast's channel cannot be initiated while grounded or rooted. Warwick can only use the normal cast.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "The channel will not be interrupted by either of the two effects, despite the lock-on being a movement channel.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "Q grants displacement immunity while active. Grounding and roots prevent starting its held channel but do not interrupt an existing channel."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Every interrupting crowd control effect that is not resisted by the displacement immunity will prematurely stop the dash.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "The healing is calculated only from Jaws of the Beast's damage, while additional effects, such as on-hits, are not.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "The damage based on the target's health ratio is capped against monsters.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Jaws of the Beast applies on-hit effects and life steal.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "Displacement immunity does not protect against every interruption. Healing excludes additional on-hit damage; the health-based damage is capped against monsters. Q applies on-hit effects and life steal."
+        },
+        {
+          "citations": [
+            {
+              "quote": "It has been special cased so Warwick never follows an enemy that uses a blink with a destination that is their spawn platform (such as Recall), or Sion when he respawns after his Glory in Death ends. This only applies to the charge when the ability is held.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Editor's Note: This may occasionally fail.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "Wiki describes spawn-platform and Sion-respawn exceptions to held tracking but flags occasional failure."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the target dies prior to Warwick reaching them, Jaws of the Beast refunds its cooldown when tapped.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Editor's Note: The refund can occasionally fail. (bug)",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "The described tapped-cast cooldown refund has a documented reliability caveat."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Warwick lunges forward and bites his target, dealing damage based on their maximum health and healing for damage dealt.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Active: Warwick lunges at his target and bites them, dealing magic damage that is increased based on the target's maximum health and healing himself for a portion of the damage dealt.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.bite_and_heal",
+          "summary": "Lunges at a target and bites, dealing magic damage based partly on the target's maximum health and healing Warwick from the damage dealt."
+        },
+        {
+          "citations": [
+            {
+              "quote": "When held, he also charges briefly, leaping behind his target.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "While Jaws of the Beast is in effect, Warwick gains displacement immunity and also follows all of his target's movements.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.hold_and_follow",
+          "summary": "Holding Q carries Warwick behind his target and allows him to follow its movement, subject to specific exceptions."
+        },
+        {
+          "citations": [
+            {
+              "quote": "While Jaws of the Beast is active, Warwick is displacement immune",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.displacement_immunity",
+          "summary": "Warwick gains displacement immunity while Q is active."
+        }
+      ],
+      "slot": "Q",
+      "unsupported_claims": [
+        "Q makes Warwick immune to all crowd control.",
+        "Held Q follows every movement without exceptions.",
+        "Q healing includes damage from additional on-hit effects."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "When they fall below 25% health, he frenzies and these bonuses triple.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "These bonuses are massively increased if the target is below 20% of their maximum health.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "The attack speed and movement speed bonuses granted by both passives are doubled against enemies who are below 25% of their maximum health.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "disputed",
+          "summary": "The exact very-low-health threshold and multiplier conflict across Riot and Wiki, including within Wiki. The general increase remains supported."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Passive: Warwick senses all enemy champions on the map who are damaged below 50% of their maximum health by him or an allied source, marking them with Blood Hunt until they regenerate or heal above this threshold again.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "This bonus is lost for 0.5 seconds upon entering champion combat, but will build up again over 3.5 seconds.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "The only exception is the allied Nexus Obelisk, because that deals internalraw damage, which does not trigger damage-related events such as Blood Hunt's marking.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "Passive champion marking requires damage from Warwick or an allied source, with the stated Nexus Obelisk exception. Champion combat temporarily removes movement speed, which then rebuilds."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The initiation of the attack windup to gain the bonus attack speed is only for gaining the bonus; it does not refresh the duration of the attack speed buff if Warwick has it already.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Blood Hunt is a form of obscured vision.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Blood Hunt can detect and target decoys.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "Attack windup grants but does not refresh an existing attack-speed buff. Detection uses obscured vision and can include decoys."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Warwick senses enemies below 50% health, gaining Move Speed toward and attack speed against them.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "He sees trails leading toward them and gains bonus movement speed while following a trail.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.hunt_low_health",
+          "summary": "Senses eligible low-health enemy champions and gains movement speed toward them along their trails, subject to combat restrictions."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Passive: Warwick gains attack speed against targets below 50% of their maximum health.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Warwick senses enemies below 50% health, gaining Move Speed toward and attack speed against them.",
+              "source_id": "riot:W"
+            }
+          ],
+          "id": "W.attack_speed",
+          "summary": "Gains bonus attack speed against low-health targets."
+        },
+        {
+          "citations": [
+            {
+              "quote": "When they fall below 25% health, he frenzies and these bonuses triple.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "The attack speed and movement speed bonuses granted by both passives are doubled against enemies who are below 25% of their maximum health.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.stronger_low_health_bonuses",
+          "summary": "The movement-speed and attack-speed bonuses grow stronger against very-low-health enemies; exact values are disputed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Warwick senses the nearest enemy champion in the area at the start of the cast time, marking them with Blood Hunt for 8 seconds, gaining both passive bonuses against them regardless of their current health.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.active_hunt",
+          "summary": "Activating W temporarily hunts the nearest enemy champion in its area and grants the passive bonuses against that target regardless of health."
+        }
+      ],
+      "slot": "W",
+      "unsupported_claims": [
+        "Blood Hunt grants unrestricted full vision of every low-health enemy.",
+        "The active marks every enemy champion in its area.",
+        "The movement-speed bonus remains fully active throughout champion combat."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Warwick gains damage reduction for 2.5 seconds.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Active: Warwick gains damage reduction for up to 2.75 seconds.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "disputed",
+          "summary": "The exact maximum damage-reduction duration conflicts; both sources establish temporary damage reduction."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Primal Howl can be recast after 1 second, and does so automatically after the duration.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Recast: Warwick howls, ending Primal Howl's effects and fearing nearby enemies for 1 second, slowing them by 90%.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Starting Infinite Duress' channel while Primal Howl is active will initiate the recast without ending the damage reduction buff prematurely.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Manual recast has an initial delay and normally ends the protection. Starting R's channel triggers the howl while preserving the remaining damage reduction."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Primal Howl's recast resets Warwick's basic attack timer.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "The recast's howling animation has a 0.25-second lockout time.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "This will also cancel Warwick's basic attack.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Warwick cannot attack or cast abilities during the animation, instead the last input will be buffered to play after it ends.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "The howl resets the attack timer but also cancels an ongoing attack and briefly locks out attacks and abilities."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Warwick gains damage reduction for 2.5 seconds.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Active: Warwick gains damage reduction for a short time.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.damage_reduction",
+          "summary": "Temporarily reduces damage Warwick takes."
+        },
+        {
+          "citations": [
+            {
+              "quote": "At the end, or if re-activated, he howls, causing nearby enemies to flee for 1 second.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Recast: Warwick howls to briefly fear and slow nearby enemies.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.fear",
+          "summary": "At expiration or on recast, howls to fear nearby enemies, making them flee."
+        }
+      ],
+      "slot": "E",
+      "unsupported_claims": [
+        "E grants invulnerability or crowd-control immunity.",
+        "Manual recast is available immediately after activation.",
+        "E always loses its damage reduction when the howl triggers."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "If the target is crowd control immune or protected by spell shield upon collision, Warwick will not start the channel.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Spell shield will not prevent the effects of Infinite Duress if Warwick is already channeling.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Cleansing the suppression does not interrupt the channel and Warwick will continue to strike but not deal any damage.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Target crowd-control immunity or a spell shield at collision prevents channel initiation. A later spell shield does not block an existing channel; cleansing suppression leaves Warwick striking without damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If Warwick does not collide with a champion, he will slide a fixed distance past the maximum range during which he is no longer crowd control immune",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Warwick gains the cc-immunity at the start of the cast time.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "During the suppresion, Warwick is cc-immune to Singed's Fling, however, he is not immune to Urgot's Fling, Rell's Fling or other effects. (unexpected)",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Crowd-control immunity starts during cast time and covers the leap, but not the missed-leap slide or the channel generally. Wiki identifies a specific Singed interaction during suppression."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Infinite Duress both applies on-hit effects and triggers on-attack effects 3 times over its duration.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Warwick heals for 100% of all post-mitigation damage he deals to the target during Infinite Duress.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Infinite Duress is special cased to have its channel interrupted by Fate's Call.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "The full channel applies on-hit and on-attack effects three times, and healing includes all damage Warwick deals to that target during R. Fate's Call specifically interrupts the channel."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Warwick leaps in a direction (scaling with his bonus Move Speed), suppressing the first champion he collides with for 1.5 seconds.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "The leap's range scales with Warwick's movement speed and he gains cc-immunity during it.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.directional_leap",
+          "summary": "Leaps in a chosen direction, with greater movement speed increasing leap range."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Warwick leaps in a direction (scaling with his bonus Move Speed), suppressing the first champion he collides with for 1.5 seconds.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Active: Warwick leaps a huge distance toward the target direction, stopping on the first champion he collides with, suppressing them while he channels for a brief time.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.suppression",
+          "summary": "Stops on the first enemy champion hit and channels to suppress them, subject to target protection and interruption."
+        },
+        {
+          "citations": [
+            {
+              "quote": "He mauls them over the duration, dealing magic damage and healing for 100% of the damage dealt.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.damage_and_healing",
+          "summary": "Deals magic damage during the channel and heals Warwick from damage dealt."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Warwick leaps in the target direction with crowd control immunity, stopping upon hitting an enemy champion.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.leap_cc_immunity",
+          "summary": "Warwick is immune to crowd control during the leap."
+        }
+      ],
+      "slot": "R",
+      "unsupported_claims": [
+        "Warwick is immune to all crowd control throughout R's channel.",
+        "R always suppresses a champion regardless of spell shields or crowd-control immunity.",
+        "Removing suppression necessarily ends Warwick's channel.",
+        "R can collide with and suppress multiple champions in one leap."
+      ]
+    }
+  ]
+}

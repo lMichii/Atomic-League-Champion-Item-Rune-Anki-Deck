@@ -1,0 +1,285 @@
+{
+  "cards": [
+    {
+      "answer": "Zac is a tank/fighter who charges into fights and disrupts enemies with crowd control. He deals magic damage, heals from dropped chunks and benefits from health.",
+      "build_focus": "Health, Armor, MR",
+      "counterplay": "Spread out against his engage and contest his healing chunks when safe.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Zac. Official role tags: Tank, Fighter.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Zac charges up to a few seconds, increasing the range of his launch over a cone in the target direction.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Zac dashes to the target location to deal magic damage to enemies hit on impact and briefly knock up and stun them.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Zac is a tank/fighter who charges into fights and disrupts enemies with crowd control."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Zac explodes outward towards nearby enemies, dealing a percentage of their maximum health as magic damage.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "an enemy will destroy it, while Zac will heal a portion of his maximum health.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "He deals magic damage, heals from dropped chunks and benefits from health."
+        }
+      ],
+      "level": "L1",
+      "priority": "A",
+      "priority_reason": "Recognizing his engage, disruption and sustain explains his main fighting pattern.",
+      "slot": "-",
+      "uncertainties": []
+    },
+    {
+      "answer": "Cell Division drops healing chunks when Zac damages enemies with abilities; enemy champions can destroy these chunks by collecting them. When his resurrection is ready, fatal damage splits him into attackable bloblets; surviving bloblets let him revive, while killing them all kills Zac.",
+      "build_focus": "",
+      "counterplay": "Step on healing chunks when safe and focus his bloblets during resurrection.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Whenever Zac's abilities damage an enemy, he sheds a number of chunks on the ground that remain for a few seconds.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Zac and enemy champions can collect the chunks; an enemy will destroy it, while Zac will heal a portion of his maximum health.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Cell Division drops healing chunks when Zac damages enemies with abilities; enemy champions can destroy these chunks by collecting them."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Periodically when Zac would die, he instead enters resurrection for a period, splitting into four bloblets that can be attacked by enemies. Zac will die once all bloblets are killed.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "If any bloblets remain, he will revive with an amount of Health depending on the Health of the surviving bloblets.",
+              "source_id": "riot:P"
+            }
+          ],
+          "claim": "When his resurrection is ready, fatal damage splits him into attackable bloblets; surviving bloblets let him revive, while killing them all kills Zac."
+        }
+      ],
+      "level": "L2",
+      "priority": "A",
+      "priority_reason": "Chunk denial limits sustain, and bloblet targeting determines whether his resurrection succeeds.",
+      "slot": "P",
+      "uncertainties": []
+    },
+    {
+      "answer": "Stretching Strikes hits the first enemy in its path, dealing magic damage, slowing them and tethering them. If Zac then attacks a different enemy, he pulls the targets toward each other; targets close enough slam together, causing a knockup, stun and area magic damage.",
+      "build_focus": "",
+      "counterplay": "Dodge the initial arm and avoid giving Zac a nearby follow-up target while tethered.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Zac stretches his left arm in the target direction that catches the first enemy hit, dealing magic damage, slowing them by 40% for 0.5 seconds, and forming a tether between Zac and the target for 2 seconds",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Stretching Strikes hits the first enemy in its path, dealing magic damage, slowing them and tethering them."
+        },
+        {
+          "citations": [
+            {
+              "quote": "While the tether persists, Zac's next basic attack is replaced by a second Stretching Strike",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "If the two Stretching Strikes affect different targets",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Zac displaces them toward each other over 300 units, though not through terrain.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "If the two targets are within 700 units of each other, they are instead slammed together through the displacement. Upon impact of each other, both targets are knocked up and stunned for 0.25 seconds and all enemies within the impact are dealt the initial magic damage",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "If Zac then attacks a different enemy, he pulls the targets toward each other; targets close enough slam together, causing a knockup, stun and area magic damage."
+        }
+      ],
+      "level": "L2",
+      "priority": "A",
+      "priority_reason": "The tether threatens displacement through a follow-up attack on another enemy.",
+      "slot": "Q",
+      "uncertainties": []
+    },
+    {
+      "answer": "Unstable Matter deals magic damage around Zac based on the targets' maximum health. Collecting a Cell Division chunk reduces its remaining cooldown.",
+      "build_focus": "",
+      "counterplay": "Keep your distance during extended fights and contest his chunks when safe.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Zac explodes to deal magic damage to nearby enemies hit based on their maximum health.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Unstable Matter deals magic damage around Zac based on the targets' maximum health."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Unstable Matter's current cooldown is reduced by 1 second whenever Zac collects a Cell Division chunk.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Collecting a Cell Division chunk reduces its remaining cooldown."
+        }
+      ],
+      "level": "L2",
+      "priority": "B",
+      "priority_reason": "Explains his repeated close-range damage and the offensive value of chunk collection.",
+      "slot": "W",
+      "uncertainties": []
+    },
+    {
+      "answer": "Elastic Slingshot charges to extend Zac's launch range, then leaps to a target location. His landing deals nearby magic damage, knocks enemies up and stuns them; a longer charge can extend the crowd control. Immobilizing effects can interrupt his charge.",
+      "build_focus": "",
+      "counterplay": "Interrupt his charge when possible and move away from his landing area.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Zac charges for up to 4.5 seconds to increase Elastic Slingshot's range over a cone in the target direction.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Zac leaps to the target location within the boundaries of the cone.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Elastic Slingshot charges to extend Zac's launch range, then leaps to a target location."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Upon landing, he deals magic damage to nearby enemies and knocks them up and stuns them for 0.5 seconds, increased to 1 second if Elastic Slingshot was charged for more than 1 second.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "His landing deals nearby magic damage, knocks enemies up and stuns them; a longer charge can extend the crowd control."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The following table refers for interactions while Zac is channeling:",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Interrupted by\nDeath\nGrounding effects\nImmobilizing effects\nCast-inhibiting effects",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Immobilizing effects can interrupt his charge."
+        }
+      ],
+      "level": "L2",
+      "priority": "A",
+      "priority_reason": "His main engage threatens area crowd control from extended range.",
+      "slot": "E",
+      "uncertainties": []
+    },
+    {
+      "answer": "Let's Bounce! repeatedly deals magic damage and slows nearby enemies, knocking each enemy back on their initial hit. Later bounces against the same enemy deal reduced damage without another knockback. Zac can move faster, automatically collect nearby chunks and use Unstable Matter while bouncing.",
+      "build_focus": "",
+      "counterplay": "Spread out and move away from his bounce area; watch for continued damage as he follows.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Each bounce deals magic damage to enemies hit, knocks them back over 1 second, and slows them by 20% for the same duration.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "An enemy can be hit by multiple bounces, but ones beyond the first deal 50% damage to them and do not apply the knock back.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Let's Bounce! repeatedly deals magic damage and slows nearby enemies, knocking each enemy back on their initial hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "An enemy can be hit by multiple bounces, but ones beyond the first deal 50% damage to them and do not apply the knock back.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Later bounces against the same enemy deal reduced damage without another knockback."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Zac can move while Let's Bounce! is active, gaining ghosting and 20% – 50% (based on duration) bonus movement speed",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "He also automatically consumes all chunks within the bounce radius.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Unstable Matter is usable.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Zac can move faster, automatically collect nearby chunks and use Unstable Matter while bouncing."
+        }
+      ],
+      "level": "L2",
+      "priority": "A",
+      "priority_reason": "His ultimate combines disruption, pursuit, repeated damage and chunk collection.",
+      "slot": "R",
+      "uncertainties": []
+    }
+  ],
+  "champion_id": 154,
+  "champion_name": "Zac",
+  "conflicts": [],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Main engage cooldown creates an important window after his launch is spent.",
+      "slot": "E",
+      "source_ids": ["wiki:E"]
+    },
+    {
+      "priority": "A",
+      "reason": "Ultimate availability changes his ability to extend an engage with disruption and pursuit.",
+      "slot": "R",
+      "source_ids": ["wiki:R"]
+    },
+    {
+      "priority": "B",
+      "reason": "Displacement availability matters after the initial engage.",
+      "slot": "Q",
+      "source_ids": ["wiki:Q"]
+    },
+    {
+      "priority": "B",
+      "reason": "Chunk collection reduces the remaining cooldown, affecting repeated close-range damage.",
+      "slot": "W",
+      "source_ids": ["wiki:W"]
+    }
+  ],
+  "factual_risks": [],
+  "language": "en"
+}

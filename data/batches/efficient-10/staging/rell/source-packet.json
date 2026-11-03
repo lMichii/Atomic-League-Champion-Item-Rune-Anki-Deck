@@ -1,0 +1,365 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "Rell's Attacks and Abilities deal additional magic damage and steal Armor and Magic Resist on hit.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/RellP.png",
+      "name": "Break the Mold",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0526/ability_0526_P1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        11,
+        10.5,
+        10,
+        9.5,
+        9
+      ],
+      "description": "Rell deals magic damage to units in a line, breaking their shields and stunning them.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/RellQ.png",
+      "name": "Shattering Strike",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0526/ability_0526_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "description": "Mounted: Rell Dismounts, crashing down in her armor, Knocking enemies up and gaining a large Shield. While dismounted, she gains Armor, Magic Resist, Attack Speed, and Attack Range, but is Slowed.Dismounted: Rell forms her Mount, gaining a burst of speed and Knocking Up the next enemy she attacks.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/RellW_Dismount.png",
+      "name": "Ferromancy: Crash Down",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0526/ability_0526_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "description": "Passive: Rell gains out of combat Move Speed.Active: Rell and an ally gain ramping Move Speed, doubled toward enemies and each other. Her next Attack explodes, dealing magic damage.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/RellE.png",
+      "name": "Full Tilt",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0526/ability_0526_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        120,
+        100,
+        80
+      ],
+      "description": "Rell explodes in a magnetic fury, violently Pulling nearby enemies toward herself. Then Rell constantly Drags nearby enemies toward herself for a short while, dealing magic damage over time.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/RellR.png",
+      "name": "Magnet Storm",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0526/ability_0526_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/rell/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Rell"
+  },
+  "champion": {
+    "ddragon_id": "Rell",
+    "name": "Rell",
+    "riot_id": 526,
+    "roles": [
+      "Tank",
+      "Support"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/Rell/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "c170a39160b8957dec20159c1a48c16e16b76b4d721fd7f4f9e2804066443d4a",
+      "text": "Rell's Attacks and Abilities deal additional magic damage and steal Armor and Magic Resist on hit.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Rell.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "Break the Mold",
+      "provider": "league_wiki",
+      "sha256": "43b6208d79bbf1baf737028379157749b673b06df2bc26795392f18514ad9604",
+      "text": "Break the Mold\nInnate: Rell's basic attacks deal bonus magic damage on-hit equal to a percentage of her total armor and total magic resistance. Rell's basic attacks and abilities apply a stack of Break The Mold to enemies hit for a few seconds. Each stack reduces the target's armor and magic resist and increases Rell's armor and magic resist by the same amount.\nInnate: Rell's basic attacks deal bonus magic damage on-hit equal to the sum of 5% of her total armor and 5% of her total magic resistance.\nInnate: Rell's basic attacks on-hit and abilities against non- minions apply a stack of Break The Mold for 5 seconds, refreshing on subsequent hits and stacking up to 5 times. Each stack reduces the target's armor and magic resistance by 3% for a maximum of 15% reduction.\nRell gains bonus armor and bonus magic resistance equal to the sum of resistances reduced from all afflicted enemies.\nBreak the Mold will reduce the target's armor and magic resistance by a minimum of 1.5 – 3.18 (based on level).\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf, Enemies\nDamage classification\nType\nProc damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nNot Blocked\nParries\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe attacks do not affect structures.\nThe first stack of Break the Mold that is applied to a target will snapshot the targets current armor and magic resistance. All subsequent stacks will reduce the targets resistances based on the snapshotted amount, even if the target's total resistances change. This snapshot lasts until the debuff expires.\nFor example, applying a stack of Break the Mold to a champion with 100 armor and magic resistance will reduce their resistance by 3 and grant Rell the lost stats. If their resistances are then boosted to 500 before another stack is applied, the subsequent stack will only reduce their resistance by a further 3 despite 3% of 500 being 15.\nAnother example, when a target has temporarily gained increased resistances before Rell applies the first stack of Break the Mold then the snapshot of the target's stats will be of the increased amount. This can result in targets losing significantly more resistances after the duration of the increase ends, for as long as the stacks don't fall off.\nIf a target has 100 base resistances, and they are increased to 500 temporarily before Break the Mold is applied, then the target will lose a total of 15 resistances, up to a total of 75 resistances at 5 stacks, and when the target's resistance buff ends they would only have 25 remaining.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Rell?oldid=3892735"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/Rell/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "c170a39160b8957dec20159c1a48c16e16b76b4d721fd7f4f9e2804066443d4a",
+      "text": "Rell deals magic damage to units in a line, breaking their shields and stunning them.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Rell.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Shattering Strike",
+      "provider": "league_wiki",
+      "sha256": "43b6208d79bbf1baf737028379157749b673b06df2bc26795392f18514ad9604",
+      "text": "Shattering Strike\nCOST:\n50 mana\nCOOLDOWN:\n11 / 10.5 / 10 / 9.5 / 9\nCAST TIME:\n0.4\nRANGE:\n520 • -220\nWIDTH:\n150\nQUEUE THRESHOLD:\n0.25\nActive: Rell thrusts her lance in the target direction that destroys damage shields of enemies hit before dealing magic damage and stunning.\nActive: Rell thrusts her lance in the target direction, lunging forward 100 units and destroying the damage-mitigating shields of all enemies hit (excluding the shields of monsters) before dealing them magic damage and stunning them for 0.65 seconds.\nMagic Damage:60 / 100 / 140 / 180 / 220 (+ 60% AP)\nRell will not lunge forward after the cast time if she was immobilized, grounded, or silenced during it. She is also unable to act for 0.35 seconds after the cast time.\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThis ability will cast from wherever the caster is at the end of the cast time.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Rell?oldid=3892735"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/Rell/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "c170a39160b8957dec20159c1a48c16e16b76b4d721fd7f4f9e2804066443d4a",
+      "text": "Mounted: Rell Dismounts, crashing down in her armor, Knocking enemies up and gaining a large Shield. While dismounted, she gains Armor, Magic Resist, Attack Speed, and Attack Range, but is Slowed.Dismounted: Rell forms her Mount, gaining a burst of speed and Knocking Up the next enemy she attacks.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Rell.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Ferromancy: Crash Down",
+      "provider": "league_wiki",
+      "sha256": "43b6208d79bbf1baf737028379157749b673b06df2bc26795392f18514ad9604",
+      "text": "Ferromancy: Crash Down\nCOST:\n40 Mana\nCOOLDOWN:\n10\nCAST TIME:\n0.625\nTARGET RANGE:\n100 - 400\nCOLLISION RADIUS:\n200\nEFFECT RADIUS:\n180\nPassive - Mounted Alacrity: While Rell is Mounted, she gains bonus movement speed. Active: Rell becomes Dismounted and leaps to the target location, gaining a shield that lasts until destroyed or casting Ferromancy: Mount Up. Upon arrival, she deals magic damage and briefly knocks up and stuns enemies hit. She will continue sliding forward to affect further enemies along her path. While Rell is Dismounted, she can cast Ferromancy: Mount Up. She will revert to Mounted form after recalling or respawning.\nPassive - Mounted Alacrity: While Rell is Mounted, she gains bonus movement speed.\nBonus Movement Speed:20 / 25 / 30 / 35 / 40\nActive: Rell becomes Dismounted and leaps to the target location over the cast time, granting herself a shield that lasts until destroyed or casting Ferromancy: Mount Up. Upon arrival, she deals magic damage to nearby enemies, stuns them for 0.8 seconds, and knocks them up for 0.4 seconds. She will continue sliding forward another 320 units over 0.5 seconds, though not through terrain, affecting further enemies along her path.\nShield Strength:20 / 40 / 60 / 80 / 100 (+ 11% maximum health)\nMagic Damage:60 / 90 / 120 / 150 / 180 (+ 60% AP)\nWhile Rell is Dismounted, she can cast Ferromancy: Mount Up. Upon completing a Recall channel or respawning, Rell will automatically revert to Mounted form without casting the ability and reset Ferromancy: Mount Up's cooldown.\nThis ability can be cast only while Rell is Mounted. Rell can cast Magnet Storm during the dash, and is considered to be dismounted at the start of the cast time.\n\"Armoring up!\"\nEdit\nFerromancy: Mount Up\nCOOLDOWN:\n10\nCAST TIME:\nnone\nPassive: While Rell is Dismounted, she gains bonus armor and bonus magic resist. Active: Rell becomes Mounted and gains bonus movement speed for a short time, increased while moving towards enemy champions. During this time, Rell's next basic attack will gain bonus attack range and causes her to charge to the target, dealing bonus magic damage before briefly stunning and flinging them over. While Rell is Mounted, she can cast Ferromancy: Crash Down.\nPassive: While Rell is Dismounted, she gains 15% bonus armor, 15% bonus magic resistance, 20% bonus attack speed, and 75 bonus attack range.\nActive: Rell becomes Mounted, gaining 30% bonus movement speed decaying over 2 seconds and empowering her next basic attack within 3.5 seconds to have a 0.2-second cast time, gain 100 bonus attack range and 40% bonus attack speed, and cause her to charge at the target's location. Upon arrival or collision of the charge, her basic attack deals bonus magic damage, stuns the target for 0.6 seconds, and flings them 150 units over herself, though not through terrain, over 0.4 seconds.\nBonus Magic Damage:10 / 25 / 40 / 55 / 70 (+ 40% AP)\nWhile Rell is Mounted, she can cast Ferromancy: Crash Down.\nFerromancy: Mount Up resets Rell's basic attack timer. This ability can be cast only while Rell is Dismounted.\n\"Mount up!\"\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nGrounded\nDisabled\nKnockdown\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nMounted Alacrity grants 15 bonus movement speed if the ability has not been learned (rank 0).\nRell slides between 250 and 350 units in testing, depending on how far the spell was targeted. It is not known where this is intended.\nIf Rell dashes before a wall on the map, the slide will cover a shorter distance to the terrain over the same time, moving slower.\nPENDING FOR TEST: Interaction with player-made walls.\nThe following table refers for interactions while Rell is dashing/in cast time:\nAttacking\nDisabled\nAbilities\nShattering Strike is disabled. Full Tilt and Magnet Storm are usable.\nMovement\nDisabled\nItems\nUsable\nAll the other item-actives are usable\nDisabled\nHextech Rocketbelt\nInterrupted by\nN/A\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nFlash Teleport Recall Hexflash\nInterrupted by\nN/A\nInterrupted by\nDeath\nTargeting input\nAuto\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nParries\nBlocked\nGrounded\nNot Disabled\nKnockdown\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nRell will always respawn and start the game as mounted.\nThe basic attack reset is not considered one for Hail of Blades.\nRell can use the empowered attack even while grounded or rooted.\nThe dash can be knocked down but the attack's effects will still be applied.\nDisplacement immunity will not resist the application of the stun.\nIf the target becomes untargetable, dies, or is too far away or no longer in sight during the empowered attack's cast time, it is cancelled but not consumed.\nNo video available.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Rell?oldid=3892735"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/Rell/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "c170a39160b8957dec20159c1a48c16e16b76b4d721fd7f4f9e2804066443d4a",
+      "text": "Passive: Rell gains out of combat Move Speed.Active: Rell and an ally gain ramping Move Speed, doubled toward enemies and each other. Her next Attack explodes, dealing magic damage.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Rell.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Full Tilt",
+      "provider": "league_wiki",
+      "sha256": "43b6208d79bbf1baf737028379157749b673b06df2bc26795392f18514ad9604",
+      "text": "Full Tilt\nCOST:\n40 Mana\nCOOLDOWN:\n14 / 13 / 12 / 11 / 10\nCAST TIME:\nnone\nTARGET RANGE:\n1200\nEFFECT RADIUS:\n300 • 2200 • 1600\nQUEUE THRESHOLD:\n0.5\nActive: Rell empowers herself and an allied champion with bonus movement speed for a few seconds, which is increased when moving towards the empowered ally or an enemy champion. Rell's next basic attack or Shattering Strike within 5 seconds will also explode around the target, dealing magic damage to nearby enemies.\nActive: Rell powers up herself and the target allied champion for 3 seconds, both gaining 15% bonus movement speed, increased to 30% while facing the empowered ally or a visible enemy champion.\nAdditionally, Rell's next basic attack or Shattering Strike within 5 seconds creates an explosion around the target that deals bonus magic damage, capped at 150 – 317.65 (based on level) against monsters and structures.\nBonus Magic Damage:5 / 5.5 / 6 / 6.5 / 7% (+ 3% per 100 AP) of target's maximum health\nIf cast without a valid target, or self-cast, Full Tilt will automatically target the closest allied champion in range.\nNotes/General Details\nTargeting input\nUnit • Auto\nTarget out-of-range override\nIf targeting an ally, walk in range of the target unit to cast\nAffects\nSelf, Allies, Enemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIf Shattering Strike hits more than one enemy, the Full Tilt explosion will be centered around the unit with the lowest Spawn ID.\n\"Spawn ID\" is an unofficial abbreviation to describe the spawn order for all units at the beginning of games.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Rell?oldid=3892735"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/Rell/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "c170a39160b8957dec20159c1a48c16e16b76b4d721fd7f4f9e2804066443d4a",
+      "text": "Rell explodes in a magnetic fury, violently Pulling nearby enemies toward herself. Then Rell constantly Drags nearby enemies toward herself for a short while, dealing magic damage over time.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Rell.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Magnet Storm",
+      "provider": "league_wiki",
+      "sha256": "43b6208d79bbf1baf737028379157749b673b06df2bc26795392f18514ad9604",
+      "text": "Magnet Storm\nCOST:\n100 Mana\nCOOLDOWN:\n120 / 100 / 80\nCAST TIME:\n0.25\nEFFECT RADIUS:\n450 • 375\nINNER RADIUS:\n225\nSPEED:\n300\nActive: Rell erupts in magnetic fury, pulling nearby enemies inward. She then emits a Kinematic field that continually deals magic damage over a short time. Kinematics: Kinematics drags enemies toward the Source, but does not disable their actions nor intercept other forms of movement.\nActive: Rell erupts with magnetic fury, pulling nearby enemies inward and creating a gravitational field around her for the next 2 seconds that deals magic damage every 0.25 seconds to nearby enemies and drags them towards her.\nMagic Damage Per Tick:18.75 / 31.25 / 43.75 (+ 13.75% AP)Total Magic Damage:150 / 250 / 350 (+ 110% AP)\n\"Nobody leaves!\"\nNotes/General Details\nTargeting input\nAuto\nAffects\nEnemies\nDamage classification\nType\nAOE DOT damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThis ability will cast from wherever the caster is at the end of the cast time.\nMagnet Storm will not drag units that are:\nDashing.\nBeing displaced (e.g. by airborne effects)\nAttached.\nDisplacement immune.\nImmune to crowd control.\nSpell shield will block the initial pull but not the dragging effect.\nMagnet Storm cannot be cast again while it is active.\nChampion skins[edit | edit source]\nThis article section only contains champion skins. For all associated collection items, see Rell (Collection).\nOriginal\n10.12.2020\nThe product of brutal experimentation at the hands of the Black Rose, Rell is a defiant, living weapon determined to topple Noxus. Her childhood was one of misery and horror, enduring unspeakable procedures to perfect and weaponize her magical control over metal... until she staged a violent escape, killing many of her captors in the process. Now branded as a criminal, Rell attacks Noxian soldiers on sight as she searches for survivors of her old 'academy,' defending the meek while delivering violent death to her former overseers.\nLaya DeLeon Hayes\nJeremy 'Jermu' Anninos\nLoot eligible\nView in 3D • View Music\nBattle Queen\n1350\n10.12.2020\nA young woman from the magic-starved Queendom of Calamity, volunteered for the coronation by a shadowy cabal of aristocrats after a series of magical experiments. Having now won the crown and the power of her crest, Rell has discovered her powers were stolen from the people of her country, and she has vowed revenge on her puppeteers.\nLaya DeLeon Hayes\nBo 'chenbowow' Chen\nBattle Queens\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nChromas\nView in 3D • View Music\nBattle Queen Rell Chromas\nAquamarine\nCatseye\nCoronation\nObsidian\nRuby\nSapphire\nTanzanite\nTurquoise\nStar Guardian\n1350\n28.07.2022\nHailing from a sister city along with Quinn, Rell is a delinquent loner who does what she wants, when she wants, and avoids making friends by pushing everyone away. In battle she rides atop her mighty steed Sebastien, her simmering rage transforming her into a starlit knight who defends the meek from harm.\nLaya DeLeon Hayes\nPark Jun Seong, West Studio\nStar Guardian Season 4\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nChromas\nView in 3D • View Music\nStar Guardian Rell Chromas\nBrilliant\nCatseye\nEmerald\nObsidian\nPearl\nRose Quartz\nRuby\nSapphire\nTurquoise\nHigh Noon\n1350\n20.03.2024\nRell ran as her home rotted away at the Fifth Harbinger's hands, but the young Powder Witch ain't running now. She squares her shoulders and swings into the saddle of a horse made of magic, steam, and fire. From its back, she looks down at the haunted gunslinger. “Come on, old man. We got a second chance, I ain't gonna waste it.”\nLaya DeLeon Hayes\nHuyy Nguyen, West Studio\nHigh Noon\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nChromas\nView in 3D\nHigh Noon Rell Chromas\nCitrine\nEmerald\nNoonday\nPearl\nRose Quartz\nRuby\nSapphire\nTanzanite\nTurquoise\nGrand Reckoning\n975\n05.03.2025\nIn training, Rell was told that the arena is unforgiving. On the sand, you couldn't rely on anyone but yourself, and maybe your mount… if you could stay in the saddle. But if you let it, that brutal world inside the arena would cut you, bleed you, strike you down. Reckonings were built on blood and iron, forged in the fire of conflict—but so was she.\nLaya DeLeon Hayes\nTerence 'Terrylefruit' Cantal\nGrand Reckoning\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nPatch history[edit | edit source]\nFor the expanded editable patch notes, see here.\nV26.09\n* Ferromancy: Mount Up\nBug Fix: Now properly counts as an attack reset for Hail of Blades.\nEditor's Note: This change did not happen and the attack reset still does not count for Hail of Blades.\nV26.07\nFull Tilt\nBonus movement speed increased to 15% from 10%.\nIncreased bonus movement speed increased to 30% from 25%.\nMagnet Storm\nBase damage increased to 150 / 250 / 350 from 120 / 200 / 280.\nV25.17\nFerromancy: Crash Down\nBug Fix: Tooltip now notes the proper shield health ratio in accordance with the V25.16 change.\nV25.16",
+      "url": "https://wiki.leagueoflegends.com/en-us/Rell?oldid=3892735"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/Rell/tags",
+      "provider": "riot_ddragon",
+      "sha256": "c170a39160b8957dec20159c1a48c16e16b76b4d721fd7f4f9e2804066443d4a",
+      "text": "Name: Rell. Official role tags: Tank, Support.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Rell.json"
+    },
+    {
+      "id": "wiki:breakthemold",
+      "locator": "Break_the_Mold",
+      "provider": "league_wiki",
+      "sha256": "43b6208d79bbf1baf737028379157749b673b06df2bc26795392f18514ad9604",
+      "text": "Break the Mold\nInnate: Rell's basic attacks deal bonus magic damage on-hit equal to a percentage of her total armor and total magic resistance. Rell's basic attacks and abilities apply a stack of Break The Mold to enemies hit for a few seconds. Each stack reduces the target's armor and magic resist and increases Rell's armor and magic resist by the same amount.\nInnate: Rell's basic attacks deal bonus magic damage on-hit equal to the sum of 5% of her total armor and 5% of her total magic resistance.\nInnate: Rell's basic attacks on-hit and abilities against non- minions apply a stack of Break The Mold for 5 seconds, refreshing on subsequent hits and stacking up to 5 times. Each stack reduces the target's armor and magic resistance by 3% for a maximum of 15% reduction.\nRell gains bonus armor and bonus magic resistance equal to the sum of resistances reduced from all afflicted enemies.\nBreak the Mold will reduce the target's armor and magic resistance by a minimum of 1.5 – 3.18 (based on level).\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf, Enemies\nDamage classification\nType\nProc damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nNot Blocked\nParries\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe attacks do not affect structures.\nThe first stack of Break the Mold that is applied to a target will snapshot the targets current armor and magic resistance. All subsequent stacks will reduce the targets resistances based on the snapshotted amount, even if the target's total resistances change. This snapshot lasts until the debuff expires.\nFor example, applying a stack of Break the Mold to a champion with 100 armor and magic resistance will reduce their resistance by 3 and grant Rell the lost stats. If their resistances are then boosted to 500 before another stack is applied, the subsequent stack will only reduce their resistance by a further 3 despite 3% of 500 being 15.\nAnother example, when a target has temporarily gained increased resistances before Rell applies the first stack of Break the Mold then the snapshot of the target's stats will be of the increased amount. This can result in targets losing significantly more resistances after the duration of the increase ends, for as long as the stacks don't fall off.\nIf a target has 100 base resistances, and they are increased to 500 temporarily before Break the Mold is applied, then the target will lose a total of 15 resistances, up to a total of 75 resistances at 5 stacks, and when the target's resistance buff ends they would only have 25 remaining.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Rell?oldid=3892735"
+    },
+    {
+      "id": "wiki:shatteringstrike",
+      "locator": "Shattering_Strike",
+      "provider": "league_wiki",
+      "sha256": "43b6208d79bbf1baf737028379157749b673b06df2bc26795392f18514ad9604",
+      "text": "Shattering Strike\nCOST:\n50 mana\nCOOLDOWN:\n11 / 10.5 / 10 / 9.5 / 9\nCAST TIME:\n0.4\nRANGE:\n520 • -220\nWIDTH:\n150\nQUEUE THRESHOLD:\n0.25\nActive: Rell thrusts her lance in the target direction that destroys damage shields of enemies hit before dealing magic damage and stunning.\nActive: Rell thrusts her lance in the target direction, lunging forward 100 units and destroying the damage-mitigating shields of all enemies hit (excluding the shields of monsters) before dealing them magic damage and stunning them for 0.65 seconds.\nMagic Damage:60 / 100 / 140 / 180 / 220 (+ 60% AP)\nRell will not lunge forward after the cast time if she was immobilized, grounded, or silenced during it. She is also unable to act for 0.35 seconds after the cast time.\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThis ability will cast from wherever the caster is at the end of the cast time.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Rell?oldid=3892735"
+    },
+    {
+      "id": "wiki:ferromancycrashdown",
+      "locator": "Ferromancy:_Crash_Down",
+      "provider": "league_wiki",
+      "sha256": "43b6208d79bbf1baf737028379157749b673b06df2bc26795392f18514ad9604",
+      "text": "Ferromancy: Crash Down\nCOST:\n40 Mana\nCOOLDOWN:\n10\nCAST TIME:\n0.625\nTARGET RANGE:\n100 - 400\nCOLLISION RADIUS:\n200\nEFFECT RADIUS:\n180\nPassive - Mounted Alacrity: While Rell is Mounted, she gains bonus movement speed. Active: Rell becomes Dismounted and leaps to the target location, gaining a shield that lasts until destroyed or casting Ferromancy: Mount Up. Upon arrival, she deals magic damage and briefly knocks up and stuns enemies hit. She will continue sliding forward to affect further enemies along her path. While Rell is Dismounted, she can cast Ferromancy: Mount Up. She will revert to Mounted form after recalling or respawning.\nPassive - Mounted Alacrity: While Rell is Mounted, she gains bonus movement speed.\nBonus Movement Speed:20 / 25 / 30 / 35 / 40\nActive: Rell becomes Dismounted and leaps to the target location over the cast time, granting herself a shield that lasts until destroyed or casting Ferromancy: Mount Up. Upon arrival, she deals magic damage to nearby enemies, stuns them for 0.8 seconds, and knocks them up for 0.4 seconds. She will continue sliding forward another 320 units over 0.5 seconds, though not through terrain, affecting further enemies along her path.\nShield Strength:20 / 40 / 60 / 80 / 100 (+ 11% maximum health)\nMagic Damage:60 / 90 / 120 / 150 / 180 (+ 60% AP)\nWhile Rell is Dismounted, she can cast Ferromancy: Mount Up. Upon completing a Recall channel or respawning, Rell will automatically revert to Mounted form without casting the ability and reset Ferromancy: Mount Up's cooldown.\nThis ability can be cast only while Rell is Mounted. Rell can cast Magnet Storm during the dash, and is considered to be dismounted at the start of the cast time.\n\"Armoring up!\"\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Rell?oldid=3892735"
+    },
+    {
+      "id": "wiki:ferromancymountup",
+      "locator": "Ferromancy:_Mount_Up",
+      "provider": "league_wiki",
+      "sha256": "43b6208d79bbf1baf737028379157749b673b06df2bc26795392f18514ad9604",
+      "text": "Ferromancy: Mount Up\nCOOLDOWN:\n10\nCAST TIME:\nnone\nPassive: While Rell is Dismounted, she gains bonus armor and bonus magic resist. Active: Rell becomes Mounted and gains bonus movement speed for a short time, increased while moving towards enemy champions. During this time, Rell's next basic attack will gain bonus attack range and causes her to charge to the target, dealing bonus magic damage before briefly stunning and flinging them over. While Rell is Mounted, she can cast Ferromancy: Crash Down.\nPassive: While Rell is Dismounted, she gains 15% bonus armor, 15% bonus magic resistance, 20% bonus attack speed, and 75 bonus attack range.\nActive: Rell becomes Mounted, gaining 30% bonus movement speed decaying over 2 seconds and empowering her next basic attack within 3.5 seconds to have a 0.2-second cast time, gain 100 bonus attack range and 40% bonus attack speed, and cause her to charge at the target's location. Upon arrival or collision of the charge, her basic attack deals bonus magic damage, stuns the target for 0.6 seconds, and flings them 150 units over herself, though not through terrain, over 0.4 seconds.\nBonus Magic Damage:10 / 25 / 40 / 55 / 70 (+ 40% AP)\nWhile Rell is Mounted, she can cast Ferromancy: Crash Down.\nFerromancy: Mount Up resets Rell's basic attack timer. This ability can be cast only while Rell is Dismounted.\n\"Mount up!\"\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nGrounded\nDisabled\nKnockdown\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nMounted Alacrity grants 15 bonus movement speed if the ability has not been learned (rank 0).\nRell slides between 250 and 350 units in testing, depending on how far the spell was targeted. It is not known where this is intended.\nIf Rell dashes before a wall on the map, the slide will cover a shorter distance to the terrain over the same time, moving slower.\nPENDING FOR TEST: Interaction with player-made walls.\nThe following table refers for interactions while Rell is dashing/in cast time:\nAttacking\nDisabled\nAbilities\nShattering Strike is disabled. Full Tilt and Magnet Storm are usable.\nMovement\nDisabled\nItems\nUsable\nAll the other item-actives are usable\nDisabled\nHextech Rocketbelt\nInterrupted by\nN/A\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nFlash Teleport Recall Hexflash\nInterrupted by\nN/A\nInterrupted by\nDeath\nTargeting input\nAuto\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nParries\nBlocked\nGrounded\nNot Disabled\nKnockdown\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nRell will always respawn and start the game as mounted.\nThe basic attack reset is not considered one for Hail of Blades.\nRell can use the empowered attack even while grounded or rooted.\nThe dash can be knocked down but the attack's effects will still be applied.\nDisplacement immunity will not resist the application of the stun.\nIf the target becomes untargetable, dies, or is too far away or no longer in sight during the empowered attack's cast time, it is cancelled but not consumed.\nNo video available.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Rell?oldid=3892735"
+    },
+    {
+      "id": "wiki:fulltilt",
+      "locator": "Full_Tilt",
+      "provider": "league_wiki",
+      "sha256": "43b6208d79bbf1baf737028379157749b673b06df2bc26795392f18514ad9604",
+      "text": "Full Tilt\nCOST:\n40 Mana\nCOOLDOWN:\n14 / 13 / 12 / 11 / 10\nCAST TIME:\nnone\nTARGET RANGE:\n1200\nEFFECT RADIUS:\n300 • 2200 • 1600\nQUEUE THRESHOLD:\n0.5\nActive: Rell empowers herself and an allied champion with bonus movement speed for a few seconds, which is increased when moving towards the empowered ally or an enemy champion. Rell's next basic attack or Shattering Strike within 5 seconds will also explode around the target, dealing magic damage to nearby enemies.\nActive: Rell powers up herself and the target allied champion for 3 seconds, both gaining 15% bonus movement speed, increased to 30% while facing the empowered ally or a visible enemy champion.\nAdditionally, Rell's next basic attack or Shattering Strike within 5 seconds creates an explosion around the target that deals bonus magic damage, capped at 150 – 317.65 (based on level) against monsters and structures.\nBonus Magic Damage:5 / 5.5 / 6 / 6.5 / 7% (+ 3% per 100 AP) of target's maximum health\nIf cast without a valid target, or self-cast, Full Tilt will automatically target the closest allied champion in range.\nNotes/General Details\nTargeting input\nUnit • Auto\nTarget out-of-range override\nIf targeting an ally, walk in range of the target unit to cast\nAffects\nSelf, Allies, Enemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIf Shattering Strike hits more than one enemy, the Full Tilt explosion will be centered around the unit with the lowest Spawn ID.\n\"Spawn ID\" is an unofficial abbreviation to describe the spawn order for all units at the beginning of games.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Rell?oldid=3892735"
+    },
+    {
+      "id": "wiki:magnetstorm",
+      "locator": "Magnet_Storm",
+      "provider": "league_wiki",
+      "sha256": "43b6208d79bbf1baf737028379157749b673b06df2bc26795392f18514ad9604",
+      "text": "Magnet Storm\nCOST:\n100 Mana\nCOOLDOWN:\n120 / 100 / 80\nCAST TIME:\n0.25\nEFFECT RADIUS:\n450 • 375\nINNER RADIUS:\n225\nSPEED:\n300\nActive: Rell erupts in magnetic fury, pulling nearby enemies inward. She then emits a Kinematic field that continually deals magic damage over a short time. Kinematics: Kinematics drags enemies toward the Source, but does not disable their actions nor intercept other forms of movement.\nActive: Rell erupts with magnetic fury, pulling nearby enemies inward and creating a gravitational field around her for the next 2 seconds that deals magic damage every 0.25 seconds to nearby enemies and drags them towards her.\nMagic Damage Per Tick:18.75 / 31.25 / 43.75 (+ 13.75% AP)Total Magic Damage:150 / 250 / 350 (+ 110% AP)\n\"Nobody leaves!\"\nNotes/General Details\nTargeting input\nAuto\nAffects\nEnemies\nDamage classification\nType\nAOE DOT damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThis ability will cast from wherever the caster is at the end of the cast time.\nMagnet Storm will not drag units that are:\nDashing.\nBeing displaced (e.g. by airborne effects)\nAttached.\nDisplacement immune.\nImmune to crowd control.\nSpell shield will block the initial pull but not the dragging effect.\nMagnet Storm cannot be cast again while it is active.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Rell?oldid=3892735"
+    }
+  ],
+  "findings": [
+    {
+      "code": "adaptive_kit_structure",
+      "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+    }
+  ],
+  "kit_sections": [
+    {
+      "anchor": "Break_the_Mold",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Rell_Break_the_Mold.png?20a1d",
+      "id": "wiki:breakthemold",
+      "name": "Break the Mold"
+    },
+    {
+      "anchor": "Shattering_Strike",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Rell_Shattering_Strike.png?23d24",
+      "id": "wiki:shatteringstrike",
+      "name": "Shattering Strike"
+    },
+    {
+      "anchor": "Ferromancy:_Crash_Down",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Rell_Ferromancy-_Crash_Down.png?658d2",
+      "id": "wiki:ferromancycrashdown",
+      "name": "Ferromancy: Crash Down"
+    },
+    {
+      "anchor": "Ferromancy:_Mount_Up",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Rell_Ferromancy-_Mount_Up.png?5e575",
+      "id": "wiki:ferromancymountup",
+      "name": "Ferromancy: Mount Up"
+    },
+    {
+      "anchor": "Full_Tilt",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Rell_Full_Tilt.png?5ac39",
+      "id": "wiki:fulltilt",
+      "name": "Full Tilt"
+    },
+    {
+      "anchor": "Magnet_Storm",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Rell_Magnet_Storm.png?be57f",
+      "id": "wiki:magnetstorm",
+      "name": "Magnet Storm"
+    }
+  ],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "media_catalog": [
+    {
+      "filename": "relle.png",
+      "id": "cd:rellepng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/rell/hud/icons2d/relle.png"
+    },
+    {
+      "filename": "rellp.png",
+      "id": "cd:rellppng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/rell/hud/icons2d/rellp.png"
+    },
+    {
+      "filename": "rellq.png",
+      "id": "cd:rellqpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/rell/hud/icons2d/rellq.png"
+    },
+    {
+      "filename": "rellr.png",
+      "id": "cd:rellrpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/rell/hud/icons2d/rellr.png"
+    },
+    {
+      "filename": "rellw.png",
+      "id": "cd:rellwpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/rell/hud/icons2d/rellw.png"
+    }
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 10591,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T18:44:07.149441+00:00",
+      "sha256": "c170a39160b8957dec20159c1a48c16e16b76b4d721fd7f4f9e2804066443d4a",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Rell.json"
+    },
+    {
+      "bytes": 27872,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T18:44:07.321142+00:00",
+      "sha256": "a91d045c75b973529a4dd462ec5544083ca2c5ae93712b861a195cba97847e7d",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/526.json"
+    },
+    {
+      "bytes": 164466,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T18:44:07.760455+00:00",
+      "sha256": "734c9b63599aa9e6c29528a3cc00eb1326f4d4621d5a5c25c795e71dcddff4a9",
+      "url": "https://www.leagueoflegends.com/en-us/champions/rell/"
+    },
+    {
+      "bytes": 734745,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T18:44:08.015630+00:00",
+      "sha256": "43b6208d79bbf1baf737028379157749b673b06df2bc26795392f18514ad9604",
+      "url": "https://wiki.leagueoflegends.com/en-us/Rell"
+    },
+    {
+      "bytes": 8398,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T18:44:08.400922+00:00",
+      "sha256": "0c31e33357c58e064b451662203b9b274cf5a0dc3d5b779c2ce0172f076e1120",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/rell/hud/icons2d/"
+    }
+  ],
+  "schema_version": 2,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "3892735"
+  }
+}

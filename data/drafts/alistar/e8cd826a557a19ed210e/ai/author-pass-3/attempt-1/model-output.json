@@ -1,0 +1,391 @@
+{
+  "cards": [
+    {
+      "answer": "Alistar is a tank support who can dash toward enemies, knock them back and knock nearby enemies into the air. His ultimate temporarily reduces incoming physical and magic damage. Ability power increases his damaging abilities' damage.",
+      "build_focus": "AP",
+      "counterplay": "Keep your distance and spread out to limit how many teammates his nearby knockup catches.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Alistar. Official role tags: Tank, Support.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Active: Alistar dashes to the target enemy, dealing magic damage, stunning, and knocking them back.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Alistar smashes the ground, dealing damage to nearby enemies and tossing them into the air.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "Alistar is a tank support who can dash toward enemies, knock them back and knock nearby enemies into the air."
+        },
+        {
+          "citations": [
+            {
+              "quote": "reducing incoming physical and magical damage for the duration.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "His ultimate temporarily reduces incoming physical and magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Magic Damage:60 / 100 / 140 / 180 / 220 (+ 80% AP)",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Magic Damage:55 / 110 / 165 / 220 / 275 (+ 100% AP)",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Magic Damage Per Tick:8 / 11 / 14 / 17 / 20 (+ 7% AP)",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Ability power increases his damaging abilities' damage."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "His approach, displacement and damage reduction define his ability to engage and withstand enemy attacks.",
+      "slot": "-",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "AP identifies a supported ability-damage learning focus, not an optimal build recommendation.",
+        "The packet does not directly establish a health, armor and magic resistance learning recommendation."
+      ]
+    },
+    {
+      "answer": "Alistar charges his roar by stunning or displacing enemy champions or when nearby enemies die. At full charge, he automatically heals himself and nearby allied champions once the heal is available.",
+      "build_focus": "",
+      "counterplay": "Account for his healing when trading near dying enemies.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Alistar charges his roar by stunning or displacing enemy champions or when nearby enemies die.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Alistar generates stacks of Triumph from stunning or displacing enemy champions or when a nearby enemy dies.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Alistar charges his roar by stunning or displacing enemy champions or when nearby enemies die."
+        },
+        {
+          "citations": [
+            {
+              "quote": "When fully charged he heals himself all nearby allied champions.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Triumphant Roar can occur only once every few seconds, though Alistar may still generate stacks before then.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "If Alistar is at 7 stacks when Triumphant Roar comes off cooldown, he will roar as soon as it elapses.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "At full charge, he automatically heals himself and nearby allied champions once the heal is available."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "A brief effect appears around Alistar and a nearby ally when his roar triggers.",
+        "meaningful": true,
+        "source_ids": [
+          "riot:P",
+          "wiki:P"
+        ]
+      },
+      "priority": "B",
+      "priority_reason": "His healing helps him and nearby allies recover.",
+      "slot": "P",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The visual cue is a tentative proposal from the supplied official demonstration frames, not current-client verification. Mechanics source IDs do not independently verify its appearance.",
+        "Nearby enemy champion or epic monster deaths supply full charge.",
+        "Failed crowd control attempts do not generate stacks, and death clears stored stacks.",
+        "Healing is simultaneous; the visual projectile does not deliver the actual heal."
+      ]
+    },
+    {
+      "answer": "Alistar smashes the ground around him, dealing magic damage to nearby enemies. He knocks them into the air and stuns them at the same time.",
+      "build_focus": "",
+      "counterplay": "Stay outside his immediate area and spread out to limit how many teammates he catches.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Alistar smashes the ground beneath him, dealing magic damage to nearby enemies",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Alistar smashes the ground, dealing damage to nearby enemies and tossing them into the air.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "Alistar smashes the ground around him, dealing magic damage to nearby enemies."
+        },
+        {
+          "citations": [
+            {
+              "quote": "stunning and knocking them up simultaneously for 1 second.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "tossing them into the air.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "He knocks them into the air and stuns them at the same time."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Area crowd control can catch several enemies and interrupt their actions.",
+      "slot": "Q",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Displacement immunity also prevents Q's stun according to the Wiki.",
+        "Q can be buffered during W and originates from Alistar's position at the end of its cast."
+      ]
+    },
+    {
+      "answer": "Alistar dashes toward a targeted enemy. If his ram connects, it deals magic damage, knocks the target away and stuns them.",
+      "build_focus": "",
+      "counterplay": "Keep your distance and watch his approach angle to avoid being pushed toward danger.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Alistar dashes to the target enemy, dealing magic damage, stunning, and knocking them back.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Alistar dashes toward a targeted enemy."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If they are within 400 units upon arrival, he deals them magic damage and knocks them back 700 units over 0.5 seconds while also stunning them for 0.75 seconds.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Alistar rams a target with his head, dealing damage and knocking the target back.",
+              "source_id": "riot:W"
+            }
+          ],
+          "claim": "If his ram connects, it deals magic damage, knocks the target away and stuns them."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The targeted dash and displacement can start fights or separate a target from safety.",
+      "slot": "W",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The target must remain close enough when Alistar arrives for the hit to connect.",
+        "Buffering Q during W modifies normal knockback; the exact resulting displacement remains unresolved between the supplied descriptions.",
+        "Knockback direction uses Alistar's starting position and the target's position at dash end; terrain can stop movement.",
+        "Displacement immunity does not prevent W's stun. Tenacity can shorten its stun portion but not its airborne portion."
+      ]
+    },
+    {
+      "answer": "While active, Alistar repeatedly deals magic damage to nearby enemies and can move through units. His trampling damage builds stacks when it hits enemy champions. At full stacks, he briefly empowers his next basic attack against an enemy champion to deal bonus magic damage and stun them.",
+      "build_focus": "",
+      "counterplay": "Move away from his trampling area to limit his stacks. Keep out of basic attack reach when he becomes fully charged.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Alistar becomes ghosted and continually deals magic damage to nearby enemies.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Alistar tramples nearby enemy units, ignoring unit collision and gaining stacks if he damages an enemy champion.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "While active, Alistar repeatedly deals magic damage to nearby enemies and can move through units."
+        },
+        {
+          "citations": [
+            {
+              "quote": "He generates a stack of Trample each time this damages at least one champion.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "gaining stacks if he damages an enemy champion.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "His trampling damage builds stacks when it hits enemy champions."
+        },
+        {
+          "citations": [
+            {
+              "quote": "At max stacks, his next basic attack against a champion within a few seconds will deal bonus magic damage and stun them.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "At full stacks Alistar's next basic attack against an enemy champion deals additional magic damage and stuns them.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "At full stacks, he briefly empowers his next basic attack against an enemy champion to deal bonus magic damage and stun them."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Remaining near him lets him build toward a follow-up attack stun.",
+      "slot": "E",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Each trampling tick grants at most one stack even if it hits several champions.",
+        "The empowered effect is single-use, has a limited use window and ends Trample when consumed.",
+        "Spell shields can block the empowered effect separately from the basic attack.",
+        "A blocked attack consumes the empowered effect; a dodged attack or a miss caused by blindness does not. Failed attacks do not apply the bonus damage."
+      ]
+    },
+    {
+      "answer": "Alistar removes crowd control currently affecting him. He temporarily reduces incoming physical and magic damage.",
+      "build_focus": "",
+      "counterplay": "Save heavy physical or magic damage for after his damage reduction ends when possible.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "removing all crowd control effects on himself",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Active: Alistar cleanses himself of all crowd control.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Alistar removes crowd control currently affecting him."
+        },
+        {
+          "citations": [
+            {
+              "quote": "reducing incoming physical and magical damage for the duration.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "For the next 7 seconds, he reduces incoming damage.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "He temporarily reduces incoming physical and magic damage."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The cleanse and damage reduction can undermine attempts to disable him and deal heavy damage.",
+      "slot": "R",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The cleanse does not establish ongoing immunity to newly applied crowd control.",
+        "True damage is not reduced.",
+        "The Wiki's Hemoplague interaction is marked unexpected and remains provisional."
+      ]
+    }
+  ],
+  "champion_id": 12,
+  "champion_name": "Alistar",
+  "conflicts": [
+    {
+      "resolution": "Preserve normal W knockback. Leave exact buffered-Q displacement unresolved because the supplied Wiki describes both reduced knockback and overriding knockback.",
+      "source_ids": [
+        "wiki:W",
+        "wiki:Q"
+      ],
+      "topic": "W knockback when Q is buffered"
+    },
+    {
+      "resolution": "Preserve supported physical and magic damage reduction. Exclude the interaction marked unexpected from learning text and retain it as provisional metadata.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "Provisional R interaction with Hemoplague"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Availability changes his ability to engage or interrupt nearby enemies.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability changes his targeted approach and displacement threat.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Availability determines whether he can build toward an empowered attack stun.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability strongly affects attempts to disable him or deal heavy damage.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "The overview uses AP as a supported scaling-learning focus, not an optimal build recommendation; supplied evidence does not establish a tank-stat recommendation.",
+    "Counterplay and fighting-role implications are inferred teaching guidance grounded in the supplied effects.",
+    "The passive visual cue is a tentative official-demo proposal, not current-client or skin-specific verification.",
+    "The passive's full-charge heal can wait for its internal cooldown.",
+    "The pinned Data Dragon release does not establish the current game patch.",
+    "Alternate-mode values and transcluded skin material are excluded from ability explanations.",
+    "Advanced immunity, buffered-combo and failed-attack interactions qualify the general ability behavior."
+  ],
+  "language": "en"
+}

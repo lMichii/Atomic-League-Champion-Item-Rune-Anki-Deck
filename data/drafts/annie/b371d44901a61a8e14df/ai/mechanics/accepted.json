@@ -1,0 +1,436 @@
+{
+  "abilities": [
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Annie generates a stack of Pyromania whenever she hits an enemy with Disintegrate or casts her other abilities, stacking up to 4 times",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "Q generates a stack on hitting an enemy; her other abilities generate stacks on casting. The general four-spell description does not establish that an unlanded Q generates a stack."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Energized: Annie empowers her next cast of Disintegrate, Incinerate, or Summon: Tibbers to consume all Pyromania stacks to stun enemies hit",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "The stun applies to the first ability that lands when the stun is available.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "Q, W and R can deliver the stun, consuming all stacks. The first eligible ability to land delivers it, so cast order alone does not determine which ability stuns."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Stacks are gained even if the ability is blocked by spell shield.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Annie does not lose any stacks upon entering or exiting resurrection.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "She will lose Energized and all Pyromania stacks upon death.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "Spell shields do not prevent stack generation. Resurrection transitions preserve stacks; death clears them, with full stacks granted upon respawning."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "After casting 4 spells, Annie's next offensive spell will stun the target.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "At maximum stacks, her next offensive spell will consume them to stun the target.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.stun",
+          "summary": "Build four Pyromania stacks to empower an offensive spell to stun enemies hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Annie begins the game and respawns with Pyromania available.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Annie gains maximum stacks of Pyromania when the game starts and upon respawning.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.starts_ready",
+          "summary": "The stun is ready at game start and after respawning."
+        }
+      ],
+      "slot": "P",
+      "unsupported_claims": [
+        "Every Q cast generates a stack even if it never hits an enemy.",
+        "E can deliver the empowered stun.",
+        "Every spell cast while the stun is ready will stun independently."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Disintegrate will also grant the cooldown reduction and mana cost refund if the target is dead upon the missile's arrival.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "The refund and cooldown reduction also occur if the target is already dead when the missile arrives."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "Listed target-invalidating events during the cast time cancel Q without spending mana or starting its cooldown."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Annie hurls a Mana infused fireball, dealing damage",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Active: Annie hurls a fireball at the target enemy that deals magic damage.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.targeted_damage",
+          "summary": "Hurl a targeted fireball that deals magic damage to an enemy."
+        },
+        {
+          "citations": [
+            {
+              "quote": "refunding the Mana cost if it destroys the target.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "If this kills the target, Disintegrate's cooldown is reduced by 50% and its mana cost is refunded.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.kill_refund",
+          "summary": "Killing the target refunds Q's mana cost and reduces its cooldown."
+        }
+      ],
+      "slot": "Q",
+      "unsupported_claims": [
+        "A kill completely resets Q's cooldown.",
+        "Q refunds mana on every hit.",
+        "Q's damage splashes onto nearby enemies."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Incinerate can hit targets behind Annie, provided their radius intersects with the cone hitbox.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "Targets behind Annie can be hit when their radius intersects the cone hitbox."
+        },
+        {
+          "citations": [
+            {
+              "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "The cone originates from Annie's position at the end of the cast time."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Annie casts a blazing cone of fire, dealing damage to all enemies in the area.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Active: Annie releases fire in a cone in the target direction, dealing magic damage to enemies hit.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.cone_damage",
+          "summary": "Release a directional cone of fire that deals magic damage to enemies hit."
+        }
+      ],
+      "slot": "W",
+      "unsupported_claims": [
+        "W damages only one enemy.",
+        "W applies a lingering burn.",
+        "Targets behind Annie can never be hit."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Annie grants herself or the target allied champion and Tibbers a shield for 3 seconds and 20% – 50% (based on level) bonus movement speed that decays over 1.5 seconds.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "The selectable ally is an allied champion, and Tibbers also receives the shield and movement speed. The movement speed decays."
+        },
+        {
+          "citations": [
+            {
+              "quote": "While Molten Shield is active, enemies that deal damage to it take magic damage. This may only occur once per enemy per cast for each active Molten Shield.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Retaliation is limited to once per enemy per cast for each active shield."
+        },
+        {
+          "citations": [
+            {
+              "quote": "While the shield holds, enemies who basic attack it take magic damage.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Grants Annie or an ally a shield, a burst of Move Speed, and damages enemies who strike her with attacks or spells.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "While Molten Shield is active, enemies that deal damage to it take magic damage.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Retaliation includes damaging spells as well as attacks. The Wiki's shorter basic-attack description is narrower than Riot and the Wiki's detailed description."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Molten Shield does not deal damage to turrets when attacked by them.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Attacks that are dodged or miss against the shielded target will not cause the shield to deal damage, while blocked attacks still deal damage to the attacker.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "The reaction damage does not trigger from Teemo's Noxious Trap and Shaco's Jack in the Box.(bug)",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Turrets do not receive retaliation. Dodged or missed attacks do not trigger it, but blocked attacks do. The Wiki reports non-triggering interactions with Noxious Trap and Jack in the Box as bugs."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Grants Annie or an ally a shield",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Active: Annie grants herself or an allied champion—and Tibbers—a shield with a burst of move speed.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.shield",
+          "summary": "Shield Annie or a target allied champion to protect them from damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "a burst of Move Speed",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Active: Annie grants herself or an allied champion—and Tibbers—a shield with a burst of move speed.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.move_speed",
+          "summary": "Grant the recipient a temporary burst of movement speed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "damages enemies who strike her with attacks or spells.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "While Molten Shield is active, enemies that deal damage to it take magic damage.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.retaliation",
+          "summary": "While the shield is active, eligible enemies damaging it with attacks or spells take retaliatory magic damage."
+        }
+      ],
+      "slot": "E",
+      "unsupported_claims": [
+        "E grants invulnerability or a separate percentage damage reduction.",
+        "Every repeated hit from the same enemy triggers retaliation.",
+        "E can target any allied unit.",
+        "Retaliation is established to continue after the shield is gone."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Passive: Annie gains magic penetration.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "R also passively grants Annie magic penetration."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Summon: Tibbers' recast can be used while affected by cast-inhibiting crowd control.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Recasting Summon: Tibbers does not interrupt Recall's channel.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Tibbers will blink back next to Annie if he gets too far away.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Recast commands remain available during cast-inhibiting crowd control and do not interrupt Recall. Tibbers blinks back if he gets too far from Annie."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Only the initial cast counts as an ability activation for the purposes of on-cast effects such as Spellblade.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Recasting the ability does, however, count as casting an ultimate ability for the purposes of Experimental Hexplate's Overdrive and similar effects.(bug)",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "PENDING FOR TEST: What about Force Pulse's?",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "The Wiki distinguishes initial-cast activation effects from a reported recast interaction with Experimental Hexplate. Force Pulse's interaction is explicitly pending testing and remains unestablished."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Tibbers' attacks are mitigated by block, dodge, and blind, as well as stopped by Disarm.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Tibbers' basic attacks deal spell damage. His flaming aura applies spell effects as persistent area damage.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Tibbers' attacks interact with block, dodge, blind and disarm. His attacks deal spell damage, and his aura applies spell effects as persistent area damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "While out of combat for at least 5 seconds Tibbers heals himself",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Tibbers enrages for 3 seconds on summon and when Pyromania stuns an enemy champion.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "If Annie dies while Tibbers is active, he instantly heals himself for 50% of his missing health, becomes Enraged for 10 seconds, disables his Recovery ability, and will target Annie's killer.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Tibbers has out-of-combat recovery, enrages on summon and when Pyromania stuns an enemy champion, and enters a special revenge behavior when Annie dies."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Annie wills her bear Tibbers to life, dealing damage to units in the area.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Active: Annie summons Tibbers to the target location in a burst of flame, dealing magic damage to enemies near him.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.summon_damage",
+          "summary": "Summon Tibbers at a target location, dealing magic damage to enemies in the arrival area."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Tibbers can attack and also burns enemies that stand near him.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Tibbers deals magic damage with his attacks and also burns nearby enemies.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.pet_damage",
+          "summary": "Tibbers remains to attack enemies and burn nearby enemies with magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Tibbers then remains on the field as a controllable pet for up to 45 seconds.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Recast: Annie directs Tibbers to the target location.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.pet_control",
+          "summary": "Recast R to direct Tibbers while he is alive."
+        }
+      ],
+      "slot": "R",
+      "unsupported_claims": [
+        "R recasts summon another Tibbers or repeat the initial burst damage.",
+        "The Force Pulse interaction is confirmed.",
+        "Tibbers disappears immediately when Annie dies.",
+        "Every R recast triggers all on-cast effects."
+      ]
+    }
+  ]
+}

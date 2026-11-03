@@ -1,0 +1,163 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Amumu's basic attacks apply Curse to enemies.",
+          "covered": true,
+          "mechanic_id": "P.curse",
+          "reason": "Explicitly explains basic-attack Curse application."
+        },
+        {
+          "answer_quote": "Cursed enemies take bonus true damage when they receive magic damage.",
+          "covered": true,
+          "mechanic_id": "P.magic_amplification",
+          "reason": "Identifies the triggering damage and the bonus damage type without restricting the magic damage source."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Amumu throws a bandage that deals magic damage and stuns the first enemy hit, pulling him to them.",
+          "covered": true,
+          "mechanic_id": "Q.projectile_hit",
+          "reason": "Explains the thrown projectile, first-enemy collision, magic damage and stun."
+        },
+        {
+          "answer_quote": "pulling him to them.",
+          "covered": true,
+          "mechanic_id": "Q.dash",
+          "reason": "Clearly identifies Amumu as moving to the enemy hit."
+        },
+        {
+          "answer_quote": "He stores up to two charges that replenish over time.",
+          "covered": true,
+          "mechanic_id": "Q.charges",
+          "reason": "States the supported charge limit and periodic replenishment."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Amumu toggles an aura that continually deals magic damage to nearby enemies, including damage based on their maximum health.",
+          "covered": true,
+          "mechanic_id": "W.toggle_damage",
+          "reason": "Explains the toggle, nearby ongoing magic damage and maximum-health component."
+        },
+        {
+          "answer_quote": "Its damage refreshes existing Curse marks.",
+          "covered": true,
+          "mechanic_id": "W.curse_refresh",
+          "reason": "Explicitly limits refreshes to existing marks."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Tantrum passively reduces incoming physical damage.",
+          "covered": true,
+          "mechanic_id": "E.physical_reduction",
+          "reason": "Explains passive physical damage reduction without implying complete negation."
+        },
+        {
+          "answer_quote": "Activating it deals magic damage to surrounding enemies.",
+          "covered": true,
+          "mechanic_id": "E.area_damage",
+          "reason": "States the activation, damage type and surrounding area."
+        },
+        {
+          "answer_quote": "Basic attacks that hit Amumu reduce its remaining cooldown.",
+          "covered": true,
+          "mechanic_id": "E.cooldown_reduction",
+          "reason": "Explains the supported basic-attack trigger and remaining-cooldown reduction. Detailed blocked-attack and on-hit interactions are optional here and retained in metadata."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Amumu deals magic damage to surrounding enemies and stuns them.",
+          "covered": true,
+          "mechanic_id": "R.area_damage_stun",
+          "reason": "Explains both magic damage and stun in the area surrounding Amumu."
+        },
+        {
+          "answer_quote": "He also applies Curse to affected enemies.",
+          "covered": true,
+          "mechanic_id": "R.curse",
+          "reason": "Explicitly explains Curse application without claiming it amplifies R's own initial hit."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "The draft appropriately uses Wiki's more specific basic-attack trigger. Riot's broader wording does not establish that spells or every damage tick reduce the cooldown. Detailed hit interactions remain in metadata.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "E cooldown reduction: Riot says each time Amumu is hit; Wiki specifies basic attacks and on-hit interactions."
+    }
+  ],
+  "factual_risks": [
+    "Assessment uses only supplied frozen excerpts; current-client behavior and visuals are unverified.",
+    "The L1 tank-stat build focus is inferred teaching guidance, not an evidence-established optimal build.",
+    "Counterplay follows the supplied mechanics as conditional advice, without guaranteed outcomes or invented timings.",
+    "Supported advanced exceptions are retained in draft metadata; their omission from concise answers does not make these general descriptions misleading."
+  ]
+}

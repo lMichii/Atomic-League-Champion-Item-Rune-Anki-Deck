@@ -1,0 +1,548 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:800",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Mel. Official role tags: Mage, Support.",
+                "source_id": "riot:role"
+              }
+            ],
+            "claim": "Mel is a mage/support"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Total Magic Damage:85 / 127 / 173 / 223 / 277 (+ 80 / 85 / 90 / 95 / 100% AP)",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "AP-scaling magic damage"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Mel's basic attacks and abilities apply a stack of Overwhelm for each instance of damage they deal to enemies",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "She builds Overwhelm through repeated hits"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Mel strikes all enemies marked with Overwhelm regardless of their distance from her",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "can strike marked enemies regardless of distance with her ultimate"
+          },
+          {
+            "citations": [
+              {
+                "quote": "All hostile projectiles from enemy champions that hit the barrier will rebound as her own projectile",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "Her barrier can reflect enemy champion projectiles."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/mel/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3993020",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Mel"
+      },
+      "id": "champ:mel:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Summarizes her stacking threat, distant finisher and projectile defense."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Mage / Support",
+        "answer": "Mel is a mage/support with AP-scaling magic damage. She builds Overwhelm through repeated hits and can strike marked enemies regardless of distance with her ultimate. Her barrier can reflect enemy champion projectiles.",
+        "build_focus": "AP",
+        "category": "Champion",
+        "champion": "Mel",
+        "cooldown": "",
+        "counterplay": "Avoid prolonged trades and hold key projectiles while her barrier is active.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/5f475967a4fbc9c0d50994a06c3d8e9ce602e05d0b408b69177b1d6455f39ab8.jpg",
+        "id": "champ:mel:overview:L1",
+        "level": "L1",
+        "media_path": "media/5f475967a4fbc9c0d50994a06c3d8e9ce602e05d0b408b69177b1d6455f39ab8.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/mel/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Mel",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:800",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Mel's ability casts each generate stacks for a few seconds, up to a cap. Her next basic attack consumes all stacks to additionally fire an equal number of bolts dealing magic damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Ability casts add bonus magic-damage projectiles to Mel's next basic attack."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Mel's basic attacks and abilities apply a stack of Overwhelm for each instance of damage they deal to enemies for 5 seconds, refreshing on subsequent damage instances and stacking infinitely.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Each stack stores magic damage",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Her damaging attacks and abilities apply Overwhelm stacks, which store magic damage and refresh on further hits."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the total post-mitigation damage stored exceeds the target's current health and shields, the next stack applied against them will consume them all to deal the stored damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "When the stored damage exceeds the target's current health and shields, the next stack consumes the stacks to deal that damage."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/mel/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3993020",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Mel"
+      },
+      "id": "champ:mel:p:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Explains her empowered attacks and the danger of accumulating damage stacks."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Searing Brilliance",
+        "answer": "Ability casts add bonus magic-damage projectiles to Mel's next basic attack. Her damaging attacks and abilities apply Overwhelm stacks, which store magic damage and refresh on further hits. When the stored damage exceeds the target's current health and shields, the next stack consumes the stacks to deal that damage.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Mel",
+        "cooldown": "",
+        "counterplay": "Disengage to let Overwhelm expire; avoid extended trades when low on health.",
+        "front_hint": "MEL · PASSIVE",
+        "icon_path": "media/75ca3eea28374a7dd74095cbdd3ed13cba16521d499562d662cd081404504927.png",
+        "id": "champ:mel:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/75ca3eea28374a7dd74095cbdd3ed13cba16521d499562d662cd081404504927.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/mel/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Mel",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": "needs_visual_cue_review"
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:800",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Mel fires a barrage of projectiles that explode around a target location, dealing damage repeatedly to enemies within the area.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Each bolt explodes upon landing to deal magic damage to nearby enemies",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Radiant Volley bombards a target area with repeated magic-damage explosions."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/mel/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3993020",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Mel"
+      },
+      "id": "champ:mel:q:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Her area damage rewards enemies who remain within the bombardment."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Radiant Volley",
+        "answer": "Radiant Volley bombards a target area with repeated magic-damage explosions.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Mel",
+        "cooldown": "",
+        "counterplay": "Move out of the bombardment area promptly.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/57d1ec600b1ea0199d0677c9e6d4f43a32780ec878040a25d3a63fd978a547a5.png",
+        "id": "champ:mel:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/06977c0a2ede3f5b5d7bbe645403d1ea43d5d98c6ca69f7d3f65a603bb010b62.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/mel/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Mel",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:800",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Mel briefly conjures a personal barrier with a shield and a burst of bonus move speed.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "Rebuttal briefly grants Mel a shield and movement speed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "all hostile projectiles sourced from enemy champions that collide with the barrier will be destroyed instantly before Mel fires the same projectiles as her own, either toward or in the direction of the original sources, or toward herself.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Additionally, all of their damage is converted to magic damage",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "Its barrier intercepts enemy champion projectiles and can send copies back toward their source, with copied damage converted to magic damage."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/mel/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3993020",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Mel"
+      },
+      "id": "champ:mel:w:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Projectile reflection can turn an attempted engage against its source."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Rebuttal",
+        "answer": "Rebuttal briefly grants Mel a shield and movement speed. Its barrier intercepts enemy champion projectiles and can send copies back toward their source, with copied damage converted to magic damage.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Mel",
+        "cooldown": "",
+        "counterplay": "Hold key projectiles until the barrier ends, then look to pressure her.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/5de10d0abed7aa15e7bdb230654fd5520aa388b447404b170c576e8465e3b20e.png",
+        "id": "champ:mel:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/985b89d05dab881ef5032d88499d7b92cf8712713562d4a228dcf925f5d0788b.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/mel/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Mel",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "Riot describes damage prevention, while Wiki specifies a finite shield; the card uses Wiki's detailed shield mechanic."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:800",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Mel fires an orb that deals magic damage to enemies hit and roots them for a moment.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "Solar Snare fires an orb that deals magic damage and roots enemies it hits."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The orb emanates a field of solar radiation that additionally expands after a 0.5-second delay. Enemies within the field are dealt magic damage and slowed by 30% every 0.125 seconds",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "The surrounding field expands after a delay, slowing enemies and dealing repeated magic damage."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/mel/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3993020",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Mel"
+      },
+      "id": "champ:mel:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Her root and surrounding slow create opportunities for follow-up damage."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Solar Snare",
+        "answer": "Solar Snare fires an orb that deals magic damage and roots enemies it hits. The surrounding field expands after a delay, slowing enemies and dealing repeated magic damage.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Mel",
+        "cooldown": "",
+        "counterplay": "Sidestep the orb and move away from its surrounding field.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/525ccaf7a1553b4defa5d34f07a3a2b1b82003a6d5025fa554f05b95e4d78bc7.png",
+        "id": "champ:mel:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/a90cc2fea47d203890a26342e164f9d61246acb4b2231c02f8e4dfaec4223f77.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/mel/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Mel",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:800",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "An enemy champion affected by Overwhelm is required to cast this ability.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "Golden Eclipse requires an enemy champion marked with Overwhelm to cast."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Mel strikes all enemies marked with Overwhelm regardless of their distance from her, dealing additional damage for each stack of Overwhelm.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Mel unleashes a radiant blast on all enemies affected by Overwhelm, dealing magic damage to each of them. Enemies are also revealed for 1 second from the start of the cast time.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "It strikes all Overwhelm-marked enemies regardless of distance, dealing magic damage that increases with their stacks and briefly revealing them."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Ranks of Golden Eclipse increase Overwhelm's damage.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Passive: Overwhelm stacks store more damage.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "Its ranks also increase Overwhelm's stored damage."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/mel/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3993020",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Mel"
+      },
+      "id": "champ:mel:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Marked enemies remain threatened after retreating beyond normal combat range."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Golden Eclipse",
+        "answer": "Golden Eclipse requires an enemy champion marked with Overwhelm to cast. It strikes all Overwhelm-marked enemies regardless of distance, dealing magic damage that increases with their stacks and briefly revealing them. Its ranks also increase Overwhelm's stored damage.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Mel",
+        "cooldown": "",
+        "counterplay": "Break contact early to let marks expire; do not rely on distance alone while marked.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/d68434eba38b2391f6c30bee889a52500da63b6e97c8b7156847fcd265dfe2f0.png",
+        "id": "champ:mel:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/887f7d233ec6faac55e832ff4a81b7dc254649807915ed6bf45772cd569dd74d.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/mel/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Mel",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

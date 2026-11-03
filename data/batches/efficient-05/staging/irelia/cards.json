@@ -1,0 +1,575 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:39",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Irelia. Official role tags: Fighter, Assassin.",
+                "source_id": "riot:role"
+              }
+            ],
+            "claim": "Irelia is a fighter and assassin"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Irelia dashes forward to strike her target, healing herself. If the target is Marked or dies to Bladesurge, its cooldown refreshes.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "claim": "chains dashes through marked or dying targets"
+          },
+          {
+            "citations": [
+              {
+                "quote": "When Irelia strikes enemies with spells she gains stacking bonus Attack Speed.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "builds attack speed through ability hits"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Irelia dashes through the target enemy, dealing physical damage, applying on-hit effects, and healing herself.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Physical Damage:5 / 25 / 45 / 65 / 85 (+ 80% AD)",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Her physical dash scales with AD"
+          },
+          {
+            "citations": [
+              {
+                "quote": "At maximum stacks, her basic attacks deal bonus magic damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "fully stacked basic attacks add magic damage"
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/irelia/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892607",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Irelia"
+      },
+      "id": "champ:irelia:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Her dash chains and empowered attacks define the main threat in sustained fights."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Fighter / Assassin",
+        "answer": "Irelia is a fighter and assassin who chains dashes through marked or dying targets and builds attack speed through ability hits. Her physical dash scales with AD, while fully stacked basic attacks add magic damage.",
+        "build_focus": "AD",
+        "category": "Champion",
+        "champion": "Irelia",
+        "cooldown": "",
+        "counterplay": "Keep distance from weakened minions and avoid extended trades while her passive is fully stacked.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/65a750a4372f2998a8d95887b5ae5ccdca1fd0fe7cd39c50861200f490f5102d.jpg",
+        "id": "champ:irelia:overview:L1",
+        "level": "L1",
+        "media_path": "media/65a750a4372f2998a8d95887b5ae5ccdca1fd0fe7cd39c50861200f490f5102d.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/irelia/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Irelia",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "AD build focus is inferred from the supplied AD scaling and attack-based mechanics; the evidence does not include item recommendations."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:39",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "When Irelia strikes enemies with spells she gains stacking bonus Attack Speed.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "Ability hits grant stacking attack speed"
+          },
+          {
+            "citations": [
+              {
+                "quote": "At maximum stacks, her basic attacks deal bonus magic damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "at maximum stacks, basic attacks also deal bonus magic damage"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Basic attacks against enemy champions and large monsters will also refresh the duration.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Attacks against enemy champions refresh the stacks' duration."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/irelia/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892607",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Irelia"
+      },
+      "id": "champ:irelia:p:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Passive stacks strongly affect the danger of extended trades."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Ionian Fervor",
+        "answer": "Ability hits grant stacking attack speed; at maximum stacks, basic attacks also deal bonus magic damage. Attacks against enemy champions refresh the stacks' duration.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Irelia",
+        "cooldown": "",
+        "counterplay": "Disengage while she is fully stacked and limit opportunities for her to keep attacking.",
+        "front_hint": "IRELIA · PASSIVE",
+        "icon_path": "media/036c8468deb679d380edd37070681ea7992cac07101b385048941c332cdb5cdf.png",
+        "id": "champ:irelia:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/036c8468deb679d380edd37070681ea7992cac07101b385048941c332cdb5cdf.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/irelia/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Irelia",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": "needs_visual_cue_review"
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:39",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Irelia dashes through the target enemy, dealing physical damage, applying on-hit effects, and healing herself.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Bladesurge dashes through an enemy, dealing physical damage, applying on-hit effects and healing Irelia."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The mark can be consumed by Bladesurge.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Bladesurge's current cooldown is reduced to 0.2 seconds upon collision of targets marked as Unsteady",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Consuming a mark lets her dash again quickly"
+          },
+          {
+            "citations": [
+              {
+                "quote": "is reset if the target dies to or during Bladesurge's dash.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "a target dying to or during the dash resets its cooldown."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/irelia/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892607",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Irelia"
+      },
+      "id": "champ:irelia:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Reset conditions explain her repeated gap closing and movement through minions."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Bladesurge",
+        "answer": "Bladesurge dashes through an enemy, dealing physical damage, applying on-hit effects and healing Irelia. Consuming a mark lets her dash again quickly; a target dying to or during the dash resets its cooldown.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Irelia",
+        "cooldown": "",
+        "counterplay": "Keep distance from weakened minions and play cautiously when marked.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/460b56435d22f2165bad6ce235779d3d56e5acb35a69a661d6588d3b112d02ae.png",
+        "id": "champ:irelia:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/0a00552827ad64a7be2882f8c113f812d13a9d1fb2187af567b8fe5e99042387.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/irelia/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Irelia",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:39",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "during which she reduces incoming physical damage by 40% – 70% (based on level) (+ 8% per 100 AP) and incoming magic damage by 20% – 35% (based on level) (+ 4% per 100 AP).",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "Defiant Dance reduces incoming physical and magic damage while Irelia charges"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Defiant Dance's charge cannot be interrupted by crowd control.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "crowd control cannot interrupt the charge."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Recast: Irelia swipes her blades in the target direction, dealing physical damage to enemies nearby and within a line, increased based on how long she charged up.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "The release deals physical damage around her and along a line, with damage increasing as she charges."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/irelia/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892607",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Irelia"
+      },
+      "id": "champ:irelia:w:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Damage reduction changes burst timing, and crowd control does not cancel the charge."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Defiant Dance",
+        "answer": "Defiant Dance reduces incoming physical and magic damage while Irelia charges, and crowd control cannot interrupt the charge. The release deals physical damage around her and along a line, with damage increasing as she charges.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Irelia",
+        "cooldown": "",
+        "counterplay": "Hold burst damage until her damage reduction ends and move away from the release line.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/babdd1dc16bf72685826b443773dc65842a015135ad32c147074381eee74f0cb.png",
+        "id": "champ:irelia:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/41f0e3d4d0df70febae09d2908dc4892ead4171e9a0c03e75f784507f636c916.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/irelia/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Irelia",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:39",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Once both blades have been placed, they converge to deal magic damage and stun enemies within a line between.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "Flawless Duet places blades that converge, dealing magic damage and stunning enemies along the line between them."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Enemy champions and large monsters hit by Flawless Duet or Vanguard's Edge's initial barrage are marked as Unsteady",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Bladesurge's current cooldown is reduced to 0.2 seconds upon collision of targets marked as Unsteady",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Enemy champions hit are marked, enabling a quick Bladesurge reuse."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/irelia/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892607",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Irelia"
+      },
+      "id": "champ:irelia:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The stun and mark create a major opening for her dash follow-up."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Flawless Duet",
+        "answer": "Flawless Duet places blades that converge, dealing magic damage and stunning enemies along the line between them. Enemy champions hit are marked, enabling a quick Bladesurge reuse.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Irelia",
+        "cooldown": "",
+        "counterplay": "Move out of the line between the blades and give her space if marked.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/81a9bdc067d5c4d1411e09838aed93ef01ff865db37168910a7c56fb365afd9b.png",
+        "id": "champ:irelia:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/4490ce76bfb484e107ca58d63f5ea70d09f5652bc21891f54e0c2027362d4c0c.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/irelia/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Irelia",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:39",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Irelia launches a barrage of blades in the target direction that expand outward upon hitting an enemy champion, dealing magic damage to enemies hit.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Enemy champions and large monsters hit by Flawless Duet or Vanguard's Edge's initial barrage are marked as Unsteady",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Bladesurge's current cooldown is reduced to 0.2 seconds upon collision of targets marked as Unsteady",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Vanguard's Edge expands upon hitting an enemy champion, dealing magic damage and marking champions hit for Bladesurge reuse."
+          },
+          {
+            "citations": [
+              {
+                "quote": "After expanding, the blades form a spade-shaped perimeter around the enemy champion hit for a short time. Enemies that pass through the blades for the first time are dealt magic damage and slowed.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "It leaves a perimeter that damages and slows enemies crossing it"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Enemies that cross the perimeter are not marked Unsteady.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "crossing the perimeter does not apply a mark."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/irelia/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892607",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Irelia"
+      },
+      "id": "champ:irelia:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The initial marks enable dash follow-ups while the perimeter restricts movement."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Vanguard's Edge",
+        "answer": "Vanguard's Edge expands upon hitting an enemy champion, dealing magic damage and marking champions hit for Bladesurge reuse. It leaves a perimeter that damages and slows enemies crossing it; crossing the perimeter does not apply a mark.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Irelia",
+        "cooldown": "",
+        "counterplay": "Dodge the initial barrage and avoid crossing the blade perimeter when possible.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/cc13c8f18bc8dc26de93bb2af8172d607db9de43c04e515a50ddb7c914d819f3.png",
+        "id": "champ:irelia:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/b77c3035ea44a5570cce70567779987edcbef6524a68f40a2fe471cab1097ad3.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/irelia/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Irelia",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

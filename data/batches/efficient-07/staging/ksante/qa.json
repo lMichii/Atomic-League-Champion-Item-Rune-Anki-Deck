@@ -1,0 +1,109 @@
+{
+  "ai_verifier_calls": 0,
+  "decoded_media": {
+    "09b884babd8533f9d46ca0793b13ea27c01dac108c6c63e5999b15440afb5694": {
+      "codec": "gif",
+      "duration_seconds": 12.63,
+      "frames": 101,
+      "full_decode": "passed",
+      "height": 286,
+      "loop": 0,
+      "width": 420
+    },
+    "1c20b44cf1b352e38114ee507bcb072c0d478b58b4060f27730e550258fdccc8": {
+      "codec": "mjpeg",
+      "duration_seconds": 0.04,
+      "full_decode": "passed",
+      "height": 717,
+      "width": 1215
+    },
+    "3240730e8d3a627ab9044b4701ac45f519b6c0bcb6f9dfc19ea39fc2e3f0bd74": {
+      "codec": "png",
+      "duration_seconds": 0.0,
+      "full_decode": "passed",
+      "height": 64,
+      "width": 64
+    },
+    "3f96648180eded5db8f7c59b9b73a7de1d83763cd4b07bb5e14903cc5d149fa8": {
+      "codec": "gif",
+      "duration_seconds": 4.51,
+      "frames": 36,
+      "full_decode": "passed",
+      "height": 286,
+      "loop": 0,
+      "width": 420
+    },
+    "62c8ae51e7945b6e0bbc33b0a8c99cee4817566ece46943ec764ad63ffd0bb3d": {
+      "codec": "gif",
+      "duration_seconds": 5.26,
+      "frames": 42,
+      "full_decode": "passed",
+      "height": 286,
+      "loop": 0,
+      "width": 420
+    },
+    "63971639979be5d68027652b703cfc75cfb4c836dcc91b957c9b2410d0cae2a9": {
+      "codec": "png",
+      "duration_seconds": 0.0,
+      "full_decode": "passed",
+      "height": 64,
+      "width": 64
+    },
+    "7f9ac821107e0d0f240b6a38b3217c1a9bfccaa281ae8cf78bc79e702777a3b9": {
+      "codec": "png",
+      "duration_seconds": 0.0,
+      "full_decode": "passed",
+      "height": 64,
+      "width": 64
+    },
+    "ad1b14b99a1e430bb3ef9f6caa8148d2ec1c87f7264afd8ead88ed0c3f4647ba": {
+      "codec": "png",
+      "duration_seconds": 0.0,
+      "full_decode": "passed",
+      "height": 64,
+      "width": 64
+    },
+    "c9386e9ed34536a0685b1d0e9a2ad20e9e40e728a818e68ff5a111a9cf7550c8": {
+      "codec": "png",
+      "duration_seconds": 0.0,
+      "full_decode": "passed",
+      "height": 64,
+      "width": 64
+    },
+    "ffe206ca94a3298be901f4a2b605ef42c916d2dfe0d5d8277e33767afa6986b2": {
+      "codec": "gif",
+      "duration_seconds": 10.51,
+      "frames": 84,
+      "full_decode": "passed",
+      "height": 286,
+      "loop": 0,
+      "width": 420
+    }
+  },
+  "findings": [
+    {
+      "code": "source_unavailable",
+      "message": "HTTP Error 404: Not Found",
+      "url": "https://www.leagueoflegends.com/en-us/champions/k-sante/"
+    },
+    {
+      "card_text_review": "No learning text claims that the actual maximum-health stat is reduced; all text and Counterplay retained unchanged.",
+      "code": "source_quality_note",
+      "decision_basis": "Explicit user source interpretation; supported by detailed Wiki mechanics",
+      "message": "The Wiki short summary imprecisely describes reduced maximum health. Its detailed mechanics are authoritative here: All Out applies a health threshold of 65% maximum HP without reducing the actual maximum-health stat.",
+      "original_conflict": {
+        "resolution": "Use the detailed health-threshold description if needed; cards avoid claiming maximum health is reduced.",
+        "topic": "The Wiki summary says All Out reduces maximum health, but its detailed mechanics say he retains maximum health and gains a health threshold."
+      },
+      "source_ids": [
+        "wiki:R"
+      ],
+      "source_url": "https://wiki.leagueoflegends.com/en-us/K%27Sante?oldid=4091136",
+      "status": "editorially_interpreted_source_wording",
+      "unresolved_gameplay_conflict": false
+    }
+  ],
+  "human_approved": false,
+  "mode": "author_only",
+  "semantic_verification": "not_performed"
+}

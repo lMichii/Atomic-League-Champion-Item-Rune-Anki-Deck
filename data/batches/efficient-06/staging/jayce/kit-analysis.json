@@ -1,0 +1,513 @@
+{
+  "cards": [
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Hammer Stance: Transforms the Mercury Hammer into the Mercury Cannon gaining new abilities and increased range.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Cannon Stance: Transforms the Mercury Cannon into the Mercury Hammer gaining new abilities and increasing Armor and Magic Resist.",
+              "source_id": "riot:R"
+            }
+          ],
+          "id": "e56ed290c3c4054e2754434f",
+          "summary": "Switches between ranged Cannon and melee Hammer ability sets."
+        }
+      ],
+      "kind": "overview",
+      "purpose": "Recognize Jayce's ranged pressure and melee follow-up.",
+      "slot": "",
+      "source_ids": [
+        "riot:role",
+        "riot:R",
+        "wiki:shockblast",
+        "wiki:totheskies",
+        "wiki:lightningfield",
+        "wiki:thunderingblow",
+        "wiki:transformmercurycannon",
+        "wiki:transformmercuryhammer"
+      ],
+      "subject_id": "riot:role",
+      "title": "Jayce",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Innate: Whenever Jayce switches between Hammer Stance and Cannon Stance, he briefly gains bonus movement speed and ignores unit collision.",
+              "source_id": "wiki:hextechcapacitor"
+            }
+          ],
+          "id": "dfbe2613abe9570d246d3cb0",
+          "summary": "Stance changes briefly grant movement speed and movement through units."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize movement gained from weapon swaps.",
+      "slot": "P",
+      "source_ids": [
+        "riot:P",
+        "wiki:hextechcapacitor",
+        "wiki:hextechcapacitor2"
+      ],
+      "subject_id": "wiki:hextechcapacitor",
+      "title": "Hextech Capacitor",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "wiki:transformmercuryhammer",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Jayce leaps to the target enemy's location and smashes his hammer to the ground, dealing physical damage and slowing nearby enemies.",
+              "source_id": "wiki:totheskies"
+            }
+          ],
+          "id": "1de05f2ee9009631ac0a07c8",
+          "summary": "Targeted leap with physical area damage and a slow."
+        }
+      ],
+      "kind": "ability_variant",
+      "purpose": "Recognize Hammer Jayce's gap closer and landing-area threat.",
+      "slot": "Q",
+      "source_ids": [
+        "riot:Q",
+        "wiki:totheskies"
+      ],
+      "subject_id": "wiki:totheskies",
+      "title": "To the Skies! — Hammer Q",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "wiki:transformmercurycannon",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Jayce fires an electric bolt in the target direction that detonates upon hitting an enemy or max range, dealing physical damage to nearby enemies.",
+              "source_id": "wiki:shockblast"
+            }
+          ],
+          "id": "5066f07853e20a8b54a03e40",
+          "summary": "Projectile explodes on enemy contact or at maximum range for physical area damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the bolt passes through Acceleration Gate, it becomes supercharged: increasing its damage by 40% as well as its speed, range and explosion radius.",
+              "source_id": "wiki:shockblast"
+            }
+          ],
+          "id": "aedd119cc9706c14769a1a40",
+          "summary": "Gate passage increases projectile damage, speed, range, and explosion radius."
+        }
+      ],
+      "kind": "ability_variant",
+      "purpose": "Recognize Cannon poke and its gate-enhanced threat.",
+      "slot": "Q",
+      "source_ids": [
+        "riot:Q",
+        "wiki:shockblast"
+      ],
+      "subject_id": "wiki:shockblast",
+      "title": "Shock Blast — Cannon Q",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "wiki:transformmercuryhammer",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Jayce surrounds himself with an electric field for a few seconds, continually dealing magic damage to nearby enemies.",
+              "source_id": "wiki:lightningfield"
+            }
+          ],
+          "id": "84791cc50b5245b88158a09e",
+          "summary": "A surrounding field repeatedly deals magic damage nearby."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Passive: Jayce's basic attacks restore mana on-hit.",
+              "source_id": "wiki:lightningfield"
+            }
+          ],
+          "id": "144e62e5d56db86ba37d2608",
+          "summary": "Basic attacks restore mana on hit."
+        }
+      ],
+      "kind": "ability_variant",
+      "purpose": "Recognize sustained Hammer damage and mana recovery.",
+      "slot": "W",
+      "source_ids": [
+        "riot:W",
+        "wiki:lightningfield"
+      ],
+      "subject_id": "wiki:lightningfield",
+      "title": "Lightning Field — Hammer W",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "wiki:transformmercurycannon",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Jayce gains a massive burst of bonus attack speed on his next few basic attacks, each one dealing modified physical damage.",
+              "source_id": "wiki:hypercharge"
+            }
+          ],
+          "id": "3d85e06b5e861ffb6c4db1bf",
+          "summary": "A burst of fast basic attacks deals modified physical damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Hyper Charge resets Jayce's basic attack timer.",
+              "source_id": "wiki:hypercharge"
+            }
+          ],
+          "id": "06e839b4b64edc4cc387fb82",
+          "summary": "Activation resets his basic attack timer."
+        }
+      ],
+      "kind": "ability_variant",
+      "purpose": "Recognize Cannon basic-attack burst.",
+      "slot": "W",
+      "source_ids": [
+        "riot:W",
+        "wiki:hypercharge"
+      ],
+      "subject_id": "wiki:hypercharge",
+      "title": "Hyper Charge — Cannon W",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "If the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).",
+              "source_id": "wiki:thunderingblow"
+            }
+          ],
+          "status": "supported",
+          "summary": "Cast cancellation can avoid both the cooldown and cost; a canceled cast does not establish a normal cooldown window."
+        }
+      ],
+      "context_id": "wiki:transformmercuryhammer",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Jayce swings his hammer at the target enemy, briefly rooting them and dealing magic damage based on the target's maximum health, then knocks them back.",
+              "source_id": "wiki:thunderingblow"
+            }
+          ],
+          "id": "2d2ad3536b967d4e07db432e",
+          "summary": "Briefly roots its target, deals maximum-health-based magic damage, and knocks them back."
+        }
+      ],
+      "kind": "ability_variant",
+      "purpose": "Recognize Hammer displacement and health-based damage.",
+      "slot": "E",
+      "source_ids": [
+        "riot:E",
+        "wiki:thunderingblow"
+      ],
+      "subject_id": "wiki:thunderingblow",
+      "title": "Thundering Blow — Hammer E",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "wiki:transformmercurycannon",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Jayce and allied champions can move through the gate to gain bonus movement speed that decays over 3 seconds, with the duration refreshing continuously while within the gate.",
+              "source_id": "wiki:accelerationgate"
+            }
+          ],
+          "id": "eb8acc7a213c4e5a7f7b2629",
+          "summary": "Passing through grants Jayce and allies bonus movement speed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Jayce deploys an energy gate centered at the target location, lasting for 4 seconds and granting sight of its surroundings.",
+              "source_id": "wiki:accelerationgate"
+            }
+          ],
+          "id": "87a783bfcfe80c1ca74113a5",
+          "summary": "The gate grants sight of its surroundings."
+        }
+      ],
+      "kind": "ability_variant",
+      "purpose": "Recognize team movement support and the setup for enhanced Shock Blast.",
+      "slot": "E",
+      "source_ids": [
+        "riot:E",
+        "wiki:accelerationgate"
+      ],
+      "subject_id": "wiki:accelerationgate",
+      "title": "Acceleration Gate — Cannon E",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Jayce begins the game with Transform but cannot increase its rank. Instead, his basic abilities each have 6 ranks.",
+              "source_id": "wiki:transformmercurycannon"
+            }
+          ],
+          "status": "supported",
+          "summary": "Transform is available from the start and cannot be ranked; basic abilities have additional ranks."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Both Transform on-hit effects have no set duration and will only be consumed when Jayce either lands a basic attack or switches stances.",
+              "source_id": "wiki:transformmercurycannon"
+            }
+          ],
+          "status": "supported",
+          "summary": "The empowered attacks have no fixed expiry and are consumed by landing an attack or switching stances."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Jayce transforms into Cannon Stance, becoming ranged with greater attack range and gaining new abilities. His next basic attack will reduce the target's armor and magic resist for a few seconds.",
+              "source_id": "wiki:transformmercurycannon"
+            }
+          ],
+          "id": "c6577ca9f8e58af618c926be",
+          "summary": "Cannon provides ranged abilities and a resistance-reducing next attack."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Jayce transforms into Hammer Stance, becoming melee, gaining bonus armor and bonus magic resist and gaining new abilities. His next basic attack will deal bonus magic damage.",
+              "source_id": "wiki:transformmercuryhammer"
+            }
+          ],
+          "id": "782e3e9451227c00f4741ccc",
+          "summary": "Hammer provides melee abilities, bonus resistances, and bonus magic damage on the next attack."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize weapon changes and their immediate combat effects.",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:transformmercurycannon",
+        "wiki:transformmercuryhammer"
+      ],
+      "subject_id": "wiki:transformmercurycannon",
+      "title": "Transform — Mercury Cannon / Mercury Hammer",
+      "unsupported_claims": []
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Cooldown lengths and whether corresponding abilities share cooldowns across stances are not supplied; do not infer safe windows from a weapon swap.",
+    "Thundering Blow can cancel without entering cooldown, as retained in advanced metadata."
+  ],
+  "features": [
+    "multiple_forms",
+    "transformations",
+    "ability_variants",
+    "conditional_effects",
+    "unconventional_leveling"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "Active: Jayce transforms into Cannon Stance, becoming ranged with greater attack range and gaining new abilities.",
+          "source_id": "wiki:transformmercurycannon"
+        }
+      ],
+      "condition": "Transform into Cannon Stance.",
+      "from_id": "wiki:transformmercuryhammer",
+      "kind": "changes_form",
+      "to_id": "wiki:transformmercurycannon"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Active: Jayce transforms into Hammer Stance, becoming melee, gaining bonus armor and bonus magic resist and gaining new abilities.",
+          "source_id": "wiki:transformmercuryhammer"
+        }
+      ],
+      "condition": "Transform into Hammer Stance.",
+      "from_id": "wiki:transformmercurycannon",
+      "kind": "changes_form",
+      "to_id": "wiki:transformmercuryhammer"
+    },
+    {
+      "citations": [
+        {
+          "quote": "If the bolt passes through Acceleration Gate, it becomes supercharged: increasing its damage by 40% as well as its speed, range and explosion radius.",
+          "source_id": "wiki:shockblast"
+        }
+      ],
+      "condition": "Shock Blast passes through Acceleration Gate.",
+      "from_id": "wiki:accelerationgate",
+      "kind": "conditional_effect",
+      "to_id": "wiki:shockblast"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Teaches movement on stance changes.",
+      "source_id": "wiki:hextechcapacitor",
+      "target_subject_ids": [
+        "wiki:hextechcapacitor"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Teaches the Hammer leap and slow.",
+      "source_id": "wiki:totheskies",
+      "target_subject_ids": [
+        "wiki:totheskies"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Teaches nearby damage and mana recovery.",
+      "source_id": "wiki:lightningfield",
+      "target_subject_ids": [
+        "wiki:lightningfield"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Teaches damage and displacement; cancellation remains advanced metadata.",
+      "source_id": "wiki:thunderingblow",
+      "target_subject_ids": [
+        "wiki:thunderingblow"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Teaches Cannon transformation; related Hammer effects share the card.",
+      "source_id": "wiki:transformmercurycannon",
+      "target_subject_ids": [
+        "wiki:transformmercurycannon"
+      ]
+    },
+    {
+      "disposition": "merged",
+      "reason": "Duplicate passive section shares the passive card.",
+      "source_id": "wiki:hextechcapacitor2",
+      "target_subject_ids": [
+        "wiki:hextechcapacitor"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Teaches projectile damage and gate enhancement.",
+      "source_id": "wiki:shockblast",
+      "target_subject_ids": [
+        "wiki:shockblast"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Teaches rapid attacks and attack timer reset.",
+      "source_id": "wiki:hypercharge",
+      "target_subject_ids": [
+        "wiki:hypercharge"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Teaches movement support and sight; projectile enhancement is also taught with Shock Blast.",
+      "source_id": "wiki:accelerationgate",
+      "target_subject_ids": [
+        "wiki:accelerationgate",
+        "wiki:shockblast"
+      ]
+    },
+    {
+      "disposition": "merged",
+      "reason": "Hammer transformation shares the Transform card.",
+      "source_id": "wiki:transformmercuryhammer",
+      "target_subject_ids": [
+        "wiki:transformmercurycannon"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "riot:P",
+        "wiki:hextechcapacitor",
+        "wiki:hextechcapacitor2"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "riot:Q",
+        "wiki:totheskies",
+        "wiki:shockblast"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "riot:W",
+        "wiki:lightningfield",
+        "wiki:hypercharge"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "riot:E",
+        "wiki:thunderingblow",
+        "wiki:accelerationgate"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:transformmercurycannon",
+        "wiki:transformmercuryhammer"
+      ]
+    }
+  ],
+  "summary": "An overview, a passive card, distinct Hammer and Cannon basic-ability cards, and a shared Transform card teach Jayce's ranged pressure, melee follow-up, and weapon-dependent threats."
+}

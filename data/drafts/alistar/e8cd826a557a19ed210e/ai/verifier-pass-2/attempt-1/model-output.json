@@ -1,0 +1,191 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": false,
+      "issues": [
+        "The health, armor and magic resistance learning recommendation is not established by the supplied role tags or damage-reduction mechanics. Its citations do not explain those stats or support prioritizing them. Supply evidence or repair this recommendation.",
+        "The fighting uses are reasonable teaching inferences from the supplied displacement and area crowd-control mechanics."
+      ],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Alistar charges his roar by stunning or displacing enemy champions or when nearby enemies die.",
+          "covered": true,
+          "mechanic_id": "P.charge",
+          "reason": "Explains both crowd-control charging and nearby enemy-death charging."
+        },
+        {
+          "answer_quote": "At full charge, he automatically heals himself and nearby allied champions.",
+          "covered": true,
+          "mechanic_id": "P.heal",
+          "reason": "Explains the automatic heal and its recipients. The brief internal cooldown is an optional advanced qualification; the answer does not explicitly promise an immediate heal."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [
+        "The passive visual description remains unverified. Mechanics citations do not independently establish the appearance of the roar or healing effect; retain this as a visual QA risk."
+      ],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Alistar smashes the ground around him, dealing magic damage to nearby enemies.",
+          "covered": true,
+          "mechanic_id": "Q.area_damage",
+          "reason": "Explains the damage type and area around Alistar."
+        },
+        {
+          "answer_quote": "He knocks them into the air and stuns them at the same time.",
+          "covered": true,
+          "mechanic_id": "Q.knockup",
+          "reason": "Explains both simultaneous control effects."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Alistar dashes toward a targeted enemy.",
+          "covered": true,
+          "mechanic_id": "W.targeted_dash",
+          "reason": "Explicitly explains the targeted dash."
+        },
+        {
+          "answer_quote": "If his ram connects, it deals magic damage, knocks the target away and stuns them.",
+          "covered": true,
+          "mechanic_id": "W.damage",
+          "reason": "Explains magic damage conditional on the ram connecting."
+        },
+        {
+          "answer_quote": "If his ram connects, it deals magic damage, knocks the target away and stuns them.",
+          "covered": true,
+          "mechanic_id": "W.knockback",
+          "reason": "Explains the normal connected ram's knockback and stun."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "While active, Alistar repeatedly deals magic damage to nearby enemies and can move through units.",
+          "covered": true,
+          "mechanic_id": "E.periodic_damage",
+          "reason": "Explains repeated nearby magic damage during the active effect."
+        },
+        {
+          "answer_quote": "While active, Alistar repeatedly deals magic damage to nearby enemies and can move through units.",
+          "covered": true,
+          "mechanic_id": "E.ignore_unit_collision",
+          "reason": "Explicitly explains movement through units while active."
+        },
+        {
+          "answer_quote": "His trampling damage builds stacks when it hits enemy champions.",
+          "covered": true,
+          "mechanic_id": "E.champion_stacks",
+          "reason": "Identifies trampling damage against enemy champions as the stack source without claiming extra stacks per champion."
+        },
+        {
+          "answer_quote": "At full stacks, he briefly empowers his next basic attack against an enemy champion to deal bonus magic damage and stun them.",
+          "covered": true,
+          "mechanic_id": "E.empowered_attack",
+          "reason": "Explains the full-stack requirement, limited window, champion attack, bonus magic damage and stun."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Alistar removes crowd control currently affecting him.",
+          "covered": true,
+          "mechanic_id": "R.cleanse",
+          "reason": "Explains removal of existing crowd control without claiming ongoing immunity."
+        },
+        {
+          "answer_quote": "He temporarily reduces incoming physical and magic damage.",
+          "covered": true,
+          "mechanic_id": "R.damage_reduction",
+          "reason": "Explains temporary reduction with the supported damage-type scope."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "The supplied Wiki describes buffered Q as both reducing W knockback to 200 units and overriding it. Keep the exact displacement unresolved in QA metadata; the normal W explanation remains supported.",
+      "source_ids": [
+        "wiki:W"
+      
+      ,
+      "topic" 
+      ,
+      "topic" 
+      ,
+      "topic" 
+      ],
+      "topic": "W knockback when Q is buffered"
+    },
+    {
+      "resolution": "The Hemoplague interaction is explicitly marked unexpected by the Wiki and lacks independent confirmation here. Retain it as provisional metadata; it does not undermine the general physical and magic damage-reduction explanation.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "Provisional R interaction with Hemoplague"
+    }
+  ],
+  "factual_risks": [
+    "This is an AI evidence check, not human approval or visual verification.",
+    "The passive visual description is not independently verified by its cited mechanics text.",
+    "The pinned Data Dragon release does not establish the current game patch.",
+    "The passive's fully charged heal may wait for its brief internal cooldown.",
+    "Advanced immunity, failed-attack and terrain exceptions do not invalidate these general beginner explanations.",
+    "No visible counterplay contains an inference prefix or confidence label. Development labels appear only in metadata.",
+    "The overview's stat-learning recommendation requires additional support."
+  ]
+}

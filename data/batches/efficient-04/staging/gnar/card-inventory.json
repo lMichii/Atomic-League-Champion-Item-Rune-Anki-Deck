@@ -1,0 +1,349 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:gnar:overview:L1",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "While in combat Gnar generates Rage. At maximum Rage his next ability will transform him into Mega Gnar, granting increased survivability and access to new spells.",
+            "source_id": "riot:P"
+          }
+        ],
+        "id": "43c38541f7d76cb20a0e3421",
+        "summary": "Combat builds Rage toward a tougher form with different abilities."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Any enemy that hits a wall is stunned and takes bonus damage.",
+            "source_id": "riot:R"
+          }
+        ],
+        "id": "5228a8c5c3048fea40ebc5c6",
+        "summary": "Mega Gnar's ultimate is especially threatening beside walls."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize Gnar's changing fight pattern and terrain threat.",
+    "slot": "",
+    "source_ids": [
+      "riot:role",
+      "riot:P",
+      "wiki:ragegene",
+      "wiki:boomerangthrow",
+      "wiki:hyper",
+      "wiki:crunch",
+      "riot:R"
+    ],
+    "subject_id": "riot:role",
+    "title": "Gnar",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "When returning to Mini Gnar, Gnar will only retain his current health percentage, not current health total.",
+            "source_id": "wiki:ragegene"
+          }
+        ],
+        "status": "supported",
+        "summary": "Returning to Mini preserves health percentage rather than the current health total."
+      }
+    ],
+    "card_id": "champ:gnar:p:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Innate: Gnar gains bonus movement speed and attack range.",
+            "source_id": "wiki:minignar"
+          }
+        ],
+        "id": "22f618b04014b62ce4bdb9e9",
+        "summary": "Mini has extra movement speed and attack range."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Casting any of them during this time also causes Gnar to transform into Mega Gnar instantly, else he will transform automatically after the 4 seconds have elapsed.",
+            "source_id": "wiki:ragegene"
+          }
+        ],
+        "id": "ea944e626a9adb6c032e17ba",
+        "summary": "Full Rage enables transformation through an ability cast or automatically after a delay."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Innate: Gnar gains increased base health, attack damage, armor, and magic resist.",
+            "source_id": "wiki:megagnar"
+          }
+        ],
+        "id": "2171a75a55cea69106ba727a",
+        "summary": "Mega gains health, attack damage and resistances."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Gnar's abilities share cooldowns across forms.",
+            "source_id": "wiki:ragegene"
+          }
+        ],
+        "id": "5689cffed5c655b98cbcd348",
+        "summary": "Changing form does not provide separate ability cooldowns."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Read transformation timing and the practical differences between forms.",
+    "slot": "P",
+    "source_ids": [
+      "wiki:ragegene",
+      "wiki:minignar",
+      "wiki:megagnar",
+      "riot:P"
+    ],
+    "subject_id": "wiki:ragegene",
+    "title": "Rage Gene — Mini and Mega Gnar",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Since the cooldown between the two is shared, Mini Gnar may pick up a boulder and/or Mega Gnar may catch a boomerang.",
+            "source_id": "wiki:boomerangthrow"
+          }
+        ],
+        "status": "supported",
+        "summary": "Projectile retrieval remains possible across a form change."
+      }
+    ],
+    "card_id": "champ:gnar:q:recognize:L2",
+    "context_id": "wiki:ragegene",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "At maximum range or hitting an enemy, the boomerang flies back toward Gnar based on his current movement, dealing reduced damage.",
+            "source_id": "wiki:boomerangthrow"
+          }
+        ],
+        "id": "ac5946b6b00f033ad9df48c1",
+        "summary": "The boomerang returns toward Gnar and can deal return damage."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Mega Gnar throws a boulder in the target direction that stops upon the first enemy hit, dealing physical damage to nearby enemies slowing them.",
+            "source_id": "wiki:bouldertoss"
+          }
+        ],
+        "id": "1d0ba4cb1cc02c102b53f7ac",
+        "summary": "The boulder stops on an enemy and damages and slows the surrounding area."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If he catches the boomerang its cooldown is reduced.",
+            "source_id": "riot:Q"
+          },
+          {
+            "quote": "It can then be picked up to reduce the cooldown.",
+            "source_id": "riot:Q"
+          }
+        ],
+        "id": "7c9cdf8a47628d9b09f9ace0",
+        "summary": "Retrieving either projectile reduces its cooldown."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize each form's projectile and the importance of retrieval.",
+    "slot": "Q",
+    "source_ids": [
+      "wiki:boomerangthrow",
+      "wiki:bouldertoss",
+      "riot:Q"
+    ],
+    "subject_id": "wiki:boomerangthrow",
+    "title": "Boomerang Throw / Boulder Toss",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:gnar:w:recognize:L2",
+    "context_id": "wiki:ragegene",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "The third stack deals bonus magic damage based on the target's maximum health, and grants a burst of movement speed to Gnar.",
+            "source_id": "wiki:hyper"
+          }
+        ],
+        "id": "41c4be97b7188d0310b1aa43",
+        "summary": "Hyper rewards repeated hits with maximum-health magic damage and movement speed."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Gnar gains Hyper's bonus movement speed when he leaves Mega form.",
+            "source_id": "wiki:hyper"
+          }
+        ],
+        "id": "327a1ed40eef4ead0ebee45f",
+        "summary": "Returning to Mini also grants Hyper's movement speed."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Mega Gnar slams his arm down in an area toward the target direction, dealing physical damage and stunning enemies within.",
+            "source_id": "wiki:wallop"
+          }
+        ],
+        "id": "2f52b000e0e6d51ebbbe452a",
+        "summary": "Wallop damages and stuns enemies in its directed area."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Distinguish Mini's passive repeated-hit threat from Mega's active stun.",
+    "slot": "W",
+    "source_ids": [
+      "wiki:hyper",
+      "wiki:wallop",
+      "riot:W"
+    ],
+    "subject_id": "wiki:hyper",
+    "title": "Hyper / Wallop",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Gnar is locked out of using any other abilities during Crunch.",
+            "source_id": "wiki:crunch"
+          }
+        ],
+        "status": "supported",
+        "summary": "Crunch prevents other ability casts during the leap."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If Gnar generates Rage to maximum during Hop, he may cast Boulder Toss, Wallop, or GNAR! during the bounce.",
+            "source_id": "wiki:hop"
+          }
+        ],
+        "status": "supported",
+        "summary": "Reaching full Rage during Hop can allow Mega abilities during the bounce."
+      }
+    ],
+    "card_id": "champ:gnar:e:recognize:L2",
+    "context_id": "wiki:ragegene",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Mini Gnar leaps to the target location and bounces off of any unit he lands on, leaping forth again without a bounce.",
+            "source_id": "wiki:hop"
+          }
+        ],
+        "id": "af47d0b3968e40945e2a7151",
+        "summary": "Hop can extend its travel by bouncing off a unit."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Mega Gnar leaps to the target location, slowing enemies he lands on and dealing physical damage to nearby enemies based on his maximum health.",
+            "source_id": "wiki:crunch"
+          },
+          {
+            "quote": "Gnar sends out a shockwave, dealing the same damage to additional enemies in a larger radius.",
+            "source_id": "wiki:crunch"
+          }
+        ],
+        "id": "5cb271347047562b859247ec",
+        "summary": "Crunch damages and slows on landing, then damages a wider area."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If Hop is used to transform, it will not grant bonus attack speed. Instead, after bouncing Gnar will send out a shockwave as per Crunch where he lands.",
+            "source_id": "wiki:hop"
+          }
+        ],
+        "id": "5c4831969a34e523b289c0fd",
+        "summary": "Transforming Hop adds a Crunch shockwave instead of attack speed."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize bounce-assisted movement and the transforming engage.",
+    "slot": "E",
+    "source_ids": [
+      "wiki:hop",
+      "wiki:crunch",
+      "riot:E"
+    ],
+    "subject_id": "wiki:hop",
+    "title": "Hop / Crunch",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:gnar:r:recognize:L2",
+    "context_id": "wiki:ragegene",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Mega Gnar throws enemies around him in the target direction, dealing physical damage and slowing them upon their landing.",
+            "source_id": "wiki:gnar"
+          }
+        ],
+        "id": "8300cf999eb58b25af1ca090",
+        "summary": "Mega throws nearby enemies in a chosen direction, damaging and slowing them."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Enemies that collide with terrain are instead stunned and take increased damage.",
+            "source_id": "wiki:gnar"
+          },
+          {
+            "quote": "GNAR! can interact with player-generated terrain.",
+            "source_id": "wiki:gnar"
+          }
+        ],
+        "id": "0d317535b62c32f91d3d067f",
+        "summary": "Terrain collision adds a stun and increased damage, including against player-generated terrain."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Mini Gnar - Passive: Hyper's bonus movement speed is increased.",
+            "source_id": "wiki:gnar"
+          }
+        ],
+        "id": "2510485a47d4333bb88bdbf8",
+        "summary": "Mini's R increases Hyper's movement-speed bonus."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the wall-stun threat and R's passive role in Mini form.",
+    "slot": "R",
+    "source_ids": [
+      "wiki:gnar",
+      "riot:R"
+    ],
+    "subject_id": "wiki:gnar",
+    "title": "GNAR!",
+    "unsupported_claims": []
+  }
+]

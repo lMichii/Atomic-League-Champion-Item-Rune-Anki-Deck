@@ -1,0 +1,431 @@
+{
+  "abilities": [
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune's basic attacks apply a mark that expires when attacking a new enemy. If the enemy was unmarked, this also deals bonus physical damage.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "The mark tracks the last attacked enemy; switching targets enables Love Tap again."
+        },
+        {
+          "citations": [
+            {
+              "quote": "halved to 25% – 50% (based on level) AD against minions.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "The empowered attack will not trigger against buildings.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "Love Tap deals reduced bonus damage against minions and does not trigger against buildings."
+        },
+        {
+          "citations": [
+            {
+              "quote": "With Runaan's Hurricane, Love Tap only applies to the primary target.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "The bonus damage applies life steal.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "Love Tap applies only to Runaan's Hurricane's primary target, and its bonus damage applies life steal."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune deals bonus physical damage whenever she basic attacks a new target.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Miss Fortune's basic attacks apply a mark that expires when attacking a new enemy. If the enemy was unmarked, this also deals bonus physical damage.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.new_target_damage",
+          "summary": "Basic attacks against a new eligible target deal bonus physical damage, rewarding target switching."
+        }
+      ],
+      "slot": "P",
+      "unsupported_claims": [
+        "Every consecutive attack against the same target triggers Love Tap.",
+        "Love Tap has a timed reset while repeatedly attacking the same target."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Double Up's bounce can critically strike, and does so if Double Up kills the primary target.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "The bounce can critically strike and is guaranteed to do so if the first hit kills its target."
+        },
+        {
+          "citations": [
+            {
+              "quote": "applying on-attack effects to the primary target and on-hit effects to both enemies hit.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "The primary hit applies on-attack effects; both hits apply on-hit effects."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The bounce prioritizes units directly behind the primary target. A target does not have to be visible to be hit by the bounce.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Neutral units count as valid targets to bounce.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "If there is no secondary target, the shot will not bounce and the dud will instead fall to the ground.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "Bounce selection prioritizes enemies directly behind the first target, can hit unseen or neutral targets, and requires an eligible secondary target."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Spell shields can be used by either target. If it is on the primary target, the spell shield will not prevent the shot from bouncing.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "Either target can spell-shield its hit; a shield on the first target does not stop the bounce."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Double Up's cast range adjusts based on Miss Fortune's attack range, which can be increased by items such as Rapid Firecannon.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "If the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "Cast range follows attack range. Losing a valid primary target during the cast cancels it without spending its cost or cooldown."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune fires a bullet at an enemy, damaging them and a target behind them.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Miss Fortune fires a shot at the target enemy that deals physical damage, which then bounces to hit another enemy behind them.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.bouncing_damage",
+          "summary": "A targeted shot deals physical damage and bounces to another eligible enemy behind the first."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Both strikes can also apply Love Tap.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "id": "Q.love_tap",
+          "summary": "Both hits can apply Love Tap."
+        }
+      ],
+      "slot": "Q",
+      "unsupported_claims": [
+        "The bounce always prioritizes champions.",
+        "Killing the primary target is required for any bounce to critically strike.",
+        "The primary hit is guaranteed to critically strike when it kills its target."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune gains bonus movement speed after 4 seconds without taking non- periodic damage. This bonus is increased after another 3 seconds, and is granted instantly whenever Strut is cast.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "The bonus movement speed is not lost from taking 0 damage instances.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "The passive movement bonus builds in stages; the detailed description specifies non-periodic damage, and zero-damage instances do not remove it."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune passively gains Move Speed when not attacked.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Miss Fortune gains bonus movement speed after 4 seconds without taking non- periodic damage.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.passive_movement_speed",
+          "summary": "Passively gains movement speed after avoiding qualifying damage for a time."
+        },
+        {
+          "citations": [
+            {
+              "quote": "This ability can be activated to grant bonus Attack Speed for a short duration.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Active: Miss Fortune gains bonus attack speed for 4 seconds.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.active_attack_speed",
+          "summary": "Activation temporarily grants bonus attack speed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "This bonus is increased after another few seconds, and is granted instantly whenever Strut is cast.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.instant_movement_bonus",
+          "summary": "Casting Strut instantly grants its increased movement speed bonus."
+        },
+        {
+          "citations": [
+            {
+              "quote": "While it's on cooldown, Love Taps reduce the remaining cooldown of Strut.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Marking a new target with Love Tap reduces Strut's current cooldown by 2 seconds.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.love_tap_cooldown",
+          "summary": "Love Tap triggers reduce Strut's remaining cooldown."
+        }
+      ],
+      "slot": "W",
+      "unsupported_claims": [
+        "Every basic attack reduces Strut's cooldown regardless of Love Tap.",
+        "Every damage instance removes the movement speed bonus."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Make It Rain's slow cannot be cleansed.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "The Wiki explicitly states that the slow cannot be cleansed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Counters\nSpell shield\nNot Blocked",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Spell shields do not block Make It Rain."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune casts a storm of bullets at the target location for a short time, which continually deals magic damage and slows enemies within.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "dealing waves of damage to opponents and slowing them.",
+              "source_id": "riot:E"
+            }
+          ],
+          "id": "E.area_damage",
+          "summary": "Creates a temporary area at a chosen location that repeatedly deals magic damage to enemies inside."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune casts a storm of bullets at the target location for a short time, which continually deals magic damage and slows enemies within.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "dealing waves of damage to opponents and slowing them.",
+              "source_id": "riot:E"
+            }
+          ],
+          "id": "E.slow",
+          "summary": "Slows enemies within the area."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune reveals an area with a flurry of bullets",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "granting sight of the area",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.area_vision",
+          "summary": "Grants sight of the affected area."
+        }
+      ],
+      "slot": "E",
+      "unsupported_claims": [
+        "The area grants true sight or reveals invisible enemies.",
+        "The slow persists for a specified duration after an enemy leaves the area."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Targets cannot be damaged by more than one projectile per wave.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "An individual target can take damage from only one projectile in each wave."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The damage dealt by each wave of Bullet Time is calculated when the wave reaches the target.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Each wave's damage is calculated on arrival."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Counters\nSpell shield\nNot Blocked\nProjectile\nBlocked\nDisruption\nInterrupted",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Attacking\nInterrupts\nAbilities\nInterrupts\nMovement\nInterrupts",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Interrupted by\nDeath\nCast-inhibiting effects",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Spell shields do not block Bullet Time, projectile blocking can block it, and attacking, moving, casting abilities, death or cast-inhibiting effects interrupt its channel."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune is allowed to cast Flash during this cast time. As Flash changes the user's facing direction, this will cause Bullet Time to fire in the new facing direction.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Casting Flash before the cast time will not affect the cast direction (Bullet Time will correctly fire towards the targeted location on the ground).",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Interrupted by\nFlash Teleport Recall Hexflash",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Flash during the brief cast time can redirect the barrage; Flash before the cast does not change its targeted direction, while Flash during the channel interrupts it."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune may cancel the last ~0.1 seconds of channel time at no loss of effect.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "The final approximately 0.1 seconds of channeling can be canceled without losing a wave."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune reveals a 200-radius area around herself for 2.0 seconds to the enemy team if she fires from an unseen location and there is one of their units within the target cone of PENDING FOR TEST: 1400 units radius and 17° cone",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "The precise conditions and geometry for revealing Miss Fortune when firing from an unseen location are pending testing and are not established learning content."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Miss Fortune channels a barrage of bullets into a cone in front of her, dealing large amounts of damage to enemies.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Miss Fortune channels for a short time, firing several waves of bullets in the target direction that deal physical damage to enemies hit.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.channeled_cone_damage",
+          "summary": "Channels repeated waves of physical damage into a cone in the targeted direction."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Each wave of Bullet Time can critically strike",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Each wave can critically strike.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.wave_critical_strikes",
+          "summary": "Each wave can critically strike."
+        }
+      ],
+      "slot": "R",
+      "unsupported_claims": [
+        "Multiple projectiles from one wave can all damage the same target.",
+        "Bullet Time grants damage reduction or protection while channeling.",
+        "The pending-test reveal radii and angles are verified mechanics."
+      ]
+    }
+  ]
+}

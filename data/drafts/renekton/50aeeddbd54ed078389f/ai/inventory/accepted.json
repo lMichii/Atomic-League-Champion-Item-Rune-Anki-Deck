@@ -1,0 +1,469 @@
+{
+  "cards": [
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Renekton. Official role tags: Fighter, Tank.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Active: Renekton cleaves around himself, dealing physical damage to nearby enemies.",
+              "source_id": "wiki:cullthemeek"
+            },
+            {
+              "quote": "Active: Renekton's next basic attack within a few seconds will strike twice, dealing modified physical damage and briefly stunning the target.",
+              "source_id": "wiki:ruthlesspredator"
+            },
+            {
+              "quote": "During this time, Renekton creates an aura that continually deals magic damage to nearby enemies.",
+              "source_id": "wiki:dominus"
+            }
+          ],
+          "id": "overview_fighting_role",
+          "summary": "Renekton is a close-range fighter/tank whose basic combat abilities deal physical damage, with healing and a targeted stun; Dominus adds nearby magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Renekton's attacks generate Fury, increased when he is low on life. This Fury can empower his abilities with bonus effects.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Active - Slice: Renekton dashes in the target direction, dealing physical damage to enemies he passes through. If he hits an enemy, he can recast Slice and Dice within the next few seconds.",
+              "source_id": "wiki:sliceanddice"
+            }
+          ],
+          "id": "overview_threat_access",
+          "summary": "Fury strengthens his threats. Slice provides dash access, while access to its recast depends on hitting an enemy."
+        }
+      ],
+      "kind": "overview",
+      "purpose": "Recognize his close-range damage, sustain, stun and conditional pursuit before choosing trade distance.",
+      "slot": "",
+      "source_ids": [
+        "riot:role",
+        "riot:P",
+        "wiki:cullthemeek",
+        "wiki:ruthlesspredator",
+        "wiki:sliceanddice",
+        "wiki:dominus"
+      ],
+      "subject_id": "riot:role",
+      "title": "Renekton: close-range Fury fighter",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Additionally, while Dominus is active, the timer is continuously refreshed.",
+              "source_id": "wiki:reignofanger"
+            }
+          ],
+          "status": "supported",
+          "summary": "Dominus continuously refreshes the Fury-loss timer."
+        },
+        {
+          "citations": [
+            {
+              "quote": "PENDING FOR TEST: Fury generation with parrying effects ( blind, dodge, block)",
+              "source_id": "wiki:reignofanger"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "Fury generation against parrying effects is explicitly pending testing."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Innate: Renekton's basic attacks on-hit and ability hits generate Fury, which continually expires after a period without fighting. He generates bonus Fury while below half health.",
+              "source_id": "wiki:reignofanger"
+            }
+          ],
+          "id": "fury_generation_decay",
+          "summary": "Basic attacks and ability hits build Fury; it decays after inactivity, and generation increases below half health."
+        },
+        {
+          "citations": [
+            {
+              "quote": "While Renekton has at least 50 Fury, his next basic ability, excluding Slice, consumes 50 Fury to become empowered with an additional effect. Empowered abilities do not generate Fury.",
+              "source_id": "wiki:reignofanger"
+            }
+          ],
+          "id": "fury_spending",
+          "summary": "At least 50 Fury empowers the next eligible basic ability and consumes 50 Fury. Slice is excluded, and empowered abilities do not generate Fury."
+        }
+      ],
+      "kind": "system",
+      "purpose": "Read Fury before committing, including when low health increases his ability to rebuild it.",
+      "slot": "P",
+      "source_ids": [
+        "riot:P",
+        "wiki:reignofanger"
+      ],
+      "subject_id": "wiki:reignofanger",
+      "title": "Reign of Anger: Fury cycle",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Renekton cleaves around himself, dealing physical damage to nearby enemies. He also generates Fury and heals for each enemy hit, increased against champions.",
+              "source_id": "wiki:cullthemeek"
+            }
+          ],
+          "id": "cull_area_sustain",
+          "summary": "Cull the Meek deals physical damage around Renekton, generates Fury and heals per enemy hit, with increased healing against champions."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Reign of Anger Bonus: Cull the Meek has increased damage and healing.",
+              "source_id": "wiki:cullthemeek"
+            }
+          ],
+          "id": "cull_empowerment",
+          "summary": "Fury empowerment increases its damage and healing."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize his surrounding sustain threat and avoid giving him easy healing during trades.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:cullthemeek"
+      ],
+      "subject_id": "wiki:cullthemeek",
+      "title": "Cull the Meek: surrounding damage and healing",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Even if empowered Ruthless Predator is blocked by a spell shield, it will still destroy any existing damage shields on the target.",
+              "source_id": "wiki:ruthlesspredator"
+            }
+          ],
+          "status": "supported",
+          "summary": "The supplied wiki states that a spell shield does not prevent empowered Ruthless Predator from destroying existing damage shields."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Ruthless Predator does not cause Renekton to attack twice/thrice. Effects that trigger on-attack or interact with the attack windup will only trigger once and thus do not interact with Ruthless Predator.",
+              "source_id": "wiki:ruthlesspredator"
+            }
+          ],
+          "status": "supported",
+          "summary": "Its repeated strikes should not be interpreted as repeated attacks for on-attack triggers."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Renekton's next basic attack within a few seconds will strike twice, dealing modified physical damage and briefly stunning the target.",
+              "source_id": "wiki:ruthlesspredator"
+            }
+          ],
+          "id": "predator_attack_stun",
+          "summary": "Ruthless Predator modifies his next basic attack to strike twice, dealing physical damage and briefly stunning its target."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Reign of Anger Bonus: Renekton instead strikes 3 times with increased stun duration, destroying damage shields on the target before dealing damage.",
+              "source_id": "wiki:ruthlesspredator"
+            }
+          ],
+          "id": "predator_empowered_shieldbreak",
+          "summary": "Fury empowerment makes it strike 3 times, extends the stun and destroys damage shields before dealing damage."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize the targeted stun threat and the added danger of relying on damage shields against empowered W.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:ruthlesspredator",
+        "riot:W"
+      ],
+      "subject_id": "wiki:ruthlesspredator",
+      "title": "Ruthless Predator: attack stun and shield destruction",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active - Slice: Renekton dashes in the target direction, dealing physical damage to enemies he passes through. If he hits an enemy, he can recast Slice and Dice within the next few seconds. Recast - Dice: Renekton dashes in the target direction, dealing physical damage to enemies he passes through.",
+              "source_id": "wiki:sliceanddice"
+            }
+          ],
+          "id": "slice_dice_access",
+          "summary": "Slice dashes through enemies for physical damage. Hitting an enemy unlocks a brief opportunity to recast as Dice, another damaging dash."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Reign of Anger Bonus: Dice, the recast, deals additional damage and reduces enemy armor for a few seconds.",
+              "source_id": "wiki:sliceanddice"
+            },
+            {
+              "quote": "While Renekton has at least 50 Fury, his next basic ability, excluding Slice, consumes 50 Fury to become empowered with an additional effect.",
+              "source_id": "wiki:reignofanger"
+            }
+          ],
+          "id": "dice_empowered_armor",
+          "summary": "Fury empowers Dice with additional damage and temporary armor reduction; Slice does not consume Fury for empowerment."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Track whether Slice hit an enemy before judging his remaining pursuit or escape, and recognize empowered Dice's armor reduction.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:sliceanddice",
+        "wiki:reignofanger"
+      ],
+      "subject_id": "wiki:sliceanddice",
+      "title": "Slice and Dice: conditional dash recast",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Renekton transforms into the Tyrant form, gaining bonus Health and dealing damage to enemies around him. While in this form, Renekton gains Fury periodically.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Active: Renekton empowers himself for some time, gaining Fury, bonus health, bonus size, bonus attack range, and increased area on Cull the Meek.",
+              "source_id": "wiki:dominus"
+            }
+          ],
+          "id": "dominus_transformation",
+          "summary": "Dominus transforms Renekton into Tyrant form, granting bonus health, size, attack range and increased Cull the Meek area."
+        },
+        {
+          "citations": [
+            {
+              "quote": "During this time, Renekton creates an aura that continually deals magic damage to nearby enemies. He also continually generates Fury, up to a cap.",
+              "source_id": "wiki:dominus"
+            },
+            {
+              "quote": "Active: Renekton empowers himself for some time, gaining Fury, bonus health, bonus size, bonus attack range, and increased area on Cull the Meek.",
+              "source_id": "wiki:dominus"
+            }
+          ],
+          "id": "dominus_aura_fury",
+          "summary": "Dominus grants Fury on activation and continually generates more, up to a cap, while its aura continually deals nearby magic damage."
+        }
+      ],
+      "kind": "transformation",
+      "purpose": "Recognize his enlarged sustained-fight state, account for renewed Fury, and reassess close-range trades when he activates it.",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:dominus"
+      ],
+      "subject_id": "wiki:dominus",
+      "title": "Dominus: Tyrant transformation",
+      "unsupported_claims": []
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Use the detailed passive's inclusive threshold of at least 50 Fury. Riot ability descriptions say more than 50; the wiki's introductory percentage wording is less precise than its detailed rule.",
+      "source_ids": [
+        "riot:Q",
+        "riot:W",
+        "wiki:reignofanger"
+      ],
+      "topic": "Fury empowerment threshold"
+    },
+    {
+      "resolution": "Teach Slice's exclusion from Fury consumption and Dice's empowerment using the detailed passive and E descriptions.",
+      "source_ids": [
+        "wiki:reignofanger",
+        "wiki:sliceanddice",
+        "riot:E"
+      ],
+      "topic": "Generic basic-ability empowerment wording versus Slice exception"
+    }
+  ],
+  "factual_risks": [
+    "The Data Dragon release is pinned; the packet does not establish a current game patch label.",
+    "The pending parrying-effects test is uncertain and supplies no established Fury interaction.",
+    "The cooldown-change note in wiki:W is excluded as an isolated numerical change note.",
+    "Lore, skins, collection text and credits embedded in wiki:R are excluded from gameplay teaching.",
+    "Health Relics and peripheral pickup interactions are omitted from the central Fury goal because their mode context is not established.",
+    "Detailed wiki-only interaction exceptions remain advanced material; no current-client verification is supplied."
+  ],
+  "features": [
+    "standard",
+    "resource_cycle",
+    "transformations",
+    "conditional_effects"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "Reign of Anger Bonus: Cull the Meek has increased damage and healing.",
+          "source_id": "wiki:cullthemeek"
+        }
+      ],
+      "condition": "Fury empowerment applies.",
+      "from_id": "wiki:reignofanger",
+      "kind": "conditional_effect",
+      "to_id": "wiki:cullthemeek"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Reign of Anger Bonus: Renekton instead strikes 3 times with increased stun duration, destroying damage shields on the target before dealing damage.",
+          "source_id": "wiki:ruthlesspredator"
+        }
+      ],
+      "condition": "Fury empowerment applies.",
+      "from_id": "wiki:reignofanger",
+      "kind": "conditional_effect",
+      "to_id": "wiki:ruthlesspredator"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Reign of Anger Bonus: Dice, the recast, deals additional damage and reduces enemy armor for a few seconds.",
+          "source_id": "wiki:sliceanddice"
+        }
+      ],
+      "condition": "Dice is cast with Fury empowerment available; Slice is excluded.",
+      "from_id": "wiki:reignofanger",
+      "kind": "conditional_effect",
+      "to_id": "wiki:sliceanddice"
+    },
+    {
+      "citations": [
+        {
+          "quote": "He also continually generates Fury, up to a cap.",
+          "source_id": "wiki:dominus"
+        }
+      ],
+      "condition": "Dominus is active.",
+      "from_id": "wiki:dominus",
+      "kind": "conditional_effect",
+      "to_id": "wiki:reignofanger"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Active: Renekton empowers himself for some time, gaining Fury, bonus health, bonus size, bonus attack range, and increased area on Cull the Meek.",
+          "source_id": "wiki:dominus"
+        }
+      ],
+      "condition": "Dominus is active.",
+      "from_id": "wiki:dominus",
+      "kind": "conditional_effect",
+      "to_id": "wiki:cullthemeek"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "The Fury cycle and Slice exception determine which threats are empowered; pending tests and peripheral interactions are excluded from cores.",
+      "source_id": "wiki:reignofanger",
+      "target_subject_ids": [
+        "wiki:reignofanger"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Surrounding damage, healing and empowerment form a distinct enemy-recognition goal; scaling and brief lockouts are unnecessary for it.",
+      "source_id": "wiki:cullthemeek",
+      "target_subject_ids": [
+        "wiki:cullthemeek"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The attack stun and empowered shield destruction are central threats; specialized trigger interactions are advanced material.",
+      "source_id": "wiki:ruthlesspredator",
+      "target_subject_ids": [
+        "wiki:ruthlesspredator"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Slice, its hit-gated Dice recast and Dice empowerment belong together as a movement-recognition goal.",
+      "source_id": "wiki:sliceanddice",
+      "target_subject_ids": [
+        "wiki:sliceanddice"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The transformation, aura, Fury generation and increased reach fit a shared sustained-fight goal without a separate form card.",
+      "source_id": "wiki:dominus",
+      "target_subject_ids": [
+        "wiki:dominus"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:reignofanger"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:cullthemeek"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:ruthlesspredator"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:sliceanddice"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:dominus"
+      ]
+    }
+  ],
+  "summary": "Unapproved editorial inventory: a concise overview, Fury system, distinct basic combat abilities and an integrated Dominus transformation goal. Empowered effects stay with their abilities; Slice and Dice remain a unified conditional-recast goal."
+}

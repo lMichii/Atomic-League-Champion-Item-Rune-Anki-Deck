@@ -1,0 +1,757 @@
+{
+  "cards": [
+    {
+      "text": {
+        "answer": "Rell is a tank support who engages with a shielded leap and nearby pulls. Her abilities deal magic damage, while health strengthens her Crash Down shield and resistances strengthen her passive attack damage. Counterplay: Spread out and keep distance from her engage.",
+        "build_focus": "Health, Armor, MR",
+        "counterplay": "Spread out and keep distance from her engage.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Rell. Official role tags: Tank, Support.",
+                "source_id": "riot:role"
+              }
+            ],
+            "claim": "Rell is a tank support"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Rell becomes Dismounted and leaps to the target location, gaining a shield",
+                "source_id": "wiki:ferromancycrashdown"
+              },
+              {
+                "quote": "pulling nearby enemies inward",
+                "source_id": "wiki:magnetstorm"
+              }
+            ],
+            "claim": "engages with a shielded leap and nearby pulls"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Rell deals magic damage to units in a line",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Upon arrival, she deals magic damage",
+                "source_id": "wiki:ferromancycrashdown"
+              },
+              {
+                "quote": "dealing magic damage to nearby enemies",
+                "source_id": "wiki:fulltilt"
+              },
+              {
+                "quote": "dealing magic damage over time",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "Her abilities deal magic damage"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shield Strength:20 / 40 / 60 / 80 / 100 (+ 11% maximum health)",
+                "source_id": "wiki:ferromancycrashdown"
+              }
+            ],
+            "claim": "health strengthens her Crash Down shield"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Rell's basic attacks deal bonus magic damage on-hit equal to a percentage of her total armor and total magic resistance.",
+                "source_id": "wiki:breakthemold"
+              }
+            ],
+            "claim": "resistances strengthen her passive attack damage"
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Recognizing her engage range and area control is central to fighting her.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Rell. Official role tags: Tank, Support.",
+                "source_id": "riot:role"
+              }
+            ],
+            "id": "riot:role",
+            "summary": "Tank support."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Rell becomes Dismounted and leaps to the target location, gaining a shield",
+                "source_id": "wiki:ferromancycrashdown"
+              },
+              {
+                "quote": "pulling nearby enemies inward",
+                "source_id": "wiki:magnetstorm"
+              }
+            ],
+            "id": "wiki:ferromancycrashdown",
+            "summary": "Shielded leap and nearby pulls provide her engage pattern."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Rell's role, engage pattern, damage and durability focus.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "riot:Q",
+          "riot:R",
+          "wiki:breakthemold",
+          "wiki:ferromancycrashdown",
+          "wiki:fulltilt",
+          "wiki:magnetstorm"
+        ],
+        "subject_id": "Rell",
+        "title": "Rell",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Rell's attacks deal bonus magic damage based on her armor and magic resistance. Her attacks and abilities stack a resistance steal: affected enemies lose armor and magic resistance, and Rell gains the stolen resistances.",
+        "build_focus": "",
+        "counterplay": "Disengage from prolonged contact to let the resistance debuff expire.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Rell's basic attacks deal bonus magic damage on-hit equal to a percentage of her total armor and total magic resistance.",
+                "source_id": "wiki:breakthemold"
+              }
+            ],
+            "claim": "Rell's attacks deal bonus magic damage based on her armor and magic resistance."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Rell's basic attacks and abilities apply a stack of Break The Mold to enemies hit for a few seconds. Each stack reduces the target's armor and magic resist and increases Rell's armor and magic resist by the same amount.",
+                "source_id": "wiki:breakthemold"
+              },
+              {
+                "quote": "Rell gains bonus armor and bonus magic resistance equal to the sum of resistances reduced from all afflicted enemies.",
+                "source_id": "wiki:breakthemold"
+              }
+            ],
+            "claim": "Her attacks and abilities stack a resistance steal: affected enemies lose armor and magic resistance, and Rell gains the stolen resistances."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "Repeated contact weakens enemy defenses while strengthening Rell.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "All subsequent stacks will reduce the targets resistances based on the snapshotted amount, even if the target's total resistances change. This snapshot lasts until the debuff expires.",
+                "source_id": "wiki:breakthemold"
+              }
+            ],
+            "status": "supported",
+            "summary": "Resistance reduction uses a snapshot taken when the initial stack is applied."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Rell's basic attacks deal bonus magic damage on-hit equal to a percentage of her total armor and total magic resistance.",
+                "source_id": "wiki:breakthemold"
+              }
+            ],
+            "id": "wiki:breakthemold",
+            "summary": "Attacks gain magic damage based on her resistances."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Rell's basic attacks and abilities apply a stack of Break The Mold to enemies hit for a few seconds. Each stack reduces the target's armor and magic resist and increases Rell's armor and magic resist by the same amount.",
+                "source_id": "wiki:breakthemold"
+              }
+            ],
+            "id": "riot:P",
+            "summary": "Attacks and abilities apply stacking resistance theft."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Explain why extended contact changes both sides' durability.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:breakthemold",
+          "riot:P"
+        ],
+        "subject_id": "wiki:breakthemold",
+        "title": "Break the Mold",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Rell strikes in a line, destroying damage shields before dealing magic damage and stunning enemies hit.",
+        "build_focus": "",
+        "counterplay": "Sidestep the line and avoid relying on a shield to absorb the strike.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Rell deals magic damage to units in a line, breaking their shields and stunning them.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "destroys damage shields of enemies hit before dealing magic damage and stunning",
+                "source_id": "wiki:shatteringstrike"
+              }
+            ],
+            "claim": "Rell strikes in a line, destroying damage shields before dealing magic damage and stunning enemies hit."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "The stun and shield destruction directly affect defensive responses.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Rell deals magic damage to units in a line, breaking their shields and stunning them.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "destroys damage shields of enemies hit before dealing magic damage and stunning",
+                "source_id": "wiki:shatteringstrike"
+              }
+            ],
+            "id": "wiki:shatteringstrike",
+            "summary": "Line strike destroys damage shields before its magic damage and stun."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the linear stun and its shield-breaking threat.",
+        "slot": "Q",
+        "source_ids": [
+          "riot:Q",
+          "wiki:shatteringstrike"
+        ],
+        "subject_id": "wiki:shatteringstrike",
+        "title": "Shattering Strike",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "While mounted, Rell can leap into dismounted form, gaining a shield and dealing magic damage with a knockup and stun on arrival. She then slides forward, affecting more enemies along her path. She can cast Magnet Storm during the leap.",
+        "build_focus": "",
+        "counterplay": "Move away from her landing area and slide path; avoid clustering near her engage.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "This ability can be cast only while Rell is Mounted.",
+                "source_id": "wiki:ferromancycrashdown"
+              },
+              {
+                "quote": "Rell becomes Dismounted and leaps to the target location, gaining a shield that lasts until destroyed or casting Ferromancy: Mount Up. Upon arrival, she deals magic damage and briefly knocks up and stuns enemies hit.",
+                "source_id": "wiki:ferromancycrashdown"
+              }
+            ],
+            "claim": "While mounted, Rell can leap into dismounted form, gaining a shield and dealing magic damage with a knockup and stun on arrival."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "She will continue sliding forward to affect further enemies along her path.",
+                "source_id": "wiki:ferromancycrashdown"
+              }
+            ],
+            "claim": "She then slides forward, affecting more enemies along her path."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Rell can cast Magnet Storm during the dash",
+                "source_id": "wiki:ferromancycrashdown"
+              }
+            ],
+            "claim": "She can cast Magnet Storm during the leap."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Her area engage can combine directly with her ultimate.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Upon completing a Recall channel or respawning, Rell will automatically revert to Mounted form without casting the ability and reset Ferromancy: Mount Up's cooldown.",
+                "source_id": "wiki:ferromancycrashdown"
+              }
+            ],
+            "status": "supported",
+            "summary": "Recall completion and respawn restore mounted form and reset Mount Up's cooldown."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Rell becomes Dismounted and leaps to the target location, gaining a shield that lasts until destroyed or casting Ferromancy: Mount Up. Upon arrival, she deals magic damage and briefly knocks up and stuns enemies hit.",
+                "source_id": "wiki:ferromancycrashdown"
+              }
+            ],
+            "id": "wiki:ferromancycrashdown",
+            "summary": "Shielded dismounting leap damages and disables enemies on arrival."
+          },
+          {
+            "citations": [
+              {
+                "quote": "She will continue sliding forward to affect further enemies along her path.",
+                "source_id": "wiki:ferromancycrashdown"
+              }
+            ],
+            "id": "wiki:W",
+            "summary": "The slide extends the affected path beyond the landing."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Rell can cast Magnet Storm during the dash",
+                "source_id": "wiki:ferromancycrashdown"
+              }
+            ],
+            "id": "wiki:magnetstorm",
+            "summary": "Magnet Storm can be cast during the leap."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the mounted area engage and its ultimate combination.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:ferromancycrashdown",
+          "wiki:W"
+        ],
+        "subject_id": "wiki:ferromancycrashdown",
+        "title": "Ferromancy: Crash Down",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "While dismounted, Rell gains armor, magic resistance, attack speed and attack range. Mount Up restores mounted form and briefly speeds her up; her next attack gains range and charges to its target, dealing bonus magic damage, stunning and flinging the target over her.",
+        "build_focus": "",
+        "counterplay": "Respect her remount chase and empowered attack; keep distance as she mounts.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "While Rell is Dismounted, she gains 15% bonus armor, 15% bonus magic resistance, 20% bonus attack speed, and 75 bonus attack range.",
+                "source_id": "wiki:ferromancymountup"
+              }
+            ],
+            "claim": "While dismounted, Rell gains armor, magic resistance, attack speed and attack range."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Rell becomes Mounted and gains bonus movement speed for a short time",
+                "source_id": "wiki:ferromancymountup"
+              },
+              {
+                "quote": "Rell's next basic attack will gain bonus attack range and causes her to charge to the target, dealing bonus magic damage before briefly stunning and flinging them over.",
+                "source_id": "wiki:ferromancymountup"
+              }
+            ],
+            "claim": "Mount Up restores mounted form and briefly speeds her up; her next attack gains range and charges to its target, dealing bonus magic damage, stunning and flinging the target over her."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Remounting creates a distinct chase and displacement threat.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Rell can use the empowered attack even while grounded or rooted.",
+                "source_id": "wiki:ferromancymountup"
+              },
+              {
+                "quote": "The dash can be knocked down but the attack's effects will still be applied.",
+                "source_id": "wiki:ferromancymountup"
+              }
+            ],
+            "status": "supported",
+            "summary": "Rooting, grounding or knocking down the charge does not necessarily prevent the empowered attack's effects."
+          }
+        ],
+        "context_id": "wiki:ferromancycrashdown",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "While Rell is Dismounted, she gains 15% bonus armor, 15% bonus magic resistance, 20% bonus attack speed, and 75 bonus attack range.",
+                "source_id": "wiki:ferromancymountup"
+              }
+            ],
+            "id": "wiki:ferromancymountup",
+            "summary": "Dismounted form grants resistances, attack speed and attack range."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Rell becomes Mounted and gains bonus movement speed for a short time",
+                "source_id": "wiki:ferromancymountup"
+              },
+              {
+                "quote": "Rell's next basic attack will gain bonus attack range and causes her to charge to the target, dealing bonus magic damage before briefly stunning and flinging them over.",
+                "source_id": "wiki:ferromancymountup"
+              }
+            ],
+            "id": "riot:W",
+            "summary": "Remounting grants speed and an empowered charge attack that stuns and flings its target."
+          }
+        ],
+        "kind": "ability_variant",
+        "purpose": "Distinguish the dismounted defenses and remount attack from Crash Down.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:ferromancymountup",
+          "riot:W"
+        ],
+        "subject_id": "wiki:ferromancymountup",
+        "title": "Ferromancy: Mount Up",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Full Tilt speeds up Rell and an allied champion, with a stronger bonus toward the empowered ally or a visible enemy champion. Her next attack or Shattering Strike creates an explosion around the target that deals magic damage to nearby enemies.",
+        "build_focus": "",
+        "counterplay": "Give the advancing pair space and avoid clustering around their target.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Rell powers up herself and the target allied champion for 3 seconds, both gaining 15% bonus movement speed, increased to 30% while facing the empowered ally or a visible enemy champion.",
+                "source_id": "wiki:fulltilt"
+              }
+            ],
+            "claim": "Full Tilt speeds up Rell and an allied champion, with a stronger bonus toward the empowered ally or a visible enemy champion."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Rell's next basic attack or Shattering Strike within 5 seconds will also explode around the target, dealing magic damage to nearby enemies.",
+                "source_id": "wiki:fulltilt"
+              }
+            ],
+            "claim": "Her next attack or Shattering Strike creates an explosion around the target that deals magic damage to nearby enemies."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "The speed boost extends engage pressure to an ally.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Rell powers up herself and the target allied champion for 3 seconds, both gaining 15% bonus movement speed, increased to 30% while facing the empowered ally or a visible enemy champion.",
+                "source_id": "wiki:fulltilt"
+              }
+            ],
+            "id": "wiki:fulltilt",
+            "summary": "Rell and an ally gain movement speed, enhanced toward the empowered ally or a visible enemy champion."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Rell's next basic attack or Shattering Strike within 5 seconds will also explode around the target, dealing magic damage to nearby enemies.",
+                "source_id": "wiki:fulltilt"
+              }
+            ],
+            "id": "riot:E",
+            "summary": "The next attack or Shattering Strike triggers an area magic damage explosion."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the shared approach speed and follow-up explosion.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:fulltilt",
+          "riot:E"
+        ],
+        "subject_id": "wiki:fulltilt",
+        "title": "Full Tilt",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Magnet Storm initially pulls nearby enemies inward, then keeps dragging them toward Rell while dealing magic damage over time. The ongoing drag does not disable actions or stop other movement.",
+        "build_focus": "",
+        "counterplay": "Spread out before her engage and use available movement to leave the dragging field.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Rell explodes in a magnetic fury, violently Pulling nearby enemies toward herself. Then Rell constantly Drags nearby enemies toward herself for a short while, dealing magic damage over time.",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "Magnet Storm initially pulls nearby enemies inward, then keeps dragging them toward Rell while dealing magic damage over time."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Kinematics drags enemies toward the Source, but does not disable their actions nor intercept other forms of movement.",
+                "source_id": "wiki:magnetstorm"
+              }
+            ],
+            "claim": "The ongoing drag does not disable actions or stop other movement."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Distinguishing the initial pull from the ongoing drag preserves useful responses.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Spell shield will block the initial pull but not the dragging effect.",
+                "source_id": "wiki:magnetstorm"
+              }
+            ],
+            "status": "supported",
+            "summary": "Spell shields block the initial pull but do not block the ongoing drag."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Rell explodes in a magnetic fury, violently Pulling nearby enemies toward herself. Then Rell constantly Drags nearby enemies toward herself for a short while, dealing magic damage over time.",
+                "source_id": "riot:R"
+              }
+            ],
+            "id": "wiki:magnetstorm",
+            "summary": "Initial nearby pull followed by ongoing drag and magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Kinematics drags enemies toward the Source, but does not disable their actions nor intercept other forms of movement.",
+                "source_id": "wiki:magnetstorm"
+              }
+            ],
+            "id": "riot:R",
+            "summary": "The ongoing drag permits actions and other movement."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the area pull and distinguish ongoing drag from a continuous disable.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:magnetstorm",
+          "riot:R"
+        ],
+        "subject_id": "wiki:magnetstorm",
+        "title": "Magnet Storm",
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Important cooldown topic: the supplied evidence does not give ordinary ability cooldowns or establish the shared timing between Crash Down and Mount Up. Do not infer an immediate recast or a precise punish window.",
+    "The supplied Mount Up section marks player-made wall interactions as pending testing; these interactions are omitted.",
+    "The broad wiki:R excerpt includes unrelated lore and historical changes; these do not establish additional current mechanics."
+  ],
+  "features": [
+    "multiple_forms",
+    "ability_variants",
+    "conditional_effects"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "While Rell is Dismounted, she can cast Ferromancy: Mount Up.",
+          "source_id": "wiki:ferromancycrashdown"
+        }
+      ],
+      "condition": "After becoming dismounted.",
+      "from_id": "wiki:ferromancycrashdown",
+      "kind": "unlocks",
+      "to_id": "wiki:ferromancymountup"
+    },
+    {
+      "citations": [
+        {
+          "quote": "This ability can be cast only while Rell is Dismounted.",
+          "source_id": "wiki:ferromancymountup"
+        }
+      ],
+      "condition": "W while dismounted.",
+      "from_id": "wiki:ferromancymountup",
+      "kind": "variant_of",
+      "to_id": "wiki:ferromancycrashdown"
+    },
+    {
+      "citations": [
+        {
+          "quote": "While Rell is Mounted, she can cast Ferromancy: Crash Down.",
+          "source_id": "wiki:ferromancymountup"
+        }
+      ],
+      "condition": "After becoming mounted.",
+      "from_id": "wiki:ferromancymountup",
+      "kind": "unlocks",
+      "to_id": "wiki:ferromancycrashdown"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Rell's next basic attack or Shattering Strike within 5 seconds will also explode around the target, dealing magic damage to nearby enemies.",
+          "source_id": "wiki:fulltilt"
+        }
+      ],
+      "condition": "Shattering Strike triggers Full Tilt's pending explosion.",
+      "from_id": "wiki:fulltilt",
+      "kind": "conditional_effect",
+      "to_id": "wiki:shatteringstrike"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Passive damage and resistance theft are taught; snapshot details remain advanced metadata.",
+      "source_id": "wiki:breakthemold",
+      "target_subject_ids": [
+        "wiki:breakthemold"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Line stun and shield destruction are central enemy-recognition effects.",
+      "source_id": "wiki:shatteringstrike",
+      "target_subject_ids": [
+        "wiki:shatteringstrike"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Mounted engage, shield, slide and ultimate combination are taught together.",
+      "source_id": "wiki:ferromancycrashdown",
+      "target_subject_ids": [
+        "wiki:ferromancycrashdown"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The remount charge has a distinct recognition purpose; dismounted bonuses are merged into this card.",
+      "source_id": "wiki:ferromancymountup",
+      "target_subject_ids": [
+        "wiki:ferromancymountup"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Shared movement speed and the conditional explosion are taught together.",
+      "source_id": "wiki:fulltilt",
+      "target_subject_ids": [
+        "wiki:fulltilt"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Initial pull, ongoing drag and freedom to act are taught together.",
+      "source_id": "wiki:magnetstorm",
+      "target_subject_ids": [
+        "wiki:magnetstorm"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:breakthemold"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:shatteringstrike"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:ferromancycrashdown",
+        "wiki:ferromancymountup"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:fulltilt"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:magnetstorm"
+      ]
+    }
+  ],
+  "summary": "A compact overview and primary ability cards, with a distinct Mount Up variant card for the remount chase and displacement threat."
+}

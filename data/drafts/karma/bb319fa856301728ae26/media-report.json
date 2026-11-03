@@ -1,0 +1,308 @@
+{
+  "bindings": [
+    {
+      "card_id": "champ:karma:overview:L1",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "jpg",
+        "path": "media/karma_portrait.jpg",
+        "retrieved_at": "2026-11-01T17:30:58.835641+00:00",
+        "sha256": "2c4310880f404da8da7a9199759ea5dc0609ed44aed47153f7c2bfc2b9ce2f62",
+        "source_sha256": "2c4310880f404da8da7a9199759ea5dc0609ed44aed47153f7c2bfc2b9ce2f62",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Karma_0.jpg"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "official champion portrait",
+      "slot_clip_candidate": null,
+      "subject_id": "riot:role",
+      "unresolved": [],
+      "video": null
+    },
+    {
+      "card_id": "champ:karma:system:r:mantra:recognize:L2",
+      "context_id": "",
+      "gif": {
+        "frames": 48,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/karma_r.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "894a294d9d6771430a93f3e1deef8cbfa867ab4f6e144af1f4deab6654f808aa"
+        },
+        "sha256": "3370187285b3f15d44c82a8e8f5a79140f1ae0d3e45b39cf96822b40333966f2",
+        "source_sha256": "894a294d9d6771430a93f3e1deef8cbfa867ab4f6e144af1f4deab6654f808aa",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0043/ability_0043_R1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/karma_r_icon.png",
+        "retrieved_at": "2026-11-01T17:31:07.120365+00:00",
+        "sha256": "c444d52fb694861fb4da627a729de3965917d6ea584fedb7ce4f76faa632e332",
+        "source_sha256": "c444d52fb694861fb4da627a729de3965917d6ea584fedb7ce4f76faa632e332",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KarmaMantra.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:mantra",
+      "unresolved": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review.",
+        "Passive/resource/leveling visual cues require manual review of the archived demonstration frames."
+      ],
+      "video": {
+        "kind": "webm",
+        "path": "media/karma_r.webm",
+        "retrieved_at": "2026-11-01T17:31:07.438983+00:00",
+        "sha256": "894a294d9d6771430a93f3e1deef8cbfa867ab4f6e144af1f4deab6654f808aa",
+        "source_sha256": "894a294d9d6771430a93f3e1deef8cbfa867ab4f6e144af1f4deab6654f808aa",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0043/ability_0043_R1.webm"
+      }
+    },
+    {
+      "card_id": "champ:karma:q:recognize:L2",
+      "context_id": "",
+      "gif": {
+        "frames": 49,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/karma_q.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "0d824b8538783991e6712c8f3ca0eccb69660c7b8644c17634c825f5f4a77129"
+        },
+        "sha256": "a6e18aeaa9f72eaeb1fcee9d040f952c9bf2ced156e5759a84d6d3b71ae8d10e",
+        "source_sha256": "0d824b8538783991e6712c8f3ca0eccb69660c7b8644c17634c825f5f4a77129",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0043/ability_0043_Q1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/karma_q_icon.png",
+        "retrieved_at": "2026-11-01T17:31:00.389653+00:00",
+        "sha256": "2eb43d55f5e9987b975bd52b6bfd06d6250670e20ebed5d647a05cc82183c8a8",
+        "source_sha256": "2eb43d55f5e9987b975bd52b6bfd06d6250670e20ebed5d647a05cc82183c8a8",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KarmaQ.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:innerflame",
+      "unresolved": [],
+      "video": {
+        "kind": "webm",
+        "path": "media/karma_q.webm",
+        "retrieved_at": "2026-11-01T17:31:00.739152+00:00",
+        "sha256": "0d824b8538783991e6712c8f3ca0eccb69660c7b8644c17634c825f5f4a77129",
+        "source_sha256": "0d824b8538783991e6712c8f3ca0eccb69660c7b8644c17634c825f5f4a77129",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0043/ability_0043_Q1.webm"
+      }
+    },
+    {
+      "card_id": "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+      "context_id": "wiki:mantra",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-9476c0180d28c523e9b1.png",
+        "retrieved_at": "2026-11-01T17:31:09.221060+00:00",
+        "sha256": "1c982b200cc8994236b8762b825308e57fdf53aacfe193782f7057487dc5ca20",
+        "source_sha256": "1c982b200cc8994236b8762b825308e57fdf53aacfe193782f7057487dc5ca20",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Karma_Soulflare.png?67ed2"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": {
+        "kind": "webm",
+        "path": "media/karma_q.webm",
+        "retrieved_at": "2026-11-01T17:31:00.739152+00:00",
+        "sha256": "0d824b8538783991e6712c8f3ca0eccb69660c7b8644c17634c825f5f4a77129",
+        "source_sha256": "0d824b8538783991e6712c8f3ca0eccb69660c7b8644c17634c825f5f4a77129",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0043/ability_0043_Q1.webm"
+      },
+      "subject_id": "wiki:soulflare",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    },
+    {
+      "card_id": "champ:karma:w:recognize:L2",
+      "context_id": "",
+      "gif": {
+        "frames": 54,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/karma_w.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "c72c2d287f7f2598a49ccfe0393a51399fb7166430ffb15af8611483435e1a20"
+        },
+        "sha256": "e064fcf127ab41b3ba9640b99be6d3a54bb4027644047b726bb46475ead3e967",
+        "source_sha256": "c72c2d287f7f2598a49ccfe0393a51399fb7166430ffb15af8611483435e1a20",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0043/ability_0043_W1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/karma_w_icon.png",
+        "retrieved_at": "2026-11-01T17:31:02.690890+00:00",
+        "sha256": "a132a48347bdaf067022bac979139c842b11887e349bf58e23a8c585bc892263",
+        "source_sha256": "a132a48347bdaf067022bac979139c842b11887e349bf58e23a8c585bc892263",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KarmaSpiritBind.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:focusedresolve",
+      "unresolved": [],
+      "video": {
+        "kind": "webm",
+        "path": "media/karma_w.webm",
+        "retrieved_at": "2026-11-01T17:31:02.972344+00:00",
+        "sha256": "c72c2d287f7f2598a49ccfe0393a51399fb7166430ffb15af8611483435e1a20",
+        "source_sha256": "c72c2d287f7f2598a49ccfe0393a51399fb7166430ffb15af8611483435e1a20",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0043/ability_0043_W1.webm"
+      }
+    },
+    {
+      "card_id": "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+      "context_id": "wiki:mantra",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-c2222c297fe4c67579e9.png",
+        "retrieved_at": "2026-11-01T17:31:09.470835+00:00",
+        "sha256": "2fb2e7c4c9f4592bbc060ed77941b7d0718986cde4edb7e3ce013de0fc62106c",
+        "source_sha256": "2fb2e7c4c9f4592bbc060ed77941b7d0718986cde4edb7e3ce013de0fc62106c",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Karma_Renewal.png?f6bb7"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": {
+        "kind": "webm",
+        "path": "media/karma_w.webm",
+        "retrieved_at": "2026-11-01T17:31:02.972344+00:00",
+        "sha256": "c72c2d287f7f2598a49ccfe0393a51399fb7166430ffb15af8611483435e1a20",
+        "source_sha256": "c72c2d287f7f2598a49ccfe0393a51399fb7166430ffb15af8611483435e1a20",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0043/ability_0043_W1.webm"
+      },
+      "subject_id": "wiki:renewal",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    },
+    {
+      "card_id": "champ:karma:e:recognize:L2",
+      "context_id": "",
+      "gif": {
+        "frames": 49,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/karma_e.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "e3fced9736bdad70f35d06dd137e00f1bc37cadd9be0def907e4d58fc1de09a9"
+        },
+        "sha256": "d54b25dddbfea557dcda3652917b50f6348053d9467b00fba5cf7a2d2a216322",
+        "source_sha256": "e3fced9736bdad70f35d06dd137e00f1bc37cadd9be0def907e4d58fc1de09a9",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0043/ability_0043_E1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/karma_e_icon.png",
+        "retrieved_at": "2026-11-01T17:31:04.968863+00:00",
+        "sha256": "55abf9b74c415447376bbcd99ca1f51e56ff6a92838725243ae73586e872d3a3",
+        "source_sha256": "55abf9b74c415447376bbcd99ca1f51e56ff6a92838725243ae73586e872d3a3",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KarmaSolKimShield.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:inspire",
+      "unresolved": [],
+      "video": {
+        "kind": "webm",
+        "path": "media/karma_e.webm",
+        "retrieved_at": "2026-11-01T17:31:05.249801+00:00",
+        "sha256": "e3fced9736bdad70f35d06dd137e00f1bc37cadd9be0def907e4d58fc1de09a9",
+        "source_sha256": "e3fced9736bdad70f35d06dd137e00f1bc37cadd9be0def907e4d58fc1de09a9",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0043/ability_0043_E1.webm"
+      }
+    },
+    {
+      "card_id": "champ:karma:ability_variant:e:defiance:mantra:recognize:L2",
+      "context_id": "wiki:mantra",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-1c1f52cb013388c4613f.png",
+        "retrieved_at": "2026-11-01T17:31:09.704446+00:00",
+        "sha256": "1c9298192b7e81ee9dd9c41904c0b90e1a626c0e62295f3d19d60e4f526c605c",
+        "source_sha256": "1c9298192b7e81ee9dd9c41904c0b90e1a626c0e62295f3d19d60e4f526c605c",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Karma_Defiance.png?4604b"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": {
+        "kind": "webm",
+        "path": "media/karma_e.webm",
+        "retrieved_at": "2026-11-01T17:31:05.249801+00:00",
+        "sha256": "e3fced9736bdad70f35d06dd137e00f1bc37cadd9be0def907e4d58fc1de09a9",
+        "source_sha256": "e3fced9736bdad70f35d06dd137e00f1bc37cadd9be0def907e4d58fc1de09a9",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0043/ability_0043_E1.webm"
+      },
+      "subject_id": "wiki:defiance",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    }
+  ],
+  "human_verified": false,
+  "missing_or_ambiguous": [
+    {
+      "card_id": "champ:karma:system:r:mantra:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review.",
+        "Passive/resource/leveling visual cues require manual review of the archived demonstration frames."
+      ]
+    },
+    {
+      "card_id": "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:karma:ability_variant:e:defiance:mantra:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    }
+  ],
+  "passive_frames": [],
+  "schema_version": 1
+}

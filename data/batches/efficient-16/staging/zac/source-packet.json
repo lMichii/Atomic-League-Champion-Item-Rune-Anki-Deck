@@ -1,0 +1,240 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "Each time Zac hits an enemy with an ability, he sheds a chunk of himself that can be reabsorbed to restore Health. Upon taking fatal damage, Zac splits into 4 bloblets that attempt to recombine. If any bloblets remain, he will revive with an amount of Health depending on the Health of the surviving bloblets. Each bloblet has a percentage of Zac's maximum Health, Armor and Magic Resistance. This ability has a 5 minute cooldown.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/ZacPassive.png",
+      "name": "Cell Division",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0154/ability_0154_P1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        14,
+        12.5,
+        11,
+        9.5,
+        8
+      ],
+      "description": "Zac stretches an arm, grabbing an enemy. Attacking a different enemy will cause him to throw both targets towards each other.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ZacQ.png",
+      "name": "Stretching Strikes",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0154/ability_0154_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "description": "Zac explodes outward towards nearby enemies, dealing a percentage of their maximum health as magic damage.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ZacW.png",
+      "name": "Unstable Matter",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0154/ability_0154_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        21,
+        18,
+        15,
+        12,
+        9
+      ],
+      "description": "Zac attaches his arms to the ground and stretches back, launching himself forward.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ZacE.png",
+      "name": "Elastic Slingshot",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0154/ability_0154_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        120,
+        105,
+        90
+      ],
+      "description": "Zac bounces four times, knocking up enemies hit and slowing them.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ZacR.png",
+      "name": "Let's Bounce!",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0154/ability_0154_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/zac/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Zac"
+  },
+  "champion": {
+    "ddragon_id": "Zac",
+    "name": "Zac",
+    "riot_id": 154,
+    "roles": [
+      "Tank",
+      "Fighter"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/Zac/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "27de6f28731604f198cfd69951230053a9eda7baaa91e1980a807378415e401f",
+      "text": "Each time Zac hits an enemy with an ability, he sheds a chunk of himself that can be reabsorbed to restore Health. Upon taking fatal damage, Zac splits into 4 bloblets that attempt to recombine. If any bloblets remain, he will revive with an amount of Health depending on the Health of the surviving bloblets. Each bloblet has a percentage of Zac's maximum Health, Armor and Magic Resistance. This ability has a 5 minute cooldown.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zac.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "Cell Division",
+      "provider": "league_wiki",
+      "sha256": "50c2cf7f2b3eeb00753846b34b4d6f1f661253b5f05b2279bec00a1d464538f7",
+      "text": "Cell Division\nSTATIC COOLDOWN:\n300\nRANGE:\n700\nInnate - Goo: Zac's abilities have a health cost. Whenever Zac's abilities damage an enemy, he sheds a number of chunks on the ground that remain for a few seconds. Zac and enemy champions can collect the chunks; an enemy will destroy it, while Zac will heal a portion of his maximum health. Innate - Cell Division: Periodically when Zac would die, he instead enters resurrection for a period, splitting into four bloblets that can be attacked by enemies. Zac will die once all bloblets are killed.\nInnate - The Secret Weapon: Zac gains increased percentage size equal to 1.5% of his bonus health, capped at 35% increased size at 2333.33 bonus health. Zac's size also reduces based on his missing health, down to 70% total size while at 0% health.\nInnate - Goo: Whenever Zac hits enemies with an ability, he sheds a number of chunks of himself to a nearby location, landing towards nearby visible enemy champions and lasting for 6 seconds.\nStretching Strikes: 1 chunk for the initial hit, and 1 chunk if the second hits a different enemy\nUnstable Matter: 1 chunk if it hits at least one enemy\nElastic Slingshot: 1 chunk for each enemy champion hit, with a minimum of 1 if it hits at least one enemy\nLet's Bounce!: 1 chunk for each bounce that hits at least one enemy\nBoth Zac and enemy champions can interact with a chunk by being within 50 units of it: an enemy will destroy it, while Zac will consume it to heal for 4% – 8.47% (based on level) of his maximum health.\nInnate - Cell Division: Periodically, upon taking fatal damage, Zac enters resurrection for 8 / 7 / 6 / 5 / 4 (based on level) seconds, instantly restoring 50% of his maximum health and becoming untargetable and unable to act for the duration. Zac then splits into four uncontrollable bloblets away from his location, though stopping at terrain. After 1.5 seconds of the bloblets being untargetable, they start moving toward Zac's location over the remaining duration. Any damage the bloblets receive, excluding damage dealt in excess of each bloblet's total maximum health, is also echoed to Zac as true damage. While in resurrection, Zac cannot take damage from sources other than the echoed damage from his bloblets.\nAfter the duration, Zac is revived with 10 – 50% maximum health. Zac will be executed once all bloblets are killed.\nSee Pets for stats and details for bloblets.\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe damage directed to Zac is internal raw damage.\nZac's health when the bloblets are sent out is set to what it would be if all bloblets recombined, and is actively updated when the bloblets take damage.\nZac's increased size does not consider his base stats.\nCell Division's chunks spawn in two versions:\nContestable: They will fall to the ground at a point which is roughly equidistant from Zac and the nearest visible enemy champion within 1000 range of him (dropping slightly in Zac's favor). The location at which they fall to the ground is influenced by the direction in which Zac is currently facing. Cannot be interacted with for the first 0.25 seconds (except during Let's Bounce!).\nUncontestable: They will fall to the ground near Zac and can be picked up immediately (version used by default).\nZac's untargetability upon triggering Cell Division does not destroy in-flight projectiles.\nChronoshift and Guardian Angel will take priority over Cell Division.\nSpirit Visage and Heal Power increases the healing of both chunks and bloblets.\nRyze's Realm Warp is able to individually teleport Zac or his bloblets during Cell Division.\nIf Zac is transported to a new location before the bloblets landed, they will travel to form at his new position, adjusting their speed accordingly. If Cell Division's duration permits during this time, Zac will be revived even if the bloblets fail to physically recombine.\nCell Division's bloblets can be targeted by Teleport and Syndra's Force of Will.\nOther bloblets are not interrupted by the conditions above and will continue to recombine instinctively.\nIf Zac's health is higher than it is supposed to be when the bloblets converge on him, his health will be set to the correct value.\nThe following table refers for interactions while Zac is in resurrection:\nAttacking\nDisabled\nAbilities\nDisabled\nMovement\nDisabled\nItems\nUsable\nN/A\nDisabled\nAll items are disabled\nInterrupted by\nN/A\nConsumables\nDisabled\nSpells\nUsable\nN/A\nDisabled\nAll summoner spells are disabled\nInterrupted by\nN/A\nInterrupted by\nDeath\nMap-Specific Differences\nUltra Rapid Fire differences edit\nCooldown set to 60 seconds.\nArena differences edit\nCooldown resets every round.\nBloblets are damaged by the Ring of Fire.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zac?oldid=4057435"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/Zac/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "27de6f28731604f198cfd69951230053a9eda7baaa91e1980a807378415e401f",
+      "text": "Zac stretches an arm, grabbing an enemy. Attacking a different enemy will cause him to throw both targets towards each other.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zac.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Stretching Strikes",
+      "provider": "league_wiki",
+      "sha256": "50c2cf7f2b3eeb00753846b34b4d6f1f661253b5f05b2279bec00a1d464538f7",
+      "text": "Stretching Strikes\nCOST:\n8% Current Health\nCOOLDOWN:\n14 / 12.5 / 11 / 9.5 / 8\nCAST TIME:\n0.33\nTARGET RANGE:\n800 • 80\nWIDTH:\n160\nTETHER RADIUS:\n900\nSPEED:\n2800\nQUEUE THRESHOLD:\n0.3\nActive: Zac stretches his arm in the target direction that briefly slows and deals magic damage to the first enemy hit based on his maximum health. He also forms a revealing tether with the target for a short time, during which his next basic attack is replaced with a second Stretching Strike. If the two Stretching Strikes hit different enemies, Zac will fling them together to briefly knock up and stun them, dealing magic damage to all surrounding enemies.\nActive: Zac stretches his left arm in the target direction that catches the first enemy hit, dealing magic damage, slowing them by 40% for 0.5 seconds, and forming a tether between Zac and the target for 2 seconds, during which they are revealed.\nMagic Damage:60 / 90 / 120 / 150 / 180 (+ 30% AP) (+ 3% of Zac's bonus health)Total Magic Damage:120 / 180 / 240 / 300 / 360 (+ 60% AP) (+ 6% of Zac's bonus health)\nWhile the tether persists, Zac's next basic attack is replaced by a second Stretching Strike, empowering it to have a 0.25-second cast time and gain 25 bonus attack range. This attack triggers on-attack effects, but cannot critically strike nor apply on-hit effects.\nIf the two Stretching Strikes affect different targets, both are knocked down and rooted for 0.5 seconds while the secondary target is dealt the initial magic damage and applied the same slow. After a 0.4-second delay, Zac displaces them toward each other over 300 units, though not through terrain.\nIf the two targets are within 700 units of each other, they are instead slammed together through the displacement. Upon impact of each other, both targets are knocked up and stunned for 0.25 seconds and all enemies within the impact are dealt the initial magic damage and applied the same slow.\nBoth Stretching Strikes (the cast and the empowered attack) reset Zac's basic attack timer. Zac is unable to move or attack while his left arm is in flight.\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nSee Notes\nParries\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIf both Stretching Strikes affect the same target, the target will be dealt the damage and applied the slow for both hits.\nThe following features were added in patch V7.10 to increase Stretching Strikes' reliability and usability:\nIf the second attack's target would die from the damage, it won't be dealt until they are slammed to the first target.\nIf the first target is standing on top of other enemies, the second hit will reliably choose a different target from the first.\nNon-champion units that are affected by Stretching Strikes' displacement are prevented from taking any damage until they are slammed together. Note that this often confuses players who are trying to secure monsters via Smite while Zac is slamming the wanted target, resulting in Smite dealing no damage to it. It is currently unknown whatever the side effects of this feature are intentional or not.\nThe second Stretching Strike's empowered attack can trigger Energized effects.\nSpell shield's interactions with Stretching Strikes:\nThe first Stretching Strike will have its damage, slow, and tether application all blocked.\nIf as the primary target and affected by the tether already from the first Stretching Strike:\nThe damage and slow from the empowered attack if targeted again by the second Stretching Strike will be blocked.\nThe damage, slow, stun, and knock up from the impact of the second Stretching Strike hitting a different target will all be blocked, but not the root and the displacement.\nIf as the primary target of the second Stretching Strike, the root will be blocked, but the displacement, damage, slow, stun, and knock up afterwards will not.(unexpected)\nIf as the secondary target of the impact, the damage and slow will be blocked.\nIf the tethered target is untargetable during the second Stretching Strike via basic attack, they are completely unaffected by the ability.\nDisplacement immunity will also resist the application of the stun.\nThis ability will cast from wherever the caster is at the end of the cast time.\nIf the target becomes untargetable, dies, or is too far away during the empowered attack's cast time, it is cancelled but not consumed.\nIf either target dies while being displaced towards the other, no slam occurs.(unexpected)\nType\nCast time\nAttacking\nDisabled\nAbilities\nDisabled\nMovement\nDisabled\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nAll the other item-actives are disabled\nInterrupted by\nN/A\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nFlash Teleport Recall Hexflash\nInterrupted by\nN/A\nInterrupted by\nDeath, unless protected by Resurrection\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zac?oldid=4057435"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/Zac/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "27de6f28731604f198cfd69951230053a9eda7baaa91e1980a807378415e401f",
+      "text": "Zac explodes outward towards nearby enemies, dealing a percentage of their maximum health as magic damage.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zac.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Unstable Matter",
+      "provider": "league_wiki",
+      "sha256": "50c2cf7f2b3eeb00753846b34b4d6f1f661253b5f05b2279bec00a1d464538f7",
+      "text": "Unstable Matter\nCOST:\n4% current Health\nCOOLDOWN:\n5\nCAST TIME:\nnone\nTARGET RANGE:\n350\nQUEUE THRESHOLD:\n0.1\nActive: Zac explodes to deal magic damage to nearby enemies hit based on their maximum health. Unstable Matter's cooldown is reduced whenever Zac collects a Cell Division chunk.\nActive: Zac explodes to deal magic damage to nearby enemies. The damage based on the target's max health ratio is capped at 200 against minions and monsters.\nMagic Damage:40 / 50 / 60 / 70 / 80 (+ 4 / 5 / 6 / 7 / 8% (+ 3% per 100 AP) of target's maximum health)\nCapped Non-Champion Damage:240 / 250 / 260 / 270 / 280\nZac grants ghosting to aggroed monsters hit for 5 seconds.\nUnstable Matter's current cooldown is reduced by 1 second whenever Zac collects a Cell Division chunk.\nNotes/General Details\nTargeting input\nAuto\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIf Unstable Matter is the cause of monster aggro, the monsters will not receive ghosting.\nSubsequent uses of Unstable Matter within 5 seconds after the previous will not grant ghosting either.(bug)\nMap-Specific Differences\nArena differences edit\nCooldown changed to 6 seconds.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zac?oldid=4057435"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/Zac/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "27de6f28731604f198cfd69951230053a9eda7baaa91e1980a807378415e401f",
+      "text": "Zac attaches his arms to the ground and stretches back, launching himself forward.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zac.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Elastic Slingshot",
+      "provider": "league_wiki",
+      "sha256": "50c2cf7f2b3eeb00753846b34b4d6f1f661253b5f05b2279bec00a1d464538f7",
+      "text": "Elastic Slingshot\nCOST:\n4% Current Health\nCOOLDOWN:\n21 / 18 / 15 / 12 / 9\nCAST TIME:\nnone\nTARGET RANGE:\n1200 / 1350 / 1500 / 1650 / 1800\nEFFECT RADIUS:\n265\nSPEED:\n1350\nQUEUE THRESHOLD:\n0.3\nActive: Zac charges up to a few seconds, increasing the range of his launch over a cone in the target direction. Elastic Slingshot can be recast within the duration and automatically does so afterwards, refunding half of the health cost and cooldown. Recast: Zac dashes to the target location to deal magic damage to enemies hit on impact and briefly knock up and stun them.\nActive: Zac charges for up to 4.5 seconds to increase Elastic Slingshot's range over a cone in the target direction.\nMaximum Range Channel Duration:0.9 / 1 / 1.1 / 1.2 / 1.3 seconds\nElastic Slingshot can be recast within the duration. If Zac cancels the channel himself, or the charge completes without reactivation, 50% of Elastic Slingshot's health cost and cooldown are refunded.\nRecast: Zac leaps to the target location within the boundaries of the cone. Upon landing, he deals magic damage to nearby enemies and knocks them up and stuns them for 0.5 seconds, increased to 1 second if Elastic Slingshot was charged for more than 1 second.\nMagic Damage:60 / 105 / 150 / 195 / 240 (+ 80% AP)\nNotes/General Details\nTargeting input\nDirection / Location\nTarget out-of-range override\nTarget at maximum range (recast clamped)\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nGrounded\nDisabled\nKnockdown\nInterrupted\nDisruption\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nQuick casting: Elastic Slingshot's channel begins when the key is pressed and held, launching Zac towards the cursor when released.\nElastic Slingshot will not knock up if the targeted location was directly on top of Zac (in which case he will not dash at all).(unexpected)\nThe knock up will occasionally end early if the targeted location was slightly away from Zac.(unexpected)\nDisplacement immunity will also resist the application of the stun.\nElastic Slingshot may sometimes fail to indicate Zac's target location.(bug)\nElastic Slingshot may sometimes go on cooldown while not being shown as on cooldown.(bug)\nThe following table refers for interactions while Zac is channeling:\nRecall is disabled for the first 0.9 seconds and otherwise interrupts the channel if used.\nType\nCharge channel\nAttacking\nDisabled\nAbilities\nStretching Strikes and Unstable Matter interrupt. Let's Bounce! initiates the recast and is buffered to cast itself at the end of the dash.\nMovement\nDisabled for the first 0.9 seconds, otherwise, interrupts.\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nHextech Rocketbelt\nInterrupted by\nAll item-actives not specified above interrupt\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nFlash Teleport\nInterrupted by\nRecall Hexflash (Recasts)\nInterrupted by\nDeath\nGrounding effects\nImmobilizing effects\nCast-inhibiting effects\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zac?oldid=4057435"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/Zac/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "27de6f28731604f198cfd69951230053a9eda7baaa91e1980a807378415e401f",
+      "text": "Zac bounces four times, knocking up enemies hit and slowing them.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zac.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Let's Bounce!",
+      "provider": "league_wiki",
+      "sha256": "50c2cf7f2b3eeb00753846b34b4d6f1f661253b5f05b2279bec00a1d464538f7",
+      "text": "Let's Bounce!\nCOOLDOWN:\n120 / 105 / 90\nCAST TIME:\n0.3\nEFFECT RADIUS:\n300\nQUEUE THRESHOLD:\n0.3\nActive: Zac bounces four times. Each impact deals magic damage to enemies hit and briefly knocks back and slows them. During Let's Bounce!, Zac can move, becomes ghosted, gains bonus movement speed and automatically consumes nearby chunks.\nActive: Zac bounces after the cast time, then bounces 3 additional times each second over 3 seconds. Each bounce deals magic damage to enemies hit, knocks them back over 1 second, and slows them by 20% for the same duration. An enemy can be hit by multiple bounces, but ones beyond the first deal 50% damage to them and do not apply the knock back.\nMagic Damage Per Hit:120 / 190 / 260 (+ 40% AP)\nReduced Damage Per Hit:60 / 95 / 130 (+ 20% AP)Total Magic Damage:300 / 475 / 650 (+ 100% AP)\nZac can move while Let's Bounce! is active, gaining ghosting and 20% – 50% (based on duration) bonus movement speed, but becomes unable to declare basic attacks, Stretching Strikes, and Elastic Slingshot. He also automatically consumes all chunks within the bounce radius.\n\"Squashing time!\"\nNotes/General Details\nTargeting input\nAuto\nAffects\nEnemies, Self\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nSpell shield only blocks a single instance of damage.\nEntering stasis will end Let's Bounce! prematurely.\nCasting Let's Bounce may cause chunks that are further away to disappear.(bug)\nPENDING FOR TEST: how much farther exactly?\nCasting Let's Bounce just before dying may put it on cooldown while not displaying it as on cooldown.(bug)\nThe following table refers for interactions while Zac is performing Let's Bounce!:\nAttacking\nDisabled\nAbilities\nStretching Strikes and Elastic Slingshot are disabled. Unstable Matter is usable.\nMovement\nAllowed\nItems\nUsable\nAll items are usable\nDisabled\nN/A\nInterrupted by\nN/A\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite Flash Teleport Hexflash\nDisabled\nRecall\nInterrupted by\nN/A\nInterrupted by\nDeath\nMap-Specific Differences\nArena differences edit\nChunk healing increase changed to 0.5 / 1 / 1.5% maximum health.\nHealing per chunk Chunk changed to 5% / 5.5% / 6% / 6.5% (based on Let's Bounce!'s Rank) of his maximum health.\nPets[edit | edit source]\nBloblet\nBounty\nGold\n0\nExp\n0\nStatistics\nHealth\n12% of Zac's maximum health\nArmor\n50% of Zac's armor\nMagic resist\n50% of Zac's magic resistance\nAoE resist\n33%\nCC resist\nImmune to crowd control (except stasis, still able to move)\nMove speed\nVariable\nGameplay radius\n65\nPathing radius\n54.4\nControl type\nAutonomous\nTarget type\nMinion\nBloblets can be targeted by Smite and Force of Will.\nA grabbed Bloblet, while visually separated from the others, will not delay Zac's revival or cause him to recombine with less current health.\nBloblets can be targeted by Teleport.\nTaste Their Fear considers Bloblets 'isolated' when being the last one alive or after having merged with the others right before Zac recombines (A Bloblet is not considered 'isolated' when close enough to the others)\nTurrets will prioritize Bloblets over other minions.\nChampion skins[edit | edit source]\nThis article section only contains champion skins. For all associated collection items, see Zac (Collection).\nOriginal\n29.03.2013\nZac is the product of a toxic spill that ran through a chemtech seam and pooled in an isolated cavern deep in Zaun’s Sump. Despite such humble origins, Zac has grown from primordial ooze into a thinking being who dwells in the city’s pipes, occasionally emerging to help those who cannot help themselves or to rebuild the broken infrastructure of Zaun.\nUnknown voice actor\nChristian Fell\nLoot eligible\nChromas\nView in 3D • View Music\nOriginal Zac Chromas\nBubblegum\nHoney\nOrange\nSpecial Weapon\n975\n29.03.2013\nUnknown voice actor\nPan Chengwei\nLegacy\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nPool Party\n1350\n25.06.2015\nIf a guy made of water jumps into the pool, does he become the pool? Or just… part of the pool? Or does the pool become him? This is a very serious question.\nUnknown voice actor\nSixmorevodka Studio\nPool Party\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nSKT T1\n1350\n27.06.2017\nHonoring Blank's winning performance as Zac during the 2016 World Championship.\nUnknown voice actor\nAlvin Lee\nWorld Champions: 2016\nLoot eligible\nLegacy\nNew SFX/VFX\nNew Animations\nNew Recall",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zac?oldid=4057435"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/Zac/tags",
+      "provider": "riot_ddragon",
+      "sha256": "27de6f28731604f198cfd69951230053a9eda7baaa91e1980a807378415e401f",
+      "text": "Name: Zac. Official role tags: Tank, Fighter.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zac.json"
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zac_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 11981,
+      "kind": "json",
+      "retrieved_at": "2026-11-03T11:44:51.888966+00:00",
+      "sha256": "27de6f28731604f198cfd69951230053a9eda7baaa91e1980a807378415e401f",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Zac.json"
+    },
+    {
+      "bytes": 33033,
+      "kind": "json",
+      "retrieved_at": "2026-11-03T11:44:52.099141+00:00",
+      "sha256": "9778b6d60bd4ce508cbd1a799fd76d4868b8a3c3a96879f4b3cd266d158871de",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/154.json"
+    },
+    {
+      "bytes": 167659,
+      "kind": "html",
+      "retrieved_at": "2026-11-03T11:44:52.856181+00:00",
+      "sha256": "62505ccda8ba348d26e2ef807c51d2bfb973a8f1c6877d1334c568e733044b2f",
+      "url": "https://www.leagueoflegends.com/en-us/champions/zac/"
+    },
+    {
+      "bytes": 769639,
+      "kind": "html",
+      "retrieved_at": "2026-11-03T11:44:53.375867+00:00",
+      "sha256": "50c2cf7f2b3eeb00753846b34b4d6f1f661253b5f05b2279bec00a1d464538f7",
+      "url": "https://wiki.leagueoflegends.com/en-us/Zac"
+    }
+  ],
+  "schema_version": 1,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4057435"
+  }
+}

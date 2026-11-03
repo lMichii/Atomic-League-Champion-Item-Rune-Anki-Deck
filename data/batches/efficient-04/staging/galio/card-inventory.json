@@ -1,0 +1,316 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:galio:overview:L1",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Galio charges up a defensive stance, moving slowly while gaining damage reduction.",
+            "source_id": "wiki:shieldofdurand"
+          },
+          {
+            "quote": "Recast: Galio taunts nearby enemy champions, dealing magic damage.",
+            "source_id": "wiki:shieldofdurand"
+          }
+        ],
+        "id": "eec7ad28c97cd461b52bf00e",
+        "summary": "Defensive charging leads into a nearby taunt."
+      },
+      {
+        "citations": [
+          {
+            "quote": "granting his magic damage shield to himself and all allied champions in the area.",
+            "source_id": "wiki:herosentrance"
+          },
+          {
+            "quote": "crashing down onto the target's initial location, dealing magic damage to nearby enemies and knocking them back.",
+            "source_id": "wiki:herosentrance"
+          }
+        ],
+        "id": "3ce60c7a989f115ed5e5bcf4",
+        "summary": "Protects allies and arrives at an allied champion's initial location with area disruption."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize Galio's protection and crowd-control fighting pattern.",
+    "slot": "",
+    "source_ids": [
+      "wiki:shieldofdurand",
+      "wiki:justicepunch",
+      "wiki:windsofwar",
+      "wiki:herosentrance"
+    ],
+    "subject_id": "riot:role",
+    "title": "Galio overview",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:galio:p:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Every few seconds, Galio's next basic attack is modified to gain attack speed and deal magic damage in an area",
+            "source_id": "wiki:colossalsmash"
+          }
+        ],
+        "id": "a27c5c4575c5d50b4f9bfd97",
+        "summary": "Periodically gains an empowered attack with area magic damage."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Galio's ability hits against enemy champions or epic monsters reduce Colossal Smash's cooldown.",
+            "source_id": "wiki:colossalsmash"
+          }
+        ],
+        "id": "3db315df75ba33526968791a",
+        "summary": "Ability hits against champions or epic monsters accelerate the next empowered attack."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize recurring empowered melee splash damage.",
+    "slot": "P",
+    "source_ids": [
+      "wiki:colossalsmash"
+    ],
+    "subject_id": "wiki:colossalsmash",
+    "title": "Colossal Smash",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Spell shield will block the gusts damage but not the tornado's.",
+            "source_id": "wiki:windsofwar"
+          },
+          {
+            "quote": "The tornado will not form if only one windblast reaches the target location.",
+            "source_id": "wiki:windsofwar"
+          }
+        ],
+        "status": "supported",
+        "summary": "Spell shields do not block tornado damage; a lone arriving windblast does not create the tornado."
+      }
+    ],
+    "card_id": "champ:galio:q:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Galio fires two windblasts that converge to the target location, dealing magic damage to enemies hit.",
+            "source_id": "wiki:windsofwar"
+          }
+        ],
+        "id": "ff2f66db05d21113ff9efcc1",
+        "summary": "Converging windblasts deal magic damage."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Upon converging, the blasts form a tornado that continually deals magic damage to enemies within, based on each target's maximum health.",
+            "source_id": "wiki:windsofwar"
+          }
+        ],
+        "id": "b0e257c54c2dad8723314165",
+        "summary": "The tornado deals ongoing maximum-health-based magic damage."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the projectile hit and lingering damage area.",
+    "slot": "Q",
+    "source_ids": [
+      "wiki:windsofwar"
+    ],
+    "subject_id": "wiki:windsofwar",
+    "title": "Winds of War",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Shield of Durand can be recast within the duration and does so automatically afterwards or if it is interrupted.",
+            "source_id": "wiki:shieldofdurand"
+          }
+        ],
+        "status": "supported",
+        "summary": "Interrupting the charge triggers its recast."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Recast: Galio refreshes the damage reduction for 2 seconds",
+            "source_id": "wiki:shieldofdurand"
+          }
+        ],
+        "status": "supported",
+        "summary": "Damage reduction persists briefly after release."
+      }
+    ],
+    "card_id": "champ:galio:w:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Galio gains a shield that absorbs magic damage based on his maximum health, and restores it while out of combat.",
+            "source_id": "wiki:shieldofdurand"
+          }
+        ],
+        "id": "d5f6b40976f4e6d8727f97ba",
+        "summary": "A health-based magic shield recovers outside combat."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Galio charges up a defensive stance, moving slowly while gaining damage reduction.",
+            "source_id": "wiki:shieldofdurand"
+          }
+        ],
+        "id": "97f09d3874806df16693f7cd",
+        "summary": "Charging slows Galio and grants damage reduction."
+      },
+      {
+        "citations": [
+          {
+            "quote": "charging increases Shield of Durand's radius, damage and taunt duration",
+            "source_id": "wiki:shieldofdurand"
+          },
+          {
+            "quote": "Recast: Galio taunts nearby enemy champions, dealing magic damage.",
+            "source_id": "wiki:shieldofdurand"
+          }
+        ],
+        "id": "75e3e2be7fa10e0dbe92c4df",
+        "summary": "Release damages and taunts nearby champions, with effects strengthened by charging."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize his defensive charge and expanding taunt threat.",
+    "slot": "W",
+    "source_ids": [
+      "wiki:shieldofdurand",
+      "riot:W"
+    ],
+    "subject_id": "wiki:shieldofdurand",
+    "title": "Shield of Durand",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:galio:e:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Galio briefly steps back before charging to the target location. Enemies he passes through are dealt magic damage and knocked up.",
+            "source_id": "wiki:justicepunch"
+          }
+        ],
+        "id": "ee47eb08e91c77b0228aabd6",
+        "summary": "A backward step precedes a damaging charge that knocks enemies up."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Hitting an enemy champion or terrain stops his charge.",
+            "source_id": "wiki:justicepunch"
+          }
+        ],
+        "id": "e30e483821b0153c59d24034",
+        "summary": "Enemy champions and terrain stop the charge."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the engage windup and charge path.",
+    "slot": "E",
+    "source_ids": [
+      "wiki:justicepunch"
+    ],
+    "subject_id": "wiki:justicepunch",
+    "title": "Justice Punch",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Galio will still cause an impact to occur at the destination even if he is unable to travel the full distance with the dash",
+            "source_id": "wiki:herosentrance"
+          }
+        ],
+        "status": "supported",
+        "summary": "Travel restrictions can prevent full travel without preventing the destination impact."
+      }
+    ],
+    "card_id": "champ:galio:r:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "designating the target allied champion's location at the time of cast as his landing spot.",
+            "source_id": "wiki:herosentrance"
+          }
+        ],
+        "id": "c604b5f30cb6153f49afeca2",
+        "summary": "The landing location is set by the allied target's position at cast time."
+      },
+      {
+        "citations": [
+          {
+            "quote": "he resets Shield of Durand's passive shield for himself and grants it to all allied champions within the area",
+            "source_id": "wiki:herosentrance"
+          }
+        ],
+        "id": "3c9fe74ef5be15547481a48e",
+        "summary": "Refreshes his passive shield and shares it with nearby allied champions."
+      },
+      {
+        "citations": [
+          {
+            "quote": "dealing magic damage to nearby enemies and knocking them back.",
+            "source_id": "wiki:herosentrance"
+          }
+        ],
+        "id": "1112b37da6fdc25311e8f77a",
+        "summary": "Landing deals area magic damage and displaces enemies."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Hero's Entrance's channel can only be interrupted by crowd control in the first 1.25 seconds.",
+            "source_id": "wiki:herosentrance"
+          },
+          {
+            "quote": "he gains crowd control immunity for the remaining duration, becomes untargetable",
+            "source_id": "wiki:herosentrance"
+          }
+        ],
+        "id": "5ab4f00f49bc9834bb87da24",
+        "summary": "Early channel interruption is possible before immunity and untargetability begin."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize ally protection, the fixed arrival area, and the early interruption window.",
+    "slot": "R",
+    "source_ids": [
+      "wiki:herosentrance",
+      "riot:R"
+    ],
+    "subject_id": "wiki:herosentrance",
+    "title": "Hero's Entrance",
+    "unsupported_claims": []
+  }
+]

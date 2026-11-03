@@ -1,0 +1,614 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:61",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Orianna. Official role tags: Mage, Support.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Orianna commands her Ball to attach to an allied champion, Shielding them and dealing magic damage to any enemies it passes through on the way.",
+                "source_id": "riot:E"
+              }
+            ],
+            "claim": "Orianna is a mage and support who commands a Ball to damage enemies and protect allies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This leaves a field behind that speeds up allies and slows enemies.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Orianna commands her Ball to unleash a shockwave, dealing magic damage and launching nearby enemies towards the Ball after a short delay.",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "She controls fights with slows and a shockwave that pulls enemies toward the Ball."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Magic Damage:60 / 90 / 120 / 150 / 180 (+ 60% AP)",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Shield Strength:55 / 90 / 125 / 160 / 195 (+ 45% AP)",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "Focus on ability power (AP) to learn her damage and shielding."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/orianna/",
+        "verification_scope": "Citation matching + AI support check; not editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892665",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Orianna"
+      },
+      "id": "champ:orianna:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Tracking the Ball helps anticipate area damage, crowd control and ally protection."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1793483693,
+      "row": {
+        "ability": "Mage / Support",
+        "answer": "Orianna is a mage and support who commands a Ball to damage enemies and protect allies. She controls fights with slows and a shockwave that pulls enemies toward the Ball. Focus on ability power (AP) to learn her damage and shielding.",
+        "build_focus": "AP",
+        "category": "Champion",
+        "champion": "Orianna",
+        "cooldown": "",
+        "counterplay": "Track the Ball and avoid gathering around it.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/orianna_portrait.jpg",
+        "id": "champ:orianna:overview:L1",
+        "level": "L1",
+        "media_path": "media/orianna_portrait.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/orianna/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Orianna",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The AP focus is teaching guidance grounded in damage and shield scaling, not an optimal item build."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:61",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Orianna's Attacks deal additional magic damage.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "The attacks do not deal the bonus damage against structures.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Orianna's basic attacks deal bonus magic damage to enemies other than structures."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This damage increases the more Orianna Attacks the same target.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Orianna's basic attacks generate stacks of Clockwork Winding, which refresh on subsequent hits and stack up to a cap.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Repeated attacks against the same target increase this bonus up to a cap"
+          },
+          {
+            "citations": [
+              {
+                "quote": "All stacks are lost when attacking a new enemy.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "attacking a different enemy resets the stacks."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/orianna/",
+        "verification_scope": "Citation matching + AI support check; not editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892665",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Orianna"
+      },
+      "id": "champ:orianna:p:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Repeated attacks make extended trades more threatening."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1793483693,
+      "row": {
+        "ability": "Clockwork Windup",
+        "answer": "Orianna's basic attacks deal bonus magic damage to enemies other than structures. Repeated attacks against the same target increase this bonus up to a cap; attacking a different enemy resets the stacks.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Orianna",
+        "cooldown": "",
+        "counterplay": "Avoid letting Orianna repeatedly attack you during a trade.",
+        "front_hint": "ORIANNA · PASSIVE",
+        "icon_path": "media/orianna_p_icon.png",
+        "id": "champ:orianna:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/orianna_p_icon.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/orianna/",
+        "source_video_path": "media/orianna_p.webm",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Orianna",
+        "visual_cue_description": "Orianna's buff bar shows her attack stacks.",
+        "visual_cue_media_path": "media/orianna_p.gif",
+        "visual_cue_status": "needs_visual_cue_review"
+      },
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The buff-bar cue is a tentative text-supported proposal, not current-client visual verification; supplied frames do not establish its appearance.",
+        "Stacks expire and refresh on subsequent attacks; these details are omitted from beginner text.",
+        "Brief ability locks and the exception for E on the current carrier are omitted.",
+        "The Wiki reports an unusual Runaan's Hurricane stack-reset interaction, omitted from beginner text."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:61",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Orianna commands her Ball to fire toward a target location, dealing magic damage to targets along the way",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Active: Orianna commands The Ball to fly to the target location and remain there, dealing magic damage to enemies it passes through and nearby enemies upon arrival.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Orianna sends the Ball to a chosen location, dealing magic damage to enemies along its path and near its arrival point."
+          },
+          {
+            "citations": [
+              {
+                "quote": "deals less damage to subsequent targets",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "reduced to 70% against those hit beyond the first.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "claim": "Targets hit after the first take less damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Orianna commands The Ball to fly to the target location and remain there",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Orianna commands The Ball to fly and attach to herself or the target allied champion",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "The Ball attaches to Orianna when she approaches it, and snaps back to her when she moves too far away.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "The Ball remains there between commands, but Orianna can retrieve it by approaching, and it returns if she moves too far away."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/orianna/",
+        "verification_scope": "Citation matching + AI support check; not editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892665",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Orianna"
+      },
+      "id": "champ:orianna:q:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Ball placement establishes where her later area abilities threaten enemies."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1793483693,
+      "row": {
+        "ability": "Command: Attack",
+        "answer": "Orianna sends the Ball to a chosen location, dealing magic damage to enemies along its path and near its arrival point. Targets hit after the first take less damage. The Ball remains there between commands, but Orianna can retrieve it by approaching, and it returns if she moves too far away.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Orianna",
+        "cooldown": "",
+        "counterplay": "Dodge the Ball's path and watch where it stops.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/orianna_q_icon.png",
+        "id": "champ:orianna:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/orianna_q.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/orianna/",
+        "source_video_path": "media/orianna_q.webm",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Orianna",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Projectile-blocker interactions are pending tests or posed as questions; no specific outcome is asserted.",
+        "Minimum travel distance, casting restrictions during travel and lack of vision during flight are omitted.",
+        "The Ball's placement can end through further commands as well as retrieval or leash limits; these are not presented as exhaustive conditions."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:61",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Orianna commands her Ball to release a pulse of energy, dealing magic damage around it.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Orianna commands The Ball to emit an electric pulse that deals magic damage to nearby enemies.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "The Ball releases a pulse that deals magic damage to nearby enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This leaves a field behind that speeds up allies and slows enemies.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "The pulse leaves behind an electric field for a short time, which slows enemies and grants bonus movement speed to Orianna and allied champions.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "The pulse leaves behind an electric field that last 3 seconds, granting bonus movement speed to Orianna and her allies when they move within. Enemies that move within the field are slowed by the same amount, decaying over 2 seconds after leaving.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "It leaves a field that speeds up Orianna and allied champions inside it and slows enemies inside it."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/orianna/",
+        "verification_scope": "Citation matching + AI support check; not editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892665",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Orianna"
+      },
+      "id": "champ:orianna:w:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "The field changes movement for both teams and helps control space."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1793483693,
+      "row": {
+        "ability": "Command: Dissonance",
+        "answer": "The Ball releases a pulse that deals magic damage to nearby enemies. It leaves a field that speeds up Orianna and allied champions inside it and slows enemies inside it.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Orianna",
+        "cooldown": "",
+        "counterplay": "Move away from the Ball and leave its slowing field.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/orianna_w_icon.png",
+        "id": "champ:orianna:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/orianna_w.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/orianna/",
+        "source_video_path": "media/orianna_w.webm",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Orianna",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The slow decays after enemies leave; leaving does not necessarily remove it immediately.",
+        "The evidence supports pulse damage, not repeated damage from the lingering field."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:61",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Orianna commands The Ball to fly to herself or the target allied champion and attach itself to the target, dealing magic damage to enemies it passes through and granting the target a shield for 2.5 seconds upon arrival.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Orianna commands her Ball to attach to an allied champion, Shielding them",
+                "source_id": "riot:E"
+              }
+            ],
+            "claim": "Orianna sends the Ball to attach to herself or an allied champion, shielding the recipient on arrival."
+          },
+          {
+            "citations": [
+              {
+                "quote": "dealing magic damage to any enemies it passes through on the way.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "dealing magic damage to enemies it passes through",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "It deals magic damage to enemies it passes through."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Additionally, the Ball grants additional Armor and Magic Resist to the champion it is attached to.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Passive: The Ball grants bonus armor and bonus magic resistance to the unit it is attached to.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "The Ball grants its carrier bonus armor and magic resistance while attached."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/orianna/",
+        "verification_scope": "Citation matching + AI support check; not editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892665",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Orianna"
+      },
+      "id": "champ:orianna:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Shielding and extra resistances can deny damage while moving the Ball onto an ally."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1793483693,
+      "row": {
+        "ability": "Command: Protect",
+        "answer": "Orianna sends the Ball to attach to herself or an allied champion, shielding the recipient on arrival. It deals magic damage to enemies it passes through. The Ball grants its carrier bonus armor and magic resistance while attached.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Orianna",
+        "cooldown": "",
+        "counterplay": "Avoid the Ball's travel path and account for its carrier's shield and extra defenses.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/orianna_e_icon.png",
+        "id": "champ:orianna:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/orianna_e.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/orianna/",
+        "source_video_path": "media/orianna_e.webm",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Orianna",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Other abilities are unavailable during E travel.",
+        "Carrier death, untargetability before arrival, leash limits, stealth and projectile interception create advanced positioning exceptions omitted from beginner text.",
+        "The shield is temporary; carrier resistances depend on attachment."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:61",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Orianna commands her Ball to unleash a shockwave, dealing magic damage and launching nearby enemies towards the Ball after a short delay.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Active: Orianna commands The Ball to unleash a shockwave that deals magic damage to nearby enemies, briefly stunning and pulling them inward.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "After a short delay, the Ball unleashes a shockwave that deals magic damage to nearby enemies and launches them toward the Ball."
+          },
+          {
+            "citations": [
+              {
+                "quote": "briefly stunning and pulling them inward.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "It also briefly stuns them."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/orianna/",
+        "verification_scope": "Citation matching + AI support check; not editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "3892665",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Orianna"
+      },
+      "id": "champ:orianna:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Area displacement and a stun can disrupt several enemies at once."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1793483693,
+      "row": {
+        "ability": "Command: Shockwave",
+        "answer": "After a short delay, the Ball unleashes a shockwave that deals magic damage to nearby enemies and launches them toward the Ball. It also briefly stuns them.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Orianna",
+        "cooldown": "",
+        "counterplay": "Keep away from the Ball and avoid clustering near its carrier.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/orianna_r_icon.png",
+        "id": "champ:orianna:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/orianna_r.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/orianna/",
+        "source_video_path": "media/orianna_r.webm",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Orianna",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The Wiki contradicts itself about displacement through terrain; neither outcome is asserted.",
+        "Enemies near the center can pass over the Ball; launch direction does not promise a final position at its center.",
+        "End-of-cast origin notes ambiguously refer to the caster and attached carrier.",
+        "The Wiki states that displacement immunity does not prevent the stun."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ],
+  "schema_version": 1
+}

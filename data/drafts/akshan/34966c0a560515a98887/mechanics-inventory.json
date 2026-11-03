@@ -1,0 +1,510 @@
+{
+  "abilities": [
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "The shield may be gained only once every few seconds.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "The champion-triggered shield has a separate availability restriction; every third hit does not guarantee another shield."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Issuing an attack order on a different target before the additional shot has been launched causes Akshan to fire it at the new target.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "The additional shot applies on-hit effects, triggers on-attack effects, and is affected by critical strike modifiers.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "The additional shot can be redirected before launch and has basic-attack effect interactions."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Every three hits from Akshan's Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "The third stack consumes them all to deal bonus magic damage; if the target was a champion, he also gains a brief shield.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.three_hit",
+          "summary": "Attacks and ability hits build stacks on a target; the third stack deals bonus damage and grants Akshan a shield against champions, subject to shield availability."
+        },
+        {
+          "citations": [
+            {
+              "quote": "When Akshan Attacks, he fires an additional Attack for reduced damage.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Akshan's basic attack causes him to fire a second attack that deals reduced physical damage.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.second_shot",
+          "summary": "Basic attacks produce an additional shot, generally dealing reduced damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If he cancels the additional Attack, he instead gains Move Speed.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "If Akshan cancels the second attack, he gains a brief burst of move speed, increased based on his attack speed.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.cancel_speed",
+          "summary": "Canceling the additional shot grants a brief movement speed burst."
+        }
+      ],
+      "slot": "P",
+      "unsupported_claims": [
+        "The shield is granted when the third hit is against a non-champion.",
+        "The shield is available on every third hit without restriction."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Enemies can be hit only once per pass.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Avengerang deals reduced damage against non-champions.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "Each enemy can be hit once on each pass, and non-champions take reduced damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Spell shield will only block a single hit. They do not prevent the initial throw from extending its range.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "A spell shield blocks one hit without preventing the outgoing boomerang's range extension."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Akshan throws a boomerang that deals damage going out and coming back, extending its range each time it hits an enemy.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Once the boomerang has passed its original range and has not recently hit an enemy, it homes back to Akshan and deals the same effects to enemies hit.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.boomerang",
+          "summary": "Throws a boomerang that damages enemies on its outgoing and return passes."
+        },
+        {
+          "citations": [
+            {
+              "quote": "extending its range each time it hits an enemy.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "extending its range each time it hits a target.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.range_extension",
+          "summary": "Hitting enemies extends the boomerang's range."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If this hits an enemy champion, Akshan gains a brief burst of move speed.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.champion_speed",
+          "summary": "Hitting an enemy champion grants Akshan a brief movement speed burst."
+        },
+        {
+          "citations": [
+            {
+              "quote": "briefly grants sight around its trajectory and deals physical damage to enemies hit, revealing them for 1 second",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.reveal",
+          "summary": "Grants sight along its trajectory and briefly reveals enemies hit."
+        }
+      ],
+      "slot": "Q",
+      "unsupported_claims": [
+        "A single pass can repeatedly damage the same enemy.",
+        "Hitting any enemy grants the champion-hit movement speed bonus."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "If Akshan scores a takedown against a Scoundrel while alive and within 3 seconds of damaging them, he receives an additional 100 and resurrects all dead allied champions that they have slain after 1 second.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Akshan can still trigger Going Rogue's passive while he is within a zombie state.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "The detailed description allows qualifying takedowns, including assists with recent damage, rather than requiring a killing blow. It specifies an alive requirement and separately allows activation during a zombie state."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Enemy champions that kill Akshan will not be marked as Scoundrels nor increase their slay count.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Clones do not count for triggering Going Rogue's passive.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Allies are resurrected at their summoning platform.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "Akshan's own death does not create or increase a Scoundrel bounty, clones do not trigger the passive, and revived allies appear at their summoning platform."
+        },
+        {
+          "citations": [
+            {
+              "quote": "while facing them if they are within 5000 units",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Attacking or casting abilities ends Going Rogue immediately.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "The pursuit bonuses have facing and distance conditions. Attacking or casting an ability ends Going Rogue."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Akshan passively marks enemy champions as Scoundrels when they kill his ally champions.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Enemy champions that kill allied champions are marked as a Scoundrel for a long time.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.scoundrel_marks",
+          "summary": "Enemy champions who kill Akshan's allies become marked as Scoundrels."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If Akshan kills a Scoundrel, he resurrects the allies they killed, gains bonus gold, and clears all marks.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "When Akshan scores a takedown on a Scoundrel, he gains bonus gold, all allies killed by the Scoundrel are resurrected, and Scoundrel status is removed from all other enemies.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.revenge_revive",
+          "summary": "Claiming a Scoundrel through a qualifying takedown revives dead allies slain by that enemy, grants bonus gold, and clears the other Scoundrel marks."
+        },
+        {
+          "citations": [
+            {
+              "quote": "When activated, Akshan enters camouflage",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Akshan loses the camouflage quickly while he is not in brush or near terrain.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Akshan enters camouflage, which lasts indefinitely while he is near terrain or inside brush, and for 2 seconds otherwise.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.camouflage",
+          "summary": "Activation grants camouflage that persists near terrain or inside brush and expires quickly elsewhere."
+        },
+        {
+          "citations": [
+            {
+              "quote": "gains Move Speed and Mana Regen while moving towards Scoundrels.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "During this time, he can see trails leading toward Scoundrels and gains move speed and mana regeneration while moving toward them.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.pursuit",
+          "summary": "While active, reveals trails toward Scoundrels and grants movement speed and mana regeneration when pursuing them under the ability's conditions."
+        }
+      ],
+      "slot": "W",
+      "unsupported_claims": [
+        "Any assist on a Scoundrel guarantees resurrection regardless of recent damage or Akshan's state.",
+        "Killing any enemy champion revives all dead allies.",
+        "Camouflage persists indefinitely everywhere."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Akshan prioritizes firing at enemy champions with stacks of Dirty Fighting, then those damaged by his targeted spells in the last 4 seconds, then the nearest enemy.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "While swinging, he fires at the nearest visible enemy",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Automatic targeting has visibility requirements and priority overrides for marked champions and recently targeted enemies."
+        },
+        {
+          "citations": [
+            {
+              "quote": "apply on-hit effects for each shot, with on-hit damage reduced to 25% effectiveness.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Akshan can fire at any targetable enemy unit excluding structures and jungle plants.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Shots apply on-hit effects with reduced on-hit damage and cannot target structures or jungle plants."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Only Heroic Swing's first cast is disabled while grounded or rooted. The third cast is still usable during those effects.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Heroic Swing's second and third cast can both be used while silenced.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Takedowns against clones do not count for resetting Heroic Swing's cooldown.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Cast availability depends on the stage and crowd control effect; clone takedowns do not reset the cooldown."
+        },
+        {
+          "citations": [
+            {
+              "quote": "PENDING FOR TEST: Hook range including lollipop against walls and final dash distance and speed.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "Precise hook wall-edge behavior and final-jump distance and speed are explicitly pending testing."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Akshan fires a grappling hook into terrain then swings around it",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "First Cast: Akshan prepares to swing by firing a hook that embeds in the first terrain hit.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.terrain_swing",
+          "summary": "Hooks terrain, then swings around the attachment point."
+        },
+        {
+          "citations": [
+            {
+              "quote": "repeatedly firing at the nearest enemy while swinging.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Second Cast: Akshan swings around the terrain in a direction, firing physical damage bullets at the nearest enemy.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.automatic_shots",
+          "summary": "Automatically fires damaging shots at eligible enemies while swinging, generally using proximity with targeting priority overrides."
+        },
+        {
+          "citations": [
+            {
+              "quote": "He can jump off early or gets knocked off when colliding with champions or terrain.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Third Cast: While swinging, he can recast again to jump toward the target location and fire a final shot.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "stopping upon colliding with an enemy champion or terrain.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.dismount",
+          "summary": "Can recast to jump off and fire a final shot; colliding with an enemy champion or terrain ends the swing."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Heroic Swing's cooldown will reset upon scoring a champion takedown.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Scoring an enemy champion takedown reduces Heroic Swing's current cooldown to 0.5 seconds.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.takedown_reset",
+          "summary": "Enemy champion takedowns refresh Heroic Swing with a brief remaining cooldown."
+        }
+      ],
+      "slot": "E",
+      "unsupported_claims": [
+        "Shots always target the nearest enemy regardless of priority overrides.",
+        "The final jump can pass through terrain.",
+        "The pending hook wall-edge and final-jump measurements are verified."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Spell shield will not prevent the lock-on and will only block a single bullet.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Comeuppance will cancel if the target becomes untargetable or dies during the channel.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Spell shields do not stop lock-on and block only one bullet; target death or untargetability during charging cancels the ability."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Each bullet's damage applies life steal and executes minions.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Damage to structures does scale with their missing health.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Bullets apply life steal, execute minions, and retain missing-health scaling against structures."
+        },
+        {
+          "citations": [
+            {
+              "quote": "revealing them as well as revealing himself.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Akshan can move normally and cast Heroic Swing while channeling and firing Comeuppance.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Lock-on reveals the target and Akshan's position; he can move and use Heroic Swing while charging and firing."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Akshan locks onto an enemy champion and starts storing bullets.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Comeuppance will recast after the channel, or can recast early.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.charge",
+          "summary": "Locks onto an enemy champion and stores bullets while charging; can release early or fire automatically after charging."
+        },
+        {
+          "citations": [
+            {
+              "quote": "When released, he fires all stored bullets",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Recast: Akshan fires the stored bullets at the target, each dealing physical damage to the first enemy hit, increased by their missing health.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.missing_health_damage",
+          "summary": "Fires the stored bullets toward the target, dealing more damage as the struck enemy's missing health increases."
+        },
+        {
+          "citations": [
+            {
+              "quote": "to the first champion, minion, or structure hit.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "each dealing physical damage to the first enemy hit",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "The shots can hit structures.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.interception",
+          "summary": "Each bullet hits the first champion, minion, or structure in its path, allowing intervening units or structures to intercept it."
+        }
+      ],
+      "slot": "R",
+      "unsupported_claims": [
+        "Bullets pass through intervening minions or structures to reach the locked champion.",
+        "The ability guarantees a champion kill when the target is low on health.",
+        "A spell shield prevents lock-on or blocks the entire volley."
+      ]
+    }
+  ]
+}

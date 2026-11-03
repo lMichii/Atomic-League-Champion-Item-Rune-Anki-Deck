@@ -1,0 +1,310 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:yorick:overview:L1",
+    "context_id": "riot:role",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Name: Yorick. Official role tags: Fighter, Tank.",
+            "source_id": "riot:role"
+          }
+        ],
+        "id": "5b9f6673042f727889a3f8d3",
+        "summary": "A Fighter/Tank supported by summoned units."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Yorick and his summons gain bonus movement speed toward a Cursed target. Mist Walkers will leap to a nearby Cursed target and focus them.",
+            "source_id": "wiki:mourningmist"
+          }
+        ],
+        "id": "e8ef7b42349e0350f9bb70da",
+        "summary": "Cursed targets attract faster pursuit and Mist Walker attacks."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize Yorick's summon-led fighting pattern.",
+    "slot": "",
+    "source_ids": [
+      "riot:role",
+      "riot:P",
+      "riot:R",
+      "wiki:lastrites",
+      "wiki:mourningmist"
+    ],
+    "subject_id": "riot:role",
+    "title": "Yorick",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:yorick:p:recognize:L2",
+    "context_id": "wiki:shepherdofsouls",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Whenever Yorick uses Last Rites to score the killing blow on any enemy or damage an enemy champion or large monster, he raises a grave at their location.",
+            "source_id": "wiki:shepherdofsouls"
+          }
+        ],
+        "id": "16745f55cc0b89033af7cc82",
+        "summary": "Last Rites creates graves through kills or hits against champions and large monsters."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Yorick can use Awakening and Mourning Mist's mark to raise 1 Mist Walker from each grave after a 1-second delay, consuming the graves in the process.",
+            "source_id": "wiki:shepherdofsouls"
+          }
+        ],
+        "id": "73cb0297f45740c2ef477c60",
+        "summary": "Awakening and Mourning Mist convert graves into Mist Walkers."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Mist Walkers will autonomously advance a lane upon entering combat within.",
+            "source_id": "wiki:shepherdofsouls"
+          }
+        ],
+        "id": "feb10f0f87b7d12ec0fa0aa6",
+        "summary": "Mist Walkers can continue pushing a lane."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize graves as preparation for summon pressure.",
+    "slot": "P",
+    "source_ids": [
+      "riot:P",
+      "wiki:shepherdofsouls"
+    ],
+    "subject_id": "wiki:shepherdofsouls",
+    "title": "Shepherd of Souls",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "The heal is reduced by 50% against non-champions.",
+            "source_id": "wiki:lastrites"
+          }
+        ],
+        "status": "supported",
+        "summary": "Healing is reduced against non-champions."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Awakening counts as an ability activation for the purposes of on-cast effects such as Spellblade and triggering Force Pulse's passive.",
+            "source_id": "wiki:awakening"
+          }
+        ],
+        "status": "supported",
+        "summary": "Awakening triggers ability-activation effects."
+      }
+    ],
+    "card_id": "champ:yorick:q:recognize:L2",
+    "context_id": "wiki:lastrites",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Yorick's next basic attack within a few seconds will gain bonus range, deal bonus physical damage, and heal him based on his missing health.",
+            "source_id": "wiki:lastrites"
+          },
+          {
+            "quote": "Last Rites resets Yorick's basic attack timer.",
+            "source_id": "wiki:lastrites"
+          }
+        ],
+        "id": "7ee9e33891f32c7c61cc5a2e",
+        "summary": "An empowered physical attack adds reach, healing, and an attack reset."
+      },
+      {
+        "citations": [
+          {
+            "quote": "While there are at least 3 graves nearby and Last Rites is active or on cooldown, Yorick can cast Awakening.",
+            "source_id": "wiki:lastrites"
+          },
+          {
+            "quote": "Active: Yorick summons Mist Walkers from the graves around him.",
+            "source_id": "wiki:awakening"
+          }
+        ],
+        "id": "d7847e1d015a62b3d0eadd4e",
+        "summary": "Awakening is a conditional Q activation that raises nearby graves."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize his empowered attack and conditional Awakening activation.",
+    "slot": "Q",
+    "source_ids": [
+      "riot:Q",
+      "wiki:lastrites",
+      "wiki:awakening"
+    ],
+    "subject_id": "wiki:lastrites",
+    "title": "Last Rites and Awakening",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:yorick:w:recognize:L2",
+    "context_id": "wiki:darkprocession",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Yorick summons a destructible ring of spirits at the target location that knocks aside enemies hit. It remains as terrain against enemies for a few seconds.",
+            "source_id": "wiki:darkprocession"
+          }
+        ],
+        "id": "36abb5fb1792e959d2908c9a",
+        "summary": "A destructible terrain ring blocks enemies and knocks aside those hit."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Dark Procession can only be targeted by enemy champion basic attacks and turrets.",
+            "source_id": "wiki:darkprocession"
+          }
+        ],
+        "id": "3fe6fed1e3ff407678a67634",
+        "summary": "Enemy champion basic attacks and turrets can target the ring."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the trap and how to attack its wall.",
+    "slot": "W",
+    "source_ids": [
+      "riot:W",
+      "wiki:darkprocession"
+    ],
+    "subject_id": "wiki:darkprocession",
+    "title": "Dark Procession",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "The Mist Walkers do not leap if they are immobilized or grounded, or if the marked target is untargetable.",
+            "source_id": "wiki:mourningmist"
+          }
+        ],
+        "status": "supported",
+        "summary": "Immobilization, grounding, or target untargetability can prevent Mist Walker leaps."
+      }
+    ],
+    "card_id": "champ:yorick:e:recognize:L2",
+    "context_id": "wiki:mourningmist",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "dealing magic damage to enemies. Enemy champions and monsters hit are also shortly slowed, and marked Cursed for a few seconds.",
+            "source_id": "wiki:mourningmist"
+          }
+        ],
+        "id": "a81b0418bc30e1401ffa167e",
+        "summary": "The splash damages enemies and slows and marks champions and monsters."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Cursed: The target is revealed and inflicted with armor reduction, and continually raises a Mist Walker from each nearby grave",
+            "source_id": "wiki:mourningmist"
+          }
+        ],
+        "id": "0e148e38cd5a1ee9237983af",
+        "summary": "The curse reveals, reduces armor, and raises nearby graves."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Yorick and his summons gain bonus movement speed toward a Cursed target. Mist Walkers will leap to a nearby Cursed target and focus them.",
+            "source_id": "wiki:mourningmist"
+          }
+        ],
+        "id": "0d109c49cb74d4c8538c4cd6",
+        "summary": "The mark directs faster pursuit and Mist Walker leaps."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the mark as the trigger for concentrated summon pressure.",
+    "slot": "E",
+    "source_ids": [
+      "riot:E",
+      "wiki:mourningmist"
+    ],
+    "subject_id": "wiki:mourningmist",
+    "title": "Mourning Mist",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Yorick's next basic attack or Mourning Mist hit against the marked target consumes the mark to deal bonus magic damage",
+            "source_id": "wiki:R"
+          }
+        ],
+        "status": "supported",
+        "summary": "Mourning Mist can also consume the Maiden's mark."
+      }
+    ],
+    "card_id": "champ:yorick:r:recognize:L2",
+    "context_id": "wiki:eulogyoftheisles",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Active: Yorick summons the Maiden of the Mist and a few Mist Walkers at the target location. The Maiden will automatically raise Mist Walkers from dead enemies",
+            "source_id": "wiki:eulogyoftheisles"
+          }
+        ],
+        "id": "3a35a0210dff7a70d0a895df",
+        "summary": "The Maiden arrives with Walkers and raises more from dead enemies."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Touch of the Maiden: Yorick's next basic attack will consume the mark to deal bonus magic damage by a portion of the target's maximum health.",
+            "source_id": "wiki:eulogyoftheisles"
+          }
+        ],
+        "id": "13d9804a9ad3311456f7a958",
+        "summary": "Her mark enables maximum-health-based bonus magic damage from Yorick's attack."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Recast: Yorick sets the Maiden free, allowing her to push the nearest lane.",
+            "source_id": "wiki:eulogyoftheisles"
+          }
+        ],
+        "id": "9b342e95ac7e93310b08c768",
+        "summary": "The recast releases her to push a lane."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the Maiden's combat contribution and independent lane pressure.",
+    "slot": "R",
+    "source_ids": [
+      "riot:R",
+      "wiki:eulogyoftheisles",
+      "wiki:R"
+    ],
+    "subject_id": "wiki:eulogyoftheisles",
+    "title": "Eulogy of the Isles",
+    "unsupported_claims": []
+  }
+]

@@ -1,0 +1,566 @@
+{
+  "approved_before": {
+    "data/content/editorial.json": "99a5bf2692dcba838b44f760962428a3e11fda582246b01b9d8bebc5f2ce1714",
+    "data/content/editorial.lock.json": "f396f168e9fa4dbddafd651116129f1f6bc63d35cf860185298c780d649ab9f8",
+    "data/content/pilot.json": "9f79b15b1b815a10097a92e76602d38f84bfd0752b6884a0a567b61c41441319",
+    "data/content/pilot.lock.json": "cada3e1dc45899483494e35ed0ec18171d1bd515c591b24d024f4a9025bae583",
+    "data/content/production.json": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "data/content/production.lock.json": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "data/sources/editorial.json": "e8bb35f575c6baf8c9dd3e2b9f2bf28b6e565b18836181771c6cc1a3dfc015ec",
+    "data/sources/pilot.json": "944046cc983be9862dad79fad975c9dc927d830d5bd0bd9d137067560baa2724",
+    "data/sources/production.json": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "champions": {
+    "jarvaniv": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 20334,
+              "output_tokens": 2490,
+              "reasoning_output_tokens": 77
+            }
+          ]
+        },
+        "output_sha256": "9aed1927447a58210e5dcac792365fb1f6906ee51db0ef36f0c62ad46f5cd13b",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "1e1c1170987b2e88cc07027d7f14c8cecd537b9f006056e644d41c3b27f6ef09"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T13:33:46.877112+00:00",
+      "findings": [
+        {
+          "code": "source_unavailable",
+          "message": "HTTP Error 404: Not Found",
+          "url": "https://www.leagueoflegends.com/en-us/champions/jarvan-iv/"
+        }
+      ],
+      "ids": [
+        "champ:jarvaniv:overview:L1",
+        "champ:jarvaniv:p:recognize:L2",
+        "champ:jarvaniv:q:recognize:L2",
+        "champ:jarvaniv:w:recognize:L2",
+        "champ:jarvaniv:e:recognize:L2",
+        "champ:jarvaniv:r:recognize:L2"
+      ],
+      "manifest_sha256": "3bac7e4d36765d7e1ae3422018fa11c7ae728e57c8b095a946ffdc9e23a8ac48",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-06/staging/jarvaniv",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/9df665e4bab6a385fd85dcff57e2ee489fbe64a7330895ca54b6ea20113b0c95",
+      "status": "generated"
+    },
+    "jax": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 20334,
+              "output_tokens": 2262,
+              "reasoning_output_tokens": 68
+            }
+          ]
+        },
+        "output_sha256": "644f4168ca2db14214c23e5b9f6e325ee8e236bd601e6ed54fa8b7b3d3b06bfb",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "0600330581ac83d940c95e63c3074f0da78af1151085af8f415b00aa42fde340"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T13:34:52.475709+00:00",
+      "findings": [],
+      "ids": [
+        "champ:jax:overview:L1",
+        "champ:jax:p:recognize:L2",
+        "champ:jax:q:recognize:L2",
+        "champ:jax:w:recognize:L2",
+        "champ:jax:e:recognize:L2",
+        "champ:jax:r:recognize:L2"
+      ],
+      "manifest_sha256": "fce4bf6d6e6d37177a667fc3f23fc85e260bc9d299a3da833fc09723612cdba4",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-06/staging/jax",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/ee6fb72b134e1fdfe8091caff705801290b3f37b0f239a4806f56ecf5a1f4472",
+      "status": "generated"
+    },
+    "jayce": {
+      "author_receipt": {
+        "execution_attempts": 0,
+        "metadata": {
+          "at": "2026-11-03T12:26:55.080607+00:00",
+          "changed": "Six context-specific Q/W/E unit kinds changed from ability to ability_variant only",
+          "editorial_approval": false,
+          "explicit_user_confirmation": "Ja, nur die sechs Einträge als Varianten kennzeichnen"
+        },
+        "output_sha256": "0f4dfff4aaaaa735c7d9a09176ab80d2b29094d2463d538e290a030401cbfaeb",
+        "provider": "human_structure_correction",
+        "request_sha256": "859ecd9a495cd987154c9eb1b394b34c5c03bbfe175c458dce9cf1c1206afdf1"
+      },
+      "cards": 9,
+      "completed_at": "2026-11-03T12:27:21.565580+00:00",
+      "findings": [
+        {
+          "code": "adaptive_kit_structure",
+          "message": "10 live sections discovered; conventional slot headings are not a completeness contract."
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:jayce:ability_variant:q:totheskies:transformmercuryhammer:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:jayce:ability_variant:q:shockblast:transformmercurycannon:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:jayce:ability_variant:w:lightningfield:transformmercuryhammer:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:jayce:ability_variant:w:hypercharge:transformmercurycannon:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:jayce:ability_variant:e:thunderingblow:transformmercuryhammer:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:jayce:ability_variant:e:accelerationgate:transformmercurycannon:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:jayce:r:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        }
+      ],
+      "ids": [
+        "champ:jayce:overview:L1",
+        "champ:jayce:p:recognize:L2",
+        "champ:jayce:ability_variant:q:totheskies:transformmercuryhammer:recognize:L2",
+        "champ:jayce:ability_variant:q:shockblast:transformmercurycannon:recognize:L2",
+        "champ:jayce:ability_variant:w:lightningfield:transformmercuryhammer:recognize:L2",
+        "champ:jayce:ability_variant:w:hypercharge:transformmercurycannon:recognize:L2",
+        "champ:jayce:ability_variant:e:thunderingblow:transformmercuryhammer:recognize:L2",
+        "champ:jayce:ability_variant:e:accelerationgate:transformmercurycannon:recognize:L2",
+        "champ:jayce:r:recognize:L2"
+      ],
+      "manifest_sha256": "c1ee607ed28a6be88fecb8798ae65de00a38184c47277bc6459a1acb7b7e5857",
+      "media": {
+        "icon": 8,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-06/staging/jayce",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/f36d41c5fda773e3c9f4e4b3d09312ad1b53d39f5cd57c1c5153a84e690d15ac",
+      "status": "generated"
+    },
+    "jhin": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 21802,
+              "output_tokens": 6830,
+              "reasoning_output_tokens": 119
+            }
+          ]
+        },
+        "output_sha256": "e1d973b20d03dd096fd428daa66fb63163219ef95898145adff991778fbb19a9",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "879d253adaee1dcff2bfca60c01b1284eb84c679a424f58c10fa1d8d557f5031"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T13:37:22.210004+00:00",
+      "findings": [
+        {
+          "code": "adaptive_kit_structure",
+          "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+        }
+      ],
+      "ids": [
+        "champ:jhin:overview:L1",
+        "champ:jhin:p:recognize:L2",
+        "champ:jhin:q:recognize:L2",
+        "champ:jhin:w:recognize:L2",
+        "champ:jhin:e:recognize:L2",
+        "champ:jhin:r:recognize:L2"
+      ],
+      "manifest_sha256": "fea9e8174642cf16a1ce2e5b0aa229ea0fc0369039658a2e69cfe61117485676",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-06/staging/jhin",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/d71e5d6f4aecb497be6403aa359635103ca5b3616261c16a6fb5f21edea0390e",
+      "status": "generated"
+    },
+    "kaisa": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 21459,
+              "output_tokens": 2695,
+              "reasoning_output_tokens": 43
+            }
+          ]
+        },
+        "output_sha256": "c505e82117c08e4dc56244f9de81a7c30a84f786b8021100f01c6436636e5d02",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "e0afb3dbb2a7c5669ecc8015ff6d7571ab290e5c9689703ada938ba0e4f66d28"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T13:38:45.480854+00:00",
+      "findings": [
+        {
+          "code": "source_unavailable",
+          "message": "HTTP Error 404: Not Found",
+          "url": "https://www.leagueoflegends.com/en-us/champions/kai-sa/"
+        }
+      ],
+      "ids": [
+        "champ:kaisa:overview:L1",
+        "champ:kaisa:p:recognize:L2",
+        "champ:kaisa:q:recognize:L2",
+        "champ:kaisa:w:recognize:L2",
+        "champ:kaisa:e:recognize:L2",
+        "champ:kaisa:r:recognize:L2"
+      ],
+      "manifest_sha256": "19ec4080fd569131936ffc4338d68dc91ea188e77b0678d7f5971a06386e6ade",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-06/staging/kaisa",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/c1f060ff4f4499bb58af55198094264b97db6e9a8dfc507658bdfe140c70038c",
+      "status": "generated"
+    },
+    "kalista": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 24067,
+              "output_tokens": 5930,
+              "reasoning_output_tokens": 111
+            }
+          ]
+        },
+        "output_sha256": "f844766e0598c84c9e22a56cbadf4c5085d0088fd4f76820ee3ac4878bc6391e",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "895d09615e2b748960fb2ab6fcc89887c859344d70b5ac2fb6e9597d97724b1e"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T13:41:03.151082+00:00",
+      "findings": [
+        {
+          "code": "adaptive_kit_structure",
+          "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+        }
+      ],
+      "ids": [
+        "champ:kalista:overview:L1",
+        "champ:kalista:p:recognize:L2",
+        "champ:kalista:q:recognize:L2",
+        "champ:kalista:w:recognize:L2",
+        "champ:kalista:e:recognize:L2",
+        "champ:kalista:r:recognize:L2"
+      ],
+      "manifest_sha256": "50871916aaf601c775fb2e815b25e60d4db2cd51c846ff71161f3642937d34fb",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-06/staging/kalista",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/1e42bad2edfac38bee358774e758f9c35a4ce685892666f42fade018834a40d7",
+      "status": "generated"
+    },
+    "karthus": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 12800,
+              "input_tokens": 20219,
+              "output_tokens": 2226,
+              "reasoning_output_tokens": 66
+            }
+          ]
+        },
+        "output_sha256": "5ca17fcce02621a2ede60bbec625acc18f0698cd7a242c70833b35bd4baa6aaf",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "4ce7d36006939cb1beded776c8bf12b19b8b11167dfff67971774c7511c9d1fe"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T13:42:15.002023+00:00",
+      "findings": [],
+      "ids": [
+        "champ:karthus:overview:L1",
+        "champ:karthus:p:recognize:L2",
+        "champ:karthus:q:recognize:L2",
+        "champ:karthus:w:recognize:L2",
+        "champ:karthus:e:recognize:L2",
+        "champ:karthus:r:recognize:L2"
+      ],
+      "manifest_sha256": "e09cda2b6df18d3497de7a3dd1159cfcca2de0593808aa2e731fb9ac487c1b0d",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-06/staging/karthus",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/2e13863118b40326518c71086b0ecec66e5903a01f95f003846058cf22bb5f56",
+      "status": "generated"
+    },
+    "kassadin": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 19963,
+              "output_tokens": 2091,
+              "reasoning_output_tokens": 61
+            }
+          ]
+        },
+        "output_sha256": "274cff909d471550163467368c4950bf7f1d126aa6355b3b72bde368e5dd82c5",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "4ff5c082940c1ffdb05a8654c32b353a2d77f4a1a6d4b399c2a75dbfddf58ae8"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T13:43:22.467753+00:00",
+      "findings": [
+        {
+          "code": "media_url_missing",
+          "name": "kassadin_p.webm"
+        }
+      ],
+      "ids": [
+        "champ:kassadin:overview:L1",
+        "champ:kassadin:p:recognize:L2",
+        "champ:kassadin:q:recognize:L2",
+        "champ:kassadin:w:recognize:L2",
+        "champ:kassadin:e:recognize:L2",
+        "champ:kassadin:r:recognize:L2"
+      ],
+      "manifest_sha256": "53299836da0de9553061e62b2f0873d408aa7ff0690073cd55b110e21d9d810c",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-06/staging/kassadin",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/644a4bbe1646e8152596685c3d50bb431693017ae52e619a7e2ff63f7edbe51b",
+      "status": "generated"
+    },
+    "katarina": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 20642,
+              "output_tokens": 2516,
+              "reasoning_output_tokens": 64
+            }
+          ]
+        },
+        "output_sha256": "73815fea66eb81ea54657bc189da613e5a21648695c4b8d6e6bd71fe9408d3ec",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "794d4395748ee0c8738a3e86f5d961d9bb5c46e6e0729043fbbd271c5c39a0a3"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T13:44:30.164446+00:00",
+      "findings": [],
+      "ids": [
+        "champ:katarina:overview:L1",
+        "champ:katarina:p:recognize:L2",
+        "champ:katarina:q:recognize:L2",
+        "champ:katarina:w:recognize:L2",
+        "champ:katarina:e:recognize:L2",
+        "champ:katarina:r:recognize:L2"
+      ],
+      "manifest_sha256": "f3a8707c2a7aa97f5a9c1c015f2087d1732fbf5f4a23de2d9d8ff2f432421394",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-06/staging/katarina",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/e18354656ead41699453095cb1eabbb7404ec366a0e24f4a8834542656dadc95",
+      "status": "generated"
+    },
+    "kayle": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 22827,
+              "output_tokens": 2462,
+              "reasoning_output_tokens": 104
+            }
+          ]
+        },
+        "output_sha256": "e1af61a0366baeeac6e7cbb34dc7d11f65f2f0a3279126161d7fdbf1cc349964",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "58e6dd8550c79a367a81740ef678032585c821ff231ae19ed74ace63e9e91c7b"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-02T13:45:44.548619+00:00",
+      "findings": [],
+      "ids": [
+        "champ:kayle:overview:L1",
+        "champ:kayle:p:recognize:L2",
+        "champ:kayle:q:recognize:L2",
+        "champ:kayle:w:recognize:L2",
+        "champ:kayle:e:recognize:L2",
+        "champ:kayle:r:recognize:L2"
+      ],
+      "manifest_sha256": "210f1f25b3e6c976c57fcb38b2bae71bc574c831172a48420af18f8e6b59d4f6",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-06/staging/kayle",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/62b2c5ee8eec3690f22ae8e39d3647ac991441f2c6f20f6ed641f57048a7a2fc",
+      "status": "generated"
+    }
+  },
+  "created_at": "2026-11-02T13:32:32.063046+00:00",
+  "editorial_approval": false,
+  "id": "efficient-06",
+  "import_status": "not_recorded",
+  "mode": "author_only_staging",
+  "output": "build/staging/efficient-06.apkg",
+  "package": {
+    "cards": 63,
+    "media": 99,
+    "notes": 63,
+    "sha256": "d807322f9d50fe0f68407e00ff37502884a24123674aa11b2021031a0cb962f0",
+    "sqlite_integrity": "ok"
+  },
+  "status": "staging_exported",
+  "updated_at": "2026-11-03T12:27:21.565580+00:00"
+}

@@ -1,0 +1,1231 @@
+{
+  "approval_blockers": [
+    "All six cards are drafts requiring explicit editorial approval.",
+    "All clips/cues need manual visual verification.",
+    "Game patch label has not been independently established."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "-"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:orianna:overview:L1",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The AP focus is teaching guidance grounded in damage and shield scaling, not an optimal item build."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": null,
+      "media_type": "portrait",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Tracking the Ball helps anticipate area damage, crowd control and ally protection."
+      },
+      "slot": "-",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Orianna's basic attacks deal bonus magic damage to enemies other than structures.",
+            "covered": true,
+            "mechanic_id": "P.bonus_magic_damage",
+            "reason": "Explains the bonus magic damage and its structure exclusion."
+          },
+          {
+            "answer_quote": "Repeated attacks against the same target increase this bonus up to a cap; attacking a different enemy resets the stacks.",
+            "covered": true,
+            "mechanic_id": "P.repeated_target",
+            "reason": "Explains same-target damage growth, its cap and target-switch reset."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "P"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:orianna:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The buff-bar cue is a tentative text-supported proposal, not current-client visual verification; supplied frames do not establish its appearance.",
+        "Stacks expire and refresh on subsequent attacks; these details are omitted from beginner text.",
+        "Brief ability locks and the exception for E on the current carrier are omitted.",
+        "The Wiki reports an unusual Runaan's Hurricane stack-reset interaction, omitted from beginner text."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Orianna's basic attacks generate a stack of Clockwork Winding for 4 seconds, refreshing on subsequent attacks and stacking up to 2 times. All stacks are lost when attacking a new enemy.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Stacks expire, refresh on subsequent attacks, have a cap, and reset when attacking a different enemy."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The attacks do not deal the bonus damage against structures.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "The bonus attack damage excludes structures."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The Ball attaches to Orianna when she approaches it, and snaps back to her when she moves too far away.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Orianna retrieves the Ball by approaching it; exceeding its leash returns it to her."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The Ball incurs a 0.01-second global cooldown on all of her abilities when she casts any ability.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "The Ball will not incur its global cooldown from a Command: Protect cast that is used on a target already attached to it.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Casting abilities briefly locks other abilities, with an exception for E cast on the Ball's current carrier."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Runaan's Hurricane's extra bolts will cause Clockwork Winding to reset its stacks, as she hits targets other than her latest one on-hit.(unexpected)",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "The Wiki reports that Runaan's Hurricane extra bolts reset stacks by hitting other targets."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Orianna's Attacks deal additional magic damage.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Clockwork Winding: Orianna's basic attacks deal bonus magic damage, increased for each stack.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.bonus_magic_damage",
+            "summary": "Basic attacks deal bonus magic damage to eligible targets."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This damage increases the more Orianna Attacks the same target.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Orianna's basic attacks generate stacks of Clockwork Winding, which refresh on subsequent hits and stack up to a cap.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.repeated_target",
+            "summary": "Repeated attacks against the same target increase the bonus damage up to a cap."
+          }
+        ],
+        "slot": "P",
+        "unsupported_claims": [
+          "The attack damage increase stacks indefinitely.",
+          "Unverified visual frames establish current-client or skin-specific behavior."
+        ]
+      },
+      "media_type": "icon",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Repeated attacks make extended trades more threatening."
+      },
+      "slot": "P",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "proposed_unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Orianna sends the Ball to a chosen location, dealing magic damage to enemies along its path and near its arrival point. Targets hit after the first take less damage. The Ball remains there between commands, but Orianna can retrieve it by approaching, and it returns if she moves too far away.",
+            "covered": true,
+            "mechanic_id": "Q.position_ball",
+            "reason": "Explains location targeting, persistence, retrieval and leash return."
+          },
+          {
+            "answer_quote": "Orianna sends the Ball to a chosen location, dealing magic damage to enemies along its path and near its arrival point.",
+            "covered": true,
+            "mechanic_id": "Q.magic_damage",
+            "reason": "Explicitly explains path damage and supported arrival damage."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "Q"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:orianna:q:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Projectile-blocker interactions are pending tests or posed as questions; no specific outcome is asserted.",
+        "Minimum travel distance, casting restrictions during travel and lack of vision during flight are omitted.",
+        "The Ball's placement can end through further commands as well as retrieval or leash limits; these are not presented as exhaustive conditions."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "deals less damage to subsequent targets",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "reduced to 70% against those hit beyond the first.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Targets beyond the first take reduced damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "dealing magic damage to enemies it passes through and nearby enemies upon arrival.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Damage also affects nearby enemies at the arrival location."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If The Ball is currently on Orianna herself, Command: Attack will have it cast to fly at least 150 units if the player attempts to cast it closer.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Casting from Orianna has a minimum travel distance."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Orianna cannot use Command: Protect while The Ball is in transit with Command: Attack but she may buffer Command: Dissonance and Command: Shockwave to cast once it has reached the location.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "During Q travel, E is unavailable; W and R can be buffered for arrival."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The Ball will remain at the target location until Orianna retrieves it or if she goes beyond its leash range.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "The Ball will also never exceed its leash range regardless of target direction.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Ball placement remains subject to retrieval and leash limits."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The Ball does not grant sight while in flight, but the sound effect of striking an enemy is audible through the Fog of War.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Travel grants no sight, although hit sounds are audible through fog of war."
+          },
+          {
+            "citations": [
+              {
+                "quote": "PENDING FOR TEST: The Ball will drop to the ground upon colliding with Yasuo's Wind Wall but not with Braum's Unbreakable.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Samira's Blade Whirl?",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "uncertain",
+            "summary": "Q interactions with these projectile-blocking abilities are unresolved in the packet."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Orianna commands her Ball to fire toward a target location",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Orianna commands The Ball to fly to the target location and remain there",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.position_ball",
+            "summary": "Sends the Ball to a chosen location, where it remains subject to retrieval and leash limits."
+          },
+          {
+            "citations": [
+              {
+                "quote": "dealing magic damage to targets along the way",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "dealing magic damage to enemies it passes through and nearby enemies upon arrival.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.magic_damage",
+            "summary": "The moving Ball deals magic damage to enemies along its path."
+          }
+        ],
+        "slot": "Q",
+        "unsupported_claims": [
+          "Q definitely drops at Yasuo's Wind Wall but passes Braum's Unbreakable.",
+          "A specific interaction with Samira's Blade Whirl is established.",
+          "Q grants vision while traveling."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Ball placement establishes where her later area abilities threaten enemies."
+      },
+      "slot": "Q",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "The Ball releases a pulse that deals magic damage to nearby enemies.",
+            "covered": true,
+            "mechanic_id": "W.pulse_damage",
+            "reason": "Identifies the Ball-centered pulse and its magic damage."
+          },
+          {
+            "answer_quote": "It leaves a field that speeds up Orianna and allied champions inside it and slows enemies inside it.",
+            "covered": true,
+            "mechanic_id": "W.ally_speed",
+            "reason": "Explicitly includes Orianna and allied champions as field speed recipients."
+          },
+          {
+            "answer_quote": "It leaves a field that speeds up Orianna and allied champions inside it and slows enemies inside it.",
+            "covered": true,
+            "mechanic_id": "W.enemy_slow",
+            "reason": "Explains the field's enemy slow without claiming it ends immediately upon exit."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "W"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:orianna:w:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The slow decays after enemies leave; leaving does not necessarily remove it immediately.",
+        "The evidence supports pulse damage, not repeated damage from the lingering field."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The pulse leaves behind an electric field that last 3 seconds, granting bonus movement speed to Orianna and her allies when they move within. Enemies that move within the field are slowed by the same amount, decaying over 2 seconds after leaving.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "The field lasts briefly, includes Orianna among its speed recipients, and the enemy slow decays after leaving."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Orianna commands her Ball to release a pulse of energy, dealing magic damage around it.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Orianna commands The Ball to emit an electric pulse that deals magic damage to nearby enemies.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.pulse_damage",
+            "summary": "The Ball emits a pulse that deals magic damage to nearby enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This leaves a field behind that speeds up allies and slows enemies.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "which slows enemies and grants bonus movement speed to Orianna and allied champions.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.ally_speed",
+            "summary": "The lingering field speeds up Orianna and allied champions within it."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This leaves a field behind that speeds up allies and slows enemies.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Enemies that move within the field are slowed by the same amount",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.enemy_slow",
+            "summary": "The lingering field slows enemies within it."
+          }
+        ],
+        "slot": "W",
+        "unsupported_claims": [
+          "The lingering field repeatedly deals damage.",
+          "Arena-specific scaling establishes the standard-mode damage scaling."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "The field changes movement for both teams and helps control space."
+      },
+      "slot": "W",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Orianna sends the Ball to attach to herself or an allied champion, shielding the recipient on arrival.",
+            "covered": true,
+            "mechanic_id": "E.attach_shield",
+            "reason": "Explains eligible recipients, attachment and shield arrival timing."
+          },
+          {
+            "answer_quote": "It deals magic damage to enemies it passes through.",
+            "covered": true,
+            "mechanic_id": "E.path_damage",
+            "reason": "Explicitly explains damage along the Ball's travel path."
+          },
+          {
+            "answer_quote": "The Ball grants its carrier bonus armor and magic resistance while attached.",
+            "covered": true,
+            "mechanic_id": "E.carrier_resistances",
+            "reason": "Explains both resistances and their attachment condition."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "E"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:orianna:e:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Other abilities are unavailable during E travel.",
+        "Carrier death, untargetability before arrival, leash limits, stealth and projectile interception create advanced positioning exceptions omitted from beginner text.",
+        "The shield is temporary; carrier resistances depend on attachment."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "fly to herself or the target allied champion and attach itself to the target",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "granting the target a shield for 2.5 seconds upon arrival.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Orianna gains Command: Protect's bonus resistances whenever The Ball is attached to her (even if she didn't self-cast).",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "E can target Orianna herself. Its shield begins on arrival, and Orianna receives the resistances whenever the Ball is attached to her."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Orianna cannot cast her other abilities while the The Ball is moving to the target with Command: Protect.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Other abilities cannot be cast during E travel."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The Ball will remain where Command: Protect's target ally died or, if they died or became untargetable before The Ball reaches them, it will instead snap back to Orianna.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "An attached ally's death leaves the Ball at their death location; death or untargetability before arrival returns it to Orianna."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The Ball will return to Orianna if Command: Protect's target ally moves too far away from her (The Ball will always respect its leash range, which is increased by 100 when attached to allied champions).",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "An allied carrier remains subject to a leash, with a larger leash allowance than an unattached Ball."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The Ball will join Command: Protect's target ally in stealth if they are affected by it when Orianna targets them.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "The Ball snaps back to Orianna upon being intercepted by projectile-blocking effects.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The Ball joins an already stealthed target in stealth and returns to Orianna if intercepted by projectile-blocking effects."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The Ball does not grant sight while in flight, but the sound effect of striking an enemy is audible through the Fog of War.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Command: Protect has a forgiveness radius of 175 units.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Travel grants no sight but can provide audible hit feedback; the Wiki also specifies a targeting forgiveness radius."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Orianna commands her Ball to attach to an allied champion, Shielding them",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Orianna commands The Ball to fly and attach to herself or the target allied champion",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "shielding the target for a short time.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.attach_shield",
+            "summary": "Sends the Ball to attach to Orianna or an allied champion and shield the recipient on arrival."
+          },
+          {
+            "citations": [
+              {
+                "quote": "dealing magic damage to any enemies it passes through on the way.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "dealing magic damage to enemies it passes through",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.path_damage",
+            "summary": "The Ball deals magic damage to enemies it passes through."
+          },
+          {
+            "citations": [
+              {
+                "quote": "the Ball grants additional Armor and Magic Resist to the champion it is attached to.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Passive: The Ball grants bonus armor and bonus magic resistance to the unit it is attached to.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.carrier_resistances",
+            "summary": "The attached Ball protects its carrier with bonus armor and magic resistance."
+          }
+        ],
+        "slot": "E",
+        "unsupported_claims": [
+          "E can target any allied unit, including minions.",
+          "The shield is granted before the Ball arrives.",
+          "The bonus resistances persist after the Ball leaves its carrier."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Shielding and extra resistances can deny damage while moving the Ball onto an ally."
+      },
+      "slot": "E",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "After a short delay, the Ball unleashes a shockwave that deals magic damage to nearby enemies and launches them toward the Ball.",
+            "covered": true,
+            "mechanic_id": "R.area_damage",
+            "reason": "Explains the Ball's shockwave and nearby enemy magic damage."
+          },
+          {
+            "answer_quote": "After a short delay, the Ball unleashes a shockwave that deals magic damage to nearby enemies and launches them toward the Ball.",
+            "covered": true,
+            "mechanic_id": "R.delayed_displacement",
+            "reason": "Explicitly explains delayed displacement toward the Ball without promising a final position at its center."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "R"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:orianna:r:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The Wiki contradicts itself about displacement through terrain; neither outcome is asserted.",
+        "Enemies near the center can pass over the Ball; launch direction does not promise a final position at its center.",
+        "End-of-cast origin notes ambiguously refer to the caster and attached carrier.",
+        "The Wiki states that displacement immunity does not prevent the stun."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "briefly stunning and pulling them inward.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Displacement immunity will not resist the application of the stun.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "R also briefly stuns; displacement immunity does not prevent that stun."
+          },
+          {
+            "citations": [
+              {
+                "quote": "pulls them over 325 units, though not through terrain.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Command: Shockwave tosses enemies a set distance (those on the edge of the flinging area will be tossed to the center while those close to the middle will go over The Ball towards the edge) and can send them through walls.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "disputed",
+            "summary": "Terrain traversal is internally contradictory: the active description excludes it, while the notes allow passage through walls. The general displacement remains supported."
+          },
+          {
+            "citations": [
+              {
+                "quote": "those on the edge of the flinging area will be tossed to the center while those close to the middle will go over The Ball towards the edge",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "The displacement is a set-distance toss; enemies near the center can pass over the Ball rather than stop at its center."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Command: Shockwave will cast from wherever the unit the The Ball is attached to is at the end of the cast time, even if the unit exceeds max tether range.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "uncertain",
+            "summary": "The notes describe end-of-cast positioning ambiguously, referring both to the caster and to the attached carrier. The precise general origin rule is unclear."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Orianna commands her Ball to unleash a shockwave, dealing magic damage",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Orianna commands The Ball to unleash a shockwave that deals magic damage to nearby enemies",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.area_damage",
+            "summary": "The Ball unleashes a shockwave that deals magic damage to nearby enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "launching nearby enemies towards the Ball after a short delay.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "briefly stunning and pulling them inward.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.delayed_displacement",
+            "summary": "After a short delay, the shockwave displaces nearby enemies toward the Ball."
+          }
+        ],
+        "slot": "R",
+        "unsupported_claims": [
+          "R always deposits every affected enemy exactly at the Ball's center.",
+          "R definitively can or cannot move enemies through terrain.",
+          "Displacement immunity prevents R's stun.",
+          "Arena-specific cooldowns establish standard-mode cooldowns."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Area displacement and a stun can disrupt several enemies at once."
+      },
+      "slot": "R",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "B",
+      "reason": "Ball repositioning availability affects where subsequent area abilities can threaten.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Pulse availability affects access to movement control.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Shield availability affects defensive protection and moving the Ball onto an ally.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Shockwave availability determines access to her major area displacement threat.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "Only the supplied frozen evidence was used; no current-client verification or patch inference was performed.",
+    "Counterplay, priorities and the AP learning focus are inferred teaching guidance grounded in the supplied mechanics.",
+    "The passive buff-bar cue is a tentative proposal supported by Wiki text, not visually verified by the supplied demonstration frames.",
+    "Q projectile-blocker interactions remain unresolved and are not treated as established mechanics.",
+    "R terrain traversal and precise end-of-cast origin remain unresolved.",
+    "Ball retrieval, leash limits, carrier state, interception and travel-time casting restrictions create advanced positioning exceptions.",
+    "Q persistence wording allows further commands to reposition the Ball rather than treating retrieval and leash limits as exhaustive.",
+    "Arena-specific values, historical material, skin descriptions and transcluded pet ability labels were not used to establish standard ability effects.",
+    "The passive buff-bar cue is supported by wiki:P text but is not visually verified; the supplied frames do not establish its appearance.",
+    "Q projectile-blocker outcomes remain explicitly pending or questioned in the evidence.",
+    "The AP focus is teaching guidance supported by damage and shield scaling, not evidence of an optimal build.",
+    "Omitted stack expiry, lingering slow decay, temporary shield duration and advanced travel or carrier exceptions do not make these qualified beginner descriptions misleading.",
+    "Counterplay and priority judgments follow from supplied mechanics without guaranteed outcomes or invented timings.",
+    "UNAPPROVED and other provenance labels occur in metadata, not card-facing wording. This check does not confer human approval or current-client verification."
+  ],
+  "findings": [],
+  "generation": {
+    "author": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 30631,
+            "output_tokens": 3786,
+            "reasoning_output_tokens": 99
+          }
+        ]
+      },
+      "output_sha256": "aa0c0628d03a09488490ffb48ed5b010e2ce4c42d69c578f01f0aaf17d11edd9",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "df790e9fb150e9784739fa491ef4db30e3cbfde9316b6d48af141f4f7f0a68f4"
+    },
+    "mechanics": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 20590,
+            "output_tokens": 4136,
+            "reasoning_output_tokens": 40
+          }
+        ]
+      },
+      "output_sha256": "3f1d870578c2104ef09dc0d6d336771cd5c1f4842ced3f85af2d8e64af693d6d",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "4ffc91f425a266242828c7ee23a193eda0625ee446215ec2da8fa5df364eadb7"
+    },
+    "passes": [
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 26294,
+                "output_tokens": 3525,
+                "reasoning_output_tokens": 81
+              }
+            ]
+          },
+          "output_sha256": "88ede79573baded89e3c395d23ebf205fadbec00adc83794ebc3dc80faeda2b3",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "585655c6cf8660268cbcc6544de9c2ec1109436e130f09065e2602211a4b3d57"
+        },
+        "pass": 1,
+        "support_issues": 2,
+        "verifier": {
+          "attempts": 2,
+          "configured_model": "",
+          "execution_attempts": 2,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12672,
+                "input_tokens": 28577,
+                "output_tokens": 1797,
+                "reasoning_output_tokens": 128
+              }
+            ]
+          },
+          "output_sha256": "a3392aacfda7b62413fcc0517bc1993279646333c70d65a59fc2a4dba09b190c",
+          "prior_errors": [
+            "Unknown verifier source"
+          ],
+          "provider": "codex",
+          "request_sha256": "86386da942f30bfc01c24c5b66c23c7c2cfefe2bea9dacc5e018fdbeea3da88d"
+        }
+      },
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 30631,
+                "output_tokens": 3786,
+                "reasoning_output_tokens": 99
+              }
+            ]
+          },
+          "output_sha256": "aa0c0628d03a09488490ffb48ed5b010e2ce4c42d69c578f01f0aaf17d11edd9",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "df790e9fb150e9784739fa491ef4db30e3cbfde9316b6d48af141f4f7f0a68f4"
+        },
+        "pass": 2,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 28781,
+                "output_tokens": 1624,
+                "reasoning_output_tokens": 33
+              }
+            ]
+          },
+          "output_sha256": "54ddd308c5b2c1e787f3cad8436a01fa2f3630a77dd9707663bc4e3d9d126c9e",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "b88cef5606f2448c1be978cbe5d7b5526d705bfc87f02e861afdfdad3a83e805"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "2c3d579cdcf4c13901a3acfea6b1065b9f2615a6f0562609be97de2e7577249c",
+    "verifier": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 28781,
+            "output_tokens": 1624,
+            "reasoning_output_tokens": 33
+          }
+        ]
+      },
+      "output_sha256": "54ddd308c5b2c1e787f3cad8436a01fa2f3630a77dd9707663bc4e3d9d126c9e",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "b88cef5606f2448c1be978cbe5d7b5526d705bfc87f02e861afdfdad3a83e805"
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:orianna:e:recognize:L2": {
+      "cid": 2338453258479,
+      "guid": "5bf35d1b288d31",
+      "nid": 1838453258479
+    },
+    "champ:orianna:overview:L1": {
+      "cid": 2522694279154,
+      "guid": "1fa8cee84b62ce",
+      "nid": 2022694279154
+    },
+    "champ:orianna:p:recognize:L2": {
+      "cid": 2358895156180,
+      "guid": "50f670a038fb7d",
+      "nid": 1858895156180
+    },
+    "champ:orianna:q:recognize:L2": {
+      "cid": 2340547253328,
+      "guid": "fce3fe02193d63",
+      "nid": 1840547253328
+    },
+    "champ:orianna:r:recognize:L2": {
+      "cid": 2538357658761,
+      "guid": "8ef9f6126557dc",
+      "nid": 2038357658761
+    },
+    "champ:orianna:w:recognize:L2": {
+      "cid": 2355629236086,
+      "guid": "3c2426698706ca",
+      "nid": 1855629236086
+    }
+  },
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "Exact-quote matching does not prove semantic truth.",
+    "AI verification is fallible and is not a human content or visual review."
+  ],
+  "media_references": [
+    "orianna_e.gif",
+    "orianna_e_icon.png",
+    "orianna_p.gif",
+    "orianna_p_icon.png",
+    "orianna_portrait.jpg",
+    "orianna_q.gif",
+    "orianna_q_icon.png",
+    "orianna_r.gif",
+    "orianna_r_icon.png",
+    "orianna_w.gif",
+    "orianna_w_icon.png"
+  ],
+  "new_cards": 6,
+  "passive_frame_evidence": [
+    {
+      "path": "visual-inputs/passive-1.png",
+      "sha256": "17aaa3e94c6588ce23023c0a80aeba4b24e7ef0ccfb9db46506c7a4cc72c1602",
+      "source_sha256": "a08e50ebbc1713f4869da1a16e9f42fdebda4d9ee293556acde6c32c0782d28d",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0061/ability_0061_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 1.2855
+    },
+    {
+      "path": "visual-inputs/passive-2.png",
+      "sha256": "b0f3f93fdca7a9a8e695d6fd6911903dba58c9c226e0f6d7d22e6cd0c4907b1f",
+      "source_sha256": "a08e50ebbc1713f4869da1a16e9f42fdebda4d9ee293556acde6c32c0782d28d",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0061/ability_0061_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 3.428
+    },
+    {
+      "path": "visual-inputs/passive-3.png",
+      "sha256": "6cfb205114267f796ab335f463f558a6d64ae3744f4333d0d62f0d109fc0e785",
+      "source_sha256": "a08e50ebbc1713f4869da1a16e9f42fdebda4d9ee293556acde6c32c0782d28d",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0061/ability_0061_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 5.5705
+    },
+    {
+      "path": "visual-inputs/passive-4.png",
+      "sha256": "bddb9f3dcd79dd136c0aa44e8bf748edbf54da3e48cf7c271ac7ce3d17ba61cc",
+      "source_sha256": "a08e50ebbc1713f4869da1a16e9f42fdebda4d9ee293556acde6c32c0782d28d",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0061/ability_0061_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 7.713
+    }
+  ],
+  "publishable": false,
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "resolution": "Retain the supported delayed displacement toward the Ball. Leave terrain traversal unresolved without asserting either wall interaction.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "The Wiki active description excludes displacement through terrain, while its notes allow passage through walls; Riot does not resolve the conflict."
+    },
+    {
+      "resolution": "Describe the Ball as the shockwave source without asserting a precise end-of-cast positioning rule.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "R's end-of-cast positioning notes ambiguously refer to the caster and the Ball's attached carrier."
+    },
+    {
+      "resolution": "Keep terrain traversal unresolved for QA. The supported general displacement remains covered; the draft asserts neither wall outcome.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "Wiki R's active description excludes displacement through terrain, but its notes allow passage through walls. Riot does not resolve this."
+    },
+    {
+      "resolution": "Keep the precise end-of-cast origin rule unresolved for QA. The general Ball-centered description is supported.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "Wiki R's positioning notes refer ambiguously to both the caster and the attached carrier."
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "3892665"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

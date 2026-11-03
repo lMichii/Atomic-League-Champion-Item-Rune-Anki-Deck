@@ -1,0 +1,555 @@
+{
+  "abilities": {
+    "E": {
+      "gif": {
+        "frames": 80,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/shyvana_e.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "81df915448d43dd5aaf51ab0ce7ee441bda5ec625690dfa4074a3401c6f3585c"
+        },
+        "sha256": "8023bd1e799193e2f2e8e698967f8e81ad34f74f20e15f2576d414600734f3cf",
+        "source_sha256": "81df915448d43dd5aaf51ab0ce7ee441bda5ec625690dfa4074a3401c6f3585c",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_E1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/shyvana_e_icon.png",
+        "retrieved_at": "2026-11-02T23:03:47.218270+00:00",
+        "sha256": "1cfca401f2d59f496a7b53538c135684b768d58c70081a530c39fe139bdb43dd",
+        "source_sha256": "1cfca401f2d59f496a7b53538c135684b768d58c70081a530c39fe139bdb43dd",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaE.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/shyvana_e.webm",
+        "retrieved_at": "2026-11-02T23:03:47.440837+00:00",
+        "sha256": "81df915448d43dd5aaf51ab0ce7ee441bda5ec625690dfa4074a3401c6f3585c",
+        "source_sha256": "81df915448d43dd5aaf51ab0ce7ee441bda5ec625690dfa4074a3401c6f3585c",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_E1.webm"
+      }
+    },
+    "P": {
+      "gif": null,
+      "icon": {
+        "kind": "png",
+        "path": "media/shyvana_p_icon.png",
+        "retrieved_at": "2026-11-02T23:03:40.736831+00:00",
+        "sha256": "236e8947a845c9f1e3312211cf35e06fe738ea1e294a48234b3c127e81978e5e",
+        "source_sha256": "236e8947a845c9f1e3312211cf35e06fe738ea1e294a48234b3c127e81978e5e",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Shyvana_Passive.png"
+      },
+      "video": null
+    },
+    "Q": {
+      "gif": {
+        "frames": 67,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/shyvana_q.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "8722908f1affe247a5e632adc06b1dd4f749126e788cdb2c5fdb69bfdf2f2033"
+        },
+        "sha256": "5017ee3a2b33bcc9ff03872dbe3446cc7e7c9f8511b424154c2ef70e5043eb86",
+        "source_sha256": "8722908f1affe247a5e632adc06b1dd4f749126e788cdb2c5fdb69bfdf2f2033",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_Q1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/shyvana_q_icon.png",
+        "retrieved_at": "2026-11-02T23:03:41.714647+00:00",
+        "sha256": "8f28d31062323352673aa4f0530033ef2a06fdeab9a63abe81f54630dee2dd04",
+        "source_sha256": "8f28d31062323352673aa4f0530033ef2a06fdeab9a63abe81f54630dee2dd04",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaQ.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/shyvana_q.webm",
+        "retrieved_at": "2026-11-02T23:03:41.984229+00:00",
+        "sha256": "8722908f1affe247a5e632adc06b1dd4f749126e788cdb2c5fdb69bfdf2f2033",
+        "source_sha256": "8722908f1affe247a5e632adc06b1dd4f749126e788cdb2c5fdb69bfdf2f2033",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_Q1.webm"
+      }
+    },
+    "R": {
+      "gif": {
+        "frames": 42,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/shyvana_r.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "c4b8f2d837589af8a8fdcf29d24bd5e78568078503043f7eef5a3c2baba9b6ac"
+        },
+        "sha256": "958e4a76a8c939570d09220c8339160bfd403e79d19f11437df11d7c93635610",
+        "source_sha256": "c4b8f2d837589af8a8fdcf29d24bd5e78568078503043f7eef5a3c2baba9b6ac",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_R1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/shyvana_r_icon.png",
+        "retrieved_at": "2026-11-02T23:03:49.959048+00:00",
+        "sha256": "f6119ba8f9a3e050a291c38b0a42664785ea9ae15bed735b2c62dc6f91f75a43",
+        "source_sha256": "f6119ba8f9a3e050a291c38b0a42664785ea9ae15bed735b2c62dc6f91f75a43",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaR.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/shyvana_r.webm",
+        "retrieved_at": "2026-11-02T23:03:50.150496+00:00",
+        "sha256": "c4b8f2d837589af8a8fdcf29d24bd5e78568078503043f7eef5a3c2baba9b6ac",
+        "source_sha256": "c4b8f2d837589af8a8fdcf29d24bd5e78568078503043f7eef5a3c2baba9b6ac",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_R1.webm"
+      }
+    },
+    "W": {
+      "gif": {
+        "frames": 107,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/shyvana_w.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "4239a44ec870154416e30fd5ef375ee0cd5c7f243b6e4b10439d10a90a195568"
+        },
+        "sha256": "42d1a7962283d9b15b5c4974a564bf8af7b7c7b0f876f3093ec5bfe0412c2b53",
+        "source_sha256": "4239a44ec870154416e30fd5ef375ee0cd5c7f243b6e4b10439d10a90a195568",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_W1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/shyvana_w_icon.png",
+        "retrieved_at": "2026-11-02T23:03:43.797138+00:00",
+        "sha256": "41b4e1fadfa41bec636f6fcd21302d0782e66f478a3da4df5a752cf75c17cc46",
+        "source_sha256": "41b4e1fadfa41bec636f6fcd21302d0782e66f478a3da4df5a752cf75c17cc46",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaW.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/shyvana_w.webm",
+        "retrieved_at": "2026-11-02T23:03:44.062882+00:00",
+        "sha256": "4239a44ec870154416e30fd5ef375ee0cd5c7f243b6e4b10439d10a90a195568",
+        "source_sha256": "4239a44ec870154416e30fd5ef375ee0cd5c7f243b6e4b10439d10a90a195568",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_W1.webm"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "card_id": "champ:shyvana:overview:L1",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "jpg",
+        "path": "media/shyvana_portrait.jpg",
+        "retrieved_at": "2026-11-02T23:03:40.060371+00:00",
+        "sha256": "43c84f6bdbcf826976ee6ff826707dcc55c2d02ab7f92e62ce19f23da34bbc03",
+        "source_sha256": "43c84f6bdbcf826976ee6ff826707dcc55c2d02ab7f92e62ce19f23da34bbc03",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shyvana_0.jpg"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "official champion portrait",
+      "slot_clip_candidate": null,
+      "subject_id": "riot:role",
+      "unresolved": [],
+      "video": null
+    },
+    {
+      "card_id": "champ:shyvana:p:recognize:L2",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/shyvana_p_icon.png",
+        "retrieved_at": "2026-11-02T23:03:40.736831+00:00",
+        "sha256": "236e8947a845c9f1e3312211cf35e06fe738ea1e294a48234b3c127e81978e5e",
+        "source_sha256": "236e8947a845c9f1e3312211cf35e06fe738ea1e294a48234b3c127e81978e5e",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Shyvana_Passive.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:scalemail",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    },
+    {
+      "card_id": "champ:shyvana:q:recognize:L2",
+      "context_id": "",
+      "gif": {
+        "frames": 67,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/shyvana_q.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "8722908f1affe247a5e632adc06b1dd4f749126e788cdb2c5fdb69bfdf2f2033"
+        },
+        "sha256": "5017ee3a2b33bcc9ff03872dbe3446cc7e7c9f8511b424154c2ef70e5043eb86",
+        "source_sha256": "8722908f1affe247a5e632adc06b1dd4f749126e788cdb2c5fdb69bfdf2f2033",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_Q1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/shyvana_q_icon.png",
+        "retrieved_at": "2026-11-02T23:03:41.714647+00:00",
+        "sha256": "8f28d31062323352673aa4f0530033ef2a06fdeab9a63abe81f54630dee2dd04",
+        "source_sha256": "8f28d31062323352673aa4f0530033ef2a06fdeab9a63abe81f54630dee2dd04",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaQ.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:emberstrike",
+      "unresolved": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ],
+      "video": {
+        "kind": "webm",
+        "path": "media/shyvana_q.webm",
+        "retrieved_at": "2026-11-02T23:03:41.984229+00:00",
+        "sha256": "8722908f1affe247a5e632adc06b1dd4f749126e788cdb2c5fdb69bfdf2f2033",
+        "source_sha256": "8722908f1affe247a5e632adc06b1dd4f749126e788cdb2c5fdb69bfdf2f2033",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_Q1.webm"
+      }
+    },
+    {
+      "card_id": "champ:shyvana:w:recognize:L2",
+      "context_id": "",
+      "gif": {
+        "frames": 107,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/shyvana_w.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "4239a44ec870154416e30fd5ef375ee0cd5c7f243b6e4b10439d10a90a195568"
+        },
+        "sha256": "42d1a7962283d9b15b5c4974a564bf8af7b7c7b0f876f3093ec5bfe0412c2b53",
+        "source_sha256": "4239a44ec870154416e30fd5ef375ee0cd5c7f243b6e4b10439d10a90a195568",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_W1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/shyvana_w_icon.png",
+        "retrieved_at": "2026-11-02T23:03:43.797138+00:00",
+        "sha256": "41b4e1fadfa41bec636f6fcd21302d0782e66f478a3da4df5a752cf75c17cc46",
+        "source_sha256": "41b4e1fadfa41bec636f6fcd21302d0782e66f478a3da4df5a752cf75c17cc46",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaW.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:infernoaegis",
+      "unresolved": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ],
+      "video": {
+        "kind": "webm",
+        "path": "media/shyvana_w.webm",
+        "retrieved_at": "2026-11-02T23:03:44.062882+00:00",
+        "sha256": "4239a44ec870154416e30fd5ef375ee0cd5c7f243b6e4b10439d10a90a195568",
+        "source_sha256": "4239a44ec870154416e30fd5ef375ee0cd5c7f243b6e4b10439d10a90a195568",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_W1.webm"
+      }
+    },
+    {
+      "card_id": "champ:shyvana:e:recognize:L2",
+      "context_id": "",
+      "gif": {
+        "frames": 80,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/shyvana_e.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "81df915448d43dd5aaf51ab0ce7ee441bda5ec625690dfa4074a3401c6f3585c"
+        },
+        "sha256": "8023bd1e799193e2f2e8e698967f8e81ad34f74f20e15f2576d414600734f3cf",
+        "source_sha256": "81df915448d43dd5aaf51ab0ce7ee441bda5ec625690dfa4074a3401c6f3585c",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_E1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/shyvana_e_icon.png",
+        "retrieved_at": "2026-11-02T23:03:47.218270+00:00",
+        "sha256": "1cfca401f2d59f496a7b53538c135684b768d58c70081a530c39fe139bdb43dd",
+        "source_sha256": "1cfca401f2d59f496a7b53538c135684b768d58c70081a530c39fe139bdb43dd",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaE.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:moltenburst",
+      "unresolved": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ],
+      "video": {
+        "kind": "webm",
+        "path": "media/shyvana_e.webm",
+        "retrieved_at": "2026-11-02T23:03:47.440837+00:00",
+        "sha256": "81df915448d43dd5aaf51ab0ce7ee441bda5ec625690dfa4074a3401c6f3585c",
+        "source_sha256": "81df915448d43dd5aaf51ab0ce7ee441bda5ec625690dfa4074a3401c6f3585c",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_E1.webm"
+      }
+    },
+    {
+      "card_id": "champ:shyvana:r:recognize:L2",
+      "context_id": "",
+      "gif": {
+        "frames": 42,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/shyvana_r.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "c4b8f2d837589af8a8fdcf29d24bd5e78568078503043f7eef5a3c2baba9b6ac"
+        },
+        "sha256": "958e4a76a8c939570d09220c8339160bfd403e79d19f11437df11d7c93635610",
+        "source_sha256": "c4b8f2d837589af8a8fdcf29d24bd5e78568078503043f7eef5a3c2baba9b6ac",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_R1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/shyvana_r_icon.png",
+        "retrieved_at": "2026-11-02T23:03:49.959048+00:00",
+        "sha256": "f6119ba8f9a3e050a291c38b0a42664785ea9ae15bed735b2c62dc6f91f75a43",
+        "source_sha256": "f6119ba8f9a3e050a291c38b0a42664785ea9ae15bed735b2c62dc6f91f75a43",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaR.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:dragonsdescent",
+      "unresolved": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ],
+      "video": {
+        "kind": "webm",
+        "path": "media/shyvana_r.webm",
+        "retrieved_at": "2026-11-02T23:03:50.150496+00:00",
+        "sha256": "c4b8f2d837589af8a8fdcf29d24bd5e78568078503043f7eef5a3c2baba9b6ac",
+        "source_sha256": "c4b8f2d837589af8a8fdcf29d24bd5e78568078503043f7eef5a3c2baba9b6ac",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_R1.webm"
+      }
+    }
+  ],
+  "current_client_verified": false,
+  "files": [
+    {
+      "kind": "jpg",
+      "path": "media/shyvana_portrait.jpg",
+      "retrieved_at": "2026-11-02T23:03:40.060371+00:00",
+      "sha256": "43c84f6bdbcf826976ee6ff826707dcc55c2d02ab7f92e62ce19f23da34bbc03",
+      "source_sha256": "43c84f6bdbcf826976ee6ff826707dcc55c2d02ab7f92e62ce19f23da34bbc03",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shyvana_0.jpg"
+    },
+    {
+      "kind": "png",
+      "path": "media/shyvana_p_icon.png",
+      "retrieved_at": "2026-11-02T23:03:40.736831+00:00",
+      "sha256": "236e8947a845c9f1e3312211cf35e06fe738ea1e294a48234b3c127e81978e5e",
+      "source_sha256": "236e8947a845c9f1e3312211cf35e06fe738ea1e294a48234b3c127e81978e5e",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Shyvana_Passive.png"
+    },
+    {
+      "kind": "png",
+      "path": "media/shyvana_q_icon.png",
+      "retrieved_at": "2026-11-02T23:03:41.714647+00:00",
+      "sha256": "8f28d31062323352673aa4f0530033ef2a06fdeab9a63abe81f54630dee2dd04",
+      "source_sha256": "8f28d31062323352673aa4f0530033ef2a06fdeab9a63abe81f54630dee2dd04",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaQ.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/shyvana_q.webm",
+      "retrieved_at": "2026-11-02T23:03:41.984229+00:00",
+      "sha256": "8722908f1affe247a5e632adc06b1dd4f749126e788cdb2c5fdb69bfdf2f2033",
+      "source_sha256": "8722908f1affe247a5e632adc06b1dd4f749126e788cdb2c5fdb69bfdf2f2033",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_Q1.webm"
+    },
+    {
+      "frames": 67,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/shyvana_q.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "8722908f1affe247a5e632adc06b1dd4f749126e788cdb2c5fdb69bfdf2f2033"
+      },
+      "sha256": "5017ee3a2b33bcc9ff03872dbe3446cc7e7c9f8511b424154c2ef70e5043eb86",
+      "source_sha256": "8722908f1affe247a5e632adc06b1dd4f749126e788cdb2c5fdb69bfdf2f2033",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_Q1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/shyvana_w_icon.png",
+      "retrieved_at": "2026-11-02T23:03:43.797138+00:00",
+      "sha256": "41b4e1fadfa41bec636f6fcd21302d0782e66f478a3da4df5a752cf75c17cc46",
+      "source_sha256": "41b4e1fadfa41bec636f6fcd21302d0782e66f478a3da4df5a752cf75c17cc46",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaW.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/shyvana_w.webm",
+      "retrieved_at": "2026-11-02T23:03:44.062882+00:00",
+      "sha256": "4239a44ec870154416e30fd5ef375ee0cd5c7f243b6e4b10439d10a90a195568",
+      "source_sha256": "4239a44ec870154416e30fd5ef375ee0cd5c7f243b6e4b10439d10a90a195568",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_W1.webm"
+    },
+    {
+      "frames": 107,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/shyvana_w.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "4239a44ec870154416e30fd5ef375ee0cd5c7f243b6e4b10439d10a90a195568"
+      },
+      "sha256": "42d1a7962283d9b15b5c4974a564bf8af7b7c7b0f876f3093ec5bfe0412c2b53",
+      "source_sha256": "4239a44ec870154416e30fd5ef375ee0cd5c7f243b6e4b10439d10a90a195568",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_W1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/shyvana_e_icon.png",
+      "retrieved_at": "2026-11-02T23:03:47.218270+00:00",
+      "sha256": "1cfca401f2d59f496a7b53538c135684b768d58c70081a530c39fe139bdb43dd",
+      "source_sha256": "1cfca401f2d59f496a7b53538c135684b768d58c70081a530c39fe139bdb43dd",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaE.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/shyvana_e.webm",
+      "retrieved_at": "2026-11-02T23:03:47.440837+00:00",
+      "sha256": "81df915448d43dd5aaf51ab0ce7ee441bda5ec625690dfa4074a3401c6f3585c",
+      "source_sha256": "81df915448d43dd5aaf51ab0ce7ee441bda5ec625690dfa4074a3401c6f3585c",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_E1.webm"
+    },
+    {
+      "frames": 80,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/shyvana_e.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "81df915448d43dd5aaf51ab0ce7ee441bda5ec625690dfa4074a3401c6f3585c"
+      },
+      "sha256": "8023bd1e799193e2f2e8e698967f8e81ad34f74f20e15f2576d414600734f3cf",
+      "source_sha256": "81df915448d43dd5aaf51ab0ce7ee441bda5ec625690dfa4074a3401c6f3585c",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_E1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/shyvana_r_icon.png",
+      "retrieved_at": "2026-11-02T23:03:49.959048+00:00",
+      "sha256": "f6119ba8f9a3e050a291c38b0a42664785ea9ae15bed735b2c62dc6f91f75a43",
+      "source_sha256": "f6119ba8f9a3e050a291c38b0a42664785ea9ae15bed735b2c62dc6f91f75a43",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ShyvanaR.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/shyvana_r.webm",
+      "retrieved_at": "2026-11-02T23:03:50.150496+00:00",
+      "sha256": "c4b8f2d837589af8a8fdcf29d24bd5e78568078503043f7eef5a3c2baba9b6ac",
+      "source_sha256": "c4b8f2d837589af8a8fdcf29d24bd5e78568078503043f7eef5a3c2baba9b6ac",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_R1.webm"
+    },
+    {
+      "frames": 42,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/shyvana_r.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "c4b8f2d837589af8a8fdcf29d24bd5e78568078503043f7eef5a3c2baba9b6ac"
+      },
+      "sha256": "958e4a76a8c939570d09220c8339160bfd403e79d19f11437df11d7c93635610",
+      "source_sha256": "c4b8f2d837589af8a8fdcf29d24bd5e78568078503043f7eef5a3c2baba9b6ac",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_R1.webm"
+    }
+  ],
+  "findings": [
+    {
+      "code": "media_unavailable",
+      "name": "shyvana_p.webm",
+      "url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0102/ability_0102_P1.webm"
+    }
+  ],
+  "missing_media": [
+    {
+      "card_id": "champ:shyvana:p:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:shyvana:q:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ]
+    },
+    {
+      "card_id": "champ:shyvana:w:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ]
+    },
+    {
+      "card_id": "champ:shyvana:e:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ]
+    },
+    {
+      "card_id": "champ:shyvana:r:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ]
+    }
+  ],
+  "portrait": {
+    "kind": "jpg",
+    "path": "media/shyvana_portrait.jpg",
+    "retrieved_at": "2026-11-02T23:03:40.060371+00:00",
+    "sha256": "43c84f6bdbcf826976ee6ff826707dcc55c2d02ab7f92e62ce19f23da34bbc03",
+    "source_sha256": "43c84f6bdbcf826976ee6ff826707dcc55c2d02ab7f92e62ce19f23da34bbc03",
+    "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shyvana_0.jpg"
+  },
+  "visual_qa": "unreviewed"
+}

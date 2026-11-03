@@ -1,0 +1,27 @@
+* text=auto eol=lf
+# Frozen reference bytes and content-addressed snapshots must survive checkout exactly.
+LoL_Anki_Pilot_Project_v4_English/** -text
+LoL_Anki_Riot_Medien_Fetcher/** -text
+data/sources/raw/** -text
+data/batch01/sources/raw/** -text
+data/batch01/input/** -text
+data/drafts/**/sources/** -text -diff
+data/batches/**/staging/**/sources/** -text -diff
+data/batches/**/staging/**/ai/** -text -diff
+data/batches/**/staging-receipts/** -text -diff
+data/batches/**/repairs/**/before/sources/** -text -diff
+data/batches/**/repairs/**/before/ai/** -text -diff
+data/model-evaluations/**/requests/** -text -diff
+data/prefetch/** -text -diff
+data/editorial/sources/** -text -diff
+data/editorial/originals/** -text -diff
+data/editorial/research/raw/** -text -diff
+*.webm binary
+*.xlsx binary
+*.zip binary
+*.apkg binary
+*.anki2 binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.mp4 binary

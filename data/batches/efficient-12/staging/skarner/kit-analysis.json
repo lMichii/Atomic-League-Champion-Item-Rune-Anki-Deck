@@ -1,0 +1,408 @@
+{
+  "cards": [
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Skarner. Official role tags: Tank, Fighter.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Skarner charges forward and passes through terrain.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Once suppressed, the victims will be dragged along by Skarner as he moves around.",
+              "source_id": "riot:R"
+            }
+          ],
+          "id": "389b029d6b80b96aa8073a93",
+          "summary": "Tank/fighter with terrain-crossing engages and suppression-based dragging."
+        }
+      ],
+      "kind": "overview",
+      "purpose": "Recognize Skarner's overall fighting pattern and positioning threat.",
+      "slot": "",
+      "source_ids": [
+        "riot:role",
+        "riot:E",
+        "riot:R",
+        "riot:P",
+        "wiki:shatteredearth",
+        "wiki:seismicbastion"
+      ],
+      "subject_id": "riot:role",
+      "title": "Skarner",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Skarner's basic attacks on-hit, Shattered Earth, Upheaval, and Impale apply a stack of Quaking to enemies hit for 4 seconds, refreshing on subsequent applications and stacking up to 3 times.",
+              "source_id": "wiki:threadsofvibration"
+            },
+            {
+              "quote": "At max stacks of Quaking, enemies take max Health magic damage over its duration.",
+              "source_id": "riot:P"
+            }
+          ],
+          "id": "9cc21ccd9d2c65328ef6749a",
+          "summary": "Repeated attacks and specified abilities build Quaking, which deals maximum-health magic damage over time at full stacks."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize why prolonged contact increases his damage threat.",
+      "slot": "P",
+      "source_ids": [
+        "wiki:threadsofvibration",
+        "riot:P"
+      ],
+      "subject_id": "wiki:threadsofvibration",
+      "title": "Threads of Vibration",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "While Shattered Earth is active, it will not benefit from cooldown refund effects such as Transcendence or Navori Flickerblade's Transcendence.",
+              "source_id": "wiki:upheaval"
+            }
+          ],
+          "status": "supported",
+          "summary": "While active, Shattered Earth does not benefit from the cited cooldown refund effects."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "empowering his next three basic attacks with bonus attack speed and bonus physical damage to the target and surrounding enemies. The final attack slams the boulder, dealing additional damage based on each target's maximum health and slowing them.",
+              "source_id": "wiki:shatteredearth"
+            }
+          ],
+          "id": "a8d51c41dadbb2c97efdbc8b",
+          "summary": "Empowered area attacks culminate in maximum-health damage and a slow."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Skarner ends Shattered Earth by throwing his boulder in the target direction. It explodes upon colliding with the first enemy hit, applying the same damage and slow to the target and surrounding enemies as Shattered Earth's final empowered attack would.",
+              "source_id": "wiki:upheaval"
+            }
+          ],
+          "id": "492fb16a2aaa9c3d895a2071",
+          "summary": "The alternative throw ends Shattered Earth and delivers the final attack's effects in an explosion."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize the empowered attack sequence and its alternative ranged finish together.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:shatteredearth",
+        "wiki:upheaval",
+        "riot:Q"
+      ],
+      "subject_id": "wiki:shatteredearth",
+      "title": "Shattered Earth / Upheaval",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "shielding himself based on his maximum health and releasing a shockwave that quickly expands in a radius around him to deal magic damage to enemies hit and briefly slow them.",
+              "source_id": "wiki:seismicbastion"
+            },
+            {
+              "quote": "Skarner can move during Seismic Bastion's cast time.",
+              "source_id": "wiki:seismicbastion"
+            }
+          ],
+          "id": "1af27b790642efdd3f98fcad",
+          "summary": "A health-scaling shield accompanies an expanding damaging slow, and he can move during its cast."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize his defensive shield and surrounding slow.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:seismicbastion",
+        "riot:W"
+      ],
+      "subject_id": "wiki:seismicbastion",
+      "title": "Seismic Bastion",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "However, enemies will be notified when Skarner is inside nearby terrain while within a certain distance of him. An indicator will be visible to the enemy player's perspective to represent this.",
+              "source_id": "wiki:ixtalsimpact"
+            }
+          ],
+          "status": "supported",
+          "summary": "Nearby enemies receive an indicator when he is inside terrain."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the target removes the suppression by any means, including with an applicable cleanse effect or dispel, they will detach themselves from Skarner immediately which forces the charge to end instantly and not apply any damage.",
+              "source_id": "wiki:ixtalsimpact"
+            }
+          ],
+          "status": "supported",
+          "summary": "Removing the suppression detaches the target and ends the charge without its damage."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Skarner charges in the target direction for a duration while ignoring terrain collision and gaining ghosting and slow immunity.",
+              "source_id": "wiki:ixtalsimpact"
+            },
+            {
+              "quote": "Colliding with an enemy champion or large monster causes Skarner to increase his movement speed, forcibly grab them to attach them to him, and suppress them while dragging them along for the remainder of the charge.",
+              "source_id": "wiki:ixtalsimpact"
+            }
+          ],
+          "id": "d8978430ec641de6d3bce8c2",
+          "summary": "A terrain-crossing, slow-immune charge grabs and suppresses a collided champion or large monster."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the attached target collides with terrain while grabbed, they are stunned and dealt physical damage, ending the charge, and reducing Ixtal's Impact cooldown.",
+              "source_id": "wiki:ixtalsimpact"
+            }
+          ],
+          "id": "cdbb24e7db4477bb94a2b810",
+          "summary": "A terrain collision damages and stuns the grabbed target and reduces the charge's cooldown."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Ixtal's Impact ends immediately if Skarner becomes immobilized or grounded, or is affected by any form of cast-inhibiting crowd control, during the charge. The grabbed target is detached if this occurs.",
+              "source_id": "wiki:ixtalsimpact"
+            }
+          ],
+          "id": "e6a2058d8aae260a61d7a7c9",
+          "summary": "Immobilization, grounding, and cast-inhibiting crowd control interrupt the charge and release its target."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize his terrain approach, wall-slam threat, and interruption opportunities.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:ixtalsimpact",
+        "riot:E"
+      ],
+      "subject_id": "wiki:ixtalsimpact",
+      "title": "Ixtal's Impact",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "If a target removes the suppression by any means, including with an applicable cleanse effect or dispel, they will detach themselves from Skarner immediately.",
+              "source_id": "wiki:impale"
+            }
+          ],
+          "status": "supported",
+          "summary": "Removing suppression detaches the affected target."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Skarner winds up his stingers over the cast time with displacement immunity, then lashes them forward in the target direction, dealing magic damage to enemies hit and impaling up to 3 of the closest enemy champions within the area to briefly suppress.",
+              "source_id": "wiki:impale"
+            },
+            {
+              "quote": "Once suppressed, the victims will be dragged along by Skarner as he moves around.",
+              "source_id": "riot:R"
+            }
+          ],
+          "id": "3c5171737134b2c5a188f902",
+          "summary": "A forward cast after a windup damages enemies and suppresses and drags up to three champions."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If he successfully impales at least one enemy champion, Skarner gains bonus movement speed for Impale's duration.",
+              "source_id": "wiki:impale"
+            },
+            {
+              "quote": "If Impale is cast during Shattered Earth, Skarner automatically casts Upheaval in the direction of Impale's cast.",
+              "source_id": "wiki:impale"
+            }
+          ],
+          "id": "760c37dca7b6b1bf63189877",
+          "summary": "A successful catch grants movement speed, and an active Shattered Earth adds an automatic Upheaval."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize the forward area catch and subsequent dragging threat.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:impale",
+        "riot:R"
+      ],
+      "subject_id": "wiki:impale",
+      "title": "Impale",
+      "unsupported_claims": []
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Several slot-labelled Wiki excerpts contain mixed historical changes; live source-addressed sections supply the central mechanics.",
+    "Current base cooldowns are not established by the supplied live sections.",
+    "Armor and magic resistance item choices are not directly documented in the supplied evidence."
+  ],
+  "features": [
+    "standard",
+    "ability_variants",
+    "conditional_effects"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "Skarner ends Shattered Earth by throwing his boulder in the target direction.",
+          "source_id": "wiki:upheaval"
+        }
+      ],
+      "condition": "During Shattered Earth, Skarner may throw the boulder to end the empowered attack state.",
+      "from_id": "wiki:upheaval",
+      "kind": "variant_of",
+      "to_id": "wiki:shatteredearth"
+    },
+    {
+      "citations": [
+        {
+          "quote": "If Impale is cast during Shattered Earth, Skarner automatically casts Upheaval in the direction of Impale's cast.",
+          "source_id": "wiki:impale"
+        }
+      ],
+      "condition": "Impale is cast while Shattered Earth is active.",
+      "from_id": "wiki:impale",
+      "kind": "conditional_effect",
+      "to_id": "wiki:upheaval"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Stack application and sustained maximum-health damage are taught on the passive card.",
+      "source_id": "wiki:threadsofvibration",
+      "target_subject_ids": [
+        "wiki:threadsofvibration"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Empowered attacks and their finishing effect anchor the Q card.",
+      "source_id": "wiki:shatteredearth",
+      "target_subject_ids": [
+        "wiki:shatteredearth"
+      ]
+    },
+    {
+      "disposition": "merged",
+      "reason": "The throw is the alternative finish of the same boulder ability; its central effects fit on Q.",
+      "source_id": "wiki:upheaval",
+      "target_subject_ids": [
+        "wiki:shatteredearth",
+        "wiki:impale"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The shield and surrounding damaging slow are taught on W.",
+      "source_id": "wiki:seismicbastion",
+      "target_subject_ids": [
+        "wiki:seismicbastion"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Terrain traversal, grabbing, wall collision, and interruption are taught on E.",
+      "source_id": "wiki:ixtalsimpact",
+      "target_subject_ids": [
+        "wiki:ixtalsimpact"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Forward area suppression, dragging, and the boulder interaction are taught on R.",
+      "source_id": "wiki:impale",
+      "target_subject_ids": [
+        "wiki:impale"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:threadsofvibration",
+        "riot:P"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:shatteredearth",
+        "wiki:upheaval",
+        "riot:Q"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:seismicbastion",
+        "riot:W"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:ixtalsimpact",
+        "riot:E"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:impale",
+        "riot:R"
+      ]
+    }
+  ],
+  "summary": "One overview and five primary ability cards. Upheaval is merged into Q, with its conditional Impale interaction taught on R."
+}

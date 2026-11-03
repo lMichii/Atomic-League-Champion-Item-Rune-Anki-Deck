@@ -1,0 +1,217 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:karma:overview:L1",
+      "core_coverage": [
+        {
+          "answer_quote": "Karma is a mage and support who pokes enemies with magic damage and helps allies with shields and movement speed.",
+          "covered": false,
+          "mechanic_id": "karma_overview_role",
+          "reason": "Explains her roles, poke, shielding and movement speed, but omits the frozen core's slows."
+        },
+        {
+          "answer_quote": "Mantra empowers her next basic ability, changing its effect, while damaging abilities help bring Mantra back.",
+          "covered": true,
+          "mechanic_id": "karma_overview_empowerment",
+          "reason": "Explains empowerment and cooldown recovery."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [
+        "Add slowing enemies to the overview to cover its complete frozen role mechanic."
+      ],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:karma:system:r:mantra:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Mantra empowers Karma's next basic ability with an additional effect.",
+          "covered": true,
+          "mechanic_id": "karma_system_next_cast",
+          "reason": "Correctly explains that Mantra modifies the next basic ability."
+        },
+        {
+          "answer_quote": "She begins with it available at level 1 without spending a skill point, and its empowered effects scale with its rank.",
+          "covered": true,
+          "mechanic_id": "karma_system_unlock",
+          "reason": "Explains early availability, no skill-point cost and rank dependence."
+        },
+        {
+          "answer_quote": "Damaging abilities that hit enemy champions reduce Mantra's current cooldown.",
+          "covered": true,
+          "mechanic_id": "karma_system_refresh",
+          "reason": "Includes the enemy-champion hit condition and current-cooldown effect."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:karma:q:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Inner Flame fires a directional bolt that explodes on the first enemy hit, dealing magic damage to nearby enemies and briefly slowing them.",
+          "covered": true,
+          "mechanic_id": "karma_q_collision",
+          "reason": "Explains direction, first-hit collision, splash damage and slow."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:karma:ability_variant:q:soulflare:mantra:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Soulflare empowers Inner Flame with increased damage and a larger bolt that also explodes at maximum range.",
+          "covered": true,
+          "mechanic_id": "karma_soulflare_bolt",
+          "reason": "Explains all three empowered projectile changes."
+        },
+        {
+          "answer_quote": "The explosion creates a slowing field that later ruptures for magic damage.",
+          "covered": true,
+          "mechanic_id": "karma_soulflare_field",
+          "reason": "Explains the lingering slow and delayed damage."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:karma:w:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Focused Resolve damages and tethers a target enemy champion, monster, or pet, revealing them while the tether holds.",
+          "covered": true,
+          "mechanic_id": "karma_w_tether",
+          "reason": "Explains eligible targets, initial damage, tether and reveal."
+        },
+        {
+          "answer_quote": "If the tether is not broken by its end, it deals magic damage again and roots the target while continuing to reveal them.",
+          "covered": true,
+          "mechanic_id": "karma_w_completion",
+          "reason": "Explains the completion condition, further damage, root and continued reveal."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:karma:ability_variant:w:renewal:mantra:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Renewal empowers Focused Resolve with a longer root and heals Karma when cast.",
+          "covered": true,
+          "mechanic_id": "karma_renewal_root",
+          "reason": "Explicitly explains the longer root."
+        },
+        {
+          "answer_quote": "Renewal empowers Focused Resolve with a longer root and heals Karma when cast. It heals her again if the tether lasts its full duration or the target dies while tethered.",
+          "covered": false,
+          "mechanic_id": "karma_renewal_heal",
+          "reason": "Explains both healing triggers but omits that healing is based on missing health."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [
+        "Specify that Renewal heals based on Karma's missing health; this explains its low-health reversal purpose.",
+        "The counterplay correctly limits its prevention claim to the completion-triggered heal."
+      ],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:karma:e:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Inspire shields Karma or a targeted allied champion and briefly grants bonus movement speed.",
+          "covered": true,
+          "mechanic_id": "karma_e_protection",
+          "reason": "Explains target eligibility, shielding and temporary movement speed."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:karma:ability_variant:e:defiance:mantra:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Defiance empowers Inspire with a stronger shield on its primary target and spreads reduced-power shields and movement speed to nearby allied champions.",
+          "covered": true,
+          "mechanic_id": "karma_defiance_group",
+          "reason": "Explains the stronger primary shield and reduced-power group protection and speed."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Keep recovery qualitative. The draft does not promote conflicting numerical change notes into current mechanics.",
+      "source_ids": [
+        "wiki:P",
+        "wiki:gatheringfire"
+      ],
+      "topic": "Mantra cooldown-reduction numbers"
+    },
+    {
+      "resolution": "Keep the supported qualitative increased-damage description; do not treat the trailing change note as an established current value.",
+      "source_ids": [
+        "wiki:Q",
+        "wiki:soulflare"
+      ],
+      "topic": "Soulflare bonus-damage values"
+    }
+  ],
+  "factual_risks": [
+    "Mantra's sourced eight-second empowerment window is omitted; the answer does not teach that an unused empowerment expires.",
+    "Advanced spell-shield and crowd-control interactions are reasonably deferred. Bug, unexpected-behavior and historical change notes are not promoted into card facts.",
+    "The external pedagogical metadata adequately types Counterplay and broad AP orientation; no duplicate card-face labels are needed."
+  ],
+  "kit_complete": false,
+  "omitted_topics": [
+    "Renewal's missing-health-based healing, an important frozen core mechanic and explanation of its low-health purpose.",
+    "Slows in the frozen overview role mechanic; slowing effects are covered on the individual Q cards."
+  ]
+}

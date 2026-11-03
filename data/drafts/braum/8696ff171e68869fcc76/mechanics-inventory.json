@@ -1,0 +1,464 @@
+{
+  "abilities": [
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Concussive Blows won't be applied if the attack is dodged or blocked or if the attack misses.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "Dodged, blocked or missed attacks do not apply stacks."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Braum's basic attacks and Winter's Bite each apply a stack of Concussive Blows to their target for 4 seconds, refreshing on subsequent applications and stacking up to 4 times.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "Stacks last 4 seconds and subsequent applications refresh their duration."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Braum's basic attacks apply Concussive Blows. Once the first stack is applied, ally basic attacks also stack Concussive Blows.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Once the first stack has been applied, any allied champion's basic attack applies an additional stack to the target on-hit.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.stacking",
+          "summary": "Braum's basic attacks apply stacks; allied champions' basic attacks add stacks after the first is applied."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Upon reaching 4 stacks, the target is stunned and takes magic damage.",
+              "source_id": "riot:P"
+            }
+          ],
+          "id": "P.stun",
+          "summary": "Reaching four stacks stuns the target and deals magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's basic attacks.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.immunity_followup",
+          "summary": "After triggering, the target temporarily cannot receive new stacks, while Braum's basic attacks deal bonus magic damage to it."
+        }
+      ],
+      "slot": "P",
+      "unsupported_claims": [
+        "Allied abilities generally add Concussive Blows stacks.",
+        "Allied basic attacks receive Braum's bonus magic damage against temporarily stack-immune targets."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "The projectile originates from Braum's position at the end of the cast time."
+        },
+        {
+          "citations": [
+            {
+              "quote": "slowing them by 70% decaying over 2 seconds.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "The slow decays over its duration."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Braum propels ice from his shield in the target direction, dealing magic damage to the first enemy hit and slowing them by 70% decaying over 2 seconds.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Braum propels freezing ice from his shield, slowing and dealing magic damage.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "id": "Q.damage_slow",
+          "summary": "Fires ice in a chosen direction, dealing magic damage to and slowing the first enemy hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Applies a stack of Concussive Blows.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Braum's basic attacks and Winter's Bite apply a stack of Concussive Blows.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "Q.passive_stack",
+          "summary": "Applies one Concussive Blows stack to its target."
+        }
+      ],
+      "slot": "Q",
+      "unsupported_claims": [
+        "The projectile pierces enemies and applies its effects to every enemy along its path."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Stand Behind Me can be self cast to instantly grant Braum the bonus resistances.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "Self-casting instantly grants Braum the resistances."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Stand Behind Me can be used on allied minions but not on wards nor traps.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "Wards and traps are not eligible targets."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Braum dashes to put himself between the target ally and the closest visible enemy champion within 1500 units",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "If there are no nearby enemy champions, Braum will dash to land up-to 150 units on the far side of his target.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "Landing position depends on nearby visible enemy champions; without nearby enemy champions, Braum lands on the far side of the ally."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the dash is interrupted, neither Braum nor his ally receive the bonus resistances.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "An interrupted dash grants neither participant the resistances."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Unbreakable can be cast during the dash.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "If Unbreakable is cast during the dash, Winter's Bite and Glacial Fissure may also be cast.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "E can be cast during the dash; casting E during it also permits Q and R to be cast."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Braum leaps to a target allied champion or minion.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Braum dashes to a target allied champion or minion.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.ally_dash",
+          "summary": "Dashes to a targeted allied champion or minion."
+        },
+        {
+          "citations": [
+            {
+              "quote": "On arrival, Braum and the ally gain Armor and Magic Resist for a few seconds.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "On arrival, both of them gain armor and magic resistance for a few seconds.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.resistances",
+          "summary": "On arrival, temporarily grants armor and magic resistance to Braum and the targeted ally."
+        }
+      ],
+      "slot": "W",
+      "unsupported_claims": [
+        "The targeted ally becomes invulnerable.",
+        "The dash cleanses crowd control from the targeted ally."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Unbreakable does not affect turrets.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Incoming: Damage sources coming from somewhere facing the shield. Those coming from different sides are not affected.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Protection is directional and does not affect turrets."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The first instance of damage dealt by a champion from this direction is reduced by 100%.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Unbreakable's full damage reduction can block multiple instances of damage if they're dealt at the same time.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Damage over time is calculated per tick but the full damage reduction will still only apply to a single tick.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "The one-time-use full damage reduction will not be consumed if the damage source is nothing but true damage.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "The detailed first-hit rule specifies champion damage. Simultaneous instances can share full reduction; damage over time normally uses it on a single tick. Pure true damage does not consume it, which does not establish that true damage is negated."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The damage reduction will affect any source of damage whose origin is in front of the shield.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Melee and non-projectile-based ranged attacks.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Instantaneously-placed ground-targeted abilities (e.g. Lay Waste, Pillar of Flame, Rupture) relative to the ability's center and not the caster's.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "The damage reduction only benefits Braum.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Damage reduction extends beyond projectiles, including melee attacks and eligible abilities. Ground-targeted abilities use their center to determine direction. The reduction itself benefits only Braum."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Projectiles whose effects trigger on collision will still trigger - dealing damage, applying debuffs, creating area of effects and marking the target as 'hit'.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Projectiles that create an area of effect upon their collision will still affect other units and not only Braum.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Interception does not cancel collision effects, debuffs or resulting areas of effect; those areas can still affect other units."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Moving units do not count for being blocked by Unbreakable.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Champion summoned units are not classified as units until they hit the ground (e.g. Sapling Toss) and thus will interact with Unbreakable whilst en route.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Projectiles that cannot hit Braum or his allies (such as an enemy Prismatic Barrier) will not be intercepted.[2]",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Soraka's Starcall's Rejuvenation projectile is however blocked.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Moving units are not blocked. Airborne summoned units can interact before landing. Projectiles unable to hit Braum or allies generally are not intercepted, with a named Rejuvenation exception."
+        },
+        {
+          "citations": [
+            {
+              "quote": "While his shield is raised, Braum also gains 10% bonus movement speed and ghosting.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "While shielding, Braum gains movement speed and ghosting."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If Braum is protected by a spell shield, both it and the one-time-use full damage reduction can be consumed by a single blockable spell.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "A single blockable spell can consume both a spell shield and E's one-time full reduction."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "creating a barrier in front of him that intercepts all incoming hostile projectiles",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.projectile_interception",
+          "summary": "Raises a directional shield that intercepts eligible incoming hostile projectiles, making them hit Braum and be destroyed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "He negates the damage of the first attack completely",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "The first instance of damage dealt by a champion from this direction is reduced by 100%.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.first_hit_negation",
+          "summary": "Fully negates the first eligible instance of champion damage from the shielded direction."
+        },
+        {
+          "citations": [
+            {
+              "quote": "reduces the damage of all subsequent attacks from this direction.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "reduces the damage Braum takes through it from enemies in the target direction.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.directional_damage_reduction",
+          "summary": "Reduces subsequent eligible damage Braum takes from the shielded direction while active."
+        }
+      ],
+      "slot": "E",
+      "unsupported_claims": [
+        "Braum or allies become immune to all damage and crowd control while E is active.",
+        "E directly grants its damage reduction to allies behind Braum.",
+        "Every projectile is intercepted regardless of eligibility.",
+        "The first-hit negation necessarily blocks true damage.",
+        "Destroying a projectile prevents all of its collision effects."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "The first target hit is knocked up for at least 0.6 seconds, increased if they are further away from Braum. All other enemies hit are knocked up for 0.6 seconds.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "The first target's knockup duration increases with distance; other enemies receive the shorter fixed knockup."
+        },
+        {
+          "citations": [
+            {
+              "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "The ability originates from Braum's position at the end of the cast time."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Braum slams the ground, knocking up enemies nearby and in a line in front of him.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Braum slams the ground, knocking up enemies nearby and in a line in front of him.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.knockup",
+          "summary": "Knocks up enemies around Braum and along a line in front of him."
+        },
+        {
+          "citations": [
+            {
+              "quote": "creating a fissure from the impact that travels forth in the target direction, dealing magic damage to enemies within its path as well as those around Braum.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.damage",
+          "summary": "Deals magic damage around Braum and along the fissure's path."
+        },
+        {
+          "citations": [
+            {
+              "quote": "A fissure is left along the line that slows enemies.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "A field of ice is created along the fissure's path, lasting for 4 seconds and slowing enemies within the area every 0.25 seconds.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.slow_field",
+          "summary": "Leaves a lingering ice field along the fissure that slows enemies within it."
+        }
+      ],
+      "slot": "R",
+      "unsupported_claims": [
+        "Every enemy hit receives the first target's longer knockup.",
+        "The fissure forms impassable terrain.",
+        "The lingering field repeatedly knocks enemies up."
+      ]
+    }
+  ]
+}

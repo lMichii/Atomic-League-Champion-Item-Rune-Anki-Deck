@@ -1,0 +1,173 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Braum's basic attacks apply Concussive Blows stacks; after the first stack, allied champions' basic attacks also add stacks.",
+          "covered": true,
+          "mechanic_id": "P.stacking",
+          "reason": "Explains both initial application and allied champion follow-up."
+        },
+        {
+          "answer_quote": "At 4 stacks, the target is stunned and takes magic damage.",
+          "covered": true,
+          "mechanic_id": "P.stun",
+          "reason": "States the supported threshold and both effects."
+        },
+        {
+          "answer_quote": "Afterward, the target temporarily cannot gain new stacks, but Braum's basic attacks deal bonus magic damage to it.",
+          "covered": true,
+          "mechanic_id": "P.immunity_followup",
+          "reason": "Explains temporary stack immunity and Braum's bonus damage."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": false,
+      "issues": [
+        "The answer's mechanics are supported, but the card-facing passive_visual description asserts an exact visual sequence that riot:P does not establish. Keep this cue pending visual QA; this support check does not verify it."
+      ],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Braum fires ice in a chosen direction, dealing magic damage to and slowing the first enemy hit.",
+          "covered": true,
+          "mechanic_id": "Q.damage_slow",
+          "reason": "Explains direction, first-hit targeting, damage type and slow."
+        },
+        {
+          "answer_quote": "It also applies a Concussive Blows stack.",
+          "covered": true,
+          "mechanic_id": "Q.passive_stack",
+          "reason": "Explicitly states passive stack application."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Braum leaps to a targeted allied champion or minion.",
+          "covered": true,
+          "mechanic_id": "W.ally_dash",
+          "reason": "States the movement and both supported allied target types."
+        },
+        {
+          "answer_quote": "On arrival, he and that ally temporarily gain armor and magic resistance.",
+          "covered": true,
+          "mechanic_id": "W.resistances",
+          "reason": "States the arrival condition, both recipients and both temporary resistances."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Braum raises a directional shield that intercepts incoming hostile projectiles it can block, making them hit him and be destroyed.",
+          "covered": true,
+          "mechanic_id": "E.projectile_interception",
+          "reason": "Explains directional interception, eligibility, redirection and destruction without claiming cancellation of collision effects."
+        },
+        {
+          "answer_quote": "From that direction, he fully negates the first eligible instance of champion damage",
+          "covered": true,
+          "mechanic_id": "E.first_hit_negation",
+          "reason": "Explicitly explains the qualified first-instance negation and its direction."
+        },
+        {
+          "answer_quote": "From that direction, he fully negates the first eligible instance of champion damage and reduces subsequent eligible damage while the shield is raised.",
+          "covered": true,
+          "mechanic_id": "E.directional_damage_reduction",
+          "reason": "Explains subsequent directional damage reduction during the shield; the subject and preceding sentence identify Braum as the recipient."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Braum slams the ground, dealing magic damage and knocking up enemies around him and along a line in front of him.",
+          "covered": true,
+          "mechanic_id": "R.knockup",
+          "reason": "Explains both nearby and line knockups without asserting equal durations."
+        },
+        {
+          "answer_quote": "Braum slams the ground, dealing magic damage and knocking up enemies around him and along a line in front of him.",
+          "covered": true,
+          "mechanic_id": "R.damage",
+          "reason": "States magic damage in both supported areas."
+        },
+        {
+          "answer_quote": "The fissure leaves a lingering ice field that slows enemies within it.",
+          "covered": true,
+          "mechanic_id": "R.slow_field",
+          "reason": "Explains the lingering field and its slow on occupants."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Use the Wiki's qualified interception and champion-damage wording alongside Riot's general description. The draft preserves all three required E cores. Keep collision effects, turret exclusions and other detailed interactions in QA metadata.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Riot's universal projectile and first-attack wording is broader than the Wiki's detailed eligibility rules."
+    }
+  ],
+  "factual_risks": [
+    "The passive visual sequence remains unverified; its associated textual citation does not establish the visual cue.",
+    "Pure true damage not consuming E's first-instance reduction does not establish whether that damage is negated. The draft appropriately uses eligible damage; retain this interaction for QA.",
+    "E interception can still trigger collision effects and areas affecting allies. Its supported general explanation must not be expanded into universal cancellation or shared damage reduction.",
+    "Build focus is a broad recommendation inferred from the supplied role and scaling evidence, rather than a demonstrated optimal build.",
+    "No internal provenance or confidence labels appear in the answer, counterplay or visual-description wording. UNAPPROVED and tentative-evidence labels must remain metadata.",
+    "This review provides AI support checking only; it does not confer human approval or current-client visual verification."
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": false,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": false,
+      "issues": [
+        "\"Her spells deal magic damage and scale with AP\" overgeneralizes from E and R. Q also has supplied magic damage and AP scaling, but W is terrain with a zero proc true damage displacement interaction and no supplied AP scaling. Qualify this claim to the damaging spells supported by the evidence.",
+        "The AP learning focus is supported by the supplied damage formulas, but those formulas do not establish an optimal build."
+      ],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "When Rebirth is available, fatal damage turns Anivia into an egg.",
+          "covered": true,
+          "mechanic_id": "P.egg",
+          "reason": "Explains both the availability condition and fatal-damage transformation."
+        },
+        {
+          "answer_quote": "She revives if the egg survives for a few seconds.",
+          "covered": true,
+          "mechanic_id": "P.revive",
+          "reason": "Explicitly conditions revival on egg survival."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Anivia launches an ice projectile that damages and slows enemies along its path.",
+          "covered": true,
+          "mechanic_id": "Q.projectile",
+          "reason": "Explains the projectile's path damage and slow."
+        },
+        {
+          "answer_quote": "Its explosion damages and stuns nearby enemies.",
+          "covered": true,
+          "mechanic_id": "Q.explosion",
+          "reason": "Separately identifies the explosion's area damage and stun."
+        },
+        {
+          "answer_quote": "She can recast during flight to explode it early; otherwise, it explodes at maximum range.",
+          "covered": true,
+          "mechanic_id": "Q.recast",
+          "reason": "Explains manual early detonation and automatic maximum-range detonation."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Anivia creates a temporary ice wall that blocks movement through its terrain.",
+          "covered": true,
+          "mechanic_id": "W.terrain",
+          "reason": "Explains the movement-blocking terrain without claiming every movement ability is prevented from crossing."
+        },
+        {
+          "answer_quote": "The wall melts after a short time.",
+          "covered": true,
+          "mechanic_id": "W.temporary",
+          "reason": "Explicitly explains the wall's limited duration."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Anivia deals magic damage to a targeted enemy.",
+          "covered": true,
+          "mechanic_id": "E.targeted_damage",
+          "reason": "Explicitly identifies targeted magic damage."
+        },
+        {
+          "answer_quote": "The damage doubles if the enemy was recently hit by Flash Frost or damaged by a fully formed Glacial Storm.",
+          "covered": true,
+          "mechanic_id": "E.double_damage",
+          "reason": "Explains both qualifying sources and preserves the fully formed storm condition."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Anivia toggles a persistent storm at a chosen location that repeatedly damages and slows enemies inside.",
+          "covered": true,
+          "mechanic_id": "R.toggle",
+          "reason": "Explains the toggle and chosen location. Persistent does not expressly promise unconditional or permanent maintenance."
+        },
+        {
+          "answer_quote": "Anivia toggles a persistent storm at a chosen location that repeatedly damages and slows enemies inside.",
+          "covered": true,
+          "mechanic_id": "R.damage_slow",
+          "reason": "Explicitly explains repeated damage and slowing within the storm."
+        },
+        {
+          "answer_quote": "The storm grows after activation, dealing more damage and applying a stronger slow at full size.",
+          "covered": true,
+          "mechanic_id": "R.growth",
+          "reason": "Explains growth and both full-size enhancements."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "The draft appropriately avoids guaranteeing full health after revival. Preserve the distinction between health restored upon entering resurrection and current health upon completion; the supplied summaries differ in precision.",
+      "source_ids": ["riot:P", "wiki:P"],
+      "topic": "Rebirth health restoration timing"
+    },
+    {
+      "resolution": "Use Riot and the detailed Wiki mechanics requiring a fully formed storm. The draft preserves this condition despite the abbreviated Wiki summary.",
+      "source_ids": ["riot:E", "wiki:E"],
+      "topic": "Frostbite storm qualification"
+    },
+    {
+      "resolution": "Use the detailed excessive-distance and cast-inhibiting crowd-control rules. The short summary does not establish that Anivia must stand inside the storm or that every disable interrupts it.",
+      "source_ids": ["wiki:R", "wiki:R"],
+      "topic": "Glacial Storm maintenance and interruption"
+    }
+  ],
+  "factual_risks": [
+    "The overview's universal spell damage and AP-scaling claim requires repair.",
+    "Rebirth's visible-cue description is consistent with the supplied text, but this check does not verify the demonstration frames or current-client visuals.",
+    "Frostbite's bonus is determined at impact; the beginner wording does not guarantee the bonus merely because its mark existed at cast time.",
+    "Storm persistence is conditional on distance, mana and interruption rules. Their omission is acceptable here because the answer does not assert unconditional persistence.",
+    "Crystallize knockback speed remains explicitly unestablished.",
+    "UNAPPROVED and tentative-verification labels occur in metadata; they must remain outside card-facing text.",
+    "The frozen sources do not establish a current game patch or current-client behavior."
+  ]
+}

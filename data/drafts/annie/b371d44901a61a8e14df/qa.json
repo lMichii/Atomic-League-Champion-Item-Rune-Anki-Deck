@@ -1,0 +1,1094 @@
+{
+  "approval_blockers": [
+    "All six cards are drafts requiring explicit editorial approval.",
+    "All clips/cues need manual visual verification.",
+    "Game patch label has not been independently established."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "-"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:annie:overview:L1",
+      "issues": [
+        "UNAPPROVED draft.",
+        "AP is a broad learning focus inferred from the supplied AP scaling, not an item recommendation."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": null,
+      "media_type": "portrait",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Recognizing her stun threat and protective shield helps explain her fighting role."
+      },
+      "slot": "-",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Annie builds up to four Pyromania stacks by hitting an enemy with Q or casting her other abilities. At full stacks, the next Q, W or R to land consumes the stacks to stun enemies hit.",
+            "covered": true,
+            "mechanic_id": "P.stun",
+            "reason": "Explains stack generation, the four-stack threshold, eligible offensive spells and the resulting stun."
+          },
+          {
+            "answer_quote": "Her stun starts ready at game start and after respawning.",
+            "covered": true,
+            "mechanic_id": "P.starts_ready",
+            "reason": "Explicitly covers both initial readiness and readiness after respawning."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "P"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:annie:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Visual cue is a proposal supported by text, not current-client visual verification.",
+        "Spell shields still allow stack generation; resurrection transitions preserve stacks, while death clears them before respawning restores full stacks."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Annie generates a stack of Pyromania whenever she hits an enemy with Disintegrate or casts her other abilities, stacking up to 4 times",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Q generates a stack on hitting an enemy; her other abilities generate stacks on casting. The general four-spell description does not establish that an unlanded Q generates a stack."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Energized: Annie empowers her next cast of Disintegrate, Incinerate, or Summon: Tibbers to consume all Pyromania stacks to stun enemies hit",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "The stun applies to the first ability that lands when the stun is available.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Q, W and R can deliver the stun, consuming all stacks. The first eligible ability to land delivers it, so cast order alone does not determine which ability stuns."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Stacks are gained even if the ability is blocked by spell shield.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Annie does not lose any stacks upon entering or exiting resurrection.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "She will lose Energized and all Pyromania stacks upon death.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Spell shields do not prevent stack generation. Resurrection transitions preserve stacks; death clears them, with full stacks granted upon respawning."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "After casting 4 spells, Annie's next offensive spell will stun the target.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "At maximum stacks, her next offensive spell will consume them to stun the target.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.stun",
+            "summary": "Build four Pyromania stacks to empower an offensive spell to stun enemies hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Annie begins the game and respawns with Pyromania available.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Annie gains maximum stacks of Pyromania when the game starts and upon respawning.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.starts_ready",
+            "summary": "The stun is ready at game start and after respawning."
+          }
+        ],
+        "slot": "P",
+        "unsupported_claims": [
+          "Every Q cast generates a stack even if it never hits an enemy.",
+          "E can deliver the empowered stun.",
+          "Every spell cast while the stun is ready will stun independently."
+        ]
+      },
+      "media_type": "icon",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The ready stun changes the threat of her offensive spells."
+      },
+      "slot": "P",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "proposed_unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Annie fires a targeted fireball that deals magic damage to an enemy.",
+            "covered": true,
+            "mechanic_id": "Q.targeted_damage",
+            "reason": "Explicitly states targeting, fireball delivery and magic damage."
+          },
+          {
+            "answer_quote": "Killing the target refunds its mana cost and reduces its cooldown.",
+            "covered": true,
+            "mechanic_id": "Q.kill_refund",
+            "reason": "States both kill benefits without claiming a complete reset or making kills the exclusive refund condition."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "Q"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:annie:q:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The refund and cooldown reduction also apply if the target is dead when the missile arrives.",
+        "Target-invalidating events during casting can cancel Q without spending mana or starting its cooldown."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Disintegrate will also grant the cooldown reduction and mana cost refund if the target is dead upon the missile's arrival.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "The refund and cooldown reduction also occur if the target is already dead when the missile arrives."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Listed target-invalidating events during the cast time cancel Q without spending mana or starting its cooldown."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Annie hurls a Mana infused fireball, dealing damage",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Active: Annie hurls a fireball at the target enemy that deals magic damage.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.targeted_damage",
+            "summary": "Hurl a targeted fireball that deals magic damage to an enemy."
+          },
+          {
+            "citations": [
+              {
+                "quote": "refunding the Mana cost if it destroys the target.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "If this kills the target, Disintegrate's cooldown is reduced by 50% and its mana cost is refunded.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.kill_refund",
+            "summary": "Killing the target refunds Q's mana cost and reduces its cooldown."
+          }
+        ],
+        "slot": "Q",
+        "unsupported_claims": [
+          "A kill completely resets Q's cooldown.",
+          "Q refunds mana on every hit.",
+          "Q's damage splashes onto nearby enemies."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "A targeted spell can deliver her ready stun."
+      },
+      "slot": "Q",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Annie releases fire in a chosen direction, dealing magic damage to enemies hit in a cone.",
+            "covered": true,
+            "mechanic_id": "W.cone_damage",
+            "reason": "Explains direction, cone shape and magic damage without excluding intersecting targets behind Annie."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "W"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:annie:w:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Targets behind Annie can be hit if their radius intersects the cone.",
+        "The cone originates from Annie's position at the end of casting."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Incinerate can hit targets behind Annie, provided their radius intersects with the cone hitbox.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Targets behind Annie can be hit when their radius intersects the cone hitbox."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "The cone originates from Annie's position at the end of the cast time."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Annie casts a blazing cone of fire, dealing damage to all enemies in the area.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Active: Annie releases fire in a cone in the target direction, dealing magic damage to enemies hit.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.cone_damage",
+            "summary": "Release a directional cone of fire that deals magic damage to enemies hit."
+          }
+        ],
+        "slot": "W",
+        "unsupported_claims": [
+          "W damages only one enemy.",
+          "W applies a lingering burn.",
+          "Targets behind Annie can never be hit."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The cone can deliver her stun to multiple enemies."
+      },
+      "slot": "W",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Annie shields herself or a target allied champion and grants a temporary burst of movement speed; Tibbers also receives these effects.",
+            "covered": true,
+            "mechanic_id": "E.shield",
+            "reason": "Explicitly identifies the shield and its selectable recipients, with Tibbers also receiving it."
+          },
+          {
+            "answer_quote": "Annie shields herself or a target allied champion and grants a temporary burst of movement speed; Tibbers also receives these effects.",
+            "covered": true,
+            "mechanic_id": "E.move_speed",
+            "reason": "Explicitly explains the temporary movement speed benefit and its recipients."
+          },
+          {
+            "answer_quote": "While the shield is active, eligible enemies damaging it with attacks or spells take magic damage, once per enemy per cast for each shield.",
+            "covered": true,
+            "mechanic_id": "E.retaliation",
+            "reason": "Explains the active-shield condition, eligible attacks and spells, magic retaliation and per-enemy limit. The eligibility qualification allows the supplied exceptions."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "E"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:annie:e:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Retaliation excludes turrets and dodged or missed attacks; blocked attacks still trigger it.",
+        "The Wiki reports Noxious Trap and Jack in the Box retaliation exceptions as bugs; these interactions are not independently verified."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Annie grants herself or the target allied champion and Tibbers a shield for 3 seconds and 20% – 50% (based on level) bonus movement speed that decays over 1.5 seconds.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The selectable ally is an allied champion, and Tibbers also receives the shield and movement speed. The movement speed decays."
+          },
+          {
+            "citations": [
+              {
+                "quote": "While Molten Shield is active, enemies that deal damage to it take magic damage. This may only occur once per enemy per cast for each active Molten Shield.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Retaliation is limited to once per enemy per cast for each active shield."
+          },
+          {
+            "citations": [
+              {
+                "quote": "While the shield holds, enemies who basic attack it take magic damage.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Grants Annie or an ally a shield, a burst of Move Speed, and damages enemies who strike her with attacks or spells.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "While Molten Shield is active, enemies that deal damage to it take magic damage.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Retaliation includes damaging spells as well as attacks. The Wiki's shorter basic-attack description is narrower than Riot and the Wiki's detailed description."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Molten Shield does not deal damage to turrets when attacked by them.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Attacks that are dodged or miss against the shielded target will not cause the shield to deal damage, while blocked attacks still deal damage to the attacker.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "The reaction damage does not trigger from Teemo's Noxious Trap and Shaco's Jack in the Box.(bug)",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Turrets do not receive retaliation. Dodged or missed attacks do not trigger it, but blocked attacks do. The Wiki reports non-triggering interactions with Noxious Trap and Jack in the Box as bugs."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Grants Annie or an ally a shield",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Active: Annie grants herself or an allied champion—and Tibbers—a shield with a burst of move speed.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.shield",
+            "summary": "Shield Annie or a target allied champion to protect them from damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "a burst of Move Speed",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Active: Annie grants herself or an allied champion—and Tibbers—a shield with a burst of move speed.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.move_speed",
+            "summary": "Grant the recipient a temporary burst of movement speed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "damages enemies who strike her with attacks or spells.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "While Molten Shield is active, enemies that deal damage to it take magic damage.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.retaliation",
+            "summary": "While the shield is active, eligible enemies damaging it with attacks or spells take retaliatory magic damage."
+          }
+        ],
+        "slot": "E",
+        "unsupported_claims": [
+          "E grants invulnerability or a separate percentage damage reduction.",
+          "Every repeated hit from the same enemy triggers retaliation.",
+          "E can target any allied unit.",
+          "Retaliation is established to continue after the shield is gone."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The shield and speed burst can protect an ally or help Annie approach."
+      },
+      "slot": "E",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Annie summons Tibbers at a target location, dealing magic damage to nearby enemies.",
+            "covered": true,
+            "mechanic_id": "R.summon_damage",
+            "reason": "Explains location targeting and arrival-area magic damage."
+          },
+          {
+            "answer_quote": "Tibbers remains to attack and burn nearby enemies with magic damage; recast R to direct him while he is alive.",
+            "covered": true,
+            "mechanic_id": "R.pet_damage",
+            "reason": "Explicitly explains persistent pet attacks and nearby magic burn."
+          },
+          {
+            "answer_quote": "Tibbers remains to attack and burn nearby enemies with magic damage; recast R to direct him while he is alive.",
+            "covered": true,
+            "mechanic_id": "R.pet_control",
+            "reason": "Explicitly explains recasting R to command the living pet."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "R"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:annie:r:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Wiki also supports passive magic penetration, pet recovery, enrage and revenge behavior; these advanced details are omitted from the beginner explanation.",
+        "Recast interactions with activation effects are complex: Experimental Hexplate is reported as a bug, and Force Pulse remains pending testing.",
+        "Pet command exceptions during crowd control and Recall, return teleport behavior, and attack mitigation interactions require separate advanced treatment."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Passive: Annie gains magic penetration.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "R also passively grants Annie magic penetration."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Summon: Tibbers' recast can be used while affected by cast-inhibiting crowd control.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Recasting Summon: Tibbers does not interrupt Recall's channel.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Tibbers will blink back next to Annie if he gets too far away.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Recast commands remain available during cast-inhibiting crowd control and do not interrupt Recall. Tibbers blinks back if he gets too far from Annie."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Only the initial cast counts as an ability activation for the purposes of on-cast effects such as Spellblade.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Recasting the ability does, however, count as casting an ultimate ability for the purposes of Experimental Hexplate's Overdrive and similar effects.(bug)",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "PENDING FOR TEST: What about Force Pulse's?",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "uncertain",
+            "summary": "The Wiki distinguishes initial-cast activation effects from a reported recast interaction with Experimental Hexplate. Force Pulse's interaction is explicitly pending testing and remains unestablished."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Tibbers' attacks are mitigated by block, dodge, and blind, as well as stopped by Disarm.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Tibbers' basic attacks deal spell damage. His flaming aura applies spell effects as persistent area damage.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Tibbers' attacks interact with block, dodge, blind and disarm. His attacks deal spell damage, and his aura applies spell effects as persistent area damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "While out of combat for at least 5 seconds Tibbers heals himself",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Tibbers enrages for 3 seconds on summon and when Pyromania stuns an enemy champion.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "If Annie dies while Tibbers is active, he instantly heals himself for 50% of his missing health, becomes Enraged for 10 seconds, disables his Recovery ability, and will target Annie's killer.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Tibbers has out-of-combat recovery, enrages on summon and when Pyromania stuns an enemy champion, and enters a special revenge behavior when Annie dies."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Annie wills her bear Tibbers to life, dealing damage to units in the area.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Active: Annie summons Tibbers to the target location in a burst of flame, dealing magic damage to enemies near him.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.summon_damage",
+            "summary": "Summon Tibbers at a target location, dealing magic damage to enemies in the arrival area."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Tibbers can attack and also burns enemies that stand near him.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Tibbers deals magic damage with his attacks and also burns nearby enemies.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.pet_damage",
+            "summary": "Tibbers remains to attack enemies and burn nearby enemies with magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Tibbers then remains on the field as a controllable pet for up to 45 seconds.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Recast: Annie directs Tibbers to the target location.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.pet_control",
+            "summary": "Recast R to direct Tibbers while he is alive."
+          }
+        ],
+        "slot": "R",
+        "unsupported_claims": [
+          "R recasts summon another Tibbers or repeat the initial burst damage.",
+          "The Force Pulse interaction is confirmed.",
+          "Tibbers disappears immediately when Annie dies.",
+          "Every R recast triggers all on-cast effects."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The arrival area can deliver her stun, and Tibbers remains a nearby damage threat."
+      },
+      "slot": "R",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "B",
+      "reason": "Kill-based cooldown reduction affects how often Annie can use her targeted fireball.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability affects access to her cone and its potential area stun.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability affects shielding, movement speed and retaliation.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Initial summon availability matters for her area threat; recasting commands the existing pet.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "Evidence is pinned to the supplied Data Dragon release and Wiki revision; no current patch equivalence is established.",
+    "Official demonstration frames do not establish current-client or skin-specific visual behavior.",
+    "Wiki map-specific changes, pending-test notes and historical or skin material are not used as general mechanics.",
+    "Tibbers has complex pet behavior beyond the beginner card; reported bugs and untested recast interactions remain unresolved.",
+    "The supplied evidence is version-pinned and establishes no equivalence to the current game patch.",
+    "The passive counter description is text-supported; this check does not verify the supplied demonstration frames or current-client visuals.",
+    "E retaliation exceptions involving Noxious Trap and Jack in the Box are reported bugs without independent verification.",
+    "R recast activation interactions remain advanced QA concerns: Experimental Hexplate is described as a bug, and Force Pulse is explicitly pending testing.",
+    "All six drafts remain unapproved; this assessment provides neither human approval nor visual verification."
+  ],
+  "findings": [],
+  "generation": {
+    "author": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 25781,
+            "output_tokens": 3219,
+            "reasoning_output_tokens": 39
+          }
+        ]
+      },
+      "output_sha256": "f85e2cdd35738f41f5a8a9e25e9c286720a9e35dadaf6150312b150a366a1993",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "e99714ab7f84e701728d6c84c880677fa81bbab1c370395496ca0ca11a4f9d59"
+    },
+    "mechanics": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 21000,
+            "output_tokens": 3664,
+            "reasoning_output_tokens": 27
+          }
+        ]
+      },
+      "output_sha256": "d33e2cb96eb741450ec2a78f16e696b19941da093f1a39275ae923f08d85789d",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "b0874efaecdbde204e3ab84bb7b9a557f850e87536ff00c6786da5fa1f5232ba"
+    },
+    "passes": [
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 25781,
+                "output_tokens": 3219,
+                "reasoning_output_tokens": 39
+              }
+            ]
+          },
+          "output_sha256": "f85e2cdd35738f41f5a8a9e25e9c286720a9e35dadaf6150312b150a366a1993",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "e99714ab7f84e701728d6c84c880677fa81bbab1c370395496ca0ca11a4f9d59"
+        },
+        "pass": 1,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 28388,
+                "output_tokens": 1619,
+                "reasoning_output_tokens": 51
+              }
+            ]
+          },
+          "output_sha256": "ede1cf48d200a7a0bbf41019e15d6175fc21f0233f385220454749faf6f397c9",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "ef430d049103ae06174fd949b8bb4f1333dc66b7e8007b53f8921eec06ea658f"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "8a6cbd010d7b17bc8eb6ada2f95cbc38c4070c9860281bb405ee0aef421b2652",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "b371d44901a61a8e14df4ace3a32d313f609607b9c383dad7404658b112ead37",
+    "verifier": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 28388,
+            "output_tokens": 1619,
+            "reasoning_output_tokens": 51
+          }
+        ]
+      },
+      "output_sha256": "ede1cf48d200a7a0bbf41019e15d6175fc21f0233f385220454749faf6f397c9",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "ef430d049103ae06174fd949b8bb4f1333dc66b7e8007b53f8921eec06ea658f"
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:annie:e:recognize:L2": {
+      "cid": 2451342293395,
+      "guid": "f128af476fc45c",
+      "nid": 1951342293395
+    },
+    "champ:annie:overview:L1": {
+      "cid": 2386508699370,
+      "guid": "b84ef33312c341",
+      "nid": 1886508699370
+    },
+    "champ:annie:p:recognize:L2": {
+      "cid": 2396620524006,
+      "guid": "f5dd347fbbbda2",
+      "nid": 1896620524006
+    },
+    "champ:annie:q:recognize:L2": {
+      "cid": 2311676728196,
+      "guid": "e244b9474da6ec",
+      "nid": 1811676728196
+    },
+    "champ:annie:r:recognize:L2": {
+      "cid": 2328194916648,
+      "guid": "678917f3fc6265",
+      "nid": 1828194916648
+    },
+    "champ:annie:w:recognize:L2": {
+      "cid": 2561118202728,
+      "guid": "a42147438eeafa",
+      "nid": 2061118202728
+    }
+  },
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "Exact-quote matching does not prove semantic truth.",
+    "AI verification is fallible and is not a human content or visual review."
+  ],
+  "media_references": [
+    "annie_e.gif",
+    "annie_e_icon.png",
+    "annie_p.gif",
+    "annie_p_icon.png",
+    "annie_portrait.jpg",
+    "annie_q.gif",
+    "annie_q_icon.png",
+    "annie_r.gif",
+    "annie_r_icon.png",
+    "annie_w.gif",
+    "annie_w_icon.png"
+  ],
+  "new_cards": 6,
+  "passive_frame_evidence": [
+    {
+      "path": "visual-inputs/passive-1.png",
+      "sha256": "4b8efd8e362e9be966e9f11119a9fa87968888a07f459304fe7e0af39f014fc8",
+      "source_sha256": "c63ee1a01dafdcc31035a4ed6c3c5429b479eae8e82ac7533329d0c98a07919b",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 1.7388
+    },
+    {
+      "path": "visual-inputs/passive-2.png",
+      "sha256": "7e44475422949c9d6d8ce4bc269602a0fd1ca126682e5143f24e2f7c1679e86f",
+      "source_sha256": "c63ee1a01dafdcc31035a4ed6c3c5429b479eae8e82ac7533329d0c98a07919b",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 4.6368
+    },
+    {
+      "path": "visual-inputs/passive-3.png",
+      "sha256": "4b3b595a41890eca7715184a910e91514b8d7c49636d787ec0dd18de8e61bd3d",
+      "source_sha256": "c63ee1a01dafdcc31035a4ed6c3c5429b479eae8e82ac7533329d0c98a07919b",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 7.5348
+    },
+    {
+      "path": "visual-inputs/passive-4.png",
+      "sha256": "206735c3a4ed45ba0bb9cacd4f9fcf242b2a3d776b416e15734e21bb2cdb351b",
+      "source_sha256": "c63ee1a01dafdcc31035a4ed6c3c5429b479eae8e82ac7533329d0c98a07919b",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 10.4328
+    }
+  ],
+  "publishable": false,
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "resolution": "Use the detailed stack rule: Q generates a stack on hitting an enemy, while her other abilities generate stacks on casting.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Riot's four-spell summary does not specify Q's hit requirement."
+    },
+    {
+      "resolution": "Include attacks and damaging spells, supported by Riot and the Wiki's detailed description. Retain specific retaliation exceptions in QA metadata.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "The Wiki's short E summary mentions basic attacks, while its detailed description and Riot include broader retaliation."
+    },
+    {
+      "resolution": "The detailed Wiki rule supports Q generating stacks on hitting an enemy and other abilities on casting. The draft appropriately uses that qualification.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Riot's casting summary omits Q's hit requirement."
+    },
+    {
+      "resolution": "The Wiki explicitly supplies first-landing guidance, supporting the draft's landing-order explanation despite its separate next-cast wording.",
+      "source_ids": [
+        "wiki:P",
+        "riot:P"
+      ],
+      "topic": "Passive descriptions alternate between next cast and first ability to land."
+    },
+    {
+      "resolution": "Riot and the detailed Wiki description support retaliation from damaging attacks and spells. The narrower Wiki summary does not justify removing spell retaliation; reported exceptions remain QA metadata.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "The Wiki's short E summary mentions only basic attacks."
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4033194"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

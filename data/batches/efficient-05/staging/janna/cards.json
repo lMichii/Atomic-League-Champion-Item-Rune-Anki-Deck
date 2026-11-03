@@ -1,0 +1,796 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:40",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Janna. Official role tags: Support, Mage.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Janna conjures a defensive gale that shields an ally champion or turret from incoming damage",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Recast: The whirlwind flies in the target direction over a short time, dealing magic damage and knocking up enemies hit.",
+                "source_id": "wiki:howlinggale"
+              },
+              {
+                "quote": "Active: Janna unleashes a blast that knocks back nearby enemies, though not through terrain. She also channels the winds for a short time, continually healing nearby allies.",
+                "source_id": "wiki:monsoon"
+              }
+            ],
+            "claim": "Janna is a support mage who protects allies with shields, healing, knockups and knockbacks."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Minimum Magic Damage:55 / 90 / 125 / 160 / 195 (+ 50% AP)",
+                "source_id": "wiki:howlinggale"
+              },
+              {
+                "quote": "Magic Damage:55 / 85 / 115 / 145 / 175 (+ 50% AP) (+ 30% bonus movement speed)",
+                "source_id": "wiki:zephyr"
+              }
+            ],
+            "claim": "Her damaging spells deal magic damage and scale with AP."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/janna/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4080230",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna"
+      },
+      "id": "champ:janna:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Recognize her protection and disengage before committing."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:janna:overview:L1",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Janna. Official role tags: Support, Mage.",
+                "source_id": "riot:role"
+              }
+            ],
+            "id": "7ffc078645e64a8fc16ac64e",
+            "summary": "Janna is a support mage."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Janna's protective fighting pattern and damage focus.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "riot:E",
+          "wiki:howlinggale",
+          "wiki:zephyr",
+          "wiki:monsoon"
+        ],
+        "subject_id": "riot:role",
+        "title": "Janna",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Support / Mage",
+        "answer": "Janna is a support mage who protects allies with shields, healing, knockups and knockbacks. Her damaging spells deal magic damage and scale with AP.",
+        "build_focus": "AP",
+        "category": "Champion",
+        "champion": "Janna",
+        "cooldown": "",
+        "counterplay": "Dodge her whirlwind, account for her knockback when approaching, and pressure allies after her shield fades.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/3ed931f0ae4c68f7838d504e9a5bb4bece01419116de96667e22c002f4cb68de.jpg",
+        "id": "champ:janna:overview:L1",
+        "level": "L1",
+        "media_path": "media/3ed931f0ae4c68f7838d504e9a5bb4bece01419116de96667e22c002f4cb68de.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/janna/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Janna",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:40",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Nearby allied champions gain bonus movement speed while moving toward Janna.",
+                "source_id": "wiki:tailwind"
+              }
+            ],
+            "claim": "Nearby allied champions gain movement speed toward Janna."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Her basic attacks and Zephyr deal bonus magic damage equal to a portion of her bonus movement speed.",
+                "source_id": "wiki:tailwind"
+              }
+            ],
+            "claim": "Her basic attacks and Zephyr deal bonus magic damage based on her bonus movement speed."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/janna/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4080230",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna"
+      },
+      "id": "champ:janna:p:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Explains allied retreat speed and her extra poke damage."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:janna:p:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Nearby allied champions gain bonus movement speed while moving toward Janna.",
+                "source_id": "wiki:tailwind"
+              }
+            ],
+            "id": "fbbc036c2d1e503333ba6c5a",
+            "summary": "Nearby allies move faster toward Janna."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Her basic attacks and Zephyr deal bonus magic damage equal to a portion of her bonus movement speed.",
+                "source_id": "wiki:tailwind"
+              }
+            ],
+            "id": "8e8ccc96dfb0285ae9a02143",
+            "summary": "Bonus movement speed adds magic damage to attacks and Zephyr."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize movement support and movement-speed-based damage.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:tailwind",
+          "riot:P"
+        ],
+        "subject_id": "wiki:tailwind",
+        "title": "Tailwind",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Tailwind",
+        "answer": "Nearby allied champions gain movement speed toward Janna. Her basic attacks and Zephyr deal bonus magic damage based on her bonus movement speed.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Janna",
+        "cooldown": "",
+        "counterplay": "Account for allies moving faster toward Janna when pursuing them.",
+        "front_hint": "JANNA · P",
+        "icon_path": "media/e0d42edae4f3e760b1334b12b2129854467158c29c896a53988fabd5368e9ec4.png",
+        "id": "champ:janna:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/e0d42edae4f3e760b1334b12b2129854467158c29c896a53988fabd5368e9ec4.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/janna/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Janna",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:40",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Janna summons a whirlwind at her current location that charges up over 3 seconds",
+                "source_id": "wiki:howlinggale"
+              },
+              {
+                "quote": "Howling Gale's direction is determined by this cast.",
+                "source_id": "wiki:howlinggale"
+              },
+              {
+                "quote": "Howling Gale can be recast at any time within the duration, and does so automatically after the duration.",
+                "source_id": "wiki:howlinggale"
+              }
+            ],
+            "claim": "Janna places a charging whirlwind whose direction is fixed when cast; she can release it early, or it releases automatically."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Janna summons a whirlwind at her current location that matures over a short time, increasing its range, speed, damage, and knock up duration.",
+                "source_id": "wiki:howlinggale"
+              },
+              {
+                "quote": "Recast: The whirlwind flies in the target direction over a short time, dealing magic damage and knocking up enemies hit.",
+                "source_id": "wiki:howlinggale"
+              }
+            ],
+            "claim": "The released whirlwind deals magic damage and knocks up enemies hit; charging increases its range, speed, damage and knockup duration."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/janna/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4080230",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna"
+      },
+      "id": "champ:janna:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Its delayed path and knockup are central to avoiding her disruption."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The storm does not interact with enemy units that stand on top of it while it is charging.",
+                "source_id": "wiki:howlinggale"
+              }
+            ],
+            "status": "supported",
+            "summary": "The charging storm does not interact with enemies standing on it."
+          }
+        ],
+        "card_id": "champ:janna:q:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Howling Gale's direction is determined by this cast.",
+                "source_id": "wiki:howlinggale"
+              },
+              {
+                "quote": "Howling Gale can be recast at any time within the duration, and does so automatically after the duration.",
+                "source_id": "wiki:howlinggale"
+              }
+            ],
+            "id": "773a55b7fe1f6734cbc78a7b",
+            "summary": "The initial cast fixes direction; release can be manual or automatic."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Janna summons a whirlwind at her current location that matures over a short time, increasing its range, speed, damage, and knock up duration.",
+                "source_id": "wiki:howlinggale"
+              },
+              {
+                "quote": "Recast: The whirlwind flies in the target direction over a short time, dealing magic damage and knocking up enemies hit.",
+                "source_id": "wiki:howlinggale"
+              }
+            ],
+            "id": "36a649ed3938ae27b7a3468c",
+            "summary": "Charging strengthens the traveling magic-damage knockup."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the charged projectile and avoid its fixed path.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:howlinggale",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:howlinggale",
+        "title": "Howling Gale",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Howling Gale",
+        "answer": "Janna places a charging whirlwind whose direction is fixed when cast; she can release it early, or it releases automatically. The released whirlwind deals magic damage and knocks up enemies hit; charging increases its range, speed, damage and knockup duration.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Janna",
+        "cooldown": "",
+        "counterplay": "Move out of the whirlwind's path and avoid approaching along its cast direction.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/5c4a0971f005bc924033b07f6e3f35378541187ae846ef26592be279c0aba664.png",
+        "id": "champ:janna:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/7122f87c2ebf51326689b76f1c6d231ca121e76f0251e1b6bb520e9da1e72a43.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/janna/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Janna",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "Base cooldown evidence is missing; its availability matters for engaging."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:40",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Janna summons an air elemental that passively increases her Move Speed and enables her to pass through units.",
+                "source_id": "riot:W"
+              }
+            ],
+            "claim": "Janna passively gains movement speed and can pass through units."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Janna sends an air elemental to the target enemy, dealing magic damage and slowing them.",
+                "source_id": "wiki:zephyr"
+              }
+            ],
+            "claim": "Zephyr targets an enemy, dealing magic damage and slowing them."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/janna/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4080230",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna"
+      },
+      "id": "champ:janna:w:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Recognize her targeted poke and movement advantage."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).",
+                "source_id": "wiki:zephyr"
+              }
+            ],
+            "status": "supported",
+            "summary": "An invalid target during the cast can cancel Zephyr without consuming its cooldown or cost."
+          }
+        ],
+        "card_id": "champ:janna:w:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Janna summons an air elemental that passively increases her Move Speed and enables her to pass through units.",
+                "source_id": "riot:W"
+              }
+            ],
+            "id": "4516de85f72afe1aeaf15601",
+            "summary": "Janna gains passive movement speed and passes through units."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Janna sends an air elemental to the target enemy, dealing magic damage and slowing them.",
+                "source_id": "wiki:zephyr"
+              }
+            ],
+            "id": "8a2ffcc0cbb45beff457b3ca",
+            "summary": "The active deals targeted magic damage and slows."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize targeted slowing poke and passive mobility.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:zephyr",
+          "riot:W"
+        ],
+        "subject_id": "wiki:zephyr",
+        "title": "Zephyr",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Zephyr",
+        "answer": "Janna passively gains movement speed and can pass through units. Zephyr targets an enemy, dealing magic damage and slowing them.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Janna",
+        "cooldown": "",
+        "counterplay": "Respect her targeted slow when entering range, and account for her ability to move through units.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/11a50489849828449870955c7e15ca3b7e61e5ce5144aaed9d09536fc5f8e584.png",
+        "id": "champ:janna:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/2aee4381ee54a54e1b928f04ef57a158b2e392b027ca5bdfd7e2c8c591c83ec2.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/janna/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Janna",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:40",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Janna can target an allied champion, turret, or herself to place a shield that decays over a short time. While the shield holds, the target gains bonus attack damage.",
+                "source_id": "wiki:eyeofthestorm"
+              }
+            ],
+            "claim": "Janna shields herself, an allied champion or an allied turret, granting bonus attack damage while the shield holds."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Passive: Whenever Janna's abilities slow or knock up at least one enemy champion, she refunds a portion of Eye of the Storm's cooldown.",
+                "source_id": "wiki:eyeofthestorm"
+              }
+            ],
+            "claim": "Slowing or knocking up enemy champions with her abilities refunds part of this shield's cooldown."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/janna/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4080230",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna"
+      },
+      "id": "champ:janna:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The shield changes damage trades, and crowd control helps restore its availability."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "This may occur once per spell cast.",
+                "source_id": "wiki:eyeofthestorm"
+              }
+            ],
+            "status": "supported",
+            "summary": "The cooldown refund occurs at most once per spell cast."
+          }
+        ],
+        "card_id": "champ:janna:e:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Janna can target an allied champion, turret, or herself to place a shield that decays over a short time. While the shield holds, the target gains bonus attack damage.",
+                "source_id": "wiki:eyeofthestorm"
+              }
+            ],
+            "id": "714d19819006468fbdefa136",
+            "summary": "The shield protects herself, an allied champion or turret and grants attack damage while intact."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Passive: Whenever Janna's abilities slow or knock up at least one enemy champion, she refunds a portion of Eye of the Storm's cooldown.",
+                "source_id": "wiki:eyeofthestorm"
+              }
+            ],
+            "id": "4603bf7b571cbcb3641009ae",
+            "summary": "Ability slows and knockups against champions refund shield cooldown."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize protection, offensive empowerment and repeat-shield potential.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:eyeofthestorm",
+          "riot:E"
+        ],
+        "subject_id": "wiki:eyeofthestorm",
+        "title": "Eye of the Storm",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Eye of the Storm",
+        "answer": "Janna shields herself, an allied champion or an allied turret, granting bonus attack damage while the shield holds. Slowing or knocking up enemy champions with her abilities refunds part of this shield's cooldown.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Janna",
+        "cooldown": "",
+        "counterplay": "Account for the shielded target's stronger attacks, and avoid her crowd control to limit shield cooldown refunds.",
+        "front_hint": "JANNA · E",
+        "icon_path": "media/ff12bbba6e954f118ff6006ffa7e23253bb3d2b6b45c6aca57582af1a573c1b5.png",
+        "id": "champ:janna:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/ff12bbba6e954f118ff6006ffa7e23253bb3d2b6b45c6aca57582af1a573c1b5.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/janna/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Janna",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "Base shield cooldown is not supplied; the cooldown refund is supported."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:40",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Janna unleashes a blast that knocks back nearby enemies, though not through terrain. She also channels the winds for a short time, continually healing nearby allies.",
+                "source_id": "wiki:monsoon"
+              },
+              {
+                "quote": "Janna also channels for up to 3 seconds, healing herself and nearby allies every 0.25 seconds.",
+                "source_id": "wiki:monsoon"
+              }
+            ],
+            "claim": "Janna knocks nearby enemies back, then channels to continually heal herself and nearby allies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Janna unleashes a blast that knocks back nearby enemies, though not through terrain.",
+                "source_id": "wiki:monsoon"
+              }
+            ],
+            "claim": "The knockback does not push enemies through terrain."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/janna/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4080230",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna"
+      },
+      "id": "champ:janna:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Her major disengage can separate attackers and restore nearby allies."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:janna:r:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Janna unleashes a blast that knocks back nearby enemies, though not through terrain.",
+                "source_id": "wiki:monsoon"
+              }
+            ],
+            "id": "3cef5fb7f3345872139bad62",
+            "summary": "The initial blast knocks nearby enemies back without pushing them through terrain."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Janna also channels for up to 3 seconds, healing herself and nearby allies every 0.25 seconds.",
+                "source_id": "wiki:monsoon"
+              }
+            ],
+            "id": "05a4260d81654f26b37c8ea1",
+            "summary": "The channel repeatedly heals Janna and nearby allies."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the displacement followed by a healing channel.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:monsoon",
+          "riot:R"
+        ],
+        "subject_id": "wiki:monsoon",
+        "title": "Monsoon",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Monsoon",
+        "answer": "Janna knocks nearby enemies back, then channels to continually heal herself and nearby allies. The knockback does not push enemies through terrain.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Janna",
+        "cooldown": "",
+        "counterplay": "Account for the knockback when closing in, and interrupt her channel to limit healing.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/b3083ac3e359ed15610ab23a8488e96aacff3f04b0f68a00ed6442d2ee4f25b0.png",
+        "id": "champ:janna:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/92582bc20a3e9116fade49121941264829b962de2585d800338204a4de205089.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/janna/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Janna",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "Ultimate cooldown evidence is missing; its availability matters for committing to a fight."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

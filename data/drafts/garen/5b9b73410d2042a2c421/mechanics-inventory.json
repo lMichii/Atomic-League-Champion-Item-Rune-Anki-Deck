@@ -1,0 +1,449 @@
+{
+  "abilities": [
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Perseverance is lost for 8 seconds if Garen takes damage from champions, epic monsters, or turrets, or if he is hit by an enemy ability or affected by an enemy summoner spell, refreshing on subsequent damage and hits taken from them.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "The interruption has specific eligible sources: champion, epic monster and turret damage, enemy ability hits, and enemy summoner spells. Subsequent eligible events refresh the interruption."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Perseverance does not go on nor refresh its cooldown from damage which was:\nReduced to or equal to 0 damage.\nDealt to shields.\nAbsorbed by invulnerability.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "Damage reduced to zero, dealt to shields, or absorbed by invulnerability does not start or refresh the passive's interruption."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "If Garen has not recently been struck by damage or enemy abilities, he regenerates a percentage of his total health each second.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Innate: Garen continually regenerates a portion of his maximum health. This ability is temporarily disabled if he is attacked by epic monsters, enemy turrets, or enemy champions.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.regeneration",
+          "summary": "Garen regenerates a portion of his maximum health while the passive is active; qualifying enemy damage or effects temporarily interrupt it."
+        }
+      ],
+      "slot": "P",
+      "unsupported_claims": [
+        "Every source of damage interrupts Perseverance.",
+        "Perseverance heals nearby allies."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Decisive Strike will not prevent the reapplication of slows (e.g. the persistent slow from Pillar of Ice will be immediately reapplied after removal if Garen is still within its area of effect).",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "Removing existing slows does not prevent slows from being reapplied."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Decisive Strike resets Garen's basic attack timer.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Additionally, Garen empowers his next basic attack within 4.5 seconds to have an uncancellable windup, lunge at the target, deal bonus physical damage, and silence them for 1.5 seconds.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "Activation resets the attack timer. The empowered attack has a limited availability window, lunges, and has an uncancellable windup."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The enhanced attack will apply other on-hit effects and can critically strike as normal (the bonus damage does not).",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "The bonus damage will also apply life steal.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "The bonus damage is applied to structures.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Spell shield will only negate the silence.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "The attack applies on-hit effects and can critically strike normally, with its bonus damage excluded from ordinary critical strikes. The bonus damage applies life steal and works on structures. Spell shields negate only the silence."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The enhanced attack will still complete and hit the target even if they become untargetable during the attack's windup.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Decisive Strike's lunge can pass very thin terrain and will otherwise not be able to. In any case, Garen will still hit his target.[1]",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "The attack can complete through target untargetability during its windup. The lunge can cross very thin terrain; otherwise the target is still hit without crossing it."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Garen gains a burst of Move Speed, breaking free of all slows affecting him.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Active: Garen gains bonus movement speed and cleanses from slows.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.speed_and_slow_cleanse",
+          "summary": "Activation grants movement speed and removes existing slows."
+        },
+        {
+          "citations": [
+            {
+              "quote": "His next attack strikes a vital area of his foe, dealing bonus damage and silencing them.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "His next basic attack will lunge and deal bonus physical damage, silencing the target.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.empowered_attack",
+          "summary": "His next basic attack deals bonus physical damage and silences its target."
+        }
+      ],
+      "slot": "Q",
+      "unsupported_claims": [
+        "Q removes every type of crowd control.",
+        "Q grants immunity to slows for its duration.",
+        "A spell shield blocks the entire empowered attack."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Passive: Whenever Garen kills an enemy, he generates a stack of Courage, stacking up to 150 times.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Champions (Only kills, assists don't grant stacks)\nAll minions and monsters\nChampion summoned units (e.g. Noxious Trap, Powder Keg)\nAll pets and clones.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "The bonus is equal for all these units; large units do not grant a larger bonus.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "Passive stacks are capped. Eligible kills include champions, minions, monsters, summoned units, pets and clones; assists give no stacks, and larger units give no extra stacks."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The kills on these enemy unit types do not count towards Courage stacks:\nWards.\nTurrets (including Sun Disk) and other structures\nJungle plants.\nUnits destroyed by 'trampling' such as Zyra's seeds, Zac's goo or Rek'Sai's tunnels.\nIllaoi's Tentacles and Yorick's Dark Procession",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Courage will only grant bonus resistances from units killed by Garen himself. Eye of the Herald does not count.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "Listed exclusions include wards, structures, plants, trampled units, Illaoi's Tentacles, Yorick's Dark Procession and Eye of the Herald. Garen must get the kill himself."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Garen reduces incoming damage for 4 seconds. For the first 0.75 seconds, Garen additionally grants himself a shield and 60% tenacity.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "He may also activate this ability to give him a shield and tenacity for a brief moment followed by a lesser amount of damage reduction for a longer duration.",
+              "source_id": "riot:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "The shield and tenacity occupy a brief opening window. Wiki specifies that damage reduction already operates during that window and continues afterward; Riot's shorter description emphasizes the subsequent protection."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The Tenacity increase stacks additively with the tenacity reduction from Brittle, but multiplicatively with other sources.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "The tenacity increase combines additively with Brittle's tenacity reduction and multiplicatively with other sources."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Garen passively increases his Armor and Magic Resist by killing enemies.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Passive: Garen permanently gains bonus armor and magic resist by killing enemies, up to a cap.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.passive_resistances",
+          "summary": "Killing eligible enemies permanently builds armor and magic resistance, up to a cap."
+        },
+        {
+          "citations": [
+            {
+              "quote": "He may also activate this ability to give him a shield and tenacity for a brief moment",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "He also briefly gains a shield and increased tenacity.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.shield_and_tenacity",
+          "summary": "Activation briefly grants a shield and increased tenacity."
+        },
+        {
+          "citations": [
+            {
+              "quote": "followed by a lesser amount of damage reduction for a longer duration.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Active: Garen reduces incoming damage for a few seconds.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.damage_reduction",
+          "summary": "Activation provides temporary incoming damage reduction that lasts beyond the brief shield and tenacity window."
+        }
+      ],
+      "slot": "W",
+      "unsupported_claims": [
+        "Every destroyed enemy object grants passive stacks.",
+        "Assists grant passive stacks.",
+        "W makes Garen invulnerable or immune to all crowd control."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Judgment only scales with bonus attack speed from items and growth (per level).",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "The spin animation is capped at 200% bonus attack speed, but the amount of ticks will keep on scaling.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Spin-count scaling uses bonus attack speed from items and level growth. The animation cap does not cap damage ticks."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Enemy champions hit 6 times by Judgment are inflicted with 25% armor reduction for 6 seconds, with the duration refreshing upon the 7th hit and every 6th hit thereafter.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "The armor reduction stacks multiplicatively with other percentage armor penetration effects.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Armor reduction requires six hits on an enemy champion, has specified refresh points, and combines multiplicatively with other percentage armor penetration effects."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Judgment can be recast after 1 second while active, and does so automatically after it ends.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Recast: Garen ends Judgment.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Deactivating the ability manually does not count as an ability activation for the purposes of on-cast effects such as Spellblade and triggering Force Pulse's passive.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Garen can end the spin early after its initial lockout. Manual deactivation does not trigger on-cast effects."
+        },
+        {
+          "citations": [
+            {
+              "quote": "becoming unable to declare basic attacks but gaining ghosting and dealing physical damage to nearby enemies periodically.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Decisive Strike and Courage are usable. Demacian Justice interrupts.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Movement\nAllowed",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Each spin triggers a stack of Conqueror.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Garen can move and gains ghosting while spinning, but cannot declare basic attacks. Q and W remain usable; R interrupts the spin. Each spin grants a Conqueror stack."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Garen rapidly spins his sword around his body, dealing physical damage to nearby enemies.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Active: Garen rapidly spins with his sword for a short time while ghosted, continually dealing physical damage to nearby enemies.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.area_damage",
+          "summary": "Garen spins, repeatedly dealing physical damage to nearby enemies."
+        },
+        {
+          "citations": [
+            {
+              "quote": "He spins more based on his bonus attack speed.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.spin_count",
+          "summary": "Eligible bonus attack speed increases the number of spins."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The nearest enemy is dealt increased damage.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Judgment deals 25% increased damage against the nearest enemy hit.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.nearest_target_bonus",
+          "summary": "The nearest enemy hit takes increased damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Enemy champions hit by enough spins will have reduced armor.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.armor_reduction",
+          "summary": "Repeated spin hits reduce enemy champions' armor."
+        }
+      ],
+      "slot": "E",
+      "unsupported_claims": [
+        "Every source of bonus attack speed increases spin count.",
+        "E reduces armor on its first hit.",
+        "The increased damage requires an isolated target.",
+        "Garen can perform basic attacks while spinning."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "dealing them true damage as well as revealing them for 1 second at the start of the cast time.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Spell shield\nBlocked",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "The target is briefly revealed at cast start. Spell shields can block the ability."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time, this ability will cancel but does not go on cooldown nor pay its cost (if applicable).",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Target untargetability, death, excessive distance or loss of sight during the cast cancels it without consuming cooldown."
+        },
+        {
+          "citations": [
+            {
+              "quote": "This does not count effects that mitigate true damage, such as shields.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "The listed lethal-health calculation excludes protection such as shields, so the execution description does not establish an unconditional kill."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Garen calls upon the might of Demacia to attempt to execute an enemy champion.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Active: Garen strikes a lethal blow to an enemy champion that deals true damage based on the target's missing health.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.missing_health_true_damage",
+          "summary": "Garen targets an enemy champion with a true-damage finishing blow that deals more damage as the target's missing health increases."
+        }
+      ],
+      "slot": "R",
+      "unsupported_claims": [
+        "R guarantees a kill below a universal health percentage regardless of protection.",
+        "R ignores shields and spell shields.",
+        "R can target minions or monsters.",
+        "R resets its cooldown on a kill."
+      ]
+    }
+  ]
+}

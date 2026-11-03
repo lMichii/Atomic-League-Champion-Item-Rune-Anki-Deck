@@ -1,0 +1,409 @@
+{
+  "cards": [
+    {
+      "answer": "Darius is a fighter and tank who pulls enemies toward him and wears them down with stacking physical bleeds. His ultimate deals true damage that increases with bleed stacks. Focus on learning his AD-based damage.",
+      "build_focus": "AD",
+      "counterplay": "Avoid extended close-range fights that let him build bleed stacks.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Darius. Official role tags: Fighter, Tank.",
+              "source_id": "riot:role"
+            }
+          ],
+          "claim": "Darius is a fighter and tank"
+        },
+        {
+          "citations": [
+            {
+              "quote": "When activated, Darius sweeps up his enemies with his axe's hook and pulls them to him.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "pulls enemies toward him"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Darius' attacks and damaging abilities cause enemies to bleed for physical damage over 5 seconds, stacking up to 5 times.",
+              "source_id": "riot:P"
+            }
+          ],
+          "claim": "wears them down with stacking physical bleeds"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Darius leaps to an enemy champion and strikes a lethal blow, dealing true damage. This damage is increased for each stack of Hemorrhage on the target.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "His ultimate deals true damage that increases with bleed stacks."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Bonus Physical Damage:40 / 45 / 50 / 55 / 60% AD",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "his AD-based damage"
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Recognizing his pull and stacking damage helps beginners understand his close-range fighting threat.",
+      "slot": "-",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "AD is a broad learning focus, not an optimal item-build recommendation."
+      ]
+    },
+    {
+      "answer": "Eligible damaging attacks and abilities apply a physical bleed that stacks up to five times. Reaching five stacks on an enemy champion or killing a champion with R temporarily grants Noxian Might. This grants bonus AD and makes eligible bleed applications apply all five stacks at once.",
+      "build_focus": "",
+      "counterplay": "Disengage before he builds five stacks on you. Avoid letting an empowered Darius spread full bleed stacks to your team.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Darius' attacks and damaging abilities cause enemies to bleed for physical damage over 5 seconds, stacking up to 5 times.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Darius' attacks and abilities have to deal damage to apply Hemorrhage.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Eligible damaging attacks and abilities apply a physical bleed that stacks up to five times."
+        },
+        {
+          "citations": [
+            {
+              "quote": "When Darius kills a champion with Noxian Guillotine, or applies 5 stacks on an enemy champion, he becomes empowered with Noxian Might for 5 seconds.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Reaching five stacks on an enemy champion or killing a champion with R temporarily grants Noxian Might."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Noxian Might: Darius gains 30 – 230 (based on level) bonus attack damage and instantly applies 5 Hemorrhage stacks through his usual means.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "This grants bonus AD and makes eligible bleed applications apply all five stacks at once."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "Bleed markers build around the target; a large emblem appears as Darius becomes empowered.",
+        "meaningful": true,
+        "source_ids": [
+          "riot:P",
+          "wiki:P"
+        ]
+      },
+      "priority": "A",
+      "priority_reason": "Full stacks unlock a major damage increase and let Darius spread maximum stacks.",
+      "slot": "P",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Visual cue is a tentative proposal from supplied official-clip frames, not current-client verification; text sources do not describe its appearance.",
+        "Application requires damage and excludes structures, wards and invulnerable targets; Q handle hits are an additional exception.",
+        "Ordinary shields permit bleed application and refresh; spell shields prevent application from abilities.",
+        "R kills involving clones, resurrection protection or zombie states have special empowerment rules."
+      ]
+    },
+    {
+      "answer": "After a windup, Darius swings his axe around himself, dealing physical damage. The outer blade deals more damage and can apply bleed; the inner handle deals less damage and neither applies nor refreshes bleed. Blade hits on enemy champions and large monsters heal him based on his missing health and the number of those targets hit.",
+      "build_focus": "",
+      "counterplay": "Move outside the swing or inside the blade's reach to avoid its stronger hit and deny healing.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Darius briefly winds up to spin his axe in a circle while ghosted, dealing physical damage to enemies hit.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Darius winds up and swings his axe in a wide circle.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "After a windup, Darius swings his axe around himself, dealing physical damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Enemies struck by the blade take more damage than those struck by the handle.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "When Darius hits a champion with the blade, he applies a Hemorrhage stack",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "The outer blade deals more damage and can apply bleed"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Enemies hit by the handle receive reduced damage and do not gain a Hemorrhage stack.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Enemies hit by the inner radius do not refresh the duration of or gain a stack of Hemorrhage.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "the inner handle deals less damage and neither applies nor refreshes bleed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Darius heals based on enemy champions and large monsters hit by the blade.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Against champions and large monsters hit, Darius heals for 17% – 51% (based on number of targets hit by the outer radius) of his missing health.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Blade hits on enemy champions and large monsters heal him based on his missing health and the number of those targets hit."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Blade spacing determines whether Darius gains stronger damage, bleed and healing.",
+      "slot": "Q",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Healing has a cap; the answer does not imply unlimited growth with targets hit.",
+        "Movement permissions and cancellation interactions are omitted advanced details."
+      ]
+    },
+    {
+      "answer": "Darius empowers his next basic attack to deal increased physical damage and slow its target. W also resets his basic attack timer, letting him follow an attack with another attack sooner.",
+      "build_focus": "",
+      "counterplay": "Keep out of basic attack range to avoid the empowered hit and slow.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Darius' next basic attack within a few seconds deals increased physical damage and slows the target.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Darius's next attack strikes an enemy's crucial artery. As they bleed out, their Move Speed is slowed.",
+              "source_id": "riot:W"
+            }
+          ],
+          "claim": "Darius empowers his next basic attack to deal increased physical damage and slow its target."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Crippling Strike resets Darius' basic attack timer.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "W also resets his basic attack timer, letting him follow an attack with another attack sooner."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "The slow helps Darius maintain contact, and the attack reset helps him build bleed stacks.",
+      "slot": "W",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "A killing hit refunds mana and reduces the cooldown, except against jungle plants; it is not a full reset.",
+        "The Wiki reports that spell shields negate the whole empowered attack, including basic-attack damage.",
+        "Bonus range, uncancellable windup and critical-strike interactions are omitted advanced details."
+      ]
+    },
+    {
+      "answer": "Apprehend passively lets Darius's physical damage ignore a percentage of the target's armor. When activated, he sweeps a cone in front of himself, pulling enemies hit toward him and slowing them.",
+      "build_focus": "",
+      "counterplay": "Stay outside the cone's reach or move sideways to avoid being pulled into close range.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Darius hones his axe, passively causing his physical damage to ignore a percentage of his target's Armor.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Passive: Darius gains armor penetration.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Apprehend passively lets Darius's physical damage ignore a percentage of the target's armor."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Darius sweeps in a cone in the target direction, slowing and pulling enemies hit towards him.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "When activated, Darius sweeps up his enemies with his axe's hook and pulls them to him.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "When activated, he sweeps a cone in front of himself, pulling enemies hit toward him and slowing them."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The pull brings enemies into Darius's attack range and can catch multiple targets.",
+      "slot": "E",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The Wiki's rebound-location calculation and simultaneous-stun/brittle interaction are pending testing and are not treated as facts.",
+        "Pulled enemies rebound while airborne; the slow begins on rebound.",
+        "Armor penetration benefits Darius's physical damage; it is not an armor reduction for allies."
+      ]
+    },
+    {
+      "answer": "Darius targets an enemy champion with a leaping strike that deals true damage, increased by each bleed stack already on the target. A qualifying kill lets him cast R again, usually within a temporary recast window. At maximum rank, a qualifying kill fully resets its cooldown.",
+      "build_focus": "",
+      "counterplay": "Disengage before bleed stacks build up, especially when your health is low. Avoid giving him a kill that enables another cast.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Darius leaps to an enemy champion and strikes a lethal blow, dealing true damage. This damage is increased for each stack of Hemorrhage on the target.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "dealing true damage based on the target's current Hemorrhage stacks.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Darius targets an enemy champion with a leaping strike that deals true damage, increased by each bleed stack already on the target."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If Noxian Guillotine is a killing blow, its cooldown is refreshed for a brief duration.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "He can also recast the ability within 20 seconds at no cost, which refreshes on further successful executions.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "A qualifying kill lets him cast R again, usually within a temporary recast window."
+        },
+        {
+          "citations": [
+            {
+              "quote": "At max rank, Noxian Guillotine permanently resets its cooldown if the target dies very briefly afterwards.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "At maximum rank, a qualifying kill fully resets its cooldown."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Stack-amplified true damage and kill-based reuse can let Darius finish several champions.",
+      "slot": "R",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "A target death shortly after the hit can qualify; exact timing is omitted.",
+        "Clone and resurrection-protected kills grant neither reset nor Noxian Might; zombie-state finishes grant a reset without Noxian Might.",
+        "R applies its bleed stack after damage, so that new stack does not increase the same hit.",
+        "Leap direction depends on distance; terrain crossing is limited.",
+        "Grounding, roots and target-validity changes have additional casting interactions.",
+        "Qualifying deaths also fear and slow nearby minions and monsters; this secondary effect is omitted."
+      ]
+    }
+  ],
+  "champion_id": 122,
+  "champion_name": "Darius",
+  "conflicts": [
+    {
+      "resolution": "Use the Wiki's enemy-champion restriction for the five-stack empowerment trigger, retaining Riot's general bonus-AD behavior.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Riot's passive summary does not specify the target-type restriction."
+    },
+    {
+      "resolution": "Explain temporary reuse generally and include the Wiki's maximum-rank full reset; retain special target exceptions in metadata.",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "topic": "Riot summarizes R reuse without rank-specific or special-target details."
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Availability of the pull changes Darius's ability to catch enemies.",
+      "slot": "E",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Track ultimate availability and qualifying kill-based reuse.",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability of the circular strike affects his healing threat.",
+      "slot": "Q",
+      "source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "Evidence is frozen to the supplied Data Dragon release and Wiki revision; no current patch label is inferred.",
+    "The passive visual cue is tentative and does not establish current-client, skin-specific or color-specific behavior.",
+    "Wiki pending-test notes are excluded from factual teaching text.",
+    "General passive application must be read with eligibility exceptions, especially Q handle hits.",
+    "Counterplay is inferred guidance grounded in ability effects and contains no numeric timing claims."
+  ],
+  "language": "en"
+}

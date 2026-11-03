@@ -1,0 +1,364 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "Qiyana's first basic attack or ability against each enemy deals bonus damage.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Qiyana_Passive.png",
+      "name": "Royal Privilege",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0246/ability_0246_P1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "description": "Qiyana swings her weapon, dealing damage with a bonus effect based on her element.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/QiyanaQ.png",
+      "name": "Elemental Wrath / Edge of Ixtal",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0246/ability_0246_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "description": "Qiyana dashes to a location and enchants her weapon with an element. Her attacks and abilities deal bonus damage while her weapon is enchanted.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/QiyanaW.png",
+      "name": "Terrashape",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0246/ability_0246_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        11,
+        10,
+        9,
+        8,
+        7
+      ],
+      "description": "Qiyana dashes to an enemy, damaging them.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/QiyanaE.png",
+      "name": "Audacity",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0246/ability_0246_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        120,
+        120,
+        120
+      ],
+      "description": "Qiyana sends out a shockwave that detonates whatever elements she hits with it, stunning and damaging nearby enemies.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/QiyanaR.png",
+      "name": "Supreme Display of Talent",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0246/ability_0246_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/qiyana/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Qiyana"
+  },
+  "champion": {
+    "ddragon_id": "Qiyana",
+    "name": "Qiyana",
+    "riot_id": 246,
+    "roles": [
+      "Assassin"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/Qiyana/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "0fda43c3b0f67e02233deabb35376b25dec6aa173960b1d825fe07795eafc7fd",
+      "text": "Qiyana's first basic attack or ability against each enemy deals bonus damage.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Qiyana.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "Royal Privilege",
+      "provider": "league_wiki",
+      "sha256": "652e825d6e7ef7e4905fb0f311905cb6dd5592a8696c3dae2151b6496bea5be9",
+      "text": "Royal Privilege\nTARGET IMMUNITY:\n25\nInnate: Qiyana's basic attacks on-hit and basic abilities deal additional physical damage. This effect cannot occur on the same target for a period of time. Gathering an Element with Terrashape will reset the cooldown.\nInnate: Qiyana's basic attacks on-hit and basic abilities deal 15 – 91 (based on level) (+ 25% bonus AD) (+ 30% AP) additional physical damage. This effect cannot occur on the same target more than once every few seconds.\nGathering an Element with Terrashape resets Royal Privilege's per-target cooldown for enemies affected by Royal Privilege using a different Element (or no Element).\nNotes/General Details\nTargeting input\nPassive\nAffects\nEnemies\nDamage classification\nType\nProc damage\nSub-type(s)\nPhysical\nCounters\nParries\nMissing\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nRoyal Privilege's trigger from a basic attack can be blocked (additional damage is negated and the on-target cooldown does not apply).\nRoyal Privilege will not apply a cooldown to targets that are hit with an Elemental Wrath that has a different Element than the Element Qiyana currently holds.\nThis does not occur if a new Elemental Wrath with a different Element is cast before the first one lands.\nThe effect will not trigger against structures nor wards.\nPENDING FOR TEST:: Royal Privilege's interaction with parrying effects ( dodge, blind).\nRoyal Privilege is applied in a separate damage instance from Qiyana's basic attacks and abilities.\nThis causes effects like Bone Plating and Black Cleaver's Carve to be applied twice.(unexpected)\nMap-Specific Differences\nArena differences edit\nBonus AD ratio changed to 50% bonus AD.\nAP ratio changed to 50% AP.\nAbility Preview Video\nEdit\nEdge of Ixtal\nCOST:\n35 mana\nCOOLDOWN:\n7\nCAST TIME:\n0.25\nRANGE:\n525 • -40\nWIDTH:\n140\nActive: Qiyana slashes forward in the target direction, dealing physical damage to enemies hit in a line. Gathering an Element with Terrashape will reset the cooldown and upgrades Edge of Ixtal into Elemental Wrath.\nActive: Qiyana slashes forward in the target direction, dealing physical damage to enemies in a line, reduced to 75% damage against targets beyond the first. Edge of Ixtal deals 160% damage against monsters.\nPhysical Damage:70 / 100 / 130 / 160 / 190 (+ 90% bonus AD)Reduced Damage:52.5 / 75 / 97.5 / 120 / 142.5 (+ 67.5% bonus AD)\nGathering an Element with Terrashape resets Edge of Ixtal's cooldown and upgrades it into Elemental Wrath.\nIf cast during Audacity's dash towards an enemy champion and the target is within 150 units of Qiyana at the end of the dash, Edge of Ixtal will autonomously aim at the target.\nEdit\nElemental Wrath\nRANGE:\n865 • -50\nWIDTH:\n250 • 200\nSPEED:\n1600 • 2000\nActive: Qiyana hurls her blade in the target direction that blasts in a line upon hitting an enemy or max range, dealing physical damage, reduced against enemies beyond the closest. This consumes the current Element to empower the blade with an additional effect.\nBrush: The blade creates a grass field around Qiyana that lasts a short time, granting her invisibility and bonus movement speed until she attacks or exits the field.\nRiver: The blast briefly roots enemies hit, then briefly slows them.\nTerrain: The blast deals bonus damage against enemies below half health.\nActive: Qiyana hurls her blade in the target direction that blasts in a line upon hitting an enemy or maximum range, consuming the current Element to empower the blade with an additional effect.\nEnemies hit are dealt Edge of Ixtal's damage, reduced to 75% against subsequent enemies beyond the closest. Elemental Wrath deals 160% damage against monsters.\nPhysical Damage:70 / 100 / 130 / 160 / 190 (+ 90% bonus AD)Reduced Damage:52.5 / 75 / 97.5 / 120 / 142.5 (+ 67.5% bonus AD)\nBrush: The blade creates a grass field around Qiyana that lasts for up to 3 seconds, granting her invisibility and 20% bonus movement speed until she attacks, casts an ability other than Terrashape, or exits the field.\nRiver: The blast roots enemies hit for 0.5 seconds, then slows them by 20% for 1 second.\nTerrain: The blast deals 60% increased damage against enemies below 50% of their maximum health. Subsequent targets beyond the closest that are below the threshold take 35% increased damage instead.\nIncreased Damage:112 / 160 / 208 / 256 / 304 (+ 144% bonus AD)Subsequent Increased Damage:94.5 / 135 / 175.5 / 216 / 256.5 (+ 121.5% bonus AD)\nTargeting input\nDirection\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nProjectile\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIf cast during Audacity and the target uses a dash or blink or is no longer in vision, Edge of Ixtal will aim at the target's last location prior to them starting the dash or blink or being in vision.\nThis ability will cast from wherever the caster is at the end of the cast time.\nTargeting input\nDirection\nAffects\nEnemies, Self\nDamage classification\nType\nArea damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThis ability will cast from wherever the caster is at the end of the cast time.\nUsing a basic attack breaks the stealth at the start of the attack windup.\nEdge of Ixtal\nArena differences edit\nBrush bonus movement speed changed to 40%.\nRiver root duration changed to 1 second.\nAbility Preview Video\nEdit\nTerrashape\nCOST:\n25 / 30 / 35 / 40 / 45 Mana\nCOOLDOWN:\n7\nCAST TIME:\nnone\nTARGET RANGE:\n1100\nEFFECT RADIUS:\n366\nSPEED:\n440 + 100% movement speed\nPassive: While holding an Element, Qiyana gains bonus attack speed and attack range, as well as bonus magic damage on her basic attacks and basic abilities. Qiyana gains bonus movement speed speed while moving near the current Element. Active: Qiyana dashes in the target direction to gather the Element of the nearest Brush, River or Terrain she targeted.\nPassive: While holding an Element, Qiyana gains bonus attack speed, 25 bonus attack range and bonus magic damage on her basic attacks on-hit and basic abilities. While out-of-combat and moving near the Element currently being held, she gains bonus movement speed.\nBonus Attack Speed:15 / 20 / 25 / 30 / 35%\nBonus Magic Damage:8 / 16 / 24 / 32 / 40 (+ 20% bonus AD) (+ 45% AP)\nBonus Movement Speed:3 / 5 / 7 / 9 / 11%\nActive: Qiyana dashes up to 300 units towards the target location to gather the Element of the nearest Brush, River or Terrain she targeted.\nA target Element is required to cast this ability.\nOnce Terrashape has been learned, Qiyana is automatically given the Terrain element upon respawning.\nQiyana can cast any of her abilities during the dash.\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nSelf\nDamage classification\nType\nProc damage\nSub-type(s)\nMagic\nCounters\nParries\nMissing",
+      "url": "https://wiki.leagueoflegends.com/en-us/Qiyana?oldid=4007961"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/Qiyana/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "0fda43c3b0f67e02233deabb35376b25dec6aa173960b1d825fe07795eafc7fd",
+      "text": "Qiyana swings her weapon, dealing damage with a bonus effect based on her element.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Qiyana.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Elemental Wrath / Edge of Ixtal",
+      "provider": "league_wiki",
+      "sha256": "652e825d6e7ef7e4905fb0f311905cb6dd5592a8696c3dae2151b6496bea5be9",
+      "text": "Elemental Wrath / Edge of Ixtal\nBonus AD ratio reduced to 85% bonus AD from 90%.\nV25.18\nStats\nBase attack damage reduced to 64 from 66.\nArmor growth reduced to 4.5 from 4.7.\nRoyal Privilege\nBonus AD ratio reduced to 25% bonus AD from 30%.\nV25.16\nEdge of Ixtal\nBase damage increased to 70 / 100 / 130 / 160 / 190 from 60 / 90 / 120 / 150 / 180.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Qiyana?oldid=4007961"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/Qiyana/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "0fda43c3b0f67e02233deabb35376b25dec6aa173960b1d825fe07795eafc7fd",
+      "text": "Qiyana dashes to a location and enchants her weapon with an element. Her attacks and abilities deal bonus damage while her weapon is enchanted.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Qiyana.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Terrashape",
+      "provider": "league_wiki",
+      "sha256": "652e825d6e7ef7e4905fb0f311905cb6dd5592a8696c3dae2151b6496bea5be9",
+      "text": "Terrashape\nBonus attack speed increased to 15 / 20 / 25 / 30 / 35% from 5 / 10 / 15 / 20 / 25%.\nV14.21\nStats\nBase health regeneration increased to 8 from 6.\nTerrashape\nBonus AD ratio increased to 20% bonus AD from 10%.\nV14.16\nStats\nBase armor increased to 31 from 28.\nEdge of Ixtal\nBase damage changed to 60 / 90 / 120 / 150 / 180 from 50 / 85 / 120 / 155 / 190.\nBonus AD ratio increased to 90% bonus AD from 75%.\nMonster damage increased to 175% from 150%.\nTerrashape\nBase damage reduced to 8 / 16 / 24 / 32 / 40 from 8 / 22 / 36 / 50 / 64.\nSupreme Display of Talent\nBonus AD ratio reduced to 125% bonus AD from 170%.\nMonster damage cap bonus AD ratio reduced to 125% bonus AD from 150%.\nBase monster damage cap unchanged.\nV14.15\nGeneral\nBug Fix: Corrected multiple triggers for various voicelines. This also resolves enemies being able to hear VO that is normally only meant for the player.\nV14.1\nTerrashape\nBug Fix: Terrashape into Edge of Ixtal fast buffer no longer sends Edge of Ixtal towards the 0,0,0 map coordinate.\nSupreme Display of Talent\nKnockback duration increased slightly to reduce chances of it not overlapping with wall stun.\nV13.24\nStats\nBase mana increased to 375 from 320.\nMana growth increased to 60 from 50.\nV13.5\nEdge of Ixtal\nBase damage increased to 50 / 85 / 120 / 155 / 190 from 50 / 80 / 110 / 140 / 170.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Qiyana?oldid=4007961"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/Qiyana/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "0fda43c3b0f67e02233deabb35376b25dec6aa173960b1d825fe07795eafc7fd",
+      "text": "Qiyana dashes to an enemy, damaging them.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Qiyana.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Audacity",
+      "provider": "league_wiki",
+      "sha256": "652e825d6e7ef7e4905fb0f311905cb6dd5592a8696c3dae2151b6496bea5be9",
+      "text": "Audacity\nCooldown reduced to 11 / 10 / 9 / 8 / 7 seconds from 12 / 11 / 10 / 9 / 8.\nV13.4\nRoyal Privilege\nBug Fix: On-target cooldown reset now behaves more consistently when casting Elemental Wrath, Terrashape, and Elemental Wrath again in quick succession.\nV12.15\nRoyal Privilege\nBonus AD ratio reduced to 30% bonus AD from 45%.\nBug Fix: No longer applies an extra proc of Royal Privilege with First Strike equipped.\nV12.14\nElemental Wrath\nBug Fix: Casting the ability twice, both before and after using Terrashape, no longer causes it to deal less damage than intended.\nV12.11\nEdge of Ixtal\nBug Fix: Now consistenly collides with targets that are moving towards the caster.\nV12.10\nStats\nBase health increased to 590 from 520.\nHealth growth increased to 124 from 110.\nArmor growth increased to 4.7 from 3.5.\nMagic resistance growth increased to 2.05 from 1.25.\nV12.4\nRoyal Privilege\nBonus AD ratio reduced to 45% bonus AD from 55%.\nV12.2\nStats\nBase health regeneration reduced to 6 from 7.5.\nElemental Wrath\nGrass trail duration reduced to 3 seconds from 3.5.\nV11.22\nStats\nBase health reduced to 520 from 590.\nHealth growth increased to 110 from 90.\nEdge of Ixtal\nBase damage changed to 50 / 80 / 110 / 140 / 170 from 60 / 85 / 110 / 135 / 160.\nBonus AD ratio reduced to 75% bonus AD from 90%.\nAudacity\nBase damage increased to 50 / 90 / 130 / 170 / 210 from 50 / 80 / 110 / 140 / 170.\nBonus AD ratio reduced to 50% bonus AD from 70%.\nV11.19\nEdge of Ixtal\nDamage against monsters increased to 150% from 125%.\nEdge of Ixtal autonomously aiming at Audacity's target now also requires the enemy champion to be within Qiyana's basic attack range (150 units) at the end of the dash.\nBug Fix: Cooldown can no longer be sometimes bypassed after casting Terrashape.\nV11.18 - September 9th Hotfix\nEdge of Ixtal\nBug Fix: Fixed a bug where displacements would cause the autonomous targeting by casting it during Audacity to become dysfunctional.\nV11.18\nStats\nBase health regeneration reduced to 7.5 from 9.\nBase attack speed increased to 0.688 from 0.625.\nAttack speed ratio unchanged.\nEdge of Ixtal\nDamage against monsters increased to 125% from 100%.\nNew Effect: If cast during Audacity and the target uses a dash or blink or is no longer in vision during the dash, the ability will now aim at the target's last position prior to them starting the dash or blink or being in vision.\nAudacity\nBase damage reduced to 50 / 80 / 110 / 140 / 170 from 60 / 90 / 120 / 150 / 180.\nV11.11\nTerrashape\nBonus movement speed reduced to 3 / 5 / 7 / 9 / 11% from 5 / 7 / 9 / 11 / 13%.\nV11.5\nTerrashape\nBase bonus magic damage damage increased to 8 / 22 / 36 / 50 / 64 from 8 / 16 / 24 / 32 / 40.\nBonus magic damage AP ratio increased to 45% AP from 30% AP.\nBonus movement speed increased to 5 / 7 / 9 / 11 / 13% from 5 / 6.25 / 7.5 / 8.75 / 10%.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Qiyana?oldid=4007961"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/Qiyana/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "0fda43c3b0f67e02233deabb35376b25dec6aa173960b1d825fe07795eafc7fd",
+      "text": "Qiyana sends out a shockwave that detonates whatever elements she hits with it, stunning and damaging nearby enemies.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Qiyana.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Supreme Display of Talent",
+      "provider": "league_wiki",
+      "sha256": "652e825d6e7ef7e4905fb0f311905cb6dd5592a8696c3dae2151b6496bea5be9",
+      "text": "Supreme Display of Talent\nBase damage increased to 100 / 200 / 300 from 100 / 170 / 240.\nV11.1\nStats\nBase health regeneration increased to 9 from 8.5.\nHealth regeneration growth increased to 0.9 from 0.65.\nBase attack damage increased to 66 from 64.\nBase magic resistance reduced to 32 from 32.1.\nV10.17\nTerrashape\nBonus AD ratio reduced to 10% bonus AD from 20%.\nAudacity\nBase damage reduced to 60 / 90 / 120 / 150 / 180 from 60 / 95 / 130 / 165 / 200.\nV10.13\nElemental Wrath\nBug Fix: Fixed a bug where it would not damage its target if she died before the ability landed.\nV10.12\nElemental Wrath\nBug Fix: Brush-empowered Elemental Wrath now properly leaves a stealth trail when she casts it after reviving from something like Guardian Angel or Zilean's Time Warp.\nV10.6\nGeneral\nRecommended items updated.\nV10.4\nSupreme Display of Talent\nBug Fix: No longer breaks unstoppable animations/abilities when cast in the river or in a brush.\nBug Fix: When casting the ability towards a wall just barely within Yasuo's Wind Wall, she should no longer be able to successfully explode the targeted wall.\nBattle Boss Qiyana\nRoyal Privilege\nBug Fix: Cooldown indicator is no longer barely visible in brush.\nV10.2\nTerrashape\nBonus attack speed changed to 5 / 10 / 15 / 20 / 25% from 20% at all ranks.\nV9.24b\nEdge of Ixtal\nBug Fix: Range indicator now displays the intended range when she hasn't gathered any Elements and \"Enable Line Missile\" is disabled.\nV9.23\nTrue Damage Qiyana\nLoading screen border is now uniquely colored per True Damage skin.\nV9.21\nSupreme Display of Talent\nBug Fix: VFX no longer desynchronize with its effects and they properly follow the outline around terrain all the way through from the enemies' perspective if it is cast in Fog of War.\nV9.20\nEdge of Ixtal\nBase damage reduced to 60 / 85 / 110 / 135 / 160 from 80 / 100 / 120 / 140 / 160.\nElemental Wrath\nBase damage reduced to 60 / 85 / 110 / 135 / 160 from 80 / 100 / 120 / 140 / 160.\nBug Fix: No longer breaks stealth when using Terrashape.\nV9.17\nAudacity\nBase damage reduced to 60 / 95 / 130 / 165 / 200 from 70 / 105 / 140 / 175 / 210.\nSupreme Display of Talent\nCooldown increased to 120 seconds at all ranks from 120 / 100 / 80.\nV9.15\nTerrashape\nNew Effect: Now gains River Element when dashing towards a Health Relic on Howling Abyss.\nAudacity\nNew Effect: Now only damages targets if within 250 range at the end of the dash. Enemies that dash or Flash away can now dodge Audacity's damage.\nSupreme Display of Talent\nCooldown changed to 120 / 100 / 80 seconds from 100 at all ranks.\nV9.14 - July 22nd Hotfix\nAudacity\nBug Fix: Targets no longer face and cast abilities towards the center of the map when hit by Edge of Ixtal casted during Audacity.\nV9.14\nTerrashape\nBug Fix: Passive now triggers correctly with Liandry's Torment.\nV9.13 - July 3rd Hotfix\nEdge of Ixtal\nBug Fix: No longer gets locked out of auto-attacking after stealthing from a brush enchanted Edge of Ixtal.\nV9.13 - July 2nd Hotfix\nEdge of Ixtal\nBug Fix: No longer gets stuck aiming at the same target for the rest of the game.\nV9.13 - Added\nRoyal Privilege (Innate)\nInnate: Qiyana's next basic attack or damaging ability against a target unit deals 15 – 83 (based on level) (+ 55% bonus AD) (+ 30% AP) bonus physical damage.\nThis effect cannot occur on the same target more than once every 25 seconds, not affected by cooldown reduction.\nRoyal Privilege's cooldown on all targets is reset upon gathering or changing an Element.\nEdge of Ixtal (Q)\nActive - Edge of Ixtal: Qiyana slashes forward in a line, dealing 80 / 100 / 120 / 140 / 160 (+ 90% bonus AD) physical damage, reduced to 75% damage against subsequent units beyond the closest.\nUpon gathering an Element, Edge of Ixtal is upgraded to Elemental Wrath and its cooldown is reset.\nActive - Elemental Wrath: Qiyana consumes her current Element and hurls her blade out instead, which detonates in a line upon colliding with an enemy or reaching maximum range, dealing the same damage to all units hit and applying a bonus effect based on the consumed Element.\nRiver: Roots for X seconds, then slows by 20% for 1 second.\nWall: Enemies below 50% of maximum health take 60% bonus damage.\nBrush: The blade raises a grass trail behind for 3.5 seconds, granting Qiyana invisibility and 20% bonus movement speed until she attacks or exits.\nTarget Range: 650.\nMana Cost: 35.\nCooldown: 7 seconds.\nTerrashape (W)\nPassive: While holding an Element, Qiyana gains 20% bonus attack speed, 25 bonus range, her basic attacks and basic abilities deal 8 / 16 / 24 / 32 / 40 (+ 20% bonus AD) (+ 30% AP) bonus magic damage, and she gains out-of-combat 5 / 6.25 / 7.5 / 8.75 / 10% bonus movement speed while moving through the Element currently being held.\nActive: Qiyana dashes towards a target location, potentially gathering an Element of the Wall, River or Brush she targeted.\nMana Cost: 25 / 30 / 35 / 40 / 45.\nCooldown: 7 seconds.\nAudacity (E)\nActive: Qiyana dashes a fixed distance towards the target unit, dealing 70 / 105 / 140 / 175 / 210 (+ 70% bonus AD) physical damage.\nCasting Edge of Ixtal during Audacity will aim at the dash target.\nTarget Range: 650.\nMana Cost: 40 / 45 / 50 / 55 / 60.\nCooldown: 12 / 11 / 10 / 9 / 8 seconds.\nSupreme Display of Talent (R)\nActive: Qiyana sends a windblast in the target direction that knocks back enemies. The windblast stops upon hitting a Wall.\nThe windblast then creates a shockwave across any River or Brush it passes through, as well as around the borders of terrain it reaches, dealing 100 / 170 / 240 (+ 170% bonus AD) (+ 10% of target's maximum health) physical damage and stunning enemies for 0.5 – 1 (based on proximity) seconds. The damage based on the target's health is capped against monsters at 500 / 750 / 1000 (+ 150% bonus AD) physical damage.\nTarget Range: 950.\nMana Cost: 100.\nCooldown: 100 seconds.\nTrivia[edit | edit source]\nWhile Quinn was the first champion whose name starts with Q, the then only remaining unused letter in the alphabet regarding champion names prior to her release, Qiyana's release made it so there were at least 2 champions starting with each letter of the alphabet.\nQiyana dabs if she uses any emote within 10 seconds of a takedown.[2]\nQiyana is the strongest among the 10 sisters and this might be referring to '1v9,’ a common player term used when both having bad teammates and enemies.\nSee also[edit | edit source]\nLeague of Legends Wiki | Champions\nCancelled Champions\nAo Shin\nAvasha\nAverdrian\nCeeCee\nCyborg Cowboy\nEagle Rider\nGavid\nHusk\nIron Engineer\nIvan\nOmen\nPriscilla\nRob Blackblade\nSeth\nTabu\nTiki\nUrf\nWell\nLeague of Legends content\nAttack windup\nThe attack windup is a portion of the basic attack animation that must play out in order to launch it. For projectile basic attacks, the windup usually aligns with drawing the projectile on-screen.\nThe attack windup is displayed as a percentage, and any windup modifier is listed as a decimal next to it.\nLeague of Legends content\nAttack speed ratio\nThe Attack speed ratio (AS ratio) adjusts the effectiveness of bonus AS from all sources. It is usually equal to the unit's base AS (level 1 with no bonuses), but tuning to a higher or lower relative value translates to more or less bonus AS received compared to other units with the same base AS.\nTotal AS = Base AS + Bonus AS × AS Ratio(All values in decimal form)\nThe ingame stats HUD displays the AS ratio instead of base AS to communicate this comparative effectiveness. The Wiki opts to always list both stats and show the AS ratio as \"N/A\" if the two are equal.\nLeague of Legends content\nGameplay radius\nA unit's gameplay radius is a stat that most closely resembles the concept of a 'hitbox', and is the radius used for edge range effects, which include basic attacks, line collision missiles, rectangular AOEs, and others. The gameplay radius determines the reach of both incoming and outgoing effects: for example, enemies are within a unit's basic attack range based on the edge of their gameplay radius and vice versa.\nLeague of Legends content\nSelection radius\nA unit's selection radius is a stat that determines the horizontally furthest point from the center of their model that other players' cursor is allowed to be, while still maintaining the ability to select that unit.\nLeague of Legends content\nPathing radius",
+      "url": "https://wiki.leagueoflegends.com/en-us/Qiyana?oldid=4007961"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/Qiyana/tags",
+      "provider": "riot_ddragon",
+      "sha256": "0fda43c3b0f67e02233deabb35376b25dec6aa173960b1d825fe07795eafc7fd",
+      "text": "Name: Qiyana. Official role tags: Assassin.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Qiyana.json"
+    },
+    {
+      "id": "wiki:royalprivilege",
+      "locator": "Royal_Privilege",
+      "provider": "league_wiki",
+      "sha256": "652e825d6e7ef7e4905fb0f311905cb6dd5592a8696c3dae2151b6496bea5be9",
+      "text": "Royal Privilege\nTARGET IMMUNITY:\n25\nInnate: Qiyana's basic attacks on-hit and basic abilities deal additional physical damage. This effect cannot occur on the same target for a period of time. Gathering an Element with Terrashape will reset the cooldown.\nInnate: Qiyana's basic attacks on-hit and basic abilities deal 15 – 91 (based on level) (+ 25% bonus AD) (+ 30% AP) additional physical damage. This effect cannot occur on the same target more than once every few seconds.\nGathering an Element with Terrashape resets Royal Privilege's per-target cooldown for enemies affected by Royal Privilege using a different Element (or no Element).\nNotes/General Details\nTargeting input\nPassive\nAffects\nEnemies\nDamage classification\nType\nProc damage\nSub-type(s)\nPhysical\nCounters\nParries\nMissing\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nRoyal Privilege's trigger from a basic attack can be blocked (additional damage is negated and the on-target cooldown does not apply).\nRoyal Privilege will not apply a cooldown to targets that are hit with an Elemental Wrath that has a different Element than the Element Qiyana currently holds.\nThis does not occur if a new Elemental Wrath with a different Element is cast before the first one lands.\nThe effect will not trigger against structures nor wards.\nPENDING FOR TEST:: Royal Privilege's interaction with parrying effects ( dodge, blind).\nRoyal Privilege is applied in a separate damage instance from Qiyana's basic attacks and abilities.\nThis causes effects like Bone Plating and Black Cleaver's Carve to be applied twice.(unexpected)",
+      "url": "https://wiki.leagueoflegends.com/en-us/Qiyana?oldid=4007961"
+    },
+    {
+      "id": "wiki:edgeofixtal",
+      "locator": "Edge_of_Ixtal",
+      "provider": "league_wiki",
+      "sha256": "652e825d6e7ef7e4905fb0f311905cb6dd5592a8696c3dae2151b6496bea5be9",
+      "text": "Edge of Ixtal\nCOST:\n35 mana\nCOOLDOWN:\n7\nCAST TIME:\n0.25\nRANGE:\n525 • -40\nWIDTH:\n140\nActive: Qiyana slashes forward in the target direction, dealing physical damage to enemies hit in a line. Gathering an Element with Terrashape will reset the cooldown and upgrades Edge of Ixtal into Elemental Wrath.\nActive: Qiyana slashes forward in the target direction, dealing physical damage to enemies in a line, reduced to 75% damage against targets beyond the first. Edge of Ixtal deals 160% damage against monsters.\nPhysical Damage:70 / 100 / 130 / 160 / 190 (+ 90% bonus AD)Reduced Damage:52.5 / 75 / 97.5 / 120 / 142.5 (+ 67.5% bonus AD)\nGathering an Element with Terrashape resets Edge of Ixtal's cooldown and upgrades it into Elemental Wrath.\nIf cast during Audacity's dash towards an enemy champion and the target is within 150 units of Qiyana at the end of the dash, Edge of Ixtal will autonomously aim at the target.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Qiyana?oldid=4007961"
+    },
+    {
+      "id": "wiki:elementalwrath",
+      "locator": "Elemental_Wrath",
+      "provider": "league_wiki",
+      "sha256": "652e825d6e7ef7e4905fb0f311905cb6dd5592a8696c3dae2151b6496bea5be9",
+      "text": "Elemental Wrath\nRANGE:\n865 • -50\nWIDTH:\n250 • 200\nSPEED:\n1600 • 2000\nActive: Qiyana hurls her blade in the target direction that blasts in a line upon hitting an enemy or max range, dealing physical damage, reduced against enemies beyond the closest. This consumes the current Element to empower the blade with an additional effect.\nBrush: The blade creates a grass field around Qiyana that lasts a short time, granting her invisibility and bonus movement speed until she attacks or exits the field.\nRiver: The blast briefly roots enemies hit, then briefly slows them.\nTerrain: The blast deals bonus damage against enemies below half health.\nActive: Qiyana hurls her blade in the target direction that blasts in a line upon hitting an enemy or maximum range, consuming the current Element to empower the blade with an additional effect.\nEnemies hit are dealt Edge of Ixtal's damage, reduced to 75% against subsequent enemies beyond the closest. Elemental Wrath deals 160% damage against monsters.\nPhysical Damage:70 / 100 / 130 / 160 / 190 (+ 90% bonus AD)Reduced Damage:52.5 / 75 / 97.5 / 120 / 142.5 (+ 67.5% bonus AD)\nBrush: The blade creates a grass field around Qiyana that lasts for up to 3 seconds, granting her invisibility and 20% bonus movement speed until she attacks, casts an ability other than Terrashape, or exits the field.\nRiver: The blast roots enemies hit for 0.5 seconds, then slows them by 20% for 1 second.\nTerrain: The blast deals 60% increased damage against enemies below 50% of their maximum health. Subsequent targets beyond the closest that are below the threshold take 35% increased damage instead.\nIncreased Damage:112 / 160 / 208 / 256 / 304 (+ 144% bonus AD)Subsequent Increased Damage:94.5 / 135 / 175.5 / 216 / 256.5 (+ 121.5% bonus AD)\nTargeting input\nDirection\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nProjectile\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIf cast during Audacity and the target uses a dash or blink or is no longer in vision, Edge of Ixtal will aim at the target's last location prior to them starting the dash or blink or being in vision.\nThis ability will cast from wherever the caster is at the end of the cast time.\nTargeting input\nDirection\nAffects\nEnemies, Self\nDamage classification\nType\nArea damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThis ability will cast from wherever the caster is at the end of the cast time.\nUsing a basic attack breaks the stealth at the start of the attack windup.\nEdge of Ixtal",
+      "url": "https://wiki.leagueoflegends.com/en-us/Qiyana?oldid=4007961"
+    },
+    {
+      "id": "wiki:terrashape",
+      "locator": "Terrashape",
+      "provider": "league_wiki",
+      "sha256": "652e825d6e7ef7e4905fb0f311905cb6dd5592a8696c3dae2151b6496bea5be9",
+      "text": "Terrashape\nCOST:\n25 / 30 / 35 / 40 / 45 Mana\nCOOLDOWN:\n7\nCAST TIME:\nnone\nTARGET RANGE:\n1100\nEFFECT RADIUS:\n366\nSPEED:\n440 + 100% movement speed\nPassive: While holding an Element, Qiyana gains bonus attack speed and attack range, as well as bonus magic damage on her basic attacks and basic abilities. Qiyana gains bonus movement speed speed while moving near the current Element. Active: Qiyana dashes in the target direction to gather the Element of the nearest Brush, River or Terrain she targeted.\nPassive: While holding an Element, Qiyana gains bonus attack speed, 25 bonus attack range and bonus magic damage on her basic attacks on-hit and basic abilities. While out-of-combat and moving near the Element currently being held, she gains bonus movement speed.\nBonus Attack Speed:15 / 20 / 25 / 30 / 35%\nBonus Magic Damage:8 / 16 / 24 / 32 / 40 (+ 20% bonus AD) (+ 45% AP)\nBonus Movement Speed:3 / 5 / 7 / 9 / 11%\nActive: Qiyana dashes up to 300 units towards the target location to gather the Element of the nearest Brush, River or Terrain she targeted.\nA target Element is required to cast this ability.\nOnce Terrashape has been learned, Qiyana is automatically given the Terrain element upon respawning.\nQiyana can cast any of her abilities during the dash.\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nTarget at maximum range (clamped)\nAffects\nSelf\nDamage classification\nType\nProc damage\nSub-type(s)\nMagic\nCounters\nParries\nMissing\nGrounded\nDisabled\nKnockdown\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nTerrashape has no minimum dash range.\nTerrashape does not interact with player-generated terrain.\nThe water puddles formed by the Ocean Rift on Summoner's Rift count as valid terrain for obtaining the River element.\nThe brushes grown by Ivern's Brushmaker count for gathering the Brush element.\nPassive bonus damage from basic attacks can be blocked.\nPENDING FOR TEST:: Passive bonus damage interaction with parrying effects ( dodge, blind).",
+      "url": "https://wiki.leagueoflegends.com/en-us/Qiyana?oldid=4007961"
+    },
+    {
+      "id": "wiki:audacity",
+      "locator": "Audacity",
+      "provider": "league_wiki",
+      "sha256": "652e825d6e7ef7e4905fb0f311905cb6dd5592a8696c3dae2151b6496bea5be9",
+      "text": "Audacity\nCOST:\n40 / 45 / 50 / 55 / 60 mana\nCOOLDOWN:\n11 / 10 / 9 / 8 / 7\nCAST TIME:\nnone\nTARGET RANGE:\n650\nSPEED:\n600 + 100% movement speed\nActive: Qiyana dashes toward the target enemy and deals physical damage upon arrival.\nActive: Qiyana dashes a fixed distance in the direction of the target enemy. If they are in range upon arrival, she deals physical damage.\nPhysical Damage:50 / 90 / 130 / 170 / 210 (+ 50% bonus AD)\nQiyana can cast any of her abilities during the dash.\nNotes/General Details\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies, Self\nDamage classification\nType\nAbility damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nGrounded\nDisabled\nKnockdown\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nAudacity only damages targets if within 250 range upon completion of the dash.\nQiyana will automatically be ordered to acquire and attack Audacity's target as soon as the dash completes.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Qiyana?oldid=4007961"
+    },
+    {
+      "id": "wiki:supremedisplayoftalent",
+      "locator": "Supreme_Display_of_Talent",
+      "provider": "league_wiki",
+      "sha256": "652e825d6e7ef7e4905fb0f311905cb6dd5592a8696c3dae2151b6496bea5be9",
+      "text": "Supreme Display of Talent\nCOST:\n100 mana\nCOOLDOWN:\n120\nCAST TIME:\n0.25\nTARGET RANGE:\n875\nEFFECT RADIUS:\n11000\nWIDTH:\n280 • 120\nSPEED:\n2000 • 2840\nActive: Qiyana sweeps a windblast in the target direction that knocks back enemies hit and stops upon hitting Terrain. The windblast creates a cascading shockwave across any River or Brush it passes, as well as around the borders of Terrain it hits. The shockwave briefly stuns enemies hit and deals physical damage based on their maximum health.\nActive: Qiyana sweeps a windblast in the target direction that knocks back enemies hit by 375 units, though not through terrain, and stops upon hitting Terrain.\nThe windblast creates a cascading shockwave across any River or Brush it passes through, as well as around the borders of Terrain it reaches, dealing physical damage to enemies hit, stunning them for 0.5 – 1 (based on proximity) seconds, and briefly granting sight of the area along its path. The damage based on the target's health ratio is capped against monsters.\nPhysical Damage:100 / 200 / 300 (+ 125% bonus AD) (+ 10% of target's maximum health)\nCapped Monster Health Damage:500 / 750 / 1000 (+ 125% bonus AD)\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies, Terrain\nDamage classification\nType\nArea damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nProjectile\nSee Notes\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe windblast needs only to reach near terrain to trigger the terrain shockwave.\nThe shockwave grants sight along each part of its path for 0.75 seconds.\nArtificial terrain (e.g, Anivia's Crystallize, Taliyah's Weaver's Wall, Trundle's Pillar of Ice) touching map terrain will be treated as a single piece of terrain, even when bridging two pieces of map terrain together; the shockwave will wrap around all connecting terrain. The shockwave's path is determined once it initially spreads; any expired terrain will be treated as if it were still there.\nProjectile-intercepting effects will block the windblast but not the shockwave.\nThis ability will cast from wherever the caster is at the end of the cast time.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Qiyana?oldid=4007961"
+    }
+  ],
+  "findings": [
+    {
+      "code": "adaptive_kit_structure",
+      "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+    }
+  ],
+  "kit_sections": [
+    {
+      "anchor": "Royal_Privilege",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Royal_Privilege.png?06027",
+      "id": "wiki:royalprivilege",
+      "name": "Royal Privilege"
+    },
+    {
+      "anchor": "Edge_of_Ixtal",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Edge_of_Ixtal.png?62a53",
+      "id": "wiki:edgeofixtal",
+      "name": "Edge of Ixtal"
+    },
+    {
+      "anchor": "Elemental_Wrath",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Elemental_Wrath.gif?71c4e",
+      "id": "wiki:elementalwrath",
+      "name": "Elemental Wrath"
+    },
+    {
+      "anchor": "Terrashape",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Terrashape.png?8eea8",
+      "id": "wiki:terrashape",
+      "name": "Terrashape"
+    },
+    {
+      "anchor": "Audacity",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Audacity.png?efe7e",
+      "id": "wiki:audacity",
+      "name": "Audacity"
+    },
+    {
+      "anchor": "Supreme_Display_of_Talent",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Qiyana_Supreme_Display_of_Talent.png?df9fc",
+      "id": "wiki:supremedisplayoftalent",
+      "name": "Supreme Display of Talent"
+    }
+  ],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "media_catalog": [
+    {
+      "filename": "qiyana_e.png",
+      "id": "cd:qiyanaepng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/hud/icons2d/qiyana_e.png"
+    },
+    {
+      "filename": "qiyana_passive.png",
+      "id": "cd:qiyanapassivepng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/hud/icons2d/qiyana_passive.png"
+    },
+    {
+      "filename": "qiyana_q2_red.png",
+      "id": "cd:qiyanaq2redpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/hud/icons2d/qiyana_q2_red.png"
+    },
+    {
+      "filename": "qiyana_r.png",
+      "id": "cd:qiyanarpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/hud/icons2d/qiyana_r.png"
+    },
+    {
+      "filename": "qiyana_w.png",
+      "id": "cd:qiyanawpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/hud/icons2d/qiyana_w.png"
+    }
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 13352,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T18:36:29.735846+00:00",
+      "sha256": "0fda43c3b0f67e02233deabb35376b25dec6aa173960b1d825fe07795eafc7fd",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Qiyana.json"
+    },
+    {
+      "bytes": 46543,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T18:36:29.884235+00:00",
+      "sha256": "16365b7e1d95611d92d40c1815fbaacf38fc12ea0fa9a44d3b6a3205ad570023",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/246.json"
+    },
+    {
+      "bytes": 170520,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T18:36:30.520135+00:00",
+      "sha256": "6bb3f7beccf742311e670c62382ec33635e11f9e35cb9e4544bd16fe7d941ce1",
+      "url": "https://www.leagueoflegends.com/en-us/champions/qiyana/"
+    },
+    {
+      "bytes": 789885,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T18:36:30.733618+00:00",
+      "sha256": "652e825d6e7ef7e4905fb0f311905cb6dd5592a8696c3dae2151b6496bea5be9",
+      "url": "https://wiki.leagueoflegends.com/en-us/Qiyana"
+    },
+    {
+      "bytes": 8478,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T18:36:31.131628+00:00",
+      "sha256": "8b0c9d07c7772e35589771f05f49b501ca68c36cc3186dc96895d28b3c5de015",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/hud/icons2d/"
+    }
+  ],
+  "schema_version": 2,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4007961"
+  }
+}

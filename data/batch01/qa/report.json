@@ -1,0 +1,2031 @@
+{
+  "approved_additions": 36,
+  "asset_validation_summary": {
+    "audio_note": "Some original WebMs emit Opus header diagnostics. GIFs contain video only; every emitted GIF frame was decoded successfully.",
+    "files": 94,
+    "gif_files_fully_decoded": 28,
+    "image_files_fully_decoded": 64,
+    "source_video_files": 30
+  },
+  "batch": "01",
+  "candidate_additions": 36,
+  "cards": [
+    {
+      "champion": "Caitlyn",
+      "changes_from_draft": {
+        "counterplay": "Avoid armed traps and sidestep her shots. An allied champion can intercept her ultimate shot."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:caitlyn:overview:L1",
+      "level": "L1",
+      "manual_visual_review": null,
+      "media": [
+        {
+          "bytes": 171642,
+          "path": "media/champions/caitlyn_portrait.jpg",
+          "sha256": "3e164b540b074edd792f4444ab1efe6d887143260a24fd99681e95a982e659cc",
+          "source_sha256": "3e164b540b074edd792f4444ab1efe6d887143260a24fd99681e95a982e659cc",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
+          "transform": null
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "2696c5f856eb628b71aafc76b1c96d7acf68775930adc89c4754b06d9086f7b3",
+      "slot": "-",
+      "unresolved_sources": [],
+      "wiki_revision": "4052265",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Caitlyn?oldid=4052265",
+      "wiki_snapshot_sha256": "1933360fed28032b6a7e8794aff9b22f5c7fded9741a272be5dc330625b527ee"
+    },
+    {
+      "champion": "Caitlyn",
+      "changes_from_draft": {
+        "answer": "Caitlyn's basic attacks periodically fire an empowered Headshot for bonus physical damage. Trapped or netted enemies can also be hit by a special, longer-range Headshot."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:caitlyn:p:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Check Headshot readiness indicator and trap/net targeting cues in the current client, at normal card size and with relevant skins.",
+      "media": [
+        {
+          "bytes": 6084,
+          "path": "media/abilities/caitlyn_p_icon.png",
+          "sha256": "a2d7a6a2d69d504f3e437c681ab64766742bec95d25f26267c0a4dca9bd8e30d",
+          "source_sha256": "a2d7a6a2d69d504f3e437c681ab64766742bec95d25f26267c0a4dca9bd8e30d",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Caitlyn_Headshot.png",
+          "transform": null
+        },
+        {
+          "bytes": 1477802,
+          "path": "media/videos/caitlyn_p.webm",
+          "sha256": "40e3d13ac0ce111f94c69ee7e98bda27d8f067f6a18fd159ea2e799eda14e151",
+          "source_sha256": "40e3d13ac0ce111f94c69ee7e98bda27d8f067f6a18fd159ea2e799eda14e151",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_P1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 754996,
+          "path": "media/gifs/caitlyn_p.gif",
+          "sha256": "77fedc961209beb92ca91c41e1ad3d8cbb6e0b2f6dc6a019f22e42ac4ec1051e",
+          "source_sha256": "40e3d13ac0ce111f94c69ee7e98bda27d8f067f6a18fd159ea2e799eda14e151",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_P1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "40e3d13ac0ce111f94c69ee7e98bda27d8f067f6a18fd159ea2e799eda14e151"
+            },
+            "sha256": "77fedc961209beb92ca91c41e1ad3d8cbb6e0b2f6dc6a019f22e42ac4ec1051e",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": {
+        "description": "The demonstration shows her rifle attack sequence and an empowered Headshot.",
+        "include": true,
+        "manual_follow_up": "Check Headshot readiness indicator and trap/net targeting cues in the current client, at normal card size and with relevant skins.",
+        "observation": "Official P clip inspected as a sequence, not inferred from the icon. Specific ready-state weapon glow and enemy-perspective readability are not confirmed."
+      },
+      "riot_snapshot_sha256": "2696c5f856eb628b71aafc76b1c96d7acf68775930adc89c4754b06d9086f7b3",
+      "slot": "P",
+      "unresolved_sources": [],
+      "wiki_revision": "4052265",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Caitlyn?oldid=4052265",
+      "wiki_snapshot_sha256": "1933360fed28032b6a7e8794aff9b22f5c7fded9741a272be5dc330625b527ee"
+    },
+    {
+      "champion": "Caitlyn",
+      "changes_from_draft": {
+        "answer": "Caitlyn fires a piercing rifle shot that deals physical damage. It deals less damage after the first target, except against enemies revealed by her traps.",
+        "counterplay": "Sidestep the shot and avoid stepping on traps that empower her follow-up."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:caitlyn:q:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6402,
+          "path": "media/abilities/caitlyn_q_icon.png",
+          "sha256": "73da31bff40a466ac1c4c509cb73423409198363232b8e03a3b4ada6eef7137e",
+          "source_sha256": "73da31bff40a466ac1c4c509cb73423409198363232b8e03a3b4ada6eef7137e",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/CaitlynQ.png",
+          "transform": null
+        },
+        {
+          "bytes": 901690,
+          "path": "media/videos/caitlyn_q.webm",
+          "sha256": "dd52eb96ce1350234c89678ddd8af2a9c71702d467e9d021f13d818f872b4c6b",
+          "source_sha256": "dd52eb96ce1350234c89678ddd8af2a9c71702d467e9d021f13d818f872b4c6b",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_Q1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 392812,
+          "path": "media/gifs/caitlyn_q.gif",
+          "sha256": "49dae11cc508b4c959f35d6faf61012bd4f7f07fd77bea0e1dfab271a9eea869",
+          "source_sha256": "dd52eb96ce1350234c89678ddd8af2a9c71702d467e9d021f13d818f872b4c6b",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_Q1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "dd52eb96ce1350234c89678ddd8af2a9c71702d467e9d021f13d818f872b4c6b"
+            },
+            "sha256": "49dae11cc508b4c959f35d6faf61012bd4f7f07fd77bea0e1dfab271a9eea869",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "2696c5f856eb628b71aafc76b1c96d7acf68775930adc89c4754b06d9086f7b3",
+      "slot": "Q",
+      "unresolved_sources": [],
+      "wiki_revision": "4052265",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Caitlyn?oldid=4052265",
+      "wiki_snapshot_sha256": "1933360fed28032b6a7e8794aff9b22f5c7fded9741a272be5dc330625b527ee"
+    },
+    {
+      "champion": "Caitlyn",
+      "changes_from_draft": {
+        "answer": "Caitlyn places a trap that arms after a short delay. An enemy champion who steps on it is rooted and revealed, enabling a powerful long-range Headshot."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:caitlyn:w:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6680,
+          "path": "media/abilities/caitlyn_w_icon.png",
+          "sha256": "b10f1c40d626530df0e037955be03bfd11091c3a184f6b8a5a9c15cf8267bf64",
+          "source_sha256": "b10f1c40d626530df0e037955be03bfd11091c3a184f6b8a5a9c15cf8267bf64",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/CaitlynW.png",
+          "transform": null
+        },
+        {
+          "bytes": 1413428,
+          "path": "media/videos/caitlyn_w.webm",
+          "sha256": "775e1fbf83395f136fbea370002c9bd95371de35bc868670db888cc0f00dd80e",
+          "source_sha256": "775e1fbf83395f136fbea370002c9bd95371de35bc868670db888cc0f00dd80e",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_W1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 564726,
+          "path": "media/gifs/caitlyn_w.gif",
+          "sha256": "2e0760d69400458fbe92a8887206e829d3800495da4b650548425a4be229b475",
+          "source_sha256": "775e1fbf83395f136fbea370002c9bd95371de35bc868670db888cc0f00dd80e",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_W1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "775e1fbf83395f136fbea370002c9bd95371de35bc868670db888cc0f00dd80e"
+            },
+            "sha256": "2e0760d69400458fbe92a8887206e829d3800495da4b650548425a4be229b475",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "2696c5f856eb628b71aafc76b1c96d7acf68775930adc89c4754b06d9086f7b3",
+      "slot": "W",
+      "unresolved_sources": [],
+      "wiki_revision": "4052265",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Caitlyn?oldid=4052265",
+      "wiki_snapshot_sha256": "1933360fed28032b6a7e8794aff9b22f5c7fded9741a272be5dc330625b527ee"
+    },
+    {
+      "champion": "Caitlyn",
+      "changes_from_draft": {
+        "answer": "Caitlyn fires a net that deals magic damage and slows the first enemy hit. The recoil pushes her backward."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:caitlyn:e:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6246,
+          "path": "media/abilities/caitlyn_e_icon.png",
+          "sha256": "55c19ff9a6f43506398af9b12a10b2d208838e63ee55479d8a4880cb6f04ac9c",
+          "source_sha256": "55c19ff9a6f43506398af9b12a10b2d208838e63ee55479d8a4880cb6f04ac9c",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/CaitlynE.png",
+          "transform": null
+        },
+        {
+          "bytes": 1001567,
+          "path": "media/videos/caitlyn_e.webm",
+          "sha256": "a69aefe61cf4bfc0b722d3d31a9e7f4187f877e5c3a5d319d2d7ef43e3f731e4",
+          "source_sha256": "a69aefe61cf4bfc0b722d3d31a9e7f4187f877e5c3a5d319d2d7ef43e3f731e4",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_E1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 355709,
+          "path": "media/gifs/caitlyn_e.gif",
+          "sha256": "560f13c2ef3af78f7392da462923a0938e005c575aad428d426ac7a535b9ceac",
+          "source_sha256": "a69aefe61cf4bfc0b722d3d31a9e7f4187f877e5c3a5d319d2d7ef43e3f731e4",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_E1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "a69aefe61cf4bfc0b722d3d31a9e7f4187f877e5c3a5d319d2d7ef43e3f731e4"
+            },
+            "sha256": "560f13c2ef3af78f7392da462923a0938e005c575aad428d426ac7a535b9ceac",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "2696c5f856eb628b71aafc76b1c96d7acf68775930adc89c4754b06d9086f7b3",
+      "slot": "E",
+      "unresolved_sources": [],
+      "wiki_revision": "4052265",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Caitlyn?oldid=4052265",
+      "wiki_snapshot_sha256": "1933360fed28032b6a7e8794aff9b22f5c7fded9741a272be5dc330625b527ee"
+    },
+    {
+      "champion": "Caitlyn",
+      "changes_from_draft": {
+        "answer": "Caitlyn targets an enemy champion from long range, channels, then fires a powerful shot that deals physical damage. Another enemy champion can intercept the bullet."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:caitlyn:r:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 5882,
+          "path": "media/abilities/caitlyn_r_icon.png",
+          "sha256": "e1d7ce1c3581c46a828507e74624661b6d8ecaf7bceb112f02102e1273864a89",
+          "source_sha256": "e1d7ce1c3581c46a828507e74624661b6d8ecaf7bceb112f02102e1273864a89",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/CaitlynR.png",
+          "transform": null
+        },
+        {
+          "bytes": 1098072,
+          "path": "media/videos/caitlyn_r.webm",
+          "sha256": "c58739c4764bd8a4cb18c25f47dfa914b9afda8f0565d8d779181b62be7cba11",
+          "source_sha256": "c58739c4764bd8a4cb18c25f47dfa914b9afda8f0565d8d779181b62be7cba11",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_R1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 397214,
+          "path": "media/gifs/caitlyn_r.gif",
+          "sha256": "a99b0997b2f606c0ce9530bab9be601ee74ebc15f7361541a71bc33411dcbe63",
+          "source_sha256": "c58739c4764bd8a4cb18c25f47dfa914b9afda8f0565d8d779181b62be7cba11",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_R1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "c58739c4764bd8a4cb18c25f47dfa914b9afda8f0565d8d779181b62be7cba11"
+            },
+            "sha256": "a99b0997b2f606c0ce9530bab9be601ee74ebc15f7361541a71bc33411dcbe63",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "2696c5f856eb628b71aafc76b1c96d7acf68775930adc89c4754b06d9086f7b3",
+      "slot": "R",
+      "unresolved_sources": [],
+      "wiki_revision": "4052265",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Caitlyn?oldid=4052265",
+      "wiki_snapshot_sha256": "1933360fed28032b6a7e8794aff9b22f5c7fded9741a272be5dc330625b527ee"
+    },
+    {
+      "champion": "Ashe",
+      "changes_from_draft": {
+        "counterplay": "Sidestep her arrow and avoid a long chase while her attacks keep slowing you."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [
+        {
+          "champion": "Ashe",
+          "issue": "Riot describes increased damage against Frost-affected targets; archived Wiki revision describes bonus attack damage from critical-strike chance independently of that condition.",
+          "resolution": "Omit the disputed bonus-damage condition; retain the mutually supported slow and critical-slow behavior. No damage formula or unsupported condition exported.",
+          "slot": "P"
+        }
+      ],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:ashe:overview:L1",
+      "level": "L1",
+      "manual_visual_review": null,
+      "media": [
+        {
+          "bytes": 155309,
+          "path": "media/champions/ashe_portrait.jpg",
+          "sha256": "2c8ca3fcf121d7c8fe88bfe88f07062ee3a7bbc44674e95e0105d9bacdc09035",
+          "source_sha256": "2c8ca3fcf121d7c8fe88bfe88f07062ee3a7bbc44674e95e0105d9bacdc09035",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+          "transform": null
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "0b5a11a15c10b03acdda77fed6d3fe9305c23112ac28ee4de80840fbb3b1f5ea",
+      "slot": "-",
+      "unresolved_sources": [],
+      "wiki_revision": "4015971",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Ashe?oldid=4015971",
+      "wiki_snapshot_sha256": "91f5da04fee61823a618ac564a4ac33491f2dda95abd87d61269abdfdb0cc50a"
+    },
+    {
+      "champion": "Ashe",
+      "changes_from_draft": {
+        "answer": "Ashe's basic attacks slow their targets. Critical strikes strengthen the slow instead of adding normal critical bonus damage."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [
+        {
+          "champion": "Ashe",
+          "issue": "Riot describes increased damage against Frost-affected targets; archived Wiki revision describes bonus attack damage from critical-strike chance independently of that condition.",
+          "resolution": "Omit the disputed bonus-damage condition; retain the mutually supported slow and critical-slow behavior. No damage formula or unsupported condition exported.",
+          "slot": "P"
+        }
+      ],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:ashe:p:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Check slow readability from the opponent's perspective and on different skins.",
+      "media": [
+        {
+          "bytes": 6172,
+          "path": "media/abilities/ashe_p_icon.png",
+          "sha256": "a7f3fb4c9750c5ea46330d16394a2001290e56b6d709f8bd033d4e8b59713bb3",
+          "source_sha256": "a7f3fb4c9750c5ea46330d16394a2001290e56b6d709f8bd033d4e8b59713bb3",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Ashe_P.png",
+          "transform": null
+        },
+        {
+          "bytes": 2402285,
+          "path": "media/videos/ashe_p.webm",
+          "sha256": "346d85cffaf0cb78c9b5da7b711a1edc4191884b3208d1baf37eabb41a5073c3",
+          "source_sha256": "346d85cffaf0cb78c9b5da7b711a1edc4191884b3208d1baf37eabb41a5073c3",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_P1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 1034768,
+          "path": "media/gifs/ashe_p.gif",
+          "sha256": "a0dc027e0f16c7843a9a392dec89406a32751a636aea9fd80dc338f8e2e59eec",
+          "source_sha256": "346d85cffaf0cb78c9b5da7b711a1edc4191884b3208d1baf37eabb41a5073c3",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_P1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "346d85cffaf0cb78c9b5da7b711a1edc4191884b3208d1baf37eabb41a5073c3"
+            },
+            "sha256": "a0dc027e0f16c7843a9a392dec89406a32751a636aea9fd80dc338f8e2e59eec",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": {
+        "description": "Watch the frosted target and its movement after Ashe's attacks.",
+        "include": true,
+        "manual_follow_up": "Check slow readability from the opponent's perspective and on different skins.",
+        "observation": "Official P frames show a frosted target following basic attacks; helps associate slow behavior with the passive."
+      },
+      "riot_snapshot_sha256": "0b5a11a15c10b03acdda77fed6d3fe9305c23112ac28ee4de80840fbb3b1f5ea",
+      "slot": "P",
+      "unresolved_sources": [],
+      "wiki_revision": "4015971",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Ashe?oldid=4015971",
+      "wiki_snapshot_sha256": "91f5da04fee61823a618ac564a4ac33491f2dda95abd87d61269abdfdb0cc50a"
+    },
+    {
+      "champion": "Ashe",
+      "changes_from_draft": {},
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:ashe:q:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6683,
+          "path": "media/abilities/ashe_q_icon.png",
+          "sha256": "ceb72f8ca8ef01c5ea8249599f956c5f5fa7eb5a41e69b9bfb3b994ba1abd6b4",
+          "source_sha256": "ceb72f8ca8ef01c5ea8249599f956c5f5fa7eb5a41e69b9bfb3b994ba1abd6b4",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/AsheQ.png",
+          "transform": null
+        },
+        {
+          "bytes": 2732953,
+          "path": "media/videos/ashe_q.webm",
+          "sha256": "4313b537dc524d0c45f92823440fa4608cc7f855044f3ad9dd5aeb51da9686e3",
+          "source_sha256": "4313b537dc524d0c45f92823440fa4608cc7f855044f3ad9dd5aeb51da9686e3",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_Q1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 1015310,
+          "path": "media/gifs/ashe_q.gif",
+          "sha256": "d6bb475d6ac63d6ed21be58e018a401edf67360846a87e1c81195e4095a1c15e",
+          "source_sha256": "4313b537dc524d0c45f92823440fa4608cc7f855044f3ad9dd5aeb51da9686e3",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_Q1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "4313b537dc524d0c45f92823440fa4608cc7f855044f3ad9dd5aeb51da9686e3"
+            },
+            "sha256": "d6bb475d6ac63d6ed21be58e018a401edf67360846a87e1c81195e4095a1c15e",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "0b5a11a15c10b03acdda77fed6d3fe9305c23112ac28ee4de80840fbb3b1f5ea",
+      "slot": "Q",
+      "unresolved_sources": [],
+      "wiki_revision": "4015971",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Ashe?oldid=4015971",
+      "wiki_snapshot_sha256": "91f5da04fee61823a618ac564a4ac33491f2dda95abd87d61269abdfdb0cc50a"
+    },
+    {
+      "champion": "Ashe",
+      "changes_from_draft": {},
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:ashe:w:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6241,
+          "path": "media/abilities/ashe_w_icon.png",
+          "sha256": "30e0daa99574f031aec984ac0bf27c0283e24b59d923276af8e9cb0e30c59a95",
+          "source_sha256": "30e0daa99574f031aec984ac0bf27c0283e24b59d923276af8e9cb0e30c59a95",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/Volley.png",
+          "transform": null
+        },
+        {
+          "bytes": 870260,
+          "path": "media/videos/ashe_w.webm",
+          "sha256": "1318d2009114716673752369dbbb11d0b859c248016cfd7a05ca3d960357652b",
+          "source_sha256": "1318d2009114716673752369dbbb11d0b859c248016cfd7a05ca3d960357652b",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_W1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 397432,
+          "path": "media/gifs/ashe_w.gif",
+          "sha256": "84bf2e920dd46f7b666453cec4524b60624e12404757d573a41d212d3008f7bd",
+          "source_sha256": "1318d2009114716673752369dbbb11d0b859c248016cfd7a05ca3d960357652b",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_W1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "1318d2009114716673752369dbbb11d0b859c248016cfd7a05ca3d960357652b"
+            },
+            "sha256": "84bf2e920dd46f7b666453cec4524b60624e12404757d573a41d212d3008f7bd",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "0b5a11a15c10b03acdda77fed6d3fe9305c23112ac28ee4de80840fbb3b1f5ea",
+      "slot": "W",
+      "unresolved_sources": [],
+      "wiki_revision": "4015971",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Ashe?oldid=4015971",
+      "wiki_snapshot_sha256": "91f5da04fee61823a618ac564a4ac33491f2dda95abd87d61269abdfdb0cc50a"
+    },
+    {
+      "champion": "Ashe",
+      "changes_from_draft": {
+        "answer": "Ashe sends a scouting hawk across the map, granting vision along its path and around its destination.",
+        "counterplay": "Assume your route may have been spotted when the hawk passes over it."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:ashe:e:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 5806,
+          "path": "media/abilities/ashe_e_icon.png",
+          "sha256": "94e8e9dd059f9d8615d02da2d6d3430fa20afc938a4baba66a6cfc91d9646506",
+          "source_sha256": "94e8e9dd059f9d8615d02da2d6d3430fa20afc938a4baba66a6cfc91d9646506",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/AsheSpiritOfTheHawk.png",
+          "transform": null
+        },
+        {
+          "bytes": 1332467,
+          "path": "media/videos/ashe_e.webm",
+          "sha256": "99e01bbbe320c1c5024024966fb3249ab5f66d78d7d7536c181ec3ed457b9a52",
+          "source_sha256": "99e01bbbe320c1c5024024966fb3249ab5f66d78d7d7536c181ec3ed457b9a52",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_E1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 698059,
+          "path": "media/gifs/ashe_e.gif",
+          "sha256": "b9df6e63d53c5e766af57261313b1f29df259f065941546362d1ac001320ed49",
+          "source_sha256": "99e01bbbe320c1c5024024966fb3249ab5f66d78d7d7536c181ec3ed457b9a52",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_E1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "99e01bbbe320c1c5024024966fb3249ab5f66d78d7d7536c181ec3ed457b9a52"
+            },
+            "sha256": "b9df6e63d53c5e766af57261313b1f29df259f065941546362d1ac001320ed49",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "0b5a11a15c10b03acdda77fed6d3fe9305c23112ac28ee4de80840fbb3b1f5ea",
+      "slot": "E",
+      "unresolved_sources": [],
+      "wiki_revision": "4015971",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Ashe?oldid=4015971",
+      "wiki_snapshot_sha256": "91f5da04fee61823a618ac564a4ac33491f2dda95abd87d61269abdfdb0cc50a"
+    },
+    {
+      "champion": "Ashe",
+      "changes_from_draft": {
+        "answer": "Ashe fires a global ice arrow. The first enemy champion hit takes magic damage and is stunned, for longer at greater travel distance. Nearby enemies are slowed."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:ashe:r:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6449,
+          "path": "media/abilities/ashe_r_icon.png",
+          "sha256": "c26d0583a45c36b3a18b118d92ae1ae3534dae529a052d7c1fa41a9ea613f038",
+          "source_sha256": "c26d0583a45c36b3a18b118d92ae1ae3534dae529a052d7c1fa41a9ea613f038",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/EnchantedCrystalArrow.png",
+          "transform": null
+        },
+        {
+          "bytes": 1270016,
+          "path": "media/videos/ashe_r.webm",
+          "sha256": "ad9f27f469dc4149ae6a2ffa83a9301b16906a8256eddadecf86608fa9dfbd43",
+          "source_sha256": "ad9f27f469dc4149ae6a2ffa83a9301b16906a8256eddadecf86608fa9dfbd43",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_R1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 537306,
+          "path": "media/gifs/ashe_r.gif",
+          "sha256": "e3f8e90672d0e6f0006e2fd002cdcac8f9b6ef073968d490d775a0a1df52f64f",
+          "source_sha256": "ad9f27f469dc4149ae6a2ffa83a9301b16906a8256eddadecf86608fa9dfbd43",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_R1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "ad9f27f469dc4149ae6a2ffa83a9301b16906a8256eddadecf86608fa9dfbd43"
+            },
+            "sha256": "e3f8e90672d0e6f0006e2fd002cdcac8f9b6ef073968d490d775a0a1df52f64f",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "0b5a11a15c10b03acdda77fed6d3fe9305c23112ac28ee4de80840fbb3b1f5ea",
+      "slot": "R",
+      "unresolved_sources": [],
+      "wiki_revision": "4015971",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Ashe?oldid=4015971",
+      "wiki_snapshot_sha256": "91f5da04fee61823a618ac564a4ac33491f2dda95abd87d61269abdfdb0cc50a"
+    },
+    {
+      "champion": "Jinx",
+      "changes_from_draft": {},
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:jinx:overview:L1",
+      "level": "L1",
+      "manual_visual_review": null,
+      "media": [
+        {
+          "bytes": 161141,
+          "path": "media/champions/jinx_portrait.jpg",
+          "sha256": "95e7c9c71438f78e18b146aec29f7c8c183a24e01c42b00619e15daa0954f63a",
+          "source_sha256": "95e7c9c71438f78e18b146aec29f7c8c183a24e01c42b00619e15daa0954f63a",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+          "transform": null
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "d1fe9bbad71b9272e5e3f8fddb410c8abb2d1ac871e84d236c9ccb43d4830670",
+      "slot": "-",
+      "unresolved_sources": [],
+      "wiki_revision": "4081710",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Jinx?oldid=4081710",
+      "wiki_snapshot_sha256": "dc96a21ba7d0daad2fa28036ab20267451c4106ebab0a30176fa4408275b7932"
+    },
+    {
+      "champion": "Jinx",
+      "changes_from_draft": {
+        "answer": "Jinx gains a burst of movement speed and attack speed when an enemy champion, epic monster, turret, or inhibitor is taken down shortly after she damages it."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:jinx:p:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Check the current-client Get Excited! effect and visibility during crowded fights.",
+      "media": [
+        {
+          "bytes": 6895,
+          "path": "media/abilities/jinx_p_icon.png",
+          "sha256": "e28c1531f687dd71fe1291438041199b0e7ab1aecdbfeab35a8e4b6c49b03a5e",
+          "source_sha256": "e28c1531f687dd71fe1291438041199b0e7ab1aecdbfeab35a8e4b6c49b03a5e",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Jinx_Passive.png",
+          "transform": null
+        },
+        {
+          "bytes": 5998683,
+          "path": "media/videos/jinx_p.webm",
+          "sha256": "c902a0ae3238db5be38d330e7823aa85c81b660a370f2a78f52d100395d142ba",
+          "source_sha256": "c902a0ae3238db5be38d330e7823aa85c81b660a370f2a78f52d100395d142ba",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_P1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 1547553,
+          "path": "media/gifs/jinx_p.gif",
+          "sha256": "2536fa5432d124e3f84fe23a7fcd223ba00e4527eeb02a98c1ac55831d70bd88",
+          "source_sha256": "c902a0ae3238db5be38d330e7823aa85c81b660a370f2a78f52d100395d142ba",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_P1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "c902a0ae3238db5be38d330e7823aa85c81b660a370f2a78f52d100395d142ba"
+            },
+            "sha256": "2536fa5432d124e3f84fe23a7fcd223ba00e4527eeb02a98c1ac55831d70bd88",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": {
+        "description": "After the takedown, watch Jinx's sudden burst of running speed.",
+        "include": true,
+        "manual_follow_up": "Check the current-client Get Excited! effect and visibility during crowded fights.",
+        "observation": "Official P clip shows a takedown followed by Jinx's accelerated movement."
+      },
+      "riot_snapshot_sha256": "d1fe9bbad71b9272e5e3f8fddb410c8abb2d1ac871e84d236c9ccb43d4830670",
+      "slot": "P",
+      "unresolved_sources": [],
+      "wiki_revision": "4081710",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Jinx?oldid=4081710",
+      "wiki_snapshot_sha256": "dc96a21ba7d0daad2fa28036ab20267451c4106ebab0a30176fa4408275b7932"
+    },
+    {
+      "champion": "Jinx",
+      "changes_from_draft": {},
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:jinx:q:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6119,
+          "path": "media/abilities/jinx_q_icon.png",
+          "sha256": "b4c5dbaeab9e4ce748fef266ff1ace958f89021ddd1e9cd1eb3253c360360860",
+          "source_sha256": "b4c5dbaeab9e4ce748fef266ff1ace958f89021ddd1e9cd1eb3253c360360860",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/JinxQ.png",
+          "transform": null
+        },
+        {
+          "bytes": 5735211,
+          "path": "media/videos/jinx_q.webm",
+          "sha256": "f51554e1edcb882f162747483577555083a29d217bd6e131743c75aff9ede90a",
+          "source_sha256": "f51554e1edcb882f162747483577555083a29d217bd6e131743c75aff9ede90a",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_Q1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 1613756,
+          "path": "media/gifs/jinx_q.gif",
+          "sha256": "14f68604df87f418cb4028e3423c5f98d859150be0b8c9fb4b839d9096c5c360",
+          "source_sha256": "f51554e1edcb882f162747483577555083a29d217bd6e131743c75aff9ede90a",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_Q1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "f51554e1edcb882f162747483577555083a29d217bd6e131743c75aff9ede90a"
+            },
+            "sha256": "14f68604df87f418cb4028e3423c5f98d859150be0b8c9fb4b839d9096c5c360",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "d1fe9bbad71b9272e5e3f8fddb410c8abb2d1ac871e84d236c9ccb43d4830670",
+      "slot": "Q",
+      "unresolved_sources": [],
+      "wiki_revision": "4081710",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Jinx?oldid=4081710",
+      "wiki_snapshot_sha256": "dc96a21ba7d0daad2fa28036ab20267451c4106ebab0a30176fa4408275b7932"
+    },
+    {
+      "champion": "Jinx",
+      "changes_from_draft": {
+        "answer": "Jinx fires a long straight-line shot after a windup, dealing physical damage, slowing, and revealing the first enemy hit."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:jinx:w:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 5888,
+          "path": "media/abilities/jinx_w_icon.png",
+          "sha256": "e11f1acde1ff03ad85c25ed7abea990f81eb55249dfcd7c7dd15ab20764a5792",
+          "source_sha256": "e11f1acde1ff03ad85c25ed7abea990f81eb55249dfcd7c7dd15ab20764a5792",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/JinxW.png",
+          "transform": null
+        },
+        {
+          "bytes": 2768173,
+          "path": "media/videos/jinx_w.webm",
+          "sha256": "5282ecaf787c2bf6186501f64b66b41dc34a57ea9b60673342379ce58e352258",
+          "source_sha256": "5282ecaf787c2bf6186501f64b66b41dc34a57ea9b60673342379ce58e352258",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_W1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 668526,
+          "path": "media/gifs/jinx_w.gif",
+          "sha256": "6cbf0c6a59958b6dfb930419aacda944f4e9d4ddfe457f16a4cdbe28847adcb8",
+          "source_sha256": "5282ecaf787c2bf6186501f64b66b41dc34a57ea9b60673342379ce58e352258",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_W1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "5282ecaf787c2bf6186501f64b66b41dc34a57ea9b60673342379ce58e352258"
+            },
+            "sha256": "6cbf0c6a59958b6dfb930419aacda944f4e9d4ddfe457f16a4cdbe28847adcb8",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "d1fe9bbad71b9272e5e3f8fddb410c8abb2d1ac871e84d236c9ccb43d4830670",
+      "slot": "W",
+      "unresolved_sources": [],
+      "wiki_revision": "4081710",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Jinx?oldid=4081710",
+      "wiki_snapshot_sha256": "dc96a21ba7d0daad2fa28036ab20267451c4106ebab0a30176fa4408275b7932"
+    },
+    {
+      "champion": "Jinx",
+      "changes_from_draft": {
+        "answer": "Jinx throws a line of traps that arm after a brief delay. They root enemy champions who step on them and explode for magic damage."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:jinx:e:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 5975,
+          "path": "media/abilities/jinx_e_icon.png",
+          "sha256": "f60e50462865ba244021491628bd6296203e0c3d18bd3f29b4f310a91cf0679c",
+          "source_sha256": "f60e50462865ba244021491628bd6296203e0c3d18bd3f29b4f310a91cf0679c",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/JinxE.png",
+          "transform": null
+        },
+        {
+          "bytes": 3999503,
+          "path": "media/videos/jinx_e.webm",
+          "sha256": "d6722f2bdc067d33eeb752b426cf603a1a16a302b1a99f47244f96db0d7403e7",
+          "source_sha256": "d6722f2bdc067d33eeb752b426cf603a1a16a302b1a99f47244f96db0d7403e7",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_E1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 934587,
+          "path": "media/gifs/jinx_e.gif",
+          "sha256": "d5f359f6852e0c83946c2bf1459f0cc591b39e7bf9ae98ad3d0742a625d63c16",
+          "source_sha256": "d6722f2bdc067d33eeb752b426cf603a1a16a302b1a99f47244f96db0d7403e7",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_E1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "d6722f2bdc067d33eeb752b426cf603a1a16a302b1a99f47244f96db0d7403e7"
+            },
+            "sha256": "d5f359f6852e0c83946c2bf1459f0cc591b39e7bf9ae98ad3d0742a625d63c16",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "d1fe9bbad71b9272e5e3f8fddb410c8abb2d1ac871e84d236c9ccb43d4830670",
+      "slot": "E",
+      "unresolved_sources": [],
+      "wiki_revision": "4081710",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Jinx?oldid=4081710",
+      "wiki_snapshot_sha256": "dc96a21ba7d0daad2fa28036ab20267451c4106ebab0a30176fa4408275b7932"
+    },
+    {
+      "champion": "Jinx",
+      "changes_from_draft": {
+        "answer": "Jinx launches a global rocket that explodes on the first enemy champion hit, dealing physical damage in an area. Damage increases with travel distance and each victim's missing health."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:jinx:r:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6406,
+          "path": "media/abilities/jinx_r_icon.png",
+          "sha256": "629de01b76c60f4974d8959307c1722d1760cf3d170cd75895cb6c24453c81e8",
+          "source_sha256": "629de01b76c60f4974d8959307c1722d1760cf3d170cd75895cb6c24453c81e8",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/JinxR.png",
+          "transform": null
+        },
+        {
+          "bytes": 3628956,
+          "path": "media/videos/jinx_r.webm",
+          "sha256": "6d20986c173004df7caebaf1e4b122375d5d41a72a1accf962bc1ace9889c739",
+          "source_sha256": "6d20986c173004df7caebaf1e4b122375d5d41a72a1accf962bc1ace9889c739",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_R1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 1027389,
+          "path": "media/gifs/jinx_r.gif",
+          "sha256": "b462dfdeb48972f321efd9ee07ea11dfcb070364a95c59f10519788cc1ce592c",
+          "source_sha256": "6d20986c173004df7caebaf1e4b122375d5d41a72a1accf962bc1ace9889c739",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0222/ability_0222_R1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "6d20986c173004df7caebaf1e4b122375d5d41a72a1accf962bc1ace9889c739"
+            },
+            "sha256": "b462dfdeb48972f321efd9ee07ea11dfcb070364a95c59f10519788cc1ce592c",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "d1fe9bbad71b9272e5e3f8fddb410c8abb2d1ac871e84d236c9ccb43d4830670",
+      "slot": "R",
+      "unresolved_sources": [],
+      "wiki_revision": "4081710",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Jinx?oldid=4081710",
+      "wiki_snapshot_sha256": "dc96a21ba7d0daad2fa28036ab20267451c4106ebab0a30176fa4408275b7932"
+    },
+    {
+      "champion": "Leona",
+      "changes_from_draft": {},
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [
+        {
+          "champion": "Leona",
+          "issue": "Riot and Wiki give different Sunlight durations.",
+          "resolution": "No duration is present in the qualitative Batch 01 card. Exact duration remains out of scope and must be independently verified before any L3/timer card.",
+          "slot": "P"
+        }
+      ],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:leona:overview:L1",
+      "level": "L1",
+      "manual_visual_review": null,
+      "media": [
+        {
+          "bytes": 141330,
+          "path": "media/champions/leona_portrait.jpg",
+          "sha256": "ea02ae22bdcd1bd5ea8e8b968117e9c897a4bdc9a9992f971d42a7cccb3a5b63",
+          "source_sha256": "ea02ae22bdcd1bd5ea8e8b968117e9c897a4bdc9a9992f971d42a7cccb3a5b63",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg",
+          "transform": null
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "1545521eafa50cb6bbd2a4441224760bcf13abf8136afc069c71d50752562bb3",
+      "slot": "-",
+      "unresolved_sources": [],
+      "wiki_revision": "3977650",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Leona?oldid=3977650",
+      "wiki_snapshot_sha256": "766f314bfbf037db619956ddc8e950196dafe4deb87d6f1c7b02b93ba326bc3d"
+    },
+    {
+      "champion": "Leona",
+      "changes_from_draft": {},
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [
+        {
+          "champion": "Leona",
+          "issue": "Riot and Wiki give different Sunlight durations.",
+          "resolution": "No duration is present in the qualitative Batch 01 card. Exact duration remains out of scope and must be independently verified before any L3/timer card.",
+          "slot": "P"
+        }
+      ],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:leona:p:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Review Sunlight target mark before/after an ally consumes it; retain champion-labeled passive icon for this release.",
+      "media": [
+        {
+          "bytes": 5740,
+          "path": "media/abilities/leona_p_icon.png",
+          "sha256": "2cbf4696f251d9969bb419c1182bc5a5570e6eefad48d248adfde18a65cbbb01",
+          "source_sha256": "2cbf4696f251d9969bb419c1182bc5a5570e6eefad48d248adfde18a65cbbb01",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/LeonaSunlight.png",
+          "transform": null
+        },
+        {
+          "bytes": 4172527,
+          "path": "media/videos/leona_p.webm",
+          "sha256": "186a6e195e25a359e57f1420080c4128886b912ccc2153dbd3f094d362c6570e",
+          "source_sha256": "186a6e195e25a359e57f1420080c4128886b912ccc2153dbd3f094d362c6570e",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_P1.webm",
+          "transform": null
+        }
+      ],
+      "passive_cue": {
+        "description": "",
+        "include": false,
+        "manual_follow_up": "Review Sunlight target mark before/after an ally consumes it; retain champion-labeled passive icon for this release.",
+        "observation": "Official P clip includes other spell effects and allied follow-up. A distinct Sunlight target mark is not isolated confidently enough for an approved supplementary cue."
+      },
+      "riot_snapshot_sha256": "1545521eafa50cb6bbd2a4441224760bcf13abf8136afc069c71d50752562bb3",
+      "slot": "P",
+      "unresolved_sources": [],
+      "wiki_revision": "3977650",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Leona?oldid=3977650",
+      "wiki_snapshot_sha256": "766f314bfbf037db619956ddc8e950196dafe4deb87d6f1c7b02b93ba326bc3d"
+    },
+    {
+      "champion": "Leona",
+      "changes_from_draft": {
+        "answer": "Leona empowers her next basic attack to deal bonus magic damage and briefly stun its target."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:leona:q:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6757,
+          "path": "media/abilities/leona_q_icon.png",
+          "sha256": "dc39d88ef6a0c80c06f8e727e1f87aee7e94b13f750561e99d99c3dfce9299a9",
+          "source_sha256": "dc39d88ef6a0c80c06f8e727e1f87aee7e94b13f750561e99d99c3dfce9299a9",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/LeonaShieldOfDaybreak.png",
+          "transform": null
+        },
+        {
+          "bytes": 2632673,
+          "path": "media/videos/leona_q.webm",
+          "sha256": "031403ea8cdfe74816c509cb32e972004ac585e43f5e1eaf0b5d3f768e98a1df",
+          "source_sha256": "031403ea8cdfe74816c509cb32e972004ac585e43f5e1eaf0b5d3f768e98a1df",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_Q1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 531808,
+          "path": "media/gifs/leona_q.gif",
+          "sha256": "e96aa6c84455da0263d5eccf798d94563b0c2996a1ee63fd1d67d805387b50a2",
+          "source_sha256": "031403ea8cdfe74816c509cb32e972004ac585e43f5e1eaf0b5d3f768e98a1df",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_Q1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "031403ea8cdfe74816c509cb32e972004ac585e43f5e1eaf0b5d3f768e98a1df"
+            },
+            "sha256": "e96aa6c84455da0263d5eccf798d94563b0c2996a1ee63fd1d67d805387b50a2",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "1545521eafa50cb6bbd2a4441224760bcf13abf8136afc069c71d50752562bb3",
+      "slot": "Q",
+      "unresolved_sources": [],
+      "wiki_revision": "3977650",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Leona?oldid=3977650",
+      "wiki_snapshot_sha256": "766f314bfbf037db619956ddc8e950196dafe4deb87d6f1c7b02b93ba326bc3d"
+    },
+    {
+      "champion": "Leona",
+      "changes_from_draft": {
+        "answer": "Leona gains damage reduction, Armor, and Magic Resist. After a delay, she deals magic damage around herself; hitting an enemy extends the defensive effect."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:leona:w:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 5347,
+          "path": "media/abilities/leona_w_icon.png",
+          "sha256": "342088c1c6037c7d11c92c551df577b0d738cd7f2de26c4ee6fb8d42ea58a108",
+          "source_sha256": "342088c1c6037c7d11c92c551df577b0d738cd7f2de26c4ee6fb8d42ea58a108",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/LeonaSolarBarrier.png",
+          "transform": null
+        },
+        {
+          "bytes": 3926075,
+          "path": "media/videos/leona_w.webm",
+          "sha256": "ced91921f5e1da3d8dc57f34d8f6fedde482b0ea08753e99d93c08c7061be19d",
+          "source_sha256": "ced91921f5e1da3d8dc57f34d8f6fedde482b0ea08753e99d93c08c7061be19d",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_W1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 869776,
+          "path": "media/gifs/leona_w.gif",
+          "sha256": "2834f753ec8019d298e305c498ce34b9a68c74f8771a5339e42e46762d417768",
+          "source_sha256": "ced91921f5e1da3d8dc57f34d8f6fedde482b0ea08753e99d93c08c7061be19d",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_W1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "ced91921f5e1da3d8dc57f34d8f6fedde482b0ea08753e99d93c08c7061be19d"
+            },
+            "sha256": "2834f753ec8019d298e305c498ce34b9a68c74f8771a5339e42e46762d417768",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "1545521eafa50cb6bbd2a4441224760bcf13abf8136afc069c71d50752562bb3",
+      "slot": "W",
+      "unresolved_sources": [],
+      "wiki_revision": "3977650",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Leona?oldid=3977650",
+      "wiki_snapshot_sha256": "766f314bfbf037db619956ddc8e950196dafe4deb87d6f1c7b02b93ba326bc3d"
+    },
+    {
+      "champion": "Leona",
+      "changes_from_draft": {
+        "answer": "Leona sends her sword through enemies in a line, dealing magic damage. She briefly roots and dashes to the last enemy champion hit."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:leona:e:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 5848,
+          "path": "media/abilities/leona_e_icon.png",
+          "sha256": "bea4553abbd6bfaa065881c96294cc5519420e0531027e989e5a7309596bbaca",
+          "source_sha256": "bea4553abbd6bfaa065881c96294cc5519420e0531027e989e5a7309596bbaca",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/LeonaZenithBlade.png",
+          "transform": null
+        },
+        {
+          "bytes": 2075426,
+          "path": "media/videos/leona_e.webm",
+          "sha256": "c5758f630bc0d4e10aa0a8b5231f8cd9eda6545404719e9dcf0f5782eddcafec",
+          "source_sha256": "c5758f630bc0d4e10aa0a8b5231f8cd9eda6545404719e9dcf0f5782eddcafec",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_E1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 437180,
+          "path": "media/gifs/leona_e.gif",
+          "sha256": "6ec8588a6f4dd0405fda728b6afd7f52465a74f0ba7bdf231ba0fa4740a5c17a",
+          "source_sha256": "c5758f630bc0d4e10aa0a8b5231f8cd9eda6545404719e9dcf0f5782eddcafec",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_E1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "c5758f630bc0d4e10aa0a8b5231f8cd9eda6545404719e9dcf0f5782eddcafec"
+            },
+            "sha256": "6ec8588a6f4dd0405fda728b6afd7f52465a74f0ba7bdf231ba0fa4740a5c17a",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "1545521eafa50cb6bbd2a4441224760bcf13abf8136afc069c71d50752562bb3",
+      "slot": "E",
+      "unresolved_sources": [],
+      "wiki_revision": "3977650",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Leona?oldid=3977650",
+      "wiki_snapshot_sha256": "766f314bfbf037db619956ddc8e950196dafe4deb87d6f1c7b02b93ba326bc3d"
+    },
+    {
+      "champion": "Leona",
+      "changes_from_draft": {
+        "answer": "Leona calls down an area blast that deals magic damage. Enemies in the center are stunned; those near the edge are slowed."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:leona:r:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6500,
+          "path": "media/abilities/leona_r_icon.png",
+          "sha256": "4e59954a37f3c33deeee1eba614f8bdab05c86812cfbab7c7913db11a6da2306",
+          "source_sha256": "4e59954a37f3c33deeee1eba614f8bdab05c86812cfbab7c7913db11a6da2306",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/LeonaSolarFlare.png",
+          "transform": null
+        },
+        {
+          "bytes": 4202876,
+          "path": "media/videos/leona_r.webm",
+          "sha256": "bf17f427ec1b0de14f88d8cd6354fa20a225cf7dfd72447ec559d023f8161b66",
+          "source_sha256": "bf17f427ec1b0de14f88d8cd6354fa20a225cf7dfd72447ec559d023f8161b66",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_R1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 944849,
+          "path": "media/gifs/leona_r.gif",
+          "sha256": "0d68ab812e0a3ca2f64092da7db644a11f00bb4431db410b9ee9c1fd87ba01cb",
+          "source_sha256": "bf17f427ec1b0de14f88d8cd6354fa20a225cf7dfd72447ec559d023f8161b66",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0089/ability_0089_R1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "bf17f427ec1b0de14f88d8cd6354fa20a225cf7dfd72447ec559d023f8161b66"
+            },
+            "sha256": "0d68ab812e0a3ca2f64092da7db644a11f00bb4431db410b9ee9c1fd87ba01cb",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "1545521eafa50cb6bbd2a4441224760bcf13abf8136afc069c71d50752562bb3",
+      "slot": "R",
+      "unresolved_sources": [],
+      "wiki_revision": "3977650",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Leona?oldid=3977650",
+      "wiki_snapshot_sha256": "766f314bfbf037db619956ddc8e950196dafe4deb87d6f1c7b02b93ba326bc3d"
+    },
+    {
+      "champion": "Lux",
+      "changes_from_draft": {
+        "answer": "Lux is a long-range mage who can root enemies, slow an area, shield allies, and fire a powerful long-range laser. She deals most of her damage from a safe distance."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:lux:overview:L1",
+      "level": "L1",
+      "manual_visual_review": null,
+      "media": [
+        {
+          "bytes": 196519,
+          "path": "media/champions/lux_portrait.jpg",
+          "sha256": "d148fbcd3985d2f46f928a6ec65cca3c4f3d088692926cb5004352de73636e2e",
+          "source_sha256": "d148fbcd3985d2f46f928a6ec65cca3c4f3d088692926cb5004352de73636e2e",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg",
+          "transform": null
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "6a9f146c0ace25fdab822f890e992cd3e3f6757d49a51ee8c7771605797d8c29",
+      "slot": "-",
+      "unresolved_sources": [],
+      "wiki_revision": "4091139",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Lux?oldid=4091139",
+      "wiki_snapshot_sha256": "1ddedd35074088f265ab6ee27ec6a92163e7f1465d573b5d1eddde7829f7e87f"
+    },
+    {
+      "champion": "Lux",
+      "changes_from_draft": {},
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:lux:p:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Check current-client mark appearance, expiry and skin-specific effects.",
+      "media": [
+        {
+          "bytes": 5815,
+          "path": "media/abilities/lux_p_icon.png",
+          "sha256": "2b4f421b424450afeca3757d86fbceed1c15a67960c5ccdddbf3341d71042b68",
+          "source_sha256": "2b4f421b424450afeca3757d86fbceed1c15a67960c5ccdddbf3341d71042b68",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/LuxIlluminatingFraulein.png",
+          "transform": null
+        },
+        {
+          "bytes": 1574145,
+          "path": "media/videos/lux_p.webm",
+          "sha256": "63fbb225f1a68906245ffbfddb69384c4de155b02132ab99764fab2499d48bbe",
+          "source_sha256": "63fbb225f1a68906245ffbfddb69384c4de155b02132ab99764fab2499d48bbe",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_P1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 618094,
+          "path": "media/gifs/lux_p.gif",
+          "sha256": "539973249c7ab6bf325b26d21d7e32292dbe7d7ce4f0b092410a16433eee21c8",
+          "source_sha256": "63fbb225f1a68906245ffbfddb69384c4de155b02132ab99764fab2499d48bbe",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_P1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "63fbb225f1a68906245ffbfddb69384c4de155b02132ab99764fab2499d48bbe"
+            },
+            "sha256": "539973249c7ab6bf325b26d21d7e32292dbe7d7ce4f0b092410a16433eee21c8",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": {
+        "description": "Look for the glowing mark after a damaging spell and its consumption by an attack.",
+        "include": true,
+        "manual_follow_up": "Check current-client mark appearance, expiry and skin-specific effects.",
+        "observation": "Official P frames show a target mark after a spell and the follow-up attack."
+      },
+      "riot_snapshot_sha256": "6a9f146c0ace25fdab822f890e992cd3e3f6757d49a51ee8c7771605797d8c29",
+      "slot": "P",
+      "unresolved_sources": [],
+      "wiki_revision": "4091139",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Lux?oldid=4091139",
+      "wiki_snapshot_sha256": "1ddedd35074088f265ab6ee27ec6a92163e7f1465d573b5d1eddde7829f7e87f"
+    },
+    {
+      "champion": "Lux",
+      "changes_from_draft": {
+        "answer": "Lux fires a light projectile that deals magic damage and roots up to two enemies in a line."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:lux:q:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6820,
+          "path": "media/abilities/lux_q_icon.png",
+          "sha256": "06abdcb3edede637b6fd076e69381f2ff538a30c788c3ec857d4834742c2b424",
+          "source_sha256": "06abdcb3edede637b6fd076e69381f2ff538a30c788c3ec857d4834742c2b424",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/LuxLightBinding.png",
+          "transform": null
+        },
+        {
+          "bytes": 2340272,
+          "path": "media/videos/lux_q.webm",
+          "sha256": "8dd8d6793528b0b1b7e98c38959aaa08795bcf6dc8c6649ff2557496a0f38ffe",
+          "source_sha256": "8dd8d6793528b0b1b7e98c38959aaa08795bcf6dc8c6649ff2557496a0f38ffe",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_Q1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 711424,
+          "path": "media/gifs/lux_q.gif",
+          "sha256": "1edfb75a2aba83b5fd54e30c383ff5e664b4f6bc0310c4c313c20f29dc892398",
+          "source_sha256": "8dd8d6793528b0b1b7e98c38959aaa08795bcf6dc8c6649ff2557496a0f38ffe",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_Q1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "8dd8d6793528b0b1b7e98c38959aaa08795bcf6dc8c6649ff2557496a0f38ffe"
+            },
+            "sha256": "1edfb75a2aba83b5fd54e30c383ff5e664b4f6bc0310c4c313c20f29dc892398",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "6a9f146c0ace25fdab822f890e992cd3e3f6757d49a51ee8c7771605797d8c29",
+      "slot": "Q",
+      "unresolved_sources": [],
+      "wiki_revision": "4091139",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Lux?oldid=4091139",
+      "wiki_snapshot_sha256": "1ddedd35074088f265ab6ee27ec6a92163e7f1465d573b5d1eddde7829f7e87f"
+    },
+    {
+      "champion": "Lux",
+      "changes_from_draft": {},
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:lux:w:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6679,
+          "path": "media/abilities/lux_w_icon.png",
+          "sha256": "9eec398494b60cb908ca2a5635463ad3ee63bce31521a7a3ce657dbc2c6627e2",
+          "source_sha256": "9eec398494b60cb908ca2a5635463ad3ee63bce31521a7a3ce657dbc2c6627e2",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/LuxPrismaticWave.png",
+          "transform": null
+        },
+        {
+          "bytes": 2736435,
+          "path": "media/videos/lux_w.webm",
+          "sha256": "fa6b2b23a73f99b985ade1fb9ecfadbe15e1553d07d020eae2dc70caf3dd8cda",
+          "source_sha256": "fa6b2b23a73f99b985ade1fb9ecfadbe15e1553d07d020eae2dc70caf3dd8cda",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_W1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 921110,
+          "path": "media/gifs/lux_w.gif",
+          "sha256": "f0a7b90fbdafcd343368047d96f206bc2ed202c9be7509661a325cc576d18a17",
+          "source_sha256": "fa6b2b23a73f99b985ade1fb9ecfadbe15e1553d07d020eae2dc70caf3dd8cda",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_W1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "fa6b2b23a73f99b985ade1fb9ecfadbe15e1553d07d020eae2dc70caf3dd8cda"
+            },
+            "sha256": "f0a7b90fbdafcd343368047d96f206bc2ed202c9be7509661a325cc576d18a17",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "6a9f146c0ace25fdab822f890e992cd3e3f6757d49a51ee8c7771605797d8c29",
+      "slot": "W",
+      "unresolved_sources": [],
+      "wiki_revision": "4091139",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Lux?oldid=4091139",
+      "wiki_snapshot_sha256": "1ddedd35074088f265ab6ee27ec6a92163e7f1465d573b5d1eddde7829f7e87f"
+    },
+    {
+      "champion": "Lux",
+      "changes_from_draft": {},
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:lux:e:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6567,
+          "path": "media/abilities/lux_e_icon.png",
+          "sha256": "c5900b892f0065d9b19ce4d584b7633c23235dbfd0bf55cb7444fe0162fa0138",
+          "source_sha256": "c5900b892f0065d9b19ce4d584b7633c23235dbfd0bf55cb7444fe0162fa0138",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/LuxLightStrikeKugel.png",
+          "transform": null
+        },
+        {
+          "bytes": 3366722,
+          "path": "media/videos/lux_e.webm",
+          "sha256": "fa65eaf2aa0861496f1f12265f724323c1b185d9cf0c9ce6862b2e6dfc548df3",
+          "source_sha256": "fa65eaf2aa0861496f1f12265f724323c1b185d9cf0c9ce6862b2e6dfc548df3",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_E1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 1131463,
+          "path": "media/gifs/lux_e.gif",
+          "sha256": "4f73217baa248c9102f981715d53f3bcbbb80694b1657c5241afbd87a5bc1fe6",
+          "source_sha256": "fa65eaf2aa0861496f1f12265f724323c1b185d9cf0c9ce6862b2e6dfc548df3",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_E1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "fa65eaf2aa0861496f1f12265f724323c1b185d9cf0c9ce6862b2e6dfc548df3"
+            },
+            "sha256": "4f73217baa248c9102f981715d53f3bcbbb80694b1657c5241afbd87a5bc1fe6",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "6a9f146c0ace25fdab822f890e992cd3e3f6757d49a51ee8c7771605797d8c29",
+      "slot": "E",
+      "unresolved_sources": [],
+      "wiki_revision": "4091139",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Lux?oldid=4091139",
+      "wiki_snapshot_sha256": "1ddedd35074088f265ab6ee27ec6a92163e7f1465d573b5d1eddde7829f7e87f"
+    },
+    {
+      "champion": "Lux",
+      "changes_from_draft": {
+        "answer": "After a brief windup, Lux fires a long-range laser that deals magic damage to enemies in its path. It also triggers and refreshes her passive mark."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:lux:r:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 5520,
+          "path": "media/abilities/lux_r_icon.png",
+          "sha256": "392a1ed2da41f165ae79c2c3e00b8796ff017f6ce9d55e37d401d63606cb2a86",
+          "source_sha256": "392a1ed2da41f165ae79c2c3e00b8796ff017f6ce9d55e37d401d63606cb2a86",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/LuxR.png",
+          "transform": null
+        },
+        {
+          "bytes": 2269008,
+          "path": "media/videos/lux_r.webm",
+          "sha256": "7587b83ffecbcb7033db7192ccb3143144bd7d9469811c71838f57b426df0c1b",
+          "source_sha256": "7587b83ffecbcb7033db7192ccb3143144bd7d9469811c71838f57b426df0c1b",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_R1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 922524,
+          "path": "media/gifs/lux_r.gif",
+          "sha256": "439ac7f613b801d3ab82d7011b64acd74fbfed8aae1366f53aa003ddc00491f0",
+          "source_sha256": "7587b83ffecbcb7033db7192ccb3143144bd7d9469811c71838f57b426df0c1b",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0099/ability_0099_R1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "7587b83ffecbcb7033db7192ccb3143144bd7d9469811c71838f57b426df0c1b"
+            },
+            "sha256": "439ac7f613b801d3ab82d7011b64acd74fbfed8aae1366f53aa003ddc00491f0",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "6a9f146c0ace25fdab822f890e992cd3e3f6757d49a51ee8c7771605797d8c29",
+      "slot": "R",
+      "unresolved_sources": [],
+      "wiki_revision": "4091139",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Lux?oldid=4091139",
+      "wiki_snapshot_sha256": "1ddedd35074088f265ab6ee27ec6a92163e7f1465d573b5d1eddde7829f7e87f"
+    },
+    {
+      "champion": "Morgana",
+      "changes_from_draft": {
+        "answer": "Morgana is a mage support with a long-lasting root and a shield that absorbs magic damage and blocks crowd control while it holds. She damages enemies in a pool and can stun nearby champions who remain connected to her ultimate."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:morgana:overview:L1",
+      "level": "L1",
+      "manual_visual_review": null,
+      "media": [
+        {
+          "bytes": 207040,
+          "path": "media/champions/morgana_portrait.jpg",
+          "sha256": "55863e2e8ac8293de013d2e8b622821d0b2ecf4920fa6001965d8a46f391b75f",
+          "source_sha256": "55863e2e8ac8293de013d2e8b622821d0b2ecf4920fa6001965d8a46f391b75f",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Morgana_0.jpg",
+          "transform": null
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "2e3929a4e2430140d0436472d7301f03135d160a876891413f7791cacff3a604",
+      "slot": "-",
+      "unresolved_sources": [],
+      "wiki_revision": "4012904",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Morgana?oldid=4012904",
+      "wiki_snapshot_sha256": "ecd74cdd53fbde5775dad99f558f186343d7693b237ff6a5ccd0996cf1bc2658"
+    },
+    {
+      "champion": "Morgana",
+      "changes_from_draft": {
+        "answer": "Morgana heals when her abilities damage enemy champions, large minions, and medium or larger monsters."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:morgana:p:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Review healing feedback with health bars visible in the current client; retain champion-labeled passive icon for this release.",
+      "media": [
+        {
+          "bytes": 5841,
+          "path": "media/abilities/morgana_p_icon.png",
+          "sha256": "e18290599d085b3fb3ab0620bdb230501725acb249cfe9f69472de167ecee5f7",
+          "source_sha256": "e18290599d085b3fb3ab0620bdb230501725acb249cfe9f69472de167ecee5f7",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/FallenAngel_Empathize.png",
+          "transform": null
+        },
+        {
+          "bytes": 3545932,
+          "path": "media/videos/morgana_p.webm",
+          "sha256": "23412652ca2e17bfc891b6ba99cb55a3c5a443464aadf43f529f3df0b7beafc5",
+          "source_sha256": "23412652ca2e17bfc891b6ba99cb55a3c5a443464aadf43f529f3df0b7beafc5",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0025/ability_0025_P1.webm",
+          "transform": null
+        }
+      ],
+      "passive_cue": {
+        "description": "",
+        "include": false,
+        "manual_follow_up": "Review healing feedback with health bars visible in the current client; retain champion-labeled passive icon for this release.",
+        "observation": "Official P clip mainly shows offensive spell effects, with no clearly readable health-bar evidence of Soul Siphon healing. No unique healing VFX is asserted."
+      },
+      "riot_snapshot_sha256": "2e3929a4e2430140d0436472d7301f03135d160a876891413f7791cacff3a604",
+      "slot": "P",
+      "unresolved_sources": [],
+      "wiki_revision": "4012904",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Morgana?oldid=4012904",
+      "wiki_snapshot_sha256": "ecd74cdd53fbde5775dad99f558f186343d7693b237ff6a5ccd0996cf1bc2658"
+    },
+    {
+      "champion": "Morgana",
+      "changes_from_draft": {
+        "answer": "Morgana fires a projectile that deals magic damage and roots the first enemy it hits for a long time."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:morgana:q:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6387,
+          "path": "media/abilities/morgana_q_icon.png",
+          "sha256": "69160b268d435c77c5999a58c7b062c702019635e544288c7fa229d698d37061",
+          "source_sha256": "69160b268d435c77c5999a58c7b062c702019635e544288c7fa229d698d37061",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/MorganaQ.png",
+          "transform": null
+        },
+        {
+          "bytes": 2259066,
+          "path": "media/videos/morgana_q.webm",
+          "sha256": "6ede83749dac71d6e53bbcd7ac19d34751e791b7eb614cf6a4b8411e32dbf0b9",
+          "source_sha256": "6ede83749dac71d6e53bbcd7ac19d34751e791b7eb614cf6a4b8411e32dbf0b9",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0025/ability_0025_Q1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 607762,
+          "path": "media/gifs/morgana_q.gif",
+          "sha256": "f1bf3a14cca0248191aa543e86245dbcd9a462368360e4c94ffcef582dde3527",
+          "source_sha256": "6ede83749dac71d6e53bbcd7ac19d34751e791b7eb614cf6a4b8411e32dbf0b9",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0025/ability_0025_Q1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "6ede83749dac71d6e53bbcd7ac19d34751e791b7eb614cf6a4b8411e32dbf0b9"
+            },
+            "sha256": "f1bf3a14cca0248191aa543e86245dbcd9a462368360e4c94ffcef582dde3527",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "2e3929a4e2430140d0436472d7301f03135d160a876891413f7791cacff3a604",
+      "slot": "Q",
+      "unresolved_sources": [],
+      "wiki_revision": "4012904",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Morgana?oldid=4012904",
+      "wiki_snapshot_sha256": "ecd74cdd53fbde5775dad99f558f186343d7693b237ff6a5ccd0996cf1bc2658"
+    },
+    {
+      "champion": "Morgana",
+      "changes_from_draft": {},
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:morgana:w:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 5390,
+          "path": "media/abilities/morgana_w_icon.png",
+          "sha256": "59696d65b82ccde47c250360e202c5a7a569681b876e3be032a38a6d5056abe3",
+          "source_sha256": "59696d65b82ccde47c250360e202c5a7a569681b876e3be032a38a6d5056abe3",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/MorganaW.png",
+          "transform": null
+        },
+        {
+          "bytes": 3260350,
+          "path": "media/videos/morgana_w.webm",
+          "sha256": "a503e0a392504ae1d6722da463f34cfad8abbb437c972651a88060e1d650cfc0",
+          "source_sha256": "a503e0a392504ae1d6722da463f34cfad8abbb437c972651a88060e1d650cfc0",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0025/ability_0025_W1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 933036,
+          "path": "media/gifs/morgana_w.gif",
+          "sha256": "7ef26db97b33aec14d4e771ba227835ad155eacec873c4c7a155bdd12379cd46",
+          "source_sha256": "a503e0a392504ae1d6722da463f34cfad8abbb437c972651a88060e1d650cfc0",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0025/ability_0025_W1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "a503e0a392504ae1d6722da463f34cfad8abbb437c972651a88060e1d650cfc0"
+            },
+            "sha256": "7ef26db97b33aec14d4e771ba227835ad155eacec873c4c7a155bdd12379cd46",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "2e3929a4e2430140d0436472d7301f03135d160a876891413f7791cacff3a604",
+      "slot": "W",
+      "unresolved_sources": [],
+      "wiki_revision": "4012904",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Morgana?oldid=4012904",
+      "wiki_snapshot_sha256": "ecd74cdd53fbde5775dad99f558f186343d7693b237ff6a5ccd0996cf1bc2658"
+    },
+    {
+      "champion": "Morgana",
+      "changes_from_draft": {
+        "answer": "Morgana shields herself or an ally, absorbing magic damage and blocking crowd control while the shield holds."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:morgana:e:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 4924,
+          "path": "media/abilities/morgana_e_icon.png",
+          "sha256": "92e80ca3f16d0bc85948167f41528f4bb2fba47bb79131fddd0b873237161bbc",
+          "source_sha256": "92e80ca3f16d0bc85948167f41528f4bb2fba47bb79131fddd0b873237161bbc",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/MorganaE.png",
+          "transform": null
+        },
+        {
+          "bytes": 2388566,
+          "path": "media/videos/morgana_e.webm",
+          "sha256": "5e7f4baec6fe6294f8d7e10817f9065ef212db3e5a69da149c3579487b43fb61",
+          "source_sha256": "5e7f4baec6fe6294f8d7e10817f9065ef212db3e5a69da149c3579487b43fb61",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0025/ability_0025_E1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 654434,
+          "path": "media/gifs/morgana_e.gif",
+          "sha256": "204e34467544ceb7259a2a3e681b30ddc99be613b33d5b13c8f7eaa680696470",
+          "source_sha256": "5e7f4baec6fe6294f8d7e10817f9065ef212db3e5a69da149c3579487b43fb61",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0025/ability_0025_E1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "5e7f4baec6fe6294f8d7e10817f9065ef212db3e5a69da149c3579487b43fb61"
+            },
+            "sha256": "204e34467544ceb7259a2a3e681b30ddc99be613b33d5b13c8f7eaa680696470",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "2e3929a4e2430140d0436472d7301f03135d160a876891413f7791cacff3a604",
+      "slot": "E",
+      "unresolved_sources": [],
+      "wiki_revision": "4012904",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Morgana?oldid=4012904",
+      "wiki_snapshot_sha256": "ecd74cdd53fbde5775dad99f558f186343d7693b237ff6a5ccd0996cf1bc2658"
+    },
+    {
+      "champion": "Morgana",
+      "changes_from_draft": {
+        "answer": "Morgana tethers nearby enemy champions, dealing magic damage and slowing them while she gains movement speed. Enemies still tethered after a delay take damage again and are stunned."
+      },
+      "content_confidence": "source_grounded_qualitative",
+      "content_issues": [],
+      "counterplay_basis": "explicitly labeled editorial inference from cited mechanics",
+      "decision": "approved_with_disclosed_follow_up",
+      "encoding_repaired": false,
+      "id": "champ:morgana:r:recognize:L2",
+      "level": "L2",
+      "manual_visual_review": "Confirm current-client/skin/opponent-view appearance and playback on target Anki device.",
+      "media": [
+        {
+          "bytes": 6789,
+          "path": "media/abilities/morgana_r_icon.png",
+          "sha256": "1d5c0ae0dbc60fa3dd958c8d7c3f596ffeb68494e6f60acfd2ce94e865755eea",
+          "source_sha256": "1d5c0ae0dbc60fa3dd958c8d7c3f596ffeb68494e6f60acfd2ce94e865755eea",
+          "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/MorganaR.png",
+          "transform": null
+        },
+        {
+          "bytes": 4111185,
+          "path": "media/videos/morgana_r.webm",
+          "sha256": "b6a70390334dc5f2d9fe2d339b43da984a924701e54ec42b780bac6a8ede7c62",
+          "source_sha256": "b6a70390334dc5f2d9fe2d339b43da984a924701e54ec42b780bac6a8ede7c62",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0025/ability_0025_R1.webm",
+          "transform": null
+        },
+        {
+          "bytes": 1342695,
+          "path": "media/gifs/morgana_r.gif",
+          "sha256": "7df74ba157fd6da4a0d7b5e48221a356a44ba7c8a875dc032a0140ef5f07b1b0",
+          "source_sha256": "b6a70390334dc5f2d9fe2d339b43da984a924701e54ec42b780bac6a8ede7c62",
+          "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0025/ability_0025_R1.webm",
+          "transform": {
+            "recipe": {
+              "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+              "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+              "loop": 0,
+              "source_sha256": "b6a70390334dc5f2d9fe2d339b43da984a924701e54ec42b780bac6a8ede7c62"
+            },
+            "sha256": "7df74ba157fd6da4a0d7b5e48221a356a44ba7c8a875dc032a0140ef5f07b1b0",
+            "status": "converted"
+          }
+        }
+      ],
+      "passive_cue": null,
+      "riot_snapshot_sha256": "2e3929a4e2430140d0436472d7301f03135d160a876891413f7791cacff3a604",
+      "slot": "R",
+      "unresolved_sources": [],
+      "wiki_revision": "4012904",
+      "wiki_revision_url": "https://wiki.leagueoflegends.com/en-us/Morgana?oldid=4012904",
+      "wiki_snapshot_sha256": "ecd74cdd53fbde5775dad99f558f186343d7693b237ff6a5ccd0996cf1bc2658"
+    }
+  ],
+  "change_review": {
+    "after_sha256": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "before_sha256": "9f79b15b1b815a10097a92e76602d38f84bfd0752b6884a0a567b61c41441319",
+    "changed_ids": [
+      "champ:ashe:e:recognize:L2",
+      "champ:ashe:overview:L1",
+      "champ:ashe:p:recognize:L2",
+      "champ:ashe:q:recognize:L2",
+      "champ:ashe:r:recognize:L2",
+      "champ:ashe:w:recognize:L2",
+      "champ:caitlyn:e:recognize:L2",
+      "champ:caitlyn:overview:L1",
+      "champ:caitlyn:p:recognize:L2",
+      "champ:caitlyn:q:recognize:L2",
+      "champ:caitlyn:r:recognize:L2",
+      "champ:caitlyn:w:recognize:L2",
+      "champ:jinx:e:recognize:L2",
+      "champ:jinx:overview:L1",
+      "champ:jinx:p:recognize:L2",
+      "champ:jinx:q:recognize:L2",
+      "champ:jinx:r:recognize:L2",
+      "champ:jinx:w:recognize:L2",
+      "champ:leona:e:recognize:L2",
+      "champ:leona:overview:L1",
+      "champ:leona:p:recognize:L2",
+      "champ:leona:q:recognize:L2",
+      "champ:leona:r:recognize:L2",
+      "champ:leona:w:recognize:L2",
+      "champ:lux:e:recognize:L2",
+      "champ:lux:overview:L1",
+      "champ:lux:p:recognize:L2",
+      "champ:lux:q:recognize:L2",
+      "champ:lux:r:recognize:L2",
+      "champ:lux:w:recognize:L2",
+      "champ:morgana:e:recognize:L2",
+      "champ:morgana:overview:L1",
+      "champ:morgana:p:recognize:L2",
+      "champ:morgana:q:recognize:L2",
+      "champ:morgana:r:recognize:L2",
+      "champ:morgana:w:recognize:L2"
+    ],
+    "proposal_sha256": "e2f8cac66c6126db7563c688d846df0fc0e61169974ff1df8c0d3d32cbdd61b7",
+    "reviewer": "Codex (automated source and contact-sheet review; Batch 01 production authorized by user)",
+    "revision": 1793483693
+  },
+  "limitations": [
+    "Contact-sheet review is not exhaustive playback",
+    "Riot CDN clips do not establish current-patch VFX accuracy",
+    "No desktop/mobile Anki GUI playback or enemy-perspective skin test performed"
+  ],
+  "manual_visual_review_cards": [
+    "champ:caitlyn:p:recognize:L2",
+    "champ:caitlyn:q:recognize:L2",
+    "champ:caitlyn:w:recognize:L2",
+    "champ:caitlyn:e:recognize:L2",
+    "champ:caitlyn:r:recognize:L2",
+    "champ:ashe:p:recognize:L2",
+    "champ:ashe:q:recognize:L2",
+    "champ:ashe:w:recognize:L2",
+    "champ:ashe:e:recognize:L2",
+    "champ:ashe:r:recognize:L2",
+    "champ:jinx:p:recognize:L2",
+    "champ:jinx:q:recognize:L2",
+    "champ:jinx:w:recognize:L2",
+    "champ:jinx:e:recognize:L2",
+    "champ:jinx:r:recognize:L2",
+    "champ:leona:p:recognize:L2",
+    "champ:leona:q:recognize:L2",
+    "champ:leona:w:recognize:L2",
+    "champ:leona:e:recognize:L2",
+    "champ:leona:r:recognize:L2",
+    "champ:lux:p:recognize:L2",
+    "champ:lux:q:recognize:L2",
+    "champ:lux:w:recognize:L2",
+    "champ:lux:e:recognize:L2",
+    "champ:lux:r:recognize:L2",
+    "champ:morgana:p:recognize:L2",
+    "champ:morgana:q:recognize:L2",
+    "champ:morgana:w:recognize:L2",
+    "champ:morgana:e:recognize:L2",
+    "champ:morgana:r:recognize:L2"
+  ],
+  "maximum_deck_cards": 100,
+  "media_summary": {
+    "ability_icons": 30,
+    "active_fallbacks": 0,
+    "active_gifs": 24,
+    "portraits": 6,
+    "real_source_webms_archived": 30,
+    "supplementary_passive_gifs": 4,
+    "unresolved_active_media": []
+  },
+  "package": {
+    "cards": 100,
+    "media": 120,
+    "notes": 100,
+    "sha256": "0f5525d460d1b3edfcaa560949884a54fa9fbae4626de2afe93ded5d2fea89d9",
+    "sqlite_integrity": "ok"
+  },
+  "pilot_cards_preserved": 64,
+  "reimport": {
+    "anki_version": "25.9.2",
+    "cards": 100,
+    "media_files": 120,
+    "notes": 100,
+    "pilot_review_log_rows_preserved": 64,
+    "pilot_schedules_preserved": 64,
+    "repeat_imports": 2,
+    "user_collection_opened": false
+  },
+  "reviewer": "Codex (automated source and contact-sheet review)",
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "champion": "Ashe",
+      "issue": "Riot describes increased damage against Frost-affected targets; archived Wiki revision describes bonus attack damage from critical-strike chance independently of that condition.",
+      "resolution": "Omit the disputed bonus-damage condition; retain the mutually supported slow and critical-slow behavior. No damage formula or unsupported condition exported.",
+      "slot": "P"
+    },
+    {
+      "champion": "Leona",
+      "issue": "Riot and Wiki give different Sunlight durations.",
+      "resolution": "No duration is present in the qualitative Batch 01 card. Exact duration remains out of scope and must be independently verified before any L3/timer card.",
+      "slot": "P"
+    }
+  ],
+  "sources": {
+    "cdragon": "16.21",
+    "ddragon": "16.21.1",
+    "unresolved": [],
+    "wiki_snapshots": 6
+  },
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skip_reasons": [],
+    "skipped": 0,
+    "successful": true,
+    "tests_run": 32
+  },
+  "validation": {
+    "errors": 0,
+    "warnings": 212
+  },
+  "withheld": []
+}

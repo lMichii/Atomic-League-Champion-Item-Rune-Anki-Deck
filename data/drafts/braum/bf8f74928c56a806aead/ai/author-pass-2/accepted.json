@@ -1,0 +1,351 @@
+{
+  "cards": [
+    {
+      "answer": "Braum is a tank support who protects allies by intercepting enemy projectiles. He helps allies stun enemies through shared passive stacks. His broad learning focus is health, armor and magic resistance.",
+      "build_focus": "Health, Armor, MR",
+      "counterplay": "INFERRED: Avoid accumulating passive stacks, and look for attack angles around his shield.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Braum. Official role tags: Tank, Support.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "Braum is a tank support who protects allies by intercepting enemy projectiles."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Once the first stack is applied, ally basic attacks also stack Concussive Blows. Upon reaching 4 stacks, the target is stunned and takes magic damage.",
+              "source_id": "riot:P"
+            }
+          ],
+          "claim": "He helps allies stun enemies through shared passive stacks."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Magic Damage:75 / 120 / 165 / 210 / 255 (+ 2.5% of Braum's maximum health)",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Self Bonus Armor:20 / 25 / 30 / 35 / 40 (+ 36% bonus armor)\nSelf Bonus Magic Resistance:20 / 25 / 30 / 35 / 40 (+ 36% bonus magic resistance)",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "His broad learning focus is health, armor and magic resistance."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Ally protection and shared stun pressure explain his fighting role.",
+      "slot": "-",
+      "uncertainties": [
+        "The stat focus is a teaching synthesis of the supplied kit evidence, not an optimal item build."
+      ]
+    },
+    {
+      "answer": "Braum's basic attacks and Q apply passive stacks; allied champion basic attacks can add stacks after the first. At 4 stacks, the target takes magic damage and is stunned. Afterward, the target temporarily cannot gain new stacks, but Braum's basic attacks deal bonus magic damage to it.",
+      "build_focus": "",
+      "counterplay": "INFERRED: Back away from Braum and his allies when marked to avoid letting their basic attacks complete the stun.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Innate: Braum's basic attacks and Winter's Bite apply a stack of Concussive Blows. Once the first stack is applied, allied champion basic attacks can also stack Concussive Blows.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Braum's basic attacks and Q apply passive stacks; allied champion basic attacks can add stacks after the first."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Upon reaching 4 stacks, the target is stunned and takes magic damage.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "stacking up to 4 times.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "At 4 stacks, the target takes magic damage and is stunned."
+        },
+        {
+          "citations": [
+            {
+              "quote": "For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's basic attacks.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Afterward, the target temporarily cannot gain new stacks, but Braum's basic attacks deal bonus magic damage to it."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "TENTATIVE proposal: use the marker near the affected target to introduce stack buildup, followed by the apparent stun effect. The attached clip frames suggest this sequence but do not verify exact stack correspondence or current-client appearance.",
+        "meaningful": true,
+        "source_ids": [
+          "riot:P",
+          "wiki:P"
+        ]
+      },
+      "priority": "A",
+      "priority_reason": "Allied basic attacks can turn an initial mark into a stun.",
+      "slot": "P",
+      "uncertainties": [
+        "The visual proposal uses the attached official-clip frames; the cited mechanic text does not describe or verify the marker's appearance."
+      ]
+    },
+    {
+      "answer": "Braum fires ice that deals magic damage and slows the first enemy hit. It also applies a passive stack.",
+      "build_focus": "",
+      "counterplay": "INFERRED: Dodge the projectile to avoid its slow and passive stack.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Braum propels freezing ice from his shield, slowing and dealing magic damage to the first enemy hit.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Braum propels freezing ice from his shield, slowing and dealing magic damage.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "Braum fires ice that deals magic damage and slows the first enemy hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Applies a stack of Concussive Blows.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Braum's basic attacks and Winter's Bite apply a stack of Concussive Blows.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "It also applies a passive stack."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The ranged slow starts passive pressure and helps allies follow up.",
+      "slot": "Q",
+      "uncertainties": []
+    },
+    {
+      "answer": "Braum leaps to an allied champion or minion. On arrival, both gain temporary armor and magic resistance.",
+      "build_focus": "",
+      "counterplay": "INFERRED: Account for Braum repositioning to nearby allies or minions when choosing whom to attack.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Braum leaps to a target allied champion or minion.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Active: Braum dashes to a target allied champion or minion.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Braum leaps to an allied champion or minion."
+        },
+        {
+          "citations": [
+            {
+              "quote": "On arrival, Braum and the ally gain Armor and Magic Resist for a few seconds.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "On arrival, both of them gain armor and magic resistance for a few seconds.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "On arrival, both gain temporary armor and magic resistance."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "The leap changes his defensive position and strengthens the ally he reaches.",
+      "slot": "W",
+      "uncertainties": []
+    },
+    {
+      "answer": "Braum raises a directional shield that can intercept enemy projectiles, making them hit him and be destroyed. Projectile effects triggered by collision can still occur. Unbreakable does not affect turrets.",
+      "build_focus": "",
+      "counterplay": "INFERRED: Reposition to attack from outside the shield's protected direction. Avoid firing a key projectile into the shield.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Braum becomes ghosted and raises his shield in a direction for a few seconds, intercepting any enemy projectiles to hit him and be destroyed.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "Braum raises a directional shield that can intercept enemy projectiles, making them hit him and be destroyed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Projectiles whose effects trigger on collision will still trigger - dealing damage, applying debuffs, creating area of effects and marking the target as 'hit'.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Projectile effects triggered by collision can still occur."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Unbreakable does not affect turrets.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Unbreakable does not affect turrets."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Projectile interception can protect allies, making shield direction consequential.",
+      "slot": "E",
+      "uncertainties": [
+        "Damage negation and reduction are omitted from this beginner summary because the supplied wording requires damage-source exceptions.",
+        "Interception does not guarantee cancellation of collision effects or resulting area damage."
+      ]
+    },
+    {
+      "answer": "Braum slams the ground, knocking up enemies nearby and in a line ahead. The fissure left along that line slows enemies.",
+      "build_focus": "",
+      "counterplay": "INFERRED: Move out of the line ahead of Braum and avoid the lingering fissure.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Braum slams the ground, knocking up enemies nearby and in a line in front of him.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Braum slams the ground, knocking up enemies nearby and in a line in front of him.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Braum slams the ground, knocking up enemies nearby and in a line ahead."
+        },
+        {
+          "citations": [
+            {
+              "quote": "A fissure is left along the line that slows enemies.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "A fissure is left along the line that slows enemies.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "The fissure left along that line slows enemies."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The knockup disrupts enemies, while the fissure restricts movement.",
+      "slot": "R",
+      "uncertainties": []
+    }
+  ],
+  "champion_id": 201,
+  "champion_name": "Braum",
+  "conflicts": [
+    {
+      "resolution": "Omit damage-negation and damage-reduction claims from the E answer. Retain projectile interception, explicitly preserve collision effects, and state the turret exclusion. The Wiki also identifies a pure-true-damage exception to consuming the full-negation effect.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "Riot's broad first-attack and subsequent-damage wording versus the Wiki's narrower damage-source qualifications."
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Shield availability affects projectile denial and ally protection.",
+      "slot": "E",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Ultimate availability affects access to a line knockup and slowing zone.",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Leap availability affects defensive repositioning to allies.",
+      "slot": "W",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Projectile availability affects ranged slowing and passive initiation.",
+      "slot": "Q",
+      "source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "The stat focus is a teaching synthesis, not evidence of an optimal build.",
+    "The supplied Data Dragon release is pinned; no live game patch is inferred.",
+    "Passive clip frames support only a tentative visual proposal, not current-client or skin-specific verification.",
+    "The Wiki excerpts include Arena differences and unrelated skin content; these are excluded.",
+    "Unbreakable has projectile and damage-source exceptions; its damage mitigation is omitted to avoid the previous draft's overbroad claims.",
+    "Counterplay is inferred teaching guidance and does not guarantee outcomes."
+  ],
+  "language": "en"
+}

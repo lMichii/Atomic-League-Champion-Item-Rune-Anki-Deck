@@ -1,0 +1,165 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Malphite passively gains a damage-absorbing shield based on his maximum health.",
+          "covered": true,
+          "mechanic_id": "P.shield",
+          "reason": "Explains the passive shield, damage absorption and maximum-health dependence."
+        },
+        {
+          "answer_quote": "It recharges after a few seconds without taking damage; damage absorbed by shields does not restart its recharge.",
+          "covered": true,
+          "mechanic_id": "P.recharge",
+          "reason": "Explains recharge and explicitly includes the shield-absorbed damage exception."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Malphite sends a targeted shard that deals magic damage on impact.",
+          "covered": true,
+          "mechanic_id": "Q.damage",
+          "reason": "Explains targeting, damage type and impact."
+        },
+        {
+          "answer_quote": "It temporarily slows the target and grants him movement speed based on how much speed the target loses.",
+          "covered": true,
+          "mechanic_id": "Q.speed_steal",
+          "reason": "Explains both speed effects and makes the gain dependent on actual speed loss."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Thunderclap passively grants bonus armor, with that bonus tripled while Granite Shield is active.",
+          "covered": true,
+          "mechanic_id": "W.armor",
+          "reason": "Correctly triples the ability's armor bonus rather than total armor."
+        },
+        {
+          "answer_quote": "Activating it empowers Malphite's next basic attack with extra range and additional physical damage.",
+          "covered": true,
+          "mechanic_id": "W.empowered_attack",
+          "reason": "Explains activation, the next basic attack, extra range and additional physical damage."
+        },
+        {
+          "answer_quote": "For a short time, his basic attacks also create a forward cone that deals physical damage.",
+          "covered": true,
+          "mechanic_id": "W.cone",
+          "reason": "Explains the temporary attack-triggered cone and its damage type without guaranteeing damage to the primary target."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Malphite slams the ground around himself, dealing magic damage to nearby enemies. The damage increases with his armor, and enemies hit temporarily lose attack speed.",
+          "covered": true,
+          "mechanic_id": "E.area_damage",
+          "reason": "Explains the nearby area around Malphite, magic damage and armor scaling."
+        },
+        {
+          "answer_quote": "The damage increases with his armor, and enemies hit temporarily lose attack speed.",
+          "covered": true,
+          "mechanic_id": "E.attack_speed_reduction",
+          "reason": "Explicitly explains temporary attack-speed reduction on affected enemies."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Malphite rapidly dashes to a chosen location, resisting interruption by crowd control during the dash.",
+          "covered": true,
+          "mechanic_id": "R.dash",
+          "reason": "Explicitly explains rapid movement to a chosen location."
+        },
+        {
+          "answer_quote": "Malphite rapidly dashes to a chosen location, resisting interruption by crowd control during the dash.",
+          "covered": true,
+          "mechanic_id": "R.displacement_immunity",
+          "reason": "Explains crowd-control interruption resistance without claiming immunity to every cancellation case."
+        },
+        {
+          "answer_quote": "On arrival, he deals magic damage to nearby enemies and knocks them into the air.",
+          "covered": true,
+          "mechanic_id": "R.impact",
+          "reason": "Explains arrival-based area magic damage and knockup."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "The Wiki supplies a specific exception to Riot's abbreviated recharge wording: shield-absorbed damage does not restart recharge. The draft includes this qualification.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Passive recharge trigger"
+    }
+  ],
+  "factual_risks": [
+    "This review checks supplied textual evidence only; it does not provide human approval or visual verification.",
+    "The pinned Data Dragon release does not establish a game patch label.",
+    "Several required mechanics rely on the supplied Wiki excerpt because Riot's summaries omit them.",
+    "R's crowd-control resistance must remain distinct from invulnerability, casting while grounded, and cancellation through death or documented nonfatal interruption. The draft preserves that distinction.",
+    "The L1 AP statement is supported across the supplied ability formulas, although its attached citations show only E and R.",
+    "No passive visual cue is asserted; the demonstration frames do not establish current-client or skin-specific appearance."
+  ]
+}

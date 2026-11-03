@@ -1,0 +1,1307 @@
+{
+  "approval_blockers": [
+    "All six cards are drafts requiring explicit editorial approval.",
+    "All clips/cues need manual visual verification.",
+    "Game patch label has not been independently established."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "-"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:akshan:overview:L1",
+      "issues": [
+        "UNAPPROVED draft.",
+        "AD focus is a broad teaching recommendation inferred from physical attacks and AD scaling, not an optimal build."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": null,
+      "media_type": "portrait",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "His attacks, concealed approaches and mobility explain his fighting role."
+      },
+      "slot": "-",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Attacks and ability hits stack on a target; the third stack deals bonus damage and can grant Akshan a shield against champions when available.",
+            "covered": true,
+            "mechanic_id": "P.three_hit",
+            "reason": "Explains target-specific stacks, third-stack damage and champion-triggered shielding with an availability qualification."
+          },
+          {
+            "answer_quote": "Basic attacks fire an extra shot, generally for reduced damage.",
+            "covered": true,
+            "mechanic_id": "P.second_shot",
+            "reason": "Explains the additional shot without universally claiming reduced damage against every target."
+          },
+          {
+            "answer_quote": "Canceling that extra shot grants a brief burst of movement speed.",
+            "covered": true,
+            "mechanic_id": "P.cancel_speed",
+            "reason": "Explicitly connects canceling the additional shot to movement speed."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "P"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:akshan:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The visual cue is a tentative proposal supported by ability text and official demonstration context, not current-client visual verification.",
+        "The extra shot has a minion damage exception and can be redirected before launch.",
+        "Shield availability is separate from reaching the third stack."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The shield may be gained only once every few seconds.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "The champion-triggered shield has a separate availability restriction; every third hit does not guarantee another shield."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Issuing an attack order on a different target before the additional shot has been launched causes Akshan to fire it at the new target.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "The additional shot applies on-hit effects, triggers on-attack effects, and is affected by critical strike modifiers.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "The additional shot can be redirected before launch and has basic-attack effect interactions."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Every three hits from Akshan's Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "The third stack consumes them all to deal bonus magic damage; if the target was a champion, he also gains a brief shield.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.three_hit",
+            "summary": "Attacks and ability hits build stacks on a target; the third stack deals bonus damage and grants Akshan a shield against champions, subject to shield availability."
+          },
+          {
+            "citations": [
+              {
+                "quote": "When Akshan Attacks, he fires an additional Attack for reduced damage.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Akshan's basic attack causes him to fire a second attack that deals reduced physical damage.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.second_shot",
+            "summary": "Basic attacks produce an additional shot, generally dealing reduced damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If he cancels the additional Attack, he instead gains Move Speed.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "If Akshan cancels the second attack, he gains a brief burst of move speed, increased based on his attack speed.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.cancel_speed",
+            "summary": "Canceling the additional shot grants a brief movement speed burst."
+          }
+        ],
+        "slot": "P",
+        "unsupported_claims": [
+          "The shield is granted when the third hit is against a non-champion.",
+          "The shield is available on every third hit without restriction."
+        ]
+      },
+      "media_type": "icon",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Third-hit damage and the shield affect trades, while canceling the extra shot helps him reposition."
+      },
+      "slot": "P",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "proposed_unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Akshan throws a boomerang that damages enemies going out and returning",
+            "covered": true,
+            "mechanic_id": "Q.boomerang",
+            "reason": "Explicitly describes damage on both passes."
+          },
+          {
+            "answer_quote": "extending its range whenever it hits an enemy.",
+            "covered": true,
+            "mechanic_id": "Q.range_extension",
+            "reason": "Directly describes hit-driven range extension."
+          },
+          {
+            "answer_quote": "Hitting an enemy champion grants Akshan a brief burst of movement speed.",
+            "covered": true,
+            "mechanic_id": "Q.champion_speed",
+            "reason": "Correctly restricts the movement speed trigger to champion hits."
+          },
+          {
+            "answer_quote": "It grants sight along its path and briefly reveals enemies hit.",
+            "covered": true,
+            "mechanic_id": "Q.reveal",
+            "reason": "Explains both trajectory sight and hit-target reveal."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "Q"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:akshan:q:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Sight, reveal and champion-hit movement speed are described only by the supplied Wiki excerpt.",
+        "Each enemy can be hit once per pass; non-champions take reduced damage.",
+        "A spell shield blocks one hit without preventing outgoing range extension."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Enemies can be hit only once per pass.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Avengerang deals reduced damage against non-champions.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Each enemy can be hit once on each pass, and non-champions take reduced damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Spell shield will only block a single hit. They do not prevent the initial throw from extending its range.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "A spell shield blocks one hit without preventing the outgoing boomerang's range extension."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Akshan throws a boomerang that deals damage going out and coming back, extending its range each time it hits an enemy.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Once the boomerang has passed its original range and has not recently hit an enemy, it homes back to Akshan and deals the same effects to enemies hit.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.boomerang",
+            "summary": "Throws a boomerang that damages enemies on its outgoing and return passes."
+          },
+          {
+            "citations": [
+              {
+                "quote": "extending its range each time it hits an enemy.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "extending its range each time it hits a target.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.range_extension",
+            "summary": "Hitting enemies extends the boomerang's range."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If this hits an enemy champion, Akshan gains a brief burst of move speed.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.champion_speed",
+            "summary": "Hitting an enemy champion grants Akshan a brief movement speed burst."
+          },
+          {
+            "citations": [
+              {
+                "quote": "briefly grants sight around its trajectory and deals physical damage to enemies hit, revealing them for 1 second",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.reveal",
+            "summary": "Grants sight along its trajectory and briefly reveals enemies hit."
+          }
+        ],
+        "slot": "Q",
+        "unsupported_claims": [
+          "A single pass can repeatedly damage the same enemy.",
+          "Hitting any enemy grants the champion-hit movement speed bonus."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Recognizing the return pass and range extension helps avoid extra damage and pursuit."
+      },
+      "slot": "Q",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Enemy champions who kill Akshan's allies become Scoundrels",
+            "covered": true,
+            "mechanic_id": "W.scoundrel_marks",
+            "reason": "Explains who receives the mark and what triggers it."
+          },
+          {
+            "answer_quote": "a qualifying takedown grants bonus gold, revives dead allies slain by that enemy and clears the other Scoundrel marks.",
+            "covered": true,
+            "mechanic_id": "W.revenge_revive",
+            "reason": "Includes all three consequences and avoids promising revival from any takedown."
+          },
+          {
+            "answer_quote": "Activating W grants camouflage that persists near terrain or in brush and expires quickly elsewhere.",
+            "covered": true,
+            "mechanic_id": "W.camouflage",
+            "reason": "Explains activation and the terrain-or-brush duration condition."
+          },
+          {
+            "answer_quote": "While active, he sees trails toward Scoundrels and gains movement speed and mana regeneration when pursuing them under the ability's conditions.",
+            "covered": true,
+            "mechanic_id": "W.pursuit",
+            "reason": "Explains trails and both pursuit bonuses while acknowledging their restrictions."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "W"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:akshan:w:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Riot summarizes revival as requiring a kill; Wiki specifies a qualifying takedown with recent damage.",
+        "Wiki specifies an alive requirement but separately permits activation during a zombie state; advanced state interactions remain unresolved.",
+        "Pursuit bonuses have facing and distance restrictions.",
+        "Attacking or casting abilities ends Going Rogue.",
+        "Akshan's own death does not create a Scoundrel mark; clones do not trigger revival, and revived allies appear at their summoning platform."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If Akshan scores a takedown against a Scoundrel while alive and within 3 seconds of damaging them, he receives an additional 100 and resurrects all dead allied champions that they have slain after 1 second.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Akshan can still trigger Going Rogue's passive while he is within a zombie state.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "The detailed description allows qualifying takedowns, including assists with recent damage, rather than requiring a killing blow. It specifies an alive requirement and separately allows activation during a zombie state."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Enemy champions that kill Akshan will not be marked as Scoundrels nor increase their slay count.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Clones do not count for triggering Going Rogue's passive.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Allies are resurrected at their summoning platform.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Akshan's own death does not create or increase a Scoundrel bounty, clones do not trigger the passive, and revived allies appear at their summoning platform."
+          },
+          {
+            "citations": [
+              {
+                "quote": "while facing them if they are within 5000 units",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Attacking or casting abilities ends Going Rogue immediately.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "The pursuit bonuses have facing and distance conditions. Attacking or casting an ability ends Going Rogue."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Akshan passively marks enemy champions as Scoundrels when they kill his ally champions.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Enemy champions that kill allied champions are marked as a Scoundrel for a long time.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.scoundrel_marks",
+            "summary": "Enemy champions who kill Akshan's allies become marked as Scoundrels."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Akshan kills a Scoundrel, he resurrects the allies they killed, gains bonus gold, and clears all marks.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "When Akshan scores a takedown on a Scoundrel, he gains bonus gold, all allies killed by the Scoundrel are resurrected, and Scoundrel status is removed from all other enemies.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.revenge_revive",
+            "summary": "Claiming a Scoundrel through a qualifying takedown revives dead allies slain by that enemy, grants bonus gold, and clears the other Scoundrel marks."
+          },
+          {
+            "citations": [
+              {
+                "quote": "When activated, Akshan enters camouflage",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Akshan loses the camouflage quickly while he is not in brush or near terrain.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Akshan enters camouflage, which lasts indefinitely while he is near terrain or inside brush, and for 2 seconds otherwise.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.camouflage",
+            "summary": "Activation grants camouflage that persists near terrain or inside brush and expires quickly elsewhere."
+          },
+          {
+            "citations": [
+              {
+                "quote": "gains Move Speed and Mana Regen while moving towards Scoundrels.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "During this time, he can see trails leading toward Scoundrels and gains move speed and mana regeneration while moving toward them.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.pursuit",
+            "summary": "While active, reveals trails toward Scoundrels and grants movement speed and mana regeneration when pursuing them under the ability's conditions."
+          }
+        ],
+        "slot": "W",
+        "unsupported_claims": [
+          "Any assist on a Scoundrel guarantees resurrection regardless of recent damage or Akshan's state.",
+          "Killing any enemy champion revives all dead allies.",
+          "Camouflage persists indefinitely everywhere."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Concealed approaches create threats, and a Scoundrel takedown can restore multiple allies."
+      },
+      "slot": "W",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Akshan hooks terrain and swings around it",
+            "covered": true,
+            "mechanic_id": "E.terrain_swing",
+            "reason": "Explains terrain attachment and swinging around it."
+          },
+          {
+            "answer_quote": "Akshan hooks terrain and swings around it, automatically firing at eligible enemies.",
+            "covered": true,
+            "mechanic_id": "E.automatic_shots",
+            "reason": "Describes automatic offensive shots during the swing without claiming universal nearest-target selection."
+          },
+          {
+            "answer_quote": "He can jump off early and fire a final shot; colliding with an enemy champion or terrain ends the swing.",
+            "covered": true,
+            "mechanic_id": "E.dismount",
+            "reason": "Explains voluntary dismount, its final shot and collision-based termination."
+          },
+          {
+            "answer_quote": "Enemy champion takedowns refresh the ability with a brief remaining cooldown.",
+            "covered": true,
+            "mechanic_id": "E.takedown_reset",
+            "reason": "Explains the refresh without promising immediate availability."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "E"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:akshan:e:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Automatic targeting uses visibility and priority overrides rather than always choosing the nearest enemy.",
+        "Wiki's reset shorthand is qualified by its detailed brief remaining cooldown.",
+        "Crowd-control interactions depend on the cast stage; clone takedowns do not refresh the ability.",
+        "Shots apply on-hit effects with reduced on-hit damage and cannot target structures or jungle plants.",
+        "The final jump cannot pass through terrain.",
+        "Precise hook wall-edge behavior and final-jump measurements are explicitly pending testing."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Akshan prioritizes firing at enemy champions with stacks of Dirty Fighting, then those damaged by his targeted spells in the last 4 seconds, then the nearest enemy.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "While swinging, he fires at the nearest visible enemy",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Automatic targeting has visibility requirements and priority overrides for marked champions and recently targeted enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "apply on-hit effects for each shot, with on-hit damage reduced to 25% effectiveness.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Akshan can fire at any targetable enemy unit excluding structures and jungle plants.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Shots apply on-hit effects with reduced on-hit damage and cannot target structures or jungle plants."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Only Heroic Swing's first cast is disabled while grounded or rooted. The third cast is still usable during those effects.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Heroic Swing's second and third cast can both be used while silenced.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Takedowns against clones do not count for resetting Heroic Swing's cooldown.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Cast availability depends on the stage and crowd control effect; clone takedowns do not reset the cooldown."
+          },
+          {
+            "citations": [
+              {
+                "quote": "PENDING FOR TEST: Hook range including lollipop against walls and final dash distance and speed.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "uncertain",
+            "summary": "Precise hook wall-edge behavior and final-jump distance and speed are explicitly pending testing."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Akshan fires a grappling hook into terrain then swings around it",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "First Cast: Akshan prepares to swing by firing a hook that embeds in the first terrain hit.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.terrain_swing",
+            "summary": "Hooks terrain, then swings around the attachment point."
+          },
+          {
+            "citations": [
+              {
+                "quote": "repeatedly firing at the nearest enemy while swinging.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Second Cast: Akshan swings around the terrain in a direction, firing physical damage bullets at the nearest enemy.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.automatic_shots",
+            "summary": "Automatically fires damaging shots at eligible enemies while swinging, generally using proximity with targeting priority overrides."
+          },
+          {
+            "citations": [
+              {
+                "quote": "He can jump off early or gets knocked off when colliding with champions or terrain.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Third Cast: While swinging, he can recast again to jump toward the target location and fire a final shot.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "stopping upon colliding with an enemy champion or terrain.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.dismount",
+            "summary": "Can recast to jump off and fire a final shot; colliding with an enemy champion or terrain ends the swing."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Heroic Swing's cooldown will reset upon scoring a champion takedown.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Scoring an enemy champion takedown reduces Heroic Swing's current cooldown to 0.5 seconds.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.takedown_reset",
+            "summary": "Enemy champion takedowns refresh Heroic Swing with a brief remaining cooldown."
+          }
+        ],
+        "slot": "E",
+        "unsupported_claims": [
+          "Shots always target the nearest enemy regardless of priority overrides.",
+          "The final jump can pass through terrain.",
+          "The pending hook wall-edge and final-jump measurements are verified."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The swing combines movement and damage, and takedown refreshes enable continued pursuit."
+      },
+      "slot": "E",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Akshan locks onto an enemy champion and stores bullets, releasing them early or automatically after charging.",
+            "covered": true,
+            "mechanic_id": "R.charge",
+            "reason": "Explains champion lock-on, storage and both release options."
+          },
+          {
+            "answer_quote": "Against champions and structures, damage increases with the struck target's missing health; minions are executed instead.",
+            "covered": true,
+            "mechanic_id": "R.missing_health_damage",
+            "reason": "Explains missing-health scaling with the supported minion exception."
+          },
+          {
+            "answer_quote": "Each bullet hits the first champion, minion or structure in its path.",
+            "covered": true,
+            "mechanic_id": "R.interception",
+            "reason": "Explains first-hit interception for each bullet."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "R"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:akshan:r:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Minion execution is explicitly separated from missing-health scaling for champions and structures.",
+        "Spell shields block only one bullet and do not prevent lock-on.",
+        "Target death or untargetability during charging cancels the ability.",
+        "Lock-on reveals the target and Akshan's position; he can move and use Heroic Swing while charging and firing."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Spell shield will not prevent the lock-on and will only block a single bullet.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Comeuppance will cancel if the target becomes untargetable or dies during the channel.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Spell shields do not stop lock-on and block only one bullet; target death or untargetability during charging cancels the ability."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Each bullet's damage applies life steal and executes minions.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Damage to structures does scale with their missing health.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Bullets apply life steal, execute minions, and retain missing-health scaling against structures."
+          },
+          {
+            "citations": [
+              {
+                "quote": "revealing them as well as revealing himself.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Akshan can move normally and cast Heroic Swing while channeling and firing Comeuppance.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Lock-on reveals the target and Akshan's position; he can move and use Heroic Swing while charging and firing."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Akshan locks onto an enemy champion and starts storing bullets.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Comeuppance will recast after the channel, or can recast early.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.charge",
+            "summary": "Locks onto an enemy champion and stores bullets while charging; can release early or fire automatically after charging."
+          },
+          {
+            "citations": [
+              {
+                "quote": "When released, he fires all stored bullets",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Recast: Akshan fires the stored bullets at the target, each dealing physical damage to the first enemy hit, increased by their missing health.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.missing_health_damage",
+            "summary": "Fires the stored bullets toward the target, dealing more damage as the struck enemy's missing health increases."
+          },
+          {
+            "citations": [
+              {
+                "quote": "to the first champion, minion, or structure hit.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "each dealing physical damage to the first enemy hit",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "The shots can hit structures.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.interception",
+            "summary": "Each bullet hits the first champion, minion, or structure in its path, allowing intervening units or structures to intercept it."
+          }
+        ],
+        "slot": "R",
+        "unsupported_claims": [
+          "Bullets pass through intervening minions or structures to reach the locked champion.",
+          "The ability guarantees a champion kill when the target is low on health.",
+          "A spell shield prevents lock-on or blocks the entire volley."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The volley threatens injured champions, while interception provides a defensive response."
+      },
+      "slot": "R",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Availability determines access to a major movement tool, and champion takedowns can refresh it.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability matters when assessing the threat of a finishing volley.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "AD focus is an inferred learning recommendation grounded in supplied physical attacks and AD scaling.",
+    "The pinned Data Dragon release does not establish a game patch label.",
+    "Official demonstration frames do not establish current-client or skin-specific visual verification.",
+    "W revival and pursuit have recent-damage, state, facing, distance and mode-specific conditions beyond the beginner explanation.",
+    "E has stage-specific crowd-control interactions and targeting priorities; pending-test measurements were excluded.",
+    "R missing-health scaling is scoped to champions and structures because Wiki separately specifies minion execution.",
+    "Wiki mode variants, bug notes, pending-test notes and unrelated skin material were not promoted into general mechanics.",
+    "Conflict source references use only excerpt IDs present in the supplied packet.",
+    "AD focus is a supported teaching inference, not evidence of an optimal build.",
+    "W's qualifying takedown and pursuit wording is accurate but leaves recent-damage, state, facing and distance restrictions implicit; these qualifications must not be removed.",
+    "E hook wall-edge behavior and final-jump measurements remain explicitly pending testing.",
+    "The passive visual description is a text-supported proposal, not verified current-client or skin-specific visual evidence.",
+    "The pinned Data Dragon version does not establish a game patch label.",
+    "This review provides AI support checking only; it does not confer human approval or visual verification."
+  ],
+  "findings": [],
+  "generation": {
+    "author": {
+      "attempts": 2,
+      "configured_model": "",
+      "execution_attempts": 2,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 12928,
+            "input_tokens": 34074,
+            "output_tokens": 4333,
+            "reasoning_output_tokens": 24
+          }
+        ]
+      },
+      "output_sha256": "35921e4e3c90c9a246694b1eba9bae9b47d96b4c5246e91f62a66a7d207a83a9",
+      "prior_errors": [
+        "Unknown conflict source"
+      ],
+      "provider": "codex",
+      "request_sha256": "8b4a342bf491bbd358016cdc120136594f4dde597a88d3c62badcab665ac576f"
+    },
+    "mechanics": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 12672,
+            "input_tokens": 23278,
+            "output_tokens": 4182,
+            "reasoning_output_tokens": 0
+          }
+        ]
+      },
+      "output_sha256": "f2ead7b1bdcdfcf96345c8410b9e57625c3d857236fca08d58bf40a04b018ba5",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "1516d163e570bc831fe94572bbcd822525f21a72f158b6171d969026a01f8d1e"
+    },
+    "passes": [
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 29047,
+                "output_tokens": 3831,
+                "reasoning_output_tokens": 26
+              }
+            ]
+          },
+          "output_sha256": "070f3972351d73329f29b634af6dc35d2559d4949a71a9cf1e1524588a4d1c8b",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "a052773962cfaac44f0e79eb3ab7fc0dea64307a59b06da2286e55d214cc371a"
+        },
+        "pass": 1,
+        "support_issues": 1,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 32185,
+                "output_tokens": 2201,
+                "reasoning_output_tokens": 86
+              }
+            ]
+          },
+          "output_sha256": "7294c73b5f0c84e231fe5767c20129f36eb722ede15d9009296b5003645d7857",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "4d4248f1580368589c9473301efe6884ccbb0e6cdd0d52a109030406b130dea0"
+        }
+      },
+      {
+        "author": {
+          "attempts": 2,
+          "configured_model": "",
+          "execution_attempts": 2,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12928,
+                "input_tokens": 34074,
+                "output_tokens": 4333,
+                "reasoning_output_tokens": 24
+              }
+            ]
+          },
+          "output_sha256": "35921e4e3c90c9a246694b1eba9bae9b47d96b4c5246e91f62a66a7d207a83a9",
+          "prior_errors": [
+            "Unknown conflict source"
+          ],
+          "provider": "codex",
+          "request_sha256": "8b4a342bf491bbd358016cdc120136594f4dde597a88d3c62badcab665ac576f"
+        },
+        "pass": 2,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 32085,
+                "output_tokens": 2090,
+                "reasoning_output_tokens": 62
+              }
+            ]
+          },
+          "output_sha256": "af1ac309bb3c70714a30d874019615ec1376949675b906ab7364de72a7dd7ca8",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "9de8d57e83970fabe7d54587dd8f84fd7bcbec5d795edc69a1cbd4210164e18f"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "34966c0a560515a98887e477fa52b7e6df09d1cb4f77cabedb055e594afeb700",
+    "verifier": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 32085,
+            "output_tokens": 2090,
+            "reasoning_output_tokens": 62
+          }
+        ]
+      },
+      "output_sha256": "af1ac309bb3c70714a30d874019615ec1376949675b906ab7364de72a7dd7ca8",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "9de8d57e83970fabe7d54587dd8f84fd7bcbec5d795edc69a1cbd4210164e18f"
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:akshan:e:recognize:L2": {
+      "cid": 2518315182804,
+      "guid": "da4ce0029868de",
+      "nid": 2018315182804
+    },
+    "champ:akshan:overview:L1": {
+      "cid": 2433333224080,
+      "guid": "e2a41cb3a0587b",
+      "nid": 1933333224080
+    },
+    "champ:akshan:p:recognize:L2": {
+      "cid": 2438983733750,
+      "guid": "f71ab637d129d4",
+      "nid": 1938983733750
+    },
+    "champ:akshan:q:recognize:L2": {
+      "cid": 2504467428706,
+      "guid": "7ffd413898b2c0",
+      "nid": 2004467428706
+    },
+    "champ:akshan:r:recognize:L2": {
+      "cid": 2412506541586,
+      "guid": "7a4a476cf5bfce",
+      "nid": 1912506541586
+    },
+    "champ:akshan:w:recognize:L2": {
+      "cid": 2472695855501,
+      "guid": "6946c152d60ba9",
+      "nid": 1972695855501
+    }
+  },
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "Exact-quote matching does not prove semantic truth.",
+    "AI verification is fallible and is not a human content or visual review."
+  ],
+  "media_references": [
+    "akshan_e.gif",
+    "akshan_e_icon.png",
+    "akshan_p.gif",
+    "akshan_p_icon.png",
+    "akshan_portrait.jpg",
+    "akshan_q.gif",
+    "akshan_q_icon.png",
+    "akshan_r.gif",
+    "akshan_r_icon.png",
+    "akshan_w.gif",
+    "akshan_w_icon.png"
+  ],
+  "new_cards": 6,
+  "passive_frame_evidence": [
+    {
+      "path": "visual-inputs/passive-1.png",
+      "sha256": "3043b4ba6c909b3e4e72d8ff3e5f1a2394ef9b53df022d2e0c74c17a5d75ec46",
+      "source_sha256": "f867afd66e325832e014aa21f00372b59b85b0e7cd828c2feab81dd202a462cd",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0166/ability_0166_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 1.7227
+    },
+    {
+      "path": "visual-inputs/passive-2.png",
+      "sha256": "4d8f923f28671d130c451cfb3ac4212bb17c44969a8169dd2e9d0a7bc7ded4ab",
+      "source_sha256": "f867afd66e325832e014aa21f00372b59b85b0e7cd828c2feab81dd202a462cd",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0166/ability_0166_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 4.594
+    },
+    {
+      "path": "visual-inputs/passive-3.png",
+      "sha256": "4087471a952072c18eb9615201b58b22f740b16af1190b9b65aa98ab2a274243",
+      "source_sha256": "f867afd66e325832e014aa21f00372b59b85b0e7cd828c2feab81dd202a462cd",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0166/ability_0166_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 7.4653
+    },
+    {
+      "path": "visual-inputs/passive-4.png",
+      "sha256": "ca54c1c0bb0bd044ff7add5c70a2c9695b49ba6bd374e078e447b19b36bbde67",
+      "source_sha256": "f867afd66e325832e014aa21f00372b59b85b0e7cd828c2feab81dd202a462cd",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0166/ability_0166_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 10.3365
+    }
+  ],
+  "publishable": false,
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "resolution": "Use qualifying takedown language, retaining recent-damage and state restrictions in metadata.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "W kill summary versus detailed takedown trigger"
+    },
+    {
+      "resolution": "Preserve the general revival mechanic; leave the alive requirement and zombie-state allowance for advanced-state QA.",
+      "source_ids": [
+        "wiki:W",
+        "riot:W"
+      ],
+      "topic": "W alive requirement versus zombie-state allowance"
+    },
+    {
+      "resolution": "Describe automatic shots at eligible enemies without claiming nearest-enemy selection is universal.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "E proximity summary versus targeting priority overrides"
+    },
+    {
+      "resolution": "Use a refresh with a brief remaining cooldown rather than promising immediate availability.",
+      "source_ids": [
+        "wiki:E",
+        "riot:E"
+      ],
+      "topic": "E reset shorthand versus detailed remaining cooldown"
+    },
+    {
+      "resolution": "Scope missing-health scaling to champions and structures and explicitly distinguish minion execution.",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "topic": "R general damage summary versus minion execution"
+    },
+    {
+      "resolution": "The qualified takedown wording preserves the supported general mechanic. Recent damage remains a restriction; the alive requirement versus zombie-state allowance needs advanced-state QA.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "W kill summary, qualifying takedowns and state restrictions"
+    },
+    {
+      "resolution": "The detailed terrain-or-brush wording agrees with Riot and supports the draft; the Wiki's introductory terrain-and-brush wording is inconsistent with its detailed description.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "W camouflage terrain-or-brush versus terrain-and-brush wording"
+    },
+    {
+      "resolution": "Eligible-enemy wording avoids treating the nearest-enemy summary as universal; detailed targeting priorities remain separate.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "E proximity summary versus targeting overrides"
+    },
+    {
+      "resolution": "The draft correctly retains a brief remaining cooldown instead of interpreting reset shorthand as immediate availability.",
+      "source_ids": [
+        "wiki:E",
+        "riot:E"
+      ],
+      "topic": "E reset shorthand versus detailed cooldown"
+    },
+    {
+      "resolution": "The draft correctly scopes missing-health scaling to champions and structures and distinguishes the Wiki's explicit minion execution.",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "topic": "R general damage summary versus minion execution"
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4091133"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

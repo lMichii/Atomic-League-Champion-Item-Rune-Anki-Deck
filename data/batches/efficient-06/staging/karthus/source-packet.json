@@ -1,0 +1,239 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "Upon dying, Karthus enters a spirit form that allows him to continue casting spells.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Karthus_Passive.png",
+      "name": "Death Defied",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0030/ability_0030_P1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "description": "Karthus unleashes a delayed blast at a location, dealing damage to nearby enemies. Deals increased damage to isolated enemies.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KarthusLayWasteA1.png",
+      "name": "Lay Waste",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0030/ability_0030_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "description": "Karthus creates a passable screen of leeching energy. Any enemy units that walk through the screen have their Move Speed and Magic Resist reduced for a period.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KarthusWallOfPain.png",
+      "name": "Wall of Pain",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0030/ability_0030_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "description": "Karthus passively steals energy from his victims, gaining Mana on each kill. Alternatively, Karthus can surround himself in the souls of his prey, dealing damage to nearby enemies, but quickly draining his own Mana.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KarthusDefile.png",
+      "name": "Defile",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0030/ability_0030_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        200,
+        180,
+        160
+      ],
+      "description": "After channeling for 3 seconds, Karthus deals damage to all enemy champions.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/KarthusFallenOne.png",
+      "name": "Requiem",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0030/ability_0030_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/karthus/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Karthus"
+  },
+  "champion": {
+    "ddragon_id": "Karthus",
+    "name": "Karthus",
+    "riot_id": 30,
+    "roles": [
+      "Mage"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/Karthus/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "0a0005961fbe01753d200ffacc3f1cf555d7b6df1739278a5d5c1f86d13429ef",
+      "text": "Upon dying, Karthus enters a spirit form that allows him to continue casting spells.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Karthus.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "Death Defied",
+      "provider": "league_wiki",
+      "sha256": "76c56468b88d31513c2d3d8a7f5fee79df50a6755c91466e69d76538ee6efd4e",
+      "text": "Death Defied\nInnate: Upon dying, Karthus enters an untargetable spirit form for a few seconds that allows him to continue casting spells at no cost but without being able to move. If Defile has been learned, it will remain toggled on for Death Defied's entire duration.\nInnate: Upon taking fatal damage, Karthus enters a zombie state for 7 seconds, during which he can cast his abilities at no cost. If Defile has been learned, it will remain toggled on for Death Defied's entire duration. Requiem becomes disabled after 4 seconds of the duration have elapsed.\nWhile under this state, Karthus becomes untargetable and immune to crowd control as well as prevents all incoming damage, but is also rendered unable to move, declare basic attacks, use summoner spells, and activate items.\n\"I am become death!\"\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nDeath Defied's untargetability does not destroy in-flight projectiles.\nKarthus cannot be executed by the Aspect of the Dragon during Death Defied.\nAt the start of Death Defied, Karthus is set to 1 health.\nKarthus can still regenerate his health over the duration, but he will always die at the end of it.\nAfter Death Defied ends, the corpse of Karthus will retain unit collision despite being dead on the ground.\nKarthus' mana bar drains over the duration of Death Defied as an indicator of his time remaining in this state.\nZombie states trigger upon taking lethal damage.\nRaw damage effects will not prevent zombie states from triggering.\nAll resurrection effects will take precedence over effects that reanimate as a zombie.\nA champion that enters a zombie state will start their death timer upon triggering the effect.\nMost buffs and debuffs will be lost upon transitioning into a zombie state.\nThose that persist through death, such as Brand's Blaze, will remain.\nUndisplayed marker buffs, such as those imposed by Veigar's Event Horizon and Viktor's Gravity Field to prevent being affected multiple times by the same effect, will be lost.(bug)\nThis does not apply when transitioning from one zombie state to another zombie state.(bug)\nUnits within a zombie state cannot:\nUse Recall or Refillable Potion.\nActivate resurrection effects.\nTake Dark Passage, Catapult, or gates.\nInitate the Rift Herald Rodeo.\nPick up the Eye of the Herald.\nBe targeted by the following:\nBailout\nChronoshift\nUmbral Trespass.\nBe affected by the following:\nCurse of the Black Mist\nFear Beyond Death's chain missile\nTest of Spirit's initial missile\nLamb's Respite\nRealm of Death\nFountain health restore\nMap-Specific Differences\nARAM differences edit\nDuration changed to 5 seconds.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Karthus?oldid=3892644"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/Karthus/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "0a0005961fbe01753d200ffacc3f1cf555d7b6df1739278a5d5c1f86d13429ef",
+      "text": "Karthus unleashes a delayed blast at a location, dealing damage to nearby enemies. Deals increased damage to isolated enemies.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Karthus.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Lay Waste",
+      "provider": "league_wiki",
+      "sha256": "76c56468b88d31513c2d3d8a7f5fee79df50a6755c91466e69d76538ee6efd4e",
+      "text": "Lay Waste\nCOST:\n20 / 25 / 30 / 35 / 40 Mana\nCOOLDOWN:\n1\nCAST TIME:\n0.25\nTARGET RANGE:\n875\nEFFECT RADIUS:\n160\nActive: Karthus conjures a delayed blast at the target location that deals magic damage to all enemies within, doubled when only one target is struck.\nActive: Karthus conjures a blast at the target location that detonates after 0.528 seconds − 0.759 seconds, granting sight of the area and dealing magic damage to all enemies within, doubled when only one target is struck.\nMagic Damage:40 / 59 / 78 / 97 / 116 (+ 35% AP)\nIsolated Enhanced Damage:80 / 118 / 156 / 194 / 232 (+ 70% AP)\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nWalk in range of the target location to castDuring Death Defied, target at maximum range (clamped)\nAffects\nEnemies\nDamage classification\nType\nSee Notes\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThis ability always employs Quick cast.\nThe delay between the cast and the detonation is inconsistent, but always matches up with the VFX.(bug)\nDefile's ticks beyond the first has a similar issue.\nApplies spell damage if it hits a single target and area damage if it hits multiple targets.\nLay Waste also plays a different sound effect when it only hits one target.\nMap-Specific Differences\nArena differences edit\nAP ratio changed to 35% AP.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Karthus?oldid=3892644"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/Karthus/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "0a0005961fbe01753d200ffacc3f1cf555d7b6df1739278a5d5c1f86d13429ef",
+      "text": "Karthus creates a passable screen of leeching energy. Any enemy units that walk through the screen have their Move Speed and Magic Resist reduced for a period.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Karthus.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Wall of Pain",
+      "provider": "league_wiki",
+      "sha256": "76c56468b88d31513c2d3d8a7f5fee79df50a6755c91466e69d76538ee6efd4e",
+      "text": "Wall of Pain\nCOST:\n70 Mana\nCOOLDOWN:\n15\nCAST TIME:\n0.25\nTARGET RANGE:\n1000\nActive: Karthus erects a wall of pain at the target location that lasts a few seconds, enemies that touch it suffer reduced magic resistance and become slowed for a few seconds.\nActive: Karthus erects a wall of pain at the target location perpendicular to his facing that lasts 5 seconds, granting sight around its pillars and center.\nWall Length:800 / 900 / 1000 / 1100 / 1200 units\nEnemies that touch the wall are inflicted with 25% magic resistance reduction and become slowed for 5 seconds, decaying over the duration. This can affect enemies only once per cast.\nSlow:40 / 50 / 60 / 70 / 80%Reduced Slow:20 / 25 / 30 / 35 / 40%\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nWalk in range of the target location to cast\nAffects\nEnemies\nCounters\nSpell shield\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nNo additional details.\nMap-Specific Differences\nArena differences edit\nCooldown changed to 12 seconds.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Karthus?oldid=3892644"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/Karthus/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "0a0005961fbe01753d200ffacc3f1cf555d7b6df1739278a5d5c1f86d13429ef",
+      "text": "Karthus passively steals energy from his victims, gaining Mana on each kill. Alternatively, Karthus can surround himself in the souls of his prey, dealing damage to nearby enemies, but quickly draining his own Mana.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Karthus.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Defile",
+      "provider": "league_wiki",
+      "sha256": "76c56468b88d31513c2d3d8a7f5fee79df50a6755c91466e69d76538ee6efd4e",
+      "text": "Defile\nCOST:\n30 / 42 / 54 / 66 / 78 Mana per second\nCAST TIME:\nnone\nSTATIC COOLDOWN:\n0.5\nEFFECT RADIUS:\n550\nPassive: Karthus restores mana whenever he kills an enemy. Toggle: Karthus surrounds himself in a necrotic aura that continually deals magic damage to all nearby enemies, quickly draining his own mana.\nPassive: Karthus restores mana whenever he kills an enemy.\nMana Restored:10 / 20 / 30 / 40 / 50\nToggle: Karthus surrounds himself in a necrotic aura that deals magic damage every 0.25 seconds to all nearby enemies.\nMagic Damage Per Tick:7.5 / 12.5 / 17.5 / 22.5 / 27.5 (+ 5% AP)Damage Per Second:30 / 50 / 70 / 90 / 110 (+ 20% AP)\nToggling Defile off triggers a final tick of damage. Defile is toggled off automatically if Karthus becomes unable to pay its mana cost.\nDefile cannot be toggled off during Death Defied.\nNotes/General Details\nTargeting input\nAuto\nAffects\nSelf, Enemies\nDamage classification\nType\nAOE DOT damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nToggled abilities do not count as ability activations for the purposes of on-cast effects such as Spellblade and triggering Force Pulse's passive.\nDefile will restore mana if Karthus destroys an enemy structure.\nDefile re-calculates its damage with each tick based on changes in Karthus's ability power or an increase in the rank of Defile without the need to toggle it off and on again.\nDefile will toggle off automatically if Karthus enters resurrection.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Karthus?oldid=3892644"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/Karthus/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "0a0005961fbe01753d200ffacc3f1cf555d7b6df1739278a5d5c1f86d13429ef",
+      "text": "After channeling for 3 seconds, Karthus deals damage to all enemy champions.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Karthus.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Requiem",
+      "provider": "league_wiki",
+      "sha256": "76c56468b88d31513c2d3d8a7f5fee79df50a6755c91466e69d76538ee6efd4e",
+      "text": "Requiem\nCOST:\n100 Mana\nCOOLDOWN:\n200 / 180 / 160\nCAST TIME:\n0.25\nEFFECT RADIUS:\nGlobal\nActive: Karthus channels for a short time, then deals magic damage to all targetable enemy champions upon completion.\nActive: Karthus channels for 3 seconds, then deals magic damage to all targetable enemy champions upon completion.\nMagic Damage:200 / 350 / 500 (+ 70% AP)\n\"Die!\"\nNotes/General Details\nTargeting input\nAuto\nInvalid target override\nThe ability will cast with no valid targets\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nDisruption\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nRequiem's channel is telegraphed to all enemy champions by a beam of light that descends on all targets, including if they are untargetable or even dead.\nRequiem will affect clones.\nThe damage will apply spell effects to targets in order of being spawned. Single target spell effects (such as Luden's Echo) are thus triggered on the leftmost champion on the loading screen.\nRequiem will not affect Neeko if she's disguised as a non-champion if Karthus is affected by Death Defied.(bug)\nThe following table refers for interactions while Karthus is channeling:\nType\nChannel\nAttacking\nDisabled\nAbilities\nDisabled\nMovement\nDisabled\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nAll the other item-actives are disabled\nInterrupted by\nN/A\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nTeleport Recall Hexflash\nInterrupted by\nFlash\nInterrupted by\nDeath\nCast-inhibiting effects\nMap-Specific Differences\nArena differences edit\nBase damage changed to 350 / 550 / 750.\nAP ratio changed to 90% AP.\nCooldown changed to 120 / 100 / 80 seconds.\nChampion skins[edit | edit source]\nThis article section only contains champion skins. For all associated collection items, see Karthus (Collection).\nOriginal\n11.06.2009\nThe harbinger of oblivion, Karthus is an undying spirit whose haunting songs are a prelude to the horror of his nightmarish appearance. The living fear the eternity of undeath, but Karthus sees only beauty and purity in its embrace, a perfect union of life and death. When Karthus emerges from the Shadow Isles, it is to bring the joy of death to mortals, an apostle of the unliving.\nUnknown voice actor\nAlex 'alexplank' Flores\nLoot eligible\nView in 3D\nPhantom\n460\n13.01.2010\nUnknown voice actor\nUnknown artist\nLegacy\nLoot eligible\nLegacy\nView in 3D\nStatue of Karthus\n520\n03.07.2010\nAt the entry point of one of the world's most powerful nations stands the three-hundred-and-five-foot-tall statue of an evil, undead preacher holding a giant torch. Sometimes it comes to life. It's fun. Statues are fun.\nUnknown voice actor\nUnknown artist\nWonders of the World\nLoot eligible\nView in 3D\nGrim Reaper\n975\n26.09.2010\nUnknown voice actor\nUnknown artist\nTrick-or-Treat\nLoot eligible\nChromas\nView in 3D\nGrim Reaper Karthus Chromas\nBlight\nBurn\nFrostbite\nPentakill\n750\n29.08.2011\nLead singer of heavy-metal sensation PENTAKILL, Karthus sings in the voice of a fallen angel made of freshly polished chrome and dynamite that eats other dynamite. His vocals explode the sun in the sky, igniting the flame of metal within the hearts of all who hear.\nUnknown voice actor\nPan Chengwei\nPentakill\nLoot eligible\nAdditional/unique quotes\nNew SFX/VFX\nView in 3D • View Music\nFnatic\n750\n24.09.2014\nHonoring xPeke's winning performance as Karthus during the 2011 World Championship.\nUnknown voice actor\nUnknown artist\nWorld Champions: 2011\nLoot eligible\nLegacy\nView in 3D\nKarthus Lightsbane\n975\n17.11.2016\nDark sorcerer, master of forbidden magic, aspiring lich—all could describe Karthus Lightsbane, a high level spellcaster with shadowy motivations. The rest of the party is convinced he'll eventually betray them, since nothing in the Riftquest rules says he can't.\nUnknown voice actor\nUnknown artist\nRift Quest\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nInfernal\n1350\n16.07.2020\nThe disciples of Karthus usher this infernal harbinger into the world by singing his discordant chorus, a pledge that beckons pillars of flame unto them. On his arrival, the deathsinger's chant summons columns of hellfire that descend from the heavens above. Few live to tell of the dirge they heard before flames swept the land.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Karthus?oldid=3892644"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/Karthus/tags",
+      "provider": "riot_ddragon",
+      "sha256": "0a0005961fbe01753d200ffacc3f1cf555d7b6df1739278a5d5c1f86d13429ef",
+      "text": "Name: Karthus. Official role tags: Mage.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Karthus.json"
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Karthus_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 11042,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T13:41:03.478109+00:00",
+      "sha256": "0a0005961fbe01753d200ffacc3f1cf555d7b6df1739278a5d5c1f86d13429ef",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Karthus.json"
+    },
+    {
+      "bytes": 35022,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T13:41:03.621891+00:00",
+      "sha256": "6dfa28c8e10eec4dd70fb1dc7b7c6ffe15372ea7977a1cb854fdb6ed6b2ea438",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/30.json"
+    },
+    {
+      "bytes": 170593,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:41:03.969567+00:00",
+      "sha256": "91ad64f9f6ddaac7aafcaf013200491f9b1afd6867230251bb1a55efbdec4ebc",
+      "url": "https://www.leagueoflegends.com/en-us/champions/karthus/"
+    },
+    {
+      "bytes": 797343,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T13:41:04.287954+00:00",
+      "sha256": "76c56468b88d31513c2d3d8a7f5fee79df50a6755c91466e69d76538ee6efd4e",
+      "url": "https://wiki.leagueoflegends.com/en-us/Karthus"
+    }
+  ],
+  "schema_version": 1,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "3892644"
+  }
+}

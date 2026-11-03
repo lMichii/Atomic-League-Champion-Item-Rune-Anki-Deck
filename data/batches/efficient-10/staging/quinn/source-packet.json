@@ -1,0 +1,365 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "Valor, Quinn's Demacian eagle, periodically marks enemies with Harrier. Quinn's first basic attack against Harrier targets will deal bonus physical damage.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Quinn_Passive.png",
+      "name": "Harrier",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0133/ability_0133_P1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        11,
+        10.5,
+        10,
+        9.5,
+        9
+      ],
+      "description": "Quinn calls Valor to mark an enemy and hinder its vision before damaging all enemies in the immediate area.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/QuinnQ.png",
+      "name": "Blinding Assault",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0133/ability_0133_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        50,
+        45,
+        40,
+        35,
+        30
+      ],
+      "description": "Passively grants Quinn Attack Speed and Move Speed after she attacks a Harrier target. Activate to have Valor reveal a large area nearby.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/QuinnW.png",
+      "name": "Heightened Senses",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0133/ability_0133_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        12,
+        11,
+        10,
+        9,
+        8
+      ],
+      "description": "Quinn dashes to an enemy, dealing physical damage and slowing the target's Move Speed. Upon reaching the target, she leaps off the target, briefly interrupting it, and lands near her maximum Attack Range away from the target.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/QuinnE.png",
+      "name": "Vault",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0133/ability_0133_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        3,
+        3,
+        3
+      ],
+      "description": "Quinn and Valor team up to fly around at great speed. Ending the ability casts Skystrike, which deals damage to nearby enemies and marks champions with Harrier.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/QuinnR.png",
+      "name": "Behind Enemy Lines",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0133/ability_0133_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/quinn/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Quinn"
+  },
+  "champion": {
+    "ddragon_id": "Quinn",
+    "name": "Quinn",
+    "riot_id": 133,
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/Quinn/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "76abc8a51c41f82109c4d9c7610049338998fbeeae2160832d587374d37e5168",
+      "text": "Valor, Quinn's Demacian eagle, periodically marks enemies with Harrier. Quinn's first basic attack against Harrier targets will deal bonus physical damage.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Quinn.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "Harrier",
+      "provider": "league_wiki",
+      "sha256": "08ac5a8bd99864d1309a99bd982777027b445e32fee663e393a93a84817915c1",
+      "text": "Harrier\nSTATIC COOLDOWN:\n7 – 2.56 (based on critical strike chance)\nEFFECT RADIUS:\n525\nInnate: Quinn's damaging abilities mark enemies with Harrier and reveal them for a few seconds. Periodically, Valor marks a nearby enemy with Harrier. Quinn's next basic attack against a Harrier target consumes the mark to deal bonus physical damage.\nInnate: Quinn's Blinding Assault against the primary target, Vault, and Skystrike mark enemies hit with Harrier for 4 seconds, during which they are revealed. Valor will periodically mark a nearby visible enemy if no Harrier targets exist for 1 second.\nQuinn's basic attacks on-hit against Harrier targets are empowered to consume the mark to deal 15 – 132.35 (based on level) (+ 40% bonus AD) bonus physical damage.\nHarrier deals 75 bonus physical damage against monsters.\nWhile Behind Enemy Lines is active, Harrier is disabled and all Harrier marks are removed.\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf\nDamage classification\nType\nProc damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nNot Blocked\nParries\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIf a mark applied by an ability is overwritten, consumed, or timed out, Harrier goes on a 1-second cooldown if it's not already on cooldown.\nHarrier's targeting priority:\nLast unit hit (if it was a small minion it appears to select a different target).\nLowest-health enemy champion.\nLowest-health enemy minion.\nHarrier is consumed even if it is parried, the attack is negated in any case.\nHarrier will not mark enemy minions while Quinn is not visible, but will mark enemy champions.\nMap-Specific Differences\nOne for All differences edit\nQuinns may only trigger the bonus damage from their own Vulnerable debuffs.\nNote that all active debuffs are visible to all Quinns and are not easily distinguished unless its appearance is modified by a skin.\nEnemies can have multiple Vulnerable debuffs active on them at a time.\nArena differences edit\nBase damage changed to 11.5 – 109.25 (based on level).\nAD ratio changed to 118.4% – 157.5% (based on level) AD.\nCooldown changed to 5 / 4.2075 / 3.415 / 2.6225 / 1.83 seconds (Based on critical strike chance).\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn?oldid=4009372"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/Quinn/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "76abc8a51c41f82109c4d9c7610049338998fbeeae2160832d587374d37e5168",
+      "text": "Quinn calls Valor to mark an enemy and hinder its vision before damaging all enemies in the immediate area.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Quinn.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Blinding Assault",
+      "provider": "league_wiki",
+      "sha256": "08ac5a8bd99864d1309a99bd982777027b445e32fee663e393a93a84817915c1",
+      "text": "Blinding Assault\nCOST:\n50 / 55 / 60 / 65 / 70 Mana\nCOOLDOWN:\n11 / 10.5 / 10 / 9.5 / 9\nCAST TIME:\n0.25\nTARGET RANGE:\n1050\nEFFECT RADIUS:\n210\nWIDTH:\n120\nSPEED:\n1550\nActive: Quinn sends Valor in the target direction who stops upon hitting an enemy, dealing physical damage to all nearby enemies. The primary target is nearsighted briefly if they are a champion, and disarmed otherwise.\nActive: Quinn sends Valor in the target direction who stops upon hitting an enemy, marking them with Harrier and dealing physical damage to all nearby enemies, increased to 200% against monsters.\nPhysical Damage:65 / 100 / 135 / 170 / 205 (+ 80 / 85 / 90 / 95 / 100% bonus AD) (+ 50% AP)\nThe primary target is nearsighted for 1.75 seconds if they are a champion, reducing their sight radius to 350 units. Otherwise, they are disarmed for the same duration.\n\"Gouge 'em, Valor!\"\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nBlinding Assault's nearsight will persist through death.\nThis ability will cast from wherever the caster is at the start of the cast time.\nMap-Specific Differences\nArena differences edit\nAD ratio changed to 90 / 100 / 110 / 120 / 130% AD.\nAP ratio changed to 75% AP.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn?oldid=4009372"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/Quinn/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "76abc8a51c41f82109c4d9c7610049338998fbeeae2160832d587374d37e5168",
+      "text": "Passively grants Quinn Attack Speed and Move Speed after she attacks a Harrier target. Activate to have Valor reveal a large area nearby.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Quinn.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Heightened Senses",
+      "provider": "league_wiki",
+      "sha256": "08ac5a8bd99864d1309a99bd982777027b445e32fee663e393a93a84817915c1",
+      "text": "Heightened Senses\nCOOLDOWN:\n50 / 45 / 40 / 35 / 30\nCAST TIME:\nnone\nEFFECT RADIUS:\n2100\nPassive: Attacking a Vulnerable target or consuming a mark grants Quinn bonus attack speed and bonus movement speed for a short time. Active: Valor gains sight of the surrounding area for a short time, revealing enemies detected.\nPassive: Whenever Quinn uses a basic attack on-attack against a target marked by Harrier or consumes their mark, she gains bonus attack speed and bonus movement speed for 2 seconds.\nBonus Attack Speed:28 / 41 / 54 / 67 / 80%\nBonus Movement Speed:20 / 25 / 30 / 35 / 40%\nActive: Valor grants sight of the surrounding area for 2 seconds and reveals enemy champions within for the same duration.\n\"Eyes in the sky.\"\nNotes/General Details\nTargeting input\nAuto\nAffects\nSelf\nCounters\nSpell shield\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nQuinn marks enemy champions who were previously unseen but were revealed Heightened Senses in order to gain assist credit, lasting for the standard credit timer.\nMap-Specific Differences\nOne for All differences edit\nQuinns will gain the passive bonus for attacking a Vulnerable enemy versus enemies marked by any Quinn.\nNote that only the Quinn who applied the mark can consume the mark for bonus damage. One Quinn can apply the mark and then deliberately not trigger the mark to allow their allies to continually trigger the passive bonus.\nArena differences edit\nAttack speed changed to 28 / 41 / 54 / 67 / 80%.\nCooldown changed to 14 / 13 / 12 / 11 / 10 seconds.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn?oldid=4009372"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/Quinn/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "76abc8a51c41f82109c4d9c7610049338998fbeeae2160832d587374d37e5168",
+      "text": "Quinn dashes to an enemy, dealing physical damage and slowing the target's Move Speed. Upon reaching the target, she leaps off the target, briefly interrupting it, and lands near her maximum Attack Range away from the target.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Quinn.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Vault",
+      "provider": "league_wiki",
+      "sha256": "08ac5a8bd99864d1309a99bd982777027b445e32fee663e393a93a84817915c1",
+      "text": "Vault\nCOST:\n50 Mana\nCOOLDOWN:\n12 / 11 / 10 / 9 / 8\nCAST TIME:\nnone\nTARGET RANGE:\n600\nSPEED:\n2500 • 850\nActive: Quinn dashes to the target enemy, dealing physical damage, knocking them back, marking them with Harrier, and briefly slowing them. She then leaps backward.\nActive: Quinn dashes to the target enemy, marking them with Harrier, dealing physical damage, knocking them back a very short distance over 0.5 seconds, and slowing them by 50% decaying over 1.5 seconds. She then leaps back 525 units away from them.\nPhysical damage:40 / 65 / 90 / 115 / 140 (+ 20% bonus AD)\nVault resets Quinn's basic attack timer shortly after the initial dash. Heightened Senses can be cast during either of the dashes.\nNotes/General Details\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nPhysical\nMinion Aggro\nDrawn\nCounters\nSpell shield\nBlocked\nGrounded\nDisabled\nKnockdown\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nQuinn will track the target if they change locations.\nShe will dash to the target's previous location without applying Vault's effects if the target is too far away or moves beyond 1200 units.\nVault resets Quinn's remaining attack cooldown a short delay after the first dash ends (even if interrupted).\nThis delay is a fuzzy 0.25 to 0.5 seconds and this matches up with the moment the target of Vault is marked with Harrier.\nQuinn will automatically attempt to attack the target once she completes Vault.\nThe target will turn to face the opposite direction after being knocked back.\nUnlike its constant cast range Vault's bounce's can vary to allow Quinn to close or to make a gap between herself and the target (depending on casting position) or even to jump through a wall (if there is enough landing room on the other side).\nVault's knock back also interrupts the windup of basic attacks with uncancellable windups.(unexpected)\nMap-Specific Differences\nArena differences edit\nCooldown changed to 10 / 9 / 8 / 7 / 6 seconds.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn?oldid=4009372"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/Quinn/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "76abc8a51c41f82109c4d9c7610049338998fbeeae2160832d587374d37e5168",
+      "text": "Quinn and Valor team up to fly around at great speed. Ending the ability casts Skystrike, which deals damage to nearby enemies and marks champions with Harrier.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Quinn.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Behind Enemy Lines",
+      "provider": "league_wiki",
+      "sha256": "08ac5a8bd99864d1309a99bd982777027b445e32fee663e393a93a84817915c1",
+      "text": "Behind Enemy Lines\nCOST:\n50 / 25 / 0 Mana\nCOOLDOWN:\n3\nCAST TIME:\n0.25\nActive: Quinn channels for a short time to pair up with Valor. They then become united, increasing her movement speed and becoming ghosted. The duo lose the movement speed boost upon taking non-minion damage, and disband upon being immobilized, grounded, or silenced. While united, Quinn can cast Skystrike.\nActive: Quinn channels for 2 seconds, signaling Valor to pair up. Upon completion, he picks her up and they unite, increasing her total movement speed, granting her ghosting, and allowing her to cast Skystrike. Behind Enemy Lines can be recast after 0.5 seconds during the channel.\nTotal Movement Speed Increase:70 / 100 / 130%\nTaking damage from non- minions while Behind Enemy Lines is active or while Quinn is channeling the ability causes her to lose the bonus total movement speed for 3 seconds. Becoming immobilized, grounded, or silenced ends Behind Enemy Lines immediately and puts it on cooldown without performing Skystrike.\nOnce Behind Enemy Lines has been learned, respawning or entering any summoning platform will spawn Valor instantly.\nRecast: Quinn cancels the channel, placing Behind Enemy Lines on cooldown.\n\"Valor, to me!\"\nEdit\nSkystrike\nCAST TIME:\nnone\nEFFECT RADIUS:\n700\nActive: Quinn disbands from Valor and rains arrows down around her, dealing physical damage to nearby enemies. Quinn's attacks and damaging abilities automatically activate Skystrike.\nActive: Quinn detaches from Valor, ending Behind Enemy Lines' effects and raining arrows down around her, dealing physical damage to nearby enemies and marking them with Harrier.\nPhysical Damage:60 / 90 / 120 (+ 35% bonus AD)\nDeclaring a basic attack or casting Blinding Assault or Vault during Behind Enemy Lines automatically activates Skystrike.\nTargeting input\nAuto\nAffects\nSelf\nCounters\nGrounded\nDisabled\nDisruption\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nTaking damage from non- minions removes the bonus movement speed buff temporarily by suppressing it with the status effect of a slow.\nThis slow is not affected by slow resist or slow immunity, but it can be cleansed.\nWhile the slow is in effect, Behind Enemy Lines is not considered to grant increased movement speed for the purpose of Celerity.\nBehind Enemy Lines does not refund its mana cost if the channel was canceled via recast.\nThe only exception is if Quinn's mana falls below the mana cost, in which case she is granted enough mana back (the equal amount needed) to be able to cast Behind Enemy Lines again.\nRespawning or returning to the summoning platform will not spawn Valor if Behind Enemy Lines is on cooldown.\nIf Valor is spawned by respawning or returning to the summoning platform, Skystrike will be disabled from being manually cast for 2.5 seconds upon uniting. However, it will still automatically activate upon declaring a basic attack or casting Blinding Assault or Vault.\nBehind Enemy Lines ends immediately without Skystrike being cast if she enters or is inside the enemy fountain. The ability will go on full cooldown.\nQuinn will also spawn Valor when entering the enemy fountain.(bug)\nSelf or allied applied immobilizations such as Blast Cone, Tempered Fate, and Zhonya's Hourglass also count for ending Behind Enemy Lines.\nThe following table refers for interactions while Quinn is channeling:\nBehind Enemy Lines is not a movement channel, and so will not be interrupted by root and ground.\nType\nChannel\nAttacking\nInterrupts\nAbilities\nInterrupts\nMovement\nDisabled\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nHextech Rocketbelt\nInterrupted by\nAll item-actives not specified above interrupt\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nN/A\nInterrupted by\nFlash Teleport Recall Hexflash\nInterrupted by\nDeath\nCast-inhibiting effects\nTargeting input\nAuto\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIf Quinn uses Vault while Behind Enemy Lines is active, Skystrike will activate at her target's location after she bounces back.\nUpon respawning or recalling, Quinn's first Skytrike will deal double the normal amount of damage to enemies hit if activated by an ability.(bug)\nBehind Enemy Lines\nArena differences edit\nAD ratio changed to 100% AD.\nNo video available.\nPets[edit | edit source]\nValor\nControl type\nN/A\nTarget type\nN/A\nNotes\nValor inherits changes to Quinn's size.\nChampion skins[edit | edit source]\nThis article section only contains champion skins. For all associated collection items, see Quinn (Collection).\nOriginal\n01.03.2013\nQuinn is an elite ranger-knight of Demacia, who undertakes dangerous missions deep in enemy territory. She and her legendary eagle, Valor, share an unbreakable bond, and their foes are often slain before they realize they are fighting not one, but two of the kingdom’s greatest heroes. Nimble and acrobatic when required, Quinn takes aim with her crossbow while Valor marks their elusive targets from above, making them a deadly pair on the battlefield.\nLauren Mayhew\nKatie 'TeaTime' De Sousa\nLoot eligible\nView in 3D • View Music\nPhoenix\n975\n01.03.2013\nThe daring duo Quinn and the phoenix Valor are always near when crime is afoot! Combining their legendary powers, they clean up the streets of New Valoran with a well-placed arrows and the burning flames of justice!\nLauren Mayhew\nMichelle Hoefener\nSilver Age\nLoot eligible\nNew SFX/VFX\nView in 3D\nWoad Scout\n975\n09.06.2014\nPity those poor souls lost in the northern mountains—Quinn, scout of the Woad Tribe, will always find them. And those who cross her path are said never to return.\nLauren Mayhew\nUnknown artist\nWoad\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nCorsair\n750\n22.07.2015\nFor enterprising pirate crews, Quinn is a highly sought after lookout, though she comes at a high price for someone typically hidden away in the crow's nest. Then again, how many other hired hands can take out half a boarding party before they make it off their ship?\nLauren Mayhew\nSixmorevodka Studio\nBilgewater: Burning Tides\nLoot eligible\nNew SFX/VFX\nView in 3D\nHeartseeker\n975\n02.02.2017\nIt's a bird! It's a plane! It's a… dove? Quinn takes up the mantle of the Heartseekers to channel her inner romantic, peppering the battlefield with dozens of razor-sharp arrows and giant, stinging bird scratches.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn?oldid=4009372"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/Quinn/tags",
+      "provider": "riot_ddragon",
+      "sha256": "76abc8a51c41f82109c4d9c7610049338998fbeeae2160832d587374d37e5168",
+      "text": "Name: Quinn. Official role tags: Marksman, Assassin.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Quinn.json"
+    },
+    {
+      "id": "wiki:harrier",
+      "locator": "Harrier",
+      "provider": "league_wiki",
+      "sha256": "08ac5a8bd99864d1309a99bd982777027b445e32fee663e393a93a84817915c1",
+      "text": "Harrier\nSTATIC COOLDOWN:\n7 – 2.56 (based on critical strike chance)\nEFFECT RADIUS:\n525\nInnate: Quinn's damaging abilities mark enemies with Harrier and reveal them for a few seconds. Periodically, Valor marks a nearby enemy with Harrier. Quinn's next basic attack against a Harrier target consumes the mark to deal bonus physical damage.\nInnate: Quinn's Blinding Assault against the primary target, Vault, and Skystrike mark enemies hit with Harrier for 4 seconds, during which they are revealed. Valor will periodically mark a nearby visible enemy if no Harrier targets exist for 1 second.\nQuinn's basic attacks on-hit against Harrier targets are empowered to consume the mark to deal 15 – 132.35 (based on level) (+ 40% bonus AD) bonus physical damage.\nHarrier deals 75 bonus physical damage against monsters.\nWhile Behind Enemy Lines is active, Harrier is disabled and all Harrier marks are removed.\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf\nDamage classification\nType\nProc damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nNot Blocked\nParries\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIf a mark applied by an ability is overwritten, consumed, or timed out, Harrier goes on a 1-second cooldown if it's not already on cooldown.\nHarrier's targeting priority:\nLast unit hit (if it was a small minion it appears to select a different target).\nLowest-health enemy champion.\nLowest-health enemy minion.\nHarrier is consumed even if it is parried, the attack is negated in any case.\nHarrier will not mark enemy minions while Quinn is not visible, but will mark enemy champions.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn?oldid=4009372"
+    },
+    {
+      "id": "wiki:blindingassault",
+      "locator": "Blinding_Assault",
+      "provider": "league_wiki",
+      "sha256": "08ac5a8bd99864d1309a99bd982777027b445e32fee663e393a93a84817915c1",
+      "text": "Blinding Assault\nCOST:\n50 / 55 / 60 / 65 / 70 Mana\nCOOLDOWN:\n11 / 10.5 / 10 / 9.5 / 9\nCAST TIME:\n0.25\nTARGET RANGE:\n1050\nEFFECT RADIUS:\n210\nWIDTH:\n120\nSPEED:\n1550\nActive: Quinn sends Valor in the target direction who stops upon hitting an enemy, dealing physical damage to all nearby enemies. The primary target is nearsighted briefly if they are a champion, and disarmed otherwise.\nActive: Quinn sends Valor in the target direction who stops upon hitting an enemy, marking them with Harrier and dealing physical damage to all nearby enemies, increased to 200% against monsters.\nPhysical Damage:65 / 100 / 135 / 170 / 205 (+ 80 / 85 / 90 / 95 / 100% bonus AD) (+ 50% AP)\nThe primary target is nearsighted for 1.75 seconds if they are a champion, reducing their sight radius to 350 units. Otherwise, they are disarmed for the same duration.\n\"Gouge 'em, Valor!\"\nNotes/General Details\nTargeting input\nDirection\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nBlinding Assault's nearsight will persist through death.\nThis ability will cast from wherever the caster is at the start of the cast time.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn?oldid=4009372"
+    },
+    {
+      "id": "wiki:heightenedsenses",
+      "locator": "Heightened_Senses",
+      "provider": "league_wiki",
+      "sha256": "08ac5a8bd99864d1309a99bd982777027b445e32fee663e393a93a84817915c1",
+      "text": "Heightened Senses\nCOOLDOWN:\n50 / 45 / 40 / 35 / 30\nCAST TIME:\nnone\nEFFECT RADIUS:\n2100\nPassive: Attacking a Vulnerable target or consuming a mark grants Quinn bonus attack speed and bonus movement speed for a short time. Active: Valor gains sight of the surrounding area for a short time, revealing enemies detected.\nPassive: Whenever Quinn uses a basic attack on-attack against a target marked by Harrier or consumes their mark, she gains bonus attack speed and bonus movement speed for 2 seconds.\nBonus Attack Speed:28 / 41 / 54 / 67 / 80%\nBonus Movement Speed:20 / 25 / 30 / 35 / 40%\nActive: Valor grants sight of the surrounding area for 2 seconds and reveals enemy champions within for the same duration.\n\"Eyes in the sky.\"\nNotes/General Details\nTargeting input\nAuto\nAffects\nSelf\nCounters\nSpell shield\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nQuinn marks enemy champions who were previously unseen but were revealed Heightened Senses in order to gain assist credit, lasting for the standard credit timer.",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn?oldid=4009372"
+    },
+    {
+      "id": "wiki:vault",
+      "locator": "Vault",
+      "provider": "league_wiki",
+      "sha256": "08ac5a8bd99864d1309a99bd982777027b445e32fee663e393a93a84817915c1",
+      "text": "Vault\nCOST:\n50 Mana\nCOOLDOWN:\n12 / 11 / 10 / 9 / 8\nCAST TIME:\nnone\nTARGET RANGE:\n600\nSPEED:\n2500 • 850\nActive: Quinn dashes to the target enemy, dealing physical damage, knocking them back, marking them with Harrier, and briefly slowing them. She then leaps backward.\nActive: Quinn dashes to the target enemy, marking them with Harrier, dealing physical damage, knocking them back a very short distance over 0.5 seconds, and slowing them by 50% decaying over 1.5 seconds. She then leaps back 525 units away from them.\nPhysical damage:40 / 65 / 90 / 115 / 140 (+ 20% bonus AD)\nVault resets Quinn's basic attack timer shortly after the initial dash. Heightened Senses can be cast during either of the dashes.\nNotes/General Details\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nEnemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nPhysical\nMinion Aggro\nDrawn\nCounters\nSpell shield\nBlocked\nGrounded\nDisabled\nKnockdown\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nQuinn will track the target if they change locations.\nShe will dash to the target's previous location without applying Vault's effects if the target is too far away or moves beyond 1200 units.\nVault resets Quinn's remaining attack cooldown a short delay after the first dash ends (even if interrupted).\nThis delay is a fuzzy 0.25 to 0.5 seconds and this matches up with the moment the target of Vault is marked with Harrier.\nQuinn will automatically attempt to attack the target once she completes Vault.\nThe target will turn to face the opposite direction after being knocked back.\nUnlike its constant cast range Vault's bounce's can vary to allow Quinn to close or to make a gap between herself and the target (depending on casting position) or even to jump through a wall (if there is enough landing room on the other side).\nVault's knock back also interrupts the windup of basic attacks with uncancellable windups.(unexpected)",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn?oldid=4009372"
+    },
+    {
+      "id": "wiki:behindenemylines",
+      "locator": "Behind_Enemy_Lines",
+      "provider": "league_wiki",
+      "sha256": "08ac5a8bd99864d1309a99bd982777027b445e32fee663e393a93a84817915c1",
+      "text": "Behind Enemy Lines\nCOST:\n50 / 25 / 0 Mana\nCOOLDOWN:\n3\nCAST TIME:\n0.25\nActive: Quinn channels for a short time to pair up with Valor. They then become united, increasing her movement speed and becoming ghosted. The duo lose the movement speed boost upon taking non-minion damage, and disband upon being immobilized, grounded, or silenced. While united, Quinn can cast Skystrike.\nActive: Quinn channels for 2 seconds, signaling Valor to pair up. Upon completion, he picks her up and they unite, increasing her total movement speed, granting her ghosting, and allowing her to cast Skystrike. Behind Enemy Lines can be recast after 0.5 seconds during the channel.\nTotal Movement Speed Increase:70 / 100 / 130%\nTaking damage from non- minions while Behind Enemy Lines is active or while Quinn is channeling the ability causes her to lose the bonus total movement speed for 3 seconds. Becoming immobilized, grounded, or silenced ends Behind Enemy Lines immediately and puts it on cooldown without performing Skystrike.\nOnce Behind Enemy Lines has been learned, respawning or entering any summoning platform will spawn Valor instantly.\nRecast: Quinn cancels the channel, placing Behind Enemy Lines on cooldown.\n\"Valor, to me!\"\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn?oldid=4009372"
+    },
+    {
+      "id": "wiki:skystrike",
+      "locator": "Skystrike",
+      "provider": "league_wiki",
+      "sha256": "08ac5a8bd99864d1309a99bd982777027b445e32fee663e393a93a84817915c1",
+      "text": "Skystrike\nCAST TIME:\nnone\nEFFECT RADIUS:\n700\nActive: Quinn disbands from Valor and rains arrows down around her, dealing physical damage to nearby enemies. Quinn's attacks and damaging abilities automatically activate Skystrike.\nActive: Quinn detaches from Valor, ending Behind Enemy Lines' effects and raining arrows down around her, dealing physical damage to nearby enemies and marking them with Harrier.\nPhysical Damage:60 / 90 / 120 (+ 35% bonus AD)\nDeclaring a basic attack or casting Blinding Assault or Vault during Behind Enemy Lines automatically activates Skystrike.\nTargeting input\nAuto\nAffects\nSelf\nCounters\nGrounded\nDisabled\nDisruption\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nTaking damage from non- minions removes the bonus movement speed buff temporarily by suppressing it with the status effect of a slow.\nThis slow is not affected by slow resist or slow immunity, but it can be cleansed.\nWhile the slow is in effect, Behind Enemy Lines is not considered to grant increased movement speed for the purpose of Celerity.\nBehind Enemy Lines does not refund its mana cost if the channel was canceled via recast.\nThe only exception is if Quinn's mana falls below the mana cost, in which case she is granted enough mana back (the equal amount needed) to be able to cast Behind Enemy Lines again.\nRespawning or returning to the summoning platform will not spawn Valor if Behind Enemy Lines is on cooldown.\nIf Valor is spawned by respawning or returning to the summoning platform, Skystrike will be disabled from being manually cast for 2.5 seconds upon uniting. However, it will still automatically activate upon declaring a basic attack or casting Blinding Assault or Vault.\nBehind Enemy Lines ends immediately without Skystrike being cast if she enters or is inside the enemy fountain. The ability will go on full cooldown.\nQuinn will also spawn Valor when entering the enemy fountain.(bug)\nSelf or allied applied immobilizations such as Blast Cone, Tempered Fate, and Zhonya's Hourglass also count for ending Behind Enemy Lines.\nThe following table refers for interactions while Quinn is channeling:\nBehind Enemy Lines is not a movement channel, and so will not be interrupted by root and ground.\nType\nChannel\nAttacking\nInterrupts\nAbilities\nInterrupts\nMovement\nDisabled\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nHextech Rocketbelt\nInterrupted by\nAll item-actives not specified above interrupt\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite\nDisabled\nN/A\nInterrupted by\nFlash Teleport Recall Hexflash\nInterrupted by\nDeath\nCast-inhibiting effects\nTargeting input\nAuto\nAffects\nEnemies\nDamage classification\nType\nArea damage\nSub-type(s)\nPhysical\nCounters\nSpell shield\nBlocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nIf Quinn uses Vault while Behind Enemy Lines is active, Skystrike will activate at her target's location after she bounces back.\nUpon respawning or recalling, Quinn's first Skytrike will deal double the normal amount of damage to enemies hit if activated by an ability.(bug)\nBehind Enemy Lines",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn?oldid=4009372"
+    }
+  ],
+  "findings": [
+    {
+      "code": "adaptive_kit_structure",
+      "message": "6 live sections discovered; conventional slot headings are not a completeness contract."
+    }
+  ],
+  "kit_sections": [
+    {
+      "anchor": "Harrier",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Quinn_Harrier.png?76f57",
+      "id": "wiki:harrier",
+      "name": "Harrier"
+    },
+    {
+      "anchor": "Blinding_Assault",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Quinn_Blinding_Assault.png?14b04",
+      "id": "wiki:blindingassault",
+      "name": "Blinding Assault"
+    },
+    {
+      "anchor": "Heightened_Senses",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Quinn_Heightened_Senses.png?957d8",
+      "id": "wiki:heightenedsenses",
+      "name": "Heightened Senses"
+    },
+    {
+      "anchor": "Vault",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Quinn_Vault.png?eefca",
+      "id": "wiki:vault",
+      "name": "Vault"
+    },
+    {
+      "anchor": "Behind_Enemy_Lines",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Quinn_Behind_Enemy_Lines.png?1044f",
+      "id": "wiki:behindenemylines",
+      "name": "Behind Enemy Lines"
+    },
+    {
+      "anchor": "Skystrike",
+      "icon_url": "https://wiki.leagueoflegends.com/en-us/images/Quinn_Skystrike.png?58b13",
+      "id": "wiki:skystrike",
+      "name": "Skystrike"
+    }
+  ],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "media_catalog": [
+    {
+      "filename": "quinn_e.png",
+      "id": "cd:quinnepng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/hud/icons2d/quinn_e.png"
+    },
+    {
+      "filename": "quinn_passive.png",
+      "id": "cd:quinnpassivepng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/hud/icons2d/quinn_passive.png"
+    },
+    {
+      "filename": "quinn_q.png",
+      "id": "cd:quinnqpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/hud/icons2d/quinn_q.png"
+    },
+    {
+      "filename": "quinn_r1.png",
+      "id": "cd:quinnr1png",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/hud/icons2d/quinn_r1.png"
+    },
+    {
+      "filename": "quinn_w.png",
+      "id": "cd:quinnwpng",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/hud/icons2d/quinn_w.png"
+    }
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Quinn_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 11510,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T18:38:34.153769+00:00",
+      "sha256": "76abc8a51c41f82109c4d9c7610049338998fbeeae2160832d587374d37e5168",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Quinn.json"
+    },
+    {
+      "bytes": 29621,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T18:38:34.333304+00:00",
+      "sha256": "77b8db2e1ed2069ff9b5b70f9750a228ce2f2d2a19c1833a60162070b10986a6",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/133.json"
+    },
+    {
+      "bytes": 167571,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T18:38:34.770296+00:00",
+      "sha256": "04bca51cdd0d66312a9083d656207bc45664c86b6537ae5cabb00345be496d35",
+      "url": "https://www.leagueoflegends.com/en-us/champions/quinn/"
+    },
+    {
+      "bytes": 797903,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T18:38:35.213213+00:00",
+      "sha256": "08ac5a8bd99864d1309a99bd982777027b445e32fee663e393a93a84817915c1",
+      "url": "https://wiki.leagueoflegends.com/en-us/Quinn"
+    },
+    {
+      "bytes": 8450,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T18:38:35.520312+00:00",
+      "sha256": "0fcf559f85b7df4c12fe92ef0989f0443b943112b09d7437cc2c00aae4668dbd",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/hud/icons2d/"
+    }
+  ],
+  "schema_version": 2,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4009372"
+  }
+}

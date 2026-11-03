@@ -1,0 +1,354 @@
+{
+  "cards": [
+    {
+      "answer": "Annie is a mage and support who deals magic damage with fire spells and Tibbers. She can stun enemies and shield herself or an allied champion.",
+      "build_focus": "AP",
+      "counterplay": "Respect her ready stun and avoid grouping where her area spells can hit several allies.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Annie. Official role tags: Mage, Support.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Active: Annie hurls a fireball at the target enemy that deals magic damage.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Tibbers deals magic damage with his attacks and also burns nearby enemies.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Annie is a mage and support who deals magic damage with fire spells and Tibbers."
+        },
+        {
+          "citations": [
+            {
+              "quote": "At maximum stacks, her next offensive spell will consume them to stun the target.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Active: Annie grants herself or an allied champion—and Tibbers—a shield with a burst of move speed.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "She can stun enemies and shield herself or an allied champion."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Recognizing her stun threat and protective shield helps explain her fighting role.",
+      "slot": "-",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "AP is a broad learning focus inferred from the supplied AP scaling, not an item recommendation."
+      ]
+    },
+    {
+      "answer": "Annie builds up to four Pyromania stacks by hitting an enemy with Q or casting her other abilities. At full stacks, the next Q, W or R to land consumes the stacks to stun enemies hit. Her stun starts ready at game start and after respawning.",
+      "build_focus": "",
+      "counterplay": "Watch her stack counter and keep your distance when her stun is ready.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Annie generates a stack of Pyromania whenever she hits an enemy with Disintegrate or casts her other abilities, stacking up to 4 times",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Annie builds up to four Pyromania stacks by hitting an enemy with Q or casting her other abilities."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Energized: Annie empowers her next cast of Disintegrate, Incinerate, or Summon: Tibbers to consume all Pyromania stacks to stun enemies hit",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "The stun applies to the first ability that lands when the stun is available.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "At full stacks, the next Q, W or R to land consumes the stacks to stun enemies hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Annie begins the game and respawns with Pyromania available.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Annie gains maximum stacks of Pyromania when the game starts and upon respawning.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Her stun starts ready at game start and after respawning."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "The counter under Annie's health bar shows her stacks and lights up when her stun is ready.",
+        "meaningful": true,
+        "source_ids": [
+          "wiki:P"
+        ]
+      },
+      "priority": "A",
+      "priority_reason": "The ready stun changes the threat of her offensive spells.",
+      "slot": "P",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Visual cue is a proposal supported by text, not current-client visual verification.",
+        "Spell shields still allow stack generation; resurrection transitions preserve stacks, while death clears them before respawning restores full stacks."
+      ]
+    },
+    {
+      "answer": "Annie fires a targeted fireball that deals magic damage to an enemy. Killing the target refunds its mana cost and reduces its cooldown.",
+      "build_focus": "",
+      "counterplay": "Keep outside her targeting range when her stun is ready.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Annie hurls a fireball at the target enemy that deals magic damage.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Annie fires a targeted fireball that deals magic damage to an enemy."
+        },
+        {
+          "citations": [
+            {
+              "quote": "refunding the Mana cost if it destroys the target.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "If this kills the target, Disintegrate's cooldown is reduced by 50% and its mana cost is refunded.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Killing the target refunds its mana cost and reduces its cooldown."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "A targeted spell can deliver her ready stun.",
+      "slot": "Q",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The refund and cooldown reduction also apply if the target is dead when the missile arrives.",
+        "Target-invalidating events during casting can cancel Q without spending mana or starting its cooldown."
+      ]
+    },
+    {
+      "answer": "Annie releases fire in a chosen direction, dealing magic damage to enemies hit in a cone.",
+      "build_focus": "",
+      "counterplay": "Spread out and stay clear of her cone, especially when her stun is ready.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Annie casts a blazing cone of fire, dealing damage to all enemies in the area.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Active: Annie releases fire in a cone in the target direction, dealing magic damage to enemies hit.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Annie releases fire in a chosen direction, dealing magic damage to enemies hit in a cone."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The cone can deliver her stun to multiple enemies.",
+      "slot": "W",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Targets behind Annie can be hit if their radius intersects the cone.",
+        "The cone originates from Annie's position at the end of casting."
+      ]
+    },
+    {
+      "answer": "Annie shields herself or a target allied champion and grants a temporary burst of movement speed; Tibbers also receives these effects. While the shield is active, eligible enemies damaging it with attacks or spells take magic damage, once per enemy per cast for each shield.",
+      "build_focus": "",
+      "counterplay": "Account for the shield's speed burst when chasing. Avoid unnecessary hits into the active shield.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Annie grants herself or the target allied champion and Tibbers a shield for 3 seconds and 20% – 50% (based on level) bonus movement speed that decays over 1.5 seconds.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Grants Annie or an ally a shield, a burst of Move Speed",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "Annie shields herself or a target allied champion and grants a temporary burst of movement speed; Tibbers also receives these effects."
+        },
+        {
+          "citations": [
+            {
+              "quote": "damages enemies who strike her with attacks or spells.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "While Molten Shield is active, enemies that deal damage to it take magic damage. This may only occur once per enemy per cast for each active Molten Shield.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "While the shield is active, eligible enemies damaging it with attacks or spells take magic damage, once per enemy per cast for each shield."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The shield and speed burst can protect an ally or help Annie approach.",
+      "slot": "E",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Retaliation excludes turrets and dodged or missed attacks; blocked attacks still trigger it.",
+        "The Wiki reports Noxious Trap and Jack in the Box retaliation exceptions as bugs; these interactions are not independently verified."
+      ]
+    },
+    {
+      "answer": "Annie summons Tibbers at a target location, dealing magic damage to nearby enemies. Tibbers remains to attack and burn nearby enemies with magic damage; recast R to direct him while he is alive.",
+      "build_focus": "",
+      "counterplay": "Spread out to limit the summon's area hit. Move away from Tibbers to avoid his nearby burn.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Annie summons Tibbers to the target location in a burst of flame, dealing magic damage to enemies near him.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Annie wills her bear Tibbers to life, dealing damage to units in the area.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "Annie summons Tibbers at a target location, dealing magic damage to nearby enemies."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Tibbers deals magic damage with his attacks and also burns nearby enemies.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Tibbers then remains on the field as a controllable pet for up to 45 seconds.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Summon: Tibbers can be recast at any time while Tibbers is alive.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Recast: Annie directs Tibbers to the target location.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Tibbers remains to attack and burn nearby enemies with magic damage; recast R to direct him while he is alive."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The arrival area can deliver her stun, and Tibbers remains a nearby damage threat.",
+      "slot": "R",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Wiki also supports passive magic penetration, pet recovery, enrage and revenge behavior; these advanced details are omitted from the beginner explanation.",
+        "Recast interactions with activation effects are complex: Experimental Hexplate is reported as a bug, and Force Pulse remains pending testing.",
+        "Pet command exceptions during crowd control and Recall, return teleport behavior, and attack mitigation interactions require separate advanced treatment."
+      ]
+    }
+  ],
+  "champion_id": 1,
+  "champion_name": "Annie",
+  "conflicts": [
+    {
+      "resolution": "Use the detailed stack rule: Q generates a stack on hitting an enemy, while her other abilities generate stacks on casting.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Riot's four-spell summary does not specify Q's hit requirement."
+    },
+    {
+      "resolution": "Include attacks and damaging spells, supported by Riot and the Wiki's detailed description. Retain specific retaliation exceptions in QA metadata.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "The Wiki's short E summary mentions basic attacks, while its detailed description and Riot include broader retaliation."
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "B",
+      "reason": "Kill-based cooldown reduction affects how often Annie can use her targeted fireball.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability affects access to her cone and its potential area stun.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability affects shielding, movement speed and retaliation.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Initial summon availability matters for her area threat; recasting commands the existing pet.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "Evidence is pinned to the supplied Data Dragon release and Wiki revision; no current patch equivalence is established.",
+    "Official demonstration frames do not establish current-client or skin-specific visual behavior.",
+    "Wiki map-specific changes, pending-test notes and historical or skin material are not used as general mechanics.",
+    "Tibbers has complex pet behavior beyond the beginner card; reported bugs and untested recast interactions remain unresolved."
+  ],
+  "language": "en"
+}

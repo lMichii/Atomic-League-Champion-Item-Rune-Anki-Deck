@@ -1,0 +1,372 @@
+{
+  "cards": [
+    {
+      "answer": "Garen is a fighter and tank who damages nearby enemies with sword spins. He uses a speed boost and a silencing attack to reach and pressure foes, then threatens weakened champions with a finishing blow.",
+      "build_focus": "AD, Health",
+      "counterplay": "Keep space from his spin and empowered attack. Retreat before losing enough health to become an easy finishing target.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Garen. Official role tags: Fighter, Tank.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Garen rapidly spins his sword around his body, dealing physical damage to nearby enemies.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "Garen is a fighter and tank who damages nearby enemies with sword spins."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Garen gains a burst of Move Speed, breaking free of all slows affecting him. His next attack strikes a vital area of his foe, dealing bonus damage and silencing them.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "He uses a speed boost and a silencing attack to reach and pressure foes"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Garen calls upon the might of Demacia to attempt to execute an enemy champion.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Active: Garen strikes a lethal blow to an enemy champion that deals true damage based on the target's missing health.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "then threatens weakened champions with a finishing blow."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Recognizing his close-range pressure and finishing threat helps beginners choose safer spacing.",
+      "slot": "-",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "AD and health are a broad learning focus, not an optimal build recommendation; the supplied Q/E damage formulas support AD and W's shield formula supports bonus health."
+      ]
+    },
+    {
+      "answer": "Perseverance regenerates a portion of Garen's maximum health while active. Champion, epic monster or turret damage, enemy ability hits, and enemy summoner spells can temporarily interrupt it.",
+      "build_focus": "",
+      "counterplay": "Use safe opportunities to pressure him so he cannot freely recover health between fights.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Innate: Garen continually regenerates a portion of his maximum health.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "If Garen has not recently been struck by damage or enemy abilities, he regenerates a percentage of his total health each second.",
+              "source_id": "riot:P"
+            }
+          ],
+          "claim": "Perseverance regenerates a portion of Garen's maximum health while active."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Perseverance is lost for 8 seconds if Garen takes damage from champions, epic monsters, or turrets, or if he is hit by an enemy ability or affected by an enemy summoner spell, refreshing on subsequent damage and hits taken from them.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Champion, epic monster or turret damage, enemy ability hits, and enemy summoner spells can temporarily interrupt it."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "A brief glow appears around Garen as his passive healing begins.",
+        "meaningful": true,
+        "source_ids": [
+          "riot:P"
+        ]
+      },
+      "priority": "B",
+      "priority_reason": "His recovery changes how much progress a short trade makes.",
+      "slot": "P",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The visual cue is tentative, based on supplied duration-relative frames from the official passive clip associated with riot:P; it is not current-client or skin-specific verification.",
+        "Damage reduced to zero, dealt to shields, or absorbed by invulnerability does not start or refresh the interruption.",
+        "Subsequent qualifying events refresh the interruption; not every damage source interrupts healing."
+      ]
+    },
+    {
+      "answer": "Decisive Strike grants movement speed and removes existing slows. Garen's next basic attack deals bonus physical damage and silences its target.",
+      "build_focus": "",
+      "counterplay": "Keep distance when he speeds toward you. Do not rely on an existing slow to stop his approach.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Garen gains a burst of Move Speed, breaking free of all slows affecting him.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Active: Garen gains bonus movement speed and cleanses from slows.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Decisive Strike grants movement speed and removes existing slows."
+        },
+        {
+          "citations": [
+            {
+              "quote": "His next basic attack will lunge and deal bonus physical damage, silencing the target.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "His next attack strikes a vital area of his foe, dealing bonus damage and silencing them.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "Garen's next basic attack deals bonus physical damage and silences its target."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The approach speed and silence create a consequential close-range threat.",
+      "slot": "Q",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Removing slows does not prevent their reapplication.",
+        "Spell shields negate only the silence; attack completion, lunge terrain interactions and on-hit details are advanced exceptions omitted from the beginner explanation."
+      ]
+    },
+    {
+      "answer": "Killing eligible enemies permanently builds Garen's armor and magic resistance, up to a cap. Activating Courage briefly grants a shield and increased tenacity. It also reduces incoming damage, with that protection lasting beyond the shield and tenacity.",
+      "build_focus": "",
+      "counterplay": "Avoid committing your main burst and crowd control into his brief defensive opening.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Passive: Garen permanently gains bonus armor and magic resist by killing enemies, up to a cap.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Garen passively increases his Armor and Magic Resist by killing enemies.",
+              "source_id": "riot:W"
+            }
+          ],
+          "claim": "Killing eligible enemies permanently builds Garen's armor and magic resistance, up to a cap."
+        },
+        {
+          "citations": [
+            {
+              "quote": "He may also activate this ability to give him a shield and tenacity for a brief moment",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "He also briefly gains a shield and increased tenacity.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Activating Courage briefly grants a shield and increased tenacity."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Garen reduces incoming damage for 4 seconds. For the first 0.75 seconds, Garen additionally grants himself a shield and 60% tenacity.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "It also reduces incoming damage, with that protection lasting beyond the shield and tenacity."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The shield, tenacity and damage reduction can blunt a committed attack.",
+      "slot": "W",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Eligible kills have exclusions; assists, wards, structures and several special units do not grant stacks.",
+        "The Wiki summary mentions an additional defensive boost at the cap without detailing it in the supplied mechanics text; that extra boost is omitted.",
+        "Map-specific stacking and protection differences are omitted."
+      ]
+    },
+    {
+      "answer": "Judgment repeatedly deals physical damage to nearby enemies as Garen spins, with increased damage to the nearest enemy hit. Bonus attack speed from items and level growth increases his number of spins. Repeated spin hits reduce enemy champions' armor.",
+      "build_focus": "",
+      "counterplay": "Move out of his spin to limit repeated hits and armor reduction. Avoid being the nearest enemy hit when possible.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Garen rapidly spins with his sword for a short time while ghosted, continually dealing physical damage to nearby enemies.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Judgment deals 25% increased damage against the nearest enemy hit.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Garen rapidly spins his sword around his body, dealing physical damage to nearby enemies.",
+              "source_id": "riot:E"
+            }
+          ],
+          "claim": "Judgment repeatedly deals physical damage to nearby enemies as Garen spins, with increased damage to the nearest enemy hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "He spins more based on his bonus attack speed.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Judgment only scales with bonus attack speed from items and growth (per level).",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Bonus attack speed from items and level growth increases his number of spins."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Enemy champions hit by enough spins will have reduced armor.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Repeated spin hits reduce enemy champions' armor."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Remaining in the area causes repeated damage and can reduce armor.",
+      "slot": "E",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Armor reduction requires repeated hits rather than applying on the first hit; exact threshold and refresh rules are omitted.",
+        "Garen can move while spinning but cannot declare basic attacks; recasting can end the spin early.",
+        "The animation cap does not cap damage ticks. Not every source of bonus attack speed increases spin count."
+      ]
+    },
+    {
+      "answer": "Demacian Justice targets an enemy champion with a true-damage finishing blow. Its damage increases with the target's missing health.",
+      "build_focus": "",
+      "counterplay": "Retreat before your health becomes critically low near Garen. A shield or spell shield can help protect against his finishing attempt.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Garen calls upon the might of Demacia to attempt to execute an enemy champion.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Active: Garen strikes a lethal blow to an enemy champion that deals true damage based on the target's missing health.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Demacian Justice targets an enemy champion with a true-damage finishing blow."
+        },
+        {
+          "citations": [
+            {
+              "quote": "True Damage:125 / 200 / 275 (+ 25 / 30 / 35% of target's missing health)",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Its damage increases with the target's missing health."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The missing-health damage makes staying nearby at low health especially dangerous.",
+      "slot": "R",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The finishing blow does not guarantee a kill through shields or spell shields.",
+        "Brief target reveal and cast cancellation conditions are advanced details omitted from the explanation."
+      ]
+    }
+  ],
+  "champion_id": 86,
+  "champion_name": "Garen",
+  "conflicts": [
+    {
+      "resolution": "Use the Wiki's eligible interruption sources and retain damage-prevention exceptions in metadata; do not teach that every damage source interrupts healing.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "Riot's broad passive interruption wording versus the Wiki's specific sources and exceptions"
+    },
+    {
+      "resolution": "Describe damage reduction as operating on activation and lasting beyond the brief shield and tenacity, following the Wiki's explicit timing.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "Courage's damage-reduction timing"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Track availability of his speed boost and silencing attack when judging approach threats.",
+      "slot": "Q",
+      "source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Track whether his main defensive activation is available before committing burst or crowd control.",
+      "slot": "W",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Track availability of the missing-health finishing threat before remaining nearby at low health.",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "The pinned Data Dragon release does not establish a game patch label.",
+    "The passive visual cue is a tentative proposal from the supplied official demonstration frames, not current-client verification.",
+    "Counterplay is inferred teaching guidance grounded in the supplied mechanics.",
+    "AD and health are a broad learning focus rather than an optimal item build.",
+    "Wiki-only advanced mechanics lack independent Riot confirmation in this packet.",
+    "Wiki skin prose, bugs and map-specific variants are excluded from the core explanations."
+  ],
+  "language": "en"
+}

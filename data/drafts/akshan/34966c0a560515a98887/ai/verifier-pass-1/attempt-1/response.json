@@ -1,0 +1,235 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Attacks and ability hits stack on a target; the third stack deals bonus damage and can grant Akshan a shield against champions when available.",
+          "covered": true,
+          "mechanic_id": "P.three_hit",
+          "reason": "Explains target stacks, third-stack damage and the champion shield with an availability qualification."
+        },
+        {
+          "answer_quote": "Basic attacks fire an extra shot, generally for reduced damage.",
+          "covered": true,
+          "mechanic_id": "P.second_shot",
+          "reason": "Explains the additional shot without excluding the minion damage exception."
+        },
+        {
+          "answer_quote": "Canceling that extra shot grants a brief burst of movement speed.",
+          "covered": true,
+          "mechanic_id": "P.cancel_speed",
+          "reason": "Directly explains the cancellation benefit."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Akshan throws a boomerang that damages enemies going out and returning, extending its range whenever it hits an enemy.",
+          "covered": true,
+          "mechanic_id": "Q.boomerang",
+          "reason": "Explains damage on both passes."
+        },
+        {
+          "answer_quote": "extending its range whenever it hits an enemy.",
+          "covered": true,
+          "mechanic_id": "Q.range_extension",
+          "reason": "Explicitly connects enemy hits to range extension."
+        },
+        {
+          "answer_quote": "Hitting an enemy champion grants Akshan a brief burst of movement speed.",
+          "covered": true,
+          "mechanic_id": "Q.champion_speed",
+          "reason": "States the champion-hit condition and movement benefit."
+        },
+        {
+          "answer_quote": "It grants sight along its path and briefly reveals enemies hit.",
+          "covered": true,
+          "mechanic_id": "Q.reveal",
+          "reason": "Explains both trajectory sight and hit-target reveal."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Enemy champions who kill Akshan's allies become Scoundrels",
+          "covered": true,
+          "mechanic_id": "W.scoundrel_marks",
+          "reason": "Explains which enemies acquire the mark."
+        },
+        {
+          "answer_quote": "a qualifying takedown grants bonus gold, revives dead allies slain by that enemy and clears the other Scoundrel marks.",
+          "covered": true,
+          "mechanic_id": "W.revenge_revive",
+          "reason": "Explains all three rewards with a qualified trigger."
+        },
+        {
+          "answer_quote": "Activating W grants camouflage that persists near terrain or in brush and expires quickly elsewhere.",
+          "covered": true,
+          "mechanic_id": "W.camouflage",
+          "reason": "Explains activation and environmental duration behavior; it does not promise camouflage survives attacks or casts."
+        },
+        {
+          "answer_quote": "While active, he sees trails toward Scoundrels and gains movement speed and mana regeneration when pursuing them under the ability's conditions.",
+          "covered": true,
+          "mechanic_id": "W.pursuit",
+          "reason": "Explains trails and both pursuit benefits while expressly qualifying their conditions."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Akshan hooks terrain and swings around it",
+          "covered": true,
+          "mechanic_id": "E.terrain_swing",
+          "reason": "Explains the terrain attachment and swing."
+        },
+        {
+          "answer_quote": "automatically firing at eligible enemies.",
+          "covered": true,
+          "mechanic_id": "E.automatic_shots",
+          "reason": "Explains automatic shots during the swing without incorrectly making nearest-target selection universal."
+        },
+        {
+          "answer_quote": "He can jump off early and fire a final shot; colliding with an enemy champion or terrain ends the swing.",
+          "covered": true,
+          "mechanic_id": "E.dismount",
+          "reason": "Explains voluntary dismount, final shot and collision termination."
+        },
+        {
+          "answer_quote": "Enemy champion takedowns refresh the ability with a brief remaining cooldown.",
+          "covered": true,
+          "mechanic_id": "E.takedown_reset",
+          "reason": "Explains the refresh without promising immediate availability."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": false,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Akshan locks onto an enemy champion and charges stored bullets, releasing them early or automatically after charging.",
+          "covered": true,
+          "mechanic_id": "R.charge",
+          "reason": "Explains champion lock-on, storage and both release options."
+        },
+        {
+          "answer_quote": "Damage increases with the struck target's missing health.",
+          "covered": true,
+          "mechanic_id": "R.missing_health_damage",
+          "reason": "Explains the supported general missing-health mechanic, but its unqualified scope needs repair for the separately specified minion execution behavior."
+        },
+        {
+          "answer_quote": "Each bullet hits the first champion, minion or structure in its path.",
+          "covered": true,
+          "mechanic_id": "R.interception",
+          "reason": "Explains first-hit interception."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": false,
+      "issues": [
+        "The answer first includes minions among struck targets, then unconditionally states that damage increases with the struck target's missing health. Wiki:R separately specifies that bullets execute minions and classifies minion hits as true damage. Qualify the scaling statement while preserving the supported general mechanic."
+      ],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Use qualifying takedown language. Retain recent-damage and state restrictions in metadata; the draft appropriately avoids requiring a killing blow.",
+      "source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "topic": "W kill shorthand versus detailed takedown trigger"
+    },
+    {
+      "resolution": "The alive requirement and explicit zombie-state allowance need advanced-state QA. Neither invalidates the supported general revival mechanic.",
+      "source_ids": [
+        "wiki:W",
+        "wiki:W"
+      ],
+      "topic": "W alive requirement versus zombie-state activation"
+    },
+    {
+      "resolution": "Eligible-enemy wording appropriately avoids treating nearest-enemy targeting as universal.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "E nearest-enemy summary versus targeting priority overrides"
+    },
+    {
+      "resolution": "Prefer the detailed brief remaining cooldown over an immediate-reset interpretation.",
+      "source_ids": [
+        "wiki:E",
+        "wiki:E"
+      ],
+      "topic": "E reset summary versus 0.5-second remaining cooldown"
+    },
+    {
+      "resolution": "Preserve missing-health scaling for the general mechanic and structures, but qualify the card's universal wording because minions have separately specified execution behavior.",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "topic": "R general damage summary versus minion execution"
+    }
+  ],
+  "factual_risks": [
+    "AD focus is a reasonable teaching inference from supplied physical attacks and AD scaling, rather than an explicitly sourced build recommendation.",
+    "W pursuit restrictions and qualifying-takedown requirements are abstracted in the answer. Their explicit qualifications avoid unconditional claims, but detailed instruction would need the supplied facing, distance, recent-damage and state conditions.",
+    "E precise hook wall-edge behavior and final-jump measurements remain pending testing in the supplied source.",
+    "Passive second-shot wording is supported textually; no current-client or skin-specific visual verification is established.",
+    "No internal provenance, confidence or development labels appear in the supplied card-facing answer, counterplay or visual-cue text.",
+    "This support check does not constitute human approval or visual verification."
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Annie builds up to four Pyromania stacks by hitting an enemy with Q or casting her other abilities. At full stacks, the next Q, W or R to land consumes the stacks to stun enemies hit.",
+          "covered": true,
+          "mechanic_id": "P.stun",
+          "reason": "Explains stack generation, the four-stack threshold, eligible offensive spells and the resulting stun."
+        },
+        {
+          "answer_quote": "Her stun starts ready at game start and after respawning.",
+          "covered": true,
+          "mechanic_id": "P.starts_ready",
+          "reason": "Explicitly covers both initial readiness and readiness after respawning."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Annie fires a targeted fireball that deals magic damage to an enemy.",
+          "covered": true,
+          "mechanic_id": "Q.targeted_damage",
+          "reason": "Explicitly states targeting, fireball delivery and magic damage."
+        },
+        {
+          "answer_quote": "Killing the target refunds its mana cost and reduces its cooldown.",
+          "covered": true,
+          "mechanic_id": "Q.kill_refund",
+          "reason": "States both kill benefits without claiming a complete reset or making kills the exclusive refund condition."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Annie releases fire in a chosen direction, dealing magic damage to enemies hit in a cone.",
+          "covered": true,
+          "mechanic_id": "W.cone_damage",
+          "reason": "Explains direction, cone shape and magic damage without excluding intersecting targets behind Annie."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Annie shields herself or a target allied champion and grants a temporary burst of movement speed; Tibbers also receives these effects.",
+          "covered": true,
+          "mechanic_id": "E.shield",
+          "reason": "Explicitly identifies the shield and its selectable recipients, with Tibbers also receiving it."
+        },
+        {
+          "answer_quote": "Annie shields herself or a target allied champion and grants a temporary burst of movement speed; Tibbers also receives these effects.",
+          "covered": true,
+          "mechanic_id": "E.move_speed",
+          "reason": "Explicitly explains the temporary movement speed benefit and its recipients."
+        },
+        {
+          "answer_quote": "While the shield is active, eligible enemies damaging it with attacks or spells take magic damage, once per enemy per cast for each shield.",
+          "covered": true,
+          "mechanic_id": "E.retaliation",
+          "reason": "Explains the active-shield condition, eligible attacks and spells, magic retaliation and per-enemy limit. The eligibility qualification allows the supplied exceptions."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Annie summons Tibbers at a target location, dealing magic damage to nearby enemies.",
+          "covered": true,
+          "mechanic_id": "R.summon_damage",
+          "reason": "Explains location targeting and arrival-area magic damage."
+        },
+        {
+          "answer_quote": "Tibbers remains to attack and burn nearby enemies with magic damage; recast R to direct him while he is alive.",
+          "covered": true,
+          "mechanic_id": "R.pet_damage",
+          "reason": "Explicitly explains persistent pet attacks and nearby magic burn."
+        },
+        {
+          "answer_quote": "Tibbers remains to attack and burn nearby enemies with magic damage; recast R to direct him while he is alive.",
+          "covered": true,
+          "mechanic_id": "R.pet_control",
+          "reason": "Explicitly explains recasting R to command the living pet."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "The detailed Wiki rule supports Q generating stacks on hitting an enemy and other abilities on casting. The draft appropriately uses that qualification.",
+      "source_ids": ["riot:P", "wiki:P"],
+      "topic": "Riot's casting summary omits Q's hit requirement."
+    },
+    {
+      "resolution": "The Wiki explicitly supplies first-landing guidance, supporting the draft's landing-order explanation despite its separate next-cast wording.",
+      "source_ids": ["wiki:P", "riot:P"],
+      "topic": "Passive descriptions alternate between next cast and first ability to land."
+    },
+    {
+      "resolution": "Riot and the detailed Wiki description support retaliation from damaging attacks and spells. The narrower Wiki summary does not justify removing spell retaliation; reported exceptions remain QA metadata.",
+      "source_ids": ["riot:E", "wiki:E"],
+      "topic": "The Wiki's short E summary mentions only basic attacks."
+    }
+  ],
+  "factual_risks": [
+    "The supplied evidence is version-pinned and establishes no equivalence to the current game patch.",
+    "The passive counter description is text-supported; this check does not verify the supplied demonstration frames or current-client visuals.",
+    "E retaliation exceptions involving Noxious Trap and Jack in the Box are reported bugs without independent verification.",
+    "R recast activation interactions remain advanced QA concerns: Experimental Hexplate is described as a bug, and Force Pulse is explicitly pending testing.",
+    "All six drafts remain unapproved; this assessment provides neither human approval nor visual verification."
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "cards": [
+    {
+      "text": {
+        "answer": "Sylas is a mage and assassin with an AP focus and magic damage. He combines spells with empowered attacks, heals through champion combat, and copies enemy ultimates. Counterplay: keep your distance, dodge his chains, and account for the ultimate he has copied.",
+        "build_focus": "AP",
+        "counterplay": "Keep your distance, dodge his chains, and account for the ultimate he has copied.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Official role tags: Mage, Assassin.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Magic Damage:75 / 110 / 145 / 180 / 215 (+ 60% AP)",
+                "source_id": "wiki:kingslayer"
+              },
+              {
+                "quote": "Magic Damage:80 / 130 / 180 / 230 / 280 (+ 80% AP)",
+                "source_id": "wiki:abduct"
+              }
+            ],
+            "claim": "Sylas is a mage and assassin with an AP focus and magic damage."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After casting a spell, Sylas stores a charge of Petricite Burst. Sylas's basic attacks will expend a charge",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Sylas lunges at an enemy with magical force dealing damage and healing himself against enemy champions.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "gaining a copy of their ultimate ability",
+                "source_id": "wiki:hijack"
+              }
+            ],
+            "claim": "He combines spells with empowered attacks, heals through champion combat, and copies enemy ultimates."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Recognizing his close combat pattern and copied ultimate guides enemy decisions.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Sylas. Official role tags: Mage, Assassin.",
+                "source_id": "riot:role"
+              }
+            ],
+            "id": "riot:role",
+            "summary": "Sylas is a mage and assassin."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize his fighting pattern and main threats.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "riot:P",
+          "riot:W",
+          "wiki:kingslayer",
+          "wiki:abduct",
+          "wiki:hijack"
+        ],
+        "subject_id": "Sylas",
+        "title": "Sylas",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Petricite Burst: casting abilities stores charges that empower Sylas's basic attacks. These attacks deal magic damage to the target and reduced magic damage to nearby enemies; stored charges also grant attack speed.",
+        "build_focus": "",
+        "counterplay": "Keep your distance while he has empowered attacks available.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Sylas' ability casts generate stacks of Unshackled that stack up to a cap.",
+                "source_id": "wiki:petriciteburst"
+              },
+              {
+                "quote": "Sylas' next basic attack consumes a stack to whirl his chains around him",
+                "source_id": "wiki:petriciteburst"
+              }
+            ],
+            "claim": "casting abilities stores charges that empower Sylas's basic attacks."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "dealing magic damage to the target and reduced magic damage to nearby enemies.",
+                "source_id": "wiki:petriciteburst"
+              },
+              {
+                "quote": "While he has stacks, he gains tremendous bonus attack speed.",
+                "source_id": "wiki:petriciteburst"
+              }
+            ],
+            "claim": "These attacks deal magic damage to the target and reduced magic damage to nearby enemies; stored charges also grant attack speed."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "Explains his threat between spell casts and his nearby splash damage.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Sylas' ability casts generate stacks of Unshackled that stack up to a cap. While he has stacks, he gains tremendous bonus attack speed.",
+                "source_id": "wiki:petriciteburst"
+              }
+            ],
+            "id": "wiki:petriciteburst",
+            "summary": "Ability casts store charges and grant attack speed while charges remain."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Sylas' next basic attack consumes a stack to whirl his chains around him, dealing magic damage to the target and reduced magic damage to nearby enemies.",
+                "source_id": "wiki:petriciteburst"
+              }
+            ],
+            "id": "riot:P",
+            "summary": "Charged attacks deal magic damage with reduced damage to nearby enemies."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize empowered attacks after spell casts.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:petriciteburst",
+          "riot:P"
+        ],
+        "subject_id": "wiki:petriciteburst",
+        "title": "Petricite Burst",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Chain Lash: Sylas lashes out converging chains that deal magic damage and briefly slow enemies hit. Their intersection explodes after a delay for more magic damage.",
+        "build_focus": "",
+        "counterplay": "Dodge the chains and move away from their intersection.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Sylas lashes out two chains that converge at the target location, dealing magic damage to enemies hit and slowing them for a brief moment.",
+                "source_id": "wiki:chainlash"
+              }
+            ],
+            "claim": "Sylas lashes out converging chains that deal magic damage and briefly slow enemies hit."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After a brief delay, the intersection explodes to deal magic damage to enemies within.",
+                "source_id": "wiki:chainlash"
+              }
+            ],
+            "claim": "Their intersection explodes after a delay for more magic damage."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "Recognizing the delayed explosion helps avoid follow-up damage.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Sylas lashes out two chains that converge at the target location, dealing magic damage to enemies hit and slowing them for a brief moment. After a brief delay, the intersection explodes to deal magic damage to enemies within.",
+                "source_id": "wiki:chainlash"
+              }
+            ],
+            "id": "wiki:chainlash",
+            "summary": "Converging chains damage and slow, followed by a delayed explosion at their intersection."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the initial slow and delayed damage area.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:chainlash",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:chainlash",
+        "title": "Chain Lash",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Kingslayer: Sylas dashes to a target enemy and deals magic damage. Damaging a champion also heals him, with stronger healing when he is missing more health.",
+        "build_focus": "",
+        "counterplay": "Respect his healing when chasing him at low health.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Sylas dashes to the target enemy and strikes them to deal magic damage.",
+                "source_id": "wiki:kingslayer"
+              }
+            ],
+            "claim": "Sylas dashes to a target enemy and deals magic damage."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If this damages a champion, Sylas is also healed, increased by 0% – 100% (based on his missing health).",
+                "source_id": "wiki:kingslayer"
+              }
+            ],
+            "claim": "Damaging a champion also heals him, with stronger healing when he is missing more health."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "His missing-health healing can change the outcome of a close fight.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Sylas dashes to the target enemy and strikes them to deal magic damage. If this hits a champion, Sylas is also healed, increased based on his missing health.",
+                "source_id": "wiki:kingslayer"
+              }
+            ],
+            "id": "wiki:kingslayer",
+            "summary": "A targeted damaging dash heals Sylas against champions, with increased healing based on missing health."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize his targeted engage and low-health recovery.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:kingslayer",
+          "riot:W"
+        ],
+        "subject_id": "wiki:kingslayer",
+        "title": "Kingslayer",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Abscond / Abduct: Sylas dashes to a location, then can briefly recast to throw his chains. The chains deal magic damage, reveal and stun the first enemy hit, then pull Sylas to them for a knock-up.",
+        "build_focus": "",
+        "counterplay": "Prepare to dodge the chain after his dash; use minions as cover.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Sylas dashes to the target location. He can then cast Abduct within a short time.",
+                "source_id": "wiki:abscond"
+              },
+              {
+                "quote": "Sylas whips his chains in the target direction",
+                "source_id": "wiki:abduct"
+              }
+            ],
+            "claim": "Sylas dashes to a location, then can briefly recast to throw his chains."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "deal magic damage and briefly stun the first enemy hit, revealing them. He will then dash to the target and briefly knock them up upon arrival.",
+                "source_id": "wiki:abduct"
+              }
+            ],
+            "claim": "The chains deal magic damage, reveal and stun the first enemy hit, then pull Sylas to them for a knock-up."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "His chain connection enables close combat and crowd control.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Sylas dashes to the target location. He can then cast Abduct within a short time.",
+                "source_id": "wiki:abscond"
+              }
+            ],
+            "id": "wiki:abscond",
+            "summary": "An initial dash opens a brief window to cast Abduct."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Sylas whips his chains in the target direction that deal magic damage and briefly stun the first enemy hit, revealing them. He will then dash to the target and briefly knock them up upon arrival.",
+                "source_id": "wiki:abduct"
+              }
+            ],
+            "id": "wiki:abduct",
+            "summary": "The chain damages, reveals and stuns the first enemy hit, then brings Sylas to them for a knock-up."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the dash followed by his chain engage.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:abscond",
+          "wiki:abduct",
+          "riot:E"
+        ],
+        "subject_id": "wiki:abscond",
+        "title": "Abscond / Abduct",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Hijack: Sylas copies an enemy champion's ultimate and briefly reveals them. He can hold the copy temporarily and recast to use it at no cost, but cannot copy the same champion again for a while. Copied abilities without AP scaling have their AD ratios converted to AP ratios.",
+        "build_focus": "",
+        "counterplay": "Account for the copied ultimate when choosing your position and timing an engage.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "gaining a copy of their ultimate ability and briefly revealing them.",
+                "source_id": "wiki:hijack"
+              }
+            ],
+            "claim": "Sylas copies an enemy champion's ultimate and briefly reveals them."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "He cannot steal from the same champion again for a while, and can hold the hijacked ability for some time, during which he can recast Hijack. Recast: Sylas casts his hijacked ability at no cost.",
+                "source_id": "wiki:hijack"
+              }
+            ],
+            "claim": "He can hold the copy temporarily and recast to use it at no cost, but cannot copy the same champion again for a while."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Hijacked abilities that do not scale with ability power have their attack damage ratios converted to ability power ratios.",
+                "source_id": "wiki:hijack"
+              }
+            ],
+            "claim": "Copied abilities without AP scaling have their AD ratios converted to AP ratios."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "The copied ultimate changes his available threat, and the target restriction affects repeat steals.",
+        "uncertainties": [
+          "The supplied Hijack excerpt ends during its champion-specific interaction list.",
+          "Base ability cooldowns and the exact per-target Hijack cooldown are not supplied."
+        ]
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Shape-shifting ultimates will transform Sylas into the target's alternate form, replacing his basic abilities and base stats.",
+                "source_id": "wiki:hijack"
+              }
+            ],
+            "status": "supported",
+            "summary": "Copied shape-shifting ultimates can replace his basic abilities and base stats with an alternate form."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Hijack's per target cooldown is indicated by a ring under recently targetted enemy champions, and is only visible to Sylas and each individual enemy.",
+                "source_id": "wiki:hijack"
+              }
+            ],
+            "status": "supported",
+            "summary": "The per-target cooldown has a ring indicator visible to Sylas and the affected enemy."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "gaining a copy of their ultimate ability and briefly revealing them.",
+                "source_id": "wiki:hijack"
+              }
+            ],
+            "id": "riot:R",
+            "summary": "Hijack copies an enemy champion's ultimate and briefly reveals them."
+          },
+          {
+            "citations": [
+              {
+                "quote": "He cannot steal from the same champion again for a while, and can hold the hijacked ability for some time, during which he can recast Hijack. Recast: Sylas casts his hijacked ability at no cost.",
+                "source_id": "wiki:hijack"
+              }
+            ],
+            "id": "wiki:hijack",
+            "summary": "The copy can be held temporarily and cast at no cost; the same champion cannot immediately be copied again."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Hijacked abilities that do not scale with ability power have their attack damage ratios converted to ability power ratios.",
+                "source_id": "wiki:hijack"
+              }
+            ],
+            "id": "riot:role",
+            "summary": "Copied abilities without AP scaling convert their AD ratios to AP ratios."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the variable ultimate threat and repeat-steal restriction.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:hijack",
+          "riot:R"
+        ],
+        "subject_id": "wiki:hijack",
+        "title": "Hijack",
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Important cooldown topics: Kingslayer healing availability, Abscond / Abduct engage availability, and Hijack's per-target lockout. Exact cooldown evidence is missing.",
+    "Hijack's champion-specific interaction list is truncated; individual copied ultimates are not exhaustively taught."
+  ],
+  "features": [
+    "standard",
+    "ability_variants",
+    "conditional_effects",
+    "transformations"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "Sylas dashes to the target location. He can then cast Abduct within a short time.",
+          "source_id": "wiki:abscond"
+        }
+      ],
+      "condition": "After casting Abscond, during its recast window.",
+      "from_id": "wiki:abscond",
+      "kind": "unlocks",
+      "to_id": "wiki:abduct"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Teaches spell-generated charges and empowered attacks; advanced attack interactions are omitted.",
+      "source_id": "wiki:petriciteburst",
+      "target_subject_ids": [
+        "wiki:petriciteburst"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Teaches the slow and delayed intersection explosion.",
+      "source_id": "wiki:chainlash",
+      "target_subject_ids": [
+        "wiki:chainlash"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Teaches targeted damage and missing-health healing.",
+      "source_id": "wiki:kingslayer",
+      "target_subject_ids": [
+        "wiki:kingslayer"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Teaches the initial dash together with its recast.",
+      "source_id": "wiki:abscond",
+      "target_subject_ids": [
+        "wiki:abscond"
+      ]
+    },
+    {
+      "disposition": "merged",
+      "reason": "The chain recast is taught with Abscond as the same engage sequence.",
+      "source_id": "wiki:abduct",
+      "target_subject_ids": [
+        "wiki:abscond"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Teaches copying, holding, casting and the per-target restriction; specialized transformations and interactions remain advanced.",
+      "source_id": "wiki:hijack",
+      "target_subject_ids": [
+        "wiki:hijack"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:petriciteburst",
+        "riot:P"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:chainlash",
+        "riot:Q"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:kingslayer",
+        "riot:W"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:abscond",
+        "wiki:abduct",
+        "riot:E"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:hijack",
+        "riot:R"
+      ]
+    }
+  ],
+  "summary": "An overview and primary ability cards teach Sylas's empowered attacks, delayed chain damage, healing, dash-and-chain engage, and copied ultimates. Abduct is merged with Abscond; specialized stolen-ultimate interactions remain advanced."
+}

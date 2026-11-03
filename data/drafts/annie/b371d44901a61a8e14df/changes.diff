@@ -1,0 +1,565 @@
+--- approved-100
++++ proposed-106-drafts
+@@ -5530,6 +5530,562 @@
+         "visual_cue_media_path": "",
+         "visual_cue_status": ""
+       }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:1",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Name: Annie. Official role tags: Mage, Support.",
++                "source_id": "riot:role"
++              },
++              {
++                "quote": "Active: Annie hurls a fireball at the target enemy that deals magic damage.",
++                "source_id": "wiki:Q"
++              },
++              {
++                "quote": "Tibbers deals magic damage with his attacks and also burns nearby enemies.",
++                "source_id": "wiki:R"
++              }
++            ],
++            "claim": "Annie is a mage and support who deals magic damage with fire spells and Tibbers."
++          },
++          {
++            "citations": [
++              {
++                "quote": "At maximum stacks, her next offensive spell will consume them to stun the target.",
++                "source_id": "wiki:P"
++              },
++              {
++                "quote": "Active: Annie grants herself or an allied champion—and Tibbers—a shield with a burst of move speed.",
++                "source_id": "wiki:E"
++              }
++            ],
++            "claim": "She can stun enemies and shield herself or an allied champion."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/annie/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4033194",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Annie"
++      },
++      "id": "champ:annie:overview:L1",
++      "importance": {
++        "priority": "A",
++        "reason": "Recognizing her stun threat and protective shield helps explain her fighting role."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Mage / Support",
++        "answer": "Annie is a mage and support who deals magic damage with fire spells and Tibbers. She can stun enemies and shield herself or an allied champion.",
++        "build_focus": "AP",
++        "category": "Champion",
++        "champion": "Annie",
++        "cooldown": "",
++        "counterplay": "Respect her ready stun and avoid grouping where her area spells can hit several allies.",
++        "front_hint": "CHAMPION OVERVIEW",
++        "icon_path": "media/annie_portrait.jpg",
++        "id": "champ:annie:overview:L1",
++        "level": "L1",
++        "media_path": "media/annie_portrait.jpg",
++        "media_type": "portrait",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What can this champion do?",
++        "review_status": "",
++        "slot": "-",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/annie/",
++        "source_video_path": "",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Annie",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "AP is a broad learning focus inferred from the supplied AP scaling, not an item recommendation."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:1",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Annie generates a stack of Pyromania whenever she hits an enemy with Disintegrate or casts her other abilities, stacking up to 4 times",
++                "source_id": "wiki:P"
++              }
++            ],
++            "claim": "Annie builds up to four Pyromania stacks by hitting an enemy with Q or casting her other abilities."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Energized: Annie empowers her next cast of Disintegrate, Incinerate, or Summon: Tibbers to consume all Pyromania stacks to stun enemies hit",
++                "source_id": "wiki:P"
++              },
++              {
++                "quote": "The stun applies to the first ability that lands when the stun is available.",
++                "source_id": "wiki:P"
++              }
++            ],
++            "claim": "At full stacks, the next Q, W or R to land consumes the stacks to stun enemies hit."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Annie begins the game and respawns with Pyromania available.",
++                "source_id": "riot:P"
++              },
++              {
++                "quote": "Annie gains maximum stacks of Pyromania when the game starts and upon respawning.",
++                "source_id": "wiki:P"
++              }
++            ],
++            "claim": "Her stun starts ready at game start and after respawning."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/annie/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4033194",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Annie"
++      },
++      "id": "champ:annie:p:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "The ready stun changes the threat of her offensive spells."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Pyromania",
++        "answer": "Annie builds up to four Pyromania stacks by hitting an enemy with Q or casting her other abilities. At full stacks, the next Q, W or R to land consumes the stacks to stun enemies hit. Her stun starts ready at game start and after respawning.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Annie",
++        "cooldown": "",
++        "counterplay": "Watch her stack counter and keep your distance when her stun is ready.",
++        "front_hint": "ANNIE · PASSIVE",
++        "icon_path": "media/annie_p_icon.png",
++        "id": "champ:annie:p:recognize:L2",
++        "level": "L2",
++        "media_path": "media/annie_p_icon.png",
++        "media_type": "icon",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "P",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/annie/",
++        "source_video_path": "media/annie_p.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Annie",
++        "visual_cue_description": "The counter under Annie's health bar shows her stacks and lights up when her stun is ready.",
++        "visual_cue_media_path": "media/annie_p.gif",
++        "visual_cue_status": "needs_visual_cue_review"
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Visual cue is a proposal supported by text, not current-client visual verification.",
++        "Spell shields still allow stack generation; resurrection transitions preserve stacks, while death clears them before respawning restores full stacks."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:1",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Active: Annie hurls a fireball at the target enemy that deals magic damage.",
++                "source_id": "wiki:Q"
++              }
++            ],
++            "claim": "Annie fires a targeted fireball that deals magic damage to an enemy."
++          },
++          {
++            "citations": [
++              {
++                "quote": "refunding the Mana cost if it destroys the target.",
++                "source_id": "riot:Q"
++              },
++              {
++                "quote": "If this kills the target, Disintegrate's cooldown is reduced by 50% and its mana cost is refunded.",
++                "source_id": "wiki:Q"
++              }
++            ],
++            "claim": "Killing the target refunds its mana cost and reduces its cooldown."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/annie/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4033194",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Annie"
++      },
++      "id": "champ:annie:q:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "A targeted spell can deliver her ready stun."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Disintegrate",
++        "answer": "Annie fires a targeted fireball that deals magic damage to an enemy. Killing the target refunds its mana cost and reduces its cooldown.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Annie",
++        "cooldown": "",
++        "counterplay": "Keep outside her targeting range when her stun is ready.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/annie_q_icon.png",
++        "id": "champ:annie:q:recognize:L2",
++        "level": "L2",
++        "media_path": "media/annie_q.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "Q",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/annie/",
++        "source_video_path": "media/annie_q.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Annie",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "The refund and cooldown reduction also apply if the target is dead when the missile arrives.",
++        "Target-invalidating events during casting can cancel Q without spending mana or starting its cooldown."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:1",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Annie casts a blazing cone of fire, dealing damage to all enemies in the area.",
++                "source_id": "riot:W"
++              },
++              {
++                "quote": "Active: Annie releases fire in a cone in the target direction, dealing magic damage to enemies hit.",
++                "source_id": "wiki:W"
++              }
++            ],
++            "claim": "Annie releases fire in a chosen direction, dealing magic damage to enemies hit in a cone."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/annie/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4033194",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Annie"
++      },
++      "id": "champ:annie:w:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "The cone can deliver her stun to multiple enemies."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Incinerate",
++        "answer": "Annie releases fire in a chosen direction, dealing magic damage to enemies hit in a cone.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Annie",
++        "cooldown": "",
++        "counterplay": "Spread out and stay clear of her cone, especially when her stun is ready.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/annie_w_icon.png",
++        "id": "champ:annie:w:recognize:L2",
++        "level": "L2",
++        "media_path": "media/annie_w.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "W",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/annie/",
++        "source_video_path": "media/annie_w.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Annie",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Targets behind Annie can be hit if their radius intersects the cone.",
++        "The cone originates from Annie's position at the end of casting."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:1",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Active: Annie grants herself or the target allied champion and Tibbers a shield for 3 seconds and 20% – 50% (based on level) bonus movement speed that decays over 1.5 seconds.",
++                "source_id": "wiki:E"
++              },
++              {
++                "quote": "Grants Annie or an ally a shield, a burst of Move Speed",
++                "source_id": "riot:E"
++              }
++            ],
++            "claim": "Annie shields herself or a target allied champion and grants a temporary burst of movement speed; Tibbers also receives these effects."
++          },
++          {
++            "citations": [
++              {
++                "quote": "damages enemies who strike her with attacks or spells.",
++                "source_id": "riot:E"
++              },
++              {
++                "quote": "While Molten Shield is active, enemies that deal damage to it take magic damage. This may only occur once per enemy per cast for each active Molten Shield.",
++                "source_id": "wiki:E"
++              }
++            ],
++            "claim": "While the shield is active, eligible enemies damaging it with attacks or spells take magic damage, once per enemy per cast for each shield."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/annie/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4033194",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Annie"
++      },
++      "id": "champ:annie:e:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "The shield and speed burst can protect an ally or help Annie approach."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Molten Shield",
++        "answer": "Annie shields herself or a target allied champion and grants a temporary burst of movement speed; Tibbers also receives these effects. While the shield is active, eligible enemies damaging it with attacks or spells take magic damage, once per enemy per cast for each shield.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Annie",
++        "cooldown": "",
++        "counterplay": "Account for the shield's speed burst when chasing. Avoid unnecessary hits into the active shield.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/annie_e_icon.png",
++        "id": "champ:annie:e:recognize:L2",
++        "level": "L2",
++        "media_path": "media/annie_e.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "E",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/annie/",
++        "source_video_path": "media/annie_e.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Annie",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Retaliation excludes turrets and dodged or missed attacks; blocked attacks still trigger it.",
++        "The Wiki reports Noxious Trap and Jack in the Box retaliation exceptions as bugs; these interactions are not independently verified."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:1",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Active: Annie summons Tibbers to the target location in a burst of flame, dealing magic damage to enemies near him.",
++                "source_id": "wiki:R"
++              },
++              {
++                "quote": "Annie wills her bear Tibbers to life, dealing damage to units in the area.",
++                "source_id": "riot:R"
++              }
++            ],
++            "claim": "Annie summons Tibbers at a target location, dealing magic damage to nearby enemies."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Tibbers deals magic damage with his attacks and also burns nearby enemies.",
++                "source_id": "wiki:R"
++              },
++              {
++                "quote": "Tibbers then remains on the field as a controllable pet for up to 45 seconds.",
++                "source_id": "wiki:R"
++              },
++              {
++                "quote": "Summon: Tibbers can be recast at any time while Tibbers is alive.",
++                "source_id": "wiki:R"
++              },
++              {
++                "quote": "Recast: Annie directs Tibbers to the target location.",
++                "source_id": "wiki:R"
++              }
++            ],
++            "claim": "Tibbers remains to attack and burn nearby enemies with magic damage; recast R to direct him while he is alive."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/annie/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "4033194",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Annie"
++      },
++      "id": "champ:annie:r:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "The arrival area can deliver her stun, and Tibbers remains a nearby damage threat."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Summon: Tibbers",
++        "answer": "Annie summons Tibbers at a target location, dealing magic damage to nearby enemies. Tibbers remains to attack and burn nearby enemies with magic damage; recast R to direct him while he is alive.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Annie",
++        "cooldown": "",
++        "counterplay": "Spread out to limit the summon's area hit. Move away from Tibbers to avoid his nearby burn.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/annie_r_icon.png",
++        "id": "champ:annie:r:recognize:L2",
++        "level": "L2",
++        "media_path": "media/annie_r.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "R",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/annie/",
++        "source_video_path": "media/annie_r.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Annie",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Wiki also supports passive magic penetration, pet recovery, enrage and revenge behavior; these advanced details are omitted from the beginner explanation.",
++        "Recast interactions with activation effects are complex: Experimental Hexplate is reported as a bug, and Force Pulse remains pending testing.",
++        "Pet command exceptions during crowd control and Recall, return teleport behavior, and attack mitigation interactions require separate advanced treatment."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
+     }
+   ],
+   "schema_version": 1

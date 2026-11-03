@@ -1,0 +1,596 @@
+{
+  "cards": [
+    {
+      "text": {
+        "answer": "Fiddlesticks is a mage/support with AP-scaling magic damage. It ambushes with a channeled blink into an area of sustained damage, with damaging abilities able to fear enemies when it is unseen and out of combat. Counterplay: watch hidden approaches and move away from its damage area.",
+        "build_focus": "AP",
+        "counterplay": "Watch hidden approaches and move away from its damage area.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Fiddlesticks. Official role tags: Mage, Support.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Magic Damage per Tick:37.5 / 62.5 / 87.5 (+ 12.5% AP)",
+                "source_id": "wiki:crowstorm"
+              }
+            ],
+            "claim": "Fiddlesticks is a mage/support with AP-scaling magic damage."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Fiddlesticks channels, then blinks to the target location surrounded by a murder of crows, continually dealing magic damage to nearby enemies.",
+                "source_id": "wiki:crowstorm"
+              },
+              {
+                "quote": "Passive: While Fiddlesticks has been out of combat for at least 2.25 seconds and is not visible to the enemy team, or is impersonating an Effigy, its damaging ability will additionally fear targets hit for a duration.",
+                "source_id": "wiki:terrify"
+              }
+            ],
+            "claim": "It ambushes with a channeled blink into an area of sustained damage, with damaging abilities able to fear enemies when it is unseen and out of combat."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Recognizing the hidden approach and area damage is central to fighting Fiddlesticks.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Fiddlesticks. Official role tags: Mage, Support.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Magic Damage per Tick:37.5 / 62.5 / 87.5 (+ 12.5% AP)",
+                "source_id": "wiki:crowstorm"
+              }
+            ],
+            "id": "riot:role",
+            "summary": "Mage/support with AP-scaling magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Fiddlesticks channels, then blinks to the target location surrounded by a murder of crows, continually dealing magic damage to nearby enemies.",
+                "source_id": "wiki:crowstorm"
+              }
+            ],
+            "id": "wiki:crowstorm",
+            "summary": "Channels before blinking into sustained nearby magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Passive: While Fiddlesticks has been out of combat for at least 2.25 seconds and is not visible to the enemy team, or is impersonating an Effigy, its damaging ability will additionally fear targets hit for a duration.",
+                "source_id": "wiki:terrify"
+              }
+            ],
+            "id": "wiki:terrify",
+            "summary": "Damaging abilities can fear from an unseen, out-of-combat setup."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Fiddlesticks' damage focus and ambush pattern.",
+        "slot": "",
+        "source_ids": ["riot:role", "wiki:terrify", "wiki:crowstorm"],
+        "subject_id": "Fiddlesticks",
+        "title": "Fiddlesticks",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "A Harmless Scarecrow replaces Fiddlesticks' trinket with effigies that imitate it. Fiddlesticks can impersonate an effigy by remaining idle out of combat; from level 6, placing an effigy also summons a temporary Sweeper Drone. Counterplay: treat apparent effigies cautiously when approaching.",
+        "build_focus": "",
+        "counterplay": "Treat apparent effigies cautiously when approaching.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Innate: Fiddlesticks has a Scarecrow Effigy in place of a trinket, which will imitate Fiddlesticks.",
+                "source_id": "wiki:aharmlessscarecrow"
+              }
+            ],
+            "claim": "A Harmless Scarecrow replaces Fiddlesticks' trinket with effigies that imitate it."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Fiddlesticks can impersonate an effigy by remaining idle out of combat.",
+                "source_id": "wiki:aharmlessscarecrow"
+              },
+              {
+                "quote": "From level 6 onward, placing an Effigy also summons a Sweeper Drone at the location for 6 seconds.",
+                "source_id": "wiki:aharmlessscarecrow"
+              }
+            ],
+            "claim": "Fiddlesticks can impersonate an effigy by remaining idle out of combat; from level 6, placing an effigy also summons a temporary Sweeper Drone."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "Effigy impersonation creates recognition uncertainty and supports ambushes.",
+        "uncertainties": [
+          "The supplied evidence describes inconsistent impersonation preparation timing; exact timing is omitted."
+        ]
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The trinket slot can still be temporarily replaced by Eye of the Herald.",
+                "source_id": "wiki:aharmlessscarecrow"
+              }
+            ],
+            "status": "supported",
+            "summary": "Eye of the Herald can temporarily replace the effigy trinket."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Innate: Fiddlesticks has a Scarecrow Effigy in place of a trinket, which will imitate Fiddlesticks.",
+                "source_id": "wiki:aharmlessscarecrow"
+              }
+            ],
+            "id": "wiki:aharmlessscarecrow",
+            "summary": "Effigies replace the normal trinket and imitate Fiddlesticks."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Fiddlesticks can impersonate an effigy by remaining idle out of combat.",
+                "source_id": "wiki:aharmlessscarecrow"
+              }
+            ],
+            "id": "wiki:P",
+            "summary": "Fiddlesticks can impersonate an effigy while idle out of combat."
+          },
+          {
+            "citations": [
+              {
+                "quote": "From level 6 onward, placing an Effigy also summons a Sweeper Drone at the location for 6 seconds.",
+                "source_id": "wiki:aharmlessscarecrow"
+              }
+            ],
+            "id": "riot:P",
+            "summary": "Effigy placement summons a temporary Sweeper Drone from level 6."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize effigy deception and the unusual trinket replacement.",
+        "slot": "P",
+        "source_ids": ["wiki:aharmlessscarecrow", "wiki:P", "riot:P"],
+        "subject_id": "wiki:aharmlessscarecrow",
+        "title": "A Harmless Scarecrow",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Terrify lets damaging abilities fear targets when Fiddlesticks has been out of combat and unseen by the enemy team, or is impersonating an effigy. Its targeted active fears and deals magic damage based on current health; recently feared targets resist another fear but take doubled Terrify damage instead. Counterplay: maintain vision of likely ambush positions and respect its targeted fear.",
+        "build_focus": "",
+        "counterplay": "Maintain vision of likely ambush positions and respect its targeted fear.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Passive: While Fiddlesticks has been out of combat for at least 2.25 seconds and is not visible to the enemy team, or is impersonating an Effigy, its damaging ability will additionally fear targets hit for a duration.",
+                "source_id": "wiki:terrify"
+              }
+            ],
+            "claim": "Terrify lets damaging abilities fear targets when Fiddlesticks has been out of combat and unseen by the enemy team, or is impersonating an effigy."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Fiddlesticks screeches at the target enemy, fearing them and dealing magic damage based on the target's current health.",
+                "source_id": "wiki:terrify"
+              },
+              {
+                "quote": "Targets feared by Fiddlesticks by any means cannot be affected by it again for a duration equal to Terrify's cooldown. Against these targets, Terrify's damage and minimum threshold are doubled.",
+                "source_id": "wiki:terrify"
+              }
+            ],
+            "claim": "Its targeted active fears and deals magic damage based on current health; recently feared targets resist another fear but take doubled Terrify damage instead."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Explains both ambush crowd control and the damage follow-up after fear.",
+        "uncertainties": [
+          "Fear immunity lasts for Terrify's cooldown; no base cooldown values are supplied."
+        ]
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "There is a very brief grace period after Fiddlesticks becomes visible or enters combat during which Terrify's passive can remain active.",
+                "source_id": "wiki:terrify"
+              }
+            ],
+            "status": "supported",
+            "summary": "Brief fear eligibility can persist after entering vision or combat."
+          },
+          {
+            "citations": [
+              {
+                "quote": "impersonating an effigy allows Bountiful Harvest and Reap to fear enemies even when seen.",
+                "source_id": "wiki:terrify"
+              }
+            ],
+            "status": "supported",
+            "summary": "Effigy impersonation allows Harvest and Reap to fear even while seen."
+          }
+        ],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Passive: While Fiddlesticks has been out of combat for at least 2.25 seconds and is not visible to the enemy team, or is impersonating an Effigy, its damaging ability will additionally fear targets hit for a duration.",
+                "source_id": "wiki:terrify"
+              }
+            ],
+            "id": "wiki:Q",
+            "summary": "Unseen, out-of-combat casts or effigy impersonation enable ability fears."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Fiddlesticks screeches at the target enemy, fearing them and dealing magic damage based on the target's current health.",
+                "source_id": "wiki:terrify"
+              }
+            ],
+            "id": "riot:Q",
+            "summary": "The active targets an enemy with fear and current-health magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Targets feared by Fiddlesticks by any means cannot be affected by it again for a duration equal to Terrify's cooldown. Against these targets, Terrify's damage and minimum threshold are doubled.",
+                "source_id": "wiki:terrify"
+              }
+            ],
+            "id": "wiki:terrify",
+            "summary": "Recent fear prevents repeat fear while doubling Terrify damage."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize fear setup and the recent-fear damage conversion.",
+        "slot": "Q",
+        "source_ids": ["wiki:terrify", "wiki:Q", "riot:Q"],
+        "subject_id": "wiki:terrify",
+        "title": "Terrify",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Bountiful Harvest channels tethers to nearby enemies, revealing them, dealing repeated magic damage and healing Fiddlesticks. Completing the channel adds missing-health damage at the end; an uninterrupted ending refunds part of its cooldown. Targets need not be visible to be tethered. Counterplay: interrupt the channel or move away to break your tether.",
+        "build_focus": "",
+        "counterplay": "Interrupt the channel or move away to break your tether.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Fiddlesticks tethers to nearby enemies, channeling for a short duration during which it reveals tethered enemies and continually deals magic damage to them. Fiddlesticks heals for a portion of the damage dealt.",
+                "source_id": "wiki:bountifulharvest"
+              }
+            ],
+            "claim": "Bountiful Harvest channels tethers to nearby enemies, revealing them, dealing repeated magic damage and healing Fiddlesticks."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If Fiddlesticks ends the channel without interruption, the last tick deals increased magic damage based on each target's missing health and the remaining cooldown is reduced.",
+                "source_id": "wiki:bountifulharvest"
+              },
+              {
+                "quote": "Bountiful Harvest ends if all targets have died or broken their tethers. If the channel was not interrupted, 60% of the current cooldown is refunded.",
+                "source_id": "wiki:bountifulharvest"
+              }
+            ],
+            "claim": "Completing the channel adds missing-health damage at the end; an uninterrupted ending refunds part of its cooldown."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The target does not have to be visible to be tethered by this ability.",
+                "source_id": "wiki:bountifulharvest"
+              }
+            ],
+            "claim": "Targets need not be visible to be tethered."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "The drain sustains Fiddlesticks and threatens a damaging finish.",
+        "uncertainties": [
+          "The cooldown refund is important to repeat casts; base cooldown values are not supplied."
+        ]
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Fiddlesticks tethers to nearby enemies, channeling for a short duration during which it reveals tethered enemies and continually deals magic damage to them. Fiddlesticks heals for a portion of the damage dealt.",
+                "source_id": "wiki:bountifulharvest"
+              }
+            ],
+            "id": "wiki:bountifulharvest",
+            "summary": "Channeled tethers reveal and damage enemies while healing Fiddlesticks."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Fiddlesticks ends the channel without interruption, the last tick deals increased magic damage based on each target's missing health and the remaining cooldown is reduced.",
+                "source_id": "wiki:bountifulharvest"
+              }
+            ],
+            "id": "riot:W",
+            "summary": "An uninterrupted finish adds missing-health damage and reduces the remaining cooldown."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The target does not have to be visible to be tethered by this ability.",
+                "source_id": "wiki:bountifulharvest"
+              }
+            ],
+            "id": "wiki:W",
+            "summary": "Tether application does not require target visibility."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the drain, healing and incentive to interrupt its finish.",
+        "slot": "W",
+        "source_ids": ["wiki:bountifulharvest", "wiki:W", "riot:W"],
+        "subject_id": "wiki:bountifulharvest",
+        "title": "Bountiful Harvest",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Reap slashes an area for magic damage and a slow; enemies hit in the center are also silenced. Counterplay: dodge the slash and especially its center.",
+        "build_focus": "",
+        "counterplay": "Dodge the slash and especially its center.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Fiddlesticks slashes the target area, dealing magic damage and slowing enemies hit. Enemies hit in the center of the slash are also silenced.",
+                "source_id": "wiki:reap"
+              }
+            ],
+            "claim": "Reap slashes an area for magic damage and a slow; enemies hit in the center are also silenced."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "The center silence makes positioning within the slash consequential.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Fiddlesticks slashes the target area, dealing magic damage and slowing enemies hit. Enemies hit in the center of the slash are also silenced.",
+                "source_id": "wiki:reap"
+              }
+            ],
+            "id": "wiki:reap",
+            "summary": "An area slash damages and slows, with an additional silence in its center."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the slash and avoid its center silence.",
+        "slot": "E",
+        "source_ids": ["wiki:reap", "wiki:E", "riot:E"],
+        "subject_id": "wiki:reap",
+        "title": "Reap",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Crowstorm channels before Fiddlesticks blinks to a target location, surrounded by crows that continually deal magic damage to nearby enemies. Roots do not interrupt the channel. Counterplay: watch hidden approaches, spread out and leave the crow area.",
+        "build_focus": "",
+        "counterplay": "Watch hidden approaches, spread out and leave the crow area.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Fiddlesticks channels, then blinks to the target location surrounded by a murder of crows, continually dealing magic damage to nearby enemies.",
+                "source_id": "wiki:crowstorm"
+              }
+            ],
+            "claim": "Crowstorm channels before Fiddlesticks blinks to a target location, surrounded by crows that continually deal magic damage to nearby enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Roots do not interrupt the ability despite being a movement channel.",
+                "source_id": "wiki:crowstorm"
+              }
+            ],
+            "claim": "Roots do not interrupt the channel."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "The blink and sustained area damage define its major engage threat.",
+        "uncertainties": [
+          "Crowstorm cooldown availability is important for recognizing engage windows, but no cooldown values are supplied."
+        ]
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Fiddlesticks channels, then blinks to the target location surrounded by a murder of crows, continually dealing magic damage to nearby enemies.",
+                "source_id": "wiki:crowstorm"
+              }
+            ],
+            "id": "wiki:crowstorm",
+            "summary": "Channels before blinking into sustained nearby magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Roots do not interrupt the ability despite being a movement channel.",
+                "source_id": "wiki:crowstorm"
+              }
+            ],
+            "id": "wiki:R",
+            "summary": "Roots do not interrupt the channel."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the delayed blink engage and persistent damage area.",
+        "slot": "R",
+        "source_ids": ["wiki:crowstorm", "wiki:R", "riot:R", "wiki:terrify"],
+        "subject_id": "wiki:crowstorm",
+        "title": "Crowstorm",
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Exact base cooldowns are absent; important cooldown topics are retained in card metadata.",
+    "Detailed fear grace periods, monster-specific conditions, item interactions and impersonation exceptions are omitted from central teaching.",
+    "No patch label is inferred."
+  ],
+  "features": ["conditional_effects", "noncombat_slot"],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "impersonating an effigy allows Bountiful Harvest and Reap to fear enemies even when seen.",
+          "source_id": "wiki:terrify"
+        }
+      ],
+      "condition": "Fiddlesticks is impersonating an effigy.",
+      "from_id": "wiki:aharmlessscarecrow",
+      "kind": "conditional_effect",
+      "to_id": "wiki:terrify"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Passive: While Fiddlesticks has been out of combat for at least 2.25 seconds and is not visible to the enemy team, or is impersonating an Effigy, its damaging ability will additionally fear targets hit for a duration.",
+          "source_id": "wiki:terrify"
+        },
+        {
+          "quote": "Active: Fiddlesticks channels, then blinks to the target location surrounded by a murder of crows, continually dealing magic damage to nearby enemies.",
+          "source_id": "wiki:crowstorm"
+        }
+      ],
+      "condition": "Terrify's passive fear conditions are satisfied.",
+      "from_id": "wiki:terrify",
+      "kind": "conditional_effect",
+      "to_id": "wiki:crowstorm"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "out_of_scope",
+      "reason": "Basic attack projectile and close-range behavior are secondary to the central spell recognition plan.",
+      "source_id": "wiki:basicattack",
+      "target_subject_ids": []
+    },
+    {
+      "disposition": "taught",
+      "reason": "Effigy replacement, impersonation and later Sweeper Drone placement are combined on the passive card.",
+      "source_id": "wiki:aharmlessscarecrow",
+      "target_subject_ids": ["wiki:aharmlessscarecrow"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Passive fear, targeted fear and recent-fear damage are combined on the Q card.",
+      "source_id": "wiki:terrify",
+      "target_subject_ids": ["wiki:terrify"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Drain, reveal, healing, finishing damage and cooldown refund are combined on the W card.",
+      "source_id": "wiki:bountifulharvest",
+      "target_subject_ids": ["wiki:bountifulharvest"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Area slow and center silence are combined on the E card.",
+      "source_id": "wiki:reap",
+      "target_subject_ids": ["wiki:reap"]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Channeled blink, sustained area damage and root interaction are taught on the R card.",
+      "source_id": "wiki:crowstorm",
+      "target_subject_ids": ["wiki:crowstorm"]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": ["wiki:aharmlessscarecrow", "riot:P"]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": ["wiki:terrify", "riot:Q"]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": ["wiki:bountifulharvest", "riot:W"]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": ["wiki:reap", "riot:E"]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": ["wiki:crowstorm", "riot:R"]
+    },
+    {
+      "role": "contextual",
+      "slot": "trinket",
+      "source_ids": ["wiki:aharmlessscarecrow", "riot:P"]
+    }
+  ],
+  "summary": "An overview and primary ability cards teach effigy deception, conditional fear, channeled healing, center silence and Crowstorm ambushes. Related conditional effects remain merged into their primary abilities."
+}

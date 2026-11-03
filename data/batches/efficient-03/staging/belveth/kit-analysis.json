@@ -1,0 +1,494 @@
+{
+  "cards": [
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Bel'Veth gains permanent attack speed stacks after taking down large minions and monsters and champions.",
+              "source_id": "riot:P"
+            }
+          ],
+          "id": "f745e6bb23a66034aaa0e621",
+          "summary": "Permanent attack speed growth supports sustained fighting."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Bel'Veth's basic attacks deal bonus true damage and generates a stack that increases this damage against the same target.",
+              "source_id": "wiki:endlessbanquet"
+            }
+          ],
+          "id": "5a0ddfc9163c1e4be49fa902",
+          "summary": "Repeated attacks increase her true damage against the same target."
+        }
+      ],
+      "kind": "overview",
+      "purpose": "Recognize Bel'Veth's sustained attack pattern and overall counterplay.",
+      "slot": "",
+      "source_ids": [
+        "riot:P",
+        "wiki:deathinlavender",
+        "wiki:voidsurge",
+        "wiki:royalmaelstrom",
+        "wiki:endlessbanquet"
+      ],
+      "subject_id": "riot:role",
+      "title": "Bel'Veth",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Death in Lavender's takedown effect will not trigger against monsters if they were slain by an enemy.",
+              "source_id": "wiki:deathinlavender"
+            }
+          ],
+          "status": "supported",
+          "summary": "Enemy-slain monsters do not trigger the takedown effect."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Bel'Veth gains permanent attack speed stacks after taking down large minions and monsters and champions.",
+              "source_id": "riot:P"
+            }
+          ],
+          "id": "1125709df189be76e8cb76a0",
+          "summary": "Relevant takedowns grant permanent attack speed stacks."
+        },
+        {
+          "citations": [
+            {
+              "quote": "After casting an ability, Bel'Veth becomes ghosted and gains bonus attack speed for a few seconds.",
+              "source_id": "wiki:deathinlavender"
+            }
+          ],
+          "id": "40d52b8ed11ee3cbd30866bf",
+          "summary": "Ability casts grant ghosting and temporary attack speed."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize attack speed growth and post-cast pressure.",
+      "slot": "P",
+      "source_ids": [
+        "riot:P",
+        "wiki:deathinlavender"
+      ],
+      "subject_id": "wiki:deathinlavender",
+      "title": "Death in Lavender",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Void Surge's damage against the first enemy hit can critically strike and applies on-hit effects and life steal.",
+              "source_id": "wiki:voidsurge"
+            },
+            {
+              "quote": "Void Surge resets Bel'Veth's basic attack timer.",
+              "source_id": "wiki:voidsurge"
+            }
+          ],
+          "status": "supported",
+          "summary": "The first target receives critical strike, on-hit, and life steal interactions; the dash also resets her attack timer."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Bel'Veth dashes in the target direction, though not through terrain, dealing physical damage to enemies she passes through.",
+              "source_id": "wiki:voidsurge"
+            }
+          ],
+          "id": "f48e88cb01d1916ffd9bb383",
+          "summary": "A directional dash deals physical damage along its path."
+        },
+        {
+          "citations": [
+            {
+              "quote": "each direction has a unique cooldown that scales down with her bonus attack speed.",
+              "source_id": "wiki:voidsurge"
+            }
+          ],
+          "id": "23545d2c6e665addfda73d78",
+          "summary": "Dash directions recover independently and faster with bonus attack speed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "During this time, Void Surge can dash through terrain.",
+              "source_id": "wiki:endlessbanquet"
+            }
+          ],
+          "id": "d45cb1eb09eddbffd17d2e9d",
+          "summary": "True Form enables terrain crossing."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize directional dash limits and True Form mobility.",
+      "slot": "Q",
+      "source_ids": [
+        "riot:Q",
+        "wiki:voidsurge",
+        "wiki:endlessbanquet"
+      ],
+      "subject_id": "wiki:voidsurge",
+      "title": "Void Surge",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "More than one cooldown can be reset if enemy champions were hit within multiple directions.",
+              "source_id": "wiki:aboveandbelow"
+            },
+            {
+              "quote": "The cooldowns that get reset are based on the relative direction to Bel'Veth at the end of the cast",
+              "source_id": "wiki:aboveandbelow"
+            }
+          ],
+          "status": "supported",
+          "summary": "Champion hits across multiple relative directions can reset multiple dash cooldowns."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Bel'Veth slams her tail in the target direction that deals magic damage to enemies hit, briefly knocking up and slowing them.",
+              "source_id": "wiki:aboveandbelow"
+            }
+          ],
+          "id": "24887f7a0e1f66c91e81addc",
+          "summary": "Directional magic damage knocks up and slows."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If this hits an enemy champion, it resets Void Surge's dash cooldown of the target direction.",
+              "source_id": "wiki:aboveandbelow"
+            }
+          ],
+          "id": "bc93802f12275965fce84c73",
+          "summary": "Champion hits refresh directional dash availability."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize the crowd control that also restores mobility.",
+      "slot": "W",
+      "source_ids": [
+        "riot:W",
+        "wiki:aboveandbelow"
+      ],
+      "subject_id": "wiki:aboveandbelow",
+      "title": "Above and Below",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "The target does not have to be visible to be hit by this ability.",
+              "source_id": "wiki:royalmaelstrom"
+            }
+          ],
+          "status": "supported",
+          "summary": "Targets can be hit without being visible."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Royal Maelstrom can be recast within the duration, and does so automatically afterwards or when Bel'Veth casts an ability. Recast: Bel'Veth ends Royal Maelstrom.",
+              "source_id": "wiki:royalmaelstrom"
+            }
+          ],
+          "status": "supported",
+          "summary": "She can end the stance early, including by casting another ability."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "during which she is unable to move, but gains damage reduction and life steal.",
+              "source_id": "wiki:royalmaelstrom"
+            }
+          ],
+          "id": "c6682300863d2b29e2e4cdfa",
+          "summary": "She becomes stationary with damage reduction and life steal."
+        },
+        {
+          "citations": [
+            {
+              "quote": "she rapidly slashes at the nearest enemy with the lowest current health percentage",
+              "source_id": "wiki:royalmaelstrom"
+            },
+            {
+              "quote": "Royal Maelstrom does not prioritize champions over other units.",
+              "source_id": "wiki:royalmaelstrom"
+            }
+          ],
+          "id": "d42422fa31d8f16979c5d5f7",
+          "summary": "Slashes select by low current health percentage without champion priority."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Each slash deals physical damage, increased by 0% – 100% (based on target's missing health)",
+              "source_id": "wiki:royalmaelstrom"
+            },
+            {
+              "quote": "Bel'Veth cannot perform slashes while she is affected by cast-inhibiting crowd control.",
+              "source_id": "wiki:royalmaelstrom"
+            }
+          ],
+          "id": "b1d3f027c24e86e54bd9bc8e",
+          "summary": "Slashes punish missing health and are suppressed by cast-inhibiting crowd control."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize the defensive slash stance and its target selection.",
+      "slot": "E",
+      "source_ids": [
+        "riot:E",
+        "wiki:royalmaelstrom"
+      ],
+      "subject_id": "wiki:royalmaelstrom",
+      "title": "Royal Maelstrom",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Bel'Veth consumes all existing Void Corals at once",
+              "source_id": "wiki:endlessbanquet"
+            },
+            {
+              "quote": "A nearby Void Coral is required to cast this ability.",
+              "source_id": "wiki:endlessbanquet"
+            }
+          ],
+          "status": "supported",
+          "summary": "Casting requires nearby coral, but consumption also collects all existing coral."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Bel'Veth's True Form at 80 Lavender stacks will last indefinitely, but is still lost upon death.",
+              "source_id": "wiki:endlessbanquet"
+            }
+          ],
+          "status": "supported",
+          "summary": "Sufficient Lavender makes True Form last until death."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Bel'Veth's basic attacks deal bonus true damage and generates a stack that increases this damage against the same target.",
+              "source_id": "wiki:endlessbanquet"
+            }
+          ],
+          "id": "91b7901390ecb1b2557d3ed3",
+          "summary": "Repeated attacks increase bonus true damage against the same target."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Takedowns against enemy champions and epic monsters spawn a Void Coral for some time.",
+              "source_id": "wiki:endlessbanquet"
+            },
+            {
+              "quote": "Bel'Veth dashes to the target Void Coral, gradually slowing nearby enemies before violently exploding, dealing true damage based on their missing health",
+              "source_id": "wiki:endlessbanquet"
+            }
+          ],
+          "id": "d87b545d6b9d0f2328453b7e",
+          "summary": "Coral consumption slows nearby enemies before a missing-health true damage explosion."
+        },
+        {
+          "citations": [
+            {
+              "quote": "True Form: Bel'Veth gains bonus health, attack range, and increased total attack speed.",
+              "source_id": "wiki:endlessbanquet"
+            },
+            {
+              "quote": "Consuming more Void Corals renews the form's duration and heals her instead.",
+              "source_id": "wiki:endlessbanquet"
+            }
+          ],
+          "id": "db0c3aff2e9b4d76c3a62160",
+          "summary": "True Form grants combat stats; further consumption refreshes it and heals her."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Taking down Baron Nashor, the pit Rift Herald, or a Voidgrub spawns an Enhance Void Coral.",
+              "source_id": "wiki:endlessbanquet"
+            },
+            {
+              "quote": "True Form is empowered to cause Void Remora to spawn from minions that die nearby.",
+              "source_id": "wiki:endlessbanquet"
+            }
+          ],
+          "id": "71bc994418052cf2866ed13e",
+          "summary": "Enhanced coral enables nearby dying minions to spawn Void Remora."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize coral danger and the normal and enhanced True Form rewards together.",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:endlessbanquet"
+      ],
+      "subject_id": "wiki:endlessbanquet",
+      "title": "Endless Banquet",
+      "unsupported_claims": []
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Important cooldown topics: Void Surge has independent directional cooldowns shortened by bonus attack speed, and Above and Below can reset them on champion hits.",
+    "Base cooldown evidence for Above and Below and Royal Maelstrom is not supplied.",
+    "Void Remora combat behavior is not supplied; only their spawning condition is taught."
+  ],
+  "features": [
+    "standard",
+    "transformations",
+    "conditional_effects"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "If this hits an enemy champion, it resets Void Surge's dash cooldown of the target direction.",
+          "source_id": "wiki:aboveandbelow"
+        }
+      ],
+      "condition": "Above and Below hits an enemy champion.",
+      "from_id": "wiki:aboveandbelow",
+      "kind": "conditional_effect",
+      "to_id": "wiki:voidsurge"
+    },
+    {
+      "citations": [
+        {
+          "quote": "During this time, Void Surge can dash through terrain.",
+          "source_id": "wiki:endlessbanquet"
+        }
+      ],
+      "condition": "Bel'Veth is in True Form.",
+      "from_id": "wiki:endlessbanquet",
+      "kind": "conditional_effect",
+      "to_id": "wiki:voidsurge"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Permanent growth and post-cast attack speed share the passive card.",
+      "source_id": "wiki:deathinlavender",
+      "target_subject_ids": [
+        "wiki:deathinlavender"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Directional mobility and terrain access share the dash card.",
+      "source_id": "wiki:voidsurge",
+      "target_subject_ids": [
+        "wiki:voidsurge"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Crowd control and its dash reset are taught together.",
+      "source_id": "wiki:aboveandbelow",
+      "target_subject_ids": [
+        "wiki:aboveandbelow"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The defensive stance, slash targeting, and crowd control response share the ability card.",
+      "source_id": "wiki:royalmaelstrom",
+      "target_subject_ids": [
+        "wiki:royalmaelstrom"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Attack passive, coral consumption, True Form, and enhanced coral are merged into the ultimate card.",
+      "source_id": "wiki:endlessbanquet",
+      "target_subject_ids": [
+        "wiki:endlessbanquet",
+        "wiki:voidsurge"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "riot:P",
+        "wiki:deathinlavender"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "riot:Q",
+        "wiki:voidsurge"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "riot:W",
+        "wiki:aboveandbelow"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "riot:E",
+        "wiki:royalmaelstrom"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:endlessbanquet"
+      ]
+    }
+  ],
+  "summary": "An overview and primary ability cards teach permanent attack speed, directional mobility, crowd control, defensive slashes, and coral-powered transformation. True Form and enhanced coral remain merged with their related abilities."
+}

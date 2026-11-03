@@ -1,0 +1,178 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": false,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [
+        "Expand AP as ability power for beginners. The learning focus follows from the supplied damage and shield scaling, but does not establish an optimal build."
+      ],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Orianna's basic attacks deal bonus magic damage to enemies other than structures.",
+          "covered": true,
+          "mechanic_id": "P.bonus_magic_damage",
+          "reason": "Explains the bonus damage type and the supported structure exclusion."
+        },
+        {
+          "answer_quote": "Repeated attacks against the same target increase this bonus up to a cap",
+          "covered": true,
+          "mechanic_id": "P.repeated_target",
+          "reason": "Explicitly explains same-target growth and its cap."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": false,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Orianna sends the Ball to a chosen location, dealing magic damage to enemies along its path and near its arrival point. Targets hit after the first take less damage. The Ball stays there until Orianna retrieves it or moves too far away.",
+          "covered": true,
+          "mechanic_id": "Q.position_ball",
+          "reason": "Explains placement, persistence, retrieval and leash limits, although the persistence sentence needs the scope repair identified below."
+        },
+        {
+          "answer_quote": "Orianna sends the Ball to a chosen location, dealing magic damage to enemies along its path and near its arrival point.",
+          "covered": true,
+          "mechanic_id": "Q.magic_damage",
+          "reason": "Explicitly explains magic damage along the travel path and at arrival."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": false,
+      "issues": [
+        "The statement that the Ball stays there until retrieval or excessive distance implies an exhaustive set of ways its placement ends. Supplied Q and E mechanics also allow Orianna to command it elsewhere. Repair this scope; the matching wiki sentence does not establish that exclusive condition."
+      ],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "The Ball releases a pulse that deals magic damage to nearby enemies.",
+          "covered": true,
+          "mechanic_id": "W.pulse_damage",
+          "reason": "Explains the pulse's origin, damage type and affected enemies."
+        },
+        {
+          "answer_quote": "It leaves a field that speeds up Orianna and allied champions inside it and slows enemies inside it.",
+          "covered": true,
+          "mechanic_id": "W.ally_speed",
+          "reason": "Explicitly identifies the lingering field and its allied speed recipients."
+        },
+        {
+          "answer_quote": "It leaves a field that speeds up Orianna and allied champions inside it and slows enemies inside it.",
+          "covered": true,
+          "mechanic_id": "W.enemy_slow",
+          "reason": "Explicitly explains the field's enemy slow."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Orianna sends the Ball to attach to herself or an allied champion, shielding the recipient on arrival.",
+          "covered": true,
+          "mechanic_id": "E.attach_shield",
+          "reason": "Explains eligible recipients, attachment and shield timing."
+        },
+        {
+          "answer_quote": "It deals magic damage to enemies it passes through.",
+          "covered": true,
+          "mechanic_id": "E.path_damage",
+          "reason": "Explicitly explains travel-path magic damage."
+        },
+        {
+          "answer_quote": "The Ball grants its carrier bonus armor and magic resistance while attached.",
+          "covered": true,
+          "mechanic_id": "E.carrier_resistances",
+          "reason": "Explains both resistances and their attachment condition."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "After a short delay, the Ball unleashes a shockwave that deals magic damage to nearby enemies and launches them toward the Ball.",
+          "covered": true,
+          "mechanic_id": "R.area_damage",
+          "reason": "Explicitly explains the Ball-centered shockwave's nearby magic damage."
+        },
+        {
+          "answer_quote": "After a short delay, the Ball unleashes a shockwave that deals magic damage to nearby enemies and launches them toward the Ball.",
+          "covered": true,
+          "mechanic_id": "R.delayed_displacement",
+          "reason": "Explains the delay and displacement direction without promising a final position at the center."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Keep the supported general displacement. Terrain traversal remains unresolved and requires QA; neither terrain outcome is established.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "The wiki active description excludes displacement through terrain, while its notes allow displacement through walls. Riot does not resolve this conflict."
+    },
+    {
+      "resolution": "Keep the supported Ball-origin description. Flag the precise end-of-cast origin rule for QA without asserting a definitive positioning rule.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "The wiki end-of-cast notes ambiguously refer to the caster and the attached carrier."
+    }
+  ],
+  "factual_risks": [
+    "Q projectile-blocker interactions are explicitly pending or questioned in the evidence and remain unresolved.",
+    "The passive buff-bar description is supported by wiki text, but its appearance is not visually verified by this review.",
+    "Passive stack expiry is omitted without asserting indefinite persistence; this is optional beginner detail.",
+    "W does not claim the slow ends immediately on leaving or that the lingering field repeatedly damages enemies.",
+    "Advanced travel restrictions, interception and carrier-state exceptions do not invalidate the qualified general E description.",
+    "No internal provenance, confidence or development labels appear in the supplied card-facing answer, counterplay or passive-visual wording.",
+    "This review uses only supplied evidence and provides neither human approval nor current-client visual verification."
+  ]
+}

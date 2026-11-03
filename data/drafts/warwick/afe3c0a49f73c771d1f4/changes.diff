@@ -1,0 +1,610 @@
+--- approved-100
++++ proposed-106-drafts
+@@ -5530,6 +5530,607 @@
+         "visual_cue_media_path": "",
+         "visual_cue_status": ""
+       }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:19",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Name: Warwick. Official role tags: Fighter, Tank.",
++                "source_id": "riot:role"
++              },
++              {
++                "quote": "Warwick senses enemies below 50% health, gaining Move Speed toward and attack speed against them.",
++                "source_id": "riot:W"
++              },
++              {
++                "quote": "Warwick's basic attacks deal bonus magic damage. If Warwick is below 50% health, he heals the same amount.",
++                "source_id": "riot:P"
++              },
++              {
++                "quote": "Warwick lunges forward and bites his target, dealing damage based on their maximum health and healing for damage dealt.",
++                "source_id": "riot:Q"
++              }
++            ],
++            "claim": "Warwick is a fighter and tank who hunts wounded enemies and heals through attacks and bites."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Warwick leaps in a direction (scaling with his bonus Move Speed), suppressing the first champion he collides with for 1.5 seconds.",
++                "source_id": "riot:R"
++              }
++            ],
++            "claim": "He can start fights with a leap that suppresses an enemy."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Magic Damage:6 / 7 / 8 / 9 / 10% of target's maximum health (+ 120% AD) (+ 100% AP)",
++                "source_id": "wiki:Q"
++              }
++            ],
++            "claim": "AD strengthens his bite."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/warwick/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "3960181",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Warwick"
++      },
++      "id": "champ:warwick:overview:L1",
++      "importance": {
++        "priority": "A",
++        "reason": "His pursuit, healing and suppression explain his fighting role and main threats."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Fighter / Tank",
++        "answer": "Warwick is a fighter and tank who hunts wounded enemies and heals through attacks and bites. He can start fights with a leap that suppresses an enemy. AD strengthens his bite.",
++        "build_focus": "AD",
++        "category": "Champion",
++        "champion": "Warwick",
++        "cooldown": "",
++        "counterplay": "Keep your distance when wounded, and sidestep his leap.",
++        "front_hint": "CHAMPION OVERVIEW",
++        "icon_path": "media/warwick_portrait.jpg",
++        "id": "champ:warwick:overview:L1",
++        "level": "L1",
++        "media_path": "media/warwick_portrait.jpg",
++        "media_type": "portrait",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What can this champion do?",
++        "review_status": "",
++        "slot": "-",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/warwick/",
++        "source_video_path": "",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Warwick",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "AD is a broad stat learning focus supported by damage ratios, not an optimal build recommendation. The unsupported Health focus was removed."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:19",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Warwick's basic attacks deal bonus magic damage.",
++                "source_id": "riot:P"
++              },
++              {
++                "quote": "Innate: Warwick deals bonus magic damage on-hit.",
++                "source_id": "wiki:P"
++              }
++            ],
++            "claim": "Basic attacks deal bonus magic damage."
++          },
++          {
++            "citations": [
++              {
++                "quote": "If Warwick is below 50% health, he heals the same amount. If Warwick is below 25% health, this healing triples.",
++                "source_id": "riot:P"
++              },
++              {
++                "quote": "While below 50% maximum health, Warwick also heals for 100% of the post-mitigation damage dealt by Eternal Hunger, increased to 250% while below 25% maximum health.",
++                "source_id": "wiki:P"
++              }
++            ],
++            "claim": "Below 50% health, this passive damage also heals Warwick, with stronger healing below 25% health."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/warwick/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "3960181",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Warwick"
++      },
++      "id": "champ:warwick:p:recognize:L2",
++      "importance": {
++        "priority": "B",
++        "reason": "Low-health healing can make an extended fight unexpectedly dangerous."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Eternal Hunger",
++        "answer": "Basic attacks deal bonus magic damage. Below 50% health, this passive damage also heals Warwick, with stronger healing below 25% health.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Warwick",
++        "cooldown": "",
++        "counterplay": "Avoid prolonged close fights when Warwick is wounded; continued attacks can restore his health.",
++        "front_hint": "WARWICK · PASSIVE",
++        "icon_path": "media/warwick_p_icon.png",
++        "id": "champ:warwick:p:recognize:L2",
++        "level": "L2",
++        "media_path": "media/warwick_p_icon.png",
++        "media_type": "icon",
++        "patch": "",
++        "poster_path": "",
++        "priority": "B",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "P",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/warwick/",
++        "source_video_path": "media/warwick_p.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Warwick",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": "needs_visual_cue_review"
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Exact healing below 25% health conflicts: Riot says triple; Wiki says 250%.",
++        "The supplied frames do not clearly establish a distinctive passive cue; no visual proposal is made.",
++        "Wiki specifies damage ordering and unit eligibility exceptions. Other modified-health units remain pending testing."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:19",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Active: Warwick lunges at his target and bites them, dealing magic damage that is increased based on the target's maximum health and healing himself for a portion of the damage dealt.",
++                "source_id": "wiki:Q"
++              },
++              {
++                "quote": "Warwick lunges forward and bites his target, dealing damage based on their maximum health and healing for damage dealt.",
++                "source_id": "riot:Q"
++              }
++            ],
++            "claim": "Warwick lunges at a target and bites, dealing magic damage based partly on its maximum health and healing from the damage dealt."
++          },
++          {
++            "citations": [
++              {
++                "quote": "When held, he also charges briefly, leaping behind his target. While Jaws of the Beast is in effect, Warwick gains displacement immunity and also follows all of his target's movements.",
++                "source_id": "wiki:Q"
++              }
++            ],
++            "claim": "Holding the bite carries him behind the target and can follow its movement."
++          },
++          {
++            "citations": [
++              {
++                "quote": "While Jaws of the Beast is active, Warwick is displacement immune and clamps his jaw on the target, following all of their movement.",
++                "source_id": "wiki:Q"
++              }
++            ],
++            "claim": "While the bite is active, he is immune to displacement effects such as knockbacks."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/warwick/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "3960181",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Warwick"
++      },
++      "id": "champ:warwick:q:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "Following movement and resisting displacement can defeat common escape attempts."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Jaws of the Beast",
++        "answer": "Warwick lunges at a target and bites, dealing magic damage based partly on its maximum health and healing from the damage dealt. Holding the bite carries him behind the target and can follow its movement. While the bite is active, he is immune to displacement effects such as knockbacks.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Warwick",
++        "cooldown": "",
++        "counterplay": "Keep outside bite range when possible. Do not rely on a dash or knockback alone to escape an attached bite.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/warwick_q_icon.png",
++        "id": "champ:warwick:q:recognize:L2",
++        "level": "L2",
++        "media_path": "media/warwick_q.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "Q",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/warwick/",
++        "source_video_path": "media/warwick_q.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Warwick",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Held tracking has spawn-platform and Sion-respawn exceptions with documented reliability caveats.",
++        "Displacement immunity does not prevent every crowd-control interruption.",
++        "Grounding and roots prevent starting the held channel but do not interrupt an existing channel.",
++        "Healing excludes additional on-hit damage; health-based damage is capped against monsters. Q also applies on-hit effects and life steal.",
++        "Tapped-cast cooldown refunds have documented reliability caveats."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:19",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Passive: Warwick senses all enemy champions on the map who are damaged below 50% of their maximum health by him or an allied source, marking them with Blood Hunt until they regenerate or heal above this threshold again.",
++                "source_id": "wiki:W"
++              },
++              {
++                "quote": "He sees trails leading toward them and gains bonus movement speed while following a trail. This bonus is lost for 0.5 seconds upon entering champion combat, but will build up again over 3.5 seconds.",
++                "source_id": "wiki:W"
++              },
++              {
++                "quote": "Passive: Warwick gains attack speed against targets below 50% of their maximum health.",
++                "source_id": "wiki:W"
++              }
++            ],
++            "claim": "Warwick senses enemy champions damaged below 50% health by him or allies, follows trails toward them with bonus movement speed that is temporarily lost in champion combat, and gains attack speed against low-health targets."
++          },
++          {
++            "citations": [
++              {
++                "quote": "When they fall below 25% health, he frenzies and these bonuses triple.",
++                "source_id": "riot:W"
++              },
++              {
++                "quote": "The attack speed and movement speed bonuses granted by both passives are doubled against enemies who are below 25% of their maximum health.",
++                "source_id": "wiki:W"
++              }
++            ],
++            "claim": "Both bonuses grow stronger against very wounded enemies."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Active: Warwick senses the nearest enemy champion in the area at the start of the cast time, marking them with Blood Hunt for 8 seconds, gaining both passive bonuses against them regardless of their current health.",
++                "source_id": "wiki:W"
++              }
++            ],
++            "claim": "Activating Blood Hunt temporarily marks the nearest enemy champion in its area and grants the bonuses against that target regardless of health."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/warwick/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "3960181",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Warwick"
++      },
++      "id": "champ:warwick:w:recognize:L2",
++      "importance": {
++        "priority": "B",
++        "reason": "His hunt makes wounded targets easier to pursue and gives him an active way to hunt healthy targets."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Blood Hunt",
++        "answer": "Warwick senses enemy champions damaged below 50% health by him or allies, follows trails toward them with bonus movement speed that is temporarily lost in champion combat, and gains attack speed against low-health targets. Both bonuses grow stronger against very wounded enemies. Activating Blood Hunt temporarily marks the nearest enemy champion in its area and grants the bonuses against that target regardless of health.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Warwick",
++        "cooldown": "",
++        "counterplay": "Retreat toward allies when wounded. Avoid staying alone near Warwick, since his active hunt can mark even a healthy target.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/warwick_w_icon.png",
++        "id": "champ:warwick:w:recognize:L2",
++        "level": "L2",
++        "media_path": "media/warwick_w.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "B",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "W",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/warwick/",
++        "source_video_path": "media/warwick_w.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Warwick",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Very-low-health thresholds and bonus multipliers conflict across sources and within Wiki.",
++        "Detection uses obscured vision, can include decoys, and has an allied Nexus Obelisk damage exception.",
++        "Attack-speed acquisition, refresh and persistence have additional timing rules."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:19",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "Active: Warwick gains damage reduction for a short time.",
++                "source_id": "wiki:E"
++              },
++              {
++                "quote": "Warwick gains damage reduction for 2.5 seconds.",
++                "source_id": "riot:E"
++              }
++            ],
++            "claim": "Warwick temporarily reduces the damage he takes."
++          },
++          {
++            "citations": [
++              {
++                "quote": "At the end, or if re-activated, he howls, causing nearby enemies to flee for 1 second.",
++                "source_id": "riot:E"
++              },
++              {
++                "quote": "Primal Howl can be recast within the duration, and does so automatically afterwards. Recast: Warwick howls to briefly fear and slow nearby enemies.",
++                "source_id": "wiki:E"
++              }
++            ],
++            "claim": "When the effect expires or he recasts it, he howls, fearing nearby enemies and making them flee."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/warwick/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "3960181",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Warwick"
++      },
++      "id": "champ:warwick:e:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "Combines defensive damage reduction with nearby crowd control."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Primal Howl",
++        "answer": "Warwick temporarily reduces the damage he takes. When the effect expires or he recasts it, he howls, fearing nearby enemies and making them flee.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Warwick",
++        "cooldown": "",
++        "counterplay": "Move away before the howl to avoid its nearby fear. Save heavy damage for after his damage reduction ends when possible.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/warwick_e_icon.png",
++        "id": "champ:warwick:e:recognize:L2",
++        "level": "L2",
++        "media_path": "media/warwick_e.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "E",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/warwick/",
++        "source_video_path": "media/warwick_e.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Warwick",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Maximum damage-reduction duration conflicts between Riot and Wiki.",
++        "Manual recast has an initial delay and normally ends protection; R's channel can trigger the howl while preserving remaining protection.",
++        "Wiki also describes a slow during the fear.",
++        "The howl resets the attack timer but cancels an ongoing attack and briefly prevents attacks and ability casts."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
++    },
++    {
++      "content_status": "draft",
++      "entity_id": "champ:19",
++      "entity_kind": "champion",
++      "evidence": {
++        "claims": [
++          {
++            "citations": [
++              {
++                "quote": "The leap's range scales with Warwick's movement speed and he gains cc-immunity during it.",
++                "source_id": "wiki:R"
++              },
++              {
++                "quote": "Active: Warwick leaps in the target direction with crowd control immunity, stopping upon hitting an enemy champion.",
++                "source_id": "wiki:R"
++              }
++            ],
++            "claim": "Warwick leaps in a chosen direction, with more movement speed increasing his range; he is immune to crowd control during the leap."
++          },
++          {
++            "citations": [
++              {
++                "quote": "Active: Warwick leaps a huge distance toward the target direction, stopping on the first champion he collides with, suppressing them while he channels for a brief time.",
++                "source_id": "wiki:R"
++              },
++              {
++                "quote": "If the target is crowd control immune or protected by spell shield upon collision, Warwick will not start the channel.",
++                "source_id": "wiki:R"
++              }
++            ],
++            "claim": "He stops on the first enemy champion hit and channels to suppress them, unless their spell shield or crowd-control immunity prevents the channel."
++          },
++          {
++            "citations": [
++              {
++                "quote": "He mauls them over the duration, dealing magic damage and healing for 100% of the damage dealt.",
++                "source_id": "wiki:R"
++              }
++            ],
++            "claim": "During the channel, he deals magic damage and heals from damage dealt."
++          }
++        ],
++        "riot_url": "https://www.leagueoflegends.com/en-us/champions/warwick/",
++        "verification_scope": "Citation matching + AI support check; not editorial approval",
++        "verified_patch": null,
++        "wiki_revision": "3960181",
++        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Warwick"
++      },
++      "id": "champ:warwick:r:recognize:L2",
++      "importance": {
++        "priority": "A",
++        "reason": "His leap can suppress a key target while healing him."
++      },
++      "media_review": {
++        "current_client_review": "pending",
++        "status": "unreviewed"
++      },
++      "pedagogy": {
++        "build_focus_basis": "broad_learning_orientation",
++        "counterplay_basis": "source_grounded_inference"
++      },
++      "qa_status": "needs_review",
++      "revision": 1793483693,
++      "row": {
++        "ability": "Infinite Duress",
++        "answer": "Warwick leaps in a chosen direction, with more movement speed increasing his range; he is immune to crowd control during the leap. He stops on the first enemy champion hit and channels to suppress them, unless their spell shield or crowd-control immunity prevents the channel. During the channel, he deals magic damage and heals from damage dealt.",
++        "build_focus": "",
++        "category": "Champion",
++        "champion": "Warwick",
++        "cooldown": "",
++        "counterplay": "Sidestep the leap. Once he lands on an ally, use interrupting crowd control to stop his channel.",
++        "front_hint": "IDENTIFY THIS ABILITY",
++        "icon_path": "media/warwick_r_icon.png",
++        "id": "champ:warwick:r:recognize:L2",
++        "level": "L2",
++        "media_path": "media/warwick_r.gif",
++        "media_type": "gif",
++        "patch": "",
++        "poster_path": "",
++        "priority": "A",
++        "question": "What does this ability do?",
++        "review_status": "",
++        "slot": "R",
++        "source_riot": "https://www.leagueoflegends.com/en-us/champions/warwick/",
++        "source_video_path": "media/warwick_r.webm",
++        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Warwick",
++        "visual_cue_description": "",
++        "visual_cue_media_path": "",
++        "visual_cue_status": ""
++      },
++      "uncertainties": [
++        "UNAPPROVED draft.",
++        "Crowd-control immunity starts during cast time but does not generally extend through the channel or missed-leap slide; Wiki lists a specific Singed exception.",
++        "A spell shield applied after channel initiation does not prevent the existing effects.",
++        "Removing suppression does not necessarily end the channel; Wiki describes continued strikes without damage.",
++        "The full channel applies on-hit and on-attack effects three times. Healing includes all damage Warwick deals to that target during R.",
++        "Wiki specifies Fate's Call as a special channel interruption."
++      ],
++      "versioning": {
++        "asset_version": "16.21.1",
++        "game_patch_evidence": [],
++        "verified_game_patch": null
++      }
+     }
+   ],
+   "schema_version": 1

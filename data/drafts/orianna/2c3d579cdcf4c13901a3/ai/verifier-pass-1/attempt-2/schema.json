@@ -1,0 +1,153 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "checks": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "all_answer_claims_covered": {
+            "type": "boolean"
+          },
+          "beginner_friendly": {
+            "type": "boolean"
+          },
+          "core_coverage": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "answer_quote": {
+                  "maxLength": 850,
+                  "minLength": 0,
+                  "type": "string"
+                },
+                "covered": {
+                  "type": "boolean"
+                },
+                "mechanic_id": {
+                  "maxLength": 100,
+                  "minLength": 3,
+                  "type": "string"
+                },
+                "reason": {
+                  "maxLength": 600,
+                  "minLength": 0,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "mechanic_id",
+                "covered",
+                "answer_quote",
+                "reason"
+              ],
+              "type": "object"
+            },
+            "maxItems": 12,
+            "minItems": 0,
+            "type": "array"
+          },
+          "counterplay_grounded": {
+            "type": "boolean"
+          },
+          "english": {
+            "type": "boolean"
+          },
+          "facts_supported": {
+            "type": "boolean"
+          },
+          "issues": {
+            "items": {
+              "maxLength": 600,
+              "minLength": 5,
+              "type": "string"
+            },
+            "maxItems": 20,
+            "minItems": 0,
+            "type": "array"
+          },
+          "priority_reasonable": {
+            "type": "boolean"
+          },
+          "slot": {
+            "enum": [
+              "-",
+              "P",
+              "Q",
+              "W",
+              "E",
+              "R"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "slot",
+          "facts_supported",
+          "all_answer_claims_covered",
+          "counterplay_grounded",
+          "english",
+          "beginner_friendly",
+          "priority_reasonable",
+          "core_coverage",
+          "issues"
+        ],
+        "type": "object"
+      },
+      "maxItems": 6,
+      "minItems": 6,
+      "type": "array"
+    },
+    "conflicts": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "resolution": {
+            "maxLength": 600,
+            "minLength": 5,
+            "type": "string"
+          },
+          "source_ids": {
+            "items": {
+              "maxLength": 80,
+              "minLength": 1,
+              "type": "string"
+            },
+            "maxItems": 8,
+            "minItems": 2,
+            "type": "array"
+          },
+          "topic": {
+            "maxLength": 400,
+            "minLength": 5,
+            "type": "string"
+          }
+        },
+        "required": [
+          "topic",
+          "source_ids",
+          "resolution"
+        ],
+        "type": "object"
+      },
+      "maxItems": 12,
+      "minItems": 0,
+      "type": "array"
+    },
+    "factual_risks": {
+      "items": {
+        "maxLength": 600,
+        "minLength": 5,
+        "type": "string"
+      },
+      "maxItems": 20,
+      "minItems": 0,
+      "type": "array"
+    }
+  },
+  "required": [
+    "checks",
+    "conflicts",
+    "factual_risks"
+  ],
+  "type": "object"
+}

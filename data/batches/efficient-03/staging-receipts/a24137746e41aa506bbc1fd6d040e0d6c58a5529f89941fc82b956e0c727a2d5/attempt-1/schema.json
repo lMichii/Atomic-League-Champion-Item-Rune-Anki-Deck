@@ -1,0 +1,284 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "cards": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "maxLength": 850,
+            "minLength": 25,
+            "type": "string"
+          },
+          "build_focus": {
+            "enum": [
+              "",
+              "AD",
+              "AP",
+              "AD / AP",
+              "Health, Armor, MR",
+              "AP, Health",
+              "AD, Health"
+            ],
+            "type": "string"
+          },
+          "counterplay": {
+            "maxLength": 450,
+            "minLength": 15,
+            "type": "string"
+          },
+          "facts": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "citations": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "quote": {
+                        "maxLength": 1000,
+                        "minLength": 15,
+                        "type": "string"
+                      },
+                      "source_id": {
+                        "maxLength": 80,
+                        "minLength": 1,
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "source_id",
+                      "quote"
+                    ],
+                    "type": "object"
+                  },
+                  "maxItems": 6,
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "claim": {
+                  "maxLength": 600,
+                  "minLength": 5,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "claim",
+                "citations"
+              ],
+              "type": "object"
+            },
+            "maxItems": 10,
+            "minItems": 1,
+            "type": "array"
+          },
+          "level": {
+            "enum": [
+              "L1",
+              "L2"
+            ],
+            "type": "string"
+          },
+          "passive_visual": {
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "maxLength": 300,
+                "minLength": 0,
+                "type": "string"
+              },
+              "meaningful": {
+                "type": "boolean"
+              },
+              "source_ids": {
+                "items": {
+                  "maxLength": 80,
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "maxItems": 8,
+                "minItems": 0,
+                "type": "array"
+              }
+            },
+            "required": [
+              "meaningful",
+              "description",
+              "source_ids"
+            ],
+            "type": "object"
+          },
+          "priority": {
+            "enum": [
+              "A",
+              "B",
+              "C"
+            ],
+            "type": "string"
+          },
+          "priority_reason": {
+            "maxLength": 400,
+            "minLength": 15,
+            "type": "string"
+          },
+          "slot": {
+            "enum": [
+              "-",
+              "P",
+              "Q",
+              "W",
+              "E",
+              "R"
+            ],
+            "type": "string"
+          },
+          "uncertainties": {
+            "items": {
+              "maxLength": 500,
+              "minLength": 5,
+              "type": "string"
+            },
+            "maxItems": 12,
+            "minItems": 0,
+            "type": "array"
+          }
+        },
+        "required": [
+          "level",
+          "slot",
+          "answer",
+          "counterplay",
+          "build_focus",
+          "priority",
+          "priority_reason",
+          "facts",
+          "uncertainties",
+          "passive_visual"
+        ],
+        "type": "object"
+      },
+      "maxItems": 6,
+      "minItems": 6,
+      "type": "array"
+    },
+    "champion_id": {
+      "type": "integer"
+    },
+    "champion_name": {
+      "maxLength": 100,
+      "minLength": 1,
+      "type": "string"
+    },
+    "conflicts": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "resolution": {
+            "maxLength": 600,
+            "minLength": 5,
+            "type": "string"
+          },
+          "source_ids": {
+            "items": {
+              "maxLength": 80,
+              "minLength": 1,
+              "type": "string"
+            },
+            "maxItems": 8,
+            "minItems": 2,
+            "type": "array"
+          },
+          "topic": {
+            "maxLength": 400,
+            "minLength": 5,
+            "type": "string"
+          }
+        },
+        "required": [
+          "topic",
+          "source_ids",
+          "resolution"
+        ],
+        "type": "object"
+      },
+      "maxItems": 12,
+      "minItems": 0,
+      "type": "array"
+    },
+    "cooldown_candidates": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "priority": {
+            "enum": [
+              "A",
+              "B",
+              "C"
+            ],
+            "type": "string"
+          },
+          "reason": {
+            "maxLength": 500,
+            "minLength": 15,
+            "type": "string"
+          },
+          "slot": {
+            "enum": [
+              "Q",
+              "W",
+              "E",
+              "R"
+            ],
+            "type": "string"
+          },
+          "source_ids": {
+            "items": {
+              "maxLength": 80,
+              "minLength": 1,
+              "type": "string"
+            },
+            "maxItems": 8,
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "slot",
+          "priority",
+          "reason",
+          "source_ids"
+        ],
+        "type": "object"
+      },
+      "maxItems": 4,
+      "minItems": 0,
+      "type": "array"
+    },
+    "factual_risks": {
+      "items": {
+        "maxLength": 600,
+        "minLength": 5,
+        "type": "string"
+      },
+      "maxItems": 20,
+      "minItems": 0,
+      "type": "array"
+    },
+    "language": {
+      "enum": [
+        "en"
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "language",
+    "champion_id",
+    "champion_name",
+    "cards",
+    "cooldown_candidates",
+    "conflicts",
+    "factual_risks"
+  ],
+  "type": "object"
+}

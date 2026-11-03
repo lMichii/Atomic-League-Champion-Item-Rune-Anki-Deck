@@ -1,0 +1,849 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:102",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Shyvana. Official role tags: Fighter, Tank.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Shyvana transforms into a Dragon",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "her basic abilities are empowered.",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "Shyvana is a Fighter/Tank who transforms into a dragon with empowered abilities."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Each cast empowers Shyvana's next basic attack",
+                "source_id": "wiki:emberstrike"
+              },
+              {
+                "quote": "Emberstrike can be recast shortly after the attack.",
+                "source_id": "wiki:emberstrike"
+              },
+              {
+                "quote": "dealing magic damage to enemies hit",
+                "source_id": "wiki:moltenburst"
+              },
+              {
+                "quote": "Area Physical Damage:10 / 15 / 20 / 25 / 30 (+ 110% AD) (+ 30% AP)",
+                "source_id": "wiki:emberstrike"
+              }
+            ],
+            "claim": "She combines repeated empowered attacks with magic-damage spells, with damage scaling from AD and AP."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4043672",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana"
+      },
+      "id": "champ:shyvana:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Establishes her transformation threat and mixed damage pattern."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:shyvana:overview:L1",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Shyvana. Official role tags: Fighter, Tank.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "While in Dragon form she becomes larger and her basic abilities are empowered.",
+                "source_id": "riot:R"
+              }
+            ],
+            "id": "276ce56c22fb59607373e945",
+            "summary": "A Fighter/Tank whose dragon transformation empowers her basic abilities."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Shyvana's overall fighting pattern and transformation threat.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "riot:R",
+          "wiki:emberstrike",
+          "wiki:moltenburst"
+        ],
+        "subject_id": "riot:role",
+        "title": "Shyvana",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Fighter / Tank",
+        "answer": "Shyvana is a Fighter/Tank who transforms into a dragon with empowered abilities. She combines repeated empowered attacks with magic-damage spells, with damage scaling from AD and AP.",
+        "build_focus": "AD / AP",
+        "category": "Champion",
+        "champion": "Shyvana",
+        "cooldown": "",
+        "counterplay": "Keep your distance during Dragon Form and move out of scorched ground.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/43c84f6bdbcf826976ee6ff826707dcc55c2d02ab7f92e62ce19f23da34bbc03.jpg",
+        "id": "champ:shyvana:overview:L1",
+        "level": "L1",
+        "media_path": "media/43c84f6bdbcf826976ee6ff826707dcc55c2d02ab7f92e62ce19f23da34bbc03.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Shyvana",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:102",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shyvana generates Scalemail stacks from scoring takedowns against certain enemies. Large monsters and large minions grant a stack, while enemy champions and epic monsters grant more.",
+                "source_id": "wiki:scalemail"
+              },
+              {
+                "quote": "For each stack, Shyvana gains bonus armor and bonus magic resist.",
+                "source_id": "wiki:scalemail"
+              }
+            ],
+            "claim": "Scalemail grants stacking bonus armor and magic resistance from takedowns on large minions, monsters, and champions."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4043672",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana"
+      },
+      "id": "champ:shyvana:p:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Explains her accumulating durability."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:shyvana:p:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shyvana generates Scalemail stacks from scoring takedowns against certain enemies. Large monsters and large minions grant a stack, while enemy champions and epic monsters grant more. Scalemail: For each stack, Shyvana gains bonus armor and bonus magic resist.",
+                "source_id": "wiki:scalemail"
+              }
+            ],
+            "id": "feb055e8564217d70c283164",
+            "summary": "Takedowns on qualifying enemies grant stacks that increase armor and magic resistance."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize why her defenses grow as she collects takedowns.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:scalemail",
+          "riot:P"
+        ],
+        "subject_id": "wiki:scalemail",
+        "title": "Scalemail",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Scalemail",
+        "answer": "Scalemail grants stacking bonus armor and magic resistance from takedowns on large minions, monsters, and champions.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Shyvana",
+        "cooldown": "",
+        "counterplay": "Account for her growing defenses when committing to a fight.",
+        "front_hint": "SHYVANA · P",
+        "icon_path": "media/236e8947a845c9f1e3312211cf35e06fe738ea1e294a48234b3c127e81978e5e.png",
+        "id": "champ:shyvana:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/236e8947a845c9f1e3312211cf35e06fe738ea1e294a48234b3c127e81978e5e.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Shyvana",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:102",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shyvana's basic attacks on-hit will reduce Emberstrike's current cooldown, and deal bonus magic damage based on the target's maximum health.",
+                "source_id": "wiki:emberstrike"
+              }
+            ],
+            "claim": "Basic attacks deal bonus magic damage based on the target's maximum health and shorten Emberstrike's cooldown."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Each cast empowers Shyvana's next basic attack within a few seconds to trigger an additional exclusive effect. Emberstrike can be recast shortly after the attack.",
+                "source_id": "wiki:emberstrike"
+              },
+              {
+                "quote": "First Cast: Shyvana's slashes her claws, blasting a cone that deals physical damage to enemies hit. Second Cast: Shyvana slams her tail, dealing the same damage to the target and surrounding enemies. Dragon Form Bonus — Third Cast: Shyvana bites ferociously, dealing true damage.",
+                "source_id": "wiki:emberstrike"
+              }
+            ],
+            "claim": "Emberstrike chains empowered attacks that deal physical damage in an area; Dragon Form adds a true-damage bite."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4043672",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana"
+      },
+      "id": "champ:shyvana:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Central close-range damage pattern, including cooldown acceleration and true damage."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Spell shield will not block any damage nor be consumed by the strikes.",
+                "source_id": "wiki:emberstrike"
+              },
+              {
+                "quote": "Blind will negate the damage to the primary target, but not to any secondary targets.",
+                "source_id": "wiki:emberstrike"
+              }
+            ],
+            "status": "supported",
+            "summary": "Spell shields do not block the strikes; blind negates primary-target damage but leaves secondary-target damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "PENDING FOR TEST: Interaction with parrying effects ( dodge, block).",
+                "source_id": "wiki:emberstrike"
+              }
+            ],
+            "status": "uncertain",
+            "summary": "Dodge and block interactions lack confirmed evidence."
+          }
+        ],
+        "card_id": "champ:shyvana:q:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shyvana's basic attacks on-hit will reduce Emberstrike's current cooldown, and deal bonus magic damage based on the target's maximum health.",
+                "source_id": "wiki:emberstrike"
+              }
+            ],
+            "id": "3d5b77b794535cf51bbb45b2",
+            "summary": "Basic attacks add maximum-health-based magic damage and reduce Emberstrike's cooldown."
+          },
+          {
+            "citations": [
+              {
+                "quote": "First Cast: Shyvana's slashes her claws, blasting a cone that deals physical damage to enemies hit. Second Cast: Shyvana slams her tail, dealing the same damage to the target and surrounding enemies. Dragon Form Bonus — Third Cast: Shyvana bites ferociously, dealing true damage.",
+                "source_id": "wiki:emberstrike"
+              }
+            ],
+            "id": "475fb98998a3b896f9f21a41",
+            "summary": "Recast attacks deal area physical damage, with an additional true-damage bite in Dragon Form."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize her repeated attack threat and Dragon Form finisher.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:emberstrike",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:emberstrike",
+        "title": "Emberstrike",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Emberstrike",
+        "answer": "Basic attacks deal bonus magic damage based on the target's maximum health and shorten Emberstrike's cooldown. Emberstrike chains empowered attacks that deal physical damage in an area; Dragon Form adds a true-damage bite.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Shyvana",
+        "cooldown": "",
+        "counterplay": "Limit prolonged attack trades and avoid standing close to her attack target.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/8f28d31062323352673aa4f0530033ef2a06fdeab9a63abe81f54630dee2dd04.png",
+        "id": "champ:shyvana:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/5017ee3a2b33bcc9ff03872dbe3446cc7e7c9f8511b424154c2ef70e5043eb86.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Shyvana",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:102",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shyvana shields herself for 2.5 seconds, with the shield strength increased by 30% for every nearby enemy champion. For the same duration, she gains 25% bonus movement speed, increased to 43.75% while facing visible enemy champions.",
+                "source_id": "wiki:infernoaegis"
+              }
+            ],
+            "claim": "Inferno Aegis grants a shield and movement speed, with a stronger shield near enemy champions and more speed while facing visible enemy champions."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Inferno Aegis can be recast while the shield holds and does so automatically after it expires or is broken. Recast: Shyvana consumes the shield to explode, dealing magic damage to nearby enemies.",
+                "source_id": "wiki:infernoaegis"
+              }
+            ],
+            "claim": "It consumes the shield to explode for nearby magic damage, automatically when the shield expires or breaks."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "While in Dragon Form, the explosion will heal her if it strikes an enemy champion.",
+                "source_id": "riot:W"
+              }
+            ],
+            "claim": "In Dragon Form, hitting an enemy champion with the explosion heals her."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4043672",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana"
+      },
+      "id": "champ:shyvana:w:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Combines pursuit, durability, nearby burst, and conditional healing."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:shyvana:w:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shyvana shields herself for 2.5 seconds, with the shield strength increased by 30% for every nearby enemy champion. For the same duration, she gains 25% bonus movement speed, increased to 43.75% while facing visible enemy champions.",
+                "source_id": "wiki:infernoaegis"
+              }
+            ],
+            "id": "f0a092786c9b1b03d9c74a6c",
+            "summary": "Nearby enemy champions strengthen her shield, and facing visible enemy champions increases her movement-speed bonus."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Inferno Aegis can be recast while the shield holds and does so automatically after it expires or is broken. Recast: Shyvana consumes the shield to explode, dealing magic damage to nearby enemies.",
+                "source_id": "wiki:infernoaegis"
+              },
+              {
+                "quote": "While in Dragon Form, the explosion will heal her if it strikes an enemy champion.",
+                "source_id": "riot:W"
+              }
+            ],
+            "id": "c9126dd583bfb372a306f367",
+            "summary": "The shield ends in a nearby magic-damage explosion that can heal her in Dragon Form."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize her approach window and the danger of remaining near her shield.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:infernoaegis",
+          "riot:W"
+        ],
+        "subject_id": "wiki:infernoaegis",
+        "title": "Inferno Aegis",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Inferno Aegis",
+        "answer": "Inferno Aegis grants a shield and movement speed, with a stronger shield near enemy champions and more speed while facing visible enemy champions. It consumes the shield to explode for nearby magic damage, automatically when the shield expires or breaks. In Dragon Form, hitting an enemy champion with the explosion heals her.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Shyvana",
+        "cooldown": "",
+        "counterplay": "Create distance during her shield and avoid clustering around her.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/41b4e1fadfa41bec636f6fcd21302d0782e66f478a3da4df5a752cf75c17cc46.png",
+        "id": "champ:shyvana:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/42d1a7962283d9b15b5c4974a564bf8af7b7c7b0f876f3093ec5bfe0412c2b53.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Shyvana",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:102",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shyvana launches a fireball that explodes upon colliding with the first enemy or reaching maximum range, dealing magic damage to enemies hit and slowing them for a moment.",
+                "source_id": "wiki:moltenburst"
+              }
+            ],
+            "claim": "Molten Burst fires a fireball that explodes on the first enemy or at maximum range, dealing magic damage and slowing enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The fireball is wider, can pass through enemies, and deals increased damage. Upon hitting an enemy champion or large monster, or reaching maximum range, the fireball sets an explosion that applies the same effects.",
+                "source_id": "wiki:moltenburst"
+              }
+            ],
+            "claim": "In Dragon Form, it becomes wider, passes through enemies, deals increased damage, and triggers explosions on champions, large monsters, and at maximum range."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Molten Burst will also scorch the ground it touches beneath, enemies within a scorched field are continually dealt magic damage.",
+                "source_id": "wiki:moltenburst"
+              }
+            ],
+            "claim": "It also leaves scorched ground that continually deals magic damage."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4043672",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana"
+      },
+      "id": "champ:shyvana:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Main ranged slow and persistent area threat, strongly changed by Dragon Form."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Enemies may be damaged by only one scorched field at a time. Subsequent explosions against the same target deal 40% damage.",
+                "source_id": "wiki:moltenburst"
+              }
+            ],
+            "status": "supported",
+            "summary": "Scorched fields do not stack their damage on a target, and repeated explosions deal reduced damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Molten Burst will fail to go on cooldown if its cast time starts in Dragon Form and ends in Human Form.(bug)",
+                "source_id": "wiki:moltenburst"
+              }
+            ],
+            "status": "supported",
+            "summary": "The source reports a cooldown bug when Dragon Form ends during the cast."
+          }
+        ],
+        "card_id": "champ:shyvana:e:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Shyvana launches a fireball that explodes upon colliding with the first enemy or reaching maximum range, dealing magic damage to enemies hit and slowing them for a moment.",
+                "source_id": "wiki:moltenburst"
+              }
+            ],
+            "id": "e61dcb972013bd3367e51daf",
+            "summary": "A fireball explodes on collision or at maximum range for magic damage and a slow."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Dragon Form Bonus: The fireball is wider, can pass through enemies, and deals increased damage. Upon hitting an enemy champion or large monster, or reaching maximum range, the fireball sets an explosion that applies the same effects. Molten Burst will also scorch the ground it touches beneath, enemies within a scorched field are continually dealt magic damage.",
+                "source_id": "wiki:moltenburst"
+              }
+            ],
+            "id": "648c8d2d3c1c92934aff4cc9",
+            "summary": "Dragon Form adds a wider piercing fireball, stronger damage, explosions, and damaging ground."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the fireball and the extra positioning hazards in Dragon Form.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:moltenburst",
+          "riot:E"
+        ],
+        "subject_id": "wiki:moltenburst",
+        "title": "Molten Burst",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Molten Burst",
+        "answer": "Molten Burst fires a fireball that explodes on the first enemy or at maximum range, dealing magic damage and slowing enemies. In Dragon Form, it becomes wider, passes through enemies, deals increased damage, and triggers explosions on champions, large monsters, and at maximum range. It also leaves scorched ground that continually deals magic damage.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Shyvana",
+        "cooldown": "",
+        "counterplay": "Sidestep the fireball and leave scorched ground; avoid lining up with allies during Dragon Form.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/1cfca401f2d59f496a7b53538c135684b768d58c70081a530c39fe139bdb43dd.png",
+        "id": "champ:shyvana:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/8023bd1e799193e2f2e8e698967f8e81ad34f74f20e15f2576d414600734f3cf.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Shyvana",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:102",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "100 Dragon Fury is required to cast this ability.",
+                "source_id": "wiki:dragonsdescent"
+              },
+              {
+                "quote": "Shyvana transforms into Dragon Form and dashes with displacement immunity, breathing fire in a cone that deals magic damage to enemies hit and briefly fears them.",
+                "source_id": "wiki:dragonsdescent"
+              }
+            ],
+            "claim": "Dragon's Descent requires full Fury and transforms Shyvana during a dash with displacement immunity, dealing cone magic damage and briefly fearing enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Dragon Form: Shyvana gains bonus health, bonus attack range, and increased size. Her abilities are empowered to apply an additional effect.",
+                "source_id": "wiki:dragonsdescent"
+              }
+            ],
+            "claim": "Dragon Form grants bonus health and attack range and empowers her basic abilities."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Shyvana generates Fury every second while in Human Form, and also generates Fury from her basic attacks and abilities when they deal damage.",
+                "source_id": "wiki:dragonsdescent"
+              },
+              {
+                "quote": "She maintains Dragon Form at a recurring cost of Dragon Fury, returning to Human Form once all Dragon Fury has been depleted.",
+                "source_id": "wiki:dragonsdescent"
+              }
+            ],
+            "claim": "Fury builds over time in Human Form and from damaging attacks and abilities; Dragon Form drains Fury and ends when it is depleted."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4043672",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana"
+      },
+      "id": "champ:shyvana:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Defines her engage, empowered fighting window, and Fury-based availability."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Shyvana gains 1% bonus Dragon Fury generation from all sources per 1 ultimate haste.",
+                "source_id": "wiki:dragonsdescent"
+              }
+            ],
+            "status": "supported",
+            "summary": "Important availability topic: ultimate haste increases Fury generation from all sources, affecting access to and maintenance of Dragon Form."
+          }
+        ],
+        "card_id": "champ:shyvana:r:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "100 Dragon Fury is required to cast this ability.",
+                "source_id": "wiki:dragonsdescent"
+              },
+              {
+                "quote": "Shyvana transforms into Dragon Form and dashes with displacement immunity, breathing fire in a cone that deals magic damage to enemies hit and briefly fears them.",
+                "source_id": "wiki:dragonsdescent"
+              }
+            ],
+            "id": "fdb6889514d0dc42a3ed6470",
+            "summary": "Fury gates a transforming dash with displacement immunity, cone magic damage, and fear."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Dragon Form: Shyvana gains bonus health, bonus attack range, and increased size. Her abilities are empowered to apply an additional effect.",
+                "source_id": "wiki:dragonsdescent"
+              }
+            ],
+            "id": "d0c310ef25dd65001020a267",
+            "summary": "Dragon Form increases health and attack range and empowers basic abilities."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Shyvana generates Fury every second while in Human Form, and also generates Fury from her basic attacks and abilities when they deal damage.",
+                "source_id": "wiki:dragonsdescent"
+              },
+              {
+                "quote": "She maintains Dragon Form at a recurring cost of Dragon Fury, returning to Human Form once all Dragon Fury has been depleted.",
+                "source_id": "wiki:dragonsdescent"
+              }
+            ],
+            "id": "9fc3075a8b10ed895a1b737b",
+            "summary": "Fury builds in Human Form and through damage, then drains while sustaining Dragon Form."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the transformation engage and track its resource-driven threat window.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:dragonsdescent",
+          "riot:R"
+        ],
+        "subject_id": "wiki:dragonsdescent",
+        "title": "Dragon's Descent",
+        "unsupported_claims": [
+          "Maximum Fury capacity is not explicitly supplied."
+        ]
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Dragon's Descent",
+        "answer": "Dragon's Descent requires full Fury and transforms Shyvana during a dash with displacement immunity, dealing cone magic damage and briefly fearing enemies. Dragon Form grants bonus health and attack range and empowers her basic abilities. Fury builds over time in Human Form and from damaging attacks and abilities; Dragon Form drains Fury and ends when it is depleted.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Shyvana",
+        "cooldown": "",
+        "counterplay": "Watch her Fury before approaching, avoid the dash's cone, and disengage during Dragon Form.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/f6119ba8f9a3e050a291c38b0a42664785ea9ae15bed735b2c62dc6f91f75a43.png",
+        "id": "champ:shyvana:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/958e4a76a8c939570d09220c8339160bfd403e79d19f11437df11d7c93635610.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/shyvana/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Shyvana",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "The supplied text specifies the Fury requirement but does not explicitly state maximum Fury capacity; 'full Fury' follows the stated resource requirement."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

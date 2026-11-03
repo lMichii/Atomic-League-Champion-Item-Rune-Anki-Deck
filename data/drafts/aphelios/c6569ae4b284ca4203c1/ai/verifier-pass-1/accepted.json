@@ -1,0 +1,382 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:overview:L1",
+      "core_coverage": [
+        {
+          "answer_quote": "Aphelios is a basic-attack-focused marksman who deals mainly physical damage.",
+          "covered": true,
+          "mechanic_id": "overview_fighting_role",
+          "reason": "Supported as a qualitative synthesis of his role, weapon attacks and physical-damage effects."
+        },
+        {
+          "answer_quote": "Severum's Onslaught grants movement speed, but he has no dash or blink, making positioning important when enemies close in.",
+          "covered": true,
+          "mechanic_id": "overview_mobility",
+          "reason": "The complete supplied active-kit enumeration supports the absence inference; its basis and completeness risk are explicitly recorded outside the card face."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:system:p:thehitmanandtheseer:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Aphelios equips two of five weapons with distinct attacks and abilities; the main-hand determines his active, and weapon actives have separate cooldowns.",
+          "covered": true,
+          "mechanic_id": "system_equipment",
+          "reason": "Explains equipment, main-hand selection and the supported independent-cooldown interaction."
+        },
+        {
+          "answer_quote": "Basic attacks and weapon-active casts spend ammunition, but automatic attacks caused by abilities spend no additional ammunition; an empty weapon moves to the queue's end and is replaced by the next reserve weapon.",
+          "covered": true,
+          "mechanic_id": "system_ammo_cycle",
+          "reason": "Explains consumption, the automatic-attack exemption, replacement and queue cycling."
+        },
+        {
+          "answer_quote": "He starts with Calibrum main-hand and Severum off-hand, then Gravitum, Infernum and Crescendum in reserve; E shows the next weapon and can display a text prompt.",
+          "covered": true,
+          "mechanic_id": "system_queue_indicator",
+          "reason": "Gives the correct starting arrangement and explains E as a display and prompt."
+        },
+        {
+          "answer_quote": "Phase is available from the start, weapon actives unlock at level 2, and Moonlight Vigil unlocks at level 6 and improves at levels 11 and 16; skill points grant attack damage, attack speed or lethality instead of ability ranks.",
+          "covered": true,
+          "mechanic_id": "system_unlocks",
+          "reason": "All unlock levels and alternative skill-point uses match the evidence."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:weapon:none:calibrum:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Calibrum grants longer basic attack range while main-hand.",
+          "covered": true,
+          "mechanic_id": "calibrum_attack_range",
+          "reason": "States the range benefit with its main-hand condition."
+        },
+        {
+          "answer_quote": "Calibrum hits through abilities mark enemies for a long-range follow-up with the off-hand weapon, or the main-hand weapon if Calibrum is off-hand. The follow-up consumes all marks and adds physical damage for each mark consumed.",
+          "covered": true,
+          "mechanic_id": "calibrum_marks",
+          "reason": "Explains mark creation, weapon dependencies, consumption and bonus damage."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:ability_variant:q:moonshot:calibrum:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "With Calibrum main-hand, Moonshot fires a long-range directional bolt that deals physical damage to the first enemy hit and marks it for a long-range follow-up attack.",
+          "covered": true,
+          "mechanic_id": "moonshot_active",
+          "reason": "Correctly explains selection, first-hit collision, damage and marking."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:weapon:none:severum:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Severum attacks heal Aphelios, converting excess healing into a shield.",
+          "covered": true,
+          "mechanic_id": "severum_sustain",
+          "reason": "Explains both healing and excess-healing conversion."
+        },
+        {
+          "answer_quote": "Its basic attacks do not use projectiles, and their preparation before the hit cannot be cancelled.",
+          "covered": true,
+          "mechanic_id": "severum_attack_delivery",
+          "reason": "Accurately paraphrases non-projectile attacks and uncancellable windup."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:ability_variant:q:onslaught:severum:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "With Severum main-hand, Onslaught grants movement speed and lets Aphelios move while automatically alternating attacks between Severum and his off-hand weapon.",
+          "covered": true,
+          "mechanic_id": "onslaught_active",
+          "reason": "Explains movement, automatic attacks and both weapon dependencies."
+        },
+        {
+          "answer_quote": "It attacks the nearest visible enemy, prioritizing champions.",
+          "covered": true,
+          "mechanic_id": "onslaught_targeting",
+          "reason": "Matches the sourced targeting rule."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:weapon:none:gravitum:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Gravitum basic attacks slow enemies, with the slow weakening over time.",
+          "covered": true,
+          "mechanic_id": "gravitum_slow",
+          "reason": "Explains the decaying slow."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:ability_variant:q:bindingeclipse:gravitum:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "With Gravitum main-hand, Binding Eclipse deals magic damage and roots targetable enemies affected by Gravitum's slow.",
+          "covered": true,
+          "mechanic_id": "bindingeclipse_active",
+          "reason": "Explains the general debuff-dependent damage and root with the targetability condition; does not claim that a landed slow is the only cast-enabling circumstance."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:weapon:none:infernum:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Infernum basic attacks deal increased damage to the primary target, damage other enemies along their path, and spread into a cone behind the primary target.",
+          "covered": true,
+          "mechanic_id": "infernum_splash",
+          "reason": "Explains all three core effects without asserting universally lower secondary damage."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:ability_variant:q:duskwave:infernum:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "With Infernum main-hand, Duskwave deals physical damage in a cone, then follows up against each enemy hit with a delayed off-hand attack.",
+          "covered": true,
+          "mechanic_id": "duskwave_active",
+          "reason": "Explains the cone, delay, affected targets and off-hand dependency without guaranteeing damage through defenses."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:weapon:none:crescendum:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Crescendum must return before Aphelios can attack again, and catching it resets his attack timer, favoring close-range attacks with shorter return travel.",
+          "covered": true,
+          "mechanic_id": "crescendum_return",
+          "reason": "Explains the return gate and timer reset; the close-range consequence follows qualitatively from travel distance."
+        },
+        {
+          "answer_quote": "Abilities that would attack with Crescendum instead send returning mirror chakrams; catching them strengthens Crescendum attacks with bonus physical damage based on how many he holds. Catching another mirror chakram or attacking a champion with Crescendum refreshes their duration.",
+          "covered": true,
+          "mechanic_id": "crescendum_mirrors",
+          "reason": "Explains generation, collection, damage scaling and both refresh conditions."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:ability_variant:q:sentry:crescendum:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "With Crescendum main-hand, Sentry places a stationary sentry that grants sight and automatically attacks the nearest visible enemy in range with a copy of the off-hand weapon.",
+          "covered": true,
+          "mechanic_id": "sentry_active",
+          "reason": "Explains placement, vision, targeting and off-hand dependence; stationary behavior is a reasonable consequence of the supplied emplacement description."
+        },
+        {
+          "answer_quote": "An enemy entering its range activates it and makes it targetable.",
+          "covered": true,
+          "mechanic_id": "sentry_activation",
+          "reason": "Explains activation and targetability."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:w:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Phase swaps Aphelios' main-hand and off-hand weapons, changing his basic attack and available weapon active.",
+          "covered": true,
+          "mechanic_id": "phase_swap",
+          "reason": "Directly explains the exchange and its consequences."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "card_id": "champ:523:r:recognize:L2",
+      "core_coverage": [
+        {
+          "answer_quote": "Moonlight Vigil explodes on an enemy champion, deals physical damage to champions in the area, then follows with physical attacks carrying the main-hand weapon's effect chosen when fired; swapping during flight does not change it.",
+          "covered": true,
+          "mechanic_id": "moonlightvigil_base",
+          "reason": "Explains collision, area damage, follow-up attacks and the sourced weapon-effect lock."
+        },
+        {
+          "answer_quote": "Calibrum applies empowered marks",
+          "covered": true,
+          "mechanic_id": "moonlightvigil_calibrum",
+          "reason": "States the Calibrum outcome."
+        },
+        {
+          "answer_quote": "Severum heals Aphelios through the blast and follow-up attacks",
+          "covered": true,
+          "mechanic_id": "moonlightvigil_severum",
+          "reason": "States both healing components in the champion-hit context established by the opening sentence."
+        },
+        {
+          "answer_quote": "Gravitum applies an enhanced slow and lets Binding Eclipse root affected targets for longer.",
+          "covered": true,
+          "mechanic_id": "moonlightvigil_gravitum",
+          "reason": "Explains enhanced slowing and the conditional longer root, supported by the supplied comparison."
+        },
+        {
+          "answer_quote": "Infernum increases the initial blast's damage and makes follow-up attacks splash around targets, with overlapping areas damaging champions",
+          "covered": true,
+          "mechanic_id": "moonlightvigil_infernum",
+          "reason": "Explains increased blast damage, splash and overlap without relying on disputed formulas."
+        },
+        {
+          "answer_quote": "Crescendum grants mirror chakrams, increasing with the number of targets hit by the initial blast.",
+          "covered": true,
+          "mechanic_id": "moonlightvigil_crescendum",
+          "reason": "Explains generation and target-count dependence at the frozen qualitative level."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "E displays the next reserve weapon and can produce a text prompt; this does not establish a third combat spell.",
+      "source_ids": [
+        "riot:E",
+        "wiki:weaponqueuesystem"
+      ],
+      "topic": "E description"
+    },
+    {
+      "resolution": "The detailed ammunition rule qualifies the short general description: primary casts and ordinary attacks consume ammunition, while ability-generated automatic attacks consume no additional ammunition.",
+      "source_ids": [
+        "riot:P",
+        "wiki:thehitmanandtheseer"
+      ],
+      "topic": "Ammunition consumption"
+    },
+    {
+      "resolution": "Retain qualitative ultimate effects. Exclude conflicting formulas, bug reports, pending tests and outdated numerical examples from learned facts.",
+      "source_ids": [
+        "wiki:moonlightvigil",
+        "riot:R"
+      ],
+      "topic": "Ultimate numerical uncertainty"
+    },
+    {
+      "resolution": "The explicit in-flight swap rule qualifies the general current-main-weapon wording; teaching the firing weapon's effect is supported.",
+      "source_ids": [
+        "wiki:moonlightvigil",
+        "riot:R"
+      ],
+      "topic": "Ultimate weapon selection"
+    }
+  ],
+  "factual_risks": [
+    "Dash/blink absence remains an explicitly typed exhaustive-kit inference with a recorded completeness dependency, rather than a confirmed source quotation.",
+    "The draft conflict entry mentioning a prior kit_complete=false review has no independently supplied supporting review. Treat that reference as unverified metadata; the supplied live sections support completeness at the requested teaching scope.",
+    "Crescendum's close-range advantage and Sentry's stationary characterization are qualitative derivations from supplied mechanics, not verbatim assertions; their metadata discloses this.",
+    "Ultimate numerical uncertainty and Binding Eclipse immunity/projectile exceptions remain metadata issues; they do not invalidate the supported qualitative cores."
+  ],
+  "kit_complete": true,
+  "omitted_topics": []
+}

@@ -1,0 +1,240 @@
+{
+  "abilities": [
+    {
+      "cooldown_source_only": null,
+      "description": "Every 30 points of bonus Health gives Vladimir 1 Ability Power and every 1 point of Ability Power gives Vladimir 1.6 bonus Health (does not stack with itself).",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/VladimirP.png",
+      "name": "Crimson Pact",
+      "primary_source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "slot": "P",
+      "video_url": null
+    },
+    {
+      "cooldown_source_only": [
+        9,
+        7.9,
+        6.8,
+        5.7,
+        4.6
+      ],
+      "description": "Vladimir steals life from the target enemy. When Vladimir's resource is full, Transfusion will benefit from massively increased damage and healing for a brief time.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/VladimirQ.png",
+      "name": "Transfusion",
+      "primary_source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "slot": "Q",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0008/ability_0008_Q1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        28,
+        25,
+        22,
+        19,
+        16
+      ],
+      "description": "Vladimir sinks into a pool of blood, becoming untargetable for 2 seconds. Additionally, enemies on the pool are slowed and Vladimir siphons life from them.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/VladimirSanguinePool.png",
+      "name": "Sanguine Pool",
+      "primary_source_ids": [
+        "riot:W",
+        "wiki:W"
+      ],
+      "slot": "W",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0008/ability_0008_W1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        13,
+        11,
+        9,
+        7,
+        5
+      ],
+      "description": "Vladimir pays his own health to charge up a reservoir of blood which, when released, deals damage in the area around him but can be blocked by enemy units.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/VladimirE.png",
+      "name": "Tides of Blood",
+      "primary_source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "slot": "E",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0008/ability_0008_E1.webm"
+    },
+    {
+      "cooldown_source_only": [
+        120,
+        120,
+        120
+      ],
+      "description": "Vladimir infects an area with a virulent plague. Affected enemies take increased damage for the duration. After a few seconds, Hemoplague deals magic damage to infected enemies and heals Vladimir for each enemy Champion hit.",
+      "icon_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/VladimirHemoplague.png",
+      "name": "Hemoplague",
+      "primary_source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "slot": "R",
+      "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0008/ability_0008_R1.webm"
+    }
+  ],
+  "attribution": {
+    "riot": "https://www.leagueoflegends.com/en-us/champions/vladimir/",
+    "wiki": "https://wiki.leagueoflegends.com/en-us/Vladimir"
+  },
+  "champion": {
+    "ddragon_id": "Vladimir",
+    "name": "Vladimir",
+    "riot_id": 8,
+    "roles": [
+      "Mage",
+      "Fighter"
+    ]
+  },
+  "excerpts": [
+    {
+      "id": "riot:P",
+      "locator": "/data/Vladimir/passive/description",
+      "provider": "riot_ddragon",
+      "sha256": "2391a1edf8798a5848ddd0ab268a872ca3e5cca44419fbd841b4bf2a5d7587b5",
+      "text": "Every 30 points of bonus Health gives Vladimir 1 Ability Power and every 1 point of Ability Power gives Vladimir 1.6 bonus Health (does not stack with itself).",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Vladimir.json"
+    },
+    {
+      "id": "wiki:P",
+      "locator": "Crimson Pact",
+      "provider": "league_wiki",
+      "sha256": "7abf5ab5ca10087843c2f3a1dbcda9008121cc416b33c864253b374be6e131cd",
+      "text": "Crimson Pact\nInnate: Vladimir gains ability power based on his bonus health, and bonus health based on his ability power. These bonuses do not stack with each other.\nInnate: Vladimir gains (3.333% bonus health) as ability power and (160% AP) as bonus health. These two bonuses do not stack with each other.\nNotes/General Details\nTargeting input\nPassive\nAffects\nSelf\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nCrimson Pact only affects Vladimir's maximum health and will not increase Vladimir's current health to prevent Vladimir from restoring health whenever his ability power fluctuates.\nThe only exception is purchasing applicable items while inside the fountain, which will restore health equal to the bonus gained.\nVladimir's current health can decrease to match his maximum health if Crimson Pact's bonus health is lost.\nCrimson Pact's bonus ability power stacks multiplicatively with other sources of % ability power but its bonus health stacks additively with other sources of bonus health. With Rabadon's Deathcap's Magical Opus, the total is (30% AP + 4.3329% bonus health) bonus ability power and (208% AP + 1.59984% bonus health) bonus health.\nCrimson Pact and Riftmaker's Void Infusion create a recursive stat loop.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Vladimir?oldid=3960728"
+    },
+    {
+      "id": "riot:Q",
+      "locator": "/data/Vladimir/spells/0/description",
+      "provider": "riot_ddragon",
+      "sha256": "2391a1edf8798a5848ddd0ab268a872ca3e5cca44419fbd841b4bf2a5d7587b5",
+      "text": "Vladimir steals life from the target enemy. When Vladimir's resource is full, Transfusion will benefit from massively increased damage and healing for a brief time.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Vladimir.json"
+    },
+    {
+      "id": "wiki:Q",
+      "locator": "Transfusion",
+      "provider": "league_wiki",
+      "sha256": "7abf5ab5ca10087843c2f3a1dbcda9008121cc416b33c864253b374be6e131cd",
+      "text": "Transfusion\nCOOLDOWN:\n9 / 7.9 / 6.8 / 5.7 / 4.6\nCAST TIME:\n0.25\nTARGET RANGE:\n600\nActive: Vladimir drains blood from the target enemy, dealing magic damage and healing himself. He then generates 1 point of Crimson Rush over the cooldown. At 2 points of Crimson Rush, Vladimir surges, briefly gaining bonus movement speed and during which his Crimson Rush depletes over a short time. Casting Transfusion during the surge consumes all Crimson Rush to deal increased damage and heal Vladimir for an additional amount based on his missing health.\nActive: Vladimir drains blood from the target enemy, dealing magic damage and healing himself. He then generates 1 point of Crimson Rush over the cooldown.\nMagic Damage:80 / 100 / 120 / 140 / 160 (+ 60% AP)\nHeal:20 / 25 / 30 / 35 / 40 (+ 35% AP)\nAt 2 points of Crimson Rush, Vladimir surges, gaining 10% / 20% / 30% / 40% (based on level) bonus movement speed decaying over 0.5 seconds while the Crimson Rush depletes over 2.5 seconds. Crimson Rush depletes 75% slower during Sanguine Pool, Tides of Blood, or stasis.\nCasting Transfusion during the surge consumes all Crimson Rush to deal 85% increased damage and heal Vladimir for an additional 30 – 220 (based on level) (+ 5% (+ 4% per 100 AP) of his missing health). The additional healing is reduced to「 35% 」「 10.5 – 77 (based on level) (+ 1.75% (+ 1.4% per 100 AP) of his missing health) 」against minions.\nIncreased Damage:148 / 185 / 222 / 259 / 296 (+ 111% AP)\nNotes/General Details\nTargeting input\nUnit\nTarget out-of-range override\nWalk in range of the target unit to cast\nAffects\nSelf, Enemies\nDamage classification\nType\nAbility damage\nSub-type(s)\nMagic\nMinion Aggro\nDrawn\nCounters\nSpell shield\nBlocked\nProjectile\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nEven though the healing effect is visualized as a projectile, the healing itself triggers as soon as the cast time completes.\nVladimir's resource bar indicates his current Crimson Rush and changes colors depending on the charge-up stage of his surge.\nWhite while generating the first stack and while at 1 stack (there is no time-out period).\nOrange while generating the second stack.\nRed while he is surging (Crimson Rush will deplete over 2.5 seconds once triggered).\nEach stack generates over-time (Transfusion's cooldown).\nVladimir can cast Sanguine Pool and Hemoplague during Transfusion's cast time.\nThe Crimson Rush depletes normally while under resurrection effects.\nTransfusion's cast is special cased to not be cancelled if the target becomes untargetable, dies, or is too far away or no longer in sight during the cast time.\nIf the target is untargetable by the time the cast completes, however, Tranfusion will not deal them damage but still grant Vladimir the healing.\nMap-Specific Differences\nArena differences edit\nCooldown changed to 10 / 9 / 8 / 7 / 6 seconds.\nHeal AP ratio changed to 20% AP.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Vladimir?oldid=3960728"
+    },
+    {
+      "id": "riot:W",
+      "locator": "/data/Vladimir/spells/1/description",
+      "provider": "riot_ddragon",
+      "sha256": "2391a1edf8798a5848ddd0ab268a872ca3e5cca44419fbd841b4bf2a5d7587b5",
+      "text": "Vladimir sinks into a pool of blood, becoming untargetable for 2 seconds. Additionally, enemies on the pool are slowed and Vladimir siphons life from them.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Vladimir.json"
+    },
+    {
+      "id": "wiki:W",
+      "locator": "Sanguine Pool",
+      "provider": "league_wiki",
+      "sha256": "7abf5ab5ca10087843c2f3a1dbcda9008121cc416b33c864253b374be6e131cd",
+      "text": "Sanguine Pool\nCOST:\n15% current health\nCOOLDOWN:\n28 / 25 / 22 / 19 / 16\nCAST TIME:\nnone\nEFFECT RADIUS:\n350\nActive: Vladimir sinks into a pool of blood for a short time, becoming untargetable, ghosted, and gaining bonus movement speed that decays over a shorter duration. He cannot use basic attacks and abilities, but can still move. Enemies within the pool are continually slowed, and dealt magic damage based on his bonus health. Vladimir heals for a portion of the damage dealt. Sanguine Pool incurs a health cost to cast.\nActive: Vladimir sinks into a pool of blood, becoming untargetable and ghosted for 2 seconds. He also gains 37.5% bonus movement speed that decays exponentially over 1 second.\nEnemies within the pool are dealt magic damage every 0.5 seconds over the duration and are slowed by 40%.Vladimir heals himself for 30% of the pre-mitigation damage dealt, reduced to 18% against minions.\nMagic Damage Per Tick:20 / 33.75 / 47.5 / 61.25 / 75 (+ 3.75% bonus health)Total Magic Damage:80 / 135 / 190 / 245 / 300 (+ 15% bonus health)\nVladimir cannot use basic attacks nor abilities during Sanguine Pool, but he can still move. If Tides of Blood is charging at the time of Sanguine Pool's activation, that ability may still be recast.\nNotes/General Details\nTargeting input\nAuto\nAffects\nSelf, Enemies\nDamage classification\nType\nAOE DOT damage\nSub-type(s)\nMagic\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe first tick damages immediately so the final one occurs 0.5 seconds before Vladimir becomes targetable again.\nThere is an extra damage tick for 0 damage when Vladimir becomes targetable again, triggering the same spell effects as the normal ticks (except those which require damage greater than 0 being dealt).\nThis will trigger turret aggro onto Vladimir if an enemy champion is still within the effect radius when Sanguine Pool ends.\nThe slow ends immediately once affected enemies get out of range.\nVladimir can still use summoner spells and item actives during Sanguine Pool.\nWhile unable to attack, Vladimir can still input attack commands - causing him to follow his attack target.\nVladimir's attack range is reduced「 to 0 」「 by 450 」while pooled - causing him to attempt to move right up to his attack target.\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Vladimir?oldid=3960728"
+    },
+    {
+      "id": "riot:E",
+      "locator": "/data/Vladimir/spells/2/description",
+      "provider": "riot_ddragon",
+      "sha256": "2391a1edf8798a5848ddd0ab268a872ca3e5cca44419fbd841b4bf2a5d7587b5",
+      "text": "Vladimir pays his own health to charge up a reservoir of blood which, when released, deals damage in the area around him but can be blocked by enemy units.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Vladimir.json"
+    },
+    {
+      "id": "wiki:E",
+      "locator": "Tides of Blood",
+      "provider": "league_wiki",
+      "sha256": "7abf5ab5ca10087843c2f3a1dbcda9008121cc416b33c864253b374be6e131cd",
+      "text": "Tides of Blood\nCOST:\n2% / 4% / 6% / 8% (based on charge time) maximum health\nCOOLDOWN:\n13 / 11 / 9 / 7 / 5\nCAST TIME:\nnone\nEFFECT RADIUS:\n600\nWIDTH:\n120\nSPEED:\n4000\nActive: Vladimir charges up to a brief moment to ramp up a health cost. Tides of Blood can be recast within the duration, and does so automatically afterwards or if interrupted. Recast: Vladimir unleashes a nova of blood bolts that each deal magic damage to the first enemy hit based on his maximum health, which is further increased based on charge time. If he charged long enough, enemies hit are also briefly slowed.\nActive: Vladimir charges for up to 1.5 seconds, during which he increases Tides of Blood's damage over the first second of the channel, and becomes slowed by 20% afterwards for the remaining duration. Tides of Blood can be recast within the duration, and does so automatically afterwards or if it is interrupted.\nRecast: Vladimir unleashes a nova of 15 blood bolts around himself that each deal magic damage to the first enemy hit, increased based on charge time up to the first second.\nMinimum Magic Damage:30 / 45 / 60 / 75 / 90 (+ 1.5% maximum health) (+ 35% AP)Maximum Magic Damage:60 / 90 / 120 / 150 / 180 (+ 6% maximum health) (+ 80% AP)\nIf Tides of Blood was charged for at least 1 second, enemies hit are also slowed for 0.5 seconds.\nSlow:40 / 45 / 50 / 55 / 60%\nEnemies can intercept multiple bolts, but can be damaged only once.\nIf Vladimir is below 12% of his maximum health, Tides of Blood will not cost any health.\nNotes/General Details\nTargeting input\nAuto\nAffects\nSelf, Enemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nBlocked\nProjectile\nBlocked\nDisruption\nInterrupted\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nThe spell indicator shows 11 equally spaced missile indicators when hovering the ability in the HUD, however the spell actually casts 15 equally spaced missiles.\nThe health cost may still drop Vladimir below the specified amount if he is above it. This is verified for every tick of health cost, i.e if the first tick drops him below it, the next ones will stop affecting him if he remains below it.\nThe following table refers for interactions while Vladimir is channeling:\nType\nCharge channel\nAttacking\nDisabled\nAbilities\nSanguine Pool is usable. Transfusion and Hemoplague both interrupt after 0.25 seconds.\nMovement\nAllowed\nItems\nUsable\nShurelya's Battlesong Youmuu's Ghostblade Randuin's Omen\nDisabled\nHextech Rocketbelt\nInterrupted by\nAll item-actives not specified above interrupt\nConsumables\nUsable\nSpells\nUsable\nBarrier Clarity Cleanse Exhaust Ghost Heal Ignite Smite Flash\nDisabled\nN/A\nInterrupted by\nTeleport Recall Hexflash\nInterrupted by\nDeath\nCast-inhibiting effects\nEdit",
+      "url": "https://wiki.leagueoflegends.com/en-us/Vladimir?oldid=3960728"
+    },
+    {
+      "id": "riot:R",
+      "locator": "/data/Vladimir/spells/3/description",
+      "provider": "riot_ddragon",
+      "sha256": "2391a1edf8798a5848ddd0ab268a872ca3e5cca44419fbd841b4bf2a5d7587b5",
+      "text": "Vladimir infects an area with a virulent plague. Affected enemies take increased damage for the duration. After a few seconds, Hemoplague deals magic damage to infected enemies and heals Vladimir for each enemy Champion hit.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Vladimir.json"
+    },
+    {
+      "id": "wiki:R",
+      "locator": "Hemoplague",
+      "provider": "league_wiki",
+      "sha256": "7abf5ab5ca10087843c2f3a1dbcda9008121cc416b33c864253b374be6e131cd",
+      "text": "Hemoplague\nCOOLDOWN:\n120\nCAST TIME:\nnone\nTARGET RANGE:\n625\nEFFECT RADIUS:\n375\nActive: Vladimir unleashes a plague at the target location that infects nearby enemies hit for a few seconds, increasing the damage they take from all sources. After the duration, infected targets are dealt magic damage, which heals Vladimir for each champion hit.\nActive: Vladimir spreads a virulent plague at the target location that infects enemies hit for 4 seconds, increasing the damage they take from all sources by 10%.\nAfter the duration, the infection bursts to deal magic damage to all affected targets and, after a 0.4-second delay, heal Vladimir for each infected champion, reduced to 40% for champions beyond the first.\nMagic damage:150 / 250 / 350 (+ 70% AP)\nHeal:150 / 250 / 350 (+ 70% AP)Reduced Heal:60 / 100 / 140 (+ 28% AP)Maximum Total Heal:390 / 650 / 910 (+ 182% AP)\nNotes/General Details\nTargeting input\nLocation\nTarget out-of-range override\nWalk in range of the target location to cast\nAffects\nSelf, Enemies\nDamage classification\nType\nArea damage\nSub-type(s)\nMagic\nCounters\nSpell shield\nSee Notes\nProjectile\nNot Blocked\nNOTICE TO API USERS:Damage classifications are being amended across the League of Legends Wiki and also being refactored into the \"Damage Info\" tab.\nHemoplague will amplify almost all sources and types of damage, even including damage from neutral monsters.\nTrue damage will however not be amplified.(bug)\nHemoplague's effect stacks multiplicatively with other damage modifiers.\nHemoplague amplifies itself for an actual damage of 165 / 275 / 385 (+ 77% AP).\nHemoplague's modifier to incoming damage stacks additively with Alistar's Unbreakable Will for a total damage reduction of 45 / 55 / 65%.(unexpected)\nSpell shield does not negate the detonation.\nChampion skins[edit | edit source]\nThis article section only contains champion skins. For all associated collection items, see Vladimir (Collection).\nOriginal\n27.07.2010\nA fiend with a thirst for mortal blood, Vladimir has influenced the affairs of Noxus since the empire’s earliest days. In addition to unnaturally extending his life, his mastery of hemomancy allows him to control the minds and bodies of others as easily as his own. In the flamboyant salons of the Noxian aristocracy, this has enabled him to build a fanatical cult of personality around himself—while in the lowest back alleys, it allows him to bleed his enemies dry.\nKevin M. Connolly\nMichal Ivan, Puppetworks Animation Studio\nLoot eligible\nView in 3D\nCount\n520\n27.07.2010\nOnce upon a time, in the heart of a dark and gloomy castle, there lived an eternally youthful count who the people greatly feared. Every night, a terrible red mist would seep into the villages, and some poor soul would vanish without a trace—another life lost to Vladimir's growing appetites.\nKevin M. Connolly\nMist XG\nStorybook\nLoot eligible\nLegacy\nView in 3D\nMarquis\n520\n27.07.2010\nAt the last ball he attended, Vladimir stole everyone's heart. Strangely enough, no one has heard or seen those attendees since…\nKevin M. Connolly\nViktor Titov, Grafit Studio\nHigh Society\nLoot eligible\nView in 3D\nNosferatu\n975\n19.10.2010\nLook, the guy is a film buff. So what? Hemomancers can like things, too.\nKevin M. Connolly\nUnknown artist\nTrick-or-Treat\nLoot eligible\nLegacy\nView in 3D • View Music\nVandal\n975\n24.01.2011\nLeader of the notorious Vandals, Vladimir's exposure to residual radiation has given him control over the blood of living organisms. If he wanted to, he could cure every creature in the wasteland of disease—instead he rides around with his crew ransacking settlements. Priorities.\nKevin M. Connolly\nUnknown artist\nVandal\nLoot eligible\nLegacy\nView in 3D\nBlood Lord\n1820\n21.11.2011\nFormer leader of a Bloodstone cult, Vladimir took part in a ritual that sacrificed his humanity—along with the blood of several victims—to transform the once foppish noble into a terror of the night. To satiate his sanguine cravings, he stalks the urban labyrinth in search of hapless prey.\nGavin Hammon\nKienan 'Knockwurst' Lafferty\nBloodstone\nLoot eligible\nNew voiceover\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nSoulstealer\n1350\n09.07.2014\nKevin M. Connolly\nSperasoft Studio\nSoulstealer\nLoot eligible\nNew SFX/VFX\nNew Animations\nNew Recall\nView in 3D\nAcademy\n750\n26.08.2015\nNOTICE FROM THE DEAN: Vladimir is henceforth suspended from Academy grounds for behavior including (but not limited to) extreme snobbery, hiring other students to finish his exams and attend his classes, and putting an unnecessary strain on our janitorial department after “that” incident.\nKevin M. Connolly\nSixmorevodka Studio\nAcademy\nLoot eligible\nView in 3D\nDark Waters\n1350\n31.05.2018\nIn his younger days, Vladimir practiced at a school of medicine known for magically manipulating the humors of a patient's body. Turns out in Bilgewater there's more coin to be made killing than saving, and now he's found himself in a much more lucrative—if not messier—line of work.\nKevin M. Connolly\nRudy Siswanto, Kelly Aleshire\nBilgewater: Curse of the Drowned\nLoot eligible\nVoice filter\nNew SFX/VFX\nNew Animations\nNew Recall\nChromas\nView in 3D\nDark Waters Vladimir Chromas\nEmerald\nObsidian\nPearl\nSandstone\nTanzanite\nNightbringer\n1350\n12.12.2019\nThe chaotic king of the night, Vladimir exists as the personification of uncertainty and revelry. He thrives in the unknown shadows, feeding on the life essence and darkness found in mortal hearts.\nKevin M. Connolly\nWest Studio",
+      "url": "https://wiki.leagueoflegends.com/en-us/Vladimir?oldid=3960728"
+    },
+    {
+      "id": "riot:role",
+      "locator": "/data/Vladimir/tags",
+      "provider": "riot_ddragon",
+      "sha256": "2391a1edf8798a5848ddd0ab268a872ca3e5cca44419fbd841b4bf2a5d7587b5",
+      "text": "Name: Vladimir. Official role tags: Mage, Fighter.",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Vladimir.json"
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification."
+  ],
+  "portrait_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vladimir_0.jpg",
+  "resources": [
+    {
+      "bytes": 159011,
+      "kind": "json",
+      "retrieved_at": "2026-10-31T22:23:27.748144+00:00",
+      "sha256": "7798228cb92447d19270f5d106559ba4f7f47a6ae3c37c9bdf6c2eda226a3306",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 13990,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T23:34:53.250666+00:00",
+      "sha256": "2391a1edf8798a5848ddd0ab268a872ca3e5cca44419fbd841b4bf2a5d7587b5",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/en_US/champion/Vladimir.json"
+    },
+    {
+      "bytes": 46427,
+      "kind": "json",
+      "retrieved_at": "2026-11-02T23:34:53.404777+00:00",
+      "sha256": "6c1ba3ac8cd1348bccbe68af95cb76823290cd2c25259d640acd3413eae118ea",
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/champions/8.json"
+    },
+    {
+      "bytes": 175897,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T23:34:54.013273+00:00",
+      "sha256": "f08915e3b3dfc07215029f249f1fef87c45c4cf3ef9bd0ef37115192a33130f2",
+      "url": "https://www.leagueoflegends.com/en-us/champions/vladimir/"
+    },
+    {
+      "bytes": 791607,
+      "kind": "html",
+      "retrieved_at": "2026-11-02T23:34:54.252182+00:00",
+      "sha256": "7abf5ab5ca10087843c2f3a1dbcda9008121cc416b33c864253b374be6e131cd",
+      "url": "https://wiki.leagueoflegends.com/en-us/Vladimir"
+    }
+  ],
+  "schema_version": 1,
+  "versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "3960728"
+  }
+}

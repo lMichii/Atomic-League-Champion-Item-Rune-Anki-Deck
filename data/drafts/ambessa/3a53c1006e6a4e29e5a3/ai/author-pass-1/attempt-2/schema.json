@@ -1,0 +1,238 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "cards": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "maxLength": 1100,
+            "minLength": 25,
+            "type": "string"
+          },
+          "build_focus": {
+            "enum": [
+              "",
+              "AD",
+              "AP",
+              "AD / AP",
+              "Health, Armor, MR",
+              "AP, Health",
+              "AD, Health"
+            ],
+            "type": "string"
+          },
+          "card_id": {
+            "maxLength": 220,
+            "minLength": 5,
+            "type": "string"
+          },
+          "counterplay": {
+            "maxLength": 450,
+            "minLength": 15,
+            "type": "string"
+          },
+          "facts": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "basis": {
+                  "enum": [
+                    "source_assertion",
+                    "exhaustive_kit_inference"
+                  ],
+                  "type": "string"
+                },
+                "citations": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "quote": {
+                        "maxLength": 1000,
+                        "minLength": 15,
+                        "type": "string"
+                      },
+                      "source_id": {
+                        "maxLength": 80,
+                        "minLength": 1,
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "source_id",
+                      "quote"
+                    ],
+                    "type": "object"
+                  },
+                  "maxItems": 10,
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "claim": {
+                  "maxLength": 800,
+                  "minLength": 5,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "claim",
+                "citations",
+                "basis"
+              ],
+              "type": "object"
+            },
+            "maxItems": 15,
+            "minItems": 1,
+            "type": "array"
+          },
+          "priority": {
+            "enum": [
+              "A",
+              "B",
+              "C"
+            ],
+            "type": "string"
+          },
+          "priority_reason": {
+            "maxLength": 400,
+            "minLength": 15,
+            "type": "string"
+          },
+          "uncertainties": {
+            "items": {
+              "maxLength": 700,
+              "minLength": 5,
+              "type": "string"
+            },
+            "maxItems": 12,
+            "minItems": 0,
+            "type": "array"
+          }
+        },
+        "required": [
+          "card_id",
+          "answer",
+          "counterplay",
+          "build_focus",
+          "priority",
+          "priority_reason",
+          "facts",
+          "uncertainties"
+        ],
+        "type": "object"
+      },
+      "maxItems": 35,
+      "minItems": 2,
+      "type": "array"
+    },
+    "champion_id": {
+      "type": "integer"
+    },
+    "conflicts": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "resolution": {
+            "maxLength": 600,
+            "minLength": 5,
+            "type": "string"
+          },
+          "source_ids": {
+            "items": {
+              "maxLength": 80,
+              "minLength": 1,
+              "type": "string"
+            },
+            "maxItems": 8,
+            "minItems": 2,
+            "type": "array"
+          },
+          "topic": {
+            "maxLength": 400,
+            "minLength": 5,
+            "type": "string"
+          }
+        },
+        "required": [
+          "topic",
+          "source_ids",
+          "resolution"
+        ],
+        "type": "object"
+      },
+      "maxItems": 15,
+      "minItems": 0,
+      "type": "array"
+    },
+    "cooldown_candidates": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "card_id": {
+            "maxLength": 220,
+            "minLength": 5,
+            "type": "string"
+          },
+          "priority": {
+            "enum": [
+              "A",
+              "B",
+              "C"
+            ],
+            "type": "string"
+          },
+          "reason": {
+            "maxLength": 500,
+            "minLength": 15,
+            "type": "string"
+          },
+          "source_ids": {
+            "items": {
+              "maxLength": 100,
+              "minLength": 1,
+              "type": "string"
+            },
+            "maxItems": 8,
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "card_id",
+          "priority",
+          "reason",
+          "source_ids"
+        ],
+        "type": "object"
+      },
+      "maxItems": 12,
+      "minItems": 0,
+      "type": "array"
+    },
+    "factual_risks": {
+      "items": {
+        "maxLength": 700,
+        "minLength": 5,
+        "type": "string"
+      },
+      "maxItems": 25,
+      "minItems": 0,
+      "type": "array"
+    },
+    "language": {
+      "enum": [
+        "en"
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "language",
+    "champion_id",
+    "cards",
+    "cooldown_candidates",
+    "conflicts",
+    "factual_risks"
+  ],
+  "type": "object"
+}

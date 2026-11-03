@@ -1,0 +1,783 @@
+{
+  "cards": [
+    {
+      "text": {
+        "answer": "Jhin is a marksman/mage whose physical attacks use a limited magazine with a powerful final shot. His passive rewards AD, critical strike chance and bonus attack speed, while his long-range shots punish damaged enemies. Track his ammunition and avoid straight-line follow-up after taking damage.",
+        "build_focus": "AD",
+        "counterplay": "Track his ammunition and avoid straight-line follow-up after taking damage.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Jhin. Official role tags: Marksman, Mage.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Basic Attack: Jhin fires at the target with Whisper, dealing 100% AD physical damage",
+                "source_id": "wiki:basicattack"
+              },
+              {
+                "quote": "Jhin's gun may fire up to 4 times before needing to reload for a short period. The final round will critically strike, dealing bonus physical damage based on the target's missing health.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "claim": "Jhin is a marksman/mage whose physical attacks use a limited magazine with a powerful final shot."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Jhin gains bonus attack damage, increased by his critical strike chance and bonus attack speed.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "claim": "His passive rewards AD, critical strike chance and bonus attack speed"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Jhin brandishes his cane, firing a single shot with incredible range.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "If the target was recently struck by Jhin's allies, lotus traps, or damaged by Jhin, they are rooted.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "It is able to fire 4 super shots at extreme range",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "deals physical damage to enemies hit based on their missing health.",
+                "source_id": "wiki:curtaincall"
+              }
+            ],
+            "claim": "while his long-range shots punish damaged enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Jhin's gun may fire up to 4 times before needing to reload for a short period.",
+                "source_id": "wiki:whisper"
+              },
+              {
+                "quote": "Jhin fires a shot in the target direction that deals physical damage to all enemies in a line until colliding with an enemy champion. Hitting a marked Caught Out champion roots them for a duration",
+                "source_id": "wiki:deadlyflourish"
+              }
+            ],
+            "claim": "Track his ammunition and avoid straight-line follow-up after taking damage."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Establishes his ammunition rhythm and long-range follow-up threat.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "riot:role",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Jhin's gun may fire up to 4 times before needing to reload for a short period. The final round will critically strike, dealing bonus physical damage based on the target's missing health.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "id": "wiki:whisper",
+            "summary": "Limited ammunition culminates in a critical shot with missing-health damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the target was recently struck by Jhin's allies, lotus traps, or damaged by Jhin, they are rooted.",
+                "source_id": "riot:W"
+              }
+            ],
+            "id": "wiki:deadlyflourish",
+            "summary": "Deadly Flourish can root enemies after allied damage or trap contact."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Jhin's fighting rhythm, build focus and follow-up threat.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "wiki:basicattack",
+          "wiki:whisper",
+          "riot:W",
+          "wiki:deadlyflourish",
+          "riot:R",
+          "wiki:curtaincall"
+        ],
+        "subject_id": "riot:role",
+        "title": "Jhin",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Whisper fires four attacks before reloading; Jhin cannot basic attack during the reload. The final round always critically strikes and adds physical damage based on the target's missing health. Critical strikes grant him a burst of movement speed, and critical strike chance and bonus attack speed increase his passive's bonus AD.",
+        "build_focus": "",
+        "counterplay": "Respect the final round when wounded; look for pressure during his reload and expect him to reposition after a critical strike.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Jhin's gun may fire up to 4 times before needing to reload for a short period.",
+                "source_id": "wiki:whisper"
+              },
+              {
+                "quote": "Jhin is unable to declare basic attacks during the reload time.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "claim": "Whisper fires four attacks before reloading; Jhin cannot basic attack during the reload."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The final round will critically strike, dealing bonus physical damage based on the target's missing health.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "claim": "The final round always critically strikes and adds physical damage based on the target's missing health."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Whenever he critically strikes, he gains a burst of movement speed based on his bonus attack speed.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "claim": "Critical strikes grant him a burst of movement speed"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Jhin gains bonus attack damage, increased by his critical strike chance and bonus attack speed.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "claim": "critical strike chance and bonus attack speed increase his passive's bonus AD."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "The final shot and reload determine his basic trading windows.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Jhin's attack speed cannot increase except by leveling up, and he deals reduced critical strike damage.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "status": "supported",
+            "summary": "His attack speed increases only through leveling, and his critical strikes deal reduced damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The bonus damage based on the target's missing health does not affect structures.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "status": "supported",
+            "summary": "The final shot's missing-health bonus does not affect structures."
+          }
+        ],
+        "context_id": "wiki:whisper",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Jhin's gun may fire up to 4 times before needing to reload for a short period.",
+                "source_id": "wiki:whisper"
+              },
+              {
+                "quote": "Jhin is unable to declare basic attacks during the reload time.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "id": "wiki:whisper",
+            "summary": "A four-round magazine creates a reload window without basic attacks."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The final round will critically strike, dealing bonus physical damage based on the target's missing health.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "id": "riot:P",
+            "summary": "The final round critically strikes and adds missing-health physical damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Whenever he critically strikes, he gains a burst of movement speed based on his bonus attack speed.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "id": "wiki:P",
+            "summary": "Critical strikes grant a movement-speed burst."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Jhin gains bonus attack damage, increased by his critical strike chance and bonus attack speed.",
+                "source_id": "wiki:whisper"
+              }
+            ],
+            "id": "wiki:basicattack",
+            "summary": "Critical strike chance and bonus attack speed increase his passive's bonus AD."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the dangerous final round and the reload trading window.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:whisper",
+          "wiki:basicattack",
+          "riot:P",
+          "wiki:P"
+        ],
+        "subject_id": "wiki:whisper",
+        "title": "Whisper",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Dancing Grenade deals physical damage and bounces to nearby enemies, prioritizing the closest enemy it has not hit. Later bounces gain damage if a previously hit enemy dies before the next impact, even if something else kills them.",
+        "build_focus": "",
+        "counterplay": "Keep distance from dying minions and nearby bounce targets.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Jhin throws a grenade at the target enemy that deals physical damage and can bounce to up to three additional nearby enemies, prioritizing the closest enemy that has not been hit.",
+                "source_id": "wiki:dancinggrenade"
+              }
+            ],
+            "claim": "Dancing Grenade deals physical damage and bounces to nearby enemies, prioritizing the closest enemy it has not hit."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The grenade's damage increases any time an enemy dies by any means after being hit by the grenade before it strikes its next target.",
+                "source_id": "wiki:dancinggrenade"
+              }
+            ],
+            "claim": "Later bounces gain damage if a previously hit enemy dies before the next impact, even if something else kills them."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "Explains the increased poke threat around dying minions.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Spell shield will not prevent the canister from bouncing.",
+                "source_id": "wiki:dancinggrenade"
+              }
+            ],
+            "status": "supported",
+            "summary": "A spell shield does not prevent the grenade from bouncing."
+          }
+        ],
+        "context_id": "wiki:dancinggrenade",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Jhin throws a grenade at the target enemy that deals physical damage and can bounce to up to three additional nearby enemies, prioritizing the closest enemy that has not been hit.",
+                "source_id": "wiki:dancinggrenade"
+              }
+            ],
+            "id": "wiki:dancinggrenade",
+            "summary": "The physical-damage grenade bounces toward nearby enemies it has not hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The grenade's damage increases any time an enemy dies by any means after being hit by the grenade before it strikes its next target.",
+                "source_id": "wiki:dancinggrenade"
+              }
+            ],
+            "id": "wiki:Q",
+            "summary": "A hit enemy dying before the next impact increases subsequent damage."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize bounce positioning and damage amplification around dying targets.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:dancinggrenade",
+          "wiki:Q",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:dancinggrenade",
+        "title": "Dancing Grenade",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Deadly Flourish is a long-range physical shot that passes through minions and monsters but stops at the first champion hit. Champions damaged by Jhin or allied champions, or who trigger a Lotus Trap, are briefly marked; hitting a marked champion roots them and grants Jhin movement speed.",
+        "build_focus": "",
+        "counterplay": "Sidestep the firing line, especially after taking damage or triggering a trap; minions do not provide cover.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Jhin brandishes his cane, firing a single shot with incredible range. It pierces through minions and monsters, but stops on the first champion hit.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Jhin fires a shot in the target direction that deals physical damage to all enemies in a line until colliding with an enemy champion.",
+                "source_id": "wiki:deadlyflourish"
+              }
+            ],
+            "claim": "Deadly Flourish is a long-range physical shot that passes through minions and monsters but stops at the first champion hit."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Enemy champions that trigger a Lotus Trap to bloom or are damaged by Jhin or allied champions are marked for 4 seconds.",
+                "source_id": "wiki:deadlyflourish"
+              },
+              {
+                "quote": "Hitting a marked champion roots them for a duration and grants Jhin Every Moment Matters' bonus movement speed.",
+                "source_id": "wiki:deadlyflourish"
+              }
+            ],
+            "claim": "Champions damaged by Jhin or allied champions, or who trigger a Lotus Trap, are briefly marked; hitting a marked champion roots them and grants Jhin movement speed."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "His long-range root converts allied damage and trap contact into follow-up.",
+        "uncertainties": [
+          "The supplied evidence does not give the ability's full cooldown; follow-up availability cannot be quantified."
+        ]
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The Caught Out mark only appears if Deadly Flourish can potentially root the target, and will not if the ability's cooldown is longer than 4 seconds or isn't ranked up.",
+                "source_id": "wiki:deadlyflourish"
+              }
+            ],
+            "status": "supported",
+            "summary": "The mark's appearance depends on whether Deadly Flourish can potentially root, including its cooldown and rank."
+          }
+        ],
+        "context_id": "wiki:deadlyflourish",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "It pierces through minions and monsters, but stops on the first champion hit.",
+                "source_id": "riot:W"
+              }
+            ],
+            "id": "riot:W",
+            "summary": "Minions and monsters do not block the shot; a champion does."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Enemy champions that trigger a Lotus Trap to bloom or are damaged by Jhin or allied champions are marked for 4 seconds.",
+                "source_id": "wiki:deadlyflourish"
+              },
+              {
+                "quote": "Hitting a marked champion roots them for a duration and grants Jhin Every Moment Matters' bonus movement speed.",
+                "source_id": "wiki:deadlyflourish"
+              }
+            ],
+            "id": "wiki:deadlyflourish",
+            "summary": "Damage or trap contact enables a root and movement-speed reward on hit."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the root condition and why minions cannot shield against it.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:deadlyflourish",
+          "riot:W",
+          "wiki:W"
+        ],
+        "subject_id": "wiki:deadlyflourish",
+        "title": "Deadly Flourish",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Captive Audience places a stealthed Lotus Trap that blooms on enemy contact, revealing nearby enemies and slowing enemies in its area before a delayed magic-damage explosion. When Jhin kills an enemy champion, a blooming trap appears on their corpse.",
+        "build_focus": "",
+        "counterplay": "Leave the blooming area promptly and be cautious around champions Jhin has just killed.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Jhin places a stealthed Lotus Trap at the target location.",
+                "source_id": "wiki:captiveaudience"
+              },
+              {
+                "quote": "The Lotus Trap blooms upon enemy contact, with enemies in the area at the time of its trigger becoming revealed for 4 seconds.",
+                "source_id": "wiki:captiveaudience"
+              },
+              {
+                "quote": "Blooming Lotus Traps slow enemies within the area by 35% for 2 seconds before exploding, dealing magic damage to enemies.",
+                "source_id": "wiki:captiveaudience"
+              }
+            ],
+            "claim": "Captive Audience places a stealthed Lotus Trap that blooms on enemy contact, revealing nearby enemies and slowing enemies in its area before a delayed magic-damage explosion."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Whenever Jhin kills an enemy champion, he summons a Blooming Lotus Trap on their corpse.",
+                "source_id": "wiki:captiveaudience"
+              }
+            ],
+            "claim": "When Jhin kills an enemy champion, a blooming trap appears on their corpse."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "Trap contact threatens delayed damage and enables his root follow-up.",
+        "uncertainties": [
+          "Trap charges replenish periodically, but the supplied evidence does not quantify the recharge interval."
+        ]
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Jhin periodically stocks a Lotus Trap charge, up to a maximum of 2.",
+                "source_id": "wiki:captiveaudience"
+              },
+              {
+                "quote": "Beauty in Death does not consume Lotus Trap charges.",
+                "source_id": "wiki:captiveaudience"
+              }
+            ],
+            "status": "supported",
+            "summary": "Placed traps use replenishing charges; corpse traps do not consume them."
+          }
+        ],
+        "context_id": "wiki:captiveaudience",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Jhin places a stealthed Lotus Trap at the target location. When an enemy crosses, it will bloom, slowing and revealing them. The trap detonates shortly after, dealing magic damage to enemies.",
+                "source_id": "wiki:captiveaudience"
+              }
+            ],
+            "id": "wiki:captiveaudience",
+            "summary": "Stealthed traps reveal and slow on contact before exploding for magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Whenever Jhin kills an enemy champion, he summons a Blooming Lotus Trap on their corpse.",
+                "source_id": "wiki:captiveaudience"
+              }
+            ],
+            "id": "riot:E",
+            "summary": "Champion kills create blooming traps on the victims' corpses."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize trap activation and the danger around Jhin's kills.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:captiveaudience",
+          "riot:E",
+          "wiki:E"
+        ],
+        "subject_id": "wiki:captiveaudience",
+        "title": "Captive Audience",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Curtain Call channels up to four extreme-range shots into a cone fixed in front of Jhin; its opening sound and firing area are audible and visible to both teams. Shots pass through minions and monsters but stop at the first champion, slowing and revealing them. They deal physical damage that increases with missing health, and the final shot critically strikes for bonus damage.",
+        "build_focus": "",
+        "counterplay": "Move across the firing lines or out of the cone; be especially cautious while wounded and do not rely on minion cover.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Jhin channels up to a period, being able to fire up to four shots in a large cone in front of him.",
+                "source_id": "wiki:curtaincall"
+              },
+              {
+                "quote": "It is able to fire 4 super shots at extreme range",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Curtain Call's shooting range is fixed in front of Jhin.",
+                "source_id": "wiki:curtaincall"
+              },
+              {
+                "quote": "The opening sound effect and area of range are audible and visible to both teams.",
+                "source_id": "wiki:curtaincall"
+              }
+            ],
+            "claim": "Curtain Call channels up to four extreme-range shots into a cone fixed in front of Jhin; its opening sound and firing area are audible and visible to both teams."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "pierce through minions and monsters, but stop on the first champion impacted.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "It stops upon hitting an enemy champion, slowing and revealing them for a short time.",
+                "source_id": "wiki:curtaincall"
+              }
+            ],
+            "claim": "Shots pass through minions and monsters but stop at the first champion, slowing and revealing them."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "deals physical damage to enemies hit, increased by 0% – 300% (based on target's missing health).",
+                "source_id": "wiki:curtaincall"
+              },
+              {
+                "quote": "The fourth shot critically strikes for bonus physical damage.",
+                "source_id": "wiki:curtaincall"
+              }
+            ],
+            "claim": "They deal physical damage that increases with missing health, and the final shot critically strikes for bonus damage."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Recognizing the firing cone and missing-health threat helps guide movement during his ultimate.",
+        "uncertainties": [
+          "The supplied evidence gives spacing between shots but no full ultimate cooldown."
+        ]
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "wiki:curtaincall",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Jhin channels up to a period, being able to fire up to four shots in a large cone in front of him.",
+                "source_id": "wiki:curtaincall"
+              },
+              {
+                "quote": "Curtain Call's shooting range is fixed in front of Jhin.",
+                "source_id": "wiki:curtaincall"
+              }
+            ],
+            "id": "wiki:curtaincall",
+            "summary": "A channel provides up to four shots within a fixed forward cone."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The opening sound effect and area of range are audible and visible to both teams.",
+                "source_id": "wiki:curtaincall"
+              }
+            ],
+            "id": "wiki:R",
+            "summary": "Both teams can hear the opening sound and see the firing area."
+          },
+          {
+            "citations": [
+              {
+                "quote": "pierce through minions and monsters, but stop on the first champion impacted.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "It stops upon hitting an enemy champion, slowing and revealing them for a short time.",
+                "source_id": "wiki:curtaincall"
+              }
+            ],
+            "id": "riot:R",
+            "summary": "Shots ignore minion and monster cover, stopping on a champion to slow and reveal them."
+          },
+          {
+            "citations": [
+              {
+                "quote": "deals physical damage to enemies hit, increased by 0% – 300% (based on target's missing health).",
+                "source_id": "wiki:curtaincall"
+              },
+              {
+                "quote": "The fourth shot critically strikes for bonus physical damage.",
+                "source_id": "wiki:curtaincall"
+              }
+            ],
+            "id": "riot:role",
+            "summary": "Missing health increases shot damage, and the final shot critically strikes."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the ultimate's firing area, cover rules and finishing threat.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:curtaincall",
+          "wiki:R",
+          "riot:R"
+        ],
+        "subject_id": "wiki:curtaincall",
+        "title": "Curtain Call",
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Full ability cooldowns and the trap recharge interval are absent; reload, root follow-up and ultimate availability remain important timing topics.",
+    "Exact numerical values are omitted because they are unnecessary for these recognition cards."
+  ],
+  "features": [
+    "standard",
+    "resource_cycle",
+    "conditional_effects"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "Enemy champions that trigger a Lotus Trap to bloom or are damaged by Jhin or allied champions are marked for 4 seconds.",
+          "source_id": "wiki:deadlyflourish"
+        },
+        {
+          "quote": "Hitting a marked champion roots them for a duration",
+          "source_id": "wiki:deadlyflourish"
+        }
+      ],
+      "condition": "An enemy champion triggers a Lotus Trap and is then hit while marked.",
+      "from_id": "wiki:captiveaudience",
+      "kind": "conditional_effect",
+      "to_id": "wiki:deadlyflourish"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "merged",
+      "reason": "Basic attacks are taught with Whisper's ammunition and critical-strike pattern.",
+      "source_id": "wiki:basicattack",
+      "target_subject_ids": [
+        "wiki:whisper",
+        "riot:role"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary passive card covers ammunition, final-round damage and critical-strike rewards.",
+      "source_id": "wiki:whisper",
+      "target_subject_ids": [
+        "wiki:whisper"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary Q card covers bounce targeting and damage growth after deaths.",
+      "source_id": "wiki:dancinggrenade",
+      "target_subject_ids": [
+        "wiki:dancinggrenade"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary W card combines the mark condition with the shot and root.",
+      "source_id": "wiki:deadlyflourish",
+      "target_subject_ids": [
+        "wiki:deadlyflourish"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary E card merges placed traps and the related corpse-trap effect.",
+      "source_id": "wiki:captiveaudience",
+      "target_subject_ids": [
+        "wiki:captiveaudience"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary R card combines channel recognition, shot behavior and final-shot damage.",
+      "source_id": "wiki:curtaincall",
+      "target_subject_ids": [
+        "wiki:curtaincall"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:whisper",
+        "riot:P"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:dancinggrenade",
+        "riot:Q"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:deadlyflourish",
+        "riot:W"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:captiveaudience",
+        "riot:E"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:curtaincall",
+        "riot:R"
+      ]
+    }
+  ],
+  "summary": "One overview and five primary ability cards teach Jhin's ammunition rhythm, grenade bounces, conditional root, traps and long-range ultimate. Related passive effects and recast shots remain merged with their parent abilities."
+}

@@ -1,0 +1,820 @@
+{
+  "abilities": {
+    "E": {
+      "gif": null,
+      "icon": {
+        "kind": "png",
+        "path": "media/aphelios_e_icon.png",
+        "retrieved_at": "2026-10-31T23:38:27.891780+00:00",
+        "sha256": "9b4edf9bafe441858c9f2f6a7dae4bc9808ccb8c81915857ea74a392c136c159",
+        "source_sha256": "9b4edf9bafe441858c9f2f6a7dae4bc9808ccb8c81915857ea74a392c136c159",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ApheliosE_ClientTooltipWrapper.png"
+      },
+      "video": null
+    },
+    "P": {
+      "gif": {
+        "frames": 146,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/aphelios_p.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043"
+        },
+        "sha256": "dc0ca5a3753b589bda9b6663b83d5dfbe2524bdf29d75f33ce5501bf6c538de7",
+        "source_sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/aphelios_p_icon.png",
+        "retrieved_at": "2026-10-31T23:38:17.687596+00:00",
+        "sha256": "5f4da611200c651d07b064595947a38177b27de31e280622be1573dd05fe8635",
+        "source_sha256": "5f4da611200c651d07b064595947a38177b27de31e280622be1573dd05fe8635",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/ApheliosP.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/aphelios_p.webm",
+        "retrieved_at": "2026-10-31T23:38:18.105038+00:00",
+        "sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+        "source_sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.webm"
+      }
+    },
+    "Q": {
+      "gif": {
+        "frames": 180,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/aphelios_q.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec"
+        },
+        "sha256": "5d284192c45b622c57a4c6309c536ce2fa15adb7e1d5b6972e005d5e7828fd69",
+        "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/aphelios_q_icon.png",
+        "retrieved_at": "2026-10-31T23:38:21.466860+00:00",
+        "sha256": "a5d0c0de0979c5563e0ef90812f575c8dff8c140b5dfe8ec3dddf6acd407d0a2",
+        "source_sha256": "a5d0c0de0979c5563e0ef90812f575c8dff8c140b5dfe8ec3dddf6acd407d0a2",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ApheliosQ_ClientTooltipWrapper.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/aphelios_q.webm",
+        "retrieved_at": "2026-10-31T23:38:21.815635+00:00",
+        "sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+      }
+    },
+    "R": {
+      "gif": {
+        "frames": 79,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/aphelios_r.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b"
+        },
+        "sha256": "b77da4bcf98e2f14d21a989fc3ed1f23626b8cefa82465295ffb5e13ac9dadf3",
+        "source_sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_R1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/aphelios_r_icon.png",
+        "retrieved_at": "2026-10-31T23:38:28.502040+00:00",
+        "sha256": "d97226dae0e21ea9e6d694d1ca45eac2b4d6c9a32a03b7c0b46143e5b3d158ae",
+        "source_sha256": "d97226dae0e21ea9e6d694d1ca45eac2b4d6c9a32a03b7c0b46143e5b3d158ae",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ApheliosR.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/aphelios_r.webm",
+        "retrieved_at": "2026-10-31T23:38:28.717796+00:00",
+        "sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b",
+        "source_sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_R1.webm"
+      }
+    },
+    "W": {
+      "gif": {
+        "frames": 75,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/aphelios_w.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4"
+        },
+        "sha256": "4e6bdec21ee18b8536b279be31e89bd5b8f2835fe3936b204b57d5d7b4d09a61",
+        "source_sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_W1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/aphelios_w_icon.png",
+        "retrieved_at": "2026-10-31T23:38:25.322497+00:00",
+        "sha256": "c61585d26b433718c3b7473e8e66b567b2fbc78f3e6e9cf91e3dfd19601f189f",
+        "source_sha256": "c61585d26b433718c3b7473e8e66b567b2fbc78f3e6e9cf91e3dfd19601f189f",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ApheliosW.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/aphelios_w.webm",
+        "retrieved_at": "2026-10-31T23:38:25.565796+00:00",
+        "sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4",
+        "source_sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_W1.webm"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "card_id": "champ:523:overview:L1",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "jpg",
+        "path": "media/aphelios_portrait.jpg",
+        "retrieved_at": "2026-10-31T23:38:17.389754+00:00",
+        "sha256": "a5aba47dcb8f66ac8823e3bc345552d028a65c3162dce8d6670c357fef5dd198",
+        "source_sha256": "a5aba47dcb8f66ac8823e3bc345552d028a65c3162dce8d6670c357fef5dd198",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "official champion portrait",
+      "slot_clip_candidate": null,
+      "subject_id": "riot:role",
+      "unresolved": [],
+      "video": null
+    },
+    {
+      "card_id": "champ:523:system:p:thehitmanandtheseer:recognize:L2",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/aphelios_p_icon.png",
+        "retrieved_at": "2026-10-31T23:38:17.687596+00:00",
+        "sha256": "5f4da611200c651d07b064595947a38177b27de31e280622be1573dd05fe8635",
+        "source_sha256": "5f4da611200c651d07b064595947a38177b27de31e280622be1573dd05fe8635",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/ApheliosP.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:thehitmanandtheseer",
+      "unresolved": [
+        "Passive/resource/leveling visual cues require manual review of the archived demonstration frames."
+      ],
+      "video": {
+        "kind": "webm",
+        "path": "media/aphelios_p.webm",
+        "retrieved_at": "2026-10-31T23:38:18.105038+00:00",
+        "sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+        "source_sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.webm"
+      }
+    },
+    {
+      "card_id": "champ:523:weapon:none:calibrum:recognize:L2",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-ea07b67447c92ea472de.png",
+        "retrieved_at": "2026-10-31T23:38:30.766528+00:00",
+        "sha256": "3be2d216a060fc432bec2a388773326bf947859dd74fdbe2acdce59e39030c55",
+        "source_sha256": "3be2d216a060fc432bec2a388773326bf947859dd74fdbe2acdce59e39030c55",
+        "source_url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/aphelios/hud/icons2d/calibrum_l.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "versioned CDragon asset filename matches canonical weapon anchor; visual review pending",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:calibrum",
+      "unresolved": [],
+      "video": null
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:moonshot:calibrum:recognize:L2",
+      "context_id": "wiki:calibrum",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-4d6cb864b6252ba47d40.png",
+        "retrieved_at": "2026-10-31T23:38:30.977472+00:00",
+        "sha256": "417db9160ea9012d592b01585cc2ff8d0dca96983b6015ac0b6932ef9042df25",
+        "source_sha256": "417db9160ea9012d592b01585cc2ff8d0dca96983b6015ac0b6932ef9042df25",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Moonshot.png?97604"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": {
+        "kind": "webm",
+        "path": "media/aphelios_q.webm",
+        "retrieved_at": "2026-10-31T23:38:21.815635+00:00",
+        "sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+      },
+      "subject_id": "wiki:moonshot",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    },
+    {
+      "card_id": "champ:523:weapon:none:severum:recognize:L2",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-4e2863f682cfffbdd446.png",
+        "retrieved_at": "2026-10-31T23:38:31.163533+00:00",
+        "sha256": "403466b3086885501e4d5880809efa3ebdb68ca3881aead176fb7e0a81d04053",
+        "source_sha256": "403466b3086885501e4d5880809efa3ebdb68ca3881aead176fb7e0a81d04053",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Severum.png?79ced"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:severum",
+      "unresolved": [],
+      "video": null
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:onslaught:severum:recognize:L2",
+      "context_id": "wiki:severum",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-15dd80a97f672e57b422.png",
+        "retrieved_at": "2026-10-31T23:38:31.347190+00:00",
+        "sha256": "90d1c61cc431da121e5b83045670295ece11f9d6426fccdedf5cb85661f0c962",
+        "source_sha256": "90d1c61cc431da121e5b83045670295ece11f9d6426fccdedf5cb85661f0c962",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Onslaught.png?d222d"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": {
+        "kind": "webm",
+        "path": "media/aphelios_q.webm",
+        "retrieved_at": "2026-10-31T23:38:21.815635+00:00",
+        "sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+      },
+      "subject_id": "wiki:onslaught",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    },
+    {
+      "card_id": "champ:523:weapon:none:gravitum:recognize:L2",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-ddfb992ed19a049a2333.png",
+        "retrieved_at": "2026-10-31T23:38:31.562687+00:00",
+        "sha256": "9e57778a68dfa57435dd353dd47399a8f515e0493d40fa2054a0d0834f21a705",
+        "source_sha256": "9e57778a68dfa57435dd353dd47399a8f515e0493d40fa2054a0d0834f21a705",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Gravitum.png?39bbd"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:gravitum",
+      "unresolved": [],
+      "video": null
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:bindingeclipse:gravitum:recognize:L2",
+      "context_id": "wiki:gravitum",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-5e9f7e6e7b44a739297b.png",
+        "retrieved_at": "2026-10-31T23:38:31.784302+00:00",
+        "sha256": "4bec8b3e69c894b13ef867334d76a5785a28f9d8cccf0cefa26b1ecc6aa542bd",
+        "source_sha256": "4bec8b3e69c894b13ef867334d76a5785a28f9d8cccf0cefa26b1ecc6aa542bd",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Binding_Eclipse.png?d10ae"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": {
+        "kind": "webm",
+        "path": "media/aphelios_q.webm",
+        "retrieved_at": "2026-10-31T23:38:21.815635+00:00",
+        "sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+      },
+      "subject_id": "wiki:bindingeclipse",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    },
+    {
+      "card_id": "champ:523:weapon:none:infernum:recognize:L2",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-9fe9779b09f2c229c44e.png",
+        "retrieved_at": "2026-10-31T23:38:31.948671+00:00",
+        "sha256": "5dfb0a87b8a9d4f128cf362f2e1ef9539e23441300a86f85599aa066a6edc03b",
+        "source_sha256": "5dfb0a87b8a9d4f128cf362f2e1ef9539e23441300a86f85599aa066a6edc03b",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Infernum.png?c8030"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:infernum",
+      "unresolved": [],
+      "video": null
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:duskwave:infernum:recognize:L2",
+      "context_id": "wiki:infernum",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-557d40e861eedf65ed09.png",
+        "retrieved_at": "2026-10-31T23:38:32.118062+00:00",
+        "sha256": "8b6247204cbeff7b817581fd367ab664b712b2131f5647e99d6904b6a46ff220",
+        "source_sha256": "8b6247204cbeff7b817581fd367ab664b712b2131f5647e99d6904b6a46ff220",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Duskwave.png?fc9ed"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": {
+        "kind": "webm",
+        "path": "media/aphelios_q.webm",
+        "retrieved_at": "2026-10-31T23:38:21.815635+00:00",
+        "sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+      },
+      "subject_id": "wiki:duskwave",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    },
+    {
+      "card_id": "champ:523:weapon:none:crescendum:recognize:L2",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-8481641dafb75438c87b.png",
+        "retrieved_at": "2026-10-31T23:38:32.275963+00:00",
+        "sha256": "e8dd8412d0fe6c6e674787c5d964b76d41171cf247e60fbe569ffcc3921854c0",
+        "source_sha256": "e8dd8412d0fe6c6e674787c5d964b76d41171cf247e60fbe569ffcc3921854c0",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Crescendum.png?12a70"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:crescendum",
+      "unresolved": [],
+      "video": null
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:sentry:crescendum:recognize:L2",
+      "context_id": "wiki:crescendum",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/unit-00c29974b90e3b9ba45a.png",
+        "retrieved_at": "2026-10-31T23:38:32.456260+00:00",
+        "sha256": "4190c948375faed54c56c0aa5e2c99a0f1b3433d90f5d64096c4dff37bd40544",
+        "source_sha256": "4190c948375faed54c56c0aa5e2c99a0f1b3433d90f5d64096c4dff37bd40544",
+        "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Sentry.png?0b79c"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "full-size ability icon inside matching live Wiki section; visual review pending",
+      "slot_clip_candidate": {
+        "kind": "webm",
+        "path": "media/aphelios_q.webm",
+        "retrieved_at": "2026-10-31T23:38:21.815635+00:00",
+        "sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+      },
+      "subject_id": "wiki:sentry",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    },
+    {
+      "card_id": "champ:523:w:recognize:L2",
+      "context_id": "wiki:thehitmanandtheseer",
+      "gif": {
+        "frames": 75,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/aphelios_w.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4"
+        },
+        "sha256": "4e6bdec21ee18b8536b279be31e89bd5b8f2835fe3936b204b57d5d7b4d09a61",
+        "source_sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_W1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/aphelios_w_icon.png",
+        "retrieved_at": "2026-10-31T23:38:25.322497+00:00",
+        "sha256": "c61585d26b433718c3b7473e8e66b567b2fbc78f3e6e9cf91e3dfd19601f189f",
+        "source_sha256": "c61585d26b433718c3b7473e8e66b567b2fbc78f3e6e9cf91e3dfd19601f189f",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ApheliosW.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:phase",
+      "unresolved": [],
+      "video": {
+        "kind": "webm",
+        "path": "media/aphelios_w.webm",
+        "retrieved_at": "2026-10-31T23:38:25.565796+00:00",
+        "sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4",
+        "source_sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_W1.webm"
+      }
+    },
+    {
+      "card_id": "champ:523:r:recognize:L2",
+      "context_id": "wiki:thehitmanandtheseer",
+      "gif": {
+        "frames": 79,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/aphelios_r.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b"
+        },
+        "sha256": "b77da4bcf98e2f14d21a989fc3ed1f23626b8cefa82465295ffb5e13ac9dadf3",
+        "source_sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_R1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/aphelios_r_icon.png",
+        "retrieved_at": "2026-10-31T23:38:28.502040+00:00",
+        "sha256": "d97226dae0e21ea9e6d694d1ca45eac2b4d6c9a32a03b7c0b46143e5b3d158ae",
+        "source_sha256": "d97226dae0e21ea9e6d694d1ca45eac2b4d6c9a32a03b7c0b46143e5b3d158ae",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ApheliosR.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:moonlightvigil",
+      "unresolved": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ],
+      "video": {
+        "kind": "webm",
+        "path": "media/aphelios_r.webm",
+        "retrieved_at": "2026-10-31T23:38:28.717796+00:00",
+        "sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b",
+        "source_sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_R1.webm"
+      }
+    }
+  ],
+  "current_client_verified": false,
+  "files": [
+    {
+      "kind": "jpg",
+      "path": "media/aphelios_portrait.jpg",
+      "retrieved_at": "2026-10-31T23:38:17.389754+00:00",
+      "sha256": "a5aba47dcb8f66ac8823e3bc345552d028a65c3162dce8d6670c357fef5dd198",
+      "source_sha256": "a5aba47dcb8f66ac8823e3bc345552d028a65c3162dce8d6670c357fef5dd198",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg"
+    },
+    {
+      "kind": "png",
+      "path": "media/aphelios_p_icon.png",
+      "retrieved_at": "2026-10-31T23:38:17.687596+00:00",
+      "sha256": "5f4da611200c651d07b064595947a38177b27de31e280622be1573dd05fe8635",
+      "source_sha256": "5f4da611200c651d07b064595947a38177b27de31e280622be1573dd05fe8635",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/ApheliosP.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/aphelios_p.webm",
+      "retrieved_at": "2026-10-31T23:38:18.105038+00:00",
+      "sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+      "source_sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.webm"
+    },
+    {
+      "frames": 146,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/aphelios_p.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043"
+      },
+      "sha256": "dc0ca5a3753b589bda9b6663b83d5dfbe2524bdf29d75f33ce5501bf6c538de7",
+      "source_sha256": "f390501323934dce33ed1b9d47d0d8b2674d8cfe3c2d0f21bab8008e23ce8043",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/aphelios_q_icon.png",
+      "retrieved_at": "2026-10-31T23:38:21.466860+00:00",
+      "sha256": "a5d0c0de0979c5563e0ef90812f575c8dff8c140b5dfe8ec3dddf6acd407d0a2",
+      "source_sha256": "a5d0c0de0979c5563e0ef90812f575c8dff8c140b5dfe8ec3dddf6acd407d0a2",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ApheliosQ_ClientTooltipWrapper.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/aphelios_q.webm",
+      "retrieved_at": "2026-10-31T23:38:21.815635+00:00",
+      "sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+      "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+    },
+    {
+      "frames": 180,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/aphelios_q.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec"
+      },
+      "sha256": "5d284192c45b622c57a4c6309c536ce2fa15adb7e1d5b6972e005d5e7828fd69",
+      "source_sha256": "5ab26b0f8f4c9a239f62a50634d37321dc84ef8ddd55b811174df9e6be4846ec",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/aphelios_w_icon.png",
+      "retrieved_at": "2026-10-31T23:38:25.322497+00:00",
+      "sha256": "c61585d26b433718c3b7473e8e66b567b2fbc78f3e6e9cf91e3dfd19601f189f",
+      "source_sha256": "c61585d26b433718c3b7473e8e66b567b2fbc78f3e6e9cf91e3dfd19601f189f",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ApheliosW.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/aphelios_w.webm",
+      "retrieved_at": "2026-10-31T23:38:25.565796+00:00",
+      "sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4",
+      "source_sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_W1.webm"
+    },
+    {
+      "frames": 75,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/aphelios_w.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4"
+      },
+      "sha256": "4e6bdec21ee18b8536b279be31e89bd5b8f2835fe3936b204b57d5d7b4d09a61",
+      "source_sha256": "298ae1732b0cad3ed71cada1599b2bfd97fb7ddf038096438b5bdabb60ed8bb4",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_W1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/aphelios_e_icon.png",
+      "retrieved_at": "2026-10-31T23:38:27.891780+00:00",
+      "sha256": "9b4edf9bafe441858c9f2f6a7dae4bc9808ccb8c81915857ea74a392c136c159",
+      "source_sha256": "9b4edf9bafe441858c9f2f6a7dae4bc9808ccb8c81915857ea74a392c136c159",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ApheliosE_ClientTooltipWrapper.png"
+    },
+    {
+      "kind": "png",
+      "path": "media/aphelios_r_icon.png",
+      "retrieved_at": "2026-10-31T23:38:28.502040+00:00",
+      "sha256": "d97226dae0e21ea9e6d694d1ca45eac2b4d6c9a32a03b7c0b46143e5b3d158ae",
+      "source_sha256": "d97226dae0e21ea9e6d694d1ca45eac2b4d6c9a32a03b7c0b46143e5b3d158ae",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ApheliosR.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/aphelios_r.webm",
+      "retrieved_at": "2026-10-31T23:38:28.717796+00:00",
+      "sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b",
+      "source_sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_R1.webm"
+    },
+    {
+      "frames": 79,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/aphelios_r.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b"
+      },
+      "sha256": "b77da4bcf98e2f14d21a989fc3ed1f23626b8cefa82465295ffb5e13ac9dadf3",
+      "source_sha256": "a6a58a63c15b173c9010f899c8ad3efeb798f26d533da339ee742021c123034b",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_R1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-ea07b67447c92ea472de.png",
+      "retrieved_at": "2026-10-31T23:38:30.766528+00:00",
+      "sha256": "3be2d216a060fc432bec2a388773326bf947859dd74fdbe2acdce59e39030c55",
+      "source_sha256": "3be2d216a060fc432bec2a388773326bf947859dd74fdbe2acdce59e39030c55",
+      "source_url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/assets/characters/aphelios/hud/icons2d/calibrum_l.png"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-4d6cb864b6252ba47d40.png",
+      "retrieved_at": "2026-10-31T23:38:30.977472+00:00",
+      "sha256": "417db9160ea9012d592b01585cc2ff8d0dca96983b6015ac0b6932ef9042df25",
+      "source_sha256": "417db9160ea9012d592b01585cc2ff8d0dca96983b6015ac0b6932ef9042df25",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Moonshot.png?97604"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-4e2863f682cfffbdd446.png",
+      "retrieved_at": "2026-10-31T23:38:31.163533+00:00",
+      "sha256": "403466b3086885501e4d5880809efa3ebdb68ca3881aead176fb7e0a81d04053",
+      "source_sha256": "403466b3086885501e4d5880809efa3ebdb68ca3881aead176fb7e0a81d04053",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Severum.png?79ced"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-15dd80a97f672e57b422.png",
+      "retrieved_at": "2026-10-31T23:38:31.347190+00:00",
+      "sha256": "90d1c61cc431da121e5b83045670295ece11f9d6426fccdedf5cb85661f0c962",
+      "source_sha256": "90d1c61cc431da121e5b83045670295ece11f9d6426fccdedf5cb85661f0c962",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Onslaught.png?d222d"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-ddfb992ed19a049a2333.png",
+      "retrieved_at": "2026-10-31T23:38:31.562687+00:00",
+      "sha256": "9e57778a68dfa57435dd353dd47399a8f515e0493d40fa2054a0d0834f21a705",
+      "source_sha256": "9e57778a68dfa57435dd353dd47399a8f515e0493d40fa2054a0d0834f21a705",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Gravitum.png?39bbd"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-5e9f7e6e7b44a739297b.png",
+      "retrieved_at": "2026-10-31T23:38:31.784302+00:00",
+      "sha256": "4bec8b3e69c894b13ef867334d76a5785a28f9d8cccf0cefa26b1ecc6aa542bd",
+      "source_sha256": "4bec8b3e69c894b13ef867334d76a5785a28f9d8cccf0cefa26b1ecc6aa542bd",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Binding_Eclipse.png?d10ae"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-9fe9779b09f2c229c44e.png",
+      "retrieved_at": "2026-10-31T23:38:31.948671+00:00",
+      "sha256": "5dfb0a87b8a9d4f128cf362f2e1ef9539e23441300a86f85599aa066a6edc03b",
+      "source_sha256": "5dfb0a87b8a9d4f128cf362f2e1ef9539e23441300a86f85599aa066a6edc03b",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Infernum.png?c8030"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-557d40e861eedf65ed09.png",
+      "retrieved_at": "2026-10-31T23:38:32.118062+00:00",
+      "sha256": "8b6247204cbeff7b817581fd367ab664b712b2131f5647e99d6904b6a46ff220",
+      "source_sha256": "8b6247204cbeff7b817581fd367ab664b712b2131f5647e99d6904b6a46ff220",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Duskwave.png?fc9ed"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-8481641dafb75438c87b.png",
+      "retrieved_at": "2026-10-31T23:38:32.275963+00:00",
+      "sha256": "e8dd8412d0fe6c6e674787c5d964b76d41171cf247e60fbe569ffcc3921854c0",
+      "source_sha256": "e8dd8412d0fe6c6e674787c5d964b76d41171cf247e60fbe569ffcc3921854c0",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Crescendum.png?12a70"
+    },
+    {
+      "kind": "png",
+      "path": "media/unit-00c29974b90e3b9ba45a.png",
+      "retrieved_at": "2026-10-31T23:38:32.456260+00:00",
+      "sha256": "4190c948375faed54c56c0aa5e2c99a0f1b3433d90f5d64096c4dff37bd40544",
+      "source_sha256": "4190c948375faed54c56c0aa5e2c99a0f1b3433d90f5d64096c4dff37bd40544",
+      "source_url": "https://wiki.leagueoflegends.com/en-us/images/Aphelios_Sentry.png?0b79c"
+    }
+  ],
+  "findings": [
+    {
+      "code": "noncombat_slot_without_animation",
+      "message": "Source inventory identifies an indicator/unused slot; no combat animation expected.",
+      "name": "aphelios_e.webm",
+      "original_code": "media_url_missing",
+      "severity": "info"
+    },
+    {
+      "code": "noncombat_slot_without_animation",
+      "message": "Source inventory identifies an indicator/unused slot; no combat animation expected.",
+      "original_code": "active_icon_fallback",
+      "severity": "info",
+      "slot": "E"
+    }
+  ],
+  "missing_media": [
+    {
+      "card_id": "champ:523:system:p:thehitmanandtheseer:recognize:L2",
+      "issues": [
+        "Passive/resource/leveling visual cues require manual review of the archived demonstration frames."
+      ]
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:moonshot:calibrum:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:onslaught:severum:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:bindingeclipse:gravitum:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:duskwave:infernum:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:523:ability_variant:q:sentry:crescendum:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:523:r:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ]
+    }
+  ],
+  "portrait": {
+    "kind": "jpg",
+    "path": "media/aphelios_portrait.jpg",
+    "retrieved_at": "2026-10-31T23:38:17.389754+00:00",
+    "sha256": "a5aba47dcb8f66ac8823e3bc345552d028a65c3162dce8d6670c357fef5dd198",
+    "source_sha256": "a5aba47dcb8f66ac8823e3bc345552d028a65c3162dce8d6670c357fef5dd198",
+    "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg"
+  },
+  "visual_qa": "unreviewed"
+}

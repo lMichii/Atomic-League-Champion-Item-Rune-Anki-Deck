@@ -1,0 +1,384 @@
+{
+  "cards": [
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Zilean. Official role tags: Support, Mage.",
+              "source_id": "riot:role"
+            }
+          ],
+          "id": "44deea1bcdce4cdf328c648b",
+          "summary": "Zilean is a support mage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The bomb detonates immediately if another bomb attaches itself to the same unit, stunning nearby enemies for a duration.",
+              "source_id": "wiki:timebomb"
+            }
+          ],
+          "id": "63e48218257f1b5d20b17b10",
+          "summary": "Attaching another bomb to the same unit triggers an immediate explosion and area stun."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the target takes fatal damage within the duration, they enter resurrection for 3 seconds, becoming invulnerable, untargetable, and unable to act. Afterwards, they revive while being healed.",
+              "source_id": "wiki:chronoshift"
+            }
+          ],
+          "id": "edc22fa9314c561e4e04f0f2",
+          "summary": "Chronoshift turns fatal damage during its protection into resurrection and healing."
+        }
+      ],
+      "kind": "overview",
+      "purpose": "Recognize Zilean's fighting pattern and target-selection threats.",
+      "slot": "",
+      "source_ids": [
+        "riot:role",
+        "wiki:timebomb",
+        "wiki:rewind",
+        "wiki:timewarp",
+        "wiki:chronoshift"
+      ],
+      "subject_id": "riot:role",
+      "title": "Zilean",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "The target allied champion is not required to be out of combat to be leveled up by Time in a Bottle - only Zilean is.",
+              "source_id": "wiki:timeinabottle"
+            }
+          ],
+          "status": "supported",
+          "summary": "The recipient may be in combat; the combat restriction applies to Zilean."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Innate: Zilean generates a storage of experience over time. When he has enough to level up an allied champion, he can channel by selecting them to split the stored experience between himself and the ally.",
+              "source_id": "wiki:timeinabottle"
+            }
+          ],
+          "id": "efe6f7e71599643098deb26f",
+          "summary": "Stored experience enables a channeled allied level-up and grants Zilean experience."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The channel is interrupted and disabled upon entering combat with enemy champions or taking damage from turrets, placing it on a 10-second cooldown.",
+              "source_id": "wiki:timeinabottle"
+            }
+          ],
+          "id": "2074c0f18bd2635dc64b0521",
+          "summary": "Entering champion combat interrupts and disables the channel."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize Zilean's experience-sharing passive and its combat restriction.",
+      "slot": "P",
+      "source_ids": [
+        "wiki:timeinabottle",
+        "riot:P"
+      ],
+      "subject_id": "wiki:timeinabottle",
+      "title": "Time in a Bottle",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "After 3 seconds, or when the attached unit dies, the bomb explodes to deal magic damage to nearby enemies.",
+              "source_id": "wiki:timebomb"
+            }
+          ],
+          "id": "3ade8b6d068ca3bea7e6dcf4",
+          "summary": "Bombs explode after a delay or carrier death for nearby magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The bomb detonates immediately if another bomb attaches itself to the same unit, stunning nearby enemies for a duration.",
+              "source_id": "wiki:timebomb"
+            }
+          ],
+          "id": "57d1319527be4c3dc8884b6e",
+          "summary": "Another bomb on the same unit triggers immediate detonation and an area stun."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Active: Zilean throws a ticking time bomb to the target location that briefly grants sight of its surroundings as it travels as well as while lingering in the area.",
+              "source_id": "wiki:timebomb"
+            },
+            {
+              "quote": "The bomb will attach itself to units that move within the epicenter, or those hit directly at the time of the bomb's landing, revealing them and their surroundings.",
+              "source_id": "wiki:timebomb"
+            }
+          ],
+          "id": "4e7fa05a3c50f372de89235b",
+          "summary": "Bombs provide sight and reveal attached units and their surroundings."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize bomb carriers, delayed area damage, and the repeat-bomb stun.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:timebomb",
+        "riot:Q"
+      ],
+      "subject_id": "wiki:timebomb",
+      "title": "Time Bomb",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Either Time Bomb or Time Warp must be on cooldown to cast this ability.",
+              "source_id": "wiki:rewind"
+            }
+          ],
+          "status": "supported",
+          "summary": "Rewind requires Time Bomb or Time Warp to be on cooldown."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Zilean reduces the remaining cooldowns of Time Bomb and Time Warp by 10 seconds each.",
+              "source_id": "wiki:rewind"
+            }
+          ],
+          "id": "616d9e79482000ee17231b13",
+          "summary": "Rewind reduces the remaining cooldowns of Time Bomb and Time Warp."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize that basic-ability casts can be followed by accelerated reuse.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:rewind",
+        "riot:W"
+      ],
+      "subject_id": "wiki:rewind",
+      "title": "Rewind",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Zilean applies Time Warp to the target champion that lasts for a short time. Time Warp: If the target is an ally, they gain bonus movement speed. If the target is an enemy, they are slowed.",
+              "source_id": "wiki:timewarp"
+            }
+          ],
+          "id": "15b47794f4c759a64664b9ef",
+          "summary": "Time Warp temporarily grants allied movement speed or slows an enemy."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize the allied speed boost and enemy slow as related targeted effects.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:timewarp",
+        "riot:E"
+      ],
+      "subject_id": "wiki:timewarp",
+      "title": "Time Warp",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Chronoshift's untargetability does not destroy in-flight projectiles.",
+              "source_id": "wiki:chronoshift"
+            }
+          ],
+          "status": "supported",
+          "summary": "Resurrection untargetability does not destroy projectiles already in flight."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Zilean places a protective time rune on the target allied champion or himself for 5 seconds.",
+              "source_id": "wiki:chronoshift"
+            },
+            {
+              "quote": "If the target takes fatal damage within the duration, they enter resurrection for 3 seconds, becoming invulnerable, untargetable, and unable to act. Afterwards, they revive while being healed.",
+              "source_id": "wiki:chronoshift"
+            }
+          ],
+          "id": "63a2de762e686694c77d24b7",
+          "summary": "Temporary protection on Zilean or an ally triggers resurrection upon fatal damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If the target takes fatal damage within the duration, they enter resurrection for 3 seconds, becoming invulnerable, untargetable, and unable to act. Afterwards, they revive while being healed.",
+              "source_id": "wiki:chronoshift"
+            }
+          ],
+          "id": "816a3c4069bf4d4127e066b2",
+          "summary": "The resurrecting target cannot act or be targeted, is invulnerable, and returns with healing."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Recognize temporary revival protection and the resurrection window.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:chronoshift",
+        "riot:R"
+      ],
+      "subject_id": "wiki:chronoshift",
+      "title": "Chronoshift",
+      "unsupported_claims": []
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Ability cooldown schedules are not supplied. Rewind's cooldown reduction is an important combat topic and is taught qualitatively; Chronoshift availability cannot be quantified from this evidence.",
+    "No current game patch label or skin-specific visual recognition claim is established."
+  ],
+  "features": [
+    "standard",
+    "conditional_effects"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "Active: Zilean reduces the remaining cooldowns of Time Bomb and Time Warp by 10 seconds each.",
+          "source_id": "wiki:rewind"
+        }
+      ],
+      "condition": "Time Bomb has remaining cooldown.",
+      "from_id": "wiki:rewind",
+      "kind": "conditional_effect",
+      "to_id": "wiki:timebomb"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Active: Zilean reduces the remaining cooldowns of Time Bomb and Time Warp by 10 seconds each.",
+          "source_id": "wiki:rewind"
+        }
+      ],
+      "condition": "Time Warp has remaining cooldown.",
+      "from_id": "wiki:rewind",
+      "kind": "conditional_effect",
+      "to_id": "wiki:timewarp"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Experience sharing and channel interruption are taught; detailed channel interactions remain outside the central lesson.",
+      "source_id": "wiki:timeinabottle",
+      "target_subject_ids": [
+        "wiki:timeinabottle"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Attachment, explosion, repeat-bomb stun, and sight are merged into the primary ability card.",
+      "source_id": "wiki:timebomb",
+      "target_subject_ids": [
+        "wiki:timebomb"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Basic-ability cooldown reduction is taught directly.",
+      "source_id": "wiki:rewind",
+      "target_subject_ids": [
+        "wiki:rewind"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Ally and enemy targeting effects share the primary ability card.",
+      "source_id": "wiki:timewarp",
+      "target_subject_ids": [
+        "wiki:timewarp"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Protection and triggered resurrection are merged into the primary ability card.",
+      "source_id": "wiki:chronoshift",
+      "target_subject_ids": [
+        "wiki:chronoshift"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:timeinabottle",
+        "riot:P"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:timebomb",
+        "riot:Q"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:rewind",
+        "riot:W"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:timewarp",
+        "riot:E"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:chronoshift",
+        "riot:R"
+      ]
+    }
+  ],
+  "summary": "An overview and primary ability cards teach bomb positioning, accelerated ability reuse, movement control, experience sharing, and revival protection. Related conditional effects stay within their primary abilities."
+}

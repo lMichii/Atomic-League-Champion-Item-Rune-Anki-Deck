@@ -1,0 +1,355 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:samira:overview:L1",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "At maximum stacks, Samira can cast Inferno Trigger.",
+            "source_id": "wiki:daredevilimpulse"
+          }
+        ],
+        "id": "1fd7e0525472e823941ffda2",
+        "summary": "Style gates access to Inferno Trigger."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize Samira's overall threat and defensive priorities.",
+    "slot": "",
+    "source_ids": [
+      "riot:role",
+      "wiki:daredevilimpulse",
+      "wiki:flair",
+      "wiki:bladewhirl",
+      "wiki:wildrush",
+      "wiki:infernotrigger"
+    ],
+    "subject_id": "riot:role",
+    "title": "Samira",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Gun and blade attacks do not count as different for the purposes of stacking Style.",
+            "source_id": "wiki:daredevilimpulse"
+          }
+        ],
+        "status": "supported",
+        "summary": "Switching between gun and blade basic attacks does not generate a unique Style hit."
+      },
+      {
+        "citations": [
+          {
+            "quote": "cannot occur on the same target more than once every few seconds.",
+            "source_id": "wiki:daredevilimpulse"
+          }
+        ],
+        "status": "supported",
+        "summary": "The empowered attack has a per-target cooldown."
+      },
+      {
+        "citations": [
+          {
+            "quote": "a stack counter under the health bar, visible to all players.",
+            "source_id": "wiki:daredevilimpulse"
+          }
+        ],
+        "status": "supported",
+        "summary": "All players can see the Style stack counter under her health bar."
+      },
+      {
+        "citations": [
+          {
+            "quote": "The damage can trigger Daredevil Impulse.",
+            "source_id": "wiki:taunt"
+          }
+        ],
+        "status": "supported",
+        "summary": "Her taunt coin damage can trigger Daredevil Impulse."
+      }
+    ],
+    "card_id": "champ:samira:p:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Samira's basic attacks and damaging abilities against enemy champions that are unique from the previous hit generate a Style stack, up to 6.",
+            "source_id": "wiki:daredevilimpulse"
+          },
+          {
+            "quote": "Each stack grants bonus movement speed",
+            "source_id": "wiki:daredevilimpulse"
+          },
+          {
+            "quote": "At maximum stacks, Samira can cast Inferno Trigger.",
+            "source_id": "wiki:daredevilimpulse"
+          }
+        ],
+        "id": "150e2cc57992d4138fbe24e7",
+        "summary": "Unique successive hits build Style, granting movement speed and ultimately enabling Inferno Trigger."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Samira can attack immobilized enemies to rapidly fire a barrage of bolts at them. If she is slightly outside of her attack range, she will also dash into it, then fire. Additionally, attacking champions and monsters that are knocked up will knock them up again briefly.",
+            "source_id": "wiki:daredevilimpulse"
+          }
+        ],
+        "id": "a81064e42a8963945ccf5044",
+        "summary": "Immobilized enemies enable an empowered attack and approach dash; airborne champions can be knocked up again."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Samira's sword deals bonus magic damage to enemies based on their missing health. She uses her sword when she casts certain abilities or attacks enemies within melee range.",
+            "source_id": "wiki:daredevilimpulse"
+          }
+        ],
+        "id": "16294f64b3a699cfea3ab04b",
+        "summary": "Melee sword attacks add magic damage based on missing health."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize Style progression and her follow-up on immobilized enemies.",
+    "slot": "P",
+    "source_ids": [
+      "wiki:daredevilimpulse",
+      "riot:P",
+      "wiki:taunt"
+    ],
+    "subject_id": "wiki:daredevilimpulse",
+    "title": "Daredevil Impulse",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "The shot and the slash do not count as different abilities for stacking Style.",
+            "source_id": "wiki:flair"
+          }
+        ],
+        "status": "supported",
+        "summary": "Shot and slash are the same ability for Style generation."
+      }
+    ],
+    "card_id": "champ:samira:q:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Samira fires a shot in the target direction that deals physical damage to the first enemy hit.",
+            "source_id": "wiki:flair"
+          },
+          {
+            "quote": "she will instead slash with her blade in a cone",
+            "source_id": "wiki:flair"
+          }
+        ],
+        "id": "f0247f1fafffb934bb53feb7",
+        "summary": "Flair changes from a projectile to a close-range cone slash."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If Flair is cast during Wild Rush, Samira deploys explosives in her wake that detonate upon the end of the dash, dealing the same damage to enemies hit.",
+            "source_id": "wiki:flair"
+          }
+        ],
+        "id": "f1abecd57a4708e7776c9cf5",
+        "summary": "Casting Flair during Wild Rush creates explosives along the dash."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize Flair's shot, slash, and merged dash interaction.",
+    "slot": "Q",
+    "source_ids": [
+      "wiki:flair",
+      "riot:Q"
+    ],
+    "subject_id": "wiki:flair",
+    "title": "Flair",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Casting Inferno Trigger will end Blade Whirl early.",
+            "source_id": "wiki:bladewhirl"
+          },
+          {
+            "quote": "The effect ending early includes the second slash not being performed, if applicable.",
+            "source_id": "wiki:bladewhirl"
+          }
+        ],
+        "status": "supported",
+        "summary": "Inferno Trigger can end Blade Whirl early and omit its ending slash."
+      }
+    ],
+    "card_id": "champ:samira:w:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "destroying all hostile non- turret projectiles within the area for the duration.",
+            "source_id": "wiki:bladewhirl"
+          }
+        ],
+        "id": "5520368c1a2f7463fe80d87c",
+        "summary": "The spinning area destroys hostile projectiles except turret projectiles."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Samira slashes twice during Blade Whirl, each one dealing physical damage to all nearby enemies. The first slash occurs immediately and the second one occurs after the duration.",
+            "source_id": "wiki:bladewhirl"
+          }
+        ],
+        "id": "c6801e681172dacd31753b19",
+        "summary": "Nearby enemies take physical damage from the opening and closing slashes."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize her moving projectile defense and nearby damage.",
+    "slot": "W",
+    "source_ids": [
+      "wiki:bladewhirl",
+      "riot:W"
+    ],
+    "subject_id": "wiki:bladewhirl",
+    "title": "Blade Whirl",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Scoring a takedown against an enemy champion within 3 seconds of damaging them resets Wild Rush's cooldown.",
+            "source_id": "wiki:wildrush"
+          }
+        ],
+        "status": "supported",
+        "summary": "The reset requires a takedown shortly after Samira damages the champion."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Wild Rush does not deal its damage to turrets.",
+            "source_id": "wiki:wildrush"
+          }
+        ],
+        "status": "supported",
+        "summary": "Turrets can serve as dash targets without taking Wild Rush damage."
+      }
+    ],
+    "card_id": "champ:samira:e:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Samira dashes at the target enemy or enemy structure, dealing magic damage to enemies she passes through. She also gains bonus attack speed for a short time.",
+            "source_id": "wiki:wildrush"
+          }
+        ],
+        "id": "ddc7472214006a39365b938c",
+        "summary": "A targeted dash damages enemies along its path and grants attack speed."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Scoring a champion takedown resets Wild Rush's cooldown.",
+            "source_id": "wiki:wildrush"
+          }
+        ],
+        "id": "3c62584ca60affb4fb40a0fe",
+        "summary": "Champion takedowns refresh the dash."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize her dash access, ability combinations, and reset threat.",
+    "slot": "E",
+    "source_ids": [
+      "wiki:wildrush",
+      "riot:E"
+    ],
+    "subject_id": "wiki:wildrush",
+    "title": "Wild Rush",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "A nearby visible enemy is required to cast this ability",
+            "source_id": "wiki:infernotrigger"
+          }
+        ],
+        "status": "supported",
+        "summary": "Starting Inferno Trigger requires a nearby visible enemy."
+      }
+    ],
+    "card_id": "champ:samira:r:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "At maximum stacks, Samira can cast Inferno Trigger.",
+            "source_id": "wiki:daredevilimpulse"
+          },
+          {
+            "quote": "Style stacks are consumed at the end of the effect.",
+            "source_id": "wiki:infernotrigger"
+          }
+        ],
+        "id": "2448a7c7aa7f2c802b41163f",
+        "summary": "Maximum Style enables the ultimate, which consumes Style when it ends."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Samira unleashes a torrent of shots, reducing her movement speed and rapidly firing shots that deal physical damage to nearby enemies. Each shot can critically strike and apply life steal.",
+            "source_id": "wiki:infernotrigger"
+          }
+        ],
+        "id": "eb3398606156353964fd2907",
+        "summary": "A surrounding physical-damage barrage can critically strike and apply life steal."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Inferno Trigger will end prematurely if Samira is affected by any form of cast-inhibiting crowd control as well as disarm.",
+            "source_id": "wiki:infernotrigger"
+          }
+        ],
+        "id": "455cfbc19d1355ddd157d1cb",
+        "summary": "Cast-inhibiting crowd control and disarm interrupt the barrage."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize the Style-gated barrage and its practical interruption response.",
+    "slot": "R",
+    "source_ids": [
+      "wiki:infernotrigger",
+      "wiki:daredevilimpulse",
+      "riot:R"
+    ],
+    "subject_id": "wiki:infernotrigger",
+    "title": "Inferno Trigger",
+    "unsupported_claims": []
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": false,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [
+        "Define AP as ability power and explain scaling as increased spell damage or shielding. The AP focus is supported by the supplied ratios."
+      ],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Annie builds up to four stacks, empowering an offensive spell to consume them and stun enemies hit.",
+          "covered": true,
+          "mechanic_id": "P.stun",
+          "reason": "Explains the four-stack empowerment, consumption and stun."
+        },
+        {
+          "answer_quote": "Her stun is ready at the start of the game and after she respawns.",
+          "covered": true,
+          "mechanic_id": "P.starts_ready",
+          "reason": "Explicitly covers both readiness conditions."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Annie fires a targeted fireball that deals magic damage.",
+          "covered": true,
+          "mechanic_id": "Q.targeted_damage",
+          "reason": "Explains targeted fireball damage and its magic type."
+        },
+        {
+          "answer_quote": "If it kills the target, its mana cost is refunded and its cooldown is reduced.",
+          "covered": true,
+          "mechanic_id": "Q.kill_refund",
+          "reason": "Covers both kill benefits without claiming a complete cooldown reset or exclusive trigger."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Annie releases a cone of fire in a chosen direction, dealing magic damage to enemies hit.",
+          "covered": true,
+          "mechanic_id": "W.cone_damage",
+          "reason": "Explicitly explains direction, cone shape and magic damage to enemies hit."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Annie shields herself or an allied champion",
+          "covered": true,
+          "mechanic_id": "E.shield",
+          "reason": "Identifies the shield and its selectable recipients."
+        },
+        {
+          "answer_quote": "grants a burst of movement speed; Tibbers also receives these effects.",
+          "covered": true,
+          "mechanic_id": "E.move_speed",
+          "reason": "Explains the movement-speed burst and Tibbers receiving the effects."
+        },
+        {
+          "answer_quote": "While a shield is active, eligible enemies that damage it with attacks or spells take magic damage.",
+          "covered": true,
+          "mechanic_id": "E.retaliation",
+          "reason": "Explains retaliation, its active-shield condition, eligible triggers and damage type. The eligibility qualification avoids claiming every repeated hit triggers it."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Annie summons Tibbers at a chosen location, dealing magic damage to nearby enemies.",
+          "covered": true,
+          "mechanic_id": "R.summon_damage",
+          "reason": "Explains the chosen summon location and arrival-area magic damage."
+        },
+        {
+          "answer_quote": "Tibbers stays to attack and burn nearby enemies",
+          "covered": false,
+          "mechanic_id": "R.pet_damage",
+          "reason": "Explains persistent attacks and burning but omits their magic damage type. The preceding magic-damage clause describes the initial summon. Repair the required core by explicitly identifying the pet damage as magic damage."
+        },
+        {
+          "answer_quote": "Annie can recast the ability to direct him.",
+          "covered": true,
+          "mechanic_id": "R.pet_control",
+          "reason": "Explains recast control of the remaining pet."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [
+        "Required core R.pet_damage is incomplete: explicitly state that Tibbers' attacks and nearby burn deal magic damage."
+      ],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Use the detailed stack and landing rules for precision: Q generates a stack on hitting, and the first eligible ability to land delivers the ready stun. The draft's general wording does not contradict these rules.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "The four-spell summary omits Q's hit requirement and landing-order behavior."
+    },
+    {
+      "resolution": "The detailed Wiki text and Riot support retaliation from damaging attacks or spells. Retain the once-per-enemy limit and reported exceptions in metadata; the qualified beginner wording is supported.",
+      "source_ids": [
+        "riot:E",
+        "wiki:E"
+      ],
+      "topic": "The shorter E summary mentions basic attacks, while detailed descriptions include spells."
+    },
+    {
+      "resolution": "Keep the reported activation-effect distinctions and explicitly untested Force Pulse interaction in QA metadata. They do not undermine the supported summon, pet damage or recast-control cores.",
+      "source_ids": [
+        "wiki:R",
+        "topic"
+      ],
+      "topic": "R recast interactions include reported bugs and an explicitly untested case."
+    }
+  ],
+  "factual_risks": [
+    "This is an AI evidence check, not human approval or visual verification; the six drafts remain unapproved.",
+    "The passive counter description is supported by supplied text, not verified against the images or current client.",
+    "The pinned Data Dragon version does not establish a game patch or current-client accuracy.",
+    "R's passive magic penetration is supported but is an optional advanced omission under the frozen inventory.",
+    "Reported E bugs and R recast interactions remain QA matters; no universal interaction claims should be inferred from these cards."
+  ]
+}

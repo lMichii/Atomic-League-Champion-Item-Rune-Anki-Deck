@@ -1,0 +1,147 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": false,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Periodically, Aatrox's next basic attack deals bonus magic damage based on the target's maximum health and heals him for the bonus damage dealt.",
+          "covered": true,
+          "mechanic_id": "P.empowered_attack",
+          "reason": "Explains periodic empowerment, maximum-health-based bonus magic damage and self-healing."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": false,
+      "issues": [
+        "The unconditional healing amount is misleading against minions: wiki:P specifies healing reduced to 25%. Qualify the amount or include that exception.",
+        "The card-facing thrust description is not established by the text excerpts. Its cited sources do not describe that animation; visual verification remains outstanding."
+      ],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Aatrox can make up to three sword strikes that deal physical damage in different areas, with damage increasing on successive casts.",
+          "covered": true,
+          "mechanic_id": "Q.three_strikes",
+          "reason": "Explains the three physical area strikes, varying areas and increasing damage."
+        },
+        {
+          "answer_quote": "Each strike has a sweetspot that deals extra damage and briefly knocks enemies up.",
+          "covered": true,
+          "mechanic_id": "Q.sweetspot",
+          "reason": "Explains both sweetspot effects."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Aatrox fires a directional chain that deals physical damage and slows the first enemy hit.",
+          "covered": true,
+          "mechanic_id": "W.first_hit",
+          "reason": "Explains direction, first-target damage and slow."
+        },
+        {
+          "answer_quote": "A champion or large monster hit must leave the tether area quickly or be pulled toward its center and take damage again.",
+          "covered": true,
+          "mechanic_id": "W.delayed_pull",
+          "reason": "Explains eligible targets, escape condition, delayed pull and repeated damage."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": false,
+      "core_coverage": [
+        {
+          "answer_quote": "Aatrox passively heals for a portion of the non-persistent damage he deals to enemy champions, after damage reduction.",
+          "covered": true,
+          "mechanic_id": "E.damage_healing",
+          "reason": "Explains passive healing from eligible champion damage after mitigation."
+        },
+        {
+          "answer_quote": "Activating this ability dashes him in the chosen direction.",
+          "covered": true,
+          "mechanic_id": "E.dash",
+          "reason": "Explains the directional dash on activation."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [
+        "Explain 'non-persistent damage' in beginner language; the technical eligibility term is currently undefined."
+      ],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Aatrox temporarily transforms, gaining attack damage, movement speed and increased self-healing.",
+          "covered": true,
+          "mechanic_id": "R.empowered_form",
+          "reason": "Explains the temporary form and all three required benefits."
+        },
+        {
+          "answer_quote": "Activation fears nearby enemy minions.",
+          "covered": true,
+          "mechanic_id": "R.fear",
+          "reason": "Explains activation fear with the required target scope; it does not claim minions are the only affected targets."
+        },
+        {
+          "answer_quote": "Champion takedowns extend the form's duration.",
+          "covered": true,
+          "mechanic_id": "R.takedown_extension",
+          "reason": "Explains champion takedown extension without asserting an uncapped duration."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "wiki:P's abbreviated healing summary omits its explicit minion reduction; the detailed qualification must govern the draft's healing-amount claim.",
+    "The passive thrust cue remains unverified. This review provides no visual verification or human approval.",
+    "Supplied versions are pinned; equivalence to a live game patch is not established.",
+    "No meaningful unresolved source contradiction was identified. Advanced details omitted from the other beginner answers do not invalidate their supported cores."
+  ]
+}

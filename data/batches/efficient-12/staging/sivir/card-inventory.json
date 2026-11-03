@@ -1,0 +1,298 @@
+[
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:sivir:overview:L1",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "During this time, her basic attacks create projectiles that repeatedly bounce to nearby surrounding enemies, dealing physical damage.",
+            "source_id": "wiki:ricochet"
+          },
+          {
+            "quote": "At max range, it homes back to Sivir to deal physical damage to enemies hit.",
+            "source_id": "wiki:boomerangblade"
+          }
+        ],
+        "id": "2a2e8e9a524edb8803f19237",
+        "summary": "Bouncing attacks and a returning blade provide physical damage."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Sivir's basic attacks and damaging abilities against enemy champions briefly grant her a burst of move speed.",
+            "source_id": "wiki:fleetoffoot"
+          }
+        ],
+        "id": "43520f751cc4f70d444151aa",
+        "summary": "Champion hits briefly increase her movement speed."
+      }
+    ],
+    "kind": "overview",
+    "purpose": "Recognize Sivir's overall fighting pattern and practical responses.",
+    "slot": "",
+    "source_ids": [
+      "wiki:ricochet",
+      "wiki:boomerangblade",
+      "wiki:fleetoffoot",
+      "wiki:spellshield",
+      "wiki:onthehunt"
+    ],
+    "subject_id": "riot:role",
+    "title": "Sivir overview",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Fleet of Foot will trigger even if the attack is dodged, blocked or misses due to blind or if the ability is negated by a spell shield.",
+            "source_id": "wiki:fleetoffoot"
+          }
+        ],
+        "status": "supported",
+        "summary": "Attack avoidance and spell shields do not necessarily prevent the movement speed trigger."
+      }
+    ],
+    "card_id": "champ:sivir:p:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Sivir's basic attacks and damaging abilities against enemy champions briefly grant her a burst of move speed.",
+            "source_id": "wiki:fleetoffoot"
+          },
+          {
+            "quote": "refreshing on subsequent hits.",
+            "source_id": "wiki:fleetoffoot"
+          }
+        ],
+        "id": "85466804c838e2cb4781b94c",
+        "summary": "Champion hits grant brief movement speed that subsequent hits refresh."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize her movement advantage when she continues hitting champions.",
+    "slot": "P",
+    "source_ids": [
+      "riot:P",
+      "wiki:fleetoffoot"
+    ],
+    "subject_id": "wiki:fleetoffoot",
+    "title": "Fleet of Foot",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Boomerang Blade's damage is reduced by 0% – 60% (based on non-champions hit).",
+            "source_id": "wiki:boomerangblade"
+          },
+          {
+            "quote": "The damage reduction per unit hit resets back to full damage upon changing direction.",
+            "source_id": "wiki:boomerangblade"
+          }
+        ],
+        "status": "supported",
+        "summary": "Non-champion hits reduce damage, and the reduction resets when the blade changes direction."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Spell shield only blocks one instance of damage.",
+            "source_id": "wiki:boomerangblade"
+          }
+        ],
+        "status": "supported",
+        "summary": "A spell shield blocks only a single damage instance."
+      }
+    ],
+    "card_id": "champ:sivir:q:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Sivir hurls her crossblade in the target direction that deals physical damage to enemies hit. At max range, it homes back to Sivir to deal physical damage to enemies hit.",
+            "source_id": "wiki:boomerangblade"
+          }
+        ],
+        "id": "09eb07e7967052f02a44710a",
+        "summary": "The blade deals physical damage outward and on its return to Sivir."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize and evade the outward and return paths.",
+    "slot": "Q",
+    "source_ids": [
+      "riot:Q",
+      "wiki:boomerangblade"
+    ],
+    "subject_id": "wiki:boomerangblade",
+    "title": "Boomerang Blade",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "The target does not have to be visible to be bounced to.",
+            "source_id": "wiki:ricochet"
+          }
+        ],
+        "status": "supported",
+        "summary": "Bounces can reach targets that are not visible."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Ricochet-enhanced basic attacks can bounce from structures onto secondary targets but not from nearby units onto structures.",
+            "source_id": "wiki:ricochet"
+          }
+        ],
+        "status": "supported",
+        "summary": "Attacks against structures can produce bounces onto secondary targets."
+      }
+    ],
+    "card_id": "champ:sivir:w:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Sivir gains bonus attack speed for a few seconds. During this time, her basic attacks create projectiles that repeatedly bounce to nearby surrounding enemies, dealing physical damage.",
+            "source_id": "wiki:ricochet"
+          }
+        ],
+        "id": "d9ffdc7bd03d36a2685db5b3",
+        "summary": "Temporarily increases attack speed and adds physical-damage bounces."
+      },
+      {
+        "citations": [
+          {
+            "quote": "If the triggering attack critically strikes, the bounces will do so as well",
+            "source_id": "wiki:ricochet"
+          }
+        ],
+        "id": "5c7a2037b9198d695793dce8",
+        "summary": "Critical attacks also produce critical bounces."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize spreading attack damage and position away from bounce targets.",
+    "slot": "W",
+    "source_ids": [
+      "riot:W",
+      "wiki:ricochet"
+    ],
+    "subject_id": "wiki:ricochet",
+    "title": "Ricochet",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [
+      {
+        "citations": [
+          {
+            "quote": "Spell Shield will heal and activate Fleet of Foot if any effect is blocked. This includes effects such as champion abilities, item effects, Dragon's basic attacks, as well as the abilities of Baron Nashor and Rift Herald.",
+            "source_id": "wiki:spellshield"
+          }
+        ],
+        "status": "supported",
+        "summary": "The heal and movement trigger also apply to blocked effects beyond champion abilities."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Spell Shield will still block abilities that have already been applied to Sivir if the delayed effects of that ability is area of effect",
+            "source_id": "wiki:spellshield"
+          }
+        ],
+        "status": "supported",
+        "summary": "It can block delayed area effects from abilities already applied to her."
+      }
+    ],
+    "card_id": "champ:sivir:e:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Sivir briefly gains a spell shield. Sivir heals herself and activates Fleet of Foot if it blocks an ability.",
+            "source_id": "wiki:spellshield"
+          }
+        ],
+        "id": "690ce712d63fbc76223887ca",
+        "summary": "A brief spell shield rewards a successful block with healing and Fleet of Foot."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize her defensive timing and the reward for blocking an ability.",
+    "slot": "E",
+    "source_ids": [
+      "riot:E",
+      "wiki:spellshield",
+      "wiki:fleetoffoot"
+    ],
+    "subject_id": "wiki:spellshield",
+    "title": "Spell Shield",
+    "unsupported_claims": []
+  },
+  {
+    "advanced_exceptions": [],
+    "card_id": "champ:sivir:r:recognize:L2",
+    "context_id": "",
+    "core_mechanics": [
+      {
+        "citations": [
+          {
+            "quote": "Sivir gains On the Hunt for a duration and grants it to nearby allied champions for the remaining duration.",
+            "source_id": "wiki:onthehunt"
+          },
+          {
+            "quote": "On the Hunt: Gain bonus movement speed.",
+            "source_id": "wiki:onthehunt"
+          }
+        ],
+        "id": "1abc23424f964f9b6e40a087",
+        "summary": "Grants movement speed to Sivir and nearby allied champions."
+      },
+      {
+        "citations": [
+          {
+            "quote": "While active, Sivir's basic attacks on-attack reduce her basic abilities' current cooldowns",
+            "source_id": "wiki:onthehunt"
+          }
+        ],
+        "id": "08558fab7ab8c8a88940a50f",
+        "summary": "Basic attacks reduce current basic ability cooldowns while active."
+      },
+      {
+        "citations": [
+          {
+            "quote": "Sivir can refresh the duration of her On the Hunt buff whenever she scores a takedown against an enemy champion within 3 seconds of damaging them.",
+            "source_id": "wiki:onthehunt"
+          }
+        ],
+        "id": "cbcfeacaa14a10d87dc0cc09",
+        "summary": "Qualifying champion takedowns refresh Sivir's own buff duration."
+      }
+    ],
+    "kind": "ability",
+    "purpose": "Recognize team movement pressure and her extended-fight benefits.",
+    "slot": "R",
+    "source_ids": [
+      "riot:R",
+      "wiki:onthehunt"
+    ],
+    "subject_id": "wiki:onthehunt",
+    "title": "On the Hunt",
+    "unsupported_claims": []
+  }
+]

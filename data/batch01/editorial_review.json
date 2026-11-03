@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex (automated source and contact-sheet review)",
+  "authorization": "User explicitly requested end-to-end Batch 01 production and approved additions; no pilot edits authorized or proposed.",
+  "scope": ["Caitlyn", "Ashe", "Jinx", "Leona", "Lux", "Morgana"],
+  "content_decision": "Approve the 36 reviewed qualitative L1/L2 cards, with disclosed editorial inferences and current-client visual follow-up. No cooldown or scaling cards.",
+  "counterplay_policy": "Qualitative teaching implications of cited mechanics (sidestep projectiles, leave damaging areas, break tethers, respect shields and takedown buffs); not independently measured matchup or optimal-build claims.",
+  "build_focus_policy": "Broad learning orientation from champion roles and damage/defense mechanics, not a claim about an optimal current-patch item build.",
+  "corrections": {
+    "champ:caitlyn:overview:L1": {"counterplay": "Avoid armed traps and sidestep her shots. An allied champion can intercept her ultimate shot."},
+    "champ:caitlyn:p:recognize:L2": {"answer": "Caitlyn's basic attacks periodically fire an empowered Headshot for bonus physical damage. Trapped or netted enemies can also be hit by a special, longer-range Headshot."},
+    "champ:caitlyn:q:recognize:L2": {"answer": "Caitlyn fires a piercing rifle shot that deals physical damage. It deals less damage after the first target, except against enemies revealed by her traps.", "counterplay": "Sidestep the shot and avoid stepping on traps that empower her follow-up."},
+    "champ:caitlyn:w:recognize:L2": {"answer": "Caitlyn places a trap that arms after a short delay. An enemy champion who steps on it is rooted and revealed, enabling a powerful long-range Headshot."},
+    "champ:caitlyn:e:recognize:L2": {"answer": "Caitlyn fires a net that deals magic damage and slows the first enemy hit. The recoil pushes her backward."},
+    "champ:caitlyn:r:recognize:L2": {"answer": "Caitlyn targets an enemy champion from long range, channels, then fires a powerful shot that deals physical damage. Another enemy champion can intercept the bullet."},
+    "champ:ashe:overview:L1": {"counterplay": "Sidestep her arrow and avoid a long chase while her attacks keep slowing you."},
+    "champ:ashe:p:recognize:L2": {"answer": "Ashe's basic attacks slow their targets. Critical strikes strengthen the slow instead of adding normal critical bonus damage."},
+    "champ:ashe:e:recognize:L2": {"answer": "Ashe sends a scouting hawk across the map, granting vision along its path and around its destination.", "counterplay": "Assume your route may have been spotted when the hawk passes over it."},
+    "champ:ashe:r:recognize:L2": {"answer": "Ashe fires a global ice arrow. The first enemy champion hit takes magic damage and is stunned, for longer at greater travel distance. Nearby enemies are slowed."},
+    "champ:jinx:p:recognize:L2": {"answer": "Jinx gains a burst of movement speed and attack speed when an enemy champion, epic monster, turret, or inhibitor is taken down shortly after she damages it."},
+    "champ:jinx:w:recognize:L2": {"answer": "Jinx fires a long straight-line shot after a windup, dealing physical damage, slowing, and revealing the first enemy hit."},
+    "champ:jinx:e:recognize:L2": {"answer": "Jinx throws a line of traps that arm after a brief delay. They root enemy champions who step on them and explode for magic damage."},
+    "champ:jinx:r:recognize:L2": {"answer": "Jinx launches a global rocket that explodes on the first enemy champion hit, dealing physical damage in an area. Damage increases with travel distance and each victim's missing health."},
+    "champ:leona:q:recognize:L2": {"answer": "Leona empowers her next basic attack to deal bonus magic damage and briefly stun its target."},
+    "champ:leona:w:recognize:L2": {"answer": "Leona gains damage reduction, Armor, and Magic Resist. After a delay, she deals magic damage around herself; hitting an enemy extends the defensive effect."},
+    "champ:leona:e:recognize:L2": {"answer": "Leona sends her sword through enemies in a line, dealing magic damage. She briefly roots and dashes to the last enemy champion hit."},
+    "champ:leona:r:recognize:L2": {"answer": "Leona calls down an area blast that deals magic damage. Enemies in the center are stunned; those near the edge are slowed."},
+    "champ:lux:overview:L1": {"answer": "Lux is a long-range mage who can root enemies, slow an area, shield allies, and fire a powerful long-range laser. She deals most of her damage from a safe distance."},
+    "champ:lux:q:recognize:L2": {"answer": "Lux fires a light projectile that deals magic damage and roots up to two enemies in a line."},
+    "champ:lux:r:recognize:L2": {"answer": "After a brief windup, Lux fires a long-range laser that deals magic damage to enemies in its path. It also triggers and refreshes her passive mark."},
+    "champ:morgana:overview:L1": {"answer": "Morgana is a mage support with a long-lasting root and a shield that absorbs magic damage and blocks crowd control while it holds. She damages enemies in a pool and can stun nearby champions who remain connected to her ultimate."},
+    "champ:morgana:p:recognize:L2": {"answer": "Morgana heals when her abilities damage enemy champions, large minions, and medium or larger monsters."},
+    "champ:morgana:q:recognize:L2": {"answer": "Morgana fires a projectile that deals magic damage and roots the first enemy it hits for a long time."},
+    "champ:morgana:e:recognize:L2": {"answer": "Morgana shields herself or an ally, absorbing magic damage and blocking crowd control while the shield holds."},
+    "champ:morgana:r:recognize:L2": {"answer": "Morgana tethers nearby enemy champions, dealing magic damage and slowing them while she gains movement speed. Enemies still tethered after a delay take damage again and are stunned."}
+  },
+  "source_conflicts": [
+    {"champion": "Ashe", "slot": "P", "issue": "Riot describes increased damage against Frost-affected targets; archived Wiki revision describes bonus attack damage from critical-strike chance independently of that condition.", "resolution": "Omit the disputed bonus-damage condition; retain the mutually supported slow and critical-slow behavior. No damage formula or unsupported condition exported."},
+    {"champion": "Leona", "slot": "P", "issue": "Riot and Wiki give different Sunlight durations.", "resolution": "No duration is present in the qualitative Batch 01 card. Exact duration remains out of scope and must be independently verified before any L3/timer card."}
+  ],
+  "passive_cues": {
+    "Caitlyn": {"include": true, "description": "The demonstration shows her rifle attack sequence and an empowered Headshot.", "observation": "Official P clip inspected as a sequence, not inferred from the icon. Specific ready-state weapon glow and enemy-perspective readability are not confirmed.", "manual_follow_up": "Check Headshot readiness indicator and trap/net targeting cues in the current client, at normal card size and with relevant skins."},
+    "Ashe": {"include": true, "description": "Watch the frosted target and its movement after Ashe's attacks.", "observation": "Official P frames show a frosted target following basic attacks; helps associate slow behavior with the passive.", "manual_follow_up": "Check slow readability from the opponent's perspective and on different skins."},
+    "Jinx": {"include": true, "description": "After the takedown, watch Jinx's sudden burst of running speed.", "observation": "Official P clip shows a takedown followed by Jinx's accelerated movement.", "manual_follow_up": "Check the current-client Get Excited! effect and visibility during crowded fights."},
+    "Leona": {"include": false, "description": "", "observation": "Official P clip includes other spell effects and allied follow-up. A distinct Sunlight target mark is not isolated confidently enough for an approved supplementary cue.", "manual_follow_up": "Review Sunlight target mark before/after an ally consumes it; retain champion-labeled passive icon for this release."},
+    "Lux": {"include": true, "description": "Look for the glowing mark after a damaging spell and its consumption by an attack.", "observation": "Official P frames show a target mark after a spell and the follow-up attack.", "manual_follow_up": "Check current-client mark appearance, expiry and skin-specific effects."},
+    "Morgana": {"include": false, "description": "", "observation": "Official P clip mainly shows offensive spell effects, with no clearly readable health-bar evidence of Soul Siphon healing. No unique healing VFX is asserted.", "manual_follow_up": "Review healing feedback with health bars visible in the current client; retain champion-labeled passive icon for this release."}
+  },
+  "visual_review": {
+    "reviewer": "Codex (contact-sheet inspection, not a live-client test)",
+    "method": "Four duration-relative samples from each full original WebM; all 30 source clips inspected in six labeled contact sheets. Original frame sequences remain available for human review.",
+    "active_decision": "All 24 active clips depict the named spell consistently enough for qualitative recognition. No fallback needed.",
+    "current_client_review": "pending",
+    "limitations": ["Contact-sheet review is not exhaustive playback", "Riot CDN clips do not establish current-patch VFX accuracy", "No desktop/mobile Anki GUI playback or enemy-perspective skin test performed"]
+  }
+}

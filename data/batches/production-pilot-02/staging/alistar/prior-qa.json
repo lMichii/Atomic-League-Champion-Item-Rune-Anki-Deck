@@ -1,0 +1,1231 @@
+{
+  "approval_blockers": [
+    "All six cards are drafts requiring explicit editorial approval.",
+    "All clips/cues need manual visual verification.",
+    "Game patch label has not been independently established."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "-"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:alistar:overview:L1",
+      "issues": [
+        "UNAPPROVED draft.",
+        "AP identifies a supported ability-damage learning focus, not an optimal build recommendation.",
+        "The packet does not directly establish a health, armor and magic resistance learning recommendation."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": null,
+      "media_type": "portrait",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "His approach, displacement and damage reduction define his ability to engage and withstand enemy attacks."
+      },
+      "slot": "-",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Alistar charges his roar by stunning or displacing enemy champions or when nearby enemies die.",
+            "covered": true,
+            "mechanic_id": "P.charge",
+            "reason": "Both sources support these charge triggers. The wording does not claim equal charge from every death or charge from failed crowd control."
+          },
+          {
+            "answer_quote": "At full charge, he automatically heals himself and nearby allied champions once the heal is available.",
+            "covered": true,
+            "mechanic_id": "P.heal",
+            "reason": "Explains the automatic heal and its recipients while preserving the cooldown condition."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": false,
+        "issues": [
+          "The passive_visual description asserts an appearance and trigger association that the cited mechanics excerpts do not verify. Its tentative status is disclosed only in metadata. Repair or independently verify this card-facing visual claim; this check does not provide visual verification."
+        ],
+        "priority_reasonable": true,
+        "slot": "P"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:alistar:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The visual cue is a tentative proposal from the supplied official demonstration frames, not current-client verification. Mechanics source IDs do not independently verify its appearance.",
+        "Nearby enemy champion or epic monster deaths supply full charge.",
+        "Failed crowd control attempts do not generate stacks, and death clears stored stacks.",
+        "Healing is simultaneous; the visual projectile does not deliver the actual heal.",
+        "The passive_visual description asserts an appearance and trigger association that the cited mechanics excerpts do not verify. Its tentative status is disclosed only in metadata. Repair or independently verify this card-facing visual claim; this check does not provide visual verification."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "He generates 7 stacks if a nearby enemy champion or epic monster dies.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "At 7 stacks, Alistar consumes them all to heal himself",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "A nearby enemy champion or epic monster death supplies all seven stacks needed for the heal."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Triumphant Roar can occur only once every few seconds, though Alistar may still generate stacks before then.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "If Alistar is at 7 stacks when Triumphant Roar comes off cooldown, he will roar as soon as it elapses.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Healing has a brief cooldown; stacks can accumulate during it, and a fully charged heal triggers when it ends."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Alistar does not gain stacks for unsuccessfully trying to apply crowd control, for instance against a crowd control immune target.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Alistar loses all Triumph stacks upon dying.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Failed crowd control attempts do not generate stacks, and death clears stored stacks."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Healing occurs simultaneously for Alistar and his allies.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "There is a VFX projectile (700 missile speed) that cannot be destroyed by Wind Wall and is unrelated to the actual heal.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "The heal is simultaneous; its visual projectile does not deliver the actual healing."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Alistar charges his roar by stunning or displacing enemy champions or when nearby enemies die.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Alistar generates stacks of Triumph from stunning or displacing enemy champions or when a nearby enemy dies.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.charge",
+            "summary": "Charges through stunning or displacing enemy champions and nearby enemy deaths."
+          },
+          {
+            "citations": [
+              {
+                "quote": "When fully charged he heals himself all nearby allied champions.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "At max stacks or when a nearby enemy champion or epic monster dies, he heals himself and nearby allied champions.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.heal",
+            "summary": "At full charge, automatically heals himself and nearby allied champions."
+          }
+        ],
+        "slot": "P",
+        "unsupported_claims": []
+      },
+      "media_type": "icon",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "His healing helps him and nearby allies recover."
+      },
+      "slot": "P",
+      "source_supported_draft": false,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "proposed_unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Alistar smashes the ground around him, dealing magic damage to nearby enemies.",
+            "covered": true,
+            "mechanic_id": "Q.area_damage",
+            "reason": "Explicitly explains the damage type and area centered on Alistar."
+          },
+          {
+            "answer_quote": "He knocks them into the air and stuns them at the same time.",
+            "covered": true,
+            "mechanic_id": "Q.knockup",
+            "reason": "Explicitly explains both simultaneous crowd control effects. Omitting the advanced immunity exception does not invalidate this general description."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "Q"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:alistar:q:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Displacement immunity also prevents Q's stun according to the Wiki.",
+        "Q can be buffered during W and originates from Alistar's position at the end of its cast."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Pulverize can be buffered during Headbutt to cast with reduced cast time when the dash ends.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Q can be buffered during W and casts faster when the dash ends."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Displacement immunity will also resist the application of the stun.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Displacement immunity also prevents Q's stun."
+          },
+          {
+            "citations": [
+              {
+                "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Q originates from Alistar's position at the end of its cast time."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Alistar smashes the ground, dealing damage to nearby enemies and tossing them into the air.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Alistar smashes the ground beneath him, dealing magic damage to nearby enemies",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.area_damage",
+            "summary": "Deals magic damage to enemies around Alistar."
+          },
+          {
+            "citations": [
+              {
+                "quote": "tossing them into the air.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "stunning and knocking them up simultaneously for 1 second.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.knockup",
+            "summary": "Knocks nearby enemies into the air and simultaneously stuns them."
+          }
+        ],
+        "slot": "Q",
+        "unsupported_claims": []
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Area crowd control can catch several enemies and interrupt their actions."
+      },
+      "slot": "Q",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Alistar dashes toward a targeted enemy.",
+            "covered": true,
+            "mechanic_id": "W.targeted_dash",
+            "reason": "Explicitly explains the targeted dash without guaranteeing a successful hit."
+          },
+          {
+            "answer_quote": "If his ram connects, it deals magic damage, knocks the target away and stuns them.",
+            "covered": true,
+            "mechanic_id": "W.damage",
+            "reason": "Explicitly conditions magic damage on the ram connecting."
+          },
+          {
+            "answer_quote": "If his ram connects, it deals magic damage, knocks the target away and stuns them.",
+            "covered": true,
+            "mechanic_id": "W.knockback",
+            "reason": "Explains normal knockback and stun. The disputed buffered-Q interaction need not replace the supported general mechanic."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "W"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:alistar:w:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The target must remain close enough when Alistar arrives for the hit to connect.",
+        "Buffering Q during W modifies normal knockback; the exact resulting displacement remains unresolved between the supplied descriptions.",
+        "Knockback direction uses Alistar's starting position and the target's position at dash end; terrain can stop movement.",
+        "Displacement immunity does not prevent W's stun. Tenacity can shorten its stun portion but not its airborne portion."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If they are within 400 units upon arrival, he deals them magic damage and knocks them back 700 units over 0.5 seconds while also stunning them for 0.75 seconds.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "The hit requires the target to remain within 400 units when Alistar arrives."
+          },
+          {
+            "citations": [
+              {
+                "quote": "When Pulverize is buffered during the dash, the knock back distance is reduced to 200 units.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Headbutt may be used as a gap-closer to knock up enemies at the target location with Pulverize, additionally overriding Headbutt's knock back.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Buffering Q during W modifies W's normal knockback, enabling a dash into Q's knockup."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The knockback direction is in a straight line from Alistar's original location at start of cast and the enemy when Alistar's dash ends.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "Headbutt can knock enemies through terrain. The knockback stops short on walls that cannot be surpassed but the disable duration is not changed.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Knockback direction uses Alistar's starting position and the target's position at dash end. It can cross terrain, but impassable walls stop movement without shortening the disable."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Displacement immunity will not resist the application of the stun.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Displacement immunity does not prevent W's stun."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The CC duration of the ability can be reduced by up to 33.33% Tenacity, due to airborne not being reducible while the stun is.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Tenacity can shorten the stun portion, but cannot shorten the airborne portion."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Alistar dashes to the target enemy, dealing magic damage, stunning, and knocking them back.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.targeted_dash",
+            "summary": "Dashes toward a targeted enemy."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Alistar rams a target with his head, dealing damage and knocking the target back.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Active: Alistar dashes to the target enemy, dealing magic damage, stunning, and knocking them back.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.damage",
+            "summary": "Deals magic damage when the ram connects."
+          },
+          {
+            "citations": [
+              {
+                "quote": "knocking the target back.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "stunning, and knocking them back.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.knockback",
+            "summary": "Knocks the struck target away and stuns them."
+          }
+        ],
+        "slot": "W",
+        "unsupported_claims": []
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The targeted dash and displacement can start fights or separate a target from safety."
+      },
+      "slot": "W",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "While active, Alistar repeatedly deals magic damage to nearby enemies and can move through units.",
+            "covered": true,
+            "mechanic_id": "E.periodic_damage",
+            "reason": "Explicitly describes repeated nearby magic damage during the active effect."
+          },
+          {
+            "answer_quote": "While active, Alistar repeatedly deals magic damage to nearby enemies and can move through units.",
+            "covered": true,
+            "mechanic_id": "E.ignore_unit_collision",
+            "reason": "Explains ignoring unit collision in beginner-friendly wording."
+          },
+          {
+            "answer_quote": "His trampling damage builds stacks when it hits enemy champions.",
+            "covered": true,
+            "mechanic_id": "E.champion_stacks",
+            "reason": "Identifies the qualifying damage and targets without claiming extra stacks for multiple champions hit in one tick."
+          },
+          {
+            "answer_quote": "At full stacks, he briefly empowers his next basic attack against an enemy champion to deal bonus magic damage and stun them.",
+            "covered": true,
+            "mechanic_id": "E.empowered_attack",
+            "reason": "Explains the temporary empowered champion attack and both effects. It does not explicitly guarantee that blocked or missed attacks apply them."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "E"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:alistar:e:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Each trampling tick grants at most one stack even if it hits several champions.",
+        "The empowered effect is single-use, has a limited use window and ends Trample when consumed.",
+        "Spell shields can block the empowered effect separately from the basic attack.",
+        "A blocked attack consumes the empowered effect; a dodged attack or a miss caused by blindness does not. Failed attacks do not apply the bonus damage."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Each time this damages at least one enemy champion, he generates a stack of Trample that lasts for the remaining duration, stacking up to 5 times.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Each damage tick that hits at least one champion grants one stack, up to five; hitting multiple champions in a tick does not grant additional stacks."
+          },
+          {
+            "citations": [
+              {
+                "quote": "At 5 stacks, Alistar's next basic attack on-hit against a champion within 6 seconds ends Trample's effects",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "The on-hit effect is single-use and Alistar's buff is removed as soon as it is consumed; it can only be applied once by the triggering attack instance.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The empowered attack has a six-second use window, ends Trample when triggered, and applies its effect only once."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The on-hit effect can be blocked by spell shield, but the attack cannot.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "The on-hit effect is consumed if the attack is blocked, but not if it is dodged or missed while Alistar is blinded. In all cases, the attack's effects are negated as normal.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Does not apply if the triggering attack is dodged, blocked or misses.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Spell shields can block the empowered effect separately from the attack. A blocked attack consumes the effect; a dodged attack or a miss caused by blindness does not. These failed attacks do not apply the bonus damage."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Alistar tramples nearby enemy units",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "continually deals magic damage to nearby enemies.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.periodic_damage",
+            "summary": "Repeatedly deals magic damage to nearby enemies while active."
+          },
+          {
+            "citations": [
+              {
+                "quote": "ignoring unit collision",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Alistar becomes ghosted",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.ignore_unit_collision",
+            "summary": "Allows Alistar to move through units while active."
+          },
+          {
+            "citations": [
+              {
+                "quote": "gaining stacks if he damages an enemy champion.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "He generates a stack of Trample each time this damages at least one champion.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.champion_stacks",
+            "summary": "Builds stacks by damaging enemy champions with the trampling damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "At full stacks Alistar's next basic attack against an enemy champion deals additional magic damage and stuns them.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "At max stacks, his next basic attack against a champion within a few seconds will deal bonus magic damage and stun them.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.empowered_attack",
+            "summary": "At full stacks, temporarily empowers his next basic attack against an enemy champion with bonus magic damage and a stun."
+          }
+        ],
+        "slot": "E",
+        "unsupported_claims": []
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Remaining near him lets him build toward a follow-up attack stun."
+      },
+      "slot": "E",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Alistar removes crowd control currently affecting him.",
+            "covered": true,
+            "mechanic_id": "R.cleanse",
+            "reason": "Explains the supported cleanse without implying ongoing crowd control immunity."
+          },
+          {
+            "answer_quote": "He temporarily reduces incoming physical and magic damage.",
+            "covered": true,
+            "mechanic_id": "R.damage_reduction",
+            "reason": "Explains temporary reduction with damage types scoped to exclude true damage."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "R"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:alistar:r:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The cleanse does not establish ongoing immunity to newly applied crowd control.",
+        "True damage is not reduced.",
+        "The Wiki's Hemoplague interaction is marked unexpected and remains provisional."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "True damage cannot be reduced by any means and will deal full damage to Alistar during Unbreakable Will.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "R's damage reduction does not reduce true damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Unbreakable Will's modifier to incoming damage stacks additively with Vladimir's Hemoplague for a total reduction of 45/55/65%.(unexpected)",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "uncertain",
+            "summary": "The Wiki reports an additive interaction with Hemoplague but explicitly marks it unexpected; treat this detailed interaction as provisional."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "removing all crowd control effects on himself",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Active: Alistar cleanses himself of all crowd control.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.cleanse",
+            "summary": "Cleanses crowd control currently affecting Alistar."
+          },
+          {
+            "citations": [
+              {
+                "quote": "reducing incoming physical and magical damage for the duration.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "For the next 7 seconds, he reduces incoming damage.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.damage_reduction",
+            "summary": "Temporarily reduces incoming physical and magic damage."
+          }
+        ],
+        "slot": "R",
+        "unsupported_claims": [
+          "R grants ongoing immunity to newly applied crowd control.",
+          "R reduces true damage."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The cleanse and damage reduction can undermine attempts to disable him and deal heavy damage."
+      },
+      "slot": "R",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Availability changes his ability to engage or interrupt nearby enemies.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability changes his targeted approach and displacement threat.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Availability determines whether he can build toward an empowered attack stun.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability strongly affects attempts to disable him or deal heavy damage.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "The overview uses AP as a supported scaling-learning focus, not an optimal build recommendation; supplied evidence does not establish a tank-stat recommendation.",
+    "Counterplay and fighting-role implications are inferred teaching guidance grounded in the supplied effects.",
+    "The passive visual cue is a tentative official-demo proposal, not current-client or skin-specific verification.",
+    "The passive's full-charge heal can wait for its internal cooldown.",
+    "The pinned Data Dragon release does not establish the current game patch.",
+    "Alternate-mode values and transcluded skin material are excluded from ability explanations.",
+    "Advanced immunity, buffered-combo and failed-attack interactions qualify the general ability behavior.",
+    "This is an AI support check, not human approval or visual verification.",
+    "The passive visual description remains unverified; mechanics citations alone cannot establish its appearance or trigger association.",
+    "The overview's AP statement supports increased ability damage overall, not AP scaling on every damage component or an optimal build recommendation.",
+    "Counterplay and gameplay implications are reasonable inferences from the supplied mechanics, without guaranteed outcomes or invented timing.",
+    "Advanced immunity, failed-attack and combo exceptions remain relevant metadata; their omission does not make these general beginner explanations misleading.",
+    "The pinned release and demonstration frames do not establish current-client, current-patch or skin-specific behavior.",
+    "No internal provenance, confidence or development labels appear in the supplied card-facing wording."
+  ],
+  "findings": [
+    {
+      "code": "ai_support_check_failed",
+      "id": "champ:alistar:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The visual cue is a tentative proposal from the supplied official demonstration frames, not current-client verification. Mechanics source IDs do not independently verify its appearance.",
+        "Nearby enemy champion or epic monster deaths supply full charge.",
+        "Failed crowd control attempts do not generate stacks, and death clears stored stacks.",
+        "Healing is simultaneous; the visual projectile does not deliver the actual heal.",
+        "The passive_visual description asserts an appearance and trigger association that the cited mechanics excerpts do not verify. Its tentative status is disclosed only in metadata. Repair or independently verify this card-facing visual claim; this check does not provide visual verification."
+      ]
+    }
+  ],
+  "generation": {
+    "author": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 30158,
+            "output_tokens": 3611,
+            "reasoning_output_tokens": 181
+          }
+        ]
+      },
+      "output_sha256": "2dd4c98cdb68208f7bea9aa821be41f865023b1effd75537993e8bc249233d1f",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "03c75a37eb6f0b16d23d87b414f727e905808ad273e1918c1db3824ad08a3a26"
+    },
+    "mechanics": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 20608,
+            "input_tokens": 20795,
+            "output_tokens": 3402,
+            "reasoning_output_tokens": 51
+          }
+        ]
+      },
+      "output_sha256": "0d7bdc30ee6b35a3389a49c0fc3ce0e070d44ad6dead25d4785f2184ca849470",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "24ca5b0227802a6625a16f5a814a9c35da8866a4b54910b9a2621773631b0edc"
+    },
+    "passes": [
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 25854,
+                "output_tokens": 3340,
+                "reasoning_output_tokens": 66
+              }
+            ]
+          },
+          "output_sha256": "2ba17152f6c76c193e83a0d9f02dd2b771a1d3161511c06aac7ae6baedf93920",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "3635c70c8d1733118f7fa6af7f08c392ad9b85d0d0459e149122a0f8a8f5a6f7"
+        },
+        "pass": 1,
+        "support_issues": 1,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 27947,
+                "output_tokens": 1666,
+                "reasoning_output_tokens": 97
+              }
+            ]
+          },
+          "output_sha256": "5661a0a77cb2d75fa45c9aa9c9e2a9af980f0d4cf5841a74d219e560e54f0f07",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "44e21121dc4df185ea5b1b580fba08bf1ae3403ec155921cb792bc59853f2b11"
+        }
+      },
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12928,
+                "input_tokens": 29906,
+                "output_tokens": 3434,
+                "reasoning_output_tokens": 20
+              }
+            ]
+          },
+          "output_sha256": "c18c07ea8b3f34e88466fddc40617cdc3ff34d7017b1e838ed661f4938fc2fa1",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "2e0a03bb140c3c183828c78697005ac971094924368fb06f46548fc4e9fe5cd1"
+        },
+        "pass": 2,
+        "support_issues": 1,
+        "verifier": {
+          "attempts": 2,
+          "configured_model": "",
+          "execution_attempts": 2,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 14720,
+                "input_tokens": 28636,
+                "output_tokens": 1783,
+                "reasoning_output_tokens": 99
+              }
+            ]
+          },
+          "output_sha256": "fd3d5756c91e293b0b04225a9284b27a9f17d9e274281960cdcdab0b0ee929cb",
+          "prior_errors": [
+            "Unknown verifier source"
+          ],
+          "provider": "codex",
+          "request_sha256": "4d5276221c7a9081367e7436de785b9dea404415ced4bc2b00680dd24ddd95a2"
+        }
+      },
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 30158,
+                "output_tokens": 3611,
+                "reasoning_output_tokens": 181
+              }
+            ]
+          },
+          "output_sha256": "2dd4c98cdb68208f7bea9aa821be41f865023b1effd75537993e8bc249233d1f",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "03c75a37eb6f0b16d23d87b414f727e905808ad273e1918c1db3824ad08a3a26"
+        },
+        "pass": 3,
+        "support_issues": 1,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 28641,
+                "output_tokens": 1805,
+                "reasoning_output_tokens": 122
+              }
+            ]
+          },
+          "output_sha256": "16fc8aeb84474630d03e8062602b353b17e1e14cf4db90291f7d2018ed6ac1d7",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "c43258d10b105e13808016c5368284baadda0fd5e43459a41ab584184c3aa2f3"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "e8cd826a557a19ed210e7fe2d97a86c709fd7d62a6d32adee31205220d2b06b2",
+    "verifier": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 28641,
+            "output_tokens": 1805,
+            "reasoning_output_tokens": 122
+          }
+        ]
+      },
+      "output_sha256": "16fc8aeb84474630d03e8062602b353b17e1e14cf4db90291f7d2018ed6ac1d7",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "c43258d10b105e13808016c5368284baadda0fd5e43459a41ab584184c3aa2f3"
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:alistar:e:recognize:L2": {
+      "cid": 2342098788075,
+      "guid": "3f89779a1dc951",
+      "nid": 1842098788075
+    },
+    "champ:alistar:overview:L1": {
+      "cid": 2582101184881,
+      "guid": "ae76f7f506834e",
+      "nid": 2082101184881
+    },
+    "champ:alistar:p:recognize:L2": {
+      "cid": 2544796381588,
+      "guid": "ac2713ad812a0f",
+      "nid": 2044796381588
+    },
+    "champ:alistar:q:recognize:L2": {
+      "cid": 2473084856727,
+      "guid": "34c997a3a1b2f3",
+      "nid": 1973084856727
+    },
+    "champ:alistar:r:recognize:L2": {
+      "cid": 2380353929891,
+      "guid": "5ab07232d084ab",
+      "nid": 1880353929891
+    },
+    "champ:alistar:w:recognize:L2": {
+      "cid": 2347991571294,
+      "guid": "44b2dd9bbd8381",
+      "nid": 1847991571294
+    }
+  },
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "Exact-quote matching does not prove semantic truth.",
+    "AI verification is fallible and is not a human content or visual review."
+  ],
+  "media_references": [
+    "alistar_e.gif",
+    "alistar_e_icon.png",
+    "alistar_p.gif",
+    "alistar_p_icon.png",
+    "alistar_portrait.jpg",
+    "alistar_q.gif",
+    "alistar_q_icon.png",
+    "alistar_r.gif",
+    "alistar_r_icon.png",
+    "alistar_w.gif",
+    "alistar_w_icon.png"
+  ],
+  "new_cards": 6,
+  "passive_frame_evidence": [
+    {
+      "path": "visual-inputs/passive-1.png",
+      "sha256": "9a3b31dab180dc1c0a5c48dd9a96f1cbd51b0e5928e2773a5e442bf270d1b599",
+      "source_sha256": "a0dab516c7725087d3085a9da24199e59353343fe91f374dbc9b3dd97ba4f018",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0012/ability_0012_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 0.9687
+    },
+    {
+      "path": "visual-inputs/passive-2.png",
+      "sha256": "8ce71ac3a9b8edc39ba1ae6d554d65403a39474280220a5af3fa32b7092b683c",
+      "source_sha256": "a0dab516c7725087d3085a9da24199e59353343fe91f374dbc9b3dd97ba4f018",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0012/ability_0012_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 2.5832
+    },
+    {
+      "path": "visual-inputs/passive-3.png",
+      "sha256": "d3cf6f24046243dc23a2086e796f79f3f7d3f36466cbb8fc3371cbddccde5890",
+      "source_sha256": "a0dab516c7725087d3085a9da24199e59353343fe91f374dbc9b3dd97ba4f018",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0012/ability_0012_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 4.1977
+    },
+    {
+      "path": "visual-inputs/passive-4.png",
+      "sha256": "10bb092a609195ec1b27d454313a94373a5bb2de58ad39fd18bda7b89a888546",
+      "source_sha256": "a0dab516c7725087d3085a9da24199e59353343fe91f374dbc9b3dd97ba4f018",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0012/ability_0012_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 5.8122
+    }
+  ],
+  "publishable": false,
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "resolution": "Preserve normal W knockback. Leave exact buffered-Q displacement unresolved because the supplied Wiki describes both reduced knockback and overriding knockback.",
+      "source_ids": [
+        "wiki:W",
+        "wiki:Q"
+      ],
+      "topic": "W knockback when Q is buffered"
+    },
+    {
+      "resolution": "Preserve supported physical and magic damage reduction. Exclude the interaction marked unexpected from learning text and retain it as provisional metadata.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "Provisional R interaction with Hemoplague"
+    },
+    {
+      "resolution": "Retain normal W knockback and the supported general fact that buffering Q modifies it. Keep the exact resulting displacement unresolved pending QA: the supplied Wiki describes both reduction to 200 units and overriding knockback.",
+      "source_ids": [
+        "wiki:W",
+        "wiki:Q"
+      ],
+      "topic": "W displacement when Q is buffered"
+    },
+    {
+      "resolution": "The Hemoplague interaction is explicitly marked unexpected, rather than established by conflicting independent sources. Keep it provisional in metadata; it does not undermine the supported general damage reduction.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "Provisional R interaction with Hemoplague"
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "3892578"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

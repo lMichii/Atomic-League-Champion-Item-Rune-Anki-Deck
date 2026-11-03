@@ -1,0 +1,554 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:711",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Vex. Official role tags: Mage.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Magic Damage:70 / 115 / 160 / 205 / 250 (+ 70% AP)",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "Vex is an AP mage"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Whenever a nearby enemy dashes, Vex applies a mark that can be consumed for bonus damage that also reduces the cooldown of her empowered state.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Vex periodically becomes empowered, causing her next basic Ability to fear enemies and interrupt dashes.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "punishes nearby dashes with Gloom marks and periodically empowers a basic ability to fear enemies and interrupt dashes"
+          },
+          {
+            "citations": [
+              {
+                "quote": "Recast: Vex dashes towards the marked target. Upon arrival, the mark is consumed to deal magic damage to the target. If Vex scores a takedown against the marked target within a few seconds of the mark's application, she can cast Shadow Surge again within some time, repeating the effects.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "Shadow Surge lets her follow a marked champion with a damaging dash, with another cast available after a timely takedown."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/vex/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4007967",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vex"
+      },
+      "id": "champ:vex:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Her anti-mobility fear and ultimate follow-up define the main threats enemies must recognize."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Mage",
+        "answer": "Vex is an AP mage who punishes nearby dashes with Gloom marks and periodically empowers a basic ability to fear enemies and interrupt dashes. Shadow Surge lets her follow a marked champion with a damaging dash, with another cast available after a timely takedown.",
+        "build_focus": "AP",
+        "category": "Champion",
+        "champion": "Vex",
+        "cooldown": "",
+        "counterplay": "Bait out her empowered ability before engaging, and dodge Shadow Surge to limit her access.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/7dfbcb446f84be83ca2e412532cf1ccb379dddd41800cd8432f96fd5e5c4dd52.jpg",
+        "id": "champ:vex:overview:L1",
+        "level": "L1",
+        "media_path": "media/7dfbcb446f84be83ca2e412532cf1ccb379dddd41800cd8432f96fd5e5c4dd52.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/vex/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Vex",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:711",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Passive - Doom: Periodically, Vex empowers her next basic ability to knock down and briefly fear enemies hit.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Vex periodically becomes empowered, causing her next basic Ability to fear enemies and interrupt dashes.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "Doom periodically empowers Vex's next basic ability to fear enemies hit and interrupt dashes."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Nearby enemy champions and monsters that dash or blink will be marked with Gloom for 6 seconds.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Vex's next basic attack or basic ability hit will consume the mark to deal bonus magic damage and reduce Doom's cooldown. Looming Darkness will also inflict Gloom, but cannot detonate it.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Nearby enemy champions that dash or blink receive Gloom; her attacks, Q or W can consume it for bonus magic damage and reduce Doom's cooldown."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Looming Darkness will also inflict Gloom, but cannot detonate it.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "E applies Gloom but cannot consume it."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/vex/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4007967",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vex"
+      },
+      "id": "champ:vex:p:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Doom changes engagement safety, while Gloom rewards her for enemies using mobility nearby."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Doom 'n Gloom",
+        "answer": "Doom periodically empowers Vex's next basic ability to fear enemies hit and interrupt dashes. Nearby enemy champions that dash or blink receive Gloom; her attacks, Q or W can consume it for bonus magic damage and reduce Doom's cooldown. E applies Gloom but cannot consume it.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Vex",
+        "cooldown": "",
+        "counterplay": "Avoid unnecessary mobility near Vex, and look to engage after she spends Doom.",
+        "front_hint": "VEX · PASSIVE",
+        "icon_path": "media/b4f1eb8ae8e849ba81165eb262d36d5d6d5c4813c3faf12371bef453b41001a5.png",
+        "id": "champ:vex:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/b4f1eb8ae8e849ba81165eb262d36d5d6d5c4813c3faf12371bef453b41001a5.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/vex/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Vex",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": "needs_visual_cue_review"
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:711",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Vex launches a wave of mist in the target direction that deals magic damage to enemies hit.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "Mistral Bolt sends a wave forward that deals magic damage to enemies hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "After a short delay, the wave accelerates but also narrows.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "It accelerates and narrows during travel."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/vex/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4007967",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vex"
+      },
+      "id": "champ:vex:q:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Recognizing its changing travel speed helps enemies dodge her ranged damage."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Mistral Bolt",
+        "answer": "Mistral Bolt sends a wave forward that deals magic damage to enemies hit. It accelerates and narrows during travel.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Vex",
+        "cooldown": "",
+        "counterplay": "Sidestep its path early to avoid the faster part of its travel.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/9a94752fb066d23804f89a82b19c4caa6de610800d696c61218c997ed3cea734.png",
+        "id": "champ:vex:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/55d0f4d4327a4d399aab5aeb9987b148193fb805baa90ecb5bf12d7ab6d2088c.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/vex/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Vex",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:711",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Vex emits a deafening scream around her, dealing magic damage to nearby enemies and shielding herself for a short time.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "Personal Space shields Vex and deals magic damage to nearby enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Vex periodically becomes empowered, causing her next basic Ability to fear enemies and interrupt dashes.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "With Doom ready, it also fears enemies hit and interrupts dashes."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/vex/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4007967",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vex"
+      },
+      "id": "champ:vex:w:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Its shield and nearby fear make close engagements especially risky."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Personal Space",
+        "answer": "Personal Space shields Vex and deals magic damage to nearby enemies. With Doom ready, it also fears enemies hit and interrupts dashes.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Vex",
+        "cooldown": "",
+        "counterplay": "Keep your distance while her empowered shield ability is available, and bait it before committing to melee.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/0baf9df9cebd9aad48ebe44d3ab33b56cd8d0880a5fa1506fd9771a08a4553dd.png",
+        "id": "champ:vex:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/21ead25ab00ad9da16825955a51e8da0071859c27910e5e643d5fbb1ffccb7e5.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/vex/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Vex",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:711",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Vex tosses her Shadow to explode at the target location, dealing magic damage and slowing enemies hit for a short time.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Looming Darkness will also inflict Gloom, but cannot detonate it.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Looming Darkness explodes at a target location, dealing magic damage, slowing enemies hit and applying Gloom without consuming it."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The explosion's radius increases based on cast distance.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "The explosion grows wider with cast distance."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Looming Darkness triggers Doom, enemies hit will flee from the epicenter instead.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "With Doom ready, enemies hit flee from the explosion's center."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/vex/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4007967",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vex"
+      },
+      "id": "champ:vex:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Its slow, Gloom application and conditional fear set up her other damage."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Looming Darkness",
+        "answer": "Looming Darkness explodes at a target location, dealing magic damage, slowing enemies hit and applying Gloom without consuming it. The explosion grows wider with cast distance. With Doom ready, enemies hit flee from the explosion's center.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Vex",
+        "cooldown": "",
+        "counterplay": "Move away from the target area and avoid letting the slow set up her follow-up damage.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/ae31348967e80af1a6d1a5666b2d7fffaa7af3a0e58ac5ceb62e61f70f209756.png",
+        "id": "champ:vex:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/0a6259cb8c27b2a7c5bdc8c0587b45b218757e4626520c01659696c97f34972c.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/vex/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Vex",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:711",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Vex sends her Shadow in the target direction, which deals magic damage to enemies hit. Shadow stops upon hitting an enemy champion, marking and revealing them for a few seconds.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "Shadow Surge fires a damaging magic missile that stops at an enemy champion, marking and revealing them."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Shadow Surge can be recast while the target is marked.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Recast: Vex dashes towards the marked target. Upon arrival, the mark is consumed to deal magic damage to the target.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "Vex's dash will track the target if they change locations.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "Vex can recast to dash to the marked target and deal more magic damage; the dash tracks their movement."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Vex scores a takedown against the marked target within a few seconds of the mark's application, she can cast Shadow Surge again within some time, repeating the effects.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "A timely takedown against the marked target lets her cast Shadow Surge again."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/vex/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4007967",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vex"
+      },
+      "id": "champ:vex:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The mark enables her engage, and takedowns let her repeat it against further targets."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Shadow Surge",
+        "answer": "Shadow Surge fires a damaging magic missile that stops at an enemy champion, marking and revealing them. Vex can recast to dash to the marked target and deal more magic damage; the dash tracks their movement. A timely takedown against the marked target lets her cast Shadow Surge again.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Vex",
+        "cooldown": "",
+        "counterplay": "Dodge the missile and support marked allies to limit her follow-up and repeat casts.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/de9ff1f32a9e2fbe00be1d8897d18ea2d02a60ebade81be0ac466c911d444abf.png",
+        "id": "champ:vex:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/860b65dadfc30d7314c616b11446af80ad56085af09b7d4000486298701f5bae.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/vex/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Vex",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

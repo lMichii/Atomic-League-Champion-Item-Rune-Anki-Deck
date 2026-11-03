@@ -1,0 +1,829 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:555",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Pyke. Official role tags: Support, Assassin.",
+                "source_id": "riot:role"
+              }
+            ],
+            "claim": "Pyke is a support assassin"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Pyke also cannot gain extra Maximum Health from any source, and instead gains Bonus AD.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Physical Damage:100 / 150 / 200 / 250 / 300 (+ 75% bonus AD)",
+                "source_id": "wiki:boneskewer"
+              }
+            ],
+            "claim": "with an AD focus"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Pyke either stabs an enemy in front of him or pulls an enemy towards him.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Pyke dashes and leaves behind a phantom that will return to him, stunning enemy champions along its path.",
+                "source_id": "riot:E"
+              }
+            ],
+            "claim": "He pulls enemies, threatens a returning phantom stun"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Pyke blinks to and executes low health enemies, allowing him to cast this spell again and granting additional gold to an ally who assists.",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "executes low-health champions for recasts and allied gold"
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4091141",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Pyke"
+      },
+      "id": "champ:pyke:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Recognize his pick threat and execution chain."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:pyke:overview:L1",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Pyke. Official role tags: Support, Assassin.",
+                "source_id": "riot:role"
+              }
+            ],
+            "id": "12461e4e169deaadbbc5e2e3",
+            "summary": "Support assassin."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Pyke either stabs an enemy in front of him or pulls an enemy towards him.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Pyke blinks to and executes low health enemies, allowing him to cast this spell again and granting additional gold to an ally who assists.",
+                "source_id": "riot:R"
+              }
+            ],
+            "id": "849473f8ae3819d2eb3ebffb",
+            "summary": "Pulls enemies and threatens executions that enable recasts and allied gold."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Pyke's identity and main fighting pattern.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "riot:P",
+          "riot:Q",
+          "riot:E",
+          "riot:R",
+          "wiki:boneskewer"
+        ],
+        "subject_id": "riot:role",
+        "title": "Pyke",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Support / Assassin",
+        "answer": "Pyke is a support assassin with an AD focus. He pulls enemies, threatens a returning phantom stun, and executes low-health champions for recasts and allied gold.",
+        "build_focus": "AD",
+        "category": "Champion",
+        "champion": "Pyke",
+        "cooldown": "",
+        "counterplay": "Keep clear of his harpoon and returning phantom, and retreat when low on health.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/9bdf1e03a9bf37cc12cb748a2062a33b27a259d65d104231b5ea83bc3520b1c1.jpg",
+        "id": "champ:pyke:overview:L1",
+        "level": "L1",
+        "media_path": "media/9bdf1e03a9bf37cc12cb748a2062a33b27a259d65d104231b5ea83bc3520b1c1.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Pyke",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:555",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Innate: Pyke stores grey health when receiving damage from enemy champions, increased if there are multiple nearby. Pyke can heal himself by consuming grey health while hidden.",
+                "source_id": "wiki:giftofthedrownedones"
+              },
+              {
+                "quote": "While Pyke is not visible to enemies, he rapidly consumes his grey health to heal for the same amount.",
+                "source_id": "wiki:giftofthedrownedones"
+              }
+            ],
+            "claim": "Pyke stores part of the champion damage he takes as grey health and consumes it to heal while hidden from enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "increased to 40% (+ 0.4% per 1 Lethality) while there are two or more visible enemy champions nearby.",
+                "source_id": "wiki:giftofthedrownedones"
+              }
+            ],
+            "claim": "Nearby visible enemy champions increase this storage"
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Pyke's maximum health cannot increase except through growth (per level), instead he gains「 1 bonus attack damage per 14 bonus health. 」「 bonus attack damage equal to 7.143% of bonus health. 」",
+                "source_id": "wiki:giftofthedrownedones"
+              }
+            ],
+            "claim": "bonus health becomes AD instead of increasing his maximum health."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4091141",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Pyke"
+      },
+      "id": "champ:pyke:p:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Explains recovery between trades and his unusual health conversion."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:pyke:p:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "While Pyke is not visible to enemies, he rapidly consumes his grey health to heal for the same amount.",
+                "source_id": "wiki:giftofthedrownedones"
+              },
+              {
+                "quote": "Innate: Pyke stores grey health when receiving damage from enemy champions, increased if there are multiple nearby.",
+                "source_id": "wiki:giftofthedrownedones"
+              }
+            ],
+            "id": "647e719ea7f49385ba6cfa40",
+            "summary": "Stores champion damage as grey health and heals from it outside enemy vision."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Pyke's maximum health cannot increase except through growth (per level), instead he gains「 1 bonus attack damage per 14 bonus health. 」「 bonus attack damage equal to 7.143% of bonus health. 」",
+                "source_id": "wiki:giftofthedrownedones"
+              }
+            ],
+            "id": "3f50d0eee134a4ed02a33594",
+            "summary": "Bonus health converts into AD; maximum health increases through leveling."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Understand why Pyke recovers after leaving vision.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:giftofthedrownedones",
+          "riot:P"
+        ],
+        "subject_id": "wiki:giftofthedrownedones",
+        "title": "Gift of the Drowned Ones",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Gift of the Drowned Ones",
+        "answer": "Pyke stores part of the champion damage he takes as grey health and consumes it to heal while hidden from enemies. Nearby visible enemy champions increase this storage; bonus health becomes AD instead of increasing his maximum health.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Pyke",
+        "cooldown": "",
+        "counterplay": "Maintain vision of him when practical to limit his recovery.",
+        "front_hint": "PYKE · P",
+        "icon_path": "media/7c23b60d765b3c652a6ec48e417c690d1a6a1dfa3a22faddeefe1f7dd7efb0b7.png",
+        "id": "champ:pyke:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/7c23b60d765b3c652a6ec48e417c690d1a6a1dfa3a22faddeefe1f7dd7efb0b7.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Pyke",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:555",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Releasing the ability within 0.4 seconds causes Pyke to instead thrust his blade in the target direction, dealing the same damage to the closest enemy champion, or closest enemy otherwise.",
+                "source_id": "wiki:boneskewer"
+              }
+            ],
+            "claim": "A quick release stabs nearby, prioritizing a champion."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Pyke charges up to a short time, increasing the range of his harpoon.",
+                "source_id": "wiki:boneskewer"
+              },
+              {
+                "quote": "Empowered Recast: Pyke hurls his harpoon in the target direction that deals physical damage to the first enemy hit and pulls them towards him. The target is then briefly slowed.",
+                "source_id": "wiki:boneskewer"
+              }
+            ],
+            "claim": "Charging extends the harpoon's range; it hits the first enemy, deals physical damage, pulls them toward Pyke, then briefly slows them."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4091141",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Pyke"
+      },
+      "id": "champ:pyke:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "His main ranged catch tool."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The pull can fling an enemy behind Pyke if the harpoon hits at close range.",
+                "source_id": "wiki:boneskewer"
+              }
+            ],
+            "status": "supported",
+            "summary": "A close-range harpoon can pull the target behind Pyke."
+          }
+        ],
+        "card_id": "champ:pyke:q:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Releasing the ability within 0.4 seconds causes Pyke to instead thrust his blade in the target direction, dealing the same damage to the closest enemy champion, or closest enemy otherwise.",
+                "source_id": "wiki:boneskewer"
+              }
+            ],
+            "id": "582c37e43b50d3f4c4f31843",
+            "summary": "Quick release stabs and prioritizes a nearby champion."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Pyke charges up to a short time, increasing the range of his harpoon.",
+                "source_id": "wiki:boneskewer"
+              },
+              {
+                "quote": "Empowered Recast: Pyke hurls his harpoon in the target direction that deals physical damage to the first enemy hit and pulls them towards him. The target is then briefly slowed.",
+                "source_id": "wiki:boneskewer"
+              }
+            ],
+            "id": "f9df9567028db8650fdcc4d0",
+            "summary": "Charged harpoon gains range and pulls and slows the first enemy hit."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Distinguish the quick stab from the charged catch.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:boneskewer",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:boneskewer",
+        "title": "Bone Skewer",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Bone Skewer",
+        "answer": "A quick release stabs nearby, prioritizing a champion. Charging extends the harpoon's range; it hits the first enemy, deals physical damage, pulls them toward Pyke, then briefly slows them.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Pyke",
+        "cooldown": "",
+        "counterplay": "Use intervening units against the charged harpoon and sidestep its line.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/5f66ae8fb77532f15424dafa1b446927c6e2bcb77a28e99a643c78b85bf56758.png",
+        "id": "champ:pyke:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/3f1eb2ec56124773e38505873d391a0a65defa9eae48355f6904fc62e9c26553.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Pyke",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "The base cooldown is not supplied; cancelling or interrupting the charge still puts the ability on full cooldown."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:555",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Pyke enters Camouflage and gains significant Move Speed that decays over time.",
+                "source_id": "riot:W"
+              }
+            ],
+            "claim": "Pyke gains camouflage and a burst of movement speed that fades over time."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Enemy champions within 1500 units of Pyke are alerted of his presence and whether he can execute them with Death from Below.",
+                "source_id": "wiki:ghostwaterdive"
+              },
+              {
+                "quote": "Attacking or casting abilities ends Ghostwater Dive immediately.",
+                "source_id": "wiki:ghostwaterdive"
+              }
+            ],
+            "claim": "Nearby enemies are alerted to his presence and whether his ultimate can execute them; attacking or casting an ability ends the camouflage."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4091141",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Pyke"
+      },
+      "id": "champ:pyke:w:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Recognize concealed approaches and nearby danger."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "PENDING FOR TEST: While submerged, a unique visual indicator will appear above Pyke if there are enemy champions closer than 700 units but farther than 600 units.",
+                "source_id": "wiki:ghostwaterdive"
+              }
+            ],
+            "status": "uncertain",
+            "summary": "The additional indicator above Pyke is explicitly pending testing and is omitted."
+          }
+        ],
+        "card_id": "champ:pyke:w:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Pyke enters Camouflage and gains significant Move Speed that decays over time.",
+                "source_id": "riot:W"
+              }
+            ],
+            "id": "c57379cbd29be3b0d3740811",
+            "summary": "Camouflage with decaying bonus movement speed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Enemy champions within 1500 units of Pyke are alerted of his presence and whether he can execute them with Death from Below.",
+                "source_id": "wiki:ghostwaterdive"
+              },
+              {
+                "quote": "Attacking or casting abilities ends Ghostwater Dive immediately.",
+                "source_id": "wiki:ghostwaterdive"
+              }
+            ],
+            "id": "51c5624c1ef6ec3b88ef9c4a",
+            "summary": "Nearby enemies receive a warning; attacks and ability casts end the effect."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize Pyke's approach tool and its warning.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:ghostwaterdive",
+          "riot:W"
+        ],
+        "subject_id": "wiki:ghostwaterdive",
+        "title": "Ghostwater Dive",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Ghostwater Dive",
+        "answer": "Pyke gains camouflage and a burst of movement speed that fades over time. Nearby enemies are alerted to his presence and whether his ultimate can execute them; attacking or casting an ability ends the camouflage.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Pyke",
+        "cooldown": "",
+        "counterplay": "Treat the nearby warning as a threat and move toward support.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/13edc76d73332babdf9cbf01fcde54394c20d3a6cd9250a6dd9a5f8c089b9b09.png",
+        "id": "champ:pyke:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/413669905b4241ce502cae3f3121a4a965df33752805cecae75bc6188bfacd0b.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Pyke",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:555",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Pyke dashes in the target direction, leaving behind a phantom and becoming ghosted. After a brief period, the phantom homes back to Pyke to briefly stun enemies it passes through. Enemy champions hit also take physical damage.",
+                "source_id": "wiki:phantomundertow"
+              }
+            ],
+            "claim": "Pyke dashes and leaves a phantom behind. After a delay, it returns to him, stunning enemies along its path and dealing physical damage to champions hit."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4091141",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Pyke"
+      },
+      "id": "champ:pyke:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The delayed return path determines the stun threat."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:pyke:e:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Pyke dashes in the target direction, leaving behind a phantom and becoming ghosted. After a brief period, the phantom homes back to Pyke to briefly stun enemies it passes through. Enemy champions hit also take physical damage.",
+                "source_id": "wiki:phantomundertow"
+              }
+            ],
+            "id": "8cd37e949e7458bd38d3f517",
+            "summary": "Dash leaves a delayed returning phantom that stuns enemies and damages champions."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the delayed stun after his dash.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:phantomundertow",
+          "riot:E"
+        ],
+        "subject_id": "wiki:phantomundertow",
+        "title": "Phantom Undertow",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Phantom Undertow",
+        "answer": "Pyke dashes and leaves a phantom behind. After a delay, it returns to him, stunning enemies along its path and dealing physical damage to champions hit.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Pyke",
+        "cooldown": "",
+        "counterplay": "Move away from the phantom's return path and watch Pyke's position.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/ca598677918591f73763e6c0b1690221f562c3d471c182e7e309627092859516.png",
+        "id": "champ:pyke:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/63689c45fcdc7f8d0e70ced786f9a82ee9b1232b74f48fcc6010645277bd8a47.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Pyke",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:555",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Pyke strikes the target location in a X pattern, which executes enemy champions hit that are at low health. Other enemies hit are instead dealt physical damage.",
+                "source_id": "wiki:deathfrombelow"
+              },
+              {
+                "quote": "executing enemy champions within the area that are below 250 – 550 (based on level) (+ 80% bonus AD) (+ 1.5 per 1 Lethality) health.",
+                "source_id": "wiki:deathfrombelow"
+              }
+            ],
+            "claim": "Pyke strikes an X-shaped area, executing champions below his health threshold and dealing physical damage to other enemies hit."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If Death from Below hits an enemy champion or at least one is killed inside the X by the execution or an ally, Pyke will blink to the center of the X. For the latter case Pyke can also recast the ability within 20 seconds at no cost.",
+                "source_id": "wiki:deathfrombelow"
+              }
+            ],
+            "claim": "Hitting a champion makes him blink to the X; a champion dying inside it during the strike enables a free recast."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Each execution grants kill gold to both Pyke and the last assisting ally instead of the natural assist gold.",
+                "source_id": "wiki:deathfrombelow"
+              }
+            ],
+            "claim": "Executions also grant gold to the last assisting ally."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4091141",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Pyke"
+      },
+      "id": "champ:pyke:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Executions can turn into repeated casts and extra team gold."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If the target is in a zombie state, does not enter the death state, or is killed by the ability while above the execution threshold, Death from Below does not grant Your Cut nor the recast.",
+                "source_id": "wiki:deathfrombelow"
+              }
+            ],
+            "status": "supported",
+            "summary": "Special death states and kills above the execution threshold can deny the gold reward and recast."
+          }
+        ],
+        "card_id": "champ:pyke:r:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Pyke strikes the target location in a X pattern, which executes enemy champions hit that are at low health. Other enemies hit are instead dealt physical damage.",
+                "source_id": "wiki:deathfrombelow"
+              }
+            ],
+            "id": "46a537a251925f5f3b1d690b",
+            "summary": "X-shaped strike executes low-health champions and otherwise deals physical damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Death from Below hits an enemy champion or at least one is killed inside the X by the execution or an ally, Pyke will blink to the center of the X. For the latter case Pyke can also recast the ability within 20 seconds at no cost.",
+                "source_id": "wiki:deathfrombelow"
+              },
+              {
+                "quote": "Each execution grants kill gold to both Pyke and the last assisting ally instead of the natural assist gold.",
+                "source_id": "wiki:deathfrombelow"
+              }
+            ],
+            "id": "722bf10da3154f8f18f4ef1f",
+            "summary": "Champion hits enable a blink; deaths inside the strike enable a recast, and executions reward the assisting ally."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the execution area and continuing recast threat.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:deathfrombelow",
+          "riot:R"
+        ],
+        "subject_id": "wiki:deathfrombelow",
+        "title": "Death from Below",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Death from Below",
+        "answer": "Pyke strikes an X-shaped area, executing champions below his health threshold and dealing physical damage to other enemies hit. Hitting a champion makes him blink to the X; a champion dying inside it during the strike enables a free recast. Executions also grant gold to the last assisting ally.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Pyke",
+        "cooldown": "",
+        "counterplay": "Move out of the marked X and disengage when low on health.",
+        "front_hint": "PYKE · R",
+        "icon_path": "media/c7f1eaea78533f49edae5bc142cfa5a1caa51987512738ed58aa5ed262e939f8.png",
+        "id": "champ:pyke:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/c7f1eaea78533f49edae5bc142cfa5a1caa51987512738ed58aa5ed262e939f8.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Pyke",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "The base cooldown is not supplied. Recast availability is central to tracking his continuing threat."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

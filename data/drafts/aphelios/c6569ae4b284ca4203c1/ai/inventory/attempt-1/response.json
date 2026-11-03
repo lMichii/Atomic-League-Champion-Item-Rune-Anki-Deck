@@ -1,0 +1,1114 @@
+{
+  "cards": [
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Aphelios. Official role tags: Marksman.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Each weapon has a unique Basic Attack and Ability.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Other abilities will create mirror chakrams that he gathers, and his basic attacks deal bonus physical damage based on how many mirror chakrams he holds.",
+              "source_id": "wiki:crescendum"
+            },
+            {
+              "quote": "Active: Aphelios fires a concentrated blast of moonlight that explodes upon hitting an enemy champion, dealing physical damage to enemy champions in the area.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "overview_fighting_role",
+          "summary": "Aphelios is a weapon-dependent marksman whose fighting centers on basic attacks, with a predominantly physical damage kit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Aphelios has 5 different activated abilities, based on his main-hand weapon:Calibrum (Rifle): Long range shot that marks its target for a long-range follow-up attack.Severum (Scythe Pistol): Run fast while attacking nearby enemies with both weapons.Gravitum (Cannon): Root all enemies slowed by this weapon.Infernum (Flamethrower): Blast enemies in a cone and attack them with your off-hand weapon.Crescendum (Chakram): Deploy a sentry that shoots your off-hand weapon.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Aphelios swaps his main-hand gun with his off-hand gun, replacing his basic attack and activated ability.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Aphelios has no third ability.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Fire a concentrated blast of moonlight that explodes on enemy champions. Applies the unique effect of Aphelios' main-hand gun.",
+              "source_id": "riot:R"
+            }
+          ],
+          "id": "overview_mobility",
+          "summary": "The supplied complete active kit provides movement speed through Severum, but no dash or blink; his positioning remains vulnerable to being closed on."
+        }
+      ],
+      "kind": "overview",
+      "purpose": "Recognize an attack-focused marksman; assess his equipped weapons before choosing spacing or committing to an engage.",
+      "slot": "",
+      "source_ids": [
+        "riot:role",
+        "riot:P",
+        "riot:Q",
+        "riot:W",
+        "riot:E",
+        "riot:R",
+        "wiki:crescendum",
+        "wiki:moonlightvigil"
+      ],
+      "subject_id": "riot:role",
+      "title": "Aphelios: weapon-dependent marksman",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "The individual actives do not share a cooldown.",
+              "source_id": "wiki:weaponsofthefaithful"
+            }
+          ],
+          "status": "supported",
+          "summary": "Weapon actives have independent cooldowns; swapping can expose a different available active."
+        }
+      ],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios wields 5 Lunari Weapons made by his sister Alune. He has access to two at a time: one main-hand and one off-hand. Each weapon has a unique Basic Attack and Ability.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "The active effect of Aphelios' ability varies based on his current main weapon.",
+              "source_id": "wiki:weaponsofthefaithful"
+            }
+          ],
+          "id": "system_equipment",
+          "summary": "His 5 weapons provide distinct attacks and abilities; he equips two at a time, with the main-hand weapon determining his active."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Attacks and abilities consume a weapon's ammo. When out of ammo, Aphelios discards the weapon and Alune summons the next of the 5.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Weapon order begins fixed but may change over game time -- when a weapon is out of ammo it goes to the end of the order.",
+              "source_id": "riot:E"
+            }
+          ],
+          "id": "system_ammo_cycle",
+          "summary": "Attacks and abilities spend weapon ammunition; depletion replaces that weapon with the next reserve weapon and sends the depleted weapon to the queue's end."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Aphelios begins the game with Calibrum as his main weapon and Severum in his off-hand, with Gravitum, Infernum, and Crescendum queued in reserve.",
+              "source_id": "wiki:thehitmanandtheseer"
+            },
+            {
+              "quote": "Aphelios has no third ability. This slot shows the next weapon Alune will give him.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Active: Aphelios receives a text prompt of the weapon Alune will create next.",
+              "source_id": "wiki:weaponqueuesystem"
+            }
+          ],
+          "id": "system_queue_indicator",
+          "summary": "He starts with Calibrum main-hand and Severum off-hand, followed by Gravitum, Infernum and Crescendum in reserve. E displays the next weapon and can show a text prompt; it is a queue indicator rather than a combat spell."
+        },
+        {
+          "citations": [
+            {
+              "quote": "He starts the game with Phase and automatically gains access to his primary abilities at level 2 and his ultimate ability, Moonlight Vigil, at level 6. Moonlight Vigil improves automatically at levels 11 and 16.",
+              "source_id": "wiki:thehitmanandtheseer"
+            },
+            {
+              "quote": "Aphelios cannot improve his abilities via skill points.",
+              "source_id": "wiki:thehitmanandtheseer"
+            },
+            {
+              "quote": "Aphelios may spend his skill points to gain bonus attack damage, bonus attack speed or lethality instead.",
+              "source_id": "wiki:thehitmanandtheseer"
+            }
+          ],
+          "id": "system_unlocks",
+          "summary": "Phase is available at the start; weapon actives unlock at level 2 and Moonlight Vigil at level 6, improving at levels 11 and 16. Skill points buy attack damage, attack speed or lethality instead of ability ranks."
+        }
+      ],
+      "kind": "system",
+      "purpose": "Track the equipped pair and ammunition cycle; anticipate changing threats and recognize the unusual early ability unlocks.",
+      "slot": "P",
+      "source_ids": [
+        "riot:P",
+        "riot:E",
+        "wiki:thehitmanandtheseer",
+        "wiki:weaponsofthefaithful",
+        "wiki:weaponqueuesystem"
+      ],
+      "subject_id": "wiki:thehitmanandtheseer",
+      "title": "Weapon arsenal, ammunition and unlocks",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios has bonus range while Calibrum is his main weapon.",
+              "source_id": "wiki:calibrum"
+            }
+          ],
+          "id": "calibrum_attack_range",
+          "summary": "Calibrum grants bonus basic attack range while main-hand."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Abilities will mark targets, and he may attack them from far away with the current off-hand weapon, consuming all marks and dealing bonus physical damage for each mark consumed.",
+              "source_id": "wiki:calibrum"
+            },
+            {
+              "quote": "If Calibrum is the current off-hand weapon, the main weapon is used for the attack instead.",
+              "source_id": "wiki:calibrum"
+            }
+          ],
+          "id": "calibrum_marks",
+          "summary": "Calibrum ability marks enable a long-range follow-up using the other equipped weapon; consuming marks adds physical damage."
+        }
+      ],
+      "kind": "weapon",
+      "purpose": "Recognize ranged harassment and respect marked follow-ups even after leaving ordinary attack range.",
+      "slot": "",
+      "source_ids": [
+        "wiki:calibrum"
+      ],
+      "subject_id": "wiki:calibrum",
+      "title": "Calibrum: range and marked follow-ups",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "wiki:calibrum",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aphelios fires a bolt of energy in the target direction that deals physical damage to the first enemy hit.",
+              "source_id": "wiki:moonshot"
+            },
+            {
+              "quote": "Calibrum (Rifle): Long range shot that marks its target for a long-range follow-up attack.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "id": "moonshot_active",
+          "summary": "Moonshot is a long-range directional bolt that damages the first enemy hit and marks it for a long-range follow-up attack."
+        }
+      ],
+      "kind": "ability_variant",
+      "purpose": "Recognize and dodge the rifle shot; use intervening units to prevent it from reaching a desired target.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:moonshot",
+        "riot:Q"
+      ],
+      "subject_id": "wiki:moonshot",
+      "title": "Moonshot",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios' basic attacks will heal him, and create a shield from excess healing.",
+              "source_id": "wiki:severum"
+            }
+          ],
+          "id": "severum_sustain",
+          "summary": "Severum attacks heal Aphelios, with excess healing converted into a shield."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Basic attacks with Severum are non-projectile and have an uncancellable windup.",
+              "source_id": "wiki:severum"
+            }
+          ],
+          "id": "severum_attack_delivery",
+          "summary": "Severum basic attacks are non-projectile and have an uncancellable windup."
+        }
+      ],
+      "kind": "weapon",
+      "purpose": "Recognize sustain and shielding during trades; account for Severum's non-projectile attacks when relying on projectile defenses.",
+      "slot": "",
+      "source_ids": [
+        "wiki:severum"
+      ],
+      "subject_id": "wiki:severum",
+      "title": "Severum: healing attacks",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios cannot cast Phase nor Moonlight Vigil during Onslaught, but he is still able to move.",
+              "source_id": "wiki:onslaught"
+            }
+          ],
+          "status": "supported",
+          "summary": "Onslaught prevents Phase and Moonlight Vigil during its effect."
+        }
+      ],
+      "context_id": "wiki:severum",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aphelios gains bonus movement speed and quickly attacks a nearby enemy with Severum and his current off-hand weapon, dealing physical damage.",
+              "source_id": "wiki:onslaught"
+            },
+            {
+              "quote": "Aphelios can move during Onslaught.",
+              "source_id": "wiki:onslaught"
+            },
+            {
+              "quote": "Attacks alternate between Severum and his current off-hand weapon",
+              "source_id": "wiki:onslaught"
+            }
+          ],
+          "id": "onslaught_active",
+          "summary": "Onslaught grants movement speed while Aphelios moves and automatically attacks a nearby enemy, alternating Severum and his off-hand weapon."
+        },
+        {
+          "citations": [
+            {
+              "quote": "automatically performing up to 6 (+ 2 per 100% bonus attack speed) attacks over the duration against the nearest visible enemy, prioritizing enemy champions.",
+              "source_id": "wiki:onslaught"
+            }
+          ],
+          "id": "onslaught_targeting",
+          "summary": "Automatic attacks select the nearest visible enemy, prioritizing champions."
+        }
+      ],
+      "kind": "ability_variant",
+      "purpose": "Recognize mobile sustained fire and judge its additional threat from the off-hand weapon.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:onslaught"
+      ],
+      "subject_id": "wiki:onslaught",
+      "title": "Onslaught",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios' basic attacks apply a decaying slow.",
+              "source_id": "wiki:gravitum"
+            }
+          ],
+          "id": "gravitum_slow",
+          "summary": "Gravitum basic attacks apply a decaying slow."
+        }
+      ],
+      "kind": "weapon",
+      "purpose": "Recognize the control weapon: being hit creates a slow and exposes the target to Binding Eclipse.",
+      "slot": "",
+      "source_ids": [
+        "wiki:gravitum"
+      ],
+      "subject_id": "wiki:gravitum",
+      "title": "Gravitum: slowing attacks",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "An enemy affected by Gravitum, or an in-flight Gravitum projectile, is required to cast this ability. In-flight projectiles will be empowered to apply Binding Eclipse's effects to their targets.",
+              "source_id": "wiki:bindingeclipse"
+            }
+          ],
+          "status": "supported",
+          "summary": "An in-flight Gravitum projectile can enable the cast and carry its effects on arrival."
+        }
+      ],
+      "context_id": "wiki:gravitum",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aphelios deals magic damage and roots all targets that are slowed by Gravitum.",
+              "source_id": "wiki:bindingeclipse"
+            }
+          ],
+          "id": "bindingeclipse_active",
+          "summary": "Binding Eclipse deals magic damage and roots targets affected by Gravitum's slow."
+        }
+      ],
+      "kind": "ability_variant",
+      "purpose": "Recognize the root setup after a Gravitum hit; do not mistake this for a freely aimed root.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:bindingeclipse"
+      ],
+      "subject_id": "wiki:bindingeclipse",
+      "title": "Binding Eclipse",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios' basic attacks will hit all enemies in its trajectory, dealing increased damage to the main target and less damage to other targets. The attack will then spread into a cone behind his main target.",
+              "source_id": "wiki:infernum"
+            }
+          ],
+          "id": "infernum_splash",
+          "summary": "Infernum attacks deal increased damage to the primary target, damage enemies along their path, and spread into a cone behind the target."
+        }
+      ],
+      "kind": "weapon",
+      "purpose": "Recognize the area-damage weapon and avoid lining up behind his attack target.",
+      "slot": "",
+      "source_ids": [
+        "wiki:infernum"
+      ],
+      "subject_id": "wiki:infernum",
+      "title": "Infernum: spreading attacks",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "wiki:infernum",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aphelios unleashes a wave of energy in a cone, dealing physical damage to enemies hit and locking on to each of them, basic attacking them after a delay.",
+              "source_id": "wiki:duskwave"
+            },
+            {
+              "quote": "Infernum (Flamethrower): Blast enemies in a cone and attack them with your off-hand weapon.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "id": "duskwave_active",
+          "summary": "Duskwave damages enemies in a cone, then follows up against those hit with delayed off-hand attacks."
+        }
+      ],
+      "kind": "ability_variant",
+      "purpose": "Avoid the cone and recognize that its follow-up carries the off-hand weapon's threat.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:duskwave",
+        "riot:Q"
+      ],
+      "subject_id": "wiki:duskwave",
+      "title": "Duskwave",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios throws a chakram as his basic attack and he cannot attack again until it returns to him.",
+              "source_id": "wiki:crescendum"
+            },
+            {
+              "quote": "He is unable to declare basic attacks until he retrieves Crescendum, but the attack timer is reset once caught.",
+              "source_id": "wiki:crescendum"
+            }
+          ],
+          "id": "crescendum_return",
+          "summary": "Crescendum must return before Aphelios can attack again, and catching it resets his attack timer; shorter return travel favors close-range attacks."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Other abilities will create mirror chakrams that he gathers, and his basic attacks deal bonus physical damage based on how many mirror chakrams he holds.",
+              "source_id": "wiki:crescendum"
+            },
+            {
+              "quote": "Chakram duration is refreshed when Aphelios catches a new one or attacks a champion with Crescendum.",
+              "source_id": "wiki:crescendum"
+            }
+          ],
+          "id": "crescendum_mirrors",
+          "summary": "Abilities generate mirror chakrams that strengthen Crescendum attacks; catching more or attacking champions with Crescendum refreshes their duration."
+        }
+      ],
+      "kind": "weapon",
+      "purpose": "Recognize dangerous close-range damage, especially with accumulated mirror chakrams; disengage to let temporary strength expire.",
+      "slot": "",
+      "source_ids": [
+        "wiki:crescendum"
+      ],
+      "subject_id": "wiki:crescendum",
+      "title": "Crescendum: returning blade and mirror chakrams",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "PENDING FOR TEST: Crescendum attack cannot exceed attack speed limit",
+              "source_id": "wiki:sentry"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "The attack-speed-limit note is explicitly pending testing and is excluded from learned mechanics."
+        }
+      ],
+      "context_id": "wiki:crescendum",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aphelios deploys a lunar sentry that gains a copy of his off-hand weapon and attacks with it, dealing physical damage.",
+              "source_id": "wiki:sentry"
+            },
+            {
+              "quote": "The sentry grants sight of its surroundings and autonomously attacks the nearest visible enemy in range with a replica of Aphelios' current off-hand weapon",
+              "source_id": "wiki:sentry"
+            }
+          ],
+          "id": "sentry_active",
+          "summary": "Sentry deploys a stationary threat that grants sight and automatically attacks nearby visible enemies with a copy of the off-hand weapon."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The sentry activates if an enemy is within range of it, reducing its duration to 4 seconds and becoming targetable.",
+              "source_id": "wiki:sentry"
+            }
+          ],
+          "id": "sentry_activation",
+          "summary": "An enemy entering its range activates the sentry and makes it targetable."
+        }
+      ],
+      "kind": "ability_variant",
+      "purpose": "Recognize off-hand-dependent zone control; avoid activating the sentry carelessly or destroy it once targetable.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:sentry"
+      ],
+      "subject_id": "wiki:sentry",
+      "title": "Sentry",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [],
+      "context_id": "wiki:thehitmanandtheseer",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Aphelios swaps his main-hand gun with his off-hand gun, replacing his basic attack and activated ability.",
+              "source_id": "riot:W"
+            }
+          ],
+          "id": "phase_swap",
+          "summary": "Phase exchanges main-hand and off-hand weapons, changing his basic attack and available weapon active."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Reassess his threat immediately after a swap; the previously off-hand weapon can now supply the active.",
+      "slot": "W",
+      "source_ids": [
+        "riot:W",
+        "wiki:phase"
+      ],
+      "subject_id": "wiki:phase",
+      "title": "Phase: weapon swap",
+      "unsupported_claims": []
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Changing weapons while Moonlight Vigil is in flight does not change the effect it has when it hits.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "status": "supported",
+          "summary": "Swapping weapons during the projectile's flight does not change its weapon effect."
+        },
+        {
+          "citations": [
+            {
+              "quote": "When critically striking, the attacks on locked-on targets when using Severum and Crescendum deal slightly more than 120% damage.(bug) It is currently unknown where this damage originates from.",
+              "source_id": "wiki:moonlightvigil"
+            },
+            {
+              "quote": "PENDING FOR TEST: It is also unknown whether this is just a Practice Tool bug.",
+              "source_id": "wiki:moonlightvigil"
+            },
+            {
+              "quote": "Note: Values are outdated due to patch V26.01.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "status": "uncertain",
+          "summary": "The anomalous critical damage report is bug-labeled, unverified and accompanied by an outdated-values warning; it is excluded from core facts."
+        }
+      ],
+      "context_id": "wiki:thehitmanandtheseer",
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Aphelios fires a concentrated blast of moonlight that explodes upon hitting an enemy champion, dealing physical damage to enemy champions in the area. Then basic attacks rain from the sky to the targets, dealing physical damage and applying unique effects of his main weapon.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "moonlightvigil_base",
+          "summary": "Moonlight Vigil explodes on an enemy champion, damages champions in the area, and follows with physical attacks carrying the main weapon's special effect."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Calibrum: Applies an empowered mark on all targets.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "moonlightvigil_calibrum",
+          "summary": "With Calibrum, Moonlight Vigil applies empowered marks to its targets."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Severum: The initial blast heals Aphelios, and so do the attacks.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "moonlightvigil_severum",
+          "summary": "With Severum, the blast and follow-up attacks heal Aphelios."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Gravitum: Increases the initial slow to 99% and empowers Binding Eclipse to root targets affected by the enhanced slow for 1.35 seconds.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "moonlightvigil_gravitum",
+          "summary": "With Gravitum, Moonlight Vigil applies an enhanced slow and empowers Binding Eclipse with a longer root against affected targets."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Infernum: The initial blast deals increased damage, and the attacks splash on each target.",
+              "source_id": "wiki:moonlightvigil"
+            },
+            {
+              "quote": "Enemy champions will take damage from overlapping areas.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "moonlightvigil_infernum",
+          "summary": "With Infernum, the initial blast deals increased damage and follow-up attacks splash around targets; overlapping areas can damage champions."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Crescendum: Aphelios gains more mirror chakrams with the more targets hit with the initial blast.",
+              "source_id": "wiki:moonlightvigil"
+            }
+          ],
+          "id": "moonlightvigil_crescendum",
+          "summary": "With Crescendum, Moonlight Vigil grants mirror chakrams, increasing with targets hit by the initial blast."
+        }
+      ],
+      "kind": "ability",
+      "purpose": "Identify the firing weapon to anticipate marks, healing, control, splash or strengthened follow-up attacks; spread against Infernum and respect Crescendum afterward.",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:moonlightvigil"
+      ],
+      "subject_id": "wiki:moonlightvigil",
+      "title": "Moonlight Vigil: weapon-dependent ultimate",
+      "unsupported_claims": []
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Treat E as a noncombat queue indicator with an informational text action. The wiki's 'Active' label does not establish a combat spell.",
+      "source_ids": [
+        "riot:E",
+        "wiki:weaponqueuesystem"
+      ],
+      "topic": "E described as no ability versus an informational active"
+    },
+    {
+      "resolution": "Teach qualitative ultimate effects. Exclude stale numerical values and the explicitly uncertain critical-damage anomaly.",
+      "source_ids": [
+        "wiki:moonlightvigil",
+        "riot:R"
+      ],
+      "topic": "Ultimate numerical notes include outdated values and an unverified bug"
+    },
+    {
+      "resolution": "Use the explicit Calibrum attribution in the Calibrum section. Treat the Crescendum projectile note embedded in Moonshot as cross-topic detail, not a Moonshot mechanic.",
+      "source_ids": [
+        "wiki:moonshot",
+        "wiki:calibrum",
+        "wiki:crescendum"
+      ],
+      "topic": "Cross-topic notes embedded in ability sections"
+    }
+  ],
+  "factual_risks": [
+    "This is unapproved editorial material derived only from the supplied packet; no current-client verification was performed.",
+    "The pinned Data Dragon release does not establish a current game patch label.",
+    "The mobility conclusion is an inference from the complete supplied active kit, which lists movement speed but no displacement.",
+    "The shorter-return-distance benefit for Crescendum is inferred from its return-gated attack timing.",
+    "Moonlight Vigil includes explicitly outdated values and bug or pending-test notes; qualitative effects are retained without treating those numerical notes as current facts.",
+    "Crescendum attack-speed-limit behavior is pending testing and is not established.",
+    "Demonstration clips do not verify current-client or skin-specific recognition cues; no weapon colors or skin-specific visuals are asserted."
+  ],
+  "features": [
+    "weapon_system",
+    "resource_cycle",
+    "ability_variants",
+    "conditional_effects",
+    "unconventional_leveling",
+    "noncombat_slot"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "He has access to two at a time: one main-hand and one off-hand.",
+          "source_id": "riot:P"
+        }
+      ],
+      "condition": "Equipped weapons occupy main-hand and off-hand roles within the arsenal.",
+      "from_id": "wiki:thehitmanandtheseer",
+      "kind": "equips",
+      "to_id": "wiki:weaponsofthefaithful"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Weapon order begins fixed but may change over game time -- when a weapon is out of ammo it goes to the end of the order.",
+          "source_id": "riot:E"
+        }
+      ],
+      "condition": "Weapon ammunition is depleted.",
+      "from_id": "wiki:thehitmanandtheseer",
+      "kind": "cycles",
+      "to_id": "wiki:weaponqueuesystem"
+    },
+    {
+      "citations": [
+        {
+          "quote": "He starts the game with Phase and automatically gains access to his primary abilities at level 2 and his ultimate ability, Moonlight Vigil, at level 6.",
+          "source_id": "wiki:thehitmanandtheseer"
+        }
+      ],
+      "condition": "Primary weapon abilities unlock automatically at level 2.",
+      "from_id": "wiki:thehitmanandtheseer",
+      "kind": "unlocks",
+      "to_id": "wiki:weaponsofthefaithful"
+    },
+    {
+      "citations": [
+        {
+          "quote": "He starts the game with Phase and automatically gains access to his primary abilities at level 2 and his ultimate ability, Moonlight Vigil, at level 6.",
+          "source_id": "wiki:thehitmanandtheseer"
+        }
+      ],
+      "condition": "Moonlight Vigil unlocks automatically at level 6.",
+      "from_id": "wiki:thehitmanandtheseer",
+      "kind": "unlocks",
+      "to_id": "wiki:moonlightvigil"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Calibrum - Moonshot: Long range shot that marks its target for a long-range follow-up attack.",
+          "source_id": "wiki:weaponsofthefaithful"
+        }
+      ],
+      "condition": "Calibrum is main-hand.",
+      "from_id": "wiki:moonshot",
+      "kind": "variant_of",
+      "to_id": "wiki:calibrum"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Severum - Onslaught: Gain bonus movement speed while attacking a single enemy with both weapons.",
+          "source_id": "wiki:weaponsofthefaithful"
+        }
+      ],
+      "condition": "Severum is main-hand.",
+      "from_id": "wiki:onslaught",
+      "kind": "variant_of",
+      "to_id": "wiki:severum"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Gravitum - Binding Eclipse: Root enemies who are slowed by this weapon.",
+          "source_id": "wiki:weaponsofthefaithful"
+        }
+      ],
+      "condition": "Gravitum is main-hand.",
+      "from_id": "wiki:bindingeclipse",
+      "kind": "variant_of",
+      "to_id": "wiki:gravitum"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Infernum - Duskwave: Blast enemies in a cone and attack them with your off-hand weapon.",
+          "source_id": "wiki:weaponsofthefaithful"
+        }
+      ],
+      "condition": "Infernum is main-hand.",
+      "from_id": "wiki:duskwave",
+      "kind": "variant_of",
+      "to_id": "wiki:infernum"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Crescendum - Sentry: Deploy a sentry with your off-hand weapon that attacks nearby enemies.",
+          "source_id": "wiki:weaponsofthefaithful"
+        }
+      ],
+      "condition": "Crescendum is main-hand.",
+      "from_id": "wiki:sentry",
+      "kind": "variant_of",
+      "to_id": "wiki:crescendum"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Abilities will mark targets, and he may attack them from far away with the current off-hand weapon",
+          "source_id": "wiki:calibrum"
+        },
+        {
+          "quote": "If Calibrum is the current off-hand weapon, the main weapon is used for the attack instead.",
+          "source_id": "wiki:calibrum"
+        }
+      ],
+      "condition": "A Calibrum mark is consumed; the follow-up uses the other equipped weapon.",
+      "from_id": "wiki:calibrum",
+      "kind": "off_hand_effect",
+      "to_id": "wiki:thehitmanandtheseer"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Attacks alternate between Severum and his current off-hand weapon",
+          "source_id": "wiki:onslaught"
+        }
+      ],
+      "condition": "Onslaught automatically attacks.",
+      "from_id": "wiki:onslaught",
+      "kind": "off_hand_effect",
+      "to_id": "wiki:thehitmanandtheseer"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Infernum (Flamethrower): Blast enemies in a cone and attack them with your off-hand weapon.",
+          "source_id": "riot:Q"
+        }
+      ],
+      "condition": "Duskwave lands and performs its follow-up attacks.",
+      "from_id": "wiki:duskwave",
+      "kind": "off_hand_effect",
+      "to_id": "wiki:thehitmanandtheseer"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Active: Aphelios deploys a lunar sentry that gains a copy of his off-hand weapon and attacks with it, dealing physical damage.",
+          "source_id": "wiki:sentry"
+        }
+      ],
+      "condition": "Sentry attacks using a copy of the off-hand weapon.",
+      "from_id": "wiki:sentry",
+      "kind": "off_hand_effect",
+      "to_id": "wiki:thehitmanandtheseer"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Aphelios swaps his main-hand gun with his off-hand gun, replacing his basic attack and activated ability.",
+          "source_id": "riot:W"
+        }
+      ],
+      "condition": "Phase is used.",
+      "from_id": "wiki:phase",
+      "kind": "swaps",
+      "to_id": "wiki:thehitmanandtheseer"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Calibrum: Applies an empowered mark on all targets.",
+          "source_id": "wiki:moonlightvigil"
+        }
+      ],
+      "condition": "Calibrum supplies Moonlight Vigil's main-weapon effect.",
+      "from_id": "wiki:moonlightvigil",
+      "kind": "conditional_effect",
+      "to_id": "wiki:calibrum"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Severum: The initial blast heals Aphelios, and so do the attacks.",
+          "source_id": "wiki:moonlightvigil"
+        }
+      ],
+      "condition": "Severum supplies Moonlight Vigil's main-weapon effect.",
+      "from_id": "wiki:moonlightvigil",
+      "kind": "conditional_effect",
+      "to_id": "wiki:severum"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Gravitum: Increases the initial slow to 99% and empowers Binding Eclipse to root targets affected by the enhanced slow for 1.35 seconds.",
+          "source_id": "wiki:moonlightvigil"
+        }
+      ],
+      "condition": "Gravitum supplies Moonlight Vigil's main-weapon effect.",
+      "from_id": "wiki:moonlightvigil",
+      "kind": "conditional_effect",
+      "to_id": "wiki:gravitum"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Infernum: The initial blast deals increased damage, and the attacks splash on each target.",
+          "source_id": "wiki:moonlightvigil"
+        }
+      ],
+      "condition": "Infernum supplies Moonlight Vigil's main-weapon effect.",
+      "from_id": "wiki:moonlightvigil",
+      "kind": "conditional_effect",
+      "to_id": "wiki:infernum"
+    },
+    {
+      "citations": [
+        {
+          "quote": "Crescendum: Aphelios gains more mirror chakrams with the more targets hit with the initial blast.",
+          "source_id": "wiki:moonlightvigil"
+        }
+      ],
+      "condition": "Crescendum supplies Moonlight Vigil's main-weapon effect.",
+      "from_id": "wiki:moonlightvigil",
+      "kind": "conditional_effect",
+      "to_id": "wiki:crescendum"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "The arsenal, ammunition cycle and automatic unlocks are foundational to predicting his available threats.",
+      "source_id": "wiki:thehitmanandtheseer",
+      "target_subject_ids": [
+        "wiki:thehitmanandtheseer"
+      ]
+    },
+    {
+      "disposition": "merged",
+      "reason": "The general active-selection rule belongs in the system; individual active effects are taught in their weapon contexts.",
+      "source_id": "wiki:weaponsofthefaithful",
+      "target_subject_ids": [
+        "wiki:thehitmanandtheseer",
+        "wiki:moonshot",
+        "wiki:onslaught",
+        "wiki:bindingeclipse",
+        "wiki:duskwave",
+        "wiki:sentry"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Bonus attack range and mark consumption create a distinct spacing goal.",
+      "source_id": "wiki:calibrum",
+      "target_subject_ids": [
+        "wiki:calibrum"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The directional marking shot requires recognition beyond the weapon's basic attack.",
+      "source_id": "wiki:moonshot",
+      "target_subject_ids": [
+        "wiki:moonshot"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Healing, shielding and non-projectile attacks change trading and defensive expectations.",
+      "source_id": "wiki:severum",
+      "target_subject_ids": [
+        "wiki:severum"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Moving automatic fire with the equipped pair is a distinct active threat.",
+      "source_id": "wiki:onslaught",
+      "target_subject_ids": [
+        "wiki:onslaught"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Slowing attacks establish the recognizable setup for a root.",
+      "source_id": "wiki:gravitum",
+      "target_subject_ids": [
+        "wiki:gravitum"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The debuff-dependent root is a distinct control goal; immunity exceptions remain outside central learning.",
+      "source_id": "wiki:bindingeclipse",
+      "target_subject_ids": [
+        "wiki:bindingeclipse"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Spreading basic attacks require awareness of alignment behind the primary target.",
+      "source_id": "wiki:infernum",
+      "target_subject_ids": [
+        "wiki:infernum"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The cone and delayed off-hand volley are distinct from Infernum's basic attack splash.",
+      "source_id": "wiki:duskwave",
+      "target_subject_ids": [
+        "wiki:duskwave"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Return-gated attacks and accumulated mirror chakrams explain its close-range threat.",
+      "source_id": "wiki:crescendum",
+      "target_subject_ids": [
+        "wiki:crescendum"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Off-hand-dependent zone control and targetable activation are useful recognition goals; pending-test notes are excluded from cores.",
+      "source_id": "wiki:sentry",
+      "target_subject_ids": [
+        "wiki:sentry"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "A deliberate swap changes the attack and active threat without waiting for ammunition depletion.",
+      "source_id": "wiki:phase",
+      "target_subject_ids": [
+        "wiki:phase"
+      ]
+    },
+    {
+      "disposition": "merged",
+      "reason": "The queue display and text prompt explain the system but do not justify a separate combat card.",
+      "source_id": "wiki:weaponqueuesystem",
+      "target_subject_ids": [
+        "wiki:thehitmanandtheseer"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "The shared cast and weapon-dependent outcomes fit a unified ultimate goal; stale values and uncertain anomalies remain outside core requirements.",
+      "source_id": "wiki:moonlightvigil",
+      "target_subject_ids": [
+        "wiki:moonlightvigil"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "riot:P",
+        "wiki:thehitmanandtheseer"
+      ]
+    },
+    {
+      "role": "contextual",
+      "slot": "Q",
+      "source_ids": [
+        "riot:Q",
+        "wiki:weaponsofthefaithful"
+      ]
+    },
+    {
+      "role": "toggle",
+      "slot": "W",
+      "source_ids": [
+        "riot:W",
+        "wiki:phase"
+      ]
+    },
+    {
+      "role": "indicator",
+      "slot": "E",
+      "source_ids": [
+        "riot:E",
+        "wiki:weaponqueuesystem"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "riot:R",
+        "wiki:moonlightvigil"
+      ]
+    }
+  ],
+  "summary": "Unapproved compact inventory: an overview, an integrated weapon-cycle system, distinct weapon attack and active goals, Phase, and a unified weapon-dependent ultimate. Queue UI and unusual leveling are merged into the system; uncertain and stale notes are excluded from core requirements."
+}

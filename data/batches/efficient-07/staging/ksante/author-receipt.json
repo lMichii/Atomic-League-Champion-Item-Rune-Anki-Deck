@@ -1,0 +1,30 @@
+{
+  "execution_attempts": 0,
+  "metadata": {
+    "at": "2026-11-03T12:42:05.630220+00:00",
+    "changed": "Removed fictitious conflict source; classified imprecise Wiki summary as source-quality note. All cards unchanged.",
+    "editorial_approval": false,
+    "explicit_user_confirmation": "Remove topic_placeholder. Use the detailed Wiki description as authoritative; retain the short-summary wording as a source-quality note, not an unresolved gameplay conflict. Preserve card text and Counterplay unless they explicitly claim the maximum-health stat is reduced. No additional model call.",
+    "qa_findings": [
+      {
+        "card_text_review": "No learning text claims that the actual maximum-health stat is reduced; all text and Counterplay retained unchanged.",
+        "code": "source_quality_note",
+        "decision_basis": "Explicit user source interpretation; supported by detailed Wiki mechanics",
+        "message": "The Wiki short summary imprecisely describes reduced maximum health. Its detailed mechanics are authoritative here: All Out applies a health threshold of 65% maximum HP without reducing the actual maximum-health stat.",
+        "original_conflict": {
+          "resolution": "Use the detailed health-threshold description if needed; cards avoid claiming maximum health is reduced.",
+          "topic": "The Wiki summary says All Out reduces maximum health, but its detailed mechanics say he retains maximum health and gains a health threshold."
+        },
+        "source_ids": [
+          "wiki:R"
+        ],
+        "source_url": "https://wiki.leagueoflegends.com/en-us/K%27Sante?oldid=4091136",
+        "status": "editorially_interpreted_source_wording",
+        "unresolved_gameplay_conflict": false
+      }
+    ]
+  },
+  "output_sha256": "efb301895ecb9361aec2d69e270483564ae657325e47cf13a200dcf923afb07b",
+  "provider": "human_source_quality_resolution",
+  "request_sha256": "2d4767e127208b55a16fd6cad39d13a385e2a053231e383b00eb7bee20b6ad1a"
+}

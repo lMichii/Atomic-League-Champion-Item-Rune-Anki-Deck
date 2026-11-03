@@ -1,0 +1,840 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:50",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Swain. Official role tags: Mage, Support.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "It then returns to Swain and roots enemies it hits. Swain can then choose to pull all rooted champions closer.",
+                "source_id": "riot:E"
+              }
+            ],
+            "claim": "Swain is a mage/support whose returning wave roots enemies and lets him pull rooted champions closer."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Demonic Ascension: Swain becomes ghosted and continually drains the lifeforce of nearby enemies, dealing magic damage and healing himself.",
+                "source_id": "wiki:demonicascension"
+              },
+              {
+                "quote": "Magic Damage:60 / 90 / 120 / 150 / 180 (+ 45% AP)",
+                "source_id": "wiki:deathshand"
+              },
+              {
+                "quote": "Swain's ravens collect Soul Fragments that heal him and permanently increase his maximum health.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "He deals magic damage and drains nearby enemies to heal during his demonic form; his abilities scale with AP, and Soul Fragments permanently increase his maximum health."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4052673",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Swain"
+      },
+      "id": "champ:swain:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Recognizing his catch and sustained drain explains his main fighting pattern."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:swain:overview:L1",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Swain. Official role tags: Mage, Support.",
+                "source_id": "riot:role"
+              }
+            ],
+            "id": "0d62ce941cd9cc4f7a700faf",
+            "summary": "Swain is a mage/support."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Swain can then choose to pull all rooted champions closer.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Demonic Ascension: Swain becomes ghosted and continually drains the lifeforce of nearby enemies, dealing magic damage and healing himself.",
+                "source_id": "wiki:demonicascension"
+              }
+            ],
+            "id": "14b4c3fcc5672a4ed2c91964",
+            "summary": "He can pull rooted champions closer and drain nearby enemies for magic damage and healing."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Swain's catch and sustained close-range fighting.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "riot:E",
+          "wiki:demonicascension",
+          "wiki:deathshand",
+          "riot:P"
+        ],
+        "subject_id": "riot:role",
+        "title": "Swain",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Mage / Support",
+        "answer": "Swain is a mage/support whose returning wave roots enemies and lets him pull rooted champions closer. He deals magic damage and drains nearby enemies to heal during his demonic form; his abilities scale with AP, and Soul Fragments permanently increase his maximum health.",
+        "build_focus": "AP, Health",
+        "category": "Champion",
+        "champion": "Swain",
+        "cooldown": "",
+        "counterplay": "Dodge the returning wave and create distance during his demonic form.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/7621c65d738075ba06af87ef3b7f080b6d1ecfe1976503ff10d3d18ba65efe66.jpg",
+        "id": "champ:swain:overview:L1",
+        "level": "L1",
+        "media_path": "media/7621c65d738075ba06af87ef3b7f080b6d1ecfe1976503ff10d3d18ba65efe66.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Swain",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:50",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Swain's ravens collect Soul Fragments that heal him and permanently increase his maximum health.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "Soul Fragments heal Swain and permanently increase his maximum health."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Enemy champions that die will leave behind a Soul Fragment for 16 seconds. Swain's ravens will collect nearby dropped Soul Fragments, as well as rip the Soul Fragments out of champions hit by Vision of Empire or Nevermove's recast.",
+                "source_id": "wiki:ravenousflock"
+              },
+              {
+                "quote": "Recast: Swain pulls the rooted champions and collects a Soul Fragment from each of them.",
+                "source_id": "wiki:nevermove"
+              }
+            ],
+            "claim": "He collects them from nearby champion deaths, champions hit by Vision of Empire, and champions pulled by Nevermove."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4052673",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Swain"
+      },
+      "id": "champ:swain:p:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Explains his healing and permanent health growth."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:swain:p:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Swain's ravens collect Soul Fragments that heal him and permanently increase his maximum health.",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "717ff4f6bc29dad7063a390a",
+            "summary": "Collecting Soul Fragments heals Swain and permanently increases his maximum health."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Enemy champions that die will leave behind a Soul Fragment for 16 seconds. Swain's ravens will collect nearby dropped Soul Fragments, as well as rip the Soul Fragments out of champions hit by Vision of Empire or Nevermove's recast.",
+                "source_id": "wiki:ravenousflock"
+              }
+            ],
+            "id": "3ffae10aa9f7de32679edf41",
+            "summary": "Fragments come from champion deaths, Vision of Empire hits, and Nevermove's recast."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the sources of Swain's healing and health growth.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:ravenousflock",
+          "riot:P",
+          "wiki:nevermove"
+        ],
+        "subject_id": "wiki:ravenousflock",
+        "title": "Ravenous Flock",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Ravenous Flock",
+        "answer": "Soul Fragments heal Swain and permanently increase his maximum health. He collects them from nearby champion deaths, champions hit by Vision of Empire, and champions pulled by Nevermove.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Swain",
+        "cooldown": "",
+        "counterplay": "Avoid his eye explosion and returning wave to limit his fragment collection.",
+        "front_hint": "SWAIN · P",
+        "icon_path": "media/85ef0f72c851fe818a92b0f465e4089e5699f49ed4f63efce761ca172b38155f.png",
+        "id": "champ:swain:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/85ef0f72c851fe818a92b0f465e4089e5699f49ed4f63efce761ca172b38155f.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Swain",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:50",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Swain unleashes several bolts of eldritch power that pierce through enemies.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Swain unleashes five bolts of eldritch power over 0.264 seconds in a cone in the target direction that deal magic damage to enemies hit.",
+                "source_id": "wiki:deathshand"
+              }
+            ],
+            "claim": "Swain fires a cone of bolts that pierce enemies and deal magic damage."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Enemies hit take more damage for each bolt they are struck by.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "claim": "Being hit by more bolts increases the total damage."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4052673",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Swain"
+      },
+      "id": "champ:swain:q:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Recognizing the cone helps reduce his direct damage."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:swain:q:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Swain unleashes five bolts of eldritch power over 0.264 seconds in a cone in the target direction that deal magic damage to enemies hit. Subsequent bolts against an enemy deal bonus magic damage.",
+                "source_id": "wiki:deathshand"
+              },
+              {
+                "quote": "Swain unleashes several bolts of eldritch power that pierce through enemies.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "id": "3312787ef976116ff5beccaa",
+            "summary": "A piercing cone of magic-damage bolts deals more total damage when more bolts hit."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize his cone damage and the danger of overlapping bolt hits.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:deathshand",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:deathshand",
+        "title": "Death's Hand",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Death's Hand",
+        "answer": "Swain fires a cone of bolts that pierce enemies and deal magic damage. Being hit by more bolts increases the total damage.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Swain",
+        "cooldown": "",
+        "counterplay": "Keep distance and move out of the cone to reduce bolt hits.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/98cf0d4344f0ec0e2f8ae519259759028e4d2882c735e3410b569a8c4721d6b4.png",
+        "id": "champ:swain:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/8cb149e61032dae69a74d1b2514a5cafecab974d761cf3d44d62603f8500a83c.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Swain",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:50",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Swain summons a demonic eye at the target location that grants sight of the area for 2 seconds and explodes after 1.5 seconds, dealing magic damage to enemies within, halved against minions, and slowing them by 50% for 1.5 seconds.",
+                "source_id": "wiki:visionofempire"
+              }
+            ],
+            "claim": "Swain places a demonic eye that grants sight of its area, then explodes after a delay to deal magic damage and slow enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Enemy champions hit are also revealed for a few seconds and have a Soul Fragment collected from them.",
+                "source_id": "wiki:visionofempire"
+              }
+            ],
+            "claim": "Champions hit are revealed and give him a Soul Fragment."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4052673",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Swain"
+      },
+      "id": "champ:swain:w:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "The delayed area threatens damage, movement, concealment, and fragment collection."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Enemy champions protected by a spell shield do not have a Soul Fragment collected from them but are revealed anyway.",
+                "source_id": "wiki:visionofempire"
+              }
+            ],
+            "status": "supported",
+            "summary": "Spell shields prevent fragment collection but do not prevent the reveal."
+          }
+        ],
+        "card_id": "champ:swain:w:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Swain summons a demonic eye at the target location that grants sight of the area for 2 seconds and explodes after 1.5 seconds, dealing magic damage to enemies within, halved against minions, and slowing them by 50% for 1.5 seconds.",
+                "source_id": "wiki:visionofempire"
+              }
+            ],
+            "id": "d6cdbca0396ab4fb7b4d087c",
+            "summary": "The eye grants area sight and explodes after a delay for magic damage and a slow."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Champions hit are revealed and also grant Swain a Soul Fragment.",
+                "source_id": "riot:W"
+              }
+            ],
+            "id": "4d00a53718ef2d764b574816",
+            "summary": "Champion hits reveal the target and grant a Soul Fragment."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the delayed eye and its scouting and champion-hit effects.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:visionofempire",
+          "riot:W"
+        ],
+        "subject_id": "wiki:visionofempire",
+        "title": "Vision of Empire",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Vision of Empire",
+        "answer": "Swain places a demonic eye that grants sight of its area, then explodes after a delay to deal magic damage and slow enemies. Champions hit are revealed and give him a Soul Fragment.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Swain",
+        "cooldown": "",
+        "counterplay": "Leave the eye's area before it explodes.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/920faa52bc3681f1ee5b11cf5eb696d3f49b02c78785fae7cb6534f4945eafb4.png",
+        "id": "champ:swain:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/820ea74c23697685650a03cdd96bc1f5e07eafbbcfba346a310ead6a70ae7486.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Swain",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:50",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Swain launches a demonic wave in the target direction. At max range, the wave homes back to Swain and detonates upon the first enemy hit, dealing magic damage to nearby enemies as well as briefly revealing and rooting them.",
+                "source_id": "wiki:nevermove"
+              }
+            ],
+            "claim": "Swain sends out a wave that returns toward him and detonates on the first enemy it hits, dealing magic damage and revealing and rooting nearby enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Nevermove can be recast while champions hit are rooted. Recast: Swain pulls the rooted champions and collects a Soul Fragment from each of them.",
+                "source_id": "wiki:nevermove"
+              },
+              {
+                "quote": "Swain can then choose to pull all rooted champions closer.",
+                "source_id": "riot:E"
+              }
+            ],
+            "claim": "He can recast to pull rooted champions closer and collect a Soul Fragment from each."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4052673",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Swain"
+      },
+      "id": "champ:swain:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "His root and pull create his main catch threat."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "This ability has a shorter cooldown during Demonic Ascension.",
+                "source_id": "riot:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Nevermove has a shorter cooldown during Demonic Ascension."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the root is not applied to, removed or its targets blink or dash, the recast becomes unavailable.",
+                "source_id": "wiki:nevermove"
+              }
+            ],
+            "status": "supported",
+            "summary": "The recast becomes unavailable if the root is absent or removed, or its targets blink or dash."
+          }
+        ],
+        "card_id": "champ:swain:e:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "At max range, the wave homes back to Swain and detonates upon the first enemy hit, dealing magic damage to nearby enemies as well as briefly revealing and rooting them.",
+                "source_id": "wiki:nevermove"
+              }
+            ],
+            "id": "662930d833f02b2f563a8f5b",
+            "summary": "The returning wave detonates on an enemy and damages, reveals, and roots nearby enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Recast: Swain pulls the rooted champions and collects a Soul Fragment from each of them.",
+                "source_id": "wiki:nevermove"
+              }
+            ],
+            "id": "5ab52dbe26e1d6918b632dca",
+            "summary": "The recast pulls rooted champions and collects their Soul Fragments."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the returning-wave catch and follow-up pull.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:nevermove",
+          "riot:E"
+        ],
+        "subject_id": "wiki:nevermove",
+        "title": "Nevermove",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Nevermove",
+        "answer": "Swain sends out a wave that returns toward him and detonates on the first enemy it hits, dealing magic damage and revealing and rooting nearby enemies. He can recast to pull rooted champions closer and collect a Soul Fragment from each.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Swain",
+        "cooldown": "",
+        "counterplay": "Sidestep the returning wave and avoid clustering around its return path.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/a4a44f81ba647e88c01633596f2e8ac667056236c1d633415e04cc3846eef031.png",
+        "id": "champ:swain:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/ddd12e280013d7b0c523e1c8a672a3f8b56939af54b34ed5d1bec4de325938c4.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Swain",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "Riot identifies a shorter Nevermove cooldown during Demonic Ascension; this important cooldown interaction is retained in metadata without a supplementary card."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:50",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Demonic Ascension: Swain becomes ghosted and continually drains the lifeforce of nearby enemies, dealing magic damage and healing himself.",
+                "source_id": "wiki:demonicascension"
+              }
+            ],
+            "claim": "Swain's demonic form continually drains nearby enemies, dealing magic damage and healing him."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Demonic Ascension is maintained with Demonic Energy that gradually decays over time. Swain generates Demonic Energy while draining from at least one enemy champion, and fully restores it upon scoring a champion takedown.",
+                "source_id": "wiki:demonicascension"
+              }
+            ],
+            "claim": "Its energy decays, but draining champions sustains it and champion takedowns refill it."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After a short time, Swain can cast Demonflare",
+                "source_id": "wiki:demonicascension"
+              },
+              {
+                "quote": "Swain emits a nova of soulfire that deals magic damage to nearby enemies and applies a slow that decays over a brief moment.",
+                "source_id": "wiki:demonflare"
+              }
+            ],
+            "claim": "During the form, he can unleash Demonflare, a nearby burst of magic damage with a fading slow."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4052673",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Swain"
+      },
+      "id": "champ:swain:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Staying in drain range sustains his healing and transformation."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "does so automatically when Demonic Ascension expires if Demonflare is not on cooldown at the time of expiration.",
+                "source_id": "wiki:demonicascension"
+              },
+              {
+                "quote": "Demonflare will not automatically cast at the end of Demonic Ascension if it occurs due to Swain's death.",
+                "source_id": "wiki:demonflare"
+              }
+            ],
+            "status": "supported",
+            "summary": "Demonflare automatically casts when the form expires if available, except when expiration is caused by Swain's death."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The targets do not have to be visible to be hit by this ability.",
+                "source_id": "wiki:demonicascension"
+              }
+            ],
+            "status": "supported",
+            "summary": "The drain can hit targets Swain cannot see."
+          }
+        ],
+        "card_id": "champ:swain:r:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Demonic Ascension: Swain becomes ghosted and continually drains the lifeforce of nearby enemies, dealing magic damage and healing himself.",
+                "source_id": "wiki:demonicascension"
+              }
+            ],
+            "id": "85b0ea112289098c4802df19",
+            "summary": "The form drains nearby enemies for magic damage and healing."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Demonic Ascension is maintained with Demonic Energy that gradually decays over time. Swain generates Demonic Energy while draining from at least one enemy champion, and fully restores it upon scoring a champion takedown.",
+                "source_id": "wiki:demonicascension"
+              }
+            ],
+            "id": "18e27d7a182751093f19ed2d",
+            "summary": "Champion drain sustains the form's decaying energy, and champion takedowns refill it."
+          },
+          {
+            "citations": [
+              {
+                "quote": "After a short time, Swain can cast Demonflare",
+                "source_id": "wiki:demonicascension"
+              },
+              {
+                "quote": "Swain emits a nova of soulfire that deals magic damage to nearby enemies and applies a slow that decays over a brief moment.",
+                "source_id": "wiki:demonflare"
+              }
+            ],
+            "id": "dfd27664b878d4114404ce5d",
+            "summary": "Demonflare becomes available during the form and deals nearby magic damage with a fading slow."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the sustained drain form and its related burst.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:demonicascension",
+          "wiki:demonflare",
+          "riot:R"
+        ],
+        "subject_id": "wiki:demonicascension",
+        "title": "Demonic Ascension and Demonflare",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Demonic Ascension",
+        "answer": "Swain's demonic form continually drains nearby enemies, dealing magic damage and healing him. Its energy decays, but draining champions sustains it and champion takedowns refill it. During the form, he can unleash Demonflare, a nearby burst of magic damage with a fading slow.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Swain",
+        "cooldown": "",
+        "counterplay": "Create distance to deny champion drain, and watch for Demonflare as you disengage.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/1a9bf54b060c483ab9758fd67511f3b890d6720aee6a87deccda2c9e72013778.png",
+        "id": "champ:swain:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/8f87020498db84e67f2a27eaa7b88cc259d0ead8b3825b956f6f767ea12ca895.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Swain",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "Exact Demonflare repeat-cast availability and cooldown are not supplied; avoid assuming it is available throughout the form."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

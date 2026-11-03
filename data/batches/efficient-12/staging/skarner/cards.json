@@ -1,0 +1,826 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:72",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Skarner. Official role tags: Tank, Fighter.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Skarner charges forward and passes through terrain. If he collides with a champion or large monster, he'll slam them into the next wall he hits to damage and stun them.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Once suppressed, the victims will be dragged along by Skarner as he moves around.",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "Skarner is a tank/fighter who charges through terrain to grab enemies and drags suppressed champions with Impale."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "empowering his next three basic attacks with bonus attack speed and bonus physical damage to the target and surrounding enemies.",
+                "source_id": "wiki:shatteredearth"
+              },
+              {
+                "quote": "At max stacks of Quaking, enemies take max Health magic damage over its duration.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "shielding himself based on his maximum health",
+                "source_id": "wiki:seismicbastion"
+              }
+            ],
+            "claim": "His boulder attacks deal physical damage, Quaking deals maximum-health magic damage over time, and his shield scales with his maximum health."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4050193",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner"
+      },
+      "id": "champ:skarner:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Establishes his terrain engage, displacement threat, and damage pattern."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:skarner:overview:L1",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Skarner. Official role tags: Tank, Fighter.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Skarner charges forward and passes through terrain.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Once suppressed, the victims will be dragged along by Skarner as he moves around.",
+                "source_id": "riot:R"
+              }
+            ],
+            "id": "389b029d6b80b96aa8073a93",
+            "summary": "Tank/fighter with terrain-crossing engages and suppression-based dragging."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Skarner's overall fighting pattern and positioning threat.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "riot:E",
+          "riot:R",
+          "riot:P",
+          "wiki:shatteredearth",
+          "wiki:seismicbastion"
+        ],
+        "subject_id": "riot:role",
+        "title": "Skarner",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Tank / Fighter",
+        "answer": "Skarner is a tank/fighter who charges through terrain to grab enemies and drags suppressed champions with Impale. His boulder attacks deal physical damage, Quaking deals maximum-health magic damage over time, and his shield scales with his maximum health.",
+        "build_focus": "Health, Armor, MR",
+        "category": "Champion",
+        "champion": "Skarner",
+        "cooldown": "",
+        "counterplay": "Watch terrain approaches, keep space from allies, and avoid being caught with a wall behind you.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/7979985f1496dcf39233e96852626b39f87888d8f892e4f1d68ac61696eacd8d.jpg",
+        "id": "champ:skarner:overview:L1",
+        "level": "L1",
+        "media_path": "media/7979985f1496dcf39233e96852626b39f87888d8f892e4f1d68ac61696eacd8d.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Skarner",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "The defensive build focus follows his supplied tank role and health scaling; item recommendations are not supplied."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:72",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Skarner's basic attacks on-hit, Shattered Earth, Upheaval, and Impale apply a stack of Quaking to enemies hit for 4 seconds, refreshing on subsequent applications and stacking up to 3 times.",
+                "source_id": "wiki:threadsofvibration"
+              }
+            ],
+            "claim": "Basic attacks, Shattered Earth, Upheaval, and Impale apply and refresh Quaking stacks."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "At max stacks of Quaking, enemies take max Health magic damage over its duration.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "At full stacks, Quaking deals magic damage over time based on the target's maximum health."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4050193",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner"
+      },
+      "id": "champ:skarner:p:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Explains the sustained damage threat from repeated contact."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:skarner:p:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Skarner's basic attacks on-hit, Shattered Earth, Upheaval, and Impale apply a stack of Quaking to enemies hit for 4 seconds, refreshing on subsequent applications and stacking up to 3 times.",
+                "source_id": "wiki:threadsofvibration"
+              },
+              {
+                "quote": "At max stacks of Quaking, enemies take max Health magic damage over its duration.",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "9cc21ccd9d2c65328ef6749a",
+            "summary": "Repeated attacks and specified abilities build Quaking, which deals maximum-health magic damage over time at full stacks."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize why prolonged contact increases his damage threat.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:threadsofvibration",
+          "riot:P"
+        ],
+        "subject_id": "wiki:threadsofvibration",
+        "title": "Threads of Vibration",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Threads of Vibration",
+        "answer": "Basic attacks, Shattered Earth, Upheaval, and Impale apply and refresh Quaking stacks. At full stacks, Quaking deals magic damage over time based on the target's maximum health.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Skarner",
+        "cooldown": "",
+        "counterplay": "Break contact to limit repeated stack applications.",
+        "front_hint": "SKARNER · P",
+        "icon_path": "media/34dc560135335018749bc461002bd5014b5a338a53b2a9822fc434b20ca03b6f.png",
+        "id": "champ:skarner:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/34dc560135335018749bc461002bd5014b5a338a53b2a9822fc434b20ca03b6f.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Skarner",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:72",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "empowering his next three basic attacks with bonus attack speed and bonus physical damage to the target and surrounding enemies. The final attack slams the boulder, dealing additional damage based on each target's maximum health and slowing them.",
+                "source_id": "wiki:shatteredearth"
+              }
+            ],
+            "claim": "Shattered Earth empowers his next three basic attacks with bonus attack speed and area physical damage; the final attack adds target maximum-health damage and a slow."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Skarner ends Shattered Earth by throwing his boulder in the target direction. It explodes upon colliding with the first enemy hit, applying the same damage and slow to the target and surrounding enemies as Shattered Earth's final empowered attack would.",
+                "source_id": "wiki:upheaval"
+              }
+            ],
+            "claim": "He can instead end it with Upheaval, throwing the boulder to explode on the first enemy hit and apply the final attack's damage and slow in an area."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4050193",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner"
+      },
+      "id": "champ:skarner:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "His central damage tool threatens enemies both in melee and through a thrown area slow."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "While Shattered Earth is active, it will not benefit from cooldown refund effects such as Transcendence or Navori Flickerblade's Transcendence.",
+                "source_id": "wiki:upheaval"
+              }
+            ],
+            "status": "supported",
+            "summary": "While active, Shattered Earth does not benefit from the cited cooldown refund effects."
+          }
+        ],
+        "card_id": "champ:skarner:q:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "empowering his next three basic attacks with bonus attack speed and bonus physical damage to the target and surrounding enemies. The final attack slams the boulder, dealing additional damage based on each target's maximum health and slowing them.",
+                "source_id": "wiki:shatteredearth"
+              }
+            ],
+            "id": "a8d51c41dadbb2c97efdbc8b",
+            "summary": "Empowered area attacks culminate in maximum-health damage and a slow."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Skarner ends Shattered Earth by throwing his boulder in the target direction. It explodes upon colliding with the first enemy hit, applying the same damage and slow to the target and surrounding enemies as Shattered Earth's final empowered attack would.",
+                "source_id": "wiki:upheaval"
+              }
+            ],
+            "id": "492fb16a2aaa9c3d895a2071",
+            "summary": "The alternative throw ends Shattered Earth and delivers the final attack's effects in an explosion."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the empowered attack sequence and its alternative ranged finish together.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:shatteredearth",
+          "wiki:upheaval",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:shatteredearth",
+        "title": "Shattered Earth / Upheaval",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Shattered Earth",
+        "answer": "Shattered Earth empowers his next three basic attacks with bonus attack speed and area physical damage; the final attack adds target maximum-health damage and a slow. He can instead end it with Upheaval, throwing the boulder to explode on the first enemy hit and apply the final attack's damage and slow in an area.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Skarner",
+        "cooldown": "",
+        "counterplay": "Keep distance from his empowered attacks and avoid clustering around the boulder's impact.",
+        "front_hint": "SKARNER · Q",
+        "icon_path": "media/a181dbd769c689109145473329cad3df66b5768dc744544abe2af2ee88b1e016.png",
+        "id": "champ:skarner:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/a181dbd769c689109145473329cad3df66b5768dc744544abe2af2ee88b1e016.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Skarner",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "Important cooldown topic: supplied Q history mentions cooldown restarting on empowered hits or Upheaval, but the live sections do not establish that rule; it is omitted."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:72",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "shielding himself based on his maximum health and releasing a shockwave that quickly expands in a radius around him to deal magic damage to enemies hit and briefly slow them.",
+                "source_id": "wiki:seismicbastion"
+              }
+            ],
+            "claim": "Skarner gains a shield based on his maximum health and releases an expanding shockwave around himself that deals magic damage and briefly slows enemies."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Skarner can move during Seismic Bastion's cast time.",
+                "source_id": "wiki:seismicbastion"
+              }
+            ],
+            "claim": "He can move during the cast."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4050193",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner"
+      },
+      "id": "champ:skarner:w:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Explains his immediate durability and nearby slowing threat."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:skarner:w:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "shielding himself based on his maximum health and releasing a shockwave that quickly expands in a radius around him to deal magic damage to enemies hit and briefly slow them.",
+                "source_id": "wiki:seismicbastion"
+              },
+              {
+                "quote": "Skarner can move during Seismic Bastion's cast time.",
+                "source_id": "wiki:seismicbastion"
+              }
+            ],
+            "id": "1af27b790642efdd3f98fcad",
+            "summary": "A health-scaling shield accompanies an expanding damaging slow, and he can move during its cast."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize his defensive shield and surrounding slow.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:seismicbastion",
+          "riot:W"
+        ],
+        "subject_id": "wiki:seismicbastion",
+        "title": "Seismic Bastion",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Seismic Bastion",
+        "answer": "Skarner gains a shield based on his maximum health and releases an expanding shockwave around himself that deals magic damage and briefly slows enemies. He can move during the cast.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Skarner",
+        "cooldown": "",
+        "counterplay": "Keep space from him and account for his shield when committing damage.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/20977ae5c2b50394ea46888d16eaf4bb7426f9ed0c4877f543abe6f69fde44ab.png",
+        "id": "champ:skarner:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/3e8149918f6cc469d31a80e3a7a47ceb83339981d2b62c7061b5eee164bed065.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Skarner",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:72",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Skarner charges in the target direction for a duration while ignoring terrain collision and gaining ghosting and slow immunity. He starts slowly but ramps up in movement speed over the course of the charge",
+                "source_id": "wiki:ixtalsimpact"
+              },
+              {
+                "quote": "Colliding with an enemy champion or large monster causes Skarner to increase his movement speed, forcibly grab them to attach them to him, and suppress them while dragging them along for the remainder of the charge.",
+                "source_id": "wiki:ixtalsimpact"
+              }
+            ],
+            "claim": "Skarner accelerates through terrain while immune to slows, grabbing and suppressing an enemy champion or large monster he collides with."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If the attached target collides with terrain while grabbed, they are stunned and dealt physical damage, ending the charge, and reducing Ixtal's Impact cooldown.",
+                "source_id": "wiki:ixtalsimpact"
+              }
+            ],
+            "claim": "Driving the grabbed target into terrain deals physical damage, stuns them, and reduces this ability's cooldown."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Ixtal's Impact ends immediately if Skarner becomes immobilized or grounded, or is affected by any form of cast-inhibiting crowd control, during the charge. The grabbed target is detached if this occurs.",
+                "source_id": "wiki:ixtalsimpact"
+              }
+            ],
+            "claim": "Immobilizing, grounding, or cast-inhibiting crowd control ends the charge and detaches the target."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4050193",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner"
+      },
+      "id": "champ:skarner:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Terrain traversal and wall collisions create his primary approach and pick threat."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "However, enemies will be notified when Skarner is inside nearby terrain while within a certain distance of him. An indicator will be visible to the enemy player's perspective to represent this.",
+                "source_id": "wiki:ixtalsimpact"
+              }
+            ],
+            "status": "supported",
+            "summary": "Nearby enemies receive an indicator when he is inside terrain."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the target removes the suppression by any means, including with an applicable cleanse effect or dispel, they will detach themselves from Skarner immediately which forces the charge to end instantly and not apply any damage.",
+                "source_id": "wiki:ixtalsimpact"
+              }
+            ],
+            "status": "supported",
+            "summary": "Removing the suppression detaches the target and ends the charge without its damage."
+          }
+        ],
+        "card_id": "champ:skarner:e:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Skarner charges in the target direction for a duration while ignoring terrain collision and gaining ghosting and slow immunity.",
+                "source_id": "wiki:ixtalsimpact"
+              },
+              {
+                "quote": "Colliding with an enemy champion or large monster causes Skarner to increase his movement speed, forcibly grab them to attach them to him, and suppress them while dragging them along for the remainder of the charge.",
+                "source_id": "wiki:ixtalsimpact"
+              }
+            ],
+            "id": "d8978430ec641de6d3bce8c2",
+            "summary": "A terrain-crossing, slow-immune charge grabs and suppresses a collided champion or large monster."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the attached target collides with terrain while grabbed, they are stunned and dealt physical damage, ending the charge, and reducing Ixtal's Impact cooldown.",
+                "source_id": "wiki:ixtalsimpact"
+              }
+            ],
+            "id": "cdbb24e7db4477bb94a2b810",
+            "summary": "A terrain collision damages and stuns the grabbed target and reduces the charge's cooldown."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Ixtal's Impact ends immediately if Skarner becomes immobilized or grounded, or is affected by any form of cast-inhibiting crowd control, during the charge. The grabbed target is detached if this occurs.",
+                "source_id": "wiki:ixtalsimpact"
+              }
+            ],
+            "id": "e6a2058d8aae260a61d7a7c9",
+            "summary": "Immobilization, grounding, and cast-inhibiting crowd control interrupt the charge and release its target."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize his terrain approach, wall-slam threat, and interruption opportunities.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:ixtalsimpact",
+          "riot:E"
+        ],
+        "subject_id": "wiki:ixtalsimpact",
+        "title": "Ixtal's Impact",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Ixtal's Impact",
+        "answer": "Skarner accelerates through terrain while immune to slows, grabbing and suppressing an enemy champion or large monster he collides with. Driving the grabbed target into terrain deals physical damage, stuns them, and reduces this ability's cooldown. Immobilizing, grounding, or cast-inhibiting crowd control ends the charge and detaches the target.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Skarner",
+        "cooldown": "",
+        "counterplay": "Watch terrain approaches, avoid lining up with nearby walls, and use charge-interrupting crowd control when available.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/91c40123ada7263fc949dc4d33768111c38a2dfb731361afb7c81f5062fc39c2.png",
+        "id": "champ:skarner:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/8ef1f81a418daf80700af64ad306714d969d47b407a06bfac24cd36c7b083452.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Skarner",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "Important cooldown topic: a successful terrain collision reduces this ability's cooldown; exact timings are omitted."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:72",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Skarner winds up his stingers over the cast time with displacement immunity, then lashes them forward in the target direction, dealing magic damage to enemies hit and impaling up to 3 of the closest enemy champions within the area to briefly suppress.",
+                "source_id": "wiki:impale"
+              },
+              {
+                "quote": "Once suppressed, the victims will be dragged along by Skarner as he moves around.",
+                "source_id": "riot:R"
+              }
+            ],
+            "claim": "After a windup, Skarner lashes forward, dealing magic damage and suppressing up to three nearby enemy champions in the area, dragging them as he moves."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If he successfully impales at least one enemy champion, Skarner gains bonus movement speed for Impale's duration.",
+                "source_id": "wiki:impale"
+              },
+              {
+                "quote": "If Impale is cast during Shattered Earth, Skarner automatically casts Upheaval in the direction of Impale's cast.",
+                "source_id": "wiki:impale"
+              }
+            ],
+            "claim": "Catching a champion grants him bonus movement speed; casting Impale while holding his boulder also throws Upheaval in the same direction."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4050193",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner"
+      },
+      "id": "champ:skarner:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Area suppression and dragging can reposition several enemies together."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If a target removes the suppression by any means, including with an applicable cleanse effect or dispel, they will detach themselves from Skarner immediately.",
+                "source_id": "wiki:impale"
+              }
+            ],
+            "status": "supported",
+            "summary": "Removing suppression detaches the affected target."
+          }
+        ],
+        "card_id": "champ:skarner:r:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Skarner winds up his stingers over the cast time with displacement immunity, then lashes them forward in the target direction, dealing magic damage to enemies hit and impaling up to 3 of the closest enemy champions within the area to briefly suppress.",
+                "source_id": "wiki:impale"
+              },
+              {
+                "quote": "Once suppressed, the victims will be dragged along by Skarner as he moves around.",
+                "source_id": "riot:R"
+              }
+            ],
+            "id": "3c5171737134b2c5a188f902",
+            "summary": "A forward cast after a windup damages enemies and suppresses and drags up to three champions."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If he successfully impales at least one enemy champion, Skarner gains bonus movement speed for Impale's duration.",
+                "source_id": "wiki:impale"
+              },
+              {
+                "quote": "If Impale is cast during Shattered Earth, Skarner automatically casts Upheaval in the direction of Impale's cast.",
+                "source_id": "wiki:impale"
+              }
+            ],
+            "id": "760c37dca7b6b1bf63189877",
+            "summary": "A successful catch grants movement speed, and an active Shattered Earth adds an automatic Upheaval."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the forward area catch and subsequent dragging threat.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:impale",
+          "riot:R"
+        ],
+        "subject_id": "wiki:impale",
+        "title": "Impale",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Impale",
+        "answer": "After a windup, Skarner lashes forward, dealing magic damage and suppressing up to three nearby enemy champions in the area, dragging them as he moves. Catching a champion grants him bonus movement speed; casting Impale while holding his boulder also throws Upheaval in the same direction.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Skarner",
+        "cooldown": "",
+        "counterplay": "Spread out and move out of his forward cast area during the windup.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/f15a58add8e21dd9b734e0b74e7fec6546af0e3d8c33c8ba71065073153d085f.png",
+        "id": "champ:skarner:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/cfae5ee07ebfbac78f8ace6600f904b9167aa4b830c5afb70d917506672b4362.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Skarner",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "Impale is an important cooldown to track, but its cooldown is not established by the supplied live evidence."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

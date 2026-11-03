@@ -1,0 +1,538 @@
+{
+  "abilities": {
+    "E": {
+      "gif": {
+        "frames": 41,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/galio_e.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "cf1c803de273cfcbfb62439e7cf825bec60df51f056956818c0b4281d4925c83"
+        },
+        "sha256": "5e2409346c79a7114c45bc252866d8258c0b1743a7f28c4ebdac8720a96a219d",
+        "source_sha256": "cf1c803de273cfcbfb62439e7cf825bec60df51f056956818c0b4281d4925c83",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_E1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/galio_e_icon.png",
+        "retrieved_at": "2026-11-02T13:12:31.573412+00:00",
+        "sha256": "5756c2ecc581403cdbc86a32d89c415cfa185f0ff086d996d39a493f4187e8cd",
+        "source_sha256": "5756c2ecc581403cdbc86a32d89c415cfa185f0ff086d996d39a493f4187e8cd",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioE.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/galio_e.webm",
+        "retrieved_at": "2026-11-02T13:12:31.880139+00:00",
+        "sha256": "cf1c803de273cfcbfb62439e7cf825bec60df51f056956818c0b4281d4925c83",
+        "source_sha256": "cf1c803de273cfcbfb62439e7cf825bec60df51f056956818c0b4281d4925c83",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_E1.webm"
+      }
+    },
+    "P": {
+      "gif": null,
+      "icon": {
+        "kind": "png",
+        "path": "media/galio_p_icon.png",
+        "retrieved_at": "2026-11-02T13:12:26.071793+00:00",
+        "sha256": "5a42c1fbc345e637d13f1d2f2c4dc92bf7e18e9c61b23ade10ec96006c25474d",
+        "source_sha256": "5a42c1fbc345e637d13f1d2f2c4dc92bf7e18e9c61b23ade10ec96006c25474d",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Galio_Passive.png"
+      },
+      "video": null
+    },
+    "Q": {
+      "gif": {
+        "frames": 42,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/galio_q.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "bffb61ccacc003f12596d874a1faae902f6cfa5c5f2e86380c52fa436ebceefa"
+        },
+        "sha256": "b970d7d452db678b104ee39eed40ef9bfec80eed4032a1f1110faa41988546ab",
+        "source_sha256": "bffb61ccacc003f12596d874a1faae902f6cfa5c5f2e86380c52fa436ebceefa",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_Q1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/galio_q_icon.png",
+        "retrieved_at": "2026-11-02T13:12:26.722256+00:00",
+        "sha256": "563eb98a89a7201e26e757c5cbd03ab167f8ef02e528b193e3ca5a5fa10f4c2c",
+        "source_sha256": "563eb98a89a7201e26e757c5cbd03ab167f8ef02e528b193e3ca5a5fa10f4c2c",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioQ.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/galio_q.webm",
+        "retrieved_at": "2026-11-02T13:12:27.005069+00:00",
+        "sha256": "bffb61ccacc003f12596d874a1faae902f6cfa5c5f2e86380c52fa436ebceefa",
+        "source_sha256": "bffb61ccacc003f12596d874a1faae902f6cfa5c5f2e86380c52fa436ebceefa",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_Q1.webm"
+      }
+    },
+    "R": {
+      "gif": {
+        "frames": 60,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/galio_r.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "d67b103f03ede04a1287b9af1a68420a94b25ebfa502bf9b44371b683a7f2b9c"
+        },
+        "sha256": "79d130b37fb2ce222b2ef13fae447e1e99f29e4e8468fa9a2d872252f89f62d5",
+        "source_sha256": "d67b103f03ede04a1287b9af1a68420a94b25ebfa502bf9b44371b683a7f2b9c",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_R1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/galio_r_icon.png",
+        "retrieved_at": "2026-11-02T13:12:34.259543+00:00",
+        "sha256": "bf97d9824a5c15e88da0a4ae5457163e04bef5f16195577e3ff6103d7324c52f",
+        "source_sha256": "bf97d9824a5c15e88da0a4ae5457163e04bef5f16195577e3ff6103d7324c52f",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioR.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/galio_r.webm",
+        "retrieved_at": "2026-11-02T13:12:34.639913+00:00",
+        "sha256": "d67b103f03ede04a1287b9af1a68420a94b25ebfa502bf9b44371b683a7f2b9c",
+        "source_sha256": "d67b103f03ede04a1287b9af1a68420a94b25ebfa502bf9b44371b683a7f2b9c",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_R1.webm"
+      }
+    },
+    "W": {
+      "gif": {
+        "frames": 54,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/galio_w.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "e859b0a884c93f872685ee6be317345d01477f26b069880945298bc64dadda56"
+        },
+        "sha256": "70b86735b10485b3703e58287253c41a5968cce4d8ccea6e835c78c69a84597b",
+        "source_sha256": "e859b0a884c93f872685ee6be317345d01477f26b069880945298bc64dadda56",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_W1.webm"
+      },
+      "icon": {
+        "kind": "png",
+        "path": "media/galio_w_icon.png",
+        "retrieved_at": "2026-11-02T13:12:29.108410+00:00",
+        "sha256": "7f6c1b652859b7e93d16a2a7a4895d5d6ec3753e7dc03f55a6771e2af8186b26",
+        "source_sha256": "7f6c1b652859b7e93d16a2a7a4895d5d6ec3753e7dc03f55a6771e2af8186b26",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioW.png"
+      },
+      "video": {
+        "kind": "webm",
+        "path": "media/galio_w.webm",
+        "retrieved_at": "2026-11-02T13:12:29.378286+00:00",
+        "sha256": "e859b0a884c93f872685ee6be317345d01477f26b069880945298bc64dadda56",
+        "source_sha256": "e859b0a884c93f872685ee6be317345d01477f26b069880945298bc64dadda56",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_W1.webm"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "card_id": "champ:galio:overview:L1",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "jpg",
+        "path": "media/galio_portrait.jpg",
+        "retrieved_at": "2026-11-02T13:12:25.666799+00:00",
+        "sha256": "3c1e6e34de3789c5757c2f2e4b9d7a4b6685cfbb5e9c85aebcf9f7d77bb8c940",
+        "source_sha256": "3c1e6e34de3789c5757c2f2e4b9d7a4b6685cfbb5e9c85aebcf9f7d77bb8c940",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_0.jpg"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "official champion portrait",
+      "slot_clip_candidate": null,
+      "subject_id": "riot:role",
+      "unresolved": [],
+      "video": null
+    },
+    {
+      "card_id": "champ:galio:p:recognize:L2",
+      "context_id": "",
+      "gif": null,
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/galio_p_icon.png",
+        "retrieved_at": "2026-11-02T13:12:26.071793+00:00",
+        "sha256": "5a42c1fbc345e637d13f1d2f2c4dc92bf7e18e9c61b23ade10ec96006c25474d",
+        "source_sha256": "5a42c1fbc345e637d13f1d2f2c4dc92bf7e18e9c61b23ade10ec96006c25474d",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Galio_Passive.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:colossalsmash",
+      "unresolved": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ],
+      "video": null
+    },
+    {
+      "card_id": "champ:galio:q:recognize:L2",
+      "context_id": "",
+      "gif": {
+        "frames": 42,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/galio_q.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "bffb61ccacc003f12596d874a1faae902f6cfa5c5f2e86380c52fa436ebceefa"
+        },
+        "sha256": "b970d7d452db678b104ee39eed40ef9bfec80eed4032a1f1110faa41988546ab",
+        "source_sha256": "bffb61ccacc003f12596d874a1faae902f6cfa5c5f2e86380c52fa436ebceefa",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_Q1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/galio_q_icon.png",
+        "retrieved_at": "2026-11-02T13:12:26.722256+00:00",
+        "sha256": "563eb98a89a7201e26e757c5cbd03ab167f8ef02e528b193e3ca5a5fa10f4c2c",
+        "source_sha256": "563eb98a89a7201e26e757c5cbd03ab167f8ef02e528b193e3ca5a5fa10f4c2c",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioQ.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:windsofwar",
+      "unresolved": [],
+      "video": {
+        "kind": "webm",
+        "path": "media/galio_q.webm",
+        "retrieved_at": "2026-11-02T13:12:27.005069+00:00",
+        "sha256": "bffb61ccacc003f12596d874a1faae902f6cfa5c5f2e86380c52fa436ebceefa",
+        "source_sha256": "bffb61ccacc003f12596d874a1faae902f6cfa5c5f2e86380c52fa436ebceefa",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_Q1.webm"
+      }
+    },
+    {
+      "card_id": "champ:galio:w:recognize:L2",
+      "context_id": "",
+      "gif": {
+        "frames": 54,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/galio_w.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "e859b0a884c93f872685ee6be317345d01477f26b069880945298bc64dadda56"
+        },
+        "sha256": "70b86735b10485b3703e58287253c41a5968cce4d8ccea6e835c78c69a84597b",
+        "source_sha256": "e859b0a884c93f872685ee6be317345d01477f26b069880945298bc64dadda56",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_W1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/galio_w_icon.png",
+        "retrieved_at": "2026-11-02T13:12:29.108410+00:00",
+        "sha256": "7f6c1b652859b7e93d16a2a7a4895d5d6ec3753e7dc03f55a6771e2af8186b26",
+        "source_sha256": "7f6c1b652859b7e93d16a2a7a4895d5d6ec3753e7dc03f55a6771e2af8186b26",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioW.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:shieldofdurand",
+      "unresolved": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ],
+      "video": {
+        "kind": "webm",
+        "path": "media/galio_w.webm",
+        "retrieved_at": "2026-11-02T13:12:29.378286+00:00",
+        "sha256": "e859b0a884c93f872685ee6be317345d01477f26b069880945298bc64dadda56",
+        "source_sha256": "e859b0a884c93f872685ee6be317345d01477f26b069880945298bc64dadda56",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_W1.webm"
+      }
+    },
+    {
+      "card_id": "champ:galio:e:recognize:L2",
+      "context_id": "",
+      "gif": {
+        "frames": 41,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/galio_e.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "cf1c803de273cfcbfb62439e7cf825bec60df51f056956818c0b4281d4925c83"
+        },
+        "sha256": "5e2409346c79a7114c45bc252866d8258c0b1743a7f28c4ebdac8720a96a219d",
+        "source_sha256": "cf1c803de273cfcbfb62439e7cf825bec60df51f056956818c0b4281d4925c83",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_E1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/galio_e_icon.png",
+        "retrieved_at": "2026-11-02T13:12:31.573412+00:00",
+        "sha256": "5756c2ecc581403cdbc86a32d89c415cfa185f0ff086d996d39a493f4187e8cd",
+        "source_sha256": "5756c2ecc581403cdbc86a32d89c415cfa185f0ff086d996d39a493f4187e8cd",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioE.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:justicepunch",
+      "unresolved": [],
+      "video": {
+        "kind": "webm",
+        "path": "media/galio_e.webm",
+        "retrieved_at": "2026-11-02T13:12:31.880139+00:00",
+        "sha256": "cf1c803de273cfcbfb62439e7cf825bec60df51f056956818c0b4281d4925c83",
+        "source_sha256": "cf1c803de273cfcbfb62439e7cf825bec60df51f056956818c0b4281d4925c83",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_E1.webm"
+      }
+    },
+    {
+      "card_id": "champ:galio:r:recognize:L2",
+      "context_id": "",
+      "gif": {
+        "frames": 60,
+        "kind": "gif",
+        "loop": 0,
+        "path": "media/galio_r.gif",
+        "recipe": {
+          "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+          "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+          "loop": 0,
+          "source_sha256": "d67b103f03ede04a1287b9af1a68420a94b25ebfa502bf9b44371b683a7f2b9c"
+        },
+        "sha256": "79d130b37fb2ce222b2ef13fae447e1e99f29e4e8468fa9a2d872252f89f62d5",
+        "source_sha256": "d67b103f03ede04a1287b9af1a68420a94b25ebfa502bf9b44371b683a7f2b9c",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_R1.webm"
+      },
+      "human_verified": false,
+      "icon": {
+        "kind": "png",
+        "path": "media/galio_r_icon.png",
+        "retrieved_at": "2026-11-02T13:12:34.259543+00:00",
+        "sha256": "bf97d9824a5c15e88da0a4ae5457163e04bef5f16195577e3ff6103d7324c52f",
+        "source_sha256": "bf97d9824a5c15e88da0a4ae5457163e04bef5f16195577e3ff6103d7324c52f",
+        "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioR.png"
+      },
+      "manual_weapon_ability_matching_required": true,
+      "mapping_basis": "exact primary ability name/source; no variant inference",
+      "slot_clip_candidate": null,
+      "subject_id": "wiki:herosentrance",
+      "unresolved": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ],
+      "video": {
+        "kind": "webm",
+        "path": "media/galio_r.webm",
+        "retrieved_at": "2026-11-02T13:12:34.639913+00:00",
+        "sha256": "d67b103f03ede04a1287b9af1a68420a94b25ebfa502bf9b44371b683a7f2b9c",
+        "source_sha256": "d67b103f03ede04a1287b9af1a68420a94b25ebfa502bf9b44371b683a7f2b9c",
+        "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_R1.webm"
+      }
+    }
+  ],
+  "current_client_verified": false,
+  "files": [
+    {
+      "kind": "jpg",
+      "path": "media/galio_portrait.jpg",
+      "retrieved_at": "2026-11-02T13:12:25.666799+00:00",
+      "sha256": "3c1e6e34de3789c5757c2f2e4b9d7a4b6685cfbb5e9c85aebcf9f7d77bb8c940",
+      "source_sha256": "3c1e6e34de3789c5757c2f2e4b9d7a4b6685cfbb5e9c85aebcf9f7d77bb8c940",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_0.jpg"
+    },
+    {
+      "kind": "png",
+      "path": "media/galio_p_icon.png",
+      "retrieved_at": "2026-11-02T13:12:26.071793+00:00",
+      "sha256": "5a42c1fbc345e637d13f1d2f2c4dc92bf7e18e9c61b23ade10ec96006c25474d",
+      "source_sha256": "5a42c1fbc345e637d13f1d2f2c4dc92bf7e18e9c61b23ade10ec96006c25474d",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/passive/Galio_Passive.png"
+    },
+    {
+      "kind": "png",
+      "path": "media/galio_q_icon.png",
+      "retrieved_at": "2026-11-02T13:12:26.722256+00:00",
+      "sha256": "563eb98a89a7201e26e757c5cbd03ab167f8ef02e528b193e3ca5a5fa10f4c2c",
+      "source_sha256": "563eb98a89a7201e26e757c5cbd03ab167f8ef02e528b193e3ca5a5fa10f4c2c",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioQ.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/galio_q.webm",
+      "retrieved_at": "2026-11-02T13:12:27.005069+00:00",
+      "sha256": "bffb61ccacc003f12596d874a1faae902f6cfa5c5f2e86380c52fa436ebceefa",
+      "source_sha256": "bffb61ccacc003f12596d874a1faae902f6cfa5c5f2e86380c52fa436ebceefa",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_Q1.webm"
+    },
+    {
+      "frames": 42,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/galio_q.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "bffb61ccacc003f12596d874a1faae902f6cfa5c5f2e86380c52fa436ebceefa"
+      },
+      "sha256": "b970d7d452db678b104ee39eed40ef9bfec80eed4032a1f1110faa41988546ab",
+      "source_sha256": "bffb61ccacc003f12596d874a1faae902f6cfa5c5f2e86380c52fa436ebceefa",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_Q1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/galio_w_icon.png",
+      "retrieved_at": "2026-11-02T13:12:29.108410+00:00",
+      "sha256": "7f6c1b652859b7e93d16a2a7a4895d5d6ec3753e7dc03f55a6771e2af8186b26",
+      "source_sha256": "7f6c1b652859b7e93d16a2a7a4895d5d6ec3753e7dc03f55a6771e2af8186b26",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioW.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/galio_w.webm",
+      "retrieved_at": "2026-11-02T13:12:29.378286+00:00",
+      "sha256": "e859b0a884c93f872685ee6be317345d01477f26b069880945298bc64dadda56",
+      "source_sha256": "e859b0a884c93f872685ee6be317345d01477f26b069880945298bc64dadda56",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_W1.webm"
+    },
+    {
+      "frames": 54,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/galio_w.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "e859b0a884c93f872685ee6be317345d01477f26b069880945298bc64dadda56"
+      },
+      "sha256": "70b86735b10485b3703e58287253c41a5968cce4d8ccea6e835c78c69a84597b",
+      "source_sha256": "e859b0a884c93f872685ee6be317345d01477f26b069880945298bc64dadda56",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_W1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/galio_e_icon.png",
+      "retrieved_at": "2026-11-02T13:12:31.573412+00:00",
+      "sha256": "5756c2ecc581403cdbc86a32d89c415cfa185f0ff086d996d39a493f4187e8cd",
+      "source_sha256": "5756c2ecc581403cdbc86a32d89c415cfa185f0ff086d996d39a493f4187e8cd",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioE.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/galio_e.webm",
+      "retrieved_at": "2026-11-02T13:12:31.880139+00:00",
+      "sha256": "cf1c803de273cfcbfb62439e7cf825bec60df51f056956818c0b4281d4925c83",
+      "source_sha256": "cf1c803de273cfcbfb62439e7cf825bec60df51f056956818c0b4281d4925c83",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_E1.webm"
+    },
+    {
+      "frames": 41,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/galio_e.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "cf1c803de273cfcbfb62439e7cf825bec60df51f056956818c0b4281d4925c83"
+      },
+      "sha256": "5e2409346c79a7114c45bc252866d8258c0b1743a7f28c4ebdac8720a96a219d",
+      "source_sha256": "cf1c803de273cfcbfb62439e7cf825bec60df51f056956818c0b4281d4925c83",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_E1.webm"
+    },
+    {
+      "kind": "png",
+      "path": "media/galio_r_icon.png",
+      "retrieved_at": "2026-11-02T13:12:34.259543+00:00",
+      "sha256": "bf97d9824a5c15e88da0a4ae5457163e04bef5f16195577e3ff6103d7324c52f",
+      "source_sha256": "bf97d9824a5c15e88da0a4ae5457163e04bef5f16195577e3ff6103d7324c52f",
+      "source_url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioR.png"
+    },
+    {
+      "kind": "webm",
+      "path": "media/galio_r.webm",
+      "retrieved_at": "2026-11-02T13:12:34.639913+00:00",
+      "sha256": "d67b103f03ede04a1287b9af1a68420a94b25ebfa502bf9b44371b683a7f2b9c",
+      "source_sha256": "d67b103f03ede04a1287b9af1a68420a94b25ebfa502bf9b44371b683a7f2b9c",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_R1.webm"
+    },
+    {
+      "frames": 60,
+      "kind": "gif",
+      "loop": 0,
+      "path": "media/galio_r.gif",
+      "recipe": {
+        "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+        "filter": "[0:v]fps=8,scale=420:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=96:stats_mode=diff[p];[s1][p]paletteuse=dither=bayer:bayer_scale=4",
+        "loop": 0,
+        "source_sha256": "d67b103f03ede04a1287b9af1a68420a94b25ebfa502bf9b44371b683a7f2b9c"
+      },
+      "sha256": "79d130b37fb2ce222b2ef13fae447e1e99f29e4e8468fa9a2d872252f89f62d5",
+      "source_sha256": "d67b103f03ede04a1287b9af1a68420a94b25ebfa502bf9b44371b683a7f2b9c",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0003/ability_0003_R1.webm"
+    }
+  ],
+  "findings": [
+    {
+      "code": "media_url_missing",
+      "name": "galio_p.webm"
+    }
+  ],
+  "missing_media": [
+    {
+      "card_id": "champ:galio:p:recognize:L2",
+      "issues": [
+        "No verified variant-specific animation; matched icon fallback only. A generic slot clip is not attributed to this variant."
+      ]
+    },
+    {
+      "card_id": "champ:galio:w:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ]
+    },
+    {
+      "card_id": "champ:galio:r:recognize:L2",
+      "issues": [
+        "The primary clip does not individually verify every weapon/form-dependent effect; conditional visual matching requires review."
+      ]
+    }
+  ],
+  "portrait": {
+    "kind": "jpg",
+    "path": "media/galio_portrait.jpg",
+    "retrieved_at": "2026-11-02T13:12:25.666799+00:00",
+    "sha256": "3c1e6e34de3789c5757c2f2e4b9d7a4b6685cfbb5e9c85aebcf9f7d77bb8c940",
+    "source_sha256": "3c1e6e34de3789c5757c2f2e4b9d7a4b6685cfbb5e9c85aebcf9f7d77bb8c940",
+    "source_url": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_0.jpg"
+  },
+  "visual_qa": "unreviewed"
+}

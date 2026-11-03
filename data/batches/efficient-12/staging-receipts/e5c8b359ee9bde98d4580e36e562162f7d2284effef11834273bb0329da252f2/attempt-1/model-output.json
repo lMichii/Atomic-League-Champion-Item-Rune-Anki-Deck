@@ -1,0 +1,798 @@
+{
+  "cards": [
+    {
+      "text": {
+        "answer": "Sion is a tank and fighter who charges into fights and threatens charged area knockups and stuns. His Q and R deal physical damage and scale with AD, while W grants health and a shield and W/E deal magic damage. After death, he briefly reanimates with rapid, healing attacks.",
+        "build_focus": "AD, Health",
+        "counterplay": "Move away from his charged attacks and keep your distance after he dies.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Sion. Official role tags: Tank, Fighter.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Sion charges in a direction, ramping up speed over time.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "If he charges for enough time, enemies hit by the swing will also be knocked up and stunned.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "claim": "Sion is a tank and fighter who charges into fights and threatens charged area knockups and stuns."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Minimum Physical Damage:30 / 45 / 60 / 75 / 90 (+ 40 / 50 / 60 / 70 / 80% AD)",
+                "source_id": "wiki:decimatingsmash"
+              },
+              {
+                "quote": "Minimum Physical Damage:150 / 300 / 450 (+ 40% bonus AD)",
+                "source_id": "wiki:unstoppableonslaught"
+              },
+              {
+                "quote": "Passive: Sion gains bonus health whenever he kills an enemy, increased against large enemies and champion takedowns. Active: Sion gains a shield based on his maximum health that lasts a few seconds.",
+                "source_id": "wiki:soulfurnace"
+              },
+              {
+                "quote": "Recast: Sion consumes the shield to deal magic damage to nearby enemies based on their maximum health.",
+                "source_id": "wiki:soulfurnace"
+              },
+              {
+                "quote": "Active: Sion bellows a shockwave in the target direction that deals magic damage",
+                "source_id": "wiki:roaroftheslayer"
+              }
+            ],
+            "claim": "His Q and R deal physical damage and scale with AD, while W grants health and a shield and W/E deal magic damage."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After being killed, Sion will temporarily reanimate with rapidly decaying Health. His attacks become very rapid, heal him",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "After death, he briefly reanimates with rapid, healing attacks."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Establishes his engage threat, durability, damage profile and continued threat after death.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [],
+        "context_id": "riot:role",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Sion. Official role tags: Tank, Fighter.",
+                "source_id": "riot:role"
+              }
+            ],
+            "id": "riot:role",
+            "summary": "Tank and fighter."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Sion charges in a direction, ramping up speed over time.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "If he charges for enough time, enemies hit by the swing will also be knocked up and stunned.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "id": "riot:R",
+            "summary": "Charging engage and charged crowd control."
+          },
+          {
+            "citations": [
+              {
+                "quote": "After being killed, Sion will temporarily reanimate with rapidly decaying Health.",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "riot:P",
+            "summary": "Continues fighting temporarily after death."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Sion's overall fighting pattern and damage/build focus.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "riot:P",
+          "riot:Q",
+          "riot:R",
+          "wiki:decimatingsmash",
+          "wiki:soulfurnace",
+          "wiki:roaroftheslayer",
+          "wiki:unstoppableonslaught"
+        ],
+        "subject_id": "riot:role",
+        "title": "Sion",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "After dying, Sion reanimates with rapidly decaying health. His rapid attacks gain life steal and bonus physical damage based on the target's maximum health. His normal abilities are replaced by Death Surge, a brief burst of movement speed.",
+        "build_focus": "",
+        "counterplay": "Keep your distance from his reanimated form and watch for the speed burst.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Upon dying, Sion reanimates into a frenzy where he is restored to max health that rapidly decays",
+                "source_id": "wiki:gloryindeath"
+              }
+            ],
+            "claim": "After dying, Sion reanimates with rapidly decaying health."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "His attacks become very rapid, gain life steal, and deal bonus physical damage based on the target's maximum health.",
+                "source_id": "wiki:gloryindeath"
+              }
+            ],
+            "claim": "His rapid attacks gain life steal and bonus physical damage based on the target's maximum health."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "One cast of Death Surge, which replaces all of his abilities",
+                "source_id": "wiki:gloryindeath"
+              },
+              {
+                "quote": "Active: Sion gains a burst of movement speed for a short time.",
+                "source_id": "wiki:deathsurge"
+              }
+            ],
+            "claim": "His normal abilities are replaced by Death Surge, a brief burst of movement speed."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Killing Sion does not immediately remove his close-range threat.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Death Surge has a shared cooldown across each ability key, regardless of which key is used to activate it.",
+                "source_id": "wiki:deathsurge"
+              },
+              {
+                "quote": "Death Surge's cooldown is affected by ability haste and thus the ability is technically able to be used up to twice during a single instance of Glory in Death, but this isn't practical.",
+                "source_id": "wiki:deathsurge"
+              }
+            ],
+            "status": "supported",
+            "summary": "Death Surge shares its cooldown across ability keys; ability haste can technically permit reuse during the same reanimation."
+          }
+        ],
+        "context_id": "wiki:gloryindeath",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Upon dying, Sion reanimates into a frenzy where he is restored to max health that rapidly decays",
+                "source_id": "wiki:gloryindeath"
+              }
+            ],
+            "id": "wiki:gloryindeath",
+            "summary": "Reanimates after death with rapidly decaying health."
+          },
+          {
+            "citations": [
+              {
+                "quote": "His attacks become very rapid, gain life steal, and deal bonus physical damage based on the target's maximum health.",
+                "source_id": "wiki:gloryindeath"
+              }
+            ],
+            "id": "riot:P",
+            "summary": "Rapid attacks provide life steal and target-health-based physical damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "One cast of Death Surge, which replaces all of his abilities",
+                "source_id": "wiki:gloryindeath"
+              },
+              {
+                "quote": "Active: Sion gains a burst of movement speed for a short time.",
+                "source_id": "wiki:deathsurge"
+              }
+            ],
+            "id": "wiki:deathsurge",
+            "summary": "Death Surge replaces normal abilities with a brief movement speed burst."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the post-death threat and its movement burst together.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:gloryindeath",
+          "wiki:deathsurge",
+          "riot:P"
+        ],
+        "subject_id": "wiki:gloryindeath",
+        "title": "Glory in Death",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Sion charges a directional area strike, increasing its range and physical damage as he charges. An early release slows; a sufficiently charged release knocks enemies up and stuns them. The ground indicator is visible to enemies only if they can see Sion.",
+        "build_focus": "",
+        "counterplay": "Leave the strike area as he charges; be cautious around places where Sion is out of sight.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Sion prepares a strike in the target direction, charging for up to 2 seconds to increase Decimating Smash's range over an area, knock up duration, stun duration, and damage",
+                "source_id": "wiki:decimatingsmash"
+              },
+              {
+                "quote": "dealing physical damage to enemies hit",
+                "source_id": "wiki:decimatingsmash"
+              }
+            ],
+            "claim": "Sion charges a directional area strike, increasing its range and physical damage as he charges."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Recast: Sion flails his axe in the target direction that deals physical damage and briefly slows enemies hit. Empowered Recast: Sion slams his axe in the target direction that deals physical damage to enemies hit and briefly knocks them up and stuns them.",
+                "source_id": "wiki:decimatingsmash"
+              }
+            ],
+            "claim": "An early release slows; a sufficiently charged release knocks enemies up and stuns them."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "The indicator is visible to the enemy only if they see Sion himself.",
+                "source_id": "wiki:decimatingsmash"
+              }
+            ],
+            "claim": "The ground indicator is visible to enemies only if they can see Sion."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "His central charged crowd-control threat, including danger from outside vision.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If the charge is interrupted, Decimating Smash is placed on a 2-second cooldown.",
+                "source_id": "wiki:decimatingsmash"
+              }
+            ],
+            "status": "supported",
+            "summary": "An interrupted charge receives a short cooldown, so interruption does not create a full normal cooldown window."
+          }
+        ],
+        "context_id": "wiki:decimatingsmash",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Sion prepares a strike in the target direction, charging for up to 2 seconds to increase Decimating Smash's range over an area, knock up duration, stun duration, and damage",
+                "source_id": "wiki:decimatingsmash"
+              }
+            ],
+            "id": "wiki:decimatingsmash",
+            "summary": "Charging increases strike range, damage and crowd-control duration."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Recast: Sion flails his axe in the target direction that deals physical damage and briefly slows enemies hit. Empowered Recast: Sion slams his axe in the target direction that deals physical damage to enemies hit and briefly knocks them up and stuns them.",
+                "source_id": "wiki:decimatingsmash"
+              }
+            ],
+            "id": "riot:Q",
+            "summary": "Early release slows; empowered release knocks up and stuns."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The indicator is visible to the enemy only if they see Sion himself.",
+                "source_id": "wiki:decimatingsmash"
+              }
+            ],
+            "id": "wiki:Q",
+            "summary": "Enemy visibility of the indicator requires seeing Sion."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the charge, empowered hit and vision-dependent warning.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:decimatingsmash",
+          "riot:Q",
+          "wiki:Q"
+        ],
+        "subject_id": "wiki:decimatingsmash",
+        "title": "Decimating Smash",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Sion gains lasting bonus health from enemy kills and champion takedowns. W shields him, then can detonate after a delay while the shield holds, dealing nearby magic damage based on enemies' maximum health. He can use the shield and detonation during his other abilities.",
+        "build_focus": "",
+        "counterplay": "Move away from the shield's blast range or pressure the shield before it detonates.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Passive: Sion gains bonus health whenever he kills an enemy, increased against large enemies and champion takedowns.",
+                "source_id": "wiki:soulfurnace"
+              }
+            ],
+            "claim": "Sion gains lasting bonus health from enemy kills and champion takedowns."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Sion grants himself a shield that lasts for up to 6 seconds. Soul Furnace can be recast after 3 seconds while the shield holds",
+                "source_id": "wiki:soulfurnace"
+              },
+              {
+                "quote": "Recast: Sion consumes the shield to deal magic damage to nearby enemies based on their maximum health.",
+                "source_id": "wiki:soulfurnace"
+              }
+            ],
+            "claim": "W shields him, then can detonate after a delay while the shield holds, dealing nearby magic damage based on enemies' maximum health."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Both of Soul Furnace's casts can be activated during Sion's other abilities.",
+                "source_id": "wiki:soulfurnace"
+              }
+            ],
+            "claim": "He can use the shield and detonation during his other abilities."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "Explains his growing durability and close-range shield detonation.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The cooldown of Soul Furnace begins once the shield is removed.",
+                "source_id": "wiki:soulfurnace"
+              }
+            ],
+            "status": "supported",
+            "summary": "The cooldown begins when the shield is removed."
+          }
+        ],
+        "context_id": "wiki:soulfurnace",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Passive: Sion gains bonus health whenever he kills an enemy, increased against large enemies and champion takedowns.",
+                "source_id": "wiki:soulfurnace"
+              }
+            ],
+            "id": "wiki:soulfurnace",
+            "summary": "Kills and champion takedowns grant bonus health."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Sion gains a shield based on his maximum health that lasts a few seconds. Soul Furnace can be recast while the shield holds, and does so automatically after the duration. Recast: Sion consumes the shield to deal magic damage to nearby enemies based on their maximum health.",
+                "source_id": "wiki:soulfurnace"
+              }
+            ],
+            "id": "riot:W",
+            "summary": "Health-based shield can detonate for nearby target-health-based magic damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Both of Soul Furnace's casts can be activated during Sion's other abilities.",
+                "source_id": "wiki:soulfurnace"
+              }
+            ],
+            "id": "wiki:W",
+            "summary": "Shield and detonation remain usable during other abilities."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Connect health growth, shielding and delayed close-range damage.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:soulfurnace",
+          "riot:W",
+          "wiki:W"
+        ],
+        "subject_id": "wiki:soulfurnace",
+        "title": "Soul Furnace",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "Sion fires a shockwave that deals magic damage, slows and reduces the armor of the first enemy hit. Hitting a minion or non-epic monster knocks it back, applying the same effects to enemies in its path and briefly revealing the area along its trajectory.",
+        "build_focus": "",
+        "counterplay": "Avoid lining up behind minions or monsters, and give space when slowed.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Active: Sion bellows a shockwave in the target direction that deals magic damage and shortly slows the first enemy hit, reducing their armor for a few seconds.",
+                "source_id": "wiki:roaroftheslayer"
+              }
+            ],
+            "claim": "Sion fires a shockwave that deals magic damage, slows and reduces the armor of the first enemy hit."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If the target is a minion or non-epic monster, they are also stunned for 0.75 seconds and knocked back for up to 1350 units further, though not through terrain, applying Roar of the Slayer's effects to enemies they pass through as well as briefly granting sight of the area around their trajectory.",
+                "source_id": "wiki:roaroftheslayer"
+              }
+            ],
+            "claim": "Hitting a minion or non-epic monster knocks it back, applying the same effects to enemies in its path and briefly revealing the area along its trajectory."
+          }
+        ],
+        "priority": "B",
+        "priority_reason": "Recognizes the slow and armor reduction, including the extended threat through displaced units.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Unlike the intial single-target projectile, a thrown minion or monster is not blocked by Wind Wall or similar effects.",
+                "source_id": "wiki:roaroftheslayer"
+              }
+            ],
+            "status": "supported",
+            "summary": "The thrown unit bypasses Wind Wall and similar effects."
+          }
+        ],
+        "context_id": "wiki:roaroftheslayer",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Sion bellows a shockwave in the target direction that deals magic damage and shortly slows the first enemy hit, reducing their armor for a few seconds.",
+                "source_id": "wiki:roaroftheslayer"
+              }
+            ],
+            "id": "wiki:roaroftheslayer",
+            "summary": "Shockwave damages, slows and reduces armor."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If the target is a minion or non-epic monster, they are also briefly stunned and knocked back, applying Roar of the Slayer's effects to enemies they pass through.",
+                "source_id": "wiki:roaroftheslayer"
+              },
+              {
+                "quote": "briefly granting sight of the area around their trajectory.",
+                "source_id": "wiki:roaroftheslayer"
+              }
+            ],
+            "id": "riot:E",
+            "summary": "Displaced minions and non-epic monsters spread the effects and grant sight along their trajectory."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize direct and displaced-unit paths of the same attack.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:roaroftheslayer",
+          "riot:E"
+        ],
+        "subject_id": "wiki:roaroftheslayer",
+        "title": "Roar of the Slayer",
+        "unsupported_claims": []
+      }
+    },
+    {
+      "text": {
+        "answer": "A global warning sounds as Sion starts a charge that accelerates, turns slowly and makes him immune to crowd control. He stops on an enemy champion or terrain, or can end the charge early with a ground slam. The attack deals physical damage and slows nearby enemies; closer enemies can also be pulled and stunned, with damage and stun duration increasing with charge time.",
+        "build_focus": "",
+        "counterplay": "React to the warning, move across his path and spread out; avoid relying on crowd control during the charge.",
+        "facts": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "When Sion casts Unstoppable Onslaught a global warning can be heard.",
+                "source_id": "wiki:unstoppableonslaught"
+              },
+              {
+                "quote": "Active: Sion becomes immune to crowd control and ghosted and, after a brief delay, charges forward in the direction of the cursor for up to 8 seconds, during which he is able to steer at a slow turn rate",
+                "source_id": "wiki:unstoppableonslaught"
+              },
+              {
+                "quote": "gradually gaining bonus movement speed.",
+                "source_id": "wiki:unstoppableonslaught"
+              }
+            ],
+            "claim": "A global warning sounds as Sion starts a charge that accelerates, turns slowly and makes him immune to crowd control."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Sion will stop upon colliding with an enemy champion or terrain during the charge, ending Unstoppable Onslaught with a slam.",
+                "source_id": "wiki:unstoppableonslaught"
+              },
+              {
+                "quote": "Recast: Sion leaps forward, causing him to stop charging and slam the ground beneath him as if Unstoppable Onslaught had reached the end of its duration.",
+                "source_id": "wiki:unstoppableonslaught"
+              }
+            ],
+            "claim": "He stops on an enemy champion or terrain, or can end the charge early with a ground slam."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Enemies hit by Sion's charge are dealt physical damage, increased by 0% – 200% (based on channel time).",
+                "source_id": "wiki:unstoppableonslaught"
+              },
+              {
+                "quote": "Enemies, including turrets, hit by the slam are dealt the same damage and are slowed for 3 seconds. Enemies in a smaller radius are also pulled towards Sion over 0.5 seconds and become stunned after a brief delay for 0.25 – 1.75 (based on channel time) seconds.",
+                "source_id": "wiki:unstoppableonslaught"
+              }
+            ],
+            "claim": "The attack deals physical damage and slows nearby enemies; closer enemies can also be pulled and stunned, with damage and stun duration increasing with charge time."
+          }
+        ],
+        "priority": "A",
+        "priority_reason": "His major engage threat requires movement rather than crowd control during the charge.",
+        "uncertainties": []
+      },
+      "unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Unstoppable Onslaught does not apply the knock up nor stun to enemies from slamming on collision with terrain.",
+                "source_id": "wiki:unstoppableonslaught"
+              }
+            ],
+            "status": "supported",
+            "summary": "A terrain-collision slam does not apply the knockup or stun to enemies."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Even though the cooldown of Unstoppable Onslaught starts at the end of the effect, gaining or losing ability haste, or upgrading the ability during the effect, will not change the resuming cooldown.",
+                "source_id": "wiki:unstoppableonslaught"
+              }
+            ],
+            "status": "supported",
+            "summary": "The cooldown starts when the effect ends; changes during the effect do not alter the resuming cooldown."
+          }
+        ],
+        "context_id": "wiki:unstoppableonslaught",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "When Sion casts Unstoppable Onslaught a global warning can be heard.",
+                "source_id": "wiki:unstoppableonslaught"
+              },
+              {
+                "quote": "Active: Sion becomes immune to crowd control and ghosted",
+                "source_id": "wiki:unstoppableonslaught"
+              },
+              {
+                "quote": "he is able to steer at a slow turn rate",
+                "source_id": "wiki:unstoppableonslaught"
+              }
+            ],
+            "id": "wiki:unstoppableonslaught",
+            "summary": "Global warning precedes a slowly turning, crowd-control-immune charge."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Sion will stop upon colliding with an enemy champion or terrain during the charge, ending Unstoppable Onslaught with a slam.",
+                "source_id": "wiki:unstoppableonslaught"
+              },
+              {
+                "quote": "Recast: Sion leaps forward, causing him to stop charging and slam the ground beneath him",
+                "source_id": "wiki:unstoppableonslaught"
+              }
+            ],
+            "id": "riot:R",
+            "summary": "Champion or terrain collision ends the charge; recasting also ends it with a slam."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Recast: Sion lunges forward and slams the ground beneath him, dealing physical damage and slowing nearby enemies. Closer enemies are also briefly pulled and stunned based on the charge time.",
+                "source_id": "wiki:unstoppableonslaught"
+              },
+              {
+                "quote": "Enemies hit by Sion's charge are dealt physical damage, increased by 0% – 200% (based on channel time).",
+                "source_id": "wiki:unstoppableonslaught"
+              }
+            ],
+            "id": "wiki:R",
+            "summary": "Physical area damage and slows, with close-range displacement and charge-dependent damage and stun."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the warning, charge limitations and impact threat.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:unstoppableonslaught",
+          "riot:R",
+          "wiki:R"
+        ],
+        "subject_id": "wiki:unstoppableonslaught",
+        "title": "Unstoppable Onslaught",
+        "unsupported_claims": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "factual_risks": [
+    "Exact standard ability cooldown durations are not supplied. Relevant cooldown behavior is retained in advanced metadata without supplementary cards.",
+    "The detailed R evidence excludes knockup and stun on terrain-collision slams; this exception is retained in metadata.",
+    "Build focus describes supported AD and health interactions, not an evidence-backed item recommendation."
+  ],
+  "features": [
+    "standard",
+    "transformations",
+    "ability_variants",
+    "conditional_effects"
+  ],
+  "relationships": [
+    {
+      "citations": [
+        {
+          "quote": "One cast of Death Surge, which replaces all of his abilities",
+          "source_id": "wiki:gloryindeath"
+        }
+      ],
+      "condition": "During Glory in Death",
+      "from_id": "wiki:gloryindeath",
+      "kind": "unlocks",
+      "to_id": "wiki:deathsurge"
+    }
+  ],
+  "section_disposition": [
+    {
+      "disposition": "taught",
+      "reason": "Primary passive card explains reanimation and attacks.",
+      "source_id": "wiki:gloryindeath",
+      "target_subject_ids": [
+        "wiki:gloryindeath"
+      ]
+    },
+    {
+      "disposition": "merged",
+      "reason": "The post-death movement burst belongs with the reanimation threat; cooldown exceptions remain in metadata.",
+      "source_id": "wiki:deathsurge",
+      "target_subject_ids": [
+        "wiki:gloryindeath"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary Q card merges early and empowered releases.",
+      "source_id": "wiki:decimatingsmash",
+      "target_subject_ids": [
+        "wiki:decimatingsmash"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary W card combines health growth, shield and detonation.",
+      "source_id": "wiki:soulfurnace",
+      "target_subject_ids": [
+        "wiki:soulfurnace"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary E card combines direct shockwave and displaced-unit effects.",
+      "source_id": "wiki:roaroftheslayer",
+      "target_subject_ids": [
+        "wiki:roaroftheslayer"
+      ]
+    },
+    {
+      "disposition": "taught",
+      "reason": "Primary R card combines charge and ending slam; advanced collision and cooldown details remain in metadata.",
+      "source_id": "wiki:unstoppableonslaught",
+      "target_subject_ids": [
+        "wiki:unstoppableonslaught"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "role": "passive",
+      "slot": "P",
+      "source_ids": [
+        "wiki:gloryindeath",
+        "riot:P"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:decimatingsmash",
+        "riot:Q"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "W",
+      "source_ids": [
+        "wiki:soulfurnace",
+        "riot:W"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "E",
+      "source_ids": [
+        "wiki:roaroftheslayer",
+        "riot:E"
+      ]
+    },
+    {
+      "role": "active",
+      "slot": "R",
+      "source_ids": [
+        "wiki:unstoppableonslaught",
+        "riot:R"
+      ]
+    },
+    {
+      "role": "contextual",
+      "slot": "Any ability",
+
+      "source_ids": [
+        "wiki:deathsurge"
+      ]
+    }
+  ],
+  "summary": "One overview and primary P/Q/W/E/R cards. Death Surge is merged into the passive, and charged, recast and displaced-unit effects remain with their parent abilities."
+}

@@ -1,0 +1,806 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:64",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Name: Lee Sin. Official role tags: Fighter, Assassin.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Physical Damage:60 / 90 / 120 / 150 / 180 (+ 90% bonus AD)",
+                "source_id": "wiki:sonicwave"
+              },
+              {
+                "quote": "Physical Damage:150 / 350 / 550 (+ 200% bonus AD)",
+                "source_id": "wiki:dragonsrage"
+              }
+            ],
+            "claim": "Lee Sin is a fighter and assassin with an AD damage focus."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "If Sonic Wave hits, Lee Sin can cast Resonating Strike for the next 3 seconds.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Resonating Strike: Lee Sin dashes to the enemy hit by Sonic Wave, dealing physical damage based on the target's missing Health.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "claim": "He weaves faster, energy-restoring attacks between abilities and can follow a landed Sonic Wave with a dash that deals more damage to wounded targets."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/lee-sin/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4001404",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin"
+      },
+      "id": "champ:leesin:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Establishes his damage focus, sustained fighting pattern and main approach threat."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:leesin:overview:L1",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Lee Sin. Official role tags: Fighter, Assassin.",
+                "source_id": "riot:role"
+              }
+            ],
+            "id": "6bcf6061360ed7c45c871457",
+            "summary": "Fighter and assassin."
+          },
+          {
+            "citations": [
+              {
+                "quote": "After Lee Sin uses an ability, his next 2 basic attacks gain Attack Speed and return Energy.",
+                "source_id": "riot:P"
+              }
+            ],
+            "id": "56ab2a0d124302177f36d5f6",
+            "summary": "Ability casts empower subsequent attacks with attack speed and energy restoration."
+          }
+        ],
+        "kind": "overview",
+        "purpose": "Recognize Lee Sin's fighting pattern and positioning threats.",
+        "slot": "",
+        "source_ids": [
+          "riot:role",
+          "riot:P",
+          "riot:Q",
+          "wiki:sonicwave",
+          "wiki:dragonsrage"
+        ],
+        "subject_id": "riot:role",
+        "title": "Lee Sin",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Fighter / Assassin",
+        "answer": "Lee Sin is a fighter and assassin with an AD damage focus. He weaves faster, energy-restoring attacks between abilities and can follow a landed Sonic Wave with a dash that deals more damage to wounded targets.",
+        "build_focus": "AD",
+        "category": "Champion",
+        "champion": "Lee Sin",
+        "cooldown": "",
+        "counterplay": "Dodge Sonic Wave and watch Lee Sin's position to avoid being kicked toward his team.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/11b9ba21ed6863f2367f1adc85b8dee8c77c4cc781fc65d144fa7ccbbc72b353.jpg",
+        "id": "champ:leesin:overview:L1",
+        "level": "L1",
+        "media_path": "media/11b9ba21ed6863f2367f1adc85b8dee8c77c4cc781fc65d144fa7ccbbc72b353.jpg",
+        "media_type": "portrait",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/lee-sin/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Lee_Sin",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:64",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After Lee Sin casts an ability, his next 2 basic attacks within a short time gain bonus attack speed and restore energy.",
+                "source_id": "wiki:flurry"
+              }
+            ],
+            "claim": "After casting an ability, Lee Sin's next attacks briefly gain attack speed and restore energy."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/lee-sin/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4001404",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin"
+      },
+      "id": "champ:leesin:p:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Explains his attack weaving and energy sustain during extended fights."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:leesin:p:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "After Lee Sin casts an ability, his next 2 basic attacks within a short time gain bonus attack speed and restore energy.",
+                "source_id": "wiki:flurry"
+              }
+            ],
+            "id": "0af85f385d3717a18d1133b1",
+            "summary": "Casting an ability briefly empowers subsequent attacks with attack speed and energy restoration."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize why attacks between casts sustain his fighting pattern.",
+        "slot": "P",
+        "source_ids": [
+          "wiki:flurry",
+          "riot:P"
+        ],
+        "subject_id": "wiki:flurry",
+        "title": "Flurry",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Flurry",
+        "answer": "After casting an ability, Lee Sin's next attacks briefly gain attack speed and restore energy.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Lee Sin",
+        "cooldown": "",
+        "counterplay": "Limit extended close trades that let him keep attacking between abilities.",
+        "front_hint": "LEE SIN · P",
+        "icon_path": "media/797817c635d38e7f05aa24cce142a2c4f173547aeb060951a860f40ef2565a52.png",
+        "id": "champ:leesin:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/797817c635d38e7f05aa24cce142a2c4f173547aeb060951a860f40ef2565a52.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/lee-sin/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Lee_Sin",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:64",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Lee Sin fires a sonic blast in the target direction that deals physical damage to the first enemy hit and marks them for a short time, during which they are revealed.",
+                "source_id": "wiki:sonicwave"
+              }
+            ],
+            "claim": "Sonic Wave hits the first enemy in its path for physical damage, briefly marking and revealing them."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "While the target is marked, Lee Sin can cast Resonating Strike.",
+                "source_id": "wiki:sonicwave"
+              },
+              {
+                "quote": "Lee Sin dashes to the nearby enemy marked by Sonic Wave, consuming the mark upon arrival to deal physical damage based on the target's missing health.",
+                "source_id": "wiki:resonatingstrike"
+              },
+              {
+                "quote": "Upon arrival, he consumes the mark and deals physical damage, increased by 0% – 100% (based on target's missing health).",
+                "source_id": "wiki:resonatingstrike"
+              }
+            ],
+            "claim": "While the marked enemy is nearby, Lee Sin can use Resonating Strike to dash to them and deal physical damage that increases with their missing health."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/lee-sin/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4001404",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin"
+      },
+      "id": "champ:leesin:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "His main approach tool becomes a stronger finishing threat against wounded targets."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:leesin:q:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Lee Sin fires a sonic blast in the target direction that deals physical damage to the first enemy hit and marks them for a short time, during which they are revealed.",
+                "source_id": "wiki:sonicwave"
+              }
+            ],
+            "id": "e59b190f48cf24c0ba68d804",
+            "summary": "A directional projectile damages, marks and reveals the first enemy hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Lee Sin dashes to the nearby enemy marked by Sonic Wave, consuming the mark upon arrival to deal physical damage based on the target's missing health.",
+                "source_id": "wiki:resonatingstrike"
+              }
+            ],
+            "id": "5583ea0373cd7187fd965879",
+            "summary": "The follow-up dashes to the nearby marked enemy and deals physical damage based on missing health."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the projectile mark and its follow-up dash threat.",
+        "slot": "Q",
+        "source_ids": [
+          "wiki:sonicwave",
+          "wiki:resonatingstrike",
+          "riot:Q"
+        ],
+        "subject_id": "wiki:sonicwave",
+        "title": "Sonic Wave / Resonating Strike",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Sonic Wave",
+        "answer": "Sonic Wave hits the first enemy in its path for physical damage, briefly marking and revealing them. While the marked enemy is nearby, Lee Sin can use Resonating Strike to dash to them and deal physical damage that increases with their missing health.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Lee Sin",
+        "cooldown": "",
+        "counterplay": "Use allied units to block the wave and create distance after being marked, especially while wounded.",
+        "front_hint": "LEE SIN · Q",
+        "icon_path": "media/3f015ce93cef1442f696bf5fd02fb52d718b0824a14ab33fc627b702f1b3275b.png",
+        "id": "champ:leesin:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/3f015ce93cef1442f696bf5fd02fb52d718b0824a14ab33fc627b702f1b3275b.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/lee-sin/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Lee_Sin",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:64",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Lee Sin dashes to the target allied unit's location. If the ally is a champion upon arrival, both they and Lee Sin gain a shield for 2 seconds.If the target is a minion or ward, Lee Sin also shields himself.",
+                "source_id": "wiki:safeguard"
+              }
+            ],
+            "claim": "Safeguard lets Lee Sin dash to an allied unit, including a ward, and shield himself; an allied champion also receives a shield."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Lee Sin can self-cast Safeguard to shield himself.",
+                "source_id": "wiki:safeguard"
+              }
+            ],
+            "claim": "He can instead cast it on himself for a shield."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "After Safeguard is cast, Lee Sin can cast Iron Will within a short time.",
+                "source_id": "wiki:safeguard"
+              },
+              {
+                "quote": "Lee Sin gains omnivamp for a few seconds.",
+                "source_id": "wiki:ironwill"
+              }
+            ],
+            "claim": "Its follow-up, Iron Will, briefly grants omnivamp, letting him heal from damage dealt."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/lee-sin/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4001404",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin"
+      },
+      "id": "champ:leesin:w:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "His allied-unit dash changes pursuit and kick positioning; shielding and healing affect trades."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If the ally is a champion, both they and Lee Sin gain a shield for a short time upon his arrival and Safeguard's cooldown is halved.",
+                "source_id": "wiki:safeguard"
+              }
+            ],
+            "status": "supported",
+            "summary": "Targeting an allied champion reduces Safeguard's cooldown."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Safeguard will not grant its shield if the dash is interrupted.",
+                "source_id": "wiki:ironwill"
+              }
+            ],
+            "status": "supported",
+            "summary": "Interrupting the dash prevents its shield."
+          }
+        ],
+        "card_id": "champ:leesin:w:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Lee Sin dashes to the target allied unit's location. If the ally is a champion upon arrival, both they and Lee Sin gain a shield for 2 seconds.If the target is a minion or ward, Lee Sin also shields himself.",
+                "source_id": "wiki:safeguard"
+              }
+            ],
+            "id": "e6b009e1b5d3ba7d9e04e779",
+            "summary": "Dashes to an allied unit and shields Lee Sin, also shielding an allied champion target."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Lee Sin can self-cast Safeguard to shield himself.",
+                "source_id": "wiki:safeguard"
+              }
+            ],
+            "id": "2439947124a151646f640d8e",
+            "summary": "Can be self-cast for shielding."
+          },
+          {
+            "citations": [
+              {
+                "quote": "After Safeguard is cast, Lee Sin can cast Iron Will within a short time.",
+                "source_id": "wiki:safeguard"
+              },
+              {
+                "quote": "Lee Sin gains omnivamp for a few seconds.",
+                "source_id": "wiki:ironwill"
+              }
+            ],
+            "id": "d782eb30cc1a233796671240",
+            "summary": "The follow-up grants temporary omnivamp."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize allied-unit mobility, shielding and the healing follow-up.",
+        "slot": "W",
+        "source_ids": [
+          "wiki:safeguard",
+          "wiki:ironwill",
+          "riot:W"
+        ],
+        "subject_id": "wiki:safeguard",
+        "title": "Safeguard / Iron Will",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Safeguard",
+        "answer": "Safeguard lets Lee Sin dash to an allied unit, including a ward, and shield himself; an allied champion also receives a shield. He can instead cast it on himself for a shield. Its follow-up, Iron Will, briefly grants omnivamp, letting him heal from damage dealt.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Lee Sin",
+        "cooldown": "",
+        "counterplay": "Watch nearby allies and wards as escape or repositioning routes, and ease off trades during his shield and healing window.",
+        "front_hint": "LEE SIN · W",
+        "icon_path": "media/33a3fd80347c41fd09848ee1a5357c0a34dd0c1a6293d2faff2db77a41494fcb.png",
+        "id": "champ:leesin:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/33a3fd80347c41fd09848ee1a5357c0a34dd0c1a6293d2faff2db77a41494fcb.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/lee-sin/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Lee_Sin",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "Safeguard's champion-target cooldown reduction is an important availability topic; the supplied evidence gives no base cooldown."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:64",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Lee Sin deals magic damage to nearby enemies, marking them for a few seconds and, if they are not invisible when struck, revealing them.",
+                "source_id": "wiki:tempest"
+              }
+            ],
+            "claim": "Tempest deals magic damage to nearby enemies and marks them, revealing those who were not invisible when hit."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "If Tempest hits an enemy, Lee Sin can cast Cripple within a short time.",
+                "source_id": "wiki:tempest"
+              },
+              {
+                "quote": "Lee Sin sends a wave to nearby enemies marked by Tempest, inflicting a decaying slow that lasts a few seconds.",
+                "source_id": "wiki:cripple"
+              }
+            ],
+            "claim": "Cripple then slows nearby marked enemies, with the slow weakening over time."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/lee-sin/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4001404",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin"
+      },
+      "id": "champ:leesin:e:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "Explains his close-range damage, reveal and ability to keep enemies nearby."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [],
+        "card_id": "champ:leesin:e:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Lee Sin deals magic damage to nearby enemies, marking them for a few seconds and, if they are not invisible when struck, revealing them.",
+                "source_id": "wiki:tempest"
+              }
+            ],
+            "id": "6f9e108132369941d0fa1f3a",
+            "summary": "Damages and marks nearby enemies, revealing targets that were not invisible when struck."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Lee Sin sends a wave to nearby enemies marked by Tempest, inflicting a decaying slow that lasts a few seconds.",
+                "source_id": "wiki:cripple"
+              }
+            ],
+            "id": "397d36904c3a1a4bf5a96fd1",
+            "summary": "The follow-up applies a weakening slow to nearby marked enemies."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the close-range damage and conditional slow sequence.",
+        "slot": "E",
+        "source_ids": [
+          "wiki:tempest",
+          "wiki:cripple",
+          "riot:E"
+        ],
+        "subject_id": "wiki:tempest",
+        "title": "Tempest / Cripple",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Tempest",
+        "answer": "Tempest deals magic damage to nearby enemies and marks them, revealing those who were not invisible when hit. Cripple then slows nearby marked enemies, with the slow weakening over time.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Lee Sin",
+        "cooldown": "",
+        "counterplay": "Keep your distance from his close-range burst and move away after Tempest to limit the follow-up slow.",
+        "front_hint": "LEE SIN · E",
+        "icon_path": "media/18b879037d966cb1271fc2df0a9999d0aa342cf8a54b8dce4ac065f3467b6286.png",
+        "id": "champ:leesin:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/18b879037d966cb1271fc2df0a9999d0aa342cf8a54b8dce4ac065f3467b6286.png",
+        "media_type": "icon",
+        "patch": "",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/lee-sin/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Lee_Sin",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:64",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Lee Sin roots the target enemy champion over the cast time, then roundhouse kicks them to deal physical damage and knock them back",
+                "source_id": "wiki:dragonsrage"
+              }
+            ],
+            "claim": "Dragon's Rage briefly roots an enemy champion during its cast, then kicks them back for physical damage."
+          },
+          {
+            "basis": "source_assertion",
+            "citations": [
+              {
+                "quote": "Enemies that collide with the displaced enemy while it is airborne take the same damage plus bonus physical damage and are knocked up for 1 second.",
+                "source_id": "wiki:dragonsrage"
+              }
+            ],
+            "claim": "Enemies struck by the kicked champion take physical damage and are knocked up."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/lee-sin/",
+        "verification_scope": "Exact citations/structural checks; no new AI verifier or editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4001404",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin"
+      },
+      "id": "champ:leesin:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Displacement can isolate a target or disrupt a group through collisions."
+      },
+      "learning_unit": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "The displacement's direction is decided at the moment of impact",
+                "source_id": "wiki:dragonsrage"
+              },
+              {
+                "quote": "the only way for Lee Sin to control where his target is displaced is by using Flash before the cast time of Dragon's Rage ends",
+                "source_id": "wiki:dragonsrage"
+              }
+            ],
+            "status": "supported",
+            "summary": "Flash during the cast can change the kick direction before impact."
+          }
+        ],
+        "card_id": "champ:leesin:r:recognize:L2",
+        "context_id": "",
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Lee Sin roots the target enemy champion over the cast time, then roundhouse kicks them to deal physical damage and knock them back",
+                "source_id": "wiki:dragonsrage"
+              }
+            ],
+            "id": "9be782d1dee90bf770b33eff",
+            "summary": "Roots an enemy champion during the cast, then deals physical damage and knocks them back."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Enemies that collide with the displaced enemy while it is airborne take the same damage plus bonus physical damage and are knocked up for 1 second.",
+                "source_id": "wiki:dragonsrage"
+              }
+            ],
+            "id": "07d32529d997dc3d9defad21",
+            "summary": "Collisions damage and knock up other enemies."
+          }
+        ],
+        "kind": "ability",
+        "purpose": "Recognize the targeted kick and its collision threat to nearby teammates.",
+        "slot": "R",
+        "source_ids": [
+          "wiki:dragonsrage",
+          "riot:R"
+        ],
+        "subject_id": "wiki:dragonsrage",
+        "title": "Dragon's Rage",
+        "unsupported_claims": []
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1,
+      "row": {
+        "ability": "Dragon's Rage",
+        "answer": "Dragon's Rage briefly roots an enemy champion during its cast, then kicks them back for physical damage. Enemies struck by the kicked champion take physical damage and are knocked up.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Lee Sin",
+        "cooldown": "",
+        "counterplay": "Watch his approach angle and spread away from the path behind his target.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/219ec6eb20e5cbe0be73205eb11675a0ceefe387f187940a94cd3744c5490129.png",
+        "id": "champ:leesin:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/668cb35950d4dbcfc9603379c8f5282e229e369d33b6742dd193d616cb028380.gif",
+        "media_type": "gif",
+        "patch": "",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/lee-sin/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Lee_Sin",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "staging_status": "generated_not_editorially_approved",
+      "uncertainties": [
+        "No ultimate cooldown is supplied; its availability is important when assessing his engage threat."
+      ],
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      }
+    }
+  ]
+}

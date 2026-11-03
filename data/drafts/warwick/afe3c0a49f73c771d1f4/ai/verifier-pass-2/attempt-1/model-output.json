@@ -1,0 +1,192 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Basic attacks deal bonus magic damage.",
+          "covered": true,
+          "mechanic_id": "P.bonus_magic_damage",
+          "reason": "Directly explains the supported general attack effect; particular unit exceptions need not be enumerated."
+        },
+        {
+          "answer_quote": "Below 50% health, this passive damage also heals Warwick, with stronger healing below 25% health.",
+          "covered": true,
+          "mechanic_id": "P.low_health_healing",
+          "reason": "Explains both supported health thresholds without choosing the disputed healing multiplier."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Warwick lunges at a target and bites, dealing magic damage based partly on its maximum health and healing from the damage dealt.",
+          "covered": true,
+          "mechanic_id": "Q.bite_and_heal",
+          "reason": "Explains the lunge, damage type, partial maximum-health scaling and associated healing."
+        },
+        {
+          "answer_quote": "Holding the bite carries him behind the target and can follow its movement.",
+          "covered": true,
+          "mechanic_id": "Q.hold_and_follow",
+          "reason": "Explains held positioning and tracking without claiming exceptionless tracking."
+        },
+        {
+          "answer_quote": "While the bite is active, he is immune to displacement effects such as knockbacks.",
+          "covered": true,
+          "mechanic_id": "Q.displacement_immunity",
+          "reason": "States the supported immunity and its active window without extending it to all crowd control."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Warwick senses enemy champions damaged below 50% health by him or allies, follows trails toward them with bonus movement speed that is temporarily lost in champion combat",
+          "covered": true,
+          "mechanic_id": "W.hunt_low_health",
+          "reason": "Explains eligible champion detection, trails, pursuit speed and the combat restriction."
+        },
+        {
+          "answer_quote": "and gains attack speed against low-health targets.",
+          "covered": true,
+          "mechanic_id": "W.attack_speed",
+          "reason": "Explicitly explains the low-health attack-speed benefit."
+        },
+        {
+          "answer_quote": "Both bonuses grow stronger against very wounded enemies.",
+          "covered": true,
+          "mechanic_id": "W.stronger_low_health_bonuses",
+          "reason": "Explains the supported increase without selecting disputed thresholds or multipliers."
+        },
+        {
+          "answer_quote": "Activating Blood Hunt temporarily marks the nearest enemy champion in its area and grants the bonuses against that target regardless of health.",
+          "covered": true,
+          "mechanic_id": "W.active_hunt",
+          "reason": "Explains temporary active marking, nearest-target selection, area restriction and health-independent bonuses."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Warwick temporarily reduces the damage he takes.",
+          "covered": true,
+          "mechanic_id": "E.damage_reduction",
+          "reason": "Explains temporary protection without choosing a disputed duration."
+        },
+        {
+          "answer_quote": "When the effect expires or he recasts it, he howls, fearing nearby enemies and making them flee.",
+          "covered": true,
+          "mechanic_id": "E.fear",
+          "reason": "Explains both general triggers, nearby scope and the fear's effect without claiming immediate recast availability or universal loss of protection."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Warwick leaps in a chosen direction, with more movement speed increasing his range",
+          "covered": true,
+          "mechanic_id": "R.directional_leap",
+          "reason": "Explains directional input and movement-speed-dependent range."
+        },
+        {
+          "answer_quote": "He stops on the first enemy champion hit and channels to suppress them, unless their spell shield or crowd-control immunity prevents the channel.",
+          "covered": true,
+          "mechanic_id": "R.suppression",
+          "reason": "Explains first-target collision, suppression channel and protections preventing initiation."
+        },
+        {
+          "answer_quote": "During the channel, he deals magic damage and heals from damage dealt.",
+          "covered": true,
+          "mechanic_id": "R.damage_and_healing",
+          "reason": "Explains channel damage type and healing without asserting guaranteed damage through suppression removal."
+        },
+        {
+          "answer_quote": "he is immune to crowd control during the leap.",
+          "covered": true,
+          "mechanic_id": "R.leap_cc_immunity",
+          "reason": "Correctly confines the stated immunity to the leap."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Unresolved exact multiplier: Riot says triple healing below 25% health; Wiki says 250%. The draft correctly retains only stronger healing.",
+      "source_ids": ["riot:P", "wiki:P"],
+      "topic": "Passive healing multiplier"
+    },
+    {
+      "resolution": "Unresolved threshold and multiplier: Riot specifies triple below 25%; Wiki variously specifies enhancement below 20% and doubling below 25%. The draft correctly retains the supported general increase.",
+      "source_ids": ["riot:W", "wiki:W"],
+      "topic": "Blood Hunt enhanced bonuses"
+    },
+    {
+      "resolution": "Unresolved maximum protection duration: Riot states 2.5 seconds and Wiki states up to 2.75 seconds. The draft correctly avoids an exact duration.",
+      "source_ids": ["riot:E", "wiki:E"],
+      "topic": "Primal Howl protection duration"
+    }
+  ],
+  "factual_risks": [
+    "This support check establishes neither human approval nor visual verification; supplied frames remain unverified.",
+    "Frozen excerpts do not establish current-patch behavior.",
+    "Q tracking exceptions and cooldown-refund reliability remain QA caveats; the qualified tracking wording does not promise universal following.",
+    "W's Nexus Obelisk exception, decoy detection and attack-speed timing are advanced qualifications; the draft does not claim unrestricted vision or exhaustive eligibility.",
+    "E's R-triggered howl can preserve protection. The draft does not claim that every howl ends damage reduction.",
+    "R target protection is evaluated at collision; later spell shields do not block an existing channel. Suppression removal can leave a nondamaging channel, and a specific Singed interaction qualifies channel interruption.",
+    "AD scaling supports the broad learning focus, but does not establish an optimal build. Expanding AD to attack damage would optionally improve beginner clarity.",
+    "No provenance, confidence or development labels appear in the answer or counterplay text; UNAPPROVED labels remain in metadata."
+  ]
+}

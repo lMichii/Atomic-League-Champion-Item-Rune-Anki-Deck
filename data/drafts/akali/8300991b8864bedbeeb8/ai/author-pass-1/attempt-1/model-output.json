@@ -1,0 +1,381 @@
+{
+  "cards": [
+    {
+      "answer": "Akali is an assassin who uses damaging dashes and smoke-shroud invisibility to fight. Her abilities benefit from AD and AP.",
+      "build_focus": "AD / AP",
+      "counterplay": "Watch her dash paths and keep your distance from her smoke shroud.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Akali. Official role tags: Assassin.",
+              "source_id": "riot:role"
+            }
+          ],
+          "claim": "Akali is an assassin"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Akali leaps in a direction, damaging enemies she strikes.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "While inside the shroud, Akali becomes invisible and unable to be selected by enemy spells and attacks.",
+              "source_id": "riot:W"
+            }
+          ],
+          "claim": "uses damaging dashes and smoke-shroud invisibility to fight"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Akali throws out five kunai, dealing damage based on her bonus Attack Damage and Ability Power and slowing.",
+              "source_id": "riot:Q"
+            }
+          ],
+          "claim": "Her abilities benefit from AD and AP."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Recognizing her mobility and concealment helps explain her assassin fighting role.",
+      "slot": "-",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The stat focus describes supported scaling, not an optimal item build."
+      ]
+    },
+    {
+      "answer": "Damaging an enemy champion with an ability creates a ring around them. Leaving the ring empowers Akali's next basic attack with extra range and bonus magic damage. She gains movement speed while moving away from the ring, then toward enemy champions after leaving it.",
+      "build_focus": "",
+      "counterplay": "Keep your distance when she leaves the ring to prepare her empowered attack.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Dealing spell damage to a champion creates a ring of energy around them.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Akali's damaging abilities against a champion create a ring around them for a few seconds",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Damaging an enemy champion with an ability creates a ring around them."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Exiting that ring empowers Akali's next Attack with bonus range and damage.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Once Akali exits the ring, she regains the move speed towards enemy champions and empowers her next basic attack with bonus range and magic damage.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Leaving the ring empowers Akali's next basic attack with extra range and bonus magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "she gains move speed while moving away from the ring. Once Akali exits the ring, she regains the move speed towards enemy champions",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "She gains movement speed while moving away from the ring, then toward enemy champions after leaving it."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "Enemies can see Akali's empowered-attack effect, but cannot see her passive ring.",
+        "meaningful": true,
+        "source_ids": [
+          "wiki:P"
+        ]
+      },
+      "priority": "B",
+      "priority_reason": "The empowered attack adds reach and damage after her abilities hit.",
+      "slot": "P",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The visual cue is a text-grounded proposal, not current-client visual verification; no frames were supplied.",
+        "Only one ring can exist at once, and another cannot form while Akali holds the empowerment.",
+        "Q creates its ring around the last champion hit.",
+        "Structures and wards do not consume or receive the empowerment's effects; dodged, blocked or missed attacks do not apply its bonus damage."
+      ]
+    },
+    {
+      "answer": "Akali throws kunai in a cone, dealing magic damage to enemies hit. Enemies hit in the outer part of the cone are briefly slowed.",
+      "build_focus": "",
+      "counterplay": "Move out of the cone and avoid its outer edge.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Akali throws out a cone of kunai that deals magic damage to enemies hit.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Akali throws kunai in a cone, dealing magic damage to enemies hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Targets hit at maximum range are briefly slowed.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Targets beyond a certain range are also slowed by 50% for 0.5 seconds.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Enemies hit in the outer part of the cone are briefly slowed."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Recognizing the cone and outer slow helps with spacing.",
+      "slot": "Q",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Riot's short description does not specify the slow's range restriction; the Wiki supplies it.",
+        "The cast originates from Akali's position at the end of its cast time."
+      ]
+    },
+    {
+      "answer": "Akali creates a smoke shroud that grants invisibility inside it; while invisible, enemies cannot select her with attacks or spells. Attacking or casting an ability briefly reveals her. Casting it briefly boosts movement speed, restores energy and increases her maximum energy while the shroud is active.",
+      "build_focus": "",
+      "counterplay": "Avoid chasing into the shroud and watch for her to reveal herself when she attacks or casts.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Akali drops a cover of smoke and briefly gains Move Speed. While inside the shroud, Akali becomes invisible and unable to be selected by enemy spells and attacks.",
+              "source_id": "riot:W"
+            }
+          ],
+          "claim": "Akali creates a smoke shroud that grants invisibility inside it; while invisible, enemies cannot select her with attacks or spells."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Attacking or using abilities will briefly reveal her.",
+              "source_id": "riot:W"
+            }
+          ],
+          "claim": "Attacking or casting an ability briefly reveals her."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Akali restores energy and gains a brief burst of move speed.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "While the shroud is active, Akali's maximum energy is increased by 100.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Casting it briefly boosts movement speed, restores energy and increases her maximum energy while the shroud is active."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Invisibility denies targeted attacks and spells, making the shroud a major defensive tool.",
+      "slot": "W",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Dashing or recalling prevents gaining shroud invisibility; attacks reveal her at the start of their windup.",
+        "The shroud does not spread through terrain; an E-marked section can persist after the shroud ends.",
+        "The evidence does not establish immunity to damage, universal detection protection or cancellation of incoming attacks and spells."
+      ]
+    },
+    {
+      "answer": "Akali flips backward and throws a shuriken forward, dealing magic damage to the first enemy hit. It can mark that enemy or a section of her smoke shroud, allowing a recast. Recasting dashes to the marked enemy or smoke section, dealing additional magic damage on arrival at an enemy.",
+      "build_focus": "",
+      "counterplay": "Dodge the shuriken to avoid giving her a return dash to you. If marked, move toward safety and expect her to follow.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Flip backward and fire a shuriken forward, dealing magic damage.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Akali flips backward after 0.15 seconds into the cast time, and after the cast time throws a shuriken in the target direction that deals magic damage to the first enemy hit.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Akali flips backward and throws a shuriken forward, dealing magic damage to the first enemy hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The first enemy or smoke cloud hit is marked. Re-cast to dash to the marked target, dealing additional damage.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "The shuriken marks and reveals the enemy or the last Twilight Shroud smoke section hit for 3 seconds, during which Shuriken Flip can be recast to consume the mark.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "It can mark that enemy or a section of her smoke shroud, allowing a recast."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Recast: Akali dashes towards the marked target or smoke section. Against enemies she deals magic damage upon arrival.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Recasting dashes to the marked enemy or smoke section, dealing additional magic damage on arrival at an enemy."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Landing the mark enables a follow-up dash directly to an enemy.",
+      "slot": "E",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "Early immobilization or grounding can prevent the backward flip.",
+        "The recast tracks moving targets without a maximum tracking distance, but cannot start against an untargetable target or one in another realm.",
+        "Q attempted during either E dash is buffered until the dash ends."
+      ]
+    },
+    {
+      "answer": "Akali first targets an enemy champion and dashes toward them, damaging enemies along her path. She can then recast to dash in a chosen direction, dealing magic damage along her path that increases with each enemy's missing health.",
+      "build_focus": "",
+      "counterplay": "Move away from her dash path. At low health, be especially careful of the second dash.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Akali dashes in the direction of the target enemy champion, dealing physical damage to enemies she passes through.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Akali leaps in a direction, damaging enemies she strikes.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "Akali first targets an enemy champion and dashes toward them, damaging enemies along her path."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Recast: Akali dashes in the target direction, dealing magic damage to enemies she passes through based on their missing health.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Recast: Akali dashes 800 units in the target direction, dealing magic damage to enemies she passes through, increased by 0% – 200% (based on target's missing health).",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "She can then recast to dash in a chosen direction, dealing magic damage along her path that increases with each enemy's missing health."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Two damaging dashes provide engage and a stronger finishing threat against injured enemies.",
+      "slot": "R",
+      "uncertainties": [
+        "UNAPPROVED draft.",
+        "The first dash's damage type is disputed within the Wiki excerpt and is omitted.",
+        "The recast has a brief lockout and a limited activation window.",
+        "Each cast can hit a given enemy only once; Flash interrupts either dash but can apply damage at the new location.",
+        "The execute wording does not establish an automatic kill or protection bypass."
+      ]
+    }
+  ],
+  "champion_id": 84,
+  "champion_name": "Akali",
+  "conflicts": [
+    {
+      "resolution": "Keep the first dash's targeting and path damage; omit its disputed damage type.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "The Wiki introduction calls R's first-dash damage physical, while its detailed description calls it magic."
+    },
+    {
+      "resolution": "Use the Wiki's champion-target requirement for the first cast and chosen-direction targeting for the recast.",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "topic": "Riot's short R description omits the first cast's champion-target requirement."
+    },
+    {
+      "resolution": "Explain increased damage against enemies with missing health without promising an automatic kill.",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "topic": "Riot uses execute wording; the Wiki describes missing-health damage scaling."
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Shroud availability determines access to her main concealment and targeted-attack denial.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability controls her projectile mark and follow-up dash threat.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Ultimate availability and its recast window determine her two-dash finishing threat.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "Sources are frozen to the supplied Data Dragon release and Wiki revision; no current-client verification was performed.",
+    "The release number is not treated as a game patch label.",
+    "Wiki excerpts contain map-specific variants; these drafts do not incorporate those variants.",
+    "The passive visual cue is a proposal supported by text, without supplied frames or skin-specific verification.",
+    "Recast targeting, stealth exceptions and interactions add complexity beyond the beginner-facing explanations.",
+    "Counterplay is inferred teaching guidance grounded in the supplied effects."
+  ],
+  "language": "en"
+}

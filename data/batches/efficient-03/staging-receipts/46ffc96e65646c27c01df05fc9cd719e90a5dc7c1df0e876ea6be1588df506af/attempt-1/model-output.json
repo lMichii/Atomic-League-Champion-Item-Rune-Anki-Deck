@@ -1,0 +1,288 @@
+{
+  "cards": [
+    {
+      "answer": "Diana is an AP fighter and assassin who deals magic damage. She marks enemies with Moonlight to enable repeated dashes, then fights up close with empowered attacks and an area pull followed by delayed damage.",
+      "build_focus": "AP",
+      "counterplay": "Dodge her arcing projectile, respect her engage while marked, and spread out when she approaches.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Name: Diana. Official role tags: Fighter, Assassin.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Magic Damage:50 / 70 / 90 / 110 / 130 (+ 60% AP)",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Diana is an AP fighter and assassin who deals magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Enemies hit are marked with Moonlight, revealing them.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "If Moonlight is consumed from the target, Lunar Rush's current cooldown is reduced to 0.25 seconds.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "She marks enemies with Moonlight to enable repeated dashes"
+        },
+        {
+          "citations": [
+            {
+              "quote": "Every third basic attack in quick succession will cleave nearby enemies, dealing magic damage.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Active: Diana draws in and slows nearby enemies. If she pulls an enemy champion, she calls down a beam of moonlight to strike upon the area after a delay, dealing magic damage, increased if she pulled more champions.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "then fights up close with empowered attacks and an area pull followed by delayed damage."
+        }
+      ],
+      "level": "L1",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Recognizing her mark, dash and close-range follow-up explains her main engage pattern.",
+      "slot": "-",
+      "uncertainties": []
+    },
+    {
+      "answer": "Moonsilver Blade grants bonus attack speed, increased briefly after casting an ability. Every third basic attack in quick succession cleaves nearby enemies for additional magic damage.",
+      "build_focus": "",
+      "counterplay": "Avoid prolonged close-range trades after she casts, and keep away from her attack target.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Innate: Diana gains attack speed, increased shortly after casting an ability.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "claim": "Moonsilver Blade grants bonus attack speed, increased briefly after casting an ability."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Every third basic attack in quick succession will cleave nearby enemies, dealing magic damage.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Every third strike cleaves nearby enemies for an additional magic damage.",
+              "source_id": "riot:P"
+            }
+          ],
+          "claim": "Every third basic attack in quick succession cleaves nearby enemies for additional magic damage."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "A glow may signal that her empowered attack is ready.",
+        "meaningful": true,
+        "source_ids": [
+          "wiki:P"
+        ]
+      },
+      "priority": "B",
+      "priority_reason": "Explains her sustained close-range damage between spells.",
+      "slot": "P",
+      "uncertainties": []
+    },
+    {
+      "answer": "Crescent Strike sends a bolt along an arc and explodes at its destination, dealing magic damage. Enemies hit receive Moonlight, revealing them if they are not stealthed and enabling Lunar Rush's greatly reduced cooldown.",
+      "build_focus": "",
+      "counterplay": "Sidestep the arc and its endpoint; give her space while marked.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Diana unleashes a bolt of lunar energy that deals magic damage to enemies hit in an arc before exploding at the target location.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "claim": "Crescent Strike sends a bolt along an arc and explodes at its destination, dealing magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Afflicts enemies struck with Moonlight, revealing them if they are not stealthed for 3 seconds.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "If Moonlight is consumed from the target, Lunar Rush's current cooldown is reduced to 0.25 seconds.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Enemies hit receive Moonlight, revealing them if they are not stealthed and enabling Lunar Rush's greatly reduced cooldown."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Landing the mark enables her repeat-dash engage.",
+      "slot": "Q",
+      "uncertainties": []
+    },
+    {
+      "answer": "Pale Cascade shields Diana and creates orbiting spheres that explode on enemy contact, dealing area magic damage. If all the spheres detonate, she gains additional shielding and refreshes its duration.",
+      "build_focus": "",
+      "counterplay": "Create distance while her spheres orbit, and avoid committing damage into her shield.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Diana shields herself, creating three orbiting spheres that detonate on contact with enemies to deal magic damage in an area.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "Pale Cascade shields Diana and creates orbiting spheres that explode on enemy contact, dealing area magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If all three spheres detonate, Pale Cascade's shield is reapplied, stacking with its original shield and refreshing the duration.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "claim": "If all the spheres detonate, she gains additional shielding and refreshes its duration."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "B",
+      "priority_reason": "Her shield and contact damage affect close-range trading.",
+      "slot": "W",
+      "uncertainties": []
+    },
+    {
+      "answer": "Lunar Rush dashes to an enemy and deals magic damage, consuming Moonlight from all enemies when the dash ends. Consuming Moonlight from her target greatly reduces the dash's cooldown, allowing her to dash again shortly afterward.",
+      "build_focus": "",
+      "counterplay": "Respect her follow-up dash after a marked engage; look for opportunities after she dashes to an unmarked target.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Diana dashes to the target enemy's location, and upon completion, she deals them magic damage and consumes Moonlight from all enemies.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Lunar Rush dashes to an enemy and deals magic damage, consuming Moonlight from all enemies when the dash ends."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If Moonlight is consumed from the target, Lunar Rush's current cooldown is reduced to 0.25 seconds.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "claim": "Consuming Moonlight from her target greatly reduces the dash's cooldown, allowing her to dash again shortly afterward."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "The mark interaction determines her ability to follow or re-engage.",
+      "slot": "E",
+      "uncertainties": []
+    },
+    {
+      "answer": "Moonfall pulls nearby enemies toward Diana, reveals them during the pull, and slows them afterward. Pulling an enemy champion triggers delayed area magic damage around her, increased for each additional champion pulled.",
+      "build_focus": "",
+      "counterplay": "Spread out as she engages, and move away from her before the delayed damage lands.",
+      "facts": [
+        {
+          "citations": [
+            {
+              "quote": "Active: Diana pulls all nearby enemies towards her, during which they are revealed, then slows them for 2 seconds.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Moonfall pulls nearby enemies toward Diana, reveals them during the pull, and slows them afterward."
+        },
+        {
+          "citations": [
+            {
+              "quote": "If an enemy champion is pulled, she calls down a beam of moonlight to strike upon the area around her after 1 second, dealing magic damage to all nearby enemies, increased for each champion pulled beyond the first.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "claim": "Pulling an enemy champion triggers delayed area magic damage around her, increased for each additional champion pulled."
+        }
+      ],
+      "level": "L2",
+      "passive_visual": {
+        "description": "",
+        "meaningful": false,
+        "source_ids": []
+      },
+      "priority": "A",
+      "priority_reason": "Her pull and delayed burst punish grouped enemies.",
+      "slot": "R",
+      "uncertainties": []
+    }
+  ],
+  "champion_id": 131,
+  "champion_name": "Diana",
+  "conflicts": [],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Track whether Moonlight reduced the dash cooldown before treating her engage as spent.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Availability determines her threat to grouped enemies.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "The projectile supplies Moonlight for her repeat-dash pattern.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q",
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "B",
+      "reason": "Shield availability changes her close-range trading strength.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "The passive glow is a tentative textual cue from the supplied Wiki evidence; no visual verification was performed.",
+    "Supplied evidence is release-pinned and does not establish a current game patch label."
+  ],
+  "language": "en"
+}

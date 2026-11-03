@@ -1,0 +1,415 @@
+{
+  "abilities": [
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Only one ring may be active at a time.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "becomes empowered with Swinging Kama for 4 seconds, during which she cannot create another ring.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "Only one ring can exist at once; Akali cannot create another while holding the empowered attack."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The ring will be created around the last target hit by Five Point Strike.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "When Q hits multiple targets, the ring forms around the last target hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The empowered attack will trigger but not be consumed nor apply its effects against structures and wards.",
+              "source_id": "wiki:P"
+            },
+            {
+              "quote": "Does not apply if the triggering attack is dodged, blocked, or misses.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "status": "supported",
+          "summary": "Structures and wards do not consume or receive the empowerment's effects; the bonus damage does not apply when the attack is dodged, blocked, or misses."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Dealing spell damage to a champion creates a ring of energy around them.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "Akali's damaging abilities against a champion create a ring around them for a few seconds",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.ring",
+          "summary": "Damaging an enemy champion with an ability creates a ring around them."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Exiting that ring empowers Akali's next Attack with bonus range and damage.",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "empowers her next basic attack with bonus range and magic damage.",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.empowered_attack",
+          "summary": "Leaving the ring empowers the next basic attack with extra range and bonus magic damage."
+        },
+        {
+          "citations": [
+            {
+              "quote": "she gains move speed while moving away from the ring. Once Akali exits the ring, she regains the move speed towards enemy champions",
+              "source_id": "wiki:P"
+            }
+          ],
+          "id": "P.movement_speed",
+          "summary": "The passive grants movement speed while moving away from the ring, then toward enemy champions after leaving it."
+        }
+      ],
+      "slot": "P",
+      "unsupported_claims": [
+        "Damaging minions or monsters creates a passive ring.",
+        "The empowered attack is guaranteed to hit."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "status": "supported",
+          "summary": "The cast originates from Akali's position at the end of its cast time."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Akali throws out five kunai, dealing damage based on her bonus Attack Damage and Ability Power and slowing.",
+              "source_id": "riot:Q"
+            },
+            {
+              "quote": "Akali throws out a cone of kunai that deals magic damage to enemies hit.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.cone_damage",
+          "summary": "Throws kunai in a cone, dealing magic damage to enemies hit."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Targets hit at maximum range are briefly slowed.",
+              "source_id": "wiki:Q"
+            },
+            {
+              "quote": "Targets beyond a certain range are also slowed by 50% for 0.5 seconds.",
+              "source_id": "wiki:Q"
+            }
+          ],
+          "id": "Q.outer_slow",
+          "summary": "Enemies hit in the outer portion of the cone are briefly slowed."
+        }
+      ],
+      "slot": "Q",
+      "unsupported_claims": [
+        "Every enemy hit by Q is slowed regardless of distance.",
+        "Each kunai separately damages the same enemy."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Entering the shroud renders Akali invisible, unless she is dashing.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "Akali will also not gain the invisibility if she is Recalling.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "Dashing and recalling prevent gaining shroud invisibility."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Using a basic attack breaks the stealth at the start of the attack windup.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "An attack reveals Akali when its windup begins."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The shroud does not permeate terrain, and will expand toward nearby enemy champions.",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "The marked section of Twilight Shroud will linger for the mark's duration, even after the shroud ends.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "status": "supported",
+          "summary": "The shroud cannot spread through terrain; a section marked by E persists for the mark's duration even if the shroud ends."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "While inside the shroud, Akali becomes invisible and unable to be selected by enemy spells and attacks.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "She also drops a smoke shroud that makes her invisible",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.shroud_protection",
+          "summary": "Creates a smoke shroud that grants invisibility inside it, preventing enemies from selecting Akali with attacks and spells while she is invisible."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Attacking or using abilities will briefly reveal her.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Declaring a basic attack or casting an ability will break the invisibility",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.action_reveal",
+          "summary": "Attacking or casting an ability briefly breaks shroud invisibility."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Akali drops a cover of smoke and briefly gains Move Speed.",
+              "source_id": "riot:W"
+            },
+            {
+              "quote": "Akali restores energy and gains a brief burst of move speed.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.movement_speed",
+          "summary": "Casting W grants a brief burst of movement speed."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Akali restores energy",
+              "source_id": "wiki:W"
+            },
+            {
+              "quote": "While the shroud is active, Akali's maximum energy is increased by 100.",
+              "source_id": "wiki:W"
+            }
+          ],
+          "id": "W.energy",
+          "summary": "Restores energy and temporarily increases maximum energy while the shroud is active."
+        }
+      ],
+      "slot": "W",
+      "unsupported_claims": [
+        "Shroud makes Akali immune to damage.",
+        "Shroud prevents all area damage or cancels attacks and spells already in flight.",
+        "Shroud always hides Akali from every source of detection."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "Akali will not flip backwards if she is immobilized or grounded in the first 0.15 seconds of the cast time.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Early immobilization or grounding can prevent the backward flip."
+        },
+        {
+          "citations": [
+            {
+              "quote": "She will not stop tracking the target until she reaches them, as there is no maximum tracking distance.",
+              "source_id": "wiki:E"
+            },
+            {
+              "quote": "Shuriken Flip cannot be recast if the target is untargetable or is in another realm.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "The recast tracks moving targets without a maximum tracking distance, but cannot be initiated against an untargetable target or one in another realm."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Attempting to cast Five Point Strike during either dash will buffer it to cast as soon as the dash ends.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "status": "supported",
+          "summary": "Q attempted during either E dash is buffered until that dash ends."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Flip backward and fire a shuriken forward, dealing magic damage.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Akali dashes backward and throws a shuriken forward that deals magic damage",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.flip_projectile",
+          "summary": "Flips backward while throwing a damaging shuriken forward."
+        },
+        {
+          "citations": [
+            {
+              "quote": "The first enemy or smoke cloud hit is marked.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "The shuriken marks and reveals the enemy or the last Twilight Shroud smoke section hit for 3 seconds",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.mark",
+          "summary": "The shuriken can mark the first enemy hit or a section of Twilight Shroud, enabling a recast."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Re-cast to dash to the marked target, dealing additional damage.",
+              "source_id": "riot:E"
+            },
+            {
+              "quote": "Akali dashes towards the marked target or smoke section. Against enemies she deals magic damage upon arrival.",
+              "source_id": "wiki:E"
+            }
+          ],
+          "id": "E.return_dash",
+          "summary": "Recasting dashes to the marked enemy or smoke section, dealing additional magic damage upon arrival against an enemy."
+        }
+      ],
+      "slot": "E",
+      "unsupported_claims": [
+        "The return dash damages enemies along its entire path.",
+        "The return dash can be initiated against any marked target regardless of targetability or realm."
+      ]
+    },
+    {
+      "advanced_exceptions": [
+        {
+          "citations": [
+            {
+              "quote": "dealing physical damage to enemies she passes through.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Akali dashes 750 units in the direction of the target enemy champion, dealing magic damage to enemies she passes through.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "disputed",
+          "summary": "The Wiki's introductory and detailed descriptions disagree about the first dash's damage type. Retain its damaging dash core without requiring a damage type."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Perfect Execution can be recast after a 2.5-second static cooldown within 10 seconds of the first activation.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "The second dash has a brief lockout and a limited recast window."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Enemies already hit by either of Perfect Execution's casts cannot be affected more than once by the same cast.",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "Casting Flash during either dashes will interrupt them, but Akali will deal damage to any enemies she comes in contact with at the new location.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "status": "supported",
+          "summary": "Each cast hits a given enemy only once; Flash interrupts either dash but can apply its damage at the new location."
+        }
+      ],
+      "core_mechanics": [
+        {
+          "citations": [
+            {
+              "quote": "Akali leaps in a direction, damaging enemies she strikes.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Akali dashes in the direction of the target enemy champion",
+              "source_id": "wiki:R"
+            },
+            {
+              "quote": "dealing magic damage to enemies she passes through.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.initial_dash",
+          "summary": "The first cast targets an enemy champion and dashes in their direction, damaging enemies along the path."
+        },
+        {
+          "citations": [
+            {
+              "quote": "Re-cast: Akali dashes in a direction, executing all enemies she strikes.",
+              "source_id": "riot:R"
+            },
+            {
+              "quote": "Recast: Akali dashes in the target direction, dealing magic damage to enemies she passes through based on their missing health.",
+              "source_id": "wiki:R"
+            }
+          ],
+          "id": "R.recast_execute_damage",
+          "summary": "The recast dashes in a chosen direction, dealing magic damage along its path that increases with enemies' missing health."
+        }
+      ],
+      "slot": "R",
+      "unsupported_claims": [
+        "The first cast can freely target a direction without an enemy champion.",
+        "The recast automatically kills every enemy it hits or bypasses protection.",
+        "Either cast stuns enemies."
+      ]
+    }
+  ]
+}

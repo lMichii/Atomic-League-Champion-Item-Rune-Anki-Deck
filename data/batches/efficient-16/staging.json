@@ -1,0 +1,489 @@
+{
+  "approved_before": {
+    "data/content/editorial.json": "99a5bf2692dcba838b44f760962428a3e11fda582246b01b9d8bebc5f2ce1714",
+    "data/content/editorial.lock.json": "f396f168e9fa4dbddafd651116129f1f6bc63d35cf860185298c780d649ab9f8",
+    "data/content/pilot.json": "9f79b15b1b815a10097a92e76602d38f84bfd0752b6884a0a567b61c41441319",
+    "data/content/pilot.lock.json": "cada3e1dc45899483494e35ed0ec18171d1bd515c591b24d024f4a9025bae583",
+    "data/content/production.json": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "data/content/production.lock.json": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "data/sources/editorial.json": "e8bb35f575c6baf8c9dd3e2b9f2bf28b6e565b18836181771c6cc1a3dfc015ec",
+    "data/sources/pilot.json": "944046cc983be9862dad79fad975c9dc927d830d5bd0bd9d137067560baa2724",
+    "data/sources/production.json": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "champions": {
+    "yuumi": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 22771,
+              "output_tokens": 3113,
+              "reasoning_output_tokens": 78
+            }
+          ]
+        },
+        "output_sha256": "b3ca7dff5b37bdbdc14908b7fbc362faa92b50fd57fdcfc139b4dd9a34e216b1",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "37ea7d7215e050b98384bf0bfff43050e5a613a81f60905ed7c28846548e7294"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-03T11:43:39.826112+00:00",
+      "findings": [],
+      "ids": [
+        "champ:yuumi:overview:L1",
+        "champ:yuumi:p:recognize:L2",
+        "champ:yuumi:q:recognize:L2",
+        "champ:yuumi:w:recognize:L2",
+        "champ:yuumi:e:recognize:L2",
+        "champ:yuumi:r:recognize:L2"
+      ],
+      "manifest_sha256": "58cb10cc880f04012c5ad787edffae4576a49a794bc6e64017613d434efd076c",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-16/staging/yuumi",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/3f32f571c9fdf92867378cb247ec96246b59b1ea8b54b2f865144ca52bbb40e0",
+      "status": "generated"
+    },
+    "zaahen": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 22412,
+              "output_tokens": 2811,
+              "reasoning_output_tokens": 74
+            }
+          ]
+        },
+        "output_sha256": "94fff9c8b28d6ae23c1ed5b7d67d26ee7c9644bf8b0a248553a8935ae0dd89a0",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "2487903e5dd8ef0f7fc89e66578b0b9bb2cbaedfd29962d89371aaad7bf37ceb"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-03T11:44:51.550383+00:00",
+      "findings": [
+        {
+          "code": "media_unavailable",
+          "name": "zaahen_q.webm",
+          "url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0904/ability_0904_Q1.webm"
+        },
+        {
+          "code": "active_icon_fallback",
+          "message": "No working GIF; draft icon fallback needs review",
+          "slot": "Q"
+        },
+        {
+          "code": "icon_fallback",
+          "id": "champ:zaahen:q:recognize:L2",
+          "message": "No confidently matched animation; icon retained"
+        }
+      ],
+      "ids": [
+        "champ:zaahen:overview:L1",
+        "champ:zaahen:p:recognize:L2",
+        "champ:zaahen:q:recognize:L2",
+        "champ:zaahen:w:recognize:L2",
+        "champ:zaahen:e:recognize:L2",
+        "champ:zaahen:r:recognize:L2"
+      ],
+      "manifest_sha256": "b64aa37d3d2d6f10dc8cbfba94dcc01a7103ceaece09fde3a923f499a7d8b8b5",
+      "media": {
+        "gif": 3,
+        "icon": 2,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-16/staging/zaahen",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/b85bed0f7c2ed34fa006563c2bbbf4eed1ec42750d88378c240e7295cd77353d",
+      "status": "generated"
+    },
+    "zac": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 21925,
+              "output_tokens": 2893,
+              "reasoning_output_tokens": 160
+            }
+          ]
+        },
+        "output_sha256": "f43448304adf04f2347d80b8f63c1f19e645a559b04f966fe82651461feadd54",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "7c7871184005a58f60e7f0d1d5cfba18aa270b50706d2de5579d5d61a17db34c"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-03T11:45:55.938515+00:00",
+      "findings": [],
+      "ids": [
+        "champ:zac:overview:L1",
+        "champ:zac:p:recognize:L2",
+        "champ:zac:q:recognize:L2",
+        "champ:zac:w:recognize:L2",
+        "champ:zac:e:recognize:L2",
+        "champ:zac:r:recognize:L2"
+      ],
+      "manifest_sha256": "aef5b5bcbf39ed2771a6b658e1d1d4fa3277d2eaad385c242a7387a75c13d356",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-16/staging/zac",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/b620b2f6d0e63fc1223a51fd3c6b4cae787dc92aa5dfba301eb35b48a963f5a4",
+      "status": "generated"
+    },
+    "zed": {
+      "author_receipt": {
+        "attempts": 2,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 21725,
+              "output_tokens": 2505,
+              "reasoning_output_tokens": 43
+            }
+          ]
+        },
+        "output_sha256": "fe5816bd60848ac517eff646bf936e8f9ff625d2c52573de5aeabb1b10762793",
+        "prior_errors": [
+          "Citation quote does not match retrieved evidence: wiki:E"
+        ],
+        "provider": "codex",
+        "request_sha256": "e7b1f1203ebea321cf5e45514121a6053fa2a4a21e559b3bd7f7666429bee1ab"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-03T12:58:31.495394+00:00",
+      "findings": [],
+      "ids": [
+        "champ:zed:overview:L1",
+        "champ:zed:p:recognize:L2",
+        "champ:zed:q:recognize:L2",
+        "champ:zed:w:recognize:L2",
+        "champ:zed:e:recognize:L2",
+        "champ:zed:r:recognize:L2"
+      ],
+      "manifest_sha256": "00c833e866206fadf06a610e7c734e88f50fe37231a627849befe2e5f742f39a",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-16/staging/zed",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/f3a01c03be2bc4ab6d8f716c397ec9d3705caa79d64599611d32802445a47172",
+      "status": "generated"
+    },
+    "zeri": {
+      "author_receipt": {
+        "attempts": 2,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 22624,
+              "output_tokens": 3105,
+              "reasoning_output_tokens": 49
+            }
+          ]
+        },
+        "output_sha256": "d78039702eecd2cfa0ec11c83b4c9048f50daa4acfaf96e56ed9182bc36411c4",
+        "prior_errors": [
+          "Unknown conflict source"
+        ],
+        "provider": "codex",
+        "request_sha256": "ec08a304b2ee020a9300af15c1a15d60961f0f53d2748055df40a5e5b90c0754"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-03T13:00:27.302283+00:00",
+      "findings": [],
+      "ids": [
+        "champ:zeri:overview:L1",
+        "champ:zeri:p:recognize:L2",
+        "champ:zeri:q:recognize:L2",
+        "champ:zeri:w:recognize:L2",
+        "champ:zeri:e:recognize:L2",
+        "champ:zeri:r:recognize:L2"
+      ],
+      "manifest_sha256": "1d5d33f49ed44b2beda4f735884a25c86efe643ec2ce816fa6c3bf0a2f4dd417",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-16/staging/zeri",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/6073378f5523f9fc773c09e94b60b43ec39667f358b77948c10dafdea55a32c2",
+      "status": "generated"
+    },
+    "ziggs": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 20886,
+              "output_tokens": 2416,
+              "reasoning_output_tokens": 36
+            }
+          ]
+        },
+        "output_sha256": "642a2d6338b86ad98b18806faef310df24a95d229fd2bc43605ebed011689fe2",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "fa60f488d1c680a955b36b9790dc0339b73d434f5570362e54bfd39163ffaa7f"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-03T11:48:54.643375+00:00",
+      "findings": [],
+      "ids": [
+        "champ:ziggs:overview:L1",
+        "champ:ziggs:p:recognize:L2",
+        "champ:ziggs:q:recognize:L2",
+        "champ:ziggs:w:recognize:L2",
+        "champ:ziggs:e:recognize:L2",
+        "champ:ziggs:r:recognize:L2"
+      ],
+      "manifest_sha256": "94378f0cf995c4815c1568c6d9abd3a546d61dd270c521ce3a894cb81181164b",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-16/staging/ziggs",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/266ecc6235085ca30dfa314445df4e4bb5e90867dc4917e2c2ae9ec19b98b385",
+      "status": "generated"
+    },
+    "zilean": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 17840,
+              "output_tokens": 5299,
+              "reasoning_output_tokens": 71
+            }
+          ]
+        },
+        "output_sha256": "29f661a2d35327ce7d3d219d814b91b8db39e759d13a50bece75e3e431986b56",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "c19f248db20f572400f0abe0f29ea42ff451b08ac069229d55d0cdc3f9884a54"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-03T11:50:33.657794+00:00",
+      "findings": [
+        {
+          "code": "adaptive_kit_structure",
+          "message": "5 live sections discovered; conventional slot headings are not a completeness contract."
+        }
+      ],
+      "ids": [
+        "champ:zilean:overview:L1",
+        "champ:zilean:p:recognize:L2",
+        "champ:zilean:q:recognize:L2",
+        "champ:zilean:w:recognize:L2",
+        "champ:zilean:e:recognize:L2",
+        "champ:zilean:r:recognize:L2"
+      ],
+      "manifest_sha256": "68158451606ac1921f79be322c3ea0fbcf9225da7c8f94eba86e1f237beb3618",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-16/staging/zilean",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/fa539f1893befc52d5d344fe2e8ca506a87fe3c9bdf5e7ebfb39eac327f229ac",
+      "status": "generated"
+    },
+    "zoe": {
+      "author_receipt": {
+        "attempts": 2,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 22357,
+              "output_tokens": 2608,
+              "reasoning_output_tokens": 58
+            }
+          ]
+        },
+        "output_sha256": "ee61b509626aac0f5b38c04f418683a4a9b29716838e3655cb137260ffb8dbc8",
+        "prior_errors": [
+          "Citation quote does not match retrieved evidence: wiki:Q"
+        ],
+        "provider": "codex",
+        "request_sha256": "a0c454a8832f34cfc50b143235aa6efbd91e059b1989feae7f0b203cf3cbd1e2"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-03T13:02:49.531024+00:00",
+      "findings": [],
+      "ids": [
+        "champ:zoe:overview:L1",
+        "champ:zoe:p:recognize:L2",
+        "champ:zoe:q:recognize:L2",
+        "champ:zoe:w:recognize:L2",
+        "champ:zoe:e:recognize:L2",
+        "champ:zoe:r:recognize:L2"
+      ],
+      "manifest_sha256": "d4d66f3ca8806da9203fb26e617953982c41f717bc44119d31f0b6e65032609b",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-16/staging/zoe",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/9a18137823d51d42e8c715e5d2c3fa0cf8d00c93d5618a4ff46c9d99bcfcfffc",
+      "status": "generated"
+    },
+    "zyra": {
+      "author_receipt": {
+        "attempts": 1,
+        "configured_model": "",
+        "execution_attempts": 1,
+        "metadata": {
+          "ephemeral": true,
+          "image_inputs": 0,
+          "resolved_model": "runtime_default_not_reported",
+          "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+          "tool_items": 0,
+          "usage": [
+            {
+              "cache_write_input_tokens": 0,
+              "cached_input_tokens": 0,
+              "input_tokens": 20940,
+              "output_tokens": 2484,
+              "reasoning_output_tokens": 48
+            }
+          ]
+        },
+        "output_sha256": "65841fe766b7a2bc9154140df63ef4fa6d8eb15ab3174100dad78d4833a94886",
+        "prior_errors": [],
+        "provider": "codex",
+        "request_sha256": "f65d002efd564a1edb005595f3659815de5dcc633371d52e4867360958f33139"
+      },
+      "cards": 6,
+      "completed_at": "2026-11-03T11:52:23.764039+00:00",
+      "findings": [],
+      "ids": [
+        "champ:zyra:overview:L1",
+        "champ:zyra:p:recognize:L2",
+        "champ:zyra:q:recognize:L2",
+        "champ:zyra:w:recognize:L2",
+        "champ:zyra:e:recognize:L2",
+        "champ:zyra:r:recognize:L2"
+      ],
+      "manifest_sha256": "baf07717b3141cae229ba30ab3549cca3f04f5d3b8abbac7a0193fc429028d74",
+      "media": {
+        "gif": 4,
+        "icon": 1,
+        "portrait": 1
+      },
+      "path": "data/batches/efficient-16/staging/zyra",
+      "reused_existing": false,
+      "source_input": "build/generated/inputs/e4a5d86281dc33c8029affa7ef791bd66121ed690b9875c56a45e280a200008e",
+      "status": "generated"
+    }
+  },
+  "created_at": "2026-11-03T11:42:24.097714+00:00",
+  "editorial_approval": false,
+  "id": "efficient-16",
+  "import_status": "not_recorded",
+  "mode": "author_only_staging",
+  "output": "build/staging/efficient-16.apkg",
+  "package": {
+    "cards": 54,
+    "media": 89,
+    "notes": 54,
+    "sha256": "dc9333fbc36b2ca378aaca9fb070200e91971f6b2cdb1f47fabddf22e2631404",
+    "sqlite_integrity": "ok"
+  },
+  "status": "staging_exported",
+  "updated_at": "2026-11-03T13:02:49.531024+00:00"
+}

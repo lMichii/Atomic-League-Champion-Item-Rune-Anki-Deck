@@ -1,0 +1,529 @@
+{
+  "cards": [
+    {
+      "content_status": "draft",
+      "entity_id": "champ:201",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Name: Braum. Official role tags: Tank, Support.",
+                "source_id": "riot:role"
+              },
+              {
+                "quote": "Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed.",
+                "source_id": "riot:E"
+              }
+            ],
+            "claim": "Braum is a tank support who protects allies by intercepting enemy projectiles."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Once the first stack is applied, ally basic attacks also stack Concussive Blows. Upon reaching 4 stacks, the target is stunned and takes magic damage.",
+                "source_id": "riot:P"
+              }
+            ],
+            "claim": "He helps allies stun enemies through shared passive stacks."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Magic Damage:75 / 120 / 165 / 210 / 255 (+ 2.5% of Braum's maximum health)",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Self Bonus Armor:20 / 25 / 30 / 35 / 40 (+ 36% bonus armor)\nSelf Bonus Magic Resistance:20 / 25 / 30 / 35 / 40 (+ 36% bonus magic resistance)",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "His broad learning focus is health, armor and magic resistance."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "verification_scope": "Citation matching + AI support check; not editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4022592",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Braum"
+      },
+      "id": "champ:201:overview:L1",
+      "importance": {
+        "priority": "A",
+        "reason": "Ally protection and shared stun pressure explain his fighting role."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1793483693,
+      "row": {
+        "ability": "Tank / Support",
+        "answer": "Braum is a tank support who protects allies by intercepting enemy projectiles. He helps allies stun enemies through shared passive stacks. His broad learning focus is health, armor and magic resistance.",
+        "build_focus": "Health, Armor, MR",
+        "category": "Champion",
+        "champion": "Braum",
+        "cooldown": "",
+        "counterplay": "INFERRED: Avoid accumulating passive stacks, and look for attack angles around his shield.",
+        "front_hint": "CHAMPION OVERVIEW",
+        "icon_path": "media/braum_portrait.jpg",
+        "id": "champ:201:overview:L1",
+        "level": "L1",
+        "media_path": "media/braum_portrait.jpg",
+        "media_type": "portrait",
+        "patch": "16.21.1",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What can this champion do?",
+        "review_status": "AI-generated draft; not approved. Data Dragon release shown; game patch not inferred. Visual review pending.",
+        "slot": "-",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "source_video_path": "",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Braum",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "uncertainties": [
+        "The stat focus is a teaching synthesis of the supplied kit evidence, not an optimal item build."
+      ]
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:201",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Innate: Braum's basic attacks and Winter's Bite apply a stack of Concussive Blows. Once the first stack is applied, allied champion basic attacks can also stack Concussive Blows.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Braum's basic attacks and Q apply passive stacks; allied champion basic attacks can add stacks after the first."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Upon reaching 4 stacks, the target is stunned and takes magic damage.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "stacking up to 4 times.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "At 4 stacks, the target takes magic damage and is stunned."
+          },
+          {
+            "citations": [
+              {
+                "quote": "For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's basic attacks.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "Afterward, the target temporarily cannot gain new stacks, but Braum's basic attacks deal bonus magic damage to it."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "verification_scope": "Citation matching + AI support check; not editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4022592",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Braum"
+      },
+      "id": "champ:201:p:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Allied basic attacks can turn an initial mark into a stun."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1793483693,
+      "row": {
+        "ability": "Concussive Blows",
+        "answer": "Braum's basic attacks and Q apply passive stacks; allied champion basic attacks can add stacks after the first. At 4 stacks, the target takes magic damage and is stunned. Afterward, the target temporarily cannot gain new stacks, but Braum's basic attacks deal bonus magic damage to it.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Braum",
+        "cooldown": "",
+        "counterplay": "INFERRED: Back away from Braum and his allies when marked to avoid letting their basic attacks complete the stun.",
+        "front_hint": "BRAUM · PASSIVE",
+        "icon_path": "media/braum_p_icon.png",
+        "id": "champ:201:p:recognize:L2",
+        "level": "L2",
+        "media_path": "media/braum_p_icon.png",
+        "media_type": "icon",
+        "patch": "16.21.1",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "AI-generated draft; not approved. Data Dragon release shown; game patch not inferred. Visual review pending.",
+        "slot": "P",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "source_video_path": "media/braum_p.webm",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Braum",
+        "visual_cue_description": "TENTATIVE proposal: use the marker near the affected target to introduce stack buildup, followed by the apparent stun effect. The attached clip frames suggest this sequence but do not verify exact stack correspondence or current-client appearance.",
+        "visual_cue_media_path": "media/braum_p.gif",
+        "visual_cue_status": "needs_visual_cue_review"
+      },
+      "uncertainties": [
+        "The visual proposal uses the attached official-clip frames; the cited mechanic text does not describe or verify the marker's appearance."
+      ]
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:201",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Braum propels freezing ice from his shield, slowing and dealing magic damage to the first enemy hit.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Braum propels freezing ice from his shield, slowing and dealing magic damage.",
+                "source_id": "riot:Q"
+              }
+            ],
+            "claim": "Braum fires ice that deals magic damage and slows the first enemy hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Applies a stack of Concussive Blows.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "Braum's basic attacks and Winter's Bite apply a stack of Concussive Blows.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "claim": "It also applies a passive stack."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "verification_scope": "Citation matching + AI support check; not editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4022592",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Braum"
+      },
+      "id": "champ:201:q:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The ranged slow starts passive pressure and helps allies follow up."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1793483693,
+      "row": {
+        "ability": "Winter's Bite",
+        "answer": "Braum fires ice that deals magic damage and slows the first enemy hit. It also applies a passive stack.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Braum",
+        "cooldown": "",
+        "counterplay": "INFERRED: Dodge the projectile to avoid its slow and passive stack.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/braum_q_icon.png",
+        "id": "champ:201:q:recognize:L2",
+        "level": "L2",
+        "media_path": "media/braum_q.gif",
+        "media_type": "gif",
+        "patch": "16.21.1",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "AI-generated draft; not approved. Data Dragon release shown; game patch not inferred. Visual review pending.",
+        "slot": "Q",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "source_video_path": "media/braum_q.webm",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Braum",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "uncertainties": []
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:201",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Braum leaps to a target allied champion or minion.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Active: Braum dashes to a target allied champion or minion.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "Braum leaps to an allied champion or minion."
+          },
+          {
+            "citations": [
+              {
+                "quote": "On arrival, Braum and the ally gain Armor and Magic Resist for a few seconds.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "On arrival, both of them gain armor and magic resistance for a few seconds.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "claim": "On arrival, both gain temporary armor and magic resistance."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "verification_scope": "Citation matching + AI support check; not editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4022592",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Braum"
+      },
+      "id": "champ:201:w:recognize:L2",
+      "importance": {
+        "priority": "B",
+        "reason": "The leap changes his defensive position and strengthens the ally he reaches."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1793483693,
+      "row": {
+        "ability": "Stand Behind Me",
+        "answer": "Braum leaps to an allied champion or minion. On arrival, both gain temporary armor and magic resistance.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Braum",
+        "cooldown": "",
+        "counterplay": "INFERRED: Account for Braum repositioning to nearby allies or minions when choosing whom to attack.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/braum_w_icon.png",
+        "id": "champ:201:w:recognize:L2",
+        "level": "L2",
+        "media_path": "media/braum_w.gif",
+        "media_type": "gif",
+        "patch": "16.21.1",
+        "poster_path": "",
+        "priority": "B",
+        "question": "What does this ability do?",
+        "review_status": "AI-generated draft; not approved. Data Dragon release shown; game patch not inferred. Visual review pending.",
+        "slot": "W",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "source_video_path": "media/braum_w.webm",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Braum",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "uncertainties": []
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:201",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Active: Braum becomes ghosted and raises his shield in a direction for a few seconds, intercepting any enemy projectiles to hit him and be destroyed.",
+                "source_id": "wiki:E"
+              },
+              {
+                "quote": "Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed.",
+                "source_id": "riot:E"
+              }
+            ],
+            "claim": "Braum raises a directional shield that can intercept enemy projectiles, making them hit him and be destroyed."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Projectiles whose effects trigger on collision will still trigger - dealing damage, applying debuffs, creating area of effects and marking the target as 'hit'.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "Projectile effects triggered by collision can still occur."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Unbreakable does not affect turrets.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "claim": "Unbreakable does not affect turrets."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "verification_scope": "Citation matching + AI support check; not editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4022592",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Braum"
+      },
+      "id": "champ:201:e:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "Projectile interception can protect allies, making shield direction consequential."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1793483693,
+      "row": {
+        "ability": "Unbreakable",
+        "answer": "Braum raises a directional shield that can intercept enemy projectiles, making them hit him and be destroyed. Projectile effects triggered by collision can still occur. Unbreakable does not affect turrets.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Braum",
+        "cooldown": "",
+        "counterplay": "INFERRED: Reposition to attack from outside the shield's protected direction. Avoid firing a key projectile into the shield.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/braum_e_icon.png",
+        "id": "champ:201:e:recognize:L2",
+        "level": "L2",
+        "media_path": "media/braum_e.gif",
+        "media_type": "gif",
+        "patch": "16.21.1",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "AI-generated draft; not approved. Data Dragon release shown; game patch not inferred. Visual review pending.",
+        "slot": "E",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "source_video_path": "media/braum_e.webm",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Braum",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "uncertainties": [
+        "Damage negation and reduction are omitted from this beginner summary because the supplied wording requires damage-source exceptions.",
+        "Interception does not guarantee cancellation of collision effects or resulting area damage."
+      ]
+    },
+    {
+      "content_status": "draft",
+      "entity_id": "champ:201",
+      "entity_kind": "champion",
+      "evidence": {
+        "claims": [
+          {
+            "citations": [
+              {
+                "quote": "Braum slams the ground, knocking up enemies nearby and in a line in front of him.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "Braum slams the ground, knocking up enemies nearby and in a line in front of him.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "Braum slams the ground, knocking up enemies nearby and in a line ahead."
+          },
+          {
+            "citations": [
+              {
+                "quote": "A fissure is left along the line that slows enemies.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "A fissure is left along the line that slows enemies.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "claim": "The fissure left along that line slows enemies."
+          }
+        ],
+        "riot_url": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "verification_scope": "Citation matching + AI support check; not editorial approval",
+        "verified_patch": null,
+        "wiki_revision": "4022592",
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Braum"
+      },
+      "id": "champ:201:r:recognize:L2",
+      "importance": {
+        "priority": "A",
+        "reason": "The knockup disrupts enemies, while the fissure restricts movement."
+      },
+      "media_review": {
+        "current_client_review": "pending",
+        "status": "unreviewed"
+      },
+      "pedagogy": {
+        "build_focus_basis": "broad_learning_orientation",
+        "counterplay_basis": "source_grounded_inference"
+      },
+      "qa_status": "needs_review",
+      "revision": 1793483693,
+      "row": {
+        "ability": "Glacial Fissure",
+        "answer": "Braum slams the ground, knocking up enemies nearby and in a line ahead. The fissure left along that line slows enemies.",
+        "build_focus": "",
+        "category": "Champion",
+        "champion": "Braum",
+        "cooldown": "",
+        "counterplay": "INFERRED: Move out of the line ahead of Braum and avoid the lingering fissure.",
+        "front_hint": "IDENTIFY THIS ABILITY",
+        "icon_path": "media/braum_r_icon.png",
+        "id": "champ:201:r:recognize:L2",
+        "level": "L2",
+        "media_path": "media/braum_r.gif",
+        "media_type": "gif",
+        "patch": "16.21.1",
+        "poster_path": "",
+        "priority": "A",
+        "question": "What does this ability do?",
+        "review_status": "AI-generated draft; not approved. Data Dragon release shown; game patch not inferred. Visual review pending.",
+        "slot": "R",
+        "source_riot": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "source_video_path": "media/braum_r.webm",
+        "source_wiki": "https://wiki.leagueoflegends.com/en-us/Braum",
+        "visual_cue_description": "",
+        "visual_cue_media_path": "",
+        "visual_cue_status": ""
+      },
+      "uncertainties": []
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,1088 @@
+{
+  "approval_blockers": [
+    "All six cards are drafts requiring explicit editorial approval.",
+    "All clips/cues need manual visual verification.",
+    "Game patch label has not been independently established."
+  ],
+  "base_approved_hashes": {
+    "content": "1bc940d39def57947cfcd38f316b1077a6cc7228c1ba7cc5a0b833ce6d0132a3",
+    "lock": "b947dffe7388aeafc383bcc9add9103e6699b08636cee5b29e668210ddcb93cc",
+    "sources": "d3918a1df98f29a8d9f9c623484519eacb2771a99bccd2a43559abc377bc3a3b"
+  },
+  "cards": [
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "-"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:aatrox:overview:L1",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The learning focus is a qualitative teaching synthesis, not an optimal item build."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": null,
+      "media_type": "portrait",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "Recognizing his sword damage and combat healing helps explain his fighting role."
+      },
+      "slot": "-",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Periodically, Aatrox's next basic attack deals bonus magic damage based on the target's maximum health and heals him.",
+            "covered": true,
+            "mechanic_id": "P.empowered_attack",
+            "reason": "Explains the periodic empowered basic attack, damage type, maximum-health scaling and self-healing."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "P"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:aatrox:p:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "No passive visual cue is proposed: the text does not describe the thrust animation, and the supplied demonstration frames do not establish a reliable readiness cue.",
+        "The documented stance change depends on enemy proximity and can also be toggled manually; it does not establish passive readiness.",
+        "Healing depends on bonus damage actually dealt after mitigation.",
+        "Attacks and ability hits against champions or large monsters reduce passive cooldown; Q sweetspots reduce it further.",
+        "Structures and wards do not trigger empowerment; dodged, blocked or missed attacks do not apply its bonus damage.",
+        "Readiness during an ordinary attack's windup and spell-shield interactions have additional timing exceptions."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Aatrox heals for the post-mitigation bonus damage dealt, reduced to 25% against minions.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Healing depends on bonus damage actually dealt and is reduced against minions."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Whenever Aatrox hits at least one enemy champion or large monster with a basic attack on-hit or an ability, Deathbringer Stance's current cooldown is reduced by 2 seconds, doubled to 4 if he hits with the Sweetspot of The Darkin Blade.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Attacks and ability hits against champions or large monsters reduce the passive cooldown; Q sweetspots reduce it further."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The empowered attack will not trigger against structures and wards.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "Does not apply if Deathbringer Stance's attack is dodged, blocked or misses.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "Structures and wards cannot trigger the empowerment; a dodged, blocked or missed attack does not apply its bonus damage."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Deathbringer Stance's empowered attack becomes available during a standard attack's windup, it will not be consumed or trigger the bonus damage.",
+                "source_id": "wiki:P"
+              },
+              {
+                "quote": "The cooldown reduction applies even if an ability's hit is countered by spell shield.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "status": "supported",
+            "summary": "An empowerment becoming ready during an ordinary attack's windup does not empower that attack; spell shields do not prevent eligible ability hits from reducing its cooldown."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Periodically, Aatrox's next basic attack deals bonus magic damage and heals him, based on the target's max health.",
+                "source_id": "riot:P"
+              },
+              {
+                "quote": "Innate: Periodically, Aatrox's next basic attack deals bonus magic damage based on the target's maximum health, healing him for the damage dealt.",
+                "source_id": "wiki:P"
+              }
+            ],
+            "id": "P.empowered_attack",
+            "summary": "Periodically empowers the next basic attack with target maximum-health-based bonus magic damage and self-healing."
+          }
+        ],
+        "slot": "P",
+        "unsupported_claims": [
+          "Every basic attack triggers the passive empowerment.",
+          "The passive heals for a fixed amount regardless of damage dealt."
+        ]
+      },
+      "media_type": "icon",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "B",
+        "reason": "The empowered attack adds damage and healing to short trades."
+      },
+      "slot": "P",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Aatrox can make up to three sword strikes that deal physical damage in different areas, with damage increasing on successive casts.",
+            "covered": true,
+            "mechanic_id": "Q.three_strikes",
+            "reason": "Explains the strike limit, physical area damage, differing areas and increasing successive damage."
+          },
+          {
+            "answer_quote": "Each strike has a sweetspot that deals extra damage and briefly knocks enemies up.",
+            "covered": true,
+            "mechanic_id": "Q.sweetspot",
+            "reason": "Explains both effects of each strike's sweetspot."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "Q"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:aatrox:q:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Sweetspots have specific overlap and center-based hitbox requirements.",
+        "The first two sweetspots are at the far edge; the third is inside the circular strike.",
+        "Recasts have a limited window, and E can reposition the strike during its cast."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "First Cast: Aatrox's first strike affects a 625 × 180-unit rectangular area in the target direction, with him centered on the back line and the Sweetspot at the farthest edge.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Second Cast: Aatrox's second strike affects a trapezoidal area in the target direction, with the Sweetspot at the farthest edge.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Third Cast: Aatrox's third strike affects a 300-radius circular area centered on a target location that is 200 units in front of him, with a 180-radius Sweetspot within.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "The first two sweetspots are at the far edge; the third is the inner region of the circular strike."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The third cast, as well as the Sweetspot of the first and second cast, register their hit based on center range. The enemy's center must be within the hitbox to apply the effects.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Enemies must be within both areas to trigger the bonus damage, knock up and Deathbringer Stance's cooldown reduction.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Sweetspot eligibility has specific hitbox requirements, including center-based checks; the first two require overlap with both component areas."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If Aatrox does not recast the ability within 4 seconds of the previous cast, it goes on cooldown.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "This ability will cast from wherever the caster is at the end of the cast time.",
+                "source_id": "wiki:Q"
+              },
+              {
+                "quote": "Umbral Dash can be cast. Other abilities are disabled.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "status": "supported",
+            "summary": "Recasts have a limited window. E can reposition Aatrox during Q's cast, and the strike originates from his position when casting finishes."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.",
+                "source_id": "riot:Q"
+              },
+              {
+                "quote": "The area varies and the damage increases per cast.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.three_strikes",
+            "summary": "Up to three physical-damage area strikes, with a different shape and increasing damage on successive casts."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Enemies within each area's Sweetspot receive increased damage and are briefly knocked up.",
+                "source_id": "wiki:Q"
+              }
+            ],
+            "id": "Q.sweetspot",
+            "summary": "Each strike has a sweetspot that deals increased damage and briefly knocks enemies up."
+          }
+        ],
+        "slot": "Q",
+        "unsupported_claims": [
+          "Every enemy hit anywhere in Q's area is knocked up.",
+          "Q automatically aims its sweetspot at enemies."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Repeated sweetspot hits combine increased damage with crowd control."
+      },
+      "slot": "Q",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Aatrox fires a directional chain that deals physical damage and slows the first enemy hit.",
+            "covered": true,
+            "mechanic_id": "W.first_hit",
+            "reason": "Explains direction, first-target collision, physical damage and slow."
+          },
+          {
+            "answer_quote": "A champion or large monster hit must leave the tether area quickly or be pulled toward its center and take damage again.",
+            "covered": true,
+            "mechanic_id": "W.delayed_pull",
+            "reason": "Explains eligible targets, escape condition, delayed pull and repeated damage."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "W"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:aatrox:w:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The tether reveals affected champions and large monsters.",
+        "A spell shield blocks initial application but not an already-applied chain's aftereffects.",
+        "Area orientation and the precise pull location depend on Aatrox's position."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "If this hits an enemy champion or large monster, a tether is formed between the target and the ground beneath them for 1.5 seconds, during which they are revealed.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Only champions and large monsters receive the tether, which reveals them while active."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Spell shield will block the chain's application and initial damage but not the aftereffects of one already applied.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "A spell shield blocks initial application and damage, but does not block an already-applied chain's aftereffects."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The impact area is oriented relative to Aatrox's position when the projectile hits, not where the projectile originated from.",
+                "source_id": "wiki:W"
+              },
+              {
+                "quote": "The location that the target is dragged to is not at the target's original location, but slightly closer towards Aatrox's position when the zone expires.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "status": "supported",
+            "summary": "Area orientation uses Aatrox's position at impact; the final pull point is slightly toward his position at zone expiration."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Aatrox smashes the ground, dealing damage to the first enemy hit.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "Active: Aatrox sends a chain in the target direction that deals physical damage and slows the first enemy hit.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.first_hit",
+            "summary": "Fires a directional chain that damages and slows the first enemy hit."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.",
+                "source_id": "riot:W"
+              },
+              {
+                "quote": "If the tether is not broken by the end of its duration, the target is dealt the same physical damage again and pulled to the center of the area.",
+                "source_id": "wiki:W"
+              }
+            ],
+            "id": "W.delayed_pull",
+            "summary": "A hit champion or large monster must escape the tether area promptly or be pulled toward its center and damaged again."
+          }
+        ],
+        "slot": "W",
+        "unsupported_claims": [
+          "W tethers and pulls every type of enemy.",
+          "The delayed pull is unavoidable after the initial hit."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The slow and delayed pull can restrict escape and help Aatrox land further strikes."
+      },
+      "slot": "W",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Aatrox passively heals for a portion of certain damage he deals to enemy champions.",
+            "covered": true,
+            "mechanic_id": "E.damage_healing",
+            "reason": "Explains passive proportional healing against enemy champions while qualifying damage eligibility."
+          },
+          {
+            "answer_quote": "Activating this ability dashes him in the chosen direction.",
+            "covered": true,
+            "mechanic_id": "E.dash",
+            "reason": "Explicitly explains the directional dash on activation."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "E"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:aatrox:e:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "Healing eligibility is limited to non-persistent damage after mitigation; the beginner explanation avoids presenting all damage as eligible.",
+        "The dash resets his basic attack timer and can overlap other abilities without cancelling them.",
+        "Terrain can extend the dash within limits; it does not cross every wall.",
+        "The model-darkening note describes a remnant visual, not a current attack damage buff."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "Passive: Aatrox heals for 16% (+ 1.3% per 100 bonus health) of non- persistent post-mitigation damage he deals against enemy champions.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Passive healing is based on eligible non-persistent damage after mitigation against enemy champions."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Umbral Dash resets Aatrox's basic attack timer and can be cast during his other abilities without cancelling them and vice versa.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "The dash resets the basic attack timer and can overlap his other abilities without cancelling them."
+          },
+          {
+            "citations": [
+              {
+                "quote": "The dash distance can be extended to up-to 500 units when targeting across terrain. It will only extend for the distance needed to cross the wall.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "status": "supported",
+            "summary": "Targeting across terrain can extend the dash only as far as needed to cross, subject to the stated maximum."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Passively, Aatrox heals when damaging enemy champions.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Passive: Aatrox heals for the portion of the damage he deals to champions.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.damage_healing",
+            "summary": "Passively heals Aatrox for a portion of eligible damage dealt to enemy champions."
+          },
+          {
+            "citations": [
+              {
+                "quote": "On activation, he dashes in a direction.",
+                "source_id": "riot:E"
+              },
+              {
+                "quote": "Active: Aatrox dashes in the target direction.",
+                "source_id": "wiki:E"
+              }
+            ],
+            "id": "E.dash",
+            "summary": "Activation dashes in the chosen direction."
+          }
+        ],
+        "slot": "E",
+        "unsupported_claims": [
+          "E's passive heals from all damage against every target type.",
+          "E grants an attack damage buff.",
+          "E can cross any wall regardless of thickness."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "The dash changes his positioning, while passive healing supports continued fighting."
+      },
+      "slot": "E",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    },
+    {
+      "ai_support_check": {
+        "all_answer_claims_covered": true,
+        "beginner_friendly": true,
+        "core_coverage": [
+          {
+            "answer_quote": "Aatrox temporarily transforms, gaining attack damage, movement speed and increased self-healing.",
+            "covered": true,
+            "mechanic_id": "R.empowered_form",
+            "reason": "Explains the temporary transformation and all three required benefits."
+          },
+          {
+            "answer_quote": "Activation fears nearby enemy minions.",
+            "covered": true,
+            "mechanic_id": "R.fear",
+            "reason": "Explicitly explains activation fear and its required target category without claiming exclusivity."
+          },
+          {
+            "answer_quote": "Champion takedowns extend the form's duration.",
+            "covered": true,
+            "mechanic_id": "R.takedown_extension",
+            "reason": "Explains the champion-takedown condition and duration extension."
+          }
+        ],
+        "counterplay_grounded": true,
+        "english": true,
+        "facts_supported": true,
+        "issues": [],
+        "priority_reasonable": true,
+        "slot": "R"
+      },
+      "citation_matching": "passed",
+      "confirmed_vs_inferred": {
+        "answer": "Cited source-supported draft assertions; human review required",
+        "build_focus": "inferred broad learning orientation",
+        "counterplay": "inferred guidance"
+      },
+      "id": "champ:aatrox:r:recognize:L2",
+      "issues": [
+        "UNAPPROVED draft.",
+        "The form also grants ghosting and increased size; activation fear also affects monsters.",
+        "Movement speed decays, and champion takedowns refresh effects while extending duration subject to a cap.",
+        "Resurrection interactions do not mean this ability grants resurrection.",
+        "The supplied excerpt includes unrelated skin material and map-specific differences, excluded from the explanation."
+      ],
+      "manual_visual_review_required": true,
+      "mechanics": {
+        "advanced_exceptions": [
+          {
+            "citations": [
+              {
+                "quote": "During World Ender, Aatrox gains bonus attack damage, has 5% increased size, is ghosted, and receives increased self-healing from all sources.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Healing amplification applies to self-healing from all sources; the form also grants ghosting and increased size."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Whenever Aatrox scores a champion takedown, he extends the duration by 5 seconds, up to its original length, and becomes unleashed again.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "These effects are refreshed and the duration is extended whenever Aatrox scores a champion takedown.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "Champion takedowns refresh the effects and extend remaining duration, capped at the original duration."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Active: Aatrox unleashes his true form for 10 seconds, fearing nearby enemy minions and monsters for 3 seconds, during which they are gradually slowed by up to 99% over the duration.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "The activation fear also affects nearby monsters."
+          },
+          {
+            "citations": [
+              {
+                "quote": "World Ender persists through resurrection effects.",
+                "source_id": "wiki:R"
+              },
+              {
+                "quote": "World Ender's healing amplification applies to the health gained by resurrecting.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "status": "supported",
+            "summary": "World Ender persists through resurrection effects and amplifies health gained from resurrection."
+          }
+        ],
+        "core_mechanics": [
+          {
+            "citations": [
+              {
+                "quote": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "During this time, Aatrox has increased attack damage, self-healing, and is ghosted.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.empowered_form",
+            "summary": "Temporarily transforms, gaining attack damage, movement speed and increased self-healing."
+          },
+          {
+            "citations": [
+              {
+                "quote": "Aatrox unleashes his demonic form, fearing nearby enemy minions",
+                "source_id": "riot:R"
+              }
+            ],
+            "id": "R.fear",
+            "summary": "Activation fears nearby enemy minions."
+          },
+          {
+            "citations": [
+              {
+                "quote": "If he gets a takedown, this effect is extended.",
+                "source_id": "riot:R"
+              },
+              {
+                "quote": "These effects are refreshed and the duration is extended whenever Aatrox scores a champion takedown.",
+                "source_id": "wiki:R"
+              }
+            ],
+            "id": "R.takedown_extension",
+            "summary": "Champion takedowns extend the empowered form."
+          }
+        ],
+        "slot": "R",
+        "unsupported_claims": [
+          "World Ender itself grants resurrection.",
+          "World Ender's activation fears enemy champions.",
+          "Minion kills extend World Ender.",
+          "World Ender grants damage reduction or invulnerability."
+        ]
+      },
+      "media_type": "gif",
+      "missing_supported_core_ids": [],
+      "priority": {
+        "priority": "A",
+        "reason": "Increased damage, speed and healing create a major threat that takedowns can prolong."
+      },
+      "slot": "R",
+      "source_supported_draft": true,
+      "status": "draft_not_approved",
+      "versioning": {
+        "asset_version": "16.21.1",
+        "game_patch_evidence": [],
+        "verified_game_patch": null
+      },
+      "visual_cue_status": "unverified"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "priority": "A",
+      "reason": "Track availability of the repeated strikes and knockups, including the recast window.",
+      "slot": "Q",
+      "source_ids": [
+        "wiki:Q"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Track availability of the chain's slow and delayed pull.",
+      "slot": "W",
+      "source_ids": [
+        "wiki:W"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Track dash availability because it changes positioning during other abilities.",
+      "slot": "E",
+      "source_ids": [
+        "wiki:E"
+      ]
+    },
+    {
+      "priority": "A",
+      "reason": "Track availability of the empowered form because it increases fighting threat.",
+      "slot": "R",
+      "source_ids": [
+        "wiki:R"
+      ]
+    }
+  ],
+  "extra_cards_created": 0,
+  "factual_risks": [
+    "All six cards are UNAPPROVED drafts.",
+    "Evidence is pinned to supplied Data Dragon and Wiki versions; live patch equivalence is not established.",
+    "The supplied passive frames are demonstration evidence, not current-client or skin-specific visual verification.",
+    "Counterplay, priority reasons and the broad learning focus are teaching interpretations grounded in the supplied mechanics.",
+    "Detailed timing, hitbox, terrain and resurrection interactions remain outside the beginner explanations.",
+    "No unresolved contradiction was identified in the frozen core mechanics.",
+    "Evidence is version-pinned; equivalence to the live game is not established.",
+    "Passive healing summaries omit the detailed minion reduction, but the draft includes it; this is an abbreviation rather than an unresolved contradiction.",
+    "The overview's attack-damage and sustained-fighting focus is a supported teaching synthesis, not evidence of an optimal item build.",
+    "Advanced hitbox, timing, terrain and resurrection details are omitted without contradicting the required general mechanics.",
+    "No passive readiness cue is claimed. The supplied demonstration frames do not establish current-client or skin-specific visual verification.",
+    "These checks provide AI support only; they do not constitute human approval or visual verification."
+  ],
+  "findings": [],
+  "generation": {
+    "author": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 12928,
+            "input_tokens": 31692,
+            "output_tokens": 3341,
+            "reasoning_output_tokens": 86
+          }
+        ]
+      },
+      "output_sha256": "a791c324ee4118f611b69c22a17a964507e5079e470f17e793ca4e56e772697a",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "2716d0f069d5fb59f0aa5f996a2532d0b0e5b619c7714e30adb39b6257014dc5"
+    },
+    "mechanics": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 0,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 12672,
+            "input_tokens": 22776,
+            "output_tokens": 3448,
+            "reasoning_output_tokens": 0
+          }
+        ]
+      },
+      "output_sha256": "339bbbe82f967e4863967bae2c90d12ee0fd013cf5c074d3a958da957c6cde4b",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "d969a34674d8051e581fb5809429754f0c49995dbadf3f11f4f774f4cd615408"
+    },
+    "passes": [
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 27967,
+                "output_tokens": 3196,
+                "reasoning_output_tokens": 134
+              }
+            ]
+          },
+          "output_sha256": "dcabbfa9855ae264cf0040ff9ade3fa65973c0dda43a75dbc3165c9371b76fe0",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "0145e770393d444099bf17cc2c648bc73c2acd04a03d2a5fefcc416a893ef8db"
+        },
+        "pass": 1,
+        "support_issues": 2,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 29396,
+                "output_tokens": 1352,
+                "reasoning_output_tokens": 51
+              }
+            ]
+          },
+          "output_sha256": "5dcc5205db5d3f4545b0f80a65d3815669e1e2498a80c7d74e316c1758b48ca7",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "7fd36e6c55b3baed7f34eb24a49634c45707f39c8d9beb74e333798aa1143688"
+        }
+      },
+      {
+        "author": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12928,
+                "input_tokens": 31692,
+                "output_tokens": 3341,
+                "reasoning_output_tokens": 86
+              }
+            ]
+          },
+          "output_sha256": "a791c324ee4118f611b69c22a17a964507e5079e470f17e793ca4e56e772697a",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "2716d0f069d5fb59f0aa5f996a2532d0b0e5b619c7714e30adb39b6257014dc5"
+        },
+        "pass": 2,
+        "support_issues": 0,
+        "verifier": {
+          "attempts": 1,
+          "configured_model": "",
+          "execution_attempts": 1,
+          "metadata": {
+            "ephemeral": true,
+            "image_inputs": 4,
+            "resolved_model": "runtime_default_not_reported",
+            "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+            "tool_items": 0,
+            "usage": [
+              {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 29563,
+                "output_tokens": 1303,
+                "reasoning_output_tokens": 46
+              }
+            ]
+          },
+          "output_sha256": "6b5db394763af5ea5feedec1bf403e006057d8b28bae7360167d2e67cbf79e80",
+          "prior_errors": [],
+          "provider": "codex",
+          "request_sha256": "08215086aa307d93c3f74f7473d8f66663634a7d3e96cc6c596f6bded5c16f52"
+        }
+      }
+    ],
+    "processing": {
+      "ffmpeg": "ffmpeg version 8.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+      "source_sha256": "7dbb469c3e79b69502fff193b33b8c1b9c172a3d55ead008e44af13ca51bcbe2",
+      "v4_sha256": "cb192958dabfb3798d3dc51763844365897bc2f928f8a70d050eab63b736f20a"
+    },
+    "run_id": "5a2088e06624bb624116e6aa04bf2c9041d61a9146fbfef7032dee5ed15f977e",
+    "verifier": {
+      "attempts": 1,
+      "configured_model": "",
+      "execution_attempts": 1,
+      "metadata": {
+        "ephemeral": true,
+        "image_inputs": 4,
+        "resolved_model": "runtime_default_not_reported",
+        "runtime_version": "codex-cli 0.164.0-alpha.11.1",
+        "tool_items": 0,
+        "usage": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 29563,
+            "output_tokens": 1303,
+            "reasoning_output_tokens": 46
+          }
+        ]
+      },
+      "output_sha256": "6b5db394763af5ea5feedec1bf403e006057d8b28bae7360167d2e67cbf79e80",
+      "prior_errors": [],
+      "provider": "codex",
+      "request_sha256": "08215086aa307d93c3f74f7473d8f66663634a7d3e96cc6c596f6bded5c16f52"
+    }
+  },
+  "human_approved": false,
+  "identity_map": {
+    "champ:aatrox:e:recognize:L2": {
+      "cid": 2434117268861,
+      "guid": "9382a3ab0282cb",
+      "nid": 1934117268861
+    },
+    "champ:aatrox:overview:L1": {
+      "cid": 2390228952953,
+      "guid": "f1ef660fe21677",
+      "nid": 1890228952953
+    },
+    "champ:aatrox:p:recognize:L2": {
+      "cid": 2451049640541,
+      "guid": "321c2e74932363",
+      "nid": 1951049640541
+    },
+    "champ:aatrox:q:recognize:L2": {
+      "cid": 2330587151662,
+      "guid": "0c2e203f5f654d",
+      "nid": 1830587151662
+    },
+    "champ:aatrox:r:recognize:L2": {
+      "cid": 2398868187202,
+      "guid": "c8c75a496a839e",
+      "nid": 1898868187202
+    },
+    "champ:aatrox:w:recognize:L2": {
+      "cid": 2389337601261,
+      "guid": "ebc4796ff4cef6",
+      "nid": 1889337601261
+    }
+  },
+  "limitations": [
+    "Data Dragon release is pinned; game patch label is not inferred from its numbering.",
+    "Riot CDN clips are demonstrations, not current-client or skin-specific verification.",
+    "Exact-quote matching does not prove semantic truth.",
+    "AI verification is fallible and is not a human content or visual review."
+  ],
+  "media_references": [
+    "aatrox_e.gif",
+    "aatrox_e_icon.png",
+    "aatrox_p_icon.png",
+    "aatrox_portrait.jpg",
+    "aatrox_q.gif",
+    "aatrox_q_icon.png",
+    "aatrox_r.gif",
+    "aatrox_r_icon.png",
+    "aatrox_w.gif",
+    "aatrox_w_icon.png"
+  ],
+  "new_cards": 6,
+  "passive_frame_evidence": [
+    {
+      "path": "visual-inputs/passive-1.png",
+      "sha256": "124167acdc6d0aa8f7d0b736be59345c8c41d669bcaaeb931022f8e0860db92c",
+      "source_sha256": "8b8f554f6025be8524de29a2986b6dc983dd89a73e30439ca41d4901dc91333f",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0266/ability_0266_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 0.4587
+    },
+    {
+      "path": "visual-inputs/passive-2.png",
+      "sha256": "69702376b193dfd5367e11a9d348bd86fa003e7c0b905bee48e77250520661c7",
+      "source_sha256": "8b8f554f6025be8524de29a2986b6dc983dd89a73e30439ca41d4901dc91333f",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0266/ability_0266_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 1.2232
+    },
+    {
+      "path": "visual-inputs/passive-3.png",
+      "sha256": "759b10afe022fa74483b143873d22c02c36b9168d6bef503927ffecefa609a97",
+      "source_sha256": "8b8f554f6025be8524de29a2986b6dc983dd89a73e30439ca41d4901dc91333f",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0266/ability_0266_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 1.9877
+    },
+    {
+      "path": "visual-inputs/passive-4.png",
+      "sha256": "12af96760060898c061d28be39ffd00d768395a9fb4e68f60a3879d48759158b",
+      "source_sha256": "8b8f554f6025be8524de29a2986b6dc983dd89a73e30439ca41d4901dc91333f",
+      "source_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0266/ability_0266_P1.webm",
+      "status": "unverified_visual_evidence",
+      "timestamp_seconds": 2.7522
+    }
+  ],
+  "publishable": false,
+  "schema_version": 1,
+  "source_conflicts": [
+    {
+      "resolution": "Use the detailed minion qualification: the passive heals Aatrox, but its healing is reduced against minions. Do not imply healing always equals all bonus damage dealt.",
+      "source_ids": [
+        "riot:P",
+        "wiki:P"
+      ],
+      "topic": "The abbreviated passive healing summaries omit the detailed minion reduction."
+    }
+  ],
+  "source_versions": {
+    "communitydragon_available": true,
+    "communitydragon_requested": "16.21",
+    "ddragon": "16.21.1",
+    "game_patch": null,
+    "wiki_revision": "4013021"
+  },
+  "versioning": {
+    "asset_version": "16.21.1",
+    "game_patch_evidence": [],
+    "verified_game_patch": null
+  }
+}

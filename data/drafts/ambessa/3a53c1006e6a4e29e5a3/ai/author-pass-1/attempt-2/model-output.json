@@ -1,0 +1,348 @@
+{
+  "cards": [
+    {
+      "answer": "Ambessa is a fighter and assassin who combines physical ability damage with empowered attacks that restore energy. Her ability-linked dashes let her reposition, but cannot cross terrain or occur while immobilized or grounded. Her ultimate blinks her to the farthest enemy champion in a chosen line.",
+      "build_focus": "AD",
+      "card_id": "champ:ambessa:overview:L1",
+      "counterplay": "Limit her access to attacks and use grounding or immobilization to restrict her dashes.",
+      "facts": [
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "Name: Ambessa. Official role tags: Fighter, Assassin.",
+              "source_id": "riot:role"
+            },
+            {
+              "quote": "Active: Ambessa slashes with her twin drakehounds in the target direction, dealing physical damage to enemies hit.",
+              "source_id": "wiki:cunningsweep"
+            },
+            {
+              "quote": "Medarda Maxim: Ambessa's next basic attack gains range, bonus attack speed, deals bonus physical damage, and restores energy.",
+              "source_id": "wiki:drakehoundsstep"
+            }
+          ],
+          "claim": "Ambessa is a fighter and assassin who combines physical ability damage with empowered attacks that restore energy."
+        },
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "Entering an attack or movement command while casting an ability will cause Ambessa to dash a short distance once the ability is cast",
+              "source_id": "riot:P"
+            },
+            {
+              "quote": "This dash cannot pass through terrain.Ambessa cannot dash while immobilized or grounded.",
+              "source_id": "wiki:drakehoundsstep"
+            }
+          ],
+          "claim": "Her ability-linked dashes let her reposition, but cannot cross terrain or occur while immobilized or grounded."
+        },
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "Ambessa blinks to the farthest enemy champion in a line of her choosing and suppresses them upon her arrival.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "Her ultimate blinks her to the farthest enemy champion in a chosen line."
+        }
+      ],
+      "priority": "A",
+      "priority_reason": "Her attack cycle and mobility limits shape engagements.",
+      "uncertainties": []
+    },
+    {
+      "answer": "During an ability's lockout, an attack or movement command makes Ambessa dash toward the target or location afterward; the dash cannot cross terrain or occur while immobilized or grounded. Ability casts build up to three Medarda Maxim stacks, and basic attacks consume one each for extra range, attack speed, physical damage, and energy restoration. Only Ambessa's player sees her dash destination indicator and empowered-attack pips.",
+      "build_focus": "",
+      "card_id": "champ:ambessa:system:p:drakehoundsstep:recognize:L2",
+      "counterplay": "Deny attack access to limit energy restoration, and use grounding or immobilization to restrict repositioning.",
+      "facts": [
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "During the lockout of Ambessa's abilities, inputting an attack or movement command causes her to dash to or towards the target or location, respectively, after the lockout ends.",
+              "source_id": "wiki:drakehoundsstep"
+            },
+            {
+              "quote": "This dash cannot pass through terrain.Ambessa cannot dash while immobilized or grounded.",
+              "source_id": "wiki:drakehoundsstep"
+            }
+          ],
+          "claim": "During an ability's lockout, an attack or movement command makes Ambessa dash toward the target or location afterward; the dash cannot cross terrain or occur while immobilized or grounded."
+        },
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "Casting an ability generates a stack of Medarda Maxim for a few seconds, up to 3 stacks. Basic attacks consume one stack to become empowered.",
+              "source_id": "wiki:drakehoundsstep"
+            },
+            {
+              "quote": "Medarda Maxim: Ambessa's next basic attack gains range, bonus attack speed, deals bonus physical damage, and restores energy.",
+              "source_id": "wiki:drakehoundsstep"
+            }
+          ],
+          "claim": "Ability casts build up to three Medarda Maxim stacks, and basic attacks consume one each for extra range, attack speed, physical damage, and energy restoration."
+        },
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "During Drakehound's Step, a visual indicator is visible to Ambessa displaying the eventual dash's direction and destination location.",
+              "source_id": "wiki:drakehoundsstep"
+            },
+            {
+              "quote": "The number of available attacks empowered by Medarda Maxim are visible as pips under Ambessa's health bar, only visible to the player.",
+              "source_id": "wiki:drakehoundsstep"
+            }
+          ],
+          "claim": "Only Ambessa's player sees her dash destination indicator and empowered-attack pips."
+        }
+      ],
+      "priority": "A",
+      "priority_reason": "Explains her repeated repositioning and energy recovery.",
+      "uncertainties": [
+        "The frozen core describes the dash indicator as private; its quoted evidence explicitly establishes visibility to Ambessa, while only the attack-pip quote expressly excludes other players.",
+        "Private interface information is retained because it is a frozen core; no animation, color, or skin identification is asserted."
+      ]
+    },
+    {
+      "answer": "Cunning Sweep is a directional slash that deals physical damage, increased at its outer edge. Hitting any enemy temporarily unlocks Sundering Slam.",
+      "build_focus": "",
+      "card_id": "champ:ambessa:q:recognize:L2",
+      "counterplay": "Avoid the outer edge and sidestep the slash to deny its follow-up.",
+      "facts": [
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "Active: Ambessa slashes with her twin drakehounds in the target direction, dealing physical damage to enemies hit. The damage is increased against enemies hit by the outer edge.",
+              "source_id": "wiki:cunningsweep"
+            }
+          ],
+          "claim": "Cunning Sweep is a directional slash that deals physical damage, increased at its outer edge."
+        },
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "If this hits at least one enemy, Ambessa can cast Sundering Slam within the next few seconds.",
+              "source_id": "wiki:cunningsweep"
+            }
+          ],
+          "claim": "Hitting any enemy temporarily unlocks Sundering Slam."
+        }
+      ],
+      "priority": "B",
+      "priority_reason": "Its hit condition enables a second damaging cast.",
+      "uncertainties": []
+    },
+    {
+      "answer": "After Cunning Sweep hits an enemy, Ambessa can briefly cast Sundering Slam. This follow-up deals physical damage in a line, with increased damage to the first enemy hit.",
+      "build_focus": "",
+      "card_id": "champ:ambessa:ability_variant:q:sunderingslam:cunningsweep:recognize:L2",
+      "counterplay": "Sidestep the line and avoid being its first target.",
+      "facts": [
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "If this hits at least one enemy, Ambessa can cast Sundering Slam within the next few seconds.",
+              "source_id": "wiki:cunningsweep"
+            }
+          ],
+          "claim": "After Cunning Sweep hits an enemy, Ambessa can briefly cast Sundering Slam."
+        },
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "Active: Ambessa slams her twin drakehounds in a line in the target direction, dealing physical damage to enemies hit. The damage is increased against the first enemy.",
+              "source_id": "wiki:sunderingslam"
+            }
+          ],
+          "claim": "This follow-up deals physical damage in a line, with increased damage to the first enemy hit."
+        }
+      ],
+      "priority": "B",
+      "priority_reason": "First-target positioning changes the follow-up's threat.",
+      "uncertainties": []
+    },
+    {
+      "answer": "Repudiation shields Ambessa as she braces, then smashes the ground to damage nearby enemies. If the shield absorbs champion, large-monster, or turret damage during bracing, the smash deals increased damage. Drakehound's Step can move the smash to her dash destination.",
+      "build_focus": "",
+      "card_id": "champ:ambessa:w:recognize:L2",
+      "counterplay": "Avoid feeding damage into her bracing shield when possible, and leave space around her dash destination.",
+      "facts": [
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "Ambessa gains a shield, briefly braces herself, and then slams the ground to damage nearby enemies.",
+              "source_id": "riot:W"
+            }
+          ],
+          "claim": "Repudiation shields Ambessa as she braces, then smashes the ground to damage nearby enemies."
+        },
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "If the shield absorbs damage from a champion, large monster or turret during her bracing, the smash's damage is increased.",
+              "source_id": "wiki:repudiation"
+            }
+          ],
+          "claim": "If the shield absorbs champion, large-monster, or turret damage during bracing, the smash deals increased damage."
+        },
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "If she performs Drakehound's Step's dash during Repudiation, she will smash the ground at her destination instead.",
+              "source_id": "wiki:repudiation"
+            }
+          ],
+          "claim": "Drakehound's Step can move the smash to her dash destination."
+        }
+      ],
+      "priority": "B",
+      "priority_reason": "Attacking her shield can strengthen a repositionable retaliation.",
+      "uncertainties": [
+        "The smash occurs at dash completion if bracing would finish during the dash; otherwise it occurs wherever she is when bracing ends."
+      ]
+    },
+    {
+      "answer": "Lacerate spins around Ambessa, dealing physical damage and briefly slowing nearby enemies. Using Drakehound's Step after the spin triggers another spin at the dash endpoint, repeating the damage and slow.",
+      "build_focus": "",
+      "card_id": "champ:ambessa:e:recognize:L2",
+      "counterplay": "Create distance from both her initial position and her dash endpoint.",
+      "facts": [
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "Active: Ambessa spins her twin drakehounds around her, dealing physical damage to enemies hit and slowing them briefly.",
+              "source_id": "wiki:lacerate"
+            }
+          ],
+          "claim": "Lacerate spins around Ambessa, dealing physical damage and briefly slowing nearby enemies."
+        },
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "If Ambessa performs Drakehound's Step's dash after the spin, she will spin a second time upon arrival to apply the same effects.",
+              "source_id": "wiki:lacerate"
+            }
+          ],
+          "claim": "Using Drakehound's Step after the spin triggers another spin at the dash endpoint, repeating the damage and slow."
+        }
+      ],
+      "priority": "B",
+      "priority_reason": "The dash repeats her nearby damage and slow.",
+      "uncertainties": [
+        "The second spin still occurs if the dash is interrupted."
+      ]
+    },
+    {
+      "answer": "Public Execution passively grants armor penetration and healing from active-ability damage. After preparing a line strike, Ambessa blinks behind the farthest enemy champion in its area, suppresses them, then slams them for damage and a stun. During preparation and the target's suppression, she is immune to displacement and unable to act.",
+      "build_focus": "",
+      "card_id": "champ:ambessa:r:recognize:L2",
+      "counterplay": "Move out of the strike's line and consider which ally is farthest within it.",
+      "facts": [
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "Passive: Ambessa gains armor penetration and heals for a percentage of the damage dealt by her active abilities.",
+              "source_id": "wiki:publicexecution"
+            }
+          ],
+          "claim": "Public Execution passively grants armor penetration and healing from active-ability damage."
+        },
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "Active: Ambessa prepares a strike in a line in the target direction, then blinks behind the farthest enemy champion within the area and seizes them.",
+              "source_id": "wiki:publicexecution"
+            },
+            {
+              "quote": "Ambessa blinks to the farthest enemy champion in a line of her choosing and suppresses them upon her arrival. She then slams the enemy into the ground where they take damage and are stunned.",
+              "source_id": "riot:R"
+            }
+          ],
+          "claim": "After preparing a line strike, Ambessa blinks behind the farthest enemy champion in its area, suppresses them, then slams them for damage and a stun."
+        },
+        {
+          "basis": "source_assertion",
+          "citations": [
+            {
+              "quote": "Ambessa is displacement immune and unable to act during the cast time and while the target is suppressed.",
+              "source_id": "wiki:publicexecution"
+            }
+          ],
+          "claim": "During preparation and the target's suppression, she is immune to displacement and unable to act."
+        }
+      ],
+      "priority": "A",
+      "priority_reason": "Farthest-target selection can expose a backline champion to suppression.",
+      "uncertainties": [
+        "Preventing suppression prevents attachment, damage, and stun, but the blink still occurs.",
+        "Removing suppression early detaches the target and cancels the ability.",
+        "Passive healing is reduced against minions and monsters."
+      ]
+    }
+  ],
+  "champion_id": 799,
+  "conflicts": [
+    {
+      "resolution": "Use the more specific shield-absorption condition: champion, large-monster, or turret damage during bracing.",
+      "source_ids": [
+        "riot:W",
+        "wiki:repudiation"
+      ],
+      "topic": "Repudiation's broad non-minion damage description versus enumerated qualifying sources"
+    },
+    {
+      "resolution": "Retain that the dash can reposition the smash; keep the precise brace-versus-dash timing in metadata.",
+      "source_ids": [
+        "wiki:repudiation"
+      ,
+        "riot:W"
+      ],
+      "topic": "Repudiation destination summary versus detailed timing"
+    }
+  ],
+  "cooldown_candidates": [
+    {
+      "card_id": "champ:ambessa:r:recognize:L2",
+      "priority": "A",
+      "reason": "Ultimate availability changes her access to a distant target and suppression.",
+      "source_ids": [
+        "riot:R",
+        "wiki:publicexecution"
+      ]
+    },
+    {
+      "card_id": "champ:ambessa:w:recognize:L2",
+      "priority": "B",
+      "reason": "Shield availability changes her ability to absorb damage and retaliate.",
+      "source_ids": [
+        "riot:W",
+        "wiki:repudiation"
+      ]
+    }
+  ],
+  "factual_risks": [
+    "The frozen private-indicator core is stronger than the dash-indicator quotation's explicit visibility wording; the attack-pip quotation explicitly states player-only visibility.",
+    "General ultimate sequencing assumes suppression is applied and persists; prevention and early removal exceptions are retained in metadata.",
+    "AD is a broad damage-learning orientation, not an assertion of an optimal item build.",
+    "Counterplay is qualitative guidance derived from the supplied effects and does not guarantee avoidance.",
+    "No patch label or current-client media verification is established by the supplied material."
+  ],
+  "language": "en"
+}

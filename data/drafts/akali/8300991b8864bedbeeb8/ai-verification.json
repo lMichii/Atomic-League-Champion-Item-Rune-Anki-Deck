@@ -1,0 +1,193 @@
+{
+  "checks": [
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "-"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Damaging an enemy champion with an ability creates a ring around them.",
+          "covered": true,
+          "mechanic_id": "P.ring",
+          "reason": "Supported by both passive excerpts; the empowerment restriction is appropriately retained as an advanced exception."
+        },
+        {
+          "answer_quote": "Leaving the ring empowers Akali's next basic attack with extra range and bonus magic damage.",
+          "covered": true,
+          "mechanic_id": "P.empowered_attack",
+          "reason": "Explains the trigger, attack empowerment, range and damage type."
+        },
+        {
+          "answer_quote": "She gains movement speed while moving away from the ring, then toward enemy champions after leaving it.",
+          "covered": true,
+          "mechanic_id": "P.movement_speed",
+          "reason": "Explains both supported directional movement-speed benefits."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "P"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Akali throws kunai in a cone, dealing magic damage to enemies hit.",
+          "covered": true,
+          "mechanic_id": "Q.cone_damage",
+          "reason": "Explicitly explains the cone and its magic damage."
+        },
+        {
+          "answer_quote": "Enemies hit in the outer portion are briefly slowed.",
+          "covered": true,
+          "mechanic_id": "Q.outer_slow",
+          "reason": "Preserves the Wiki's outer-range restriction without implying every hit slows."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "Q"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Akali creates a smoke shroud that grants invisibility inside it; while invisible, enemies cannot select her with attacks or spells.",
+          "covered": true,
+          "mechanic_id": "W.shroud_protection",
+          "reason": "Explains invisibility and conditions target-selection denial on being invisible; it does not claim damage immunity."
+        },
+        {
+          "answer_quote": "Attacking or casting an ability briefly reveals her.",
+          "covered": true,
+          "mechanic_id": "W.action_reveal",
+          "reason": "Explicitly identifies both actions that break invisibility."
+        },
+        {
+          "answer_quote": "Casting it also grants a brief burst of movement speed, restores energy, and increases her maximum energy while the shroud is active.",
+          "covered": true,
+          "mechanic_id": "W.movement_speed",
+          "reason": "Explicitly states the brief movement-speed benefit on casting."
+        },
+        {
+          "answer_quote": "Casting it also grants a brief burst of movement speed, restores energy, and increases her maximum energy while the shroud is active.",
+          "covered": true,
+          "mechanic_id": "W.energy",
+          "reason": "States both energy restoration and the temporary maximum-energy increase."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "W"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Akali flips backward and throws a shuriken forward, dealing magic damage to the first enemy hit.",
+          "covered": true,
+          "mechanic_id": "E.flip_projectile",
+          "reason": "Explains the opposing movement and projectile directions, damage type and first-enemy hit scope."
+        },
+        {
+          "answer_quote": "It can mark that enemy or a section of her smoke shroud, allowing a recast.",
+          "covered": true,
+          "mechanic_id": "E.mark",
+          "reason": "The preceding sentence identifies the first enemy hit; this sentence explains both possible mark targets and the recast."
+        },
+        {
+          "answer_quote": "Recasting dashes to the marked enemy or smoke section, dealing additional magic damage on arrival against an enemy.",
+          "covered": true,
+          "mechanic_id": "E.return_dash",
+          "reason": "Explains both destinations and correctly limits arrival damage to an enemy."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "E"
+    },
+    {
+      "all_answer_claims_covered": true,
+      "beginner_friendly": true,
+      "core_coverage": [
+        {
+          "answer_quote": "Akali's first cast targets an enemy champion and dashes toward them, damaging enemies along her path.",
+          "covered": true,
+          "mechanic_id": "R.initial_dash",
+          "reason": "Explains champion targeting and path damage without asserting the disputed first-cast damage type."
+        },
+        {
+          "answer_quote": "The recast dashes in a chosen direction, dealing magic damage along its path that increases with enemies' missing health.",
+          "covered": true,
+          "mechanic_id": "R.recast_execute_damage",
+          "reason": "Explains directional recasting, path damage, magic damage and missing-health scaling without promising a kill."
+        }
+      ],
+      "counterplay_grounded": true,
+      "english": true,
+      "facts_supported": true,
+      "issues": [],
+      "priority_reasonable": true,
+      "slot": "R"
+    }
+  ],
+  "conflicts": [
+    {
+      "resolution": "Unresolved first-cast damage type: retain the supported damaging-dash core without specifying its type and preserve the QA flag.",
+      "source_ids": [
+        "wiki:R",
+        "riot:R"
+      ],
+      "topic": "The Wiki's introductory R description specifies physical damage, while its detailed description and damage records specify magic damage. Riot does not resolve the type."
+    },
+    {
+      "resolution": "Use the Wiki's explicit outer-range restriction, as the draft does.",
+      "source_ids": [
+        "riot:Q",
+        "wiki:Q"
+      ],
+      "topic": "Riot's abbreviated Q description omits the slow's range restriction; the Wiki supplies it."
+    },
+    {
+      "resolution": "Describe missing-health damage rather than an automatic kill, as the draft does.",
+      "source_ids": [
+        "riot:R",
+        "wiki:R"
+      ],
+      "topic": "Riot's execution shorthand is clarified by the Wiki's explicit missing-health damage mechanic."
+    }
+  ],
+  "factual_risks": [
+    "The first R dash's damage type remains unresolved in the supplied evidence.",
+    "The passive visual description is supported by text only; no visual verification was supplied. Opponents cannot see the ring, so its exit should not be taught as a directly visible enemy cue.",
+    "Passive ring creation and empowerment have advanced restrictions retained in metadata; the answer presents their supported general mechanics.",
+    "Shroud invisibility has dashing and recalling exceptions and does not establish damage immunity or protection from every detection effect.",
+    "E recast initiation has targetability and realm restrictions; its dash can also be interrupted. The draft does not promise an unavoidable return.",
+    "Evidence is frozen to the supplied releases and revision; this check provides neither current-client verification nor human approval."
+  ]
+}
